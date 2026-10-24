@@ -319,6 +319,35 @@ strong, b {
   text-align: left !important;
 }
 
+/* ==========================================================================
+   LOCKED CATEGORIES FOR STUDENTS (DẠNG THƯ 03 ĐẾN 07)
+   ========================================================================== */
+.nav-link.nav-cat-locked {
+  opacity: 0.72;
+  cursor: pointer;
+}
+
+.nav-link.nav-cat-locked:hover {
+  background: rgba(245, 158, 11, 0.08) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.nav-link.nav-cat-locked .nav-title-vi::after {
+  content: " (Tạm khóa)";
+  font-size: 0.72rem;
+  color: var(--amber-light);
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.cat-lock-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding-left: 0.35rem;
+}
+
 .nav-link .nav-title-en {
   font-size: 1rem;
   font-weight: 700;
