@@ -115,7 +115,7 @@ const OVERVIEW_THEORY = {
     {
       element: "Mở đầu thư (Opening)",
       informal: "Thanks for your letter. How have you been lately? After thinking about your situation... / How have you been lately? I’m writing to ask a few questions about...",
-      formal: "I am writing to request some information about [thứ cần xin thông tin], as I am interested in [mục đích] and would like to learn more before making a decision."
+      formal: "I am writing to request some information about [thứ cần xin thông tin], as I am interested in [mục đích] and would like to learn more before making a decision. (hoặc: I am writing to formally request further details regarding [thứ cần xin thông tin], as I am planning to [mục đích].)"
     },
     {
       element: "Dùng từ viết tắt (Contractions)",
