@@ -340,6 +340,7 @@ function enterRoom() {
   }
 
   updatePracticeCopyPasteBadge();
+  updateSidebarCategoryLockUI();
 }
 
 // ==========================================================================
@@ -351,6 +352,34 @@ function isTeacherAccount() {
   const name = (student.name || '').trim().toUpperCase();
   const cls = (student.className || '').trim().toUpperCase();
   return name === 'PTMN' || cls === 'GV';
+}
+
+function updateSidebarCategoryLockUI() {
+  const isTeacher = isTeacherAccount();
+
+  LOCKED_CATEGORIES_FOR_STUDENTS.forEach((catKey) => {
+    const navLink = document.getElementById(`nav-cat-${catKey}`);
+    if (!navLink) return;
+
+    let lockBadge = navLink.querySelector('.cat-lock-indicator');
+    if (!isTeacher) {
+      navLink.classList.add('nav-cat-locked');
+      if (!lockBadge) {
+        lockBadge = document.createElement('span');
+        lockBadge.className = 'cat-lock-indicator';
+        lockBadge.innerHTML = '<i class="fa-solid fa-lock" style="font-size: 0.75rem; color: var(--amber-light);"></i>';
+        navLink.appendChild(lockBadge);
+      }
+      lockBadge.style.display = 'inline-flex';
+      navLink.title = 'Dạng thư này tạm thời đang khóa đối với học viên';
+    } else {
+      navLink.classList.remove('nav-cat-locked');
+      if (lockBadge) {
+        lockBadge.style.display = 'none';
+      }
+      navLink.title = '';
+    }
+  });
 }
 
 function updatePracticeCopyPasteBadge() {
