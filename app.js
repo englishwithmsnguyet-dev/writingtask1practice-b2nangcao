@@ -615,6 +615,14 @@ function selectCategory(catKey) {
     showToast('🔒 Đang trong chế độ Trả bài! Bạn cần hoàn thành hoặc chọn "Nộp bài sớm" trước khi đổi chuyên đề.', 'warning');
     return;
   }
+
+  // Tạm khóa Dạng thư từ 03 đến 07 đối với tài khoản học viên (Chỉ mở Dạng 01 Advice và Dạng 02 Request)
+  if (!isTeacherAccount() && LOCKED_CATEGORIES_FOR_STUDENTS.includes(catKey)) {
+    const catInfo = CATEGORY_MAP[catKey];
+    showToast(`🔒 Dạng thư "${catInfo?.title_vi || catKey}" tạm thời đang khóa đối với học viên. Hiện tại bạn hãy tập trung luyện Dạng 01 (Advice) và Dạng 02 (Request) nhé!`, 'warning');
+    return;
+  }
+
   if (!CATEGORY_MAP[catKey]) catKey = 'advice';
   AppState.activeCategory = catKey;
   
