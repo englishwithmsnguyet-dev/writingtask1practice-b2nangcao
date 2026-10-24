@@ -120,7 +120,200 @@ const CATEGORY_MAP = {
 };
 
 // ==========================================================================
-// 2. INITIALIZATION
+// 2. AUTHENTICATION & STUDENT LOGIN (WELCOME MODAL)
+// Theo dõi đăng nhập qua: https://forms.gle/232xy5SsK36JqpCn7
+// Mật khẩu truy cập: VSTEOWRITING (hoặc VSTEPWRITING)
+// ==========================================================================
+const ACCESS_PASSWORDS = ['VSTEOWRITING', 'VSTEPWRITING', 'STUDYHARD', 'PRACTICEWRITING'];
+const GOOGLE_FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLScjhthdSEklX3xgFywh0WVnboJiMrdtwktPgdImgsVwl3ymbQ/formResponse';
+const GOOGLE_FORM_ENTRY = 'entry.1205151935';
+
+function togglePasswordVisibility() {
+  const pwdInput = document.getElementById('student-password');
+  const icon = document.getElementById('toggle-pwd-icon');
+  if (!pwdInput) return;
+  if (pwdInput.type === 'password') {
+    pwdInput.type = 'text';
+    if (icon) {
+      icon.innerHTML = `<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line>`;
+    }
+  } else {
+    pwdInput.type = 'password';
+    if (icon) {
+      icon.innerHTML = `<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>`;
+    }
+  }
+}
+
+function initLoginModal() {
+  const welcomeModal = document.getElementById('welcome-modal');
+  const nameInp = document.getElementById('student-name');
+  const classInp = document.getElementById('student-class');
+  const pwdInp = document.getElementById('student-password');
+  const loginErr = document.getElementById('login-error');
+
+  if (welcomeModal) {
+    welcomeModal.classList.remove('hidden');
+    welcomeModal.style.display = 'flex';
+    welcomeModal.style.opacity = '1';
+    welcomeModal.style.pointerEvents = 'auto';
+  }
+
+  // Điền sẵn thông tin học viên trước đó nếu có
+  if (AppState.student) {
+    if (nameInp && AppState.student.name && AppState.student.name !== 'Học viên VSTEP B2') {
+      nameInp.value = AppState.student.name;
+    }
+    if (classInp && AppState.student.className && !AppState.student.className.includes('Mục tiêu B2')) {
+      classInp.value = AppState.student.className;
+    }
+  }
+
+  if (pwdInp) pwdInp.value = '';
+  if (loginErr) loginErr.style.display = 'none';
+
+  setTimeout(() => {
+    if (nameInp && !nameInp.value) {
+      nameInp.focus();
+    } else if (classInp && !classInp.value) {
+      classInp.focus();
+    } else if (pwdInp) {
+      pwdInp.focus();
+    }
+  }, 250);
+}
+
+function reopenLoginModal() {
+  closeStudentModal();
+  initLoginModal();
+}
+
+function enterRoom() {
+  const studentInput = document.getElementById('student-name');
+  const studentClassInput = document.getElementById('student-class');
+  const studentPasswordInput = document.getElementById('student-password');
+  const loginError = document.getElementById('login-error');
+  const startBtn = document.getElementById('start-btn');
+  
+  const nameVal = (studentInput?.value || '').trim();
+  const rawClassVal = (studentClassInput?.value || '').trim();
+  const classVal = rawClassVal.toUpperCase().replace(/[\s\-_]+/g, '');
+  const passwordVal = (studentPasswordInput?.value || '').trim();
+  
+  if (!nameVal) {
+    if (loginError) {
+      loginError.textContent = 'Vui lòng nhập đầy đủ Họ và tên học viên!';
+      loginError.style.display = 'block';
+    }
+    if (studentInput) studentInput.focus();
+    return;
+  }
+
+  const normName = nameVal.toUpperCase();
+  let finalClassVal = classVal;
+
+  // Kiểm tra tài khoản Giáo viên (Tên: PTMN, Mã: GV, không cần pass)
+  const isTeacher = (normName === 'PTMN' && (finalClassVal === 'GV' || !finalClassVal));
+  if (isTeacher) {
+    if (!finalClassVal) finalClassVal = 'GV';
+  } else {
+    if (!finalClassVal) {
+      if (loginError) {
+        loginError.textContent = 'Vui lòng nhập Mã lớp học!';
+        loginError.style.display = 'block';
+      }
+      if (studentClassInput) studentClassInput.focus();
+      return;
+    }
+
+    if (!passwordVal) {
+      if (loginError) {
+        loginError.textContent = 'Vui lòng nhập Mật khẩu truy cập!';
+        loginError.style.display = 'block';
+      }
+      if (studentPasswordInput) studentPasswordInput.focus();
+      return;
+    }
+
+    // So sánh mật khẩu (chấp nhận VSTEOWRITING hoặc VSTEPWRITING)
+    if (!ACCESS_PASSWORDS.includes(passwordVal.toUpperCase())) {
+      if (loginError) {
+        loginError.textContent = 'Mật khẩu không chính xác! Vui lòng thử lại (VSTEOWRITING).';
+        loginError.style.display = 'block';
+      }
+      if (studentPasswordInput) {
+        studentPasswordInput.focus();
+        studentPasswordInput.select();
+      }
+      return;
+    }
+  }
+  
+  if (loginError) loginError.style.display = 'none';
+  if (startBtn) {
+    startBtn.disabled = true;
+    startBtn.innerHTML = `<span>Đang vào lớp...</span> <i class="fa-solid fa-spinner fa-spin"></i>`;
+  }
+  
+  // Lưu thông tin học viên vào state và localStorage
+  AppState.student = { name: nameVal, className: finalClassVal };
+  try {
+    localStorage.setItem('vstep_b2_task1_student', JSON.stringify(AppState.student));
+  } catch (e) {}
+  updateStudentDisplay();
+
+  // Gửi thông báo đăng nhập tới Google Forms (https://forms.gle/232xy5SsK36JqpCn7)
+  try {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString('vi-VN', { hour12: false }) + ' ' + now.toLocaleDateString('vi-VN');
+    const finalData = `[B2 NÂNG CAO] [ĐĂNG NHẬP] ${nameVal} - Lớp: ${finalClassVal}${isTeacher ? ' (Giáo viên)' : ''} - Vào học lúc ${timeString}`;
+    
+    // Method 1: Hidden form submit targetting hidden iframe (100% reliable across browsers)
+    const formInput = document.getElementById('gform_hidden_input');
+    const formEl = document.getElementById('gform_hidden_form');
+    if (formInput && formEl) {
+      formInput.value = finalData;
+      formEl.submit();
+    }
+    
+    // Method 2: Parallel fetch call with mode: no-cors
+    try {
+      const gFormData = new URLSearchParams();
+      gFormData.append(GOOGLE_FORM_ENTRY, finalData);
+      gFormData.append('fvv', '1');
+      gFormData.append('pageHistory', '0');
+      fetch(GOOGLE_FORM_ACTION, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: gFormData.toString()
+      }).catch(() => {});
+    } catch (fe) {}
+  } catch (err) {
+    console.warn("Tracking error:", err);
+  }
+
+  // Đóng modal chào mừng mượt mà
+  const welcomeModal = document.getElementById('welcome-modal');
+  if (welcomeModal) {
+    welcomeModal.style.opacity = '0';
+    welcomeModal.style.pointerEvents = 'none';
+    setTimeout(() => {
+      welcomeModal.classList.add('hidden');
+      welcomeModal.style.display = 'none';
+    }, 350);
+  }
+  
+  showToast(`Chào mừng ${nameVal} (Lớp ${finalClassVal}) vào học! 🎉`, 'success');
+
+  if (startBtn) {
+    startBtn.disabled = false;
+    startBtn.innerHTML = `<span>BẮT ĐẦU HỌC</span> <i class="fa-solid fa-arrow-right"></i>`;
+  }
+}
+
+// ==========================================================================
+// 3. INITIALIZATION
 // ==========================================================================
 document.addEventListener('DOMContentLoaded', () => {
   initStorage();
@@ -141,6 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   updateStudentDisplay();
+  initLoginModal();
 });
 
 window.addEventListener('hashchange', () => {
