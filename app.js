@@ -127,6 +127,8 @@ const CATEGORY_MAP = {
 // ==========================================================================
 const ACCESS_PASSWORDS = ['VSTEPWRITING', 'VSTEOWRITING'];
 const ALLOWED_CLASSES = ['CB206', 'CB210', 'B2', 'GV'];
+// Danh sách Dạng thư từ 03 đến 07 tạm khóa đối với tài khoản học viên (Chỉ mở 01 Advice và 02 Request)
+const LOCKED_CATEGORIES_FOR_STUDENTS = ['description', 'complaint', 'feedback', 'apology', 'application'];
 const GOOGLE_FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLScjhthdSEklX3xgFywh0WVnboJiMrdtwktPgdImgsVwl3ymbQ/formResponse';
 const GOOGLE_FORM_ENTRY = 'entry.1205151935';
 
