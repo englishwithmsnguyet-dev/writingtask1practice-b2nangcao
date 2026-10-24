@@ -939,13 +939,45 @@ function formatExamPromptHtml(rawPrompt) {
   const lines = rawPrompt.split('\n');
   return lines.map(line => {
     const trimmed = line.trim();
-    if (trimmed.startsWith('-') || trimmed.startsWith('•')) {
+    if (!trimmed) {
+      return '<div style="height: 0.35rem;"></div>';
+    }
+
+    // Bullet points (-, •, o)
+    if (/^[-•]\s*/.test(trimmed) || /^o\s+/.test(trimmed) || trimmed.startsWith('o\t')) {
+      const cleanBulletText = trimmed.replace(/^[-•]\s*|^o\t\s*|^o\s+/, '');
       return `<div style="display: flex; align-items: center; gap: 0.55rem; background: var(--amber-bg); border: 1px solid var(--amber-border); padding: 0.45rem 0.85rem; border-radius: var(--radius-sm); margin: 0.35rem 0; font-weight: 700; color: var(--text-primary);">
         <i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i>
-        <span>${escapeHtml(trimmed.replace(/^[-•]\s*/, ''))}</span>
+        <span>${escapeHtml(cleanBulletText)}</span>
       </div>`;
     }
-    return `<div style="margin-bottom: 0.35rem;">${escapeHtml(line)}</div>`;
+
+    // Exam requirement line with "Do not include your name..." and criteria
+    if (trimmed.includes('Do not include your name') || trimmed.includes('evaluated in terms of') || trimmed.includes('at least 120 words')) {
+      let content = escapeHtml(trimmed);
+      // Support markdown bolding for "Do not include your name..."
+      content = content.replace(/\*\*(Do not include your name(?: or address)?\.?)\*\*/gi, '<strong style="color: var(--danger-light, #f43f5e); font-weight: 800;">$1</strong>');
+      // Other markdown boldings
+      content = content.replace(/\*\*(.*?)\*\*/g, '<strong style="font-weight: 800;">$1</strong>');
+      
+      // Auto-bold critical terms if plain text
+      content = content.replace(/(?<!<strong[^>]*>)(Do not include your name(?: or address)?\.?)(?!<\/strong>)/gi, '<strong style="color: var(--danger-light, #f43f5e); font-weight: 800;">$1</strong>');
+      ['Task Fulfillment', 'Task fulfillment', 'Task Fulfilment', 'Organization', 'Vocabulary', 'Grammar', 'at least 120 words'].forEach(term => {
+        const re = new RegExp(`(?<!<strong[^>]*>)${term}(?!<\\/strong>)`, 'g');
+        content = content.replace(re, `<strong style="font-weight: 800;">${term}</strong>`);
+      });
+
+      return `<div class="exam-prompt-requirement-box" style="margin-top: 0.75rem; padding: 0.75rem 0.95rem; background: linear-gradient(135deg, rgba(239, 68, 68, 0.08) 0%, rgba(245, 158, 11, 0.08) 100%); border-left: 4px solid var(--danger-light, #ef4444); border-radius: var(--radius-sm); font-size: 0.9rem; line-height: 1.65; color: var(--text-primary); box-shadow: var(--shadow-sm);">
+        <div style="display: flex; align-items: flex-start; gap: 0.55rem;">
+          <i class="fa-solid fa-circle-exclamation" style="color: var(--danger-light, #ef4444); margin-top: 0.2rem; flex-shrink: 0; font-size: 1rem;"></i>
+          <div>${content}</div>
+        </div>
+      </div>`;
+    }
+
+    let lineHtml = escapeHtml(trimmed);
+    lineHtml = lineHtml.replace(/\*\*(.*?)\*\*/g, '<strong style="font-weight: 800;">$1</strong>');
+    return `<div style="margin-bottom: 0.35rem;">${lineHtml}</div>`;
   }).join('');
 }
 
