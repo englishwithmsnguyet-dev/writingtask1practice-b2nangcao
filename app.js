@@ -122,9 +122,11 @@ const CATEGORY_MAP = {
 // ==========================================================================
 // 2. AUTHENTICATION & STUDENT LOGIN (WELCOME MODAL)
 // Theo dõi đăng nhập qua: https://forms.gle/232xy5SsK36JqpCn7
-// Mật khẩu truy cập: VSTEOWRITING (hoặc VSTEPWRITING)
+// Mật khẩu truy cập chính thức: VSTEPWRITING
+// Các lớp tiếp nhận: CB206, CB210, B2 (Học viên: Gia Tuệ,...)
 // ==========================================================================
-const ACCESS_PASSWORDS = ['VSTEOWRITING', 'VSTEPWRITING', 'STUDYHARD', 'PRACTICEWRITING'];
+const ACCESS_PASSWORDS = ['VSTEPWRITING', 'VSTEOWRITING'];
+const ALLOWED_CLASSES = ['CB206', 'CB210', 'B2', 'GV'];
 const GOOGLE_FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLScjhthdSEklX3xgFywh0WVnboJiMrdtwktPgdImgsVwl3ymbQ/formResponse';
 const GOOGLE_FORM_ENTRY = 'entry.1205151935';
 
