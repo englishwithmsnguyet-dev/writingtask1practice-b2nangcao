@@ -81,7 +81,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received a letter from an English friend, Helen. She is going to visit Hanoi in June. Write a letter to give her some suggestions. In your letter, you should tell her: Where to stay, What dishes to try, Which places to visit, What to wear when visiting Hanoi.",
-        "prompt": "You have received a letter from an English friend, Helen. She is going to visit Hanoi in June. Write a letter to give her some suggestions. In your letter, you should tell her:\n- Where to stay\n- What dishes to try\n- Which places to visit\n- What to wear when visiting Hanoi\n\nYou should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received a letter from an English friend, Helen. She is going to visit Hanoi in June. Write a letter to give her some suggestions. In your letter, you should tell her:\n- Where to stay\n- What dishes to try\n- Which places to visit\n- What to wear when visiting Hanoi\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -895,7 +895,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received an email from an English friend who is planning to study Vietnamese for six months at Hanoi University. He asks for advice regarding: accommodation options (dormitory vs shared apartment), living costs per month, tips to practice Vietnamese with locals, and how to adapt to local culture.",
-        "prompt": "You have received an email from an English friend who is planning to study Vietnamese for six months at Hanoi University. He asks for your advice regarding accommodation options, monthly living expenses, practical ways to practice Vietnamese with locals, and cultural adaptation tips.\n\nWrite a letter to give him some suggestions. You should write at least 120 words. Do not include your name or address.",
+        "prompt": "You have received an email from an English friend who is planning to study Vietnamese for six months at Hanoi University. He asks for your advice regarding accommodation options, monthly living expenses, practical ways to practice Vietnamese with locals, and cultural adaptation tips.\n\nWrite a letter to give him some suggestions.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -1390,7 +1390,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received a letter from a friend, Emily. She is going to visit Can Tho in December. Write a letter to give her some suggestions. In your letter, you should tell her: Where to stay, What dishes to try, Which tourist attractions to visit, What to wear.",
-        "prompt": "You have received a letter from a friend, Emily. She is going to visit Can Tho in December. Write a letter to give her some suggestions. You should tell her:\n• Where to stay\n• What dishes to try\n• Which tourist attractions to visit\n• What to wear\n\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received a letter from a friend, Emily. She is going to visit Can Tho in December. Write a letter to give her some suggestions. You should tell her:\n• Where to stay\n• What dishes to try\n• Which tourist attractions to visit\n• What to wear\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -2145,7 +2145,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received an email from your friend Ann, who is planning to take a Vietnamese course when she comes to Vietnam. Read part of her email below:\n\"... I'm really excited about joining a Vietnamese course during my stay in Vietnam. However, I'm not sure which type of course I should take. Could you tell me about the tuition fee and how long the course usually lasts? Also, what should I prepare before starting the class? ...\"\n\nWrite an email responding to Ann.",
-        "prompt": "You have received an email from your friend Ann, who is planning to take a Vietnamese course when she comes to Vietnam. Read part of her email below:\n\"... I'm really excited about joining a Vietnamese course during my stay in Vietnam. However, I'm not sure which type of course I should take. Could you tell me about the tuition fee and how long the course usually lasts? Also, what should I prepare before starting the class? ...\"\n\nWrite an email responding to Ann. You should write at least 120 words. Do not include your name or address.",
+        "prompt": "You have received an email from your friend Ann, who is planning to take a Vietnamese course when she comes to Vietnam. Read part of her email below:\n\"... I'm really excited about joining a Vietnamese course during my stay in Vietnam. However, I'm not sure which type of course I should take. Could you tell me about the tuition fee and how long the course usually lasts? Also, what should I prepare before starting the class? ...\"\n\nWrite an email responding to Ann.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -2661,7 +2661,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received an email from your friend, Jane. She is asking you two things. Read part of her email below:\n\"... How is your new job going? Are your colleagues friendly, and do you get on well with them? Is it convenient for you to travel to the company every day? By the way, I have a job interview next week. Could you give me some advice on how to prepare well for it? ...\"\n\nWrite an email responding to Jane.",
-        "prompt": "You have received an email from your friend, Jane. She is asking you two things. Read part of her email below:\n\"... How is your new job going? Are your colleagues friendly, and do you get on well with them? Is it convenient for you to travel to the company every day? By the way, I have a job interview next week. Could you give me some advice on how to prepare well for it? ...\"\n\nWrite an email responding to Jane. You should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received an email from your friend, Jane. She is asking you two things. Read part of her email below:\n\"... How is your new job going? Are your colleagues friendly, and do you get on well with them? Is it convenient for you to travel to the company every day? By the way, I have a job interview next week. Could you give me some advice on how to prepare well for it? ...\"\n\nWrite an email responding to Jane.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -3177,7 +3177,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received an email from your friend Jane. She is planning to visit Vietnam this summer and would like some suggestions. Read part of her email below:\n\"... I'm really excited about my trip to Vietnam this summer. However, I'm not sure when I should come and which places I should visit. Could you recommend a destination and tell me how I can get there? Also, are there any festivals or special events in Vietnam during the summer? I would love to know what makes them special. ...\"\n\nWrite an email to Jane.",
-        "prompt": "You have received an email from your friend Jane. She is planning to visit Vietnam this summer and would like some suggestions. Read part of her email below:\n\"... I'm really excited about my trip to Vietnam this summer. However, I'm not sure when I should come and which places I should visit. Could you recommend a destination and tell me how I can get there? Also, are there any festivals or special events in Vietnam during the summer? I would love to know what makes them special. ...\"\n\nWrite an email to Jane. You should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfilment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received an email from your friend Jane. She is planning to visit Vietnam this summer and would like some suggestions. Read part of her email below:\n\"... I'm really excited about my trip to Vietnam this summer. However, I'm not sure when I should come and which places I should visit. Could you recommend a destination and tell me how I can get there? Also, are there any festivals or special events in Vietnam during the summer? I would love to know what makes them special. ...\"\n\nWrite an email to Jane.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -3692,7 +3692,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received an email from your friend Alex, who is working on a group project about poster design. Read part of his email below:\n\"... Our teacher has asked each group to design a poster, but we haven't decided on a topic yet. Could you give me some ideas about what topic to choose? Also, where can we find reliable sources of information to make the poster more interesting? By the way, do you have any tips for creating a poster that looks attractive and eye-catching? ...\"\n\nWrite an email responding to Alex.",
-        "prompt": "You have received an email from your friend Alex, who is working on a group project about poster design. Read part of his email below:\n\"... Our teacher has asked each group to design a poster, but we haven't decided on a topic yet. Could you give me some ideas about what topic to choose? Also, where can we find reliable sources of information to make the poster more interesting? By the way, do you have any tips for creating a poster that looks attractive and eye-catching? ...\"\n\nWrite an email responding to Alex. You should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received an email from your friend Alex, who is working on a group project about poster design. Read part of his email below:\n\"... Our teacher has asked each group to design a poster, but we haven't decided on a topic yet. Could you give me some ideas about what topic to choose? Also, where can we find reliable sources of information to make the poster more interesting? By the way, do you have any tips for creating a poster that looks attractive and eye-catching? ...\"\n\nWrite an email responding to Alex.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -4207,7 +4207,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have recently received a letter from your friend, who has just started working at a local bookstore. She is looking for advice on how to do her job more effectively.\nWrite a letter to your friend. In your letter, you should:\n- give advice on how to find the right books for customers\n- suggest some ideas for decorating the bookstore\n- recommend effective promotion strategies to attract more customers\n\nWrite a letter responding to your friend.",
-        "prompt": "You have recently received a letter from your friend, who has just started working at a local bookstore. She is looking for advice on how to do her job more effectively.\nWrite a letter to your friend. In your letter, you should:\n- give advice on how to find the right books for customers\n- suggest some ideas for decorating the bookstore\n- recommend effective promotion strategies to attract more customers\n\nYou should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have recently received a letter from your friend, who has just started working at a local bookstore. She is looking for advice on how to do her job more effectively.\nWrite a letter to your friend. In your letter, you should:\n- give advice on how to find the right books for customers\n- suggest some ideas for decorating the bookstore\n- recommend effective promotion strategies to attract more customers\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -4792,7 +4792,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You saw an advertisement for a summer cooking course at Delight Kitchen center. You are interested in attending. Write an email to the admissions manager asking for information about: course fees and discounts, class schedule, qualifications of chef instructors, and syllabus details.",
-        "prompt": "You saw an advertisement for a summer cooking course at Delight Kitchen center. You are interested in attending. Write an email to the admissions manager asking for information about course fees, class schedules, instructor qualifications, and whether ingredients are provided.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "You saw an advertisement for a summer cooking course at Delight Kitchen center. You are interested in attending. Write an email to the admissions manager asking for information about course fees, class schedules, instructor qualifications, and whether ingredients are provided.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -5246,7 +5246,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "Your friend Linda recently completed a beginner Chinese course at New Horizon Language Center. You want to study Chinese this summer. Write an email to Linda asking about the center location, tuition fees, teacher quality, and course effectiveness.",
-        "prompt": "Your friend Linda recently completed a beginner Chinese course at New Horizon Language Center. You want to study Chinese this summer. Write an email to Linda asking about the center location, tuition fees, teacher quality, and practical speaking practice.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "Your friend Linda recently completed a beginner Chinese course at New Horizon Language Center. You want to study Chinese this summer. Write an email to Linda asking about the center location, tuition fees, teacher quality, and practical speaking practice.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -5734,7 +5734,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "Your friend has just completed an English course at Rainbow Language Center and had a great experience. You are planning to study English as well and would like to know more about the course. Write a letter to your friend asking for more information about the course. In your email, you should ask about: The address of the center, The tuition fee, The teachers, The training program.",
-        "prompt": "Your friend has just completed an English course at Rainbow Language Center and had a great experience. You are planning to study English as well and would like to know more about the course. Write a letter to your friend asking for more information about the course. In your email, you should ask about:\n• The address of the center\n• The tuition fee\n• The teachers\n• The training program\n\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "Your friend has just completed an English course at Rainbow Language Center and had a great experience. You are planning to study English as well and would like to know more about the course. Write a letter to your friend asking for more information about the course. In your email, you should ask about:\n• The address of the center\n• The tuition fee\n• The teachers\n• The training program\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -6377,7 +6377,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received a letter from your friend, Linda. She has recently completed a Chinese course at Happy Chinese Language Center and really enjoyed it. You are planning to learn Chinese as well and would like to know more about the course. Write a letter to Linda. In your letter, you should ask about: the tuition fee, the course duration, the teachers, the class schedule.",
-        "prompt": "You have received a letter from your friend, Linda. She has recently completed a Chinese course at Happy Chinese Language Center and really enjoyed it. You are planning to learn Chinese as well and would like to know more about the course.\nWrite a letter to Linda. In your letter, you should ask about:\n• the tuition fee\n• the course duration\n• the teachers\n• the class schedule\n\nYou should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received a letter from your friend, Linda. She has recently completed a Chinese course at Happy Chinese Language Center and really enjoyed it. You are planning to learn Chinese as well and would like to know more about the course.\nWrite a letter to Linda. In your letter, you should ask about:\n• the tuition fee\n• the course duration\n• the teachers\n• the class schedule\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -7087,7 +7087,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received an email from your friend, John. Read part of his letter below:\n\"... I heard that you recently participated in a mountain cycling competition. How was the experience? What was the track like? Did you win any prizes? I am thinking of trying mountain biking too. Are you planning any cycling trips soon? ...\"\n\nWrite a response to John.",
-        "prompt": "You have received an email from your friend, John. Read part of his letter below:\n\"... I heard that you recently participated in a mountain cycling competition. How was the experience? What was the track like? Did you win any prizes? I am thinking of trying mountain biking too. Are you planning any cycling trips soon? ...\"\n\nWrite an email responding to John describing your race experience and inviting him on an upcoming trip. You should write at least 120 words. Do not include your name or address.",
+        "prompt": "You have received an email from your friend, John. Read part of his letter below:\n\"... I heard that you recently participated in a mountain cycling competition. How was the experience? What was the track like? Did you win any prizes? I am thinking of trying mountain biking too. Are you planning any cycling trips soon? ...\"\n\nWrite an email responding to John describing your race experience and inviting him on an upcoming trip.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -7580,7 +7580,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received an email from your friend Helen who wants to know about your new house near the university campus. Write an email to Helen describing the house location, room layout, surrounding neighborhood, and invite her to visit.",
-        "prompt": "You have received an email from your friend Helen who wants to know about your new house near the university campus. Write an email to Helen describing the house location, room layout, surrounding neighborhood, and invite her to visit.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "You have received an email from your friend Helen who wants to know about your new house near the university campus. Write an email to Helen describing the house location, room layout, surrounding neighborhood, and invite her to visit.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -8070,7 +8070,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received a letter from your friend, Nam. Read part of his letter below: '... I'm planning to study English at Rainbow Language Center next month. Since you have just completed a course there, could you tell me more about it? I'd like to know about the address of the center, the tuition fee, the teachers, and the training program before I decide to enroll...' Write a letter responding to Nam. In your letter, you should provide information about: the address of the center, the tuition fee, the teachers, the training program.",
-        "prompt": "You have received a letter from your friend, Nam. Read part of his letter below:\n... I'm planning to study English at Rainbow Language Center next month. Since you have just completed a course there, could you tell me more about it? I'd like to know about the address of the center, the tuition fee, the teachers, and the training program before I decide to enroll...\nWrite a letter responding to Nam. In your letter, you should provide information about:\n• the address of the center\n• the tuition fee\n• the teachers\n• the training program\n\nYou should write at least 120 words. Do not include your name or address.",
+        "prompt": "You have received a letter from your friend, Nam. Read part of his letter below:\n... I'm planning to study English at Rainbow Language Center next month. Since you have just completed a course there, could you tell me more about it? I'd like to know about the address of the center, the tuition fee, the teachers, and the training program before I decide to enroll...\nWrite a letter responding to Nam. In your letter, you should provide information about:\n• the address of the center\n• the tuition fee\n• the teachers\n• the training program\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -8715,7 +8715,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received a letter from your English friend, Emily. Read part of her letter below: '... I have received a letter from your friend, Hoa. She is going to do a course in London, so she asked me if she could stay with me and my family until she finds an apartment. Could you tell me some information about her? (things like her personality, her hobbies, her current work or study). I need to know whether she will fit in my family or not ...' Write a letter responding to Emily. You should write at least 120 words. Do not include your name or address.",
-        "prompt": "You have received a letter from your English friend, Emily. Read part of her letter below:\n... I have received a letter from your friend, Hoa. She is going to do a course in London, so she asked me if she could stay with me and my family until she finds an apartment. Could you tell me some information about her? (things like her personality, her hobbies, her current work or study). I need to know whether she will fit in my family or not ...\nWrite a letter responding to Emily. You should write at least 120 words. Do not include your name or address.",
+        "prompt": "You have received a letter from your English friend, Emily. Read part of her letter below:\n... I have received a letter from your friend, Hoa. She is going to do a course in London, so she asked me if she could stay with me and my family until she finds an apartment. Could you tell me some information about her? (things like her personality, her hobbies, her current work or study). I need to know whether she will fit in my family or not ...\nWrite a letter responding to Emily.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -9285,7 +9285,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received a letter from your friend, who wants to know more about the art project you recently did on the topic “At Home”. Read part of your friend’s letter below:\n\"… Have you finished your drawing project yet? Did you choose to draw the scene inside your house or in the garden? Could you describe your drawing for me? Is there any object in your picture that is especially important to you? …\"\n\nWrite a letter responding to your friend.",
-        "prompt": "You have received a letter from your friend, who wants to know more about the art project you recently did on the topic “At Home”. Read part of your friend’s letter below:\n\"… Have you finished your drawing project yet? Did you choose to draw the scene inside your house or in the garden? Could you describe your drawing for me? Is there any object in your picture that is especially important to you? …\"\n\nWrite a letter responding to your friend. You should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received a letter from your friend, who wants to know more about the art project you recently did on the topic “At Home”. Read part of your friend’s letter below:\n\"… Have you finished your drawing project yet? Did you choose to draw the scene inside your house or in the garden? Could you describe your drawing for me? Is there any object in your picture that is especially important to you? …\"\n\nWrite a letter responding to your friend.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -9825,7 +9825,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received a letter from your friend asking about your new puppy. Write a letter to your friend. In your letter, you should:\n- say whether you have given your puppy a name and what it is\n- explain who gave you the puppy\n- describe whether it is difficult to take care of the puppy\n\nWrite a letter to your friend.",
-        "prompt": "You have received a letter from your friend asking about your new puppy. Write a letter to your friend. In your letter, you should:\n- say whether you have given your puppy a name and what it is\n- explain who gave you the puppy\n- describe whether it is difficult to take care of the puppy\n\nYou should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received a letter from your friend asking about your new puppy. Write a letter to your friend. In your letter, you should:\n- say whether you have given your puppy a name and what it is\n- explain who gave you the puppy\n- describe whether it is difficult to take care of the puppy\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -10339,7 +10339,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You are a teacher at Sunshine Primary School. Your class is going to organize an outdoor activity for Grade 4 students next weekend. You have received a letter from Mrs. Jane, a parent, asking about:\n- what activities will take place during the event\n- why teachers will not prepare lunch for students\n- what kinds of food students can bring for lunch, and why\n- what her daughter should bring to have an enjoyable day\n\nWrite a letter to Mrs. Jane to answer her questions.",
-        "prompt": "You are a teacher at Sunshine Primary School. Your class is going to organize an outdoor activity for Grade 4 students next weekend. You have received a letter from Mrs. Jane, a parent, asking about:\n- what activities will take place during the event\n- why teachers will not prepare lunch for students\n- what kinds of food students can bring for lunch, and why\n- what her daughter should bring to have an enjoyable day\n\nWrite a letter to Mrs. Jane to answer her questions. You should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You are a teacher at Sunshine Primary School. Your class is going to organize an outdoor activity for Grade 4 students next weekend. You have received a letter from Mrs. Jane, a parent, asking about:\n- what activities will take place during the event\n- why teachers will not prepare lunch for students\n- what kinds of food students can bring for lunch, and why\n- what her daughter should bring to have an enjoyable day\n\nWrite a letter to Mrs. Jane to answer her questions.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -10854,7 +10854,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You have received a letter from Mrs. Lan, a staff member at the airport where you reported your lost suitcase. Read part of her letter below:\n\"... Could you please send me some more details about your missing suitcase? I need to know your flight number and flight time, a short description of the suitcase, and your contact information so that I can reach you if it is found. ...\"\n\nWrite a letter responding to Mrs. Lan. In your letter, you should:\n- Give details about your flight,\n- Describe your suitcase clearly, and\n- Provide your contact information.\n\nWrite a letter responding to Mrs. Lan.",
-        "prompt": "You have received a letter from Mrs. Lan, a staff member at the airport where you reported your lost suitcase. Read part of her letter below:\n\"... Could you please send me some more details about your missing suitcase? I need to know your flight number and flight time, a short description of the suitcase, and your contact information so that I can reach you if it is found. ...\"\n\nWrite a letter responding to Mrs. Lan. In your letter, you should:\n- Give details about your flight,\n- Describe your suitcase clearly, and\n- Provide your contact information.\n\nYou should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received a letter from Mrs. Lan, a staff member at the airport where you reported your lost suitcase. Read part of her letter below:\n\"... Could you please send me some more details about your missing suitcase? I need to know your flight number and flight time, a short description of the suitcase, and your contact information so that I can reach you if it is found. ...\"\n\nWrite a letter responding to Mrs. Lan. In your letter, you should:\n- Give details about your flight,\n- Describe your suitcase clearly, and\n- Provide your contact information.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -11427,7 +11427,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You are an annual member at Elite Fitness Club. Recently, multiple treadmills and weight machines have broken down and remained unrepaired for weeks, causing long waiting queues. Write a letter of complaint to the club manager describing the problems, expressing your frustration, and demanding timely maintenance.",
-        "prompt": "You are a member at Elite Fitness Club. Recently, several gym machines have broken down and remained out of order. Write an email to the gym manager to complain about the issue. In your email, you should: Describe the broken equipment and problems caused, explain how this affects your workout, and suggest what the management should do.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "You are a member at Elite Fitness Club. Recently, several gym machines have broken down and remained out of order. Write an email to the gym manager to complain about the issue. In your email, you should: Describe the broken equipment and problems caused, explain how this affects your workout, and suggest what the management should do.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -11919,7 +11919,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You celebrated your parents' wedding anniversary at The Grand Bistro last night. However, the food was served cold after a 45-minute wait, one dish was mistaken, and the server was dismissive when you asked for assistance. Write a formal complaint email to the restaurant general manager.",
-        "prompt": "You had dinner at The Grand Bistro last night to celebrate a family event. The food quality was poor, wait time was excessive, and the server was unhelpful. Write a complaint letter to the restaurant manager describing the problems, explaining your disappointment, and asking for an appropriate resolution.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "You had dinner at The Grand Bistro last night to celebrate a family event. The food quality was poor, wait time was excessive, and the server was unhelpful. Write a complaint letter to the restaurant manager describing the problems, explaining your disappointment, and asking for an appropriate resolution.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -12413,7 +12413,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You are a member of a local sports center. You have recently used the changing room and were not satisfied with its condition. Write an email to the manager of the sports center. In your email, you should: describe the problems you found in the changing room, explain how the situation made you feel, suggest what should be done to improve the facility.",
-        "prompt": "You are a member of a local sports center. You have recently used the changing room and were not satisfied with its condition. Write an email to the manager of the sports center. In your email, you should:\no describe the problems you found in the changing room\no explain how the situation made you feel\no suggest what should be done to improve the facility\n\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You are a member of a local sports center. You have recently used the changing room and were not satisfied with its condition. Write an email to the manager of the sports center. In your email, you should:\no describe the problems you found in the changing room\no explain how the situation made you feel\no suggest what should be done to improve the facility\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -12972,7 +12972,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You recently stayed at a hotel during your holiday. Unfortunately, you were not satisfied with your room. Write a letter to the hotel manager to complain about your stay. In your letter, you should: describe the problems with the room, explain how you felt about the experience, suggest some improvements.",
-        "prompt": "You recently stayed at a hotel during your holiday. Unfortunately, you were not satisfied with your room. Write a letter to the hotel manager to complain about your stay. In your letter, you should:\n• describe the problems with the room\n• explain how you felt about the experience\n• suggest some improvements\n\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You recently stayed at a hotel during your holiday. Unfortunately, you were not satisfied with your room. Write a letter to the hotel manager to complain about your stay. In your letter, you should:\n• describe the problems with the room\n• explain how you felt about the experience\n• suggest some improvements\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -13612,7 +13612,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You regularly take city bus route 08 operated by TransCity Company managed by Mr. Tailor. You appreciate the friendly drivers and clean buses, but are frustrated by irregular rush-hour timetables and broken ticket machines. Write an email to Mr. Tailor giving feedback.",
-        "prompt": "You are a regular passenger on public bus route 08. Write an email to Mr. Tailor, the transport service manager, to provide feedback on the bus service. In your email, you should: Mention positive aspects you appreciate, point out existing problems (schedule delays & ticket machines), and suggest practical improvements.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "You are a regular passenger on public bus route 08. Write an email to Mr. Tailor, the transport service manager, to provide feedback on the bus service. In your email, you should: Mention positive aspects you appreciate, point out existing problems (schedule delays & ticket machines), and suggest practical improvements.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -14087,7 +14087,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You recently held your 21st birthday gathering at Golden Spoon restaurant with 15 friends. You liked the cozy ambiance and appetizing food, but were let down by a malfunctioning sound system and delayed birthday cake presentation. Write a feedback letter to the restaurant manager.",
-        "prompt": "You held a birthday party with your friends at Golden Spoon restaurant last Saturday. Write an email to the restaurant manager offering your feedback. In your email, you should: Praise what went well (food taste & table decoration), point out what could be improved (microphone buzz & slow dessert), and give suggestions for future events.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "You held a birthday party with your friends at Golden Spoon restaurant last Saturday. Write an email to the restaurant manager offering your feedback. In your email, you should: Praise what went well (food taste & table decoration), point out what could be improved (microphone buzz & slow dessert), and give suggestions for future events.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -14564,7 +14564,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You recently stayed at a hotel and received an email from the hotel manager asking for feedback about your stay. Write an email to give your opinion. In your email, you should: Say whether you were satisfied or dissatisfied with the service, Describe your experience, Suggest ways the hotel can improve its service.",
-        "prompt": "You recently stayed at a hotel and received an email from the hotel manager asking for feedback about your stay.\nWrite an email to give your opinion. In your email, you should:\no Say whether you were satisfied or dissatisfied with the service\no Describe your experience\no Suggest ways the hotel can improve its service\n\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You recently stayed at a hotel and received an email from the hotel manager asking for feedback about your stay.\nWrite an email to give your opinion. In your email, you should:\no Say whether you were satisfied or dissatisfied with the service\no Describe your experience\no Suggest ways the hotel can improve its service\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -15115,7 +15115,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You recently had dinner at a new restaurant. A few days later, the restaurant manager sent you an email asking for your feedback. Write an email to give your opinion. In your email, you should: say whether you were satisfied or dissatisfied with the restaurant, describe your experience, suggest ways the restaurant can improve its service.",
-        "prompt": "You recently had dinner at a new restaurant. A few days later, the restaurant manager sent you an email asking for your feedback.\nWrite an email to give your opinion. In your email, you should:\n• say whether you were satisfied or dissatisfied with the restaurant\n• describe your experience\n• suggest ways the restaurant can improve its service\n\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You recently had dinner at a new restaurant. A few days later, the restaurant manager sent you an email asking for your feedback.\nWrite an email to give your opinion. In your email, you should:\n• say whether you were satisfied or dissatisfied with the restaurant\n• describe your experience\n• suggest ways the restaurant can improve its service\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -15757,7 +15757,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You were unable to submit your Linguistics term paper by the Friday deadline due to sudden hard drive failure and computer repair delays. Write a formal apology letter to Professor Johnson explaining the incident, attaching the finished assignment, and requesting forgiveness.",
-        "prompt": "You are a university student who failed to submit your term research paper on time. Write an email to your course instructor, Professor Johnson, apologizing for the late submission. In your email, you should: Sincerely apologize, explain the specific reason (technical malfunction in past simple tense), attach the completed paper, and promise to adhere to future deadlines.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "You are a university student who failed to submit your term research paper on time. Write an email to your course instructor, Professor Johnson, apologizing for the late submission. In your email, you should: Sincerely apologize, explain the specific reason (technical malfunction in past simple tense), attach the completed paper, and promise to adhere to future deadlines.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -16231,7 +16231,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "Mr. Smith stayed at your luxury hotel and complained about an hour-long room service delay on Friday evening and cold soup. As the customer relations manager, write an official apology letter explaining the kitchen technical glitch, offering compensation, and inviting him back.",
-        "prompt": "You are the Guest Relations Manager at Pearl Palace Hotel. A guest, Mr. Smith, had an unpleasant stay due to slow room service and lukewarm food. Write an apology email to Mr. Smith. In your letter, you should: Apologize sincerely for the substandard experience, explain the unexpected kitchen incident (in past simple tense), offer compensation (discount or complimentary vouchers), and assure him of enhanced quality.\n\nWrite an email of at least 120 words. Do not include your name or address.",
+        "prompt": "You are the Guest Relations Manager at Pearl Palace Hotel. A guest, Mr. Smith, had an unpleasant stay due to slow room service and lukewarm food. Write an apology email to Mr. Smith. In your letter, you should: Apologize sincerely for the substandard experience, explain the unexpected kitchen incident (in past simple tense), offer compensation (discount or complimentary vouchers), and assure him of enhanced quality.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -16707,7 +16707,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You borrowed a novel from your friend Helen, but got caught up in busy final exams and forgot to return it. She wrote to inquire about the book, when you plan to give it back, and how you will return it. Write an informal apology letter.",
-        "prompt": "You borrowed a book from your friend Helen, but forgot to return it. Read part of her letter below:\n… Hey! How have you been lately? By the way, have you finished reading the book you borrowed from me? I was wondering why you haven’t returned it yet. When do you plan to give it back, and how will you return it? …\nWrite a letter to reply to Helen. In your letter, you should:\no\tapologize for not returning the book\no\texplain your current situation and whether you’ve finished the book\no\tsay when and how you will return it\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You borrowed a book from your friend Helen, but forgot to return it. Read part of her letter below:\n… Hey! How have you been lately? By the way, have you finished reading the book you borrowed from me? I was wondering why you haven’t returned it yet. When do you plan to give it back, and how will you return it? …\nWrite a letter to reply to Helen. In your letter, you should:\no\tapologize for not returning the book\no\texplain your current situation and whether you’ve finished the book\no\tsay when and how you will return it\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -17345,7 +17345,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You received an email from your professor reminding you that your assignment was due last Friday and has not been received yet. Write a formal apology letter explaining why you missed the deadline, and stating when and how you will submit your work.",
-        "prompt": "You have received an email from your professor.\n... I noticed that you haven't submitted your assignment yet. The deadline was last Friday, but I still haven't received your work. Could you explain why your assignment was late? Also, when will you submit it? I hope to hear from you soon. ...\nWrite a letter responding to your professor. In your letter, you should:\n•\tapologize for submitting your assignment late\n•\texplain why you could not submit it on time\n•\tsay when and how you will submit your assignment\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You have received an email from your professor.\n... I noticed that you haven't submitted your assignment yet. The deadline was last Friday, but I still haven't received your work. Could you explain why your assignment was late? Also, when will you submit it? I hope to hear from you soon. ...\nWrite a letter responding to your professor. In your letter, you should:\n•\tapologize for submitting your assignment late\n•\texplain why you could not submit it on time\n•\tsay when and how you will submit your assignment\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -17983,7 +17983,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "Ms. Smith recently wrote to complain about the poor service she received during her stay at your hotel. In her letter, she asked for an apology and a refund. You are the hotel manager. Write a letter in response to her complaint.\nIn your letter, you should:\n- apologize for the poor service she experienced\n- explain how she will receive her refund\n- tell her what measures your hotel will take to improve its service\n\nWrite a letter responding to Ms. Smith.",
-        "prompt": "Ms. Smith recently wrote to complain about the poor service she received during her stay at your hotel. In her letter, she asked for an apology and a refund. You are the hotel manager. Write a letter in response to her complaint. In your letter, you should:\n- apologize for the poor service she experienced\n- explain how she will receive her refund\n- tell her what measures your hotel will take to improve its service\n\nYou should write at least 120 words. Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "Ms. Smith recently wrote to complain about the poor service she received during her stay at your hotel. In her letter, she asked for an apology and a refund. You are the hotel manager. Write a letter in response to her complaint. In your letter, you should:\n- apologize for the poor service she experienced\n- explain how she will receive her refund\n- tell her what measures your hotel will take to improve its service\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -18552,7 +18552,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You saw a hiring notice on a website for a part-time waiter position at Sunflower Restaurant. Write a formal application letter introducing your background, stating your motivation, outlining customer service experience, and expressing readiness for an interview.",
-        "prompt": "You saw an advertisement for a part-time waiter position at Sunflower Restaurant. Write a letter of application to the hiring manager. In your letter, you should: Introduce your education, explain why you want this job, describe your relevant working experience, and affirm why you are a suitable candidate.\n\nWrite a letter of at least 120 words. Do not include your name or address.",
+        "prompt": "You saw an advertisement for a part-time waiter position at Sunflower Restaurant. Write a letter of application to the hiring manager. In your letter, you should: Introduce your education, explain why you want this job, describe your relevant working experience, and affirm why you are a suitable candidate.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -19049,7 +19049,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "The Youth Union of Hanoi University is recruiting student Event Assistants for the upcoming International Cultural Exchange Festival. Write an application letter highlighting your event planning interests, organizational skills, cross-cultural teamwork, and reliability.",
-        "prompt": "You saw a recruitment announcement for an Event Assistant position at the upcoming Youth Cultural Festival. Write an application letter to the Organizing Committee. In your letter, you should: Introduce yourself and your university studies, state your motivation for applying, outline your previous event or volunteer experience, and explain why your skills make you a strong candidate.\n\nWrite a letter of at least 120 words. Do not include your name or address.",
+        "prompt": "You saw a recruitment announcement for an Event Assistant position at the upcoming Youth Cultural Festival. Write an application letter to the Organizing Committee. In your letter, you should: Introduce yourself and your university studies, state your motivation for applying, outline your previous event or volunteer experience, and explain why your skills make you a strong candidate.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -19567,7 +19567,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You saw a job advertisement for a sales assistant at a clothing store in your city. Write a formal application email introducing yourself, explaining your interest in fashion retail, and describing your customer service experience.",
-        "prompt": "You saw a job advertisement for a sales assistant at a clothing store in your city. Write an email to apply for the job. In your email, you should:\no\tIntroduce yourself and your current situation\no\tSay why you are interested in the position\no\tMention any experience you have working with customers\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You saw a job advertisement for a sales assistant at a clothing store in your city. Write an email to apply for the job. In your email, you should:\no\tIntroduce yourself and your current situation\no\tSay why you are interested in the position\no\tMention any experience you have working with customers\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -20246,7 +20246,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "You saw a job advertisement for a receptionist at a small hotel in your city. Write a formal application email introducing yourself, stating your motivation, outlining your front-desk/guest service experience, and explaining why you are a suitable candidate.",
-        "prompt": "You saw a job advertisement for a receptionist at a small hotel in your city. You are interested in the position and would like to apply for the job. Write an email to apply for the position. In your email, you should:\n•\tIntroduce yourself and your current situation\n•\tSay why you are interested in the position\n•\tMention any experience you have working with customers or guests\n•\tExplain why you are a suitable candidate for the job\n\nYou should write at least 120 words. Do not include your name. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt": "You saw a job advertisement for a receptionist at a small hotel in your city. You are interested in the position and would like to apply for the job. Write an email to apply for the position. In your email, you should:\n•\tIntroduce yourself and your current situation\n•\tSay why you are interested in the position\n•\tMention any experience you have working with customers or guests\n•\tExplain why you are a suitable candidate for the job\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
