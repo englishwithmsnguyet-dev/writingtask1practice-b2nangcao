@@ -562,8 +562,11 @@ function setTheme(theme) {
 // ==========================================================================
 function switchMainScreen(screenName) {
   if (AppState.isRecitationInProgress && screenName !== 'category') {
-    showToast('🔒 Đang trong chế độ Trả bài! Toàn bộ hệ thống đã được khóa. Hãy nộp bài sớm hoặc hoàn thành để mở khóa.', 'warning');
-    return;
+    if (confirm('🔒 Bạn đang trong bài kiểm tra Trả bài. Bạn có muốn nộp bài sớm để mở khóa màn hình không?')) {
+      submitRecitationEarly();
+    } else {
+      return;
+    }
   }
   AppState.activeScreen = screenName;
   closeMobileSidebar();
