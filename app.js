@@ -3488,6 +3488,11 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
   const paragraphs = text.split(/\n+/).map(p => p.trim()).filter(Boolean);
   const rawSentences = [];
 
+  // Xác định dạng thư và văn phong
+  const catKey = topic?.category_id || AppState.activeCategory || 'advice';
+  const sampleText = topic?.details?.sample_b2?.letter_en || '';
+  const isFormal = topic?.recipient_type === 'formal' || /^(dear sir|dear professor|dear mr|dear ms|dear madam|dear hiring)/i.test(sampleText) || /^(dear sir|dear professor|dear mr|dear ms|dear madam|dear hiring)/i.test(text.trim());
+
   paragraphs.forEach((p, pIdx) => {
     // 1. Check Salutation
     if (/^(dear|hello|hi)\b/i.test(p) && p.split(/\s+/).length <= 5) {
@@ -3534,16 +3539,16 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
     } else if (s.isSignoff || (idx >= total - 2 && wc <= 3 && !/[.!?]$/.test(txt)) || /^(best wishes|yours sincerely|yours faithfully|best regards|warm regards|warmly|all the best|love|sincerely)/i.test(txt)) {
       role = "Ký tên & Kết thúc thư (Sign-off)";
       roleKey = "signoff";
-    } else if (idx <= 3 && (lower.includes("thank") || lower.includes("how are you") || lower.includes("how have you been") || lower.includes("writing to") || lower.includes("writing this") || lower.includes("pleased to") || lower.includes("glad to") || lower.includes("purpose of") || lower.includes("inform you"))) {
-      role = "Mở bài & Nêu mục đích viết thư (Opening & Purpose)";
-      roleKey = "opening";
-    } else if (idx >= total - 3 && (lower.includes("hope") || lower.includes("look forward") || lower.includes("let me know") || lower.includes("hear from you") || lower.includes("feel free") || lower.includes("contact me") || lower.includes("see you") || lower.includes("grateful if you could"))) {
+    } else if (idx >= total - 3 && (lower.includes("thank you for your time") || lower.includes("look forward to") || lower.includes("let me know how") || lower.includes("write back soon") || lower.includes("really appreciate your help") || lower.includes("feel free to contact") || lower.includes("hope you find my suggestions") || lower.includes("hope this information") || lower.includes("apologize once again"))) {
       role = "Lời kết thư & Kỳ vọng (Closing Remark)";
       roleKey = "closing";
+    } else if (idx <= 3 && (lower.includes("how are you") || lower.includes("how have you been") || lower.includes("writing to") || lower.includes("writing this") || lower.includes("pleased to") || lower.includes("glad to") || lower.includes("purpose of") || lower.includes("inform you") || (lower.includes("thank") && idx === 1))) {
+      role = "Mở bài & Nêu mục đích viết thư (Opening & Purpose)";
+      roleKey = "opening";
     } else if (/^(because|this is because|in fact|specifically|to be specific|for example|for instance|therefore|as a result|this will|this helps|this allows|this means|so that|moreover|furthermore|in addition)/i.test(txt) || lower.includes("this will allow") || lower.includes("so that you can") || lower.includes("as a consequence")) {
       role = "Giải thích & Mở rộng chi tiết (Reason & Expansion)";
       roleKey = "body_expansion";
-    } else if (lower.includes("when it comes to") || lower.includes("as for") || lower.includes("regarding") || lower.includes("first of all") || lower.includes("secondly") || lower.includes("last but not least") || lower.includes("firstly") || lower.includes("to begin with") || lower.includes("another key point")) {
+    } else if (lower.includes("when it comes to") || lower.includes("as for") || lower.includes("regarding") || lower.includes("first of all") || lower.includes("to begin with") || lower.includes("besides that") || lower.includes("on top of that") || lower.includes("secondly") || lower.includes("last but not least") || lower.includes("firstly") || lower.includes("another key point")) {
       role = "Triển khai luận điểm chính (Body - Main Point)";
       roleKey = "body_main";
     }
@@ -3566,7 +3571,7 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
     } else if (roleKey === "signoff") {
       quality = "good";
       qualityBadge = "Đạt chuẩn B2";
-      feedback.push("Lời kết thư phù hợp với văn phong bài thi VSTEP.");
+      feedback.push("Lời chào kết thúc phù hợp với văn phong bài thi VSTEP.");
       if (!upgrade && !/,$/.test(txt) && wc > 1) {
         upgrade = txt.replace(/[.,;]?$/, ",");
       }
@@ -3575,27 +3580,63 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
         quality = "excellent";
         qualityBadge = "Xuất sắc (Chuẩn B2)";
         feedback.push("Nêu mục đích viết thư rất trực diện, mạch lạc và đúng định hướng yêu cầu đề bài.");
-        upgrade = "I am writing this letter to share a few practical suggestions that I believe will be immensely beneficial for you.";
-      } else if (lower.includes("thank")) {
+      } else if (lower.includes("thank") || lower.includes("how have you been") || lower.includes("how are you")) {
         quality = "good";
         qualityBadge = "Đạt chuẩn B2";
         feedback.push("Tạo sự kết nối tự nhiên, thân thiện với người nhận thư ngay từ câu đầu.");
-        upgrade = "Thank you so much for your recent letter; it was truly delightful to hear from you after such a long time.";
       } else {
         quality = "good";
         qualityBadge = "Đạt chuẩn B2";
         feedback.push("Mở bài lịch thiệp, tạo ngữ cảnh giao tiếp tự nhiên.");
       }
+
+      // Upgrade gợi ý theo đúng dạng thư của đề bài
+      if (catKey === 'request') {
+        upgrade = isFormal ?
+          "I am writing to request some information about the course, as I am interested in enrolling and would like to learn more before making a decision." :
+          "How have you been lately? I’m writing to ask a few questions about the course, as I’m planning to enroll next month.";
+      } else if (catKey === 'advice') {
+        upgrade = "Thanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.";
+      } else if (catKey === 'apology') {
+        upgrade = isFormal ?
+          "I am writing to apologize for the delay. I understand that this may have caused inconvenience, and I would like to explain the situation." :
+          "I’m really sorry for what happened. Let me explain the situation so you can understand.";
+      } else if (catKey === 'complaint') {
+        upgrade = "I am writing to express my strong dissatisfaction with the service I received during my recent visit.";
+      } else if (catKey === 'application') {
+        upgrade = "I am writing to apply for the position advertised on your official website.";
+      } else if (catKey === 'feedback') {
+        upgrade = "I am writing to provide feedback on the recent event and share a few suggestions for future improvements.";
+      } else {
+        upgrade = "How have you been lately? I hope everything is going well. In your letter, you asked me about this topic, so here are some details.";
+      }
     } else if (roleKey === "closing") {
-      if (lower.includes("look forward to") || lower.includes("let me know")) {
+      if (lower.includes("look forward") || lower.includes("let me know") || lower.includes("really appreciate") || lower.includes("thank you for your time")) {
         quality = "excellent";
         qualityBadge = "Xuất sắc (Chuẩn B2)";
         feedback.push("Lời kết thúc tự nhiên, thể hiện rõ thiện chí và sự mong đợi phản hồi.");
-        upgrade = "I look forward to hearing your thoughts soon, and please do not hesitate to reach out should you require any further assistance.";
       } else {
         quality = "good";
         qualityBadge = "Đạt chuẩn B2";
         feedback.push("Lời nhắn nhủ kết thúc bài viết ngắn gọn, lịch sự.");
+      }
+
+      if (catKey === 'request') {
+        upgrade = isFormal ?
+          "Thank you for your time. I look forward to hearing from you." :
+          "I’d really appreciate your help with this. Write back soon.";
+      } else if (catKey === 'advice') {
+        upgrade = "I hope you find my suggestions helpful. Let me know how things go.";
+      } else if (catKey === 'apology') {
+        upgrade = isFormal ?
+          "I would like to apologize once again for the inconvenience. Thank you for your patience and kind understanding." :
+          "I’m really sorry once again. I truly appreciate your understanding. Write back soon.";
+      } else if (catKey === 'complaint') {
+        upgrade = "I hope that this issue will be addressed promptly. I look forward to receiving your reply soon.";
+      } else if (catKey === 'application') {
+        upgrade = "Thank you for considering my application. I would welcome the opportunity to discuss my qualifications with you in an interview.";
+      } else {
+        upgrade = "I hope you find this information helpful. Let me know if you need any further details.";
       }
     } else {
       // Body evaluation
@@ -3609,26 +3650,26 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
             upgrade = upgrade.replace(new RegExp(err.quote, "gi"), err.fix);
           }
         });
-      } else if (lower.includes("when it comes to") || lower.includes("last but not least") || lower.includes("as for") || lower.includes("regarding")) {
+      } else if (lower.includes("when it comes to") || lower.includes("last but not least") || lower.includes("as for") || lower.includes("regarding") || lower.includes("to begin with") || lower.includes("on top of that") || lower.includes("besides that")) {
         quality = "excellent";
         qualityBadge = "Xuất sắc (Band 8.0 - 9.0)";
         feedback.push("Áp dụng chuỗi liên từ chuyển ý độc quyền chuẩn B2 rất mượt mà.");
-        if (lower.includes("because") || lower.includes("so that") || lower.includes("which")) {
+        if (lower.includes("because") || lower.includes("so that") || lower.includes("which") || lower.includes("in order to")) {
           feedback.push("Cấu trúc câu phức cân đối, thể hiện tư duy lập luận logic.");
         }
-      } else if (lower.includes("because") || lower.includes("so that") || lower.includes("in order to") || lower.includes("which") || lower.includes("although")) {
+      } else if (lower.includes("because") || lower.includes("so that") || lower.includes("in order to") || lower.includes("which") || lower.includes("although") || lower.includes("could you please") || lower.includes("would like to")) {
         quality = "good";
         qualityBadge = "Đạt chuẩn B2";
-        feedback.push("Sử dụng tốt mệnh đề chỉ nguyên nhân / mục đích / quan hệ để củng cố luận điểm.");
+        feedback.push("Sử dụng tốt cấu trúc câu phức / câu hỏi lịch sự chuẩn B2 để củng cố luận điểm.");
       } else if (wc < 7) {
         quality = "needs_improvement";
         qualityBadge = "Câu hơi ngắn";
-        feedback.push("Câu hơi ngắn (<7 từ), nên mở rộng thêm chi tiết hoặc mệnh đề quan hệ để câu văn giàu thông tin hơn.");
-        upgrade = txt.replace(/[.!?]?$/, ", which will undoubtedly provide you with immense convenience throughout your stay.");
+        feedback.push("Câu hơi ngắn (<7 từ), nên mở rộng thêm mệnh đề chỉ nguyên nhân hoặc mục đích để câu văn giàu thông tin hơn.");
+        upgrade = txt.replace(/[.!?]?$/, " because this will allow you to achieve the most favorable outcome.");
       } else if (wc > 32) {
         quality = "needs_improvement";
         qualityBadge = "Câu hơi dài";
-        feedback.push("Câu dài trên 30 từ, nên tách thành 2 câu đơn/ghép ngắn hơn để tránh lỗi kéo lê (run-on).");
+        feedback.push("Câu dài trên 30 từ, nên tách thành 2 câu đơn/ghép ngắn hơn để tránh lỗi kéo lê (run-on sentence).");
       } else {
         quality = "good";
         qualityBadge = "Đạt chuẩn B2";
@@ -3638,6 +3679,17 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
 
     return {
       index: idx + 1,
+      text: txt,
+      role,
+      roleKey,
+      quality,
+      qualityBadge,
+      wordCount: wc,
+      feedback: feedback.join(" "),
+      upgrade: upgrade || ""
+    };
+  });
+}
       text: txt,
       role,
       roleKey,
