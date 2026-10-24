@@ -484,8 +484,12 @@ document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   
   const hash = (window.location.hash || '').replace('#', '').toLowerCase();
-  if (hash === 'advice' || hash === 'request') {
+  const isTeacher = isTeacherAccount();
+  if (hash === 'advice' || hash === 'request' || (isTeacher && CATEGORY_MAP[hash])) {
     selectCategory(hash);
+  } else if (CATEGORY_MAP[hash] && !isTeacher) {
+    // Nếu học viên gõ hash chuyên đề đang tạm khóa -> Tự động chuyển về Dạng 01
+    selectCategory('advice');
   } else if (hash === 'overview') {
     switchMainScreen('overview');
   } else if (hash === 'submissions' || hash === 'all-submissions') {
@@ -499,14 +503,19 @@ document.addEventListener('DOMContentLoaded', () => {
   
   updateStudentDisplay();
   updatePracticeCopyPasteBadge();
+  updateSidebarCategoryLockUI();
   initPracticeWritingAntiCheat();
   initLoginModal();
 });
 
 window.addEventListener('hashchange', () => {
   const hash = (window.location.hash || '').replace('#', '').toLowerCase();
-  if (hash === 'advice' || hash === 'request') {
+  const isTeacher = isTeacherAccount();
+  if (hash === 'advice' || hash === 'request' || (isTeacher && CATEGORY_MAP[hash])) {
     selectCategory(hash);
+  } else if (CATEGORY_MAP[hash] && !isTeacher) {
+    showToast('🔒 Dạng thư này tạm thời đang khóa đối với học viên.', 'warning');
+    selectCategory('advice');
   } else if (hash === 'overview') {
     switchMainScreen('overview');
   } else if (hash === 'submissions' || hash === 'all-submissions') {
