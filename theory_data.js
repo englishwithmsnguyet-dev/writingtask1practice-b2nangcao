@@ -690,6 +690,10 @@ const B2_DETAILED_OUTLINES = {
           </div>
           <div style="font-size: 0.98rem; color: var(--text-primary); line-height: 1.65;">
             ↳ <strong>I am writing to request some information about <span class="hl-placeholder">[thứ cần xin thông tin]</span>, as I am interested in <span class="hl-placeholder">[mục đích]</span> and would like to learn more before making a decision.</strong>
+            <div style="margin-top: 0.55rem; padding-top: 0.5rem; border-top: 1px dashed rgba(139, 92, 246, 0.3); font-size: 0.9rem; color: var(--text-secondary);">
+              <em style="color: var(--amber-light); font-weight: 700;">(hoặc cách diễn đạt nâng cao):</em><br>
+              ↳ <strong style="color: var(--text-primary);">I am writing to formally request further details regarding <span class="hl-placeholder">[thứ cần xin thông tin]</span>, as I am planning to <span class="hl-placeholder">[mục đích]</span>.</strong>
+            </div>
           </div>
         </div>
       </div>
