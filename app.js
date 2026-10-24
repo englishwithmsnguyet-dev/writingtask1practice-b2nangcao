@@ -4264,6 +4264,7 @@ function saveStudentModalProfile() {
 
   updateStudentDisplay();
   updatePracticeCopyPasteBadge();
+  updateSidebarCategoryLockUI();
   closeStudentModal();
   showToast('Đã cập nhật thông tin học viên!', 'success');
 }
