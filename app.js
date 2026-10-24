@@ -4349,7 +4349,7 @@ function openCategoryTopicsModal() {
           ${escapeHtml(t.title_en)}
         </div>
         <p style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; margin: 0 0 0.85rem 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
-          ${escapeHtml(t.context || t.prompt || '')}
+          ${escapeHtml((t.context || t.prompt || '').replace(/\*\*/g, ''))}
         </p>
         <div style="display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 0.5rem; border-top: 1px solid var(--panel-border);">
           <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 600;">
