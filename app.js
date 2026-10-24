@@ -4215,6 +4215,7 @@ function saveStudentModalProfile() {
   } catch (e) {}
 
   updateStudentDisplay();
+  updatePracticeCopyPasteBadge();
   closeStudentModal();
   showToast('Đã cập nhật thông tin học viên!', 'success');
 }
