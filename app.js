@@ -219,12 +219,36 @@ function enterRoom() {
   if (isTeacher) {
     if (!finalClassVal) finalClassVal = 'GV';
   } else {
+    if (finalClassVal === 'GV') {
+      if (loginError) {
+        loginError.textContent = 'Mã lớp GV chỉ dành riêng cho tài khoản Giáo viên (PTMN)!';
+        loginError.style.display = 'block';
+      }
+      if (studentInput) studentInput.focus();
+      return;
+    }
+
     if (!finalClassVal) {
       if (loginError) {
         loginError.textContent = 'Vui lòng nhập Mã lớp học!';
         loginError.style.display = 'block';
       }
       if (studentClassInput) studentClassInput.focus();
+      return;
+    }
+
+    // Kiểm tra lớp học hợp lệ (CB206, CB210, B2...)
+    const isSpecialStudent = normName.includes('GIA TUỆ') || normName.includes('GIA TUE');
+    const isAllowedClass = ALLOWED_CLASSES.includes(finalClassVal) || finalClassVal.startsWith('CB') || finalClassVal.startsWith('B2') || isSpecialStudent;
+    if (!isAllowedClass) {
+      if (loginError) {
+        loginError.textContent = 'Hệ thống hiện tại mở cho các lớp CB206, CB210 và B2! Vui lòng kiểm tra lại.';
+        loginError.style.display = 'block';
+      }
+      if (studentClassInput) {
+        studentClassInput.focus();
+        studentClassInput.select();
+      }
       return;
     }
 
@@ -237,10 +261,10 @@ function enterRoom() {
       return;
     }
 
-    // So sánh mật khẩu (chấp nhận VSTEOWRITING hoặc VSTEPWRITING)
+    // So sánh mật khẩu (chính thức: VSTEPWRITING)
     if (!ACCESS_PASSWORDS.includes(passwordVal.toUpperCase())) {
       if (loginError) {
-        loginError.textContent = 'Mật khẩu không chính xác! Vui lòng thử lại (VSTEOWRITING).';
+        loginError.textContent = 'Mật khẩu không chính xác! Vui lòng thử lại.';
         loginError.style.display = 'block';
       }
       if (studentPasswordInput) {
