@@ -336,6 +336,113 @@ function enterRoom() {
     startBtn.disabled = false;
     startBtn.innerHTML = `<span>BẮT ĐẦU HỌC</span> <i class="fa-solid fa-arrow-right"></i>`;
   }
+
+  updatePracticeCopyPasteBadge();
+}
+
+// ==========================================================================
+// KHÓA CHỨC NĂNG COPY & PASTE TRONG PHÒNG THỰC HÀNH VIẾT ĐỐI VỚI HỌC VIÊN
+// Tài khoản Giáo viên (PTMN / lớp GV) được phép Copy & Paste bình thường
+// ==========================================================================
+function isTeacherAccount() {
+  const student = AppState.student || {};
+  const name = (student.name || '').trim().toUpperCase();
+  const cls = (student.className || '').trim().toUpperCase();
+  return name === 'PTMN' || cls === 'GV';
+}
+
+function updatePracticeCopyPasteBadge() {
+  const badge = document.getElementById('practiceCopyPasteBadge');
+  if (!badge) return;
+  if (isTeacherAccount()) {
+    badge.style.background = 'rgba(16, 185, 129, 0.12)';
+    badge.style.color = 'var(--emerald-light)';
+    badge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+    badge.innerHTML = '<i class="fa-solid fa-user-tie"></i> <span>Giáo viên (Được phép Copy-Paste)</span>';
+    badge.title = 'Tài khoản Giáo viên được phép sao chép và dán';
+  } else {
+    badge.style.background = 'rgba(244, 63, 94, 0.12)';
+    badge.style.color = 'var(--danger)';
+    badge.style.borderColor = 'rgba(244, 63, 94, 0.3)';
+    badge.innerHTML = '<i class="fa-solid fa-shield-halved"></i> <span>Khóa Copy - Paste</span>';
+    badge.title = 'Chức năng Sao chép & Dán bị khóa đối với học viên để rèn luyện kỹ năng gõ thực tế trong phòng thi';
+  }
+}
+
+function initPracticeWritingAntiCheat() {
+  const textarea = document.getElementById('practiceWritingTextarea');
+  if (!textarea) return;
+
+  // 1. Chặn sự kiện PASTE (Dán)
+  textarea.addEventListener('paste', (e) => {
+    if (isTeacherAccount()) return; // Giáo viên được phép
+    e.preventDefault();
+    e.stopPropagation();
+    showToast('🚫 Chức năng Dán (Paste) đã bị khóa đối với học viên! Vui lòng tự gõ bài làm để rèn luyện kỹ năng phòng thi.', 'warning');
+  });
+
+  // 2. Chặn sự kiện COPY (Sao chép)
+  textarea.addEventListener('copy', (e) => {
+    if (isTeacherAccount()) return; // Giáo viên được phép
+    e.preventDefault();
+    e.stopPropagation();
+    showToast('🚫 Chức năng Sao chép (Copy) đã bị khóa đối với học viên.', 'warning');
+  });
+
+  // 3. Chặn sự kiện CUT (Cắt)
+  textarea.addEventListener('cut', (e) => {
+    if (isTeacherAccount()) return; // Giáo viên được phép
+    e.preventDefault();
+    e.stopPropagation();
+    showToast('🚫 Chức năng Cắt (Cut) đã bị khóa đối với học viên.', 'warning');
+  });
+
+  // 4. Chặn phím tắt Ctrl+V, Cmd+V, Ctrl+C, Cmd+C, Ctrl+X, Cmd+X, Shift+Insert
+  textarea.addEventListener('keydown', (e) => {
+    if (isTeacherAccount()) return; // Giáo viên được phép
+
+    const isCtrlOrCmd = e.ctrlKey || e.metaKey;
+    const key = (e.key || '').toLowerCase();
+
+    // Chặn Paste
+    if ((isCtrlOrCmd && key === 'v') || (e.shiftKey && e.key === 'Insert')) {
+      e.preventDefault();
+      e.stopPropagation();
+      showToast('🚫 Phím tắt Dán (Ctrl+V / Cmd+V) đã bị khóa! Vui lòng tự gõ bài làm.', 'warning');
+      return;
+    }
+
+    // Chặn Copy
+    if (isCtrlOrCmd && key === 'c') {
+      e.preventDefault();
+      e.stopPropagation();
+      showToast('🚫 Phím tắt Sao chép (Ctrl+C / Cmd+C) đã bị khóa đối với học viên.', 'warning');
+      return;
+    }
+
+    // Chặn Cut
+    if (isCtrlOrCmd && key === 'x') {
+      e.preventDefault();
+      e.stopPropagation();
+      showToast('🚫 Phím tắt Cắt (Ctrl+X / Cmd+X) đã bị khóa đối với học viên.', 'warning');
+      return;
+    }
+  });
+
+  // 5. Chặn kéo thả văn bản vào textarea (Drag & Drop)
+  textarea.addEventListener('drop', (e) => {
+    if (isTeacherAccount()) return;
+    e.preventDefault();
+    e.stopPropagation();
+    showToast('🚫 Không thể kéo thả văn bản vào bài làm.', 'warning');
+  });
+
+  // 6. Chặn menu chuột phải (Context Menu) trong ô viết bài
+  textarea.addEventListener('contextmenu', (e) => {
+    if (isTeacherAccount()) return;
+    e.preventDefault();
+    showToast('🚫 Menu chuột phải và thao tác sao chép / dán đã bị khóa.', 'warning');
+  });
 }
 
 // ==========================================================================
@@ -360,6 +467,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   updateStudentDisplay();
+  updatePracticeCopyPasteBadge();
+  initPracticeWritingAntiCheat();
   initLoginModal();
 });
 
