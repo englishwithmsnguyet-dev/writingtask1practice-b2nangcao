@@ -2391,8 +2391,14 @@ function switchSubmissionsSubTab(subTab) {
   if (!container) return;
 
   if (subTab === 'result') {
-    if (btnResult) btnResult.classList.add('active');
-    if (btnRecitation) btnRecitation.classList.remove('active');
+    if (btnResult) {
+      btnResult.classList.add('active', 'btn-primary');
+      btnResult.classList.remove('btn-secondary');
+    }
+    if (btnRecitation) {
+      btnRecitation.classList.remove('active', 'btn-primary');
+      btnRecitation.classList.add('btn-secondary');
+    }
     
     // Find latest submission for active category
     const catSubs = AppState.submissions.filter(s => s.categoryKey === AppState.activeCategory);
@@ -2415,8 +2421,14 @@ function switchSubmissionsSubTab(subTab) {
       `;
     }
   } else if (subTab === 'recitation') {
-    if (btnResult) btnResult.classList.remove('active');
-    if (btnRecitation) btnRecitation.classList.add('active');
+    if (btnResult) {
+      btnResult.classList.remove('active', 'btn-primary');
+      btnResult.classList.add('btn-secondary');
+    }
+    if (btnRecitation) {
+      btnRecitation.classList.add('active', 'btn-primary');
+      btnRecitation.classList.remove('btn-secondary');
+    }
     initRecitationForActiveCategory();
   }
 }
@@ -2429,19 +2441,20 @@ function renderCategorySubmissionsTab() {
   if (AppState.isRecitationInProgress && AppState.recitationCategory === AppState.activeCategory) {
     const btnResult = document.getElementById('btnSubNavResult');
     const btnRecitation = document.getElementById('btnSubNavRecitation');
-    if (btnResult) btnResult.classList.remove('active');
-    if (btnRecitation) btnRecitation.classList.add('active');
+    if (btnResult) {
+      btnResult.classList.remove('active', 'btn-primary');
+      btnResult.classList.add('btn-secondary');
+    }
+    if (btnRecitation) {
+      btnRecitation.classList.add('active', 'btn-primary');
+      btnRecitation.classList.remove('btn-secondary');
+    }
     showRecitationQuestion();
     return;
   }
 
-  // Default to showing latest submission result if exists, otherwise show prompt/recitation
-  const catSubs = AppState.submissions.filter(s => s.categoryKey === AppState.activeCategory);
-  if (catSubs.length > 0) {
-    switchSubmissionsSubTab('result');
-  } else {
-    switchSubmissionsSubTab('result');
-  }
+  // MẶC ĐỊNH MỞ NGAY HỆ THỐNG TRẢ BÀI DÀN Ý CHI TIẾT KHI HỌC VIÊN CHỌN TAB TRẢ BÀI!
+  switchSubmissionsSubTab('recitation');
 }
 
 function initRecitationForActiveCategory() {
