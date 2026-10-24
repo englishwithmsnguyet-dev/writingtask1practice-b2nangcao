@@ -614,9 +614,12 @@ function switchMainScreen(screenName) {
 }
 
 function selectCategory(catKey) {
-  if (AppState.isRecitationInProgress) {
-    showToast('🔒 Đang trong chế độ Trả bài! Bạn cần hoàn thành hoặc chọn "Nộp bài sớm" trước khi đổi chuyên đề.', 'warning');
-    return;
+  if (AppState.isRecitationInProgress && catKey !== AppState.activeCategory) {
+    if (confirm('🔒 Bạn đang trong bài kiểm tra Trả bài. Bạn có muốn nộp bài sớm để chuyển chuyên đề không?')) {
+      submitRecitationEarly();
+    } else {
+      return;
+    }
   }
 
   // Tạm khóa Dạng thư từ 03 đến 07 đối với tài khoản học viên (Chỉ mở Dạng 01 Advice và Dạng 02 Request)
@@ -771,8 +774,11 @@ function populateTopicSelectors(categoryTopics) {
 // ==========================================================================
 function switchWorkflowTab(tabName) {
   if (AppState.isRecitationInProgress && tabName !== 'submissions') {
-    showToast('🔒 Đang trong chế độ Trả bài! Toàn bộ tài liệu đã được khóa. Hãy hoàn thành hoặc chọn "Nộp bài sớm" để mở khóa.', 'warning');
-    return;
+    if (confirm('🔒 Bạn đang trong bài kiểm tra Trả bài. Bạn có muốn nộp bài sớm để chuyển sang tab khác không?')) {
+      submitRecitationEarly();
+    } else {
+      return;
+    }
   }
   AppState.activeTab = tabName;
 
