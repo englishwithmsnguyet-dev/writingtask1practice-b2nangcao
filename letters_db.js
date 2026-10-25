@@ -1,3 +1,8 @@
+/**
+ * VSTEP WRITING TASK 01 - B2 NÂNG CAO
+ * Cơ sở dữ liệu Ngân hàng Đề thi & Bài mẫu chuẩn B2
+ */
+
 const LETTERS_DATA = [
   {
     "id": 1,
@@ -12025,105 +12030,125 @@ const LETTERS_DATA = [
               "en": "Dear Sir/Madam, I am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.",
               "vocab_hints": [
                 {
-                  "en": "express my dissatisfaction with",
-                  "vi": "bày tỏ sự không hài lòng với"
+                  "en": "I am writing to express my dissatisfaction with",
+                  "vi": "Tôi viết thư này để bày tỏ sự không hài lòng với"
+                },
+                {
+                  "en": "condition of the changing room",
+                  "vi": "tình trạng của phòng thay đồ"
                 },
                 {
                   "en": "disappointed with the experience",
-                  "vi": "thất vọng với trải nghiệm"
+                  "vi": "thất vọng với trải nghiệm này"
                 }
               ],
-              "explanation": "Mở đầu thư phàn nàn trang trọng chuẩn Dàn ý Bước 2, nêu rõ dịch vụ sử dụng và sự thất vọng.",
+              "explanation": "Lời chào mở đầu trang trọng kết hợp câu mở thư chuẩn B2 nêu rõ lý do viết thư và sự thất vọng.",
               "checkpoints": [
                 {
                   "id": "cp1",
-                  "name": "Mở thư khiếu nại",
+                  "name": "Lời chào & Mở thư",
                   "pattern": {},
-                  "desc": "Nêu rõ sự không hài lòng và trải nghiệm sử dụng phòng thay đồ",
-                  "missingFeedback": "Cần có câu mở thư trang trọng bày tỏ sự không hài lòng."
+                  "desc": "Lời chào Dear Sir/Madam và câu mở đầu chuẩn B2",
+                  "missingFeedback": "Cần mở thư trang trọng đúng chuẩn B2."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Dear Sir/Madam, I am writing to express my dissatisfaction with the sports center changing room, as I recently used it and was disappointed with the experience."
+                "Dear Sir/Madam, I am writing to report several problems with the changing room at your sports center. I recently visited your center, and I was deeply disappointed with the facility."
               ]
             },
             {
               "id": 2,
-              "part": "2. Thân thư 1 - Vấn đề chính & Mối bận tâm (Problems: Hygiene & Lockers)",
-              "vi": "Vấn đề chính là phòng thay đồ không được dọn dẹp thường xuyên, vì vậy sàn nhà bị ướt và trơn trượt cùng với rác ở trên sàn. Một mối bận tâm khác là một vài tủ đồ đã bị hỏng và không thể khóa chặt an toàn.",
-              "en": "The main problem was that the changing room was not cleaned on a regular basis, so the floor was wet and slippery with rubbish on it. Another concern was that several lockers were broken and could not be locked securely.",
+              "part": "2. Thân thư 1 - Cặp 1: Câu vấn đề chính 1 + Câu mô tả cụ thể 1",
+              "vi": "Trước hết, vấn đề chính là phòng thay đồ được giữ gìn kém. Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.",
+              "en": "To begin with, the main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use.",
               "vocab_hints": [
                 {
-                  "en": "The main problem was that",
-                  "vi": "Vấn đề chính là"
+                  "en": "To begin with, the main problem was that",
+                  "vi": "Trước hết, vấn đề chính là"
                 },
                 {
-                  "en": "wet and slippery",
-                  "vi": "ẩm ướt và trơn trượt"
+                  "en": "poorly maintained",
+                  "vi": "được bảo quản/giữ gìn kém"
                 },
+                {
+                  "en": "Rubbish was scattered across the floor",
+                  "vi": "Rác vương vãi khắp sàn nhà"
+                },
+                {
+                  "en": "which made the entire area look unhygienic",
+                  "vi": "điều này khiến toàn bộ khu vực trông mất vệ sinh"
+                },
+                {
+                  "en": "unpleasant to use",
+                  "vi": "khó chịu khi sử dụng"
+                }
+              ],
+              "explanation": "Cặp câu 1 Thân thư 1 gồm: 1 câu nêu vấn đề chính với cấu trúc dẫn dắt B2 và 1 câu mô tả chi tiết biểu hiện thực tế (dùng mệnh đề quan hệ 'which made...').",
+              "checkpoints": [
+                {
+                  "id": "cp2",
+                  "name": "Cặp câu 1 Thân thư 1",
+                  "pattern": {},
+                  "desc": "Cặp câu: Vấn đề bảo quản kém + Rác vương vãi trên sàn",
+                  "missingFeedback": "Cần hoàn thiện Cặp câu 1 (Vấn đề chính + Mô tả cụ thể)."
+                }
+              ],
+              "grammar_notes": [],
+              "alternatives": [
+                "The main problem was that the changing room was poorly maintained, and rubbish was scattered across the floor, which made the area look very unhygienic."
+              ]
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư 1 - Cặp 2 & 3: Các vấn đề tiếp theo kèm mô tả cụ thể",
+              "vi": "Một mối bận tâm khác là một vài tủ đồ không thể sử dụng được. Tôi không thể cất giữ đồ dùng cá nhân an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng. Một vấn đề nữa là không có nước nóng trong phòng tắm vòi sen, khiến việc vệ sinh cơ thể sau khi tập luyện rất bất tiện.",
+              "en": "Another concern was that several lockers were out of order. I was unable to secure my personal belongings, which made me concerned about their safety. A further issue was that there was no hot water in the showers, which made it inconvenient to freshen up after exercising.",
+              "vocab_hints": [
                 {
                   "en": "Another concern was that",
                   "vi": "Một mối bận tâm khác là"
                 },
                 {
-                  "en": "locked securely",
-                  "vi": "khóa chặt an toàn"
-                }
-              ],
-              "explanation": "Thân thư 1 nêu 2 vấn đề cụ thể, dùng liên từ 'so' tự nhiên, dễ kiểm soát và không dùng rút gọn mệnh đề quan hệ.",
-              "checkpoints": [
+                  "en": "out of order",
+                  "vi": "bị hỏng / không sử dụng được"
+                },
                 {
-                  "id": "cp2",
-                  "name": "Trình bày 2 vấn đề đầu tiên",
-                  "pattern": {},
-                  "desc": "Trình bày vấn đề vệ sinh và tủ đồ hỏng",
-                  "missingFeedback": "Cần trình bày các vấn đề cụ thể kèm chi tiết bổ trợ."
-                }
-              ],
-              "grammar_notes": [],
-              "alternatives": [
-                "To begin with, the changing room was not cleaned regularly, so the floor was very slippery with rubbish around. In addition, several lockers were broken and could not be locked securely."
-              ]
-            },
-            {
-              "id": 3,
-              "part": "3. Thân thư 1 - Vấn đề bổ sung & Hệ quả (Further issue & Ventilation)",
-              "vi": "Một vấn đề nữa là mùi khó chịu lưu lại trong phòng do hệ thống thông gió hoạt động kém, điều này gây ra sự khó chịu đáng kể cho các thành viên.",
-              "en": "A further issue was that an unpleasant odor lingered in the room because the ventilation system was malfunctioning, which caused considerable discomfort to members.",
-              "vocab_hints": [
+                  "en": "unable to secure my personal belongings",
+                  "vi": "không thể cất giữ đồ đạc an toàn"
+                },
+                {
+                  "en": "concerned about their safety",
+                  "vi": "lo lắng về sự an toàn của chúng"
+                },
                 {
                   "en": "A further issue was that",
                   "vi": "Một vấn đề nữa là"
                 },
                 {
-                  "en": "unpleasant odor lingered",
-                  "vi": "mùi khó chịu lưu lại"
-                },
-                {
-                  "en": "ventilation system was malfunctioning",
-                  "vi": "hệ thống thông gió hoạt động kém"
+                  "en": "inconvenient to freshen up",
+                  "vi": "bất tiện để tắm rửa sạch sẽ"
                 }
               ],
-              "explanation": "Dùng mệnh đề quan hệ đầy đủ 'which caused...' tự nhiên và đúng chuẩn ngữ pháp.",
+              "explanation": "Triển khai tiếp các cặp câu: Câu nêu vấn đề tủ đồ hỏng + Câu mô tả việc không cất được đồ, và vấn đề vòi sen không có nước nóng.",
               "checkpoints": [
                 {
                   "id": "cp3",
-                  "name": "Vấn đề thông gió & mùi hôi",
+                  "name": "Cặp câu 2 & 3 Thân thư 1",
                   "pattern": {},
-                  "desc": "Nêu vấn đề mùi hôi và hệ thống thông gió",
-                  "missingFeedback": "Cần nêu thêm vấn đề thông gió hoặc mùi khó chịu."
+                  "desc": "Nêu vấn đề tủ đồ hỏng và vòi sen kèm mô tả cụ thể",
+                  "missingFeedback": "Cần trình bày đủ các vấn đề tiếp theo kèm câu mô tả chi tiết."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "What made the situation worse was that a bad smell lingered in the room because the ventilation did not work properly."
+                "In addition, some lockers were broken and could not be locked securely. Furthermore, the showers lacked hot water, which caused great inconvenience to members."
               ]
             },
             {
               "id": 4,
               "part": "4. Thân thư 2 - Giải thích cảm xúc (Feelings & Expectations)",
-              "vi": "Tôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn từ một trung tâm thể thao có uy tín. Điều kiện mất vệ sinh này khiến tôi cảm thấy vô cùng bực bội và khó chịu trong suốt chuyến đi.",
+              "vi": "Tôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn từ một trung tâm thể thao có uy tín. Tình trạng mất vệ sinh này khiến tôi cảm thấy vô cùng bực bội và khó chịu trong suốt chuyến đi.",
               "en": "I was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me feel extremely frustrated and uncomfortable throughout my visit.",
               "vocab_hints": [
                 {
@@ -12135,6 +12160,10 @@ const LETTERS_DATA = [
                   "vi": "kỳ vọng chất lượng và dịch vụ tốt hơn"
                 },
                 {
+                  "en": "reputable sports center",
+                  "vi": "trung tâm thể thao có uy tín"
+                },
+                {
                   "en": "unhygienic condition",
                   "vi": "điều kiện mất vệ sinh"
                 },
@@ -12143,7 +12172,7 @@ const LETTERS_DATA = [
                   "vi": "vô cùng bực bội và khó chịu"
                 }
               ],
-              "explanation": "Thân thư 2 giải thích cảm xúc và kỳ vọng bằng câu đơn giản, mạch lạc, dễ nhớ.",
+              "explanation": "Thân thư 2 giải thích cảm xúc thất vọng và kỳ vọng của bản thân theo mẫu chuẩn B2.",
               "checkpoints": [
                 {
                   "id": "cp4",
@@ -12155,14 +12184,14 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [
-                "I was particularly disappointed with this experience because I expected much better service from your sports center. This made me feel very uncomfortable and unhappy."
+                "I was particularly disappointed with this visit because I expected much higher standards from your center. This experience made me feel very upset and unhappy."
               ]
             },
             {
               "id": 5,
               "part": "5. Thân thư 3 - Đề xuất giải pháp (Suggestions & Improvements)",
-              "vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sắp xếp vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn trong ngày. Ngoài ra, tôi tha thiết đề xuất ban quản lý sửa chữa các tủ đồ bị hỏng và nâng cấp hệ thống thông gió ngay lập tức.",
-              "en": "I would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and upgrade the ventilation system immediately.",
+              "vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sắp xếp vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn trong ngày. Ngoài ra, tôi tha thiết đề xuất ban quản lý sửa chữa các tủ đồ bị hỏng và đảm bảo hệ thống nước nóng hoạt động tốt.",
+              "en": "I would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and ensure a steady supply of hot water immediately.",
               "vocab_hints": [
                 {
                   "en": "I would appreciate it if you could",
@@ -12170,20 +12199,28 @@ const LETTERS_DATA = [
                 },
                 {
                   "en": "cleaned and inspected more frequently",
-                  "vi": "được dọn dẹp và kiểm tra thường xuyên hơn"
+                  "vi": "được vệ sinh và kiểm tra thường xuyên hơn"
                 },
                 {
                   "en": "I strongly recommend that the management",
                   "vi": "Tôi tha thiết đề xuất rằng ban quản lý"
+                },
+                {
+                  "en": "repair the faulty lockers",
+                  "vi": "sửa chữa các tủ khóa bị lỗi"
+                },
+                {
+                  "en": "ensure a steady supply of hot water",
+                  "vi": "đảm bảo nguồn cung cấp nước nóng ổn định"
                 }
               ],
-              "explanation": "Thân thư 3 sử dụng cấu trúc B2 đề xuất giải pháp lịch sự và mạnh mẽ.",
+              "explanation": "Thân thư 3 áp dụng cấu trúc đề xuất giải pháp mạnh mẽ và lịch sự chuẩn B2.",
               "checkpoints": [
                 {
                   "id": "cp5",
                   "name": "Đề xuất giải pháp",
                   "pattern": {},
-                  "desc": "Đề xuất vệ sinh thường xuyên, sửa tủ đồ và nâng cấp thông gió",
+                  "desc": "Đề xuất vệ sinh thường xuyên, sửa tủ đồ và bảo đảm nước nóng",
                   "missingFeedback": "Cần sử dụng cấu trúc đề xuất giải pháp chuẩn B2."
                 }
               ],
@@ -12195,7 +12232,7 @@ const LETTERS_DATA = [
             {
               "id": 6,
               "part": "6. Kết thư & Ký tên (Closing & Sign-off)",
-              "vi": "Tôi tin rằng các biện pháp này cần được thực hiện để đảm bảo một môi trường sạch sẽ và an toàn cho tất cả các thành viên. Tôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị. Trân trọng,",
+              "vi": "Tôi tin rằng các biện pháp này cần được thực hiện để đảm bảo một môi trường sạch sẽ, an toàn và dễ chịu cho tất cả các thành viên. Tôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị. Trân trọng,",
               "en": "I believe that these steps should be taken to ensure a clean, safe, and pleasant environment for all members. I hope that these issues will be addressed promptly. I look forward to hearing from you soon. Yours faithfully,",
               "vocab_hints": [
                 {
@@ -12215,19 +12252,19 @@ const LETTERS_DATA = [
                   "vi": "Trân trọng, (khi dùng Dear Sir/Madam)"
                 }
               ],
-              "explanation": "Kết thư 2 ý: yêu cầu giải quyết vấn đề + mong đợi hồi âm, và lời chào kết thúc trang trọng.",
+              "explanation": "Kết thư 2 ý: niềm tin về hành động cần thực hiện + yêu cầu giải quyết kịp thời và mong chờ hồi âm.",
               "checkpoints": [
                 {
                   "id": "cp6",
-                  "name": "Kết thư & Lời chào kết thúc",
+                  "name": "Kết thư & Ký tên",
                   "pattern": {},
-                  "desc": "Kết thư với 2 ý: addressed promptly & hearing from you soon, kèm Yours faithfully",
+                  "desc": "Kết thư chuẩn B2 và ký tên Yours faithfully",
                   "missingFeedback": "Cần có câu kết thư và lời chào kết thúc trang trọng."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "I hope that these issues will be addressed promptly. I look forward to hearing from you soon. Yours faithfully,"
+                "I hope that these issues will be resolved without delay. I look forward to receiving your reply soon. Yours faithfully,"
               ]
             }
           ],
@@ -12288,19 +12325,19 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.\n\nThe main problem was that the changing room was not cleaned on a regular basis, so the floor was wet and slippery with rubbish on it. Another concern was that several lockers were broken and could not be locked securely. A further issue was that an unpleasant odor lingered in the room because the ventilation system was malfunctioning.\n\nI was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me feel extremely frustrated and uncomfortable throughout my visit.\n\nI would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and upgrade the ventilation system immediately. I believe that these steps should be taken to ensure a clean, safe, and pleasant environment for all members.\n\nI hope that these issues will be addressed promptly. I look forward to hearing from you soon.\n\nYours faithfully,",
-            "letter_vi": "Kính gửi Ông/Bà,\n\nTôi viết thư này để bày tỏ sự không hài lòng với tình trạng của phòng thay đồ tại trung tâm thể thao của quý vị. Gần đây tôi đã sử dụng cơ sở này, và tôi đã thất vọng với trải nghiệm này.\n\nVấn đề chính là phòng thay đồ không được dọn dẹp thường xuyên, vì vậy sàn nhà bị ướt và trơn trượt cùng với rác ở trên sàn. Một mối bận tâm khác là một vài tủ đồ đã bị hỏng và không thể khóa chặt an toàn. Một vấn đề nữa là mùi khó chịu lưu lại trong phòng do hệ thống thông gió hoạt động kém.\n\nTôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn từ một trung tâm thể thao có uy tín. Điều kiện mất vệ sinh này khiến tôi cảm thấy vô cùng bực bội và khó chịu trong suốt chuyến đi.\n\nTôi sẽ rất cảm kích nếu quý vị có thể sắp xếp vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn trong ngày. Ngoài ra, tôi tha thiết đề xuất ban quản lý sửa chữa các tủ đồ bị hỏng và nâng cấp hệ thống thông gió ngay lập tức. Tôi tin rằng các biện pháp này cần được thực hiện để đảm bảo một môi trường sạch sẽ, an toàn và dễ chịu cho tất cả các thành viên.\n\nTôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.\n\nThe main problem was that the changing room was not cleaned on a regular basis, so the floor was wet and slippery with rubbish on it. Another concern was that several lockers were broken and could not be locked securely. A further issue was that an unpleasant odor lingered in the room because the ventilation system was malfunctioning.\n\nI was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me feel extremely frustrated and uncomfortable throughout my visit.\n\nI would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and upgrade the ventilation system immediately. I believe that these steps should be taken to ensure a clean, safe, and pleasant environment for all members.\n\nI hope that these issues will be addressed promptly. I look forward to hearing from you soon.\n\nYours faithfully,",
-            "translation": "Kính gửi Ông/Bà,\n\nTôi viết thư này để bày tỏ sự không hài lòng với tình trạng của phòng thay đồ tại trung tâm thể thao của quý vị. Gần đây tôi đã sử dụng cơ sở này, và tôi đã thất vọng với trải nghiệm này.\n\nVấn đề chính là phòng thay đồ không được dọn dẹp thường xuyên, vì vậy sàn nhà bị ướt và trơn trượt cùng với rác ở trên sàn. Một mối bận tâm khác là một vài tủ đồ đã bị hỏng và không thể khóa chặt an toàn. Một vấn đề nữa là mùi khó chịu lưu lại trong phòng do hệ thống thông gió hoạt động kém.\n\nTôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn từ một trung tâm thể thao có uy tín. Điều kiện mất vệ sinh này khiến tôi cảm thấy vô cùng bực bội và khó chịu trong suốt chuyến đi.\n\nTôi sẽ rất cảm kích nếu quý vị có thể sắp xếp vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn trong ngày. Ngoài ra, tôi tha thiết đề xuất ban quản lý sửa chữa các tủ đồ bị hỏng và nâng cấp hệ thống thông gió ngay lập tức. Tôi tin rằng các biện pháp này cần được thực hiện để đảm bảo một môi trường sạch sẽ, an toàn và dễ chịu cho tất cả các thành viên.\n\nTôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị.\n\nTrân trọng,",
-            "word_count": 180,
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.\n\nTo begin with, the main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use. Another concern was that several lockers were out of order. I was unable to secure my personal belongings, which made me concerned about their safety. A further issue was that there was no hot water available in the showers. I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.\n\nI was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me feel extremely frustrated and uncomfortable throughout my visit.\n\nI would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and ensure a steady supply of hot water immediately. I believe that these steps should be taken to ensure a clean, safe, and pleasant environment for all members.\n\nI hope that these issues will be addressed promptly. I look forward to hearing from you soon.\n\nYours faithfully,",
+            "letter_vi": "Kính gửi Ông/Bà,\n\nTôi viết thư này để bày tỏ sự không hài lòng với tình trạng của phòng thay đồ tại trung tâm thể thao của quý vị. Gần đây tôi đã sử dụng cơ sở này, và tôi đã thất vọng với trải nghiệm này.\n\nTrước hết, vấn đề chính là phòng thay đồ được giữ gìn kém. Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng. Một mối bận tâm khác là một vài tủ đồ không thể sử dụng được. Tôi không thể cất giữ đồ dùng cá nhân an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng. Một vấn đề nữa là không có nước nóng trong phòng tắm vòi sen. Tôi không có lựa chọn nào khác ngoài việc phải tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.\n\nTôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn từ một trung tâm thể thao có uy tín. Tình trạng mất vệ sinh này khiến tôi cảm thấy vô cùng bực bội và khó chịu trong suốt chuyến đi.\n\nTôi sẽ rất cảm kích nếu quý vị có thể sắp xếp vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn trong ngày. Ngoài ra, tôi tha thiết đề xuất ban quản lý sửa chữa các tủ đồ bị hỏng và đảm bảo hệ thống nước nóng hoạt động tốt. Tôi tin rằng các biện pháp này cần được thực hiện để đảm bảo một môi trường sạch sẽ, an toàn và dễ chịu cho tất cả các thành viên.\n\nTôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị.\n\nTrân trọng,",
+            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.\n\nTo begin with, the main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use. Another concern was that several lockers were out of order. I was unable to secure my personal belongings, which made me concerned about their safety. A further issue was that there was no hot water available in the showers. I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.\n\nI was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me feel extremely frustrated and uncomfortable throughout my visit.\n\nI would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and ensure a steady supply of hot water immediately. I believe that these steps should be taken to ensure a clean, safe, and pleasant environment for all members.\n\nI hope that these issues will be addressed promptly. I look forward to hearing from you soon.\n\nYours faithfully,",
+            "translation": "Kính gửi Ông/Bà,\n\nTôi viết thư này để bày tỏ sự không hài lòng với tình trạng của phòng thay đồ tại trung tâm thể thao của quý vị. Gần đây tôi đã sử dụng cơ sở này, và tôi đã thất vọng với trải nghiệm này.\n\nTrước hết, vấn đề chính là phòng thay đồ được giữ gìn kém. Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng. Một mối bận tâm khác là một vài tủ đồ không thể sử dụng được. Tôi không thể cất giữ đồ dùng cá nhân an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng. Một vấn đề nữa là không có nước nóng trong phòng tắm vòi sen. Tôi không có lựa chọn nào khác ngoài việc phải tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.\n\nTôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn từ một trung tâm thể thao có uy tín. Tình trạng mất vệ sinh này khiến tôi cảm thấy vô cùng bực bội và khó chịu trong suốt chuyến đi.\n\nTôi sẽ rất cảm kích nếu quý vị có thể sắp xếp vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn trong ngày. Ngoài ra, tôi tha thiết đề xuất ban quản lý sửa chữa các tủ đồ bị hỏng và đảm bảo hệ thống nước nóng hoạt động tốt. Tôi tin rằng các biện pháp này cần được thực hiện để đảm bảo một môi trường sạch sẽ, an toàn và dễ chịu cho tất cả các thành viên.\n\nTôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị.\n\nTrân trọng,",
+            "word_count": 236,
             "key_structures": [
               {
                 "en": "I am writing to express my dissatisfaction with ...",
                 "vi": "Tôi viết thư này để bày tỏ sự không hài lòng với..."
               },
               {
-                "en": "The main problem was that ...",
-                "vi": "Vấn đề chính là..."
+                "en": "To begin with, the main problem was that ...",
+                "vi": "Trước hết, vấn đề chính là..."
               },
               {
                 "en": "Another concern was that ...",
@@ -12311,8 +12348,8 @@ const LETTERS_DATA = [
                 "vi": "Một vấn đề nữa là..."
               },
               {
-                "en": "I was particularly disappointed with this experience because I expected a better level of quality and service.",
-                "vi": "Tôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn."
+                "en": "I was particularly disappointed with this experience because I expected ...",
+                "vi": "Tôi đặc biệt thất vọng với trải nghiệm này vì tôi kỳ vọng..."
               },
               {
                 "en": "I would appreciate it if you could ...",
@@ -12320,24 +12357,20 @@ const LETTERS_DATA = [
               },
               {
                 "en": "I strongly recommend that the management ...",
-                "vi": "Tôi tha thiết đề xuất rằng ban quản lý..."
+                "vi": "Tôi tha thiết đề xuất ban quản lý..."
               },
               {
                 "en": "I believe that steps should be taken to ...",
                 "vi": "Tôi tin rằng các biện pháp cần được thực hiện để..."
-              },
-              {
-                "en": "I hope that these issues will be addressed promptly. I look forward to hearing from you soon.",
-                "vi": "Tôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị."
               }
             ]
           },
           "outline": {
             "salutation": "Dear Sir/Madam,",
             "opening": "I am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.",
-            "body_1": "The main problem was that the changing room was not cleaned on a regular basis, so the floor was wet and slippery with rubbish on it. Another concern was that several lockers were broken and could not be locked securely. A further issue was that an unpleasant odor lingered in the room because the ventilation system was malfunctioning.",
+            "body_1": "To begin with, the main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use. Another concern was that several lockers were out of order. I was unable to secure my personal belongings, which made me concerned about their safety. A further issue was that there was no hot water available in the showers. I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.",
             "body_2": "I was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me feel extremely frustrated and uncomfortable throughout my visit.",
-            "body_3": "I would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and upgrade the ventilation system immediately. I believe that these steps should be taken to ensure a clean, safe, and pleasant environment for all members.",
+            "body_3": "I would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and ensure a steady supply of hot water immediately. I believe that these steps should be taken to ensure a clean, safe, and pleasant environment for all members.",
             "closing": "I hope that these issues will be addressed promptly. I look forward to hearing from you soon.",
             "signoff": "Yours faithfully,"
           }
@@ -21200,6 +21233,6 @@ const LETTERS_DATA = [
   }
 ];
 
-if (typeof module !== "undefined" && module.exports) {
+if (typeof module !== 'undefined' && module.exports) {
   module.exports = { LETTERS_DATA };
 }
