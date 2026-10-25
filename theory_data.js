@@ -329,7 +329,7 @@ const B2_CATEGORY_THEORY = {
       {
         pattern: "The main problem was that …",
         meaning: "Vấn đề chính là...",
-        example: "The main problem was that the changing room was not cleaned on a regular basis, leaving the floor wet and slippery."
+        example: "The main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use."
       },
       {
         pattern: "Another concern was that …",
