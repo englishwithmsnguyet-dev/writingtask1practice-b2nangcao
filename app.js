@@ -3690,17 +3690,6 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
     };
   });
 }
-      text: txt,
-      role,
-      roleKey,
-      quality,
-      qualityBadge,
-      wordCount: wc,
-      feedback: feedback.join(" "),
-      upgrade: upgrade || ""
-    };
-  });
-}
 
 function evaluateVstepLetter(text, topic) {
   const words = text.split(/\s+/).filter(Boolean);
