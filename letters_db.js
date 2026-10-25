@@ -11668,16 +11668,16 @@ const LETTERS_DATA = [
                   "action_vi": "Phòng thay đồ được giữ gìn kém.",
                   "reason_en": "Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use.",
                   "reason_vi": "Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.",
-                  "expansion_1_en": "I would appreciate it if you could arrange for the changing room to be cleaned more frequently.",
-                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể bố trí vệ sinh phòng thay đồ thường xuyên hơn."
+                  "solution_en": "I would appreciate it if you could arrange for the changing room to be cleaned more frequently.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể bố trí vệ sinh phòng thay đồ thường xuyên hơn."
                 },
                 {
                   "action_en": "The changing room was not cleaned on a regular basis.",
                   "action_vi": "Phòng thay đồ không được vệ sinh thường xuyên.",
                   "reason_en": "An unpleasant smell lingered in the room, so members felt uncomfortable when changing their clothes.",
                   "reason_vi": "Mùi khó chịu lưu lại trong phòng, vì vậy các thành viên cảm thấy không thoải mái khi thay quần áo.",
-                  "expansion_1_en": "I strongly recommend that you improve the cleaning service and ensure regular maintenance.",
-                  "expansion_1_vi": "Tôi tha thiết đề xuất quý vị cải thiện dịch vụ vệ sinh và bảo đảm việc bảo trì thường xuyên."
+                  "solution_en": "I strongly recommend that you improve the cleaning service and ensure regular maintenance.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị cải thiện dịch vụ vệ sinh và bảo đảm việc bảo trì thường xuyên."
                 }
               ]
             },
@@ -11692,16 +11692,16 @@ const LETTERS_DATA = [
                   "action_vi": "Một số tủ khóa không thể sử dụng được.",
                   "reason_en": "I was unable to secure my personal belongings, which made me concerned about their safety.",
                   "reason_vi": "Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng.",
-                  "expansion_1_en": "I would like to suggest that you repair or replace the faulty lockers as soon as possible.",
-                  "expansion_1_vi": "Tôi muốn gợi ý rằng quý vị sửa chữa hoặc thay thế các tủ khóa bị lỗi sớm nhất có thể."
+                  "solution_en": "I would like to suggest that you repair or replace the faulty lockers as soon as possible.",
+                  "solution_vi": "Tôi muốn gợi ý rằng quý vị sửa chữa hoặc thay thế các tủ khóa bị lỗi sớm nhất có thể."
                 },
                 {
                   "action_en": "There were insufficient lockers available for members.",
                   "action_vi": "Không có đủ tủ khóa cho các thành viên.",
                   "reason_en": "I had to wait until a locker became available, which wasted valuable time before my workout.",
                   "reason_vi": "Tôi phải chờ đến khi có tủ trống, điều này làm lãng phí thời gian quý báu trước buổi tập.",
-                  "expansion_1_en": "I suggest that you install additional lockers to accommodate more members.",
-                  "expansion_1_vi": "Tôi đề xuất quý vị lắp đặt thêm tủ khóa để phục vụ nhiều thành viên hơn."
+                  "solution_en": "I suggest that you install additional lockers to accommodate more members.",
+                  "solution_vi": "Tôi đề xuất quý vị lắp đặt thêm tủ khóa để phục vụ nhiều thành viên hơn."
                 }
               ]
             },
@@ -11716,16 +11716,16 @@ const LETTERS_DATA = [
                   "action_vi": "Một số vòi sen không hoạt động bình thường.",
                   "reason_en": "I was unable to take a shower after exercising, which made it inconvenient to freshen up before leaving the center.",
                   "reason_vi": "Tôi không thể tắm sau khi tập luyện, khiến việc vệ sinh cơ thể trước khi rời trung tâm trở nên bất tiện.",
-                  "expansion_1_en": "I would appreciate it if you could repair the faulty showers as soon as possible.",
-                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa các vòi sen bị lỗi sớm nhất có thể."
+                  "solution_en": "I would appreciate it if you could repair the faulty showers as soon as possible.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa các vòi sen bị lỗi sớm nhất có thể."
                 },
                 {
                   "action_en": "There was no hot water available in the showers.",
                   "action_vi": "Không có nước nóng trong các vòi sen.",
                   "reason_en": "I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.",
                   "reason_vi": "Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.",
-                  "expansion_1_en": "I strongly recommend that the management ensure a reliable supply of hot water.",
-                  "expansion_1_vi": "Tôi tha thiết đề xuất ban quản lý bảo đảm nguồn cung cấp nước nóng ổn định."
+                  "solution_en": "I strongly recommend that the management ensure a reliable supply of hot water.",
+                  "solution_vi": "Tôi tha thiết đề xuất ban quản lý bảo đảm nguồn cung cấp nước nóng ổn định."
                 }
               ]
             },
@@ -11740,16 +11740,16 @@ const LETTERS_DATA = [
                   "action_vi": "Một số đèn không hoạt động bình thường.",
                   "reason_en": "The changing room was poorly lit, which made it difficult for members to move around safely.",
                   "reason_vi": "Phòng thay đồ thiếu ánh sáng, điều này khiến các thành viên khó di chuyển an toàn.",
-                  "expansion_1_en": "I suggest that you replace the faulty lights with new ones promptly.",
-                  "expansion_1_vi": "Tôi đề xuất quý vị thay các đèn bị lỗi bằng đèn mới kịp thời."
+                  "solution_en": "I suggest that you replace the faulty lights with new ones promptly.",
+                  "solution_vi": "Tôi đề xuất quý vị thay các đèn bị lỗi bằng đèn mới kịp thời."
                 },
                 {
                   "action_en": "The lighting in the changing room was inadequate.",
                   "action_vi": "Hệ thống chiếu sáng trong phòng thay đồ không đủ.",
                   "reason_en": "I found it difficult to locate my personal belongings, especially in the darker areas of the room.",
                   "reason_vi": "Tôi thấy khó tìm đồ dùng cá nhân, đặc biệt ở những khu vực tối hơn trong phòng.",
-                  "expansion_1_en": "I believe that steps should be taken to install brighter lights to improve visibility.",
-                  "expansion_1_vi": "Tôi tin rằng các biện pháp cần được thực hiện để lắp đặt đèn sáng hơn nhằm cải thiện tầm nhìn."
+                  "solution_en": "I believe that steps should be taken to install brighter lights to improve visibility.",
+                  "solution_vi": "Tôi tin rằng các biện pháp cần được thực hiện để lắp đặt đèn sáng hơn nhằm cải thiện tầm nhìn."
                 }
               ]
             },
@@ -11764,16 +11764,16 @@ const LETTERS_DATA = [
                   "action_vi": "Không có đủ móc treo quần áo.",
                   "reason_en": "I had to leave my clothes on a bench or the floor, where they could easily become dirty.",
                   "reason_vi": "Tôi phải để quần áo trên ghế hoặc sàn nhà, nơi chúng có thể dễ bị bẩn.",
-                  "expansion_1_en": "I would appreciate it if you could install additional clothes hooks.",
-                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể lắp đặt thêm móc treo quần áo."
+                  "solution_en": "I would appreciate it if you could install additional clothes hooks.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể lắp đặt thêm móc treo quần áo."
                 },
                 {
                   "action_en": "Some of the clothes hooks were damaged.",
                   "action_vi": "Một số móc treo quần áo bị hỏng.",
                   "reason_en": "I was unable to hang my clothes properly, which made it difficult to keep my belongings neat and organized.",
                   "reason_vi": "Tôi không thể treo quần áo đúng cách, điều này khiến việc giữ đồ đạc gọn gàng và ngăn nắp trở nên khó khăn.",
-                  "expansion_1_en": "I strongly recommend that the management repair or replace the damaged clothes hooks.",
-                  "expansion_1_vi": "Tôi tha thiết đề xuất ban quản lý sửa chữa hoặc thay thế các móc treo quần áo bị hỏng."
+                  "solution_en": "I strongly recommend that the management repair or replace the damaged clothes hooks.",
+                  "solution_vi": "Tôi tha thiết đề xuất ban quản lý sửa chữa hoặc thay thế các móc treo quần áo bị hỏng."
                 }
               ]
             },
@@ -11788,16 +11788,16 @@ const LETTERS_DATA = [
                   "action_vi": "Các ghế ngồi được giữ gìn kém và nhìn thấy rõ là rất bẩn.",
                   "reason_en": "I felt uncomfortable sitting on them because their surfaces looked dusty and neglected.",
                   "reason_vi": "Tôi cảm thấy không thoải mái khi ngồi lên ghế vì bề mặt của chúng trông bụi bặm và bị bỏ bê.",
-                  "expansion_1_en": "I would like to suggest that you clean and disinfect the benches more frequently.",
-                  "expansion_1_vi": "Tôi muốn gợi ý rằng quý vị vệ sinh và khử trùng ghế thường xuyên hơn."
+                  "solution_en": "I would like to suggest that you clean and disinfect the benches more frequently.",
+                  "solution_vi": "Tôi muốn gợi ý rằng quý vị vệ sinh và khử trùng ghế thường xuyên hơn."
                 },
                 {
                   "action_en": "There were not enough benches in the changing room.",
                   "action_vi": "Không có đủ ghế ngồi trong phòng thay đồ.",
                   "reason_en": "I had to stand while changing my clothes, which was particularly inconvenient when the room was crowded.",
                   "reason_vi": "Tôi phải đứng khi thay quần áo, điều này đặc biệt bất tiện khi phòng đông người.",
-                  "expansion_1_en": "I suggest that you provide additional benches for members.",
-                  "expansion_1_vi": "Tôi đề xuất quý vị bổ sung thêm ghế ngồi cho các thành viên."
+                  "solution_en": "I suggest that you provide additional benches for members.",
+                  "solution_vi": "Tôi đề xuất quý vị bổ sung thêm ghế ngồi cho các thành viên."
                 }
               ]
             },
@@ -11812,16 +11812,16 @@ const LETTERS_DATA = [
                   "action_vi": "Sàn nhà ướt và trơn trượt nguy hiểm.",
                   "reason_en": "I was concerned that I might slip and injure myself, particularly when walking barefoot.",
                   "reason_vi": "Tôi lo mình có thể trượt ngã và bị thương, đặc biệt khi đi chân trần.",
-                  "expansion_1_en": "I would appreciate it if you could clean and dry the floor regularly to prevent accidents.",
-                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh và lau khô sàn nhà để ngăn ngừa tai nạn."
+                  "solution_en": "I would appreciate it if you could clean and dry the floor regularly to prevent accidents.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh và lau khô sàn nhà để ngăn ngừa tai nạn."
                 },
                 {
                   "action_en": "Water had accumulated across the floor.",
                   "action_vi": "Nước đọng trên khắp sàn nhà.",
                   "reason_en": "This made it difficult to move around safely and increased the risk of slips and falls.",
                   "reason_vi": "Điều này khiến việc đi lại an toàn trở nên khó khăn và làm tăng nguy cơ trượt ngã.",
-                  "expansion_1_en": "I believe that steps should be taken to keep the floor clean and dry at all times.",
-                  "expansion_1_vi": "Tôi tin rằng các biện pháp cần được thực hiện để giữ sàn nhà sạch sẽ và khô ráo mọi lúc."
+                  "solution_en": "I believe that steps should be taken to keep the floor clean and dry at all times.",
+                  "solution_vi": "Tôi tin rằng các biện pháp cần được thực hiện để giữ sàn nhà sạch sẽ và khô ráo mọi lúc."
                 }
               ]
             },
@@ -11836,16 +11836,16 @@ const LETTERS_DATA = [
                   "action_vi": "Các tấm gương bị phủ đầy bụi bẩn và vết ố.",
                   "reason_en": "I could not see my reflection clearly, so it was difficult to check my appearance before leaving the center.",
                   "reason_vi": "Tôi không thể nhìn rõ hình ảnh phản chiếu của mình, vì vậy rất khó để kiểm tra diện mạo trước khi rời trung tâm.",
-                  "expansion_1_en": "I suggest that you clean the mirrors thoroughly and regularly.",
-                  "expansion_1_vi": "Tôi đề xuất quý vị vệ sinh gương kỹ lưỡng và thường xuyên."
+                  "solution_en": "I suggest that you clean the mirrors thoroughly and regularly.",
+                  "solution_vi": "Tôi đề xuất quý vị vệ sinh gương kỹ lưỡng và thường xuyên."
                 },
                 {
                   "action_en": "Some of the mirrors were cracked.",
                   "action_vi": "Một số gương bị nứt.",
                   "reason_en": "I was concerned that the damaged glass might break further and cause injuries to members.",
                   "reason_vi": "Tôi lo rằng phần kính bị hỏng có thể vỡ thêm và gây thương tích cho các thành viên.",
-                  "expansion_1_en": "I strongly recommend that the management replace the cracked mirrors immediately.",
-                  "expansion_1_vi": "Tôi tha thiết đề xuất ban quản lý thay thế ngay các tấm gương bị nứt."
+                  "solution_en": "I strongly recommend that the management replace the cracked mirrors immediately.",
+                  "solution_vi": "Tôi tha thiết đề xuất ban quản lý thay thế ngay các tấm gương bị nứt."
                 }
               ]
             },
@@ -11860,16 +11860,16 @@ const LETTERS_DATA = [
                   "action_vi": "Một số máy sấy tóc không thể sử dụng được.",
                   "reason_en": "I was unable to dry my hair after taking a shower, which was inconvenient before heading home or going to work.",
                   "reason_vi": "Tôi không thể sấy khô tóc sau khi tắm, điều này gây bất tiện trước khi về nhà hoặc đi làm.",
-                  "expansion_1_en": "I would appreciate it if you could repair or replace the faulty hair dryers.",
-                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hoặc thay thế các máy sấy tóc bị lỗi."
+                  "solution_en": "I would appreciate it if you could repair or replace the faulty hair dryers.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hoặc thay thế các máy sấy tóc bị lỗi."
                 },
                 {
                   "action_en": "There were not enough hair dryers for members to use.",
                   "action_vi": "Không có đủ máy sấy tóc cho các thành viên sử dụng.",
                   "reason_en": "I had to wait in a queue for a long time, which delayed my departure from the sports center.",
                   "reason_vi": "Tôi phải xếp hàng chờ trong một thời gian dài, khiến tôi rời trung tâm thể thao muộn hơn.",
-                  "expansion_1_en": "I would like to suggest that you provide additional hair dryers to reduce waiting times.",
-                  "expansion_1_vi": "Tôi muốn gợi ý rằng quý vị bổ sung máy sấy tóc để giảm thời gian chờ đợi."
+                  "solution_en": "I would like to suggest that you provide additional hair dryers to reduce waiting times.",
+                  "solution_vi": "Tôi muốn gợi ý rằng quý vị bổ sung máy sấy tóc để giảm thời gian chờ đợi."
                 }
               ]
             },
@@ -11884,16 +11884,16 @@ const LETTERS_DATA = [
                   "action_vi": "Không có xà phòng gần các bồn rửa tay.",
                   "reason_en": "I was unable to wash my hands properly, which raised concerns about basic hygiene in the facility.",
                   "reason_vi": "Tôi không thể rửa tay đúng cách, điều này làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.",
-                  "expansion_1_en": "I strongly recommend that you provide sufficient soap and refill the dispensers regularly.",
-                  "expansion_1_vi": "Tôi tha thiết đề xuất quý vị cung cấp đủ xà phòng và bổ sung vào các hộp đựng thường xuyên."
+                  "solution_en": "I strongly recommend that you provide sufficient soap and refill the dispensers regularly.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị cung cấp đủ xà phòng và bổ sung vào các hộp đựng thường xuyên."
                 },
                 {
                   "action_en": "There were no paper towels available.",
                   "action_vi": "Không có khăn giấy.",
                   "reason_en": "I had no convenient way to dry my hands after washing them, which made the facilities less practical to use.",
                   "reason_vi": "Tôi không có cách thuận tiện để lau khô tay sau khi rửa, khiến các tiện ích kém thuận tiện hơn khi sử dụng.",
-                  "expansion_1_en": "I suggest that you provide paper towels or install hand dryers near the sinks.",
-                  "expansion_1_vi": "Tôi đề xuất quý vị cung cấp khăn giấy hoặc lắp đặt máy sấy tay gần các bồn rửa."
+                  "solution_en": "I suggest that you provide paper towels or install hand dryers near the sinks.",
+                  "solution_vi": "Tôi đề xuất quý vị cung cấp khăn giấy hoặc lắp đặt máy sấy tay gần các bồn rửa."
                 }
               ]
             },
@@ -11908,16 +11908,16 @@ const LETTERS_DATA = [
                   "action_vi": "Các thùng rác bị đầy tràn.",
                   "reason_en": "Rubbish had accumulated around the bins, which made the changing room look unhygienic and unpleasant.",
                   "reason_vi": "Rác tích tụ xung quanh thùng, điều này khiến phòng thay đồ trông mất vệ sinh và gây cảm giác khó chịu.",
-                  "expansion_1_en": "I believe that steps should be taken to empty the rubbish bins more frequently, especially during busy periods.",
-                  "expansion_1_vi": "Tôi tin rằng các biện pháp cần được thực hiện để đổ rác thường xuyên hơn, đặc biệt vào những thời điểm đông người."
+                  "solution_en": "I believe that steps should be taken to empty the rubbish bins more frequently, especially during busy periods.",
+                  "solution_vi": "Tôi tin rằng các biện pháp cần được thực hiện để đổ rác thường xuyên hơn, đặc biệt vào những thời điểm đông người."
                 },
                 {
                   "action_en": "Rubbish was scattered around the bins.",
                   "action_vi": "Rác vương vãi xung quanh các thùng rác.",
                   "reason_en": "This made the area look messy and unhygienic, which created a negative impression of the sports center.",
                   "reason_vi": "Điều này khiến khu vực trông bừa bộn và mất vệ sinh, tạo ấn tượng tiêu cực về trung tâm thể thao.",
-                  "expansion_1_en": "I would appreciate it if you could clean the area around the bins regularly and dispose of rubbish properly.",
-                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh khu vực xung quanh thùng rác và xử lý rác đúng cách."
+                  "solution_en": "I would appreciate it if you could clean the area around the bins regularly and dispose of rubbish properly.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh khu vực xung quanh thùng rác và xử lý rác đúng cách."
                 }
               ]
             },
@@ -11932,16 +11932,16 @@ const LETTERS_DATA = [
                   "action_vi": "Có mùi khó chịu dai dẳng trong phòng thay đồ.",
                   "reason_en": "The smell made the room uncomfortable to use and negatively affected my overall experience at the sports center.",
                   "reason_vi": "Mùi này khiến căn phòng trở nên khó chịu khi sử dụng và ảnh hưởng tiêu cực đến trải nghiệm tổng thể của tôi tại trung tâm thể thao.",
-                  "expansion_1_en": "I strongly recommend that you identify the source of the smell and improve the cleaning service.",
-                  "expansion_1_vi": "Tôi tha thiết đề xuất quý vị xác định nguồn gây mùi và cải thiện dịch vụ vệ sinh."
+                  "solution_en": "I strongly recommend that you identify the source of the smell and improve the cleaning service.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị xác định nguồn gây mùi và cải thiện dịch vụ vệ sinh."
                 },
                 {
                   "action_en": "The changing room was poorly ventilated.",
                   "action_vi": "Phòng thay đồ thông gió kém.",
                   "reason_en": "As a result, the air felt stuffy and unpleasant, particularly when many members were using the room at the same time.",
                   "reason_vi": "Do đó, không khí trở nên ngột ngạt và khó chịu, đặc biệt khi nhiều thành viên sử dụng phòng cùng lúc.",
-                  "expansion_1_en": "I would like to suggest that you install a more effective ventilation system.",
-                  "expansion_1_vi": "Tôi muốn gợi ý rằng quý vị lắp đặt hệ thống thông gió hiệu quả hơn."
+                  "solution_en": "I would like to suggest that you install a more effective ventilation system.",
+                  "solution_vi": "Tôi muốn gợi ý rằng quý vị lắp đặt hệ thống thông gió hiệu quả hơn."
                 }
               ]
             },
@@ -11956,16 +11956,16 @@ const LETTERS_DATA = [
                   "action_vi": "Nhà vệ sinh được giữ gìn kém và mất vệ sinh.",
                   "reason_en": "The unsanitary conditions made me uncomfortable using the toilets and raised concerns about the overall hygiene standards of the sports center.",
                   "reason_vi": "Điều kiện mất vệ sinh khiến tôi không thoải mái khi sử dụng nhà vệ sinh và làm dấy lên lo ngại về tiêu chuẩn vệ sinh chung của trung tâm thể thao.",
-                  "expansion_1_en": "I believe that steps should be taken to clean and disinfect the toilets more regularly.",
-                  "expansion_1_vi": "Tôi tin rằng các biện pháp cần được thực hiện để vệ sinh và khử trùng nhà vệ sinh thường xuyên hơn."
+                  "solution_en": "I believe that steps should be taken to clean and disinfect the toilets more regularly.",
+                  "solution_vi": "Tôi tin rằng các biện pháp cần được thực hiện để vệ sinh và khử trùng nhà vệ sinh thường xuyên hơn."
                 },
                 {
                   "action_en": "There was a strong unpleasant smell coming from the toilets.",
                   "action_vi": "Có mùi khó chịu nồng nặc phát ra từ nhà vệ sinh.",
                   "reason_en": "The smell spread to the surrounding area, which made the entire section unpleasant to use.",
                   "reason_vi": "Mùi này lan ra khu vực xung quanh, điều này khiến toàn bộ khu vực trở nên khó chịu khi sử dụng.",
-                  "expansion_1_en": "I would appreciate it if you could thoroughly clean the toilets and check the plumbing and ventilation systems.",
-                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị vệ sinh nhà vệ sinh kỹ lưỡng và kiểm tra hệ thống ống nước cùng hệ thống thông gió."
+                  "solution_en": "I would appreciate it if you could thoroughly clean the toilets and check the plumbing and ventilation systems.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị vệ sinh nhà vệ sinh kỹ lưỡng và kiểm tra hệ thống ống nước cùng hệ thống thông gió."
                 }
               ]
             }
