@@ -3688,7 +3688,7 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
           "I am writing to apologize for the delay. I understand that this may have caused inconvenience, and I would like to explain the situation." :
           "I’m really sorry for what happened. Let me explain the situation so you can understand.";
       } else if (catKey === 'complaint') {
-        upgrade = "I am writing to express my strong dissatisfaction with the service I received during my recent visit.";
+        upgrade = "I am writing to express my dissatisfaction with this matter. I recently used your facility, and I was disappointed with the experience.";
       } else if (catKey === 'application') {
         upgrade = "I am writing to apply for the position advertised on your official website.";
       } else if (catKey === 'feedback') {
@@ -3722,7 +3722,7 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
           "I would like to apologize once again for the inconvenience. Thank you for your patience and kind understanding." :
           "I’m really sorry once again. I truly appreciate your understanding. Write back soon.";
       } else if (catKey === 'complaint') {
-        upgrade = "I hope that this issue will be addressed promptly. I look forward to receiving your reply soon.";
+        upgrade = "I hope that these issues will be addressed promptly. I look forward to hearing from you soon.";
       } else if (catKey === 'application') {
         upgrade = "Thank you for considering my application. I would welcome the opportunity to discuss my qualifications with you in an interview.";
       } else if (catKey === 'description') {
