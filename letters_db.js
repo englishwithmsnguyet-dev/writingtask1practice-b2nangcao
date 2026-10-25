@@ -11663,8 +11663,8 @@ const LETTERS_DATA = [
                   "action_vi": "Phòng thay đồ được giữ gìn kém.",
                   "reason_en": "Rubbish was scattered across the floor, making the entire area look unhygienic and unpleasant to use.",
                   "reason_vi": "Rác vương vãi khắp sàn nhà, khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.",
-                  "expansion_1_en": "I request that you arrange for the changing room to be cleaned and inspected much more frequently.",
-                  "expansion_1_vi": "Tôi yêu cầu quý ban quản lý bố trí vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn.",
+                  "expansion_1_en": "I would appreciate it if you could arrange for the changing room to be cleaned more frequently.",
+                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể bố trí vệ sinh phòng thay đồ thường xuyên hơn.",
                   "expansion_2_en": "Taking these proactive measures will ensure a safe and hygienic environment for all gym members.",
                   "expansion_2_vi": "Thực hiện những biện pháp chủ động này sẽ đảm bảo một môi trường sạch sẽ và an toàn cho mọi hội viên."
                 },
@@ -11673,8 +11673,8 @@ const LETTERS_DATA = [
                   "action_vi": "Phòng thay đồ không được vệ sinh thường xuyên.",
                   "reason_en": "An unpleasant smell lingered in the room, making it uncomfortable for members to change their clothes.",
                   "reason_vi": "Mùi khó chịu lưu lại trong phòng, khiến các thành viên cảm thấy không thoải mái khi thay quần áo.",
-                  "expansion_1_en": "Please improve the cleaning service and ensure regular daily maintenance.",
-                  "expansion_1_vi": "Xin vui lòng cải thiện dịch vụ vệ sinh và đảm bảo việc bảo trì định kỳ hằng ngày.",
+                  "expansion_1_en": "I strongly recommend that you improve the cleaning service and ensure regular maintenance.",
+                  "expansion_1_vi": "Tôi tha thiết đề xuất quý vị cải thiện dịch vụ vệ sinh và bảo đảm việc bảo trì thường xuyên.",
                   "expansion_2_en": "A clean and pleasant changing environment is essential for retaining members who value hygiene.",
                   "expansion_2_vi": "Một không gian thay đồ thơm tho sạch sẽ là yếu tố thiết yếu để giữ chân những hội viên coi trọng vệ sinh."
                 }
@@ -11683,7 +11683,7 @@ const LETTERS_DATA = [
             {
               "id": 2,
               "title_en": "2. Broken lockers",
-              "title_vi": "Tủ khóa bị hỏng & Thiếu tủ",
+              "title_vi": "Tủ khóa bị hỏng",
               "icon": "fa-lock",
               "options": [
                 {
@@ -11691,27 +11691,27 @@ const LETTERS_DATA = [
                   "action_vi": "Một số tủ khóa không thể sử dụng được.",
                   "reason_en": "I was unable to secure my personal belongings, which made me concerned about their safety.",
                   "reason_vi": "Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng.",
-                  "expansion_1_en": "I urge you to repair or replace the faulty lockers immediately.",
-                  "expansion_1_vi": "Tôi đề nghị bạn sửa chữa hoặc thay thế các tủ khóa bị hỏng ngay lập tức.",
-                  "expansion_2_en": "Prompt repairs will restore our peace of mind when leaving valuables during strenuous workouts.",
-                  "expansion_2_vi": "Việc sửa chữa kịp thời sẽ mang lại sự yên tâm cho chúng tôi khi cất đồ đạc giá trị lúc tập luyện."
+                  "expansion_1_en": "I suggest that you repair or replace the faulty lockers immediately.",
+                  "expansion_1_vi": "Tôi đề xuất quý vị sửa chữa hoặc thay thế các tủ khóa bị lỗi ngay lập tức.",
+                  "expansion_2_en": "Prompt repairs will restore members' peace of mind when leaving their valuables during workouts.",
+                  "expansion_2_vi": "Việc sửa chữa kịp thời sẽ mang lại sự yên tâm cho hội viên khi cất giữ đồ đạc có giá trị trong lúc tập luyện."
                 },
                 {
                   "action_en": "There were insufficient lockers available for members.",
                   "action_vi": "Không có đủ tủ khóa cho các thành viên.",
                   "reason_en": "I had to wait until a locker became available, which wasted valuable time before my workout.",
                   "reason_vi": "Tôi phải chờ đến khi có tủ trống, điều này làm lãng phí thời gian quý báu trước buổi tập.",
-                  "expansion_1_en": "I recommend installing additional lockers to accommodate the growing number of members.",
-                  "expansion_1_vi": "Tôi đề xuất lắp đặt thêm tủ khóa để phục vụ số lượng thành viên ngày càng tăng.",
-                  "expansion_2_en": "Expanding storage capacity will prevent overcrowding and eliminate frustrating pre-workout bottlenecks.",
-                  "expansion_2_vi": "Mở rộng sức chứa tủ đồ sẽ ngăn ngừa tình trạng quá tải và xóa bỏ cảnh xếp hàng bực bội trước giờ tập."
+                  "expansion_1_en": "I would like to suggest that you install additional lockers to accommodate more members.",
+                  "expansion_1_vi": "Tôi muốn gợi ý rằng quý vị lắp đặt thêm tủ khóa để phục vụ nhiều thành viên hơn.",
+                  "expansion_2_en": "Expanding locker capacity will prevent overcrowding and eliminate frustrating delays before workouts.",
+                  "expansion_2_vi": "Mở rộng số lượng tủ khóa sẽ tránh tình trạng quá tải và xóa bỏ sự chậm trễ khó chịu trước buổi tập."
                 }
               ]
             },
             {
               "id": 3,
-              "title_en": "3. Broken showers & No hot water",
-              "title_vi": "Vòi sen hỏng & Không có nước nóng",
+              "title_en": "3. Broken showers",
+              "title_vi": "Vòi sen bị hỏng",
               "icon": "fa-shower",
               "options": [
                 {
@@ -11719,142 +11719,300 @@ const LETTERS_DATA = [
                   "action_vi": "Một số vòi sen không hoạt động bình thường.",
                   "reason_en": "I was unable to take a shower after exercising, which made it inconvenient to freshen up before leaving the center.",
                   "reason_vi": "Tôi không thể tắm sau khi tập luyện, khiến việc vệ sinh cơ thể trước khi rời trung tâm trở nên bất tiện.",
-                  "expansion_1_en": "Please have the maintenance team repair the faulty showers as soon as possible.",
-                  "expansion_1_vi": "Xin vui lòng cử đội bảo trì sửa chữa các vòi sen bị lỗi sớm nhất có thể.",
-                  "expansion_2_en": "Functional plumbing facilities are fundamental amenities that paying members expect to use without hassle.",
-                  "expansion_2_vi": "Hệ thống nước tắm hoạt động tốt là tiện ích cơ bản nhất mà các hội viên đóng phí kỳ vọng sử dụng suôn sẻ."
+                  "expansion_1_en": "I would appreciate it if you could repair the faulty showers as soon as possible.",
+                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa các vòi sen bị lỗi sớm nhất có thể.",
+                  "expansion_2_en": "Well-functioning shower facilities are essential amenities that every paying member expects.",
+                  "expansion_2_vi": "Tiện ích tắm rửa hoạt động tốt là điều kiện thiết yếu mà mọi hội viên đóng phí đều kỳ vọng."
                 },
                 {
-                  "action_en": "There was no hot water available in the showers.",
-                  "action_vi": "Không có nước nóng trong các phòng tắm vòi sen.",
-                  "reason_en": "I had no choice but to take a cold shower after exercising, which was particularly uncomfortable and unhealthy.",
-                  "reason_vi": "Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập, điều này rất khó chịu và không tốt cho sức khỏe.",
-                  "expansion_1_en": "I insist that management ensure a reliable and consistent supply of hot water for all members.",
-                  "expansion_1_vi": "Tôi đề nghị ban quản lý đảm bảo nguồn cung cấp nước nóng ổn định cho tất cả thành viên.",
-                  "expansion_2_en": "A continuous hot water supply is vital for proper muscle recovery and post-exercise comfort.",
-                  "expansion_2_vi": "Nguồn nước nóng liên tục là tối quan trọng để phục hồi cơ bắp và tạo sự sảng khoái sau khi tập luyện."
+                  "action_en": "There was no hot water available.",
+                  "action_vi": "Không có nước nóng.",
+                  "reason_en": "I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.",
+                  "reason_vi": "Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.",
+                  "expansion_1_en": "I strongly recommend that the management ensure a reliable supply of hot water.",
+                  "expansion_1_vi": "Tôi tha thiết đề xuất ban quản lý bảo đảm nguồn cung cấp nước nóng ổn định.",
+                  "expansion_2_en": "A continuous supply of hot water is crucial for members' muscle recovery and health after intense training.",
+                  "expansion_2_vi": "Nguồn nước nóng liên tục là tối quan trọng để phục hồi cơ bắp và bảo vệ sức khỏe hội viên sau buổi tập nặng."
                 }
               ]
             },
             {
               "id": 4,
-              "title_en": "4. Broken lights & Inadequate lighting",
-              "title_vi": "Đèn bị hỏng & Chiếu sáng không đủ",
+              "title_en": "4. Broken lights",
+              "title_vi": "Đèn bị hỏng",
               "icon": "fa-lightbulb",
               "options": [
                 {
-                  "action_en": "Some of the lights were not working properly, leaving the room poorly lit.",
-                  "action_vi": "Một số đèn không hoạt động bình thường, khiến căn phòng thiếu ánh sáng.",
-                  "reason_en": "It made it difficult and dangerous for members to move around safely.",
-                  "reason_vi": "Điều đó khiến các thành viên gặp khó khăn và nguy hiểm khi di chuyển trong phòng.",
-                  "expansion_1_en": "I suggest replacing the faulty lights with new, brighter fixtures.",
-                  "expansion_1_vi": "Tôi đề xuất thay thế các bóng đèn bị hỏng bằng các thiết bị chiếu sáng mới sáng hơn.",
-                  "expansion_2_en": "Upgrading to bright energy-efficient LED fixtures will brighten dark corners and eliminate tripping hazards.",
-                  "expansion_2_vi": "Nâng cấp lên đèn LED sáng tiết kiệm điện sẽ chiếu sáng các góc tối và loại bỏ nguy cơ vấp ngã nguy hiểm."
+                  "action_en": "Some of the lights were not working properly.",
+                  "action_vi": "Một số đèn không hoạt động bình thường.",
+                  "reason_en": "The changing room was poorly lit, making it difficult for members to move around safely.",
+                  "reason_vi": "Phòng thay đồ thiếu ánh sáng, khiến các thành viên khó di chuyển an toàn.",
+                  "expansion_1_en": "I suggest that you replace the faulty lights with new ones promptly.",
+                  "expansion_1_vi": "Tôi đề xuất quý vị thay các đèn bị lỗi bằng đèn mới kịp thời.",
+                  "expansion_2_en": "Adequate lighting is essential to prevent accidental trips and ensure member safety.",
+                  "expansion_2_vi": "Hệ thống chiếu sáng đầy đủ là rất cần thiết để ngăn ngừa nguy cơ vấp ngã và đảm bảo an toàn cho hội viên."
                 },
                 {
-                  "action_en": "The lighting in the changing room was completely inadequate.",
-                  "action_vi": "Hệ thống chiếu sáng trong phòng thay đồ hoàn toàn không đủ.",
-                  "reason_en": "I found it difficult to locate my personal belongings, especially in the darker locker areas.",
-                  "reason_vi": "Tôi thấy khó tìm đồ dùng cá nhân, đặc biệt ở những khu vực tủ đồ thiếu sáng.",
-                  "expansion_1_en": "Please install brighter lights to improve visibility throughout the room.",
-                  "expansion_1_vi": "Xin vui lòng lắp đặt thêm đèn sáng hơn để cải thiện tầm nhìn trong toàn bộ căn phòng.",
-                  "expansion_2_en": "Clear illumination across locker rows is necessary to prevent accidental mix-ups and protect personal property.",
-                  "expansion_2_vi": "Ánh sáng rõ ràng khắp các dãy tủ đồ là cần thiết để tránh nhầm lẫn đồ đạc và bảo vệ tài sản cá nhân."
+                  "action_en": "The lighting in the changing room was inadequate.",
+                  "action_vi": "Hệ thống chiếu sáng trong phòng thay đồ không đủ.",
+                  "reason_en": "I found it difficult to locate my personal belongings, especially in the darker areas of the room.",
+                  "reason_vi": "Tôi thấy khó tìm đồ dùng cá nhân, đặc biệt ở những khu vực tối hơn trong phòng.",
+                  "expansion_1_en": "I believe that steps should be taken to install brighter lights to improve visibility.",
+                  "expansion_1_vi": "Tôi tin rằng các biện pháp cần được thực hiện để lắp đặt đèn sáng hơn nhằm cải thiện tầm nhìn.",
+                  "expansion_2_en": "Improved visibility helps members manage their belongings efficiently without unnecessary frustration.",
+                  "expansion_2_vi": "Tầm nhìn được cải thiện giúp các hội viên sắp xếp đồ đạc nhanh chóng mà không gặp bực bội không đáng có."
                 }
               ]
             },
             {
               "id": 5,
-              "title_en": "5. Clothes hooks & Benches",
-              "title_vi": "Móc treo đồ & Ghế ngồi",
-              "icon": "fa-chair",
+              "title_en": "5. Clothes hooks",
+              "title_vi": "Móc treo đồ",
+              "icon": "fa-shirt",
               "options": [
                 {
-                  "action_en": "There were insufficient clothes hooks, and some of them were damaged.",
-                  "action_vi": "Không có đủ móc treo quần áo và một số móc đã bị hỏng.",
-                  "reason_en": "I had to leave my clothes on a dirty bench or on the floor where they could easily get soiled.",
-                  "reason_vi": "Tôi phải để quần áo trên ghế bẩn hoặc trên sàn nhà, nơi chúng dễ dàng bị lấm lem.",
-                  "expansion_1_en": "I request that you install additional sturdy clothes hooks and repair the damaged ones.",
-                  "expansion_1_vi": "Tôi yêu cầu bạn lắp thêm các móc treo quần áo chắc chắn và sửa chữa những móc bị hỏng.",
-                  "expansion_2_en": "Installing durable stainless steel wall hooks will keep members' clean work attire off the floor.",
-                  "expansion_2_vi": "Lắp thêm các móc treo tường inox bền chắc sẽ giữ cho trang phục công sở sạch sẽ không bị rơi xuống sàn."
+                  "action_en": "There were insufficient clothes hooks available.",
+                  "action_vi": "Không có đủ móc treo quần áo.",
+                  "reason_en": "I had to leave my clothes on a bench or the floor, where they could easily become dirty.",
+                  "reason_vi": "Tôi phải để quần áo trên ghế hoặc sàn nhà, nơi chúng có thể dễ bị bẩn.",
+                  "expansion_1_en": "I would appreciate it if you could install additional clothes hooks.",
+                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể lắp đặt thêm móc treo quần áo.",
+                  "expansion_2_en": "Having enough hooks allows members to keep their clean gym wear separate from wet surfaces.",
+                  "expansion_2_vi": "Có đủ móc treo giúp hội viên giữ quần áo sạch tách biệt khỏi các bề mặt ẩm ướt."
                 },
                 {
-                  "action_en": "The benches were poorly maintained and visibly dirty.",
-                  "action_vi": "Các ghế ngồi được giữ gìn kém và nhìn thấy rõ là rất bẩn.",
-                  "reason_en": "I felt uncomfortable sitting on them to change my shoes and clothes.",
-                  "reason_vi": "Tôi cảm thấy rất khó chịu khi phải ngồi lên đó để thay giày và quần áo.",
-                  "expansion_1_en": "Please ensure that the benches are cleaned, wiped, and disinfected on a daily basis.",
-                  "expansion_1_vi": "Xin vui lòng đảm bảo rằng các ghế ngồi được lau chùi và khử trùng hằng ngày.",
-                  "expansion_2_en": "Sanitizing wooden seating surfaces regularly will stop the spread of sweat bacteria and unpleasant grime.",
-                  "expansion_2_vi": "Khử trùng bề mặt ghế ngồi thường xuyên sẽ ngăn chặn sự lây lan của vi khuẩn mồ hôi và vết ố bẩn khó chịu."
+                  "action_en": "Some of the clothes hooks were damaged.",
+                  "action_vi": "Một số móc treo quần áo bị hỏng.",
+                  "reason_en": "I was unable to hang my clothes properly, making it difficult to keep my belongings neat and organised.",
+                  "reason_vi": "Tôi không thể treo quần áo đúng cách, khiến việc giữ đồ đạc gọn gàng và ngăn nắp trở nên khó khăn.",
+                  "expansion_1_en": "I strongly recommend that the management repair or replace the damaged clothes hooks.",
+                  "expansion_1_vi": "Tôi tha thiết đề xuất ban quản lý sửa chữa hoặc thay thế các móc treo quần áo bị hỏng.",
+                  "expansion_2_en": "Maintaining intact fixtures provides a much more organized and welcoming environment for members.",
+                  "expansion_2_vi": "Duy trì các vật dụng nguyên vẹn mang lại một môi trường ngăn nắp và thân thiện hơn nhiều cho hội viên."
                 }
               ]
             },
             {
               "id": 6,
-              "title_en": "6. Slippery floor & Broken hair dryers",
-              "title_vi": "Sàn nhà trơn trượt & Máy sấy tóc hỏng",
-              "icon": "fa-triangle-exclamation",
+              "title_en": "6. Dirty benches",
+              "title_vi": "Ghế ngồi bẩn",
+              "icon": "fa-chair",
               "options": [
                 {
-                  "action_en": "The floor was wet and dangerously slippery because water had accumulated across the room.",
-                  "action_vi": "Sàn nhà bị ướt và trơn trượt nguy hiểm do nước đọng khắp phòng.",
-                  "reason_en": "I was extremely concerned that members might slip and sustain injuries.",
-                  "reason_vi": "Tôi cực kỳ lo ngại rằng các thành viên có thể bị trượt ngã và gặp chấn thương.",
-                  "expansion_1_en": "The staff should clean, mop, and place warning signs to keep the floor safe and dry at all times.",
-                  "expansion_1_vi": "Nhân viên nên lau sàn và đặt biển cảnh báo để giữ cho sàn nhà luôn an toàn và khô ráo.",
-                  "expansion_2_en": "Immediate drying protocols and non-slip rubber mats are crucial to prevent serious slipping lawsuits.",
-                  "expansion_2_vi": "Quy trình lau khô ngay lập tức và thảm cao su chống trượt là rất quan trọng để tránh tai nạn trượt ngã nghiêm trọng."
+                  "action_en": "The benches were poorly maintained and visibly dirty.",
+                  "action_vi": "Các ghế ngồi được giữ gìn kém và nhìn thấy rõ là rất bẩn.",
+                  "reason_en": "I felt uncomfortable sitting on them because their surfaces appeared to have been neglected for some time.",
+                  "reason_vi": "Tôi cảm thấy không thoải mái khi ngồi lên ghế vì bề mặt của chúng có vẻ đã bị bỏ bê trong một thời gian.",
+                  "expansion_1_en": "I would like to suggest that you clean and disinfect the benches more frequently.",
+                  "expansion_1_vi": "Tôi muốn gợi ý rằng quý vị vệ sinh và khử trùng ghế thường xuyên hơn.",
+                  "expansion_2_en": "Sanitized seating areas are crucial for providing comfort and maintaining hygiene standards.",
+                  "expansion_2_vi": "Khu vực ngồi được khử trùng sạch sẽ là rất cần thiết để tạo sự thoải mái và duy trì tiêu chuẩn vệ sinh."
                 },
                 {
-                  "action_en": "Some of the hair dryers were out of order and there were not enough available.",
-                  "action_vi": "Một số máy sấy tóc bị hỏng và không có đủ máy cho mọi người dùng.",
-                  "reason_en": "I was unable to dry my hair after showering and had to wait in a long queue.",
-                  "reason_vi": "Tôi không thể sấy tóc sau khi tắm và phải xếp hàng chờ đợi rất lâu.",
-                  "expansion_1_en": "Please repair the faulty hair dryers and provide additional units to reduce waiting times.",
-                  "expansion_1_vi": "Xin vui lòng sửa các máy sấy tóc bị hỏng và cung cấp thêm máy để giảm thời gian chờ đợi.",
-                  "expansion_2_en": "Installing heavy-duty commercial styling dryers will drastically shorten post-shower queues for everyone.",
-                  "expansion_2_vi": "Lắp đặt máy sấy tóc công suất lớn chuyên dụng sẽ rút ngắn đáng kể thời gian xếp hàng của các hội viên."
+                  "action_en": "There were not enough benches in the changing room.",
+                  "action_vi": "Không có đủ ghế ngồi trong phòng thay đồ.",
+                  "reason_en": "I had to stand while changing my clothes, which was particularly inconvenient when the room was crowded.",
+                  "reason_vi": "Tôi phải đứng khi thay quần áo, điều này đặc biệt bất tiện khi phòng đông người.",
+                  "expansion_1_en": "I suggest that you provide additional benches for members.",
+                  "expansion_1_vi": "Tôi đề xuất quý vị bổ sung thêm ghế ngồi cho các thành viên.",
+                  "expansion_2_en": "Adding more seating will significantly enhance member convenience during peak gym hours.",
+                  "expansion_2_vi": "Bổ sung thêm ghế ngồi sẽ cải thiện đáng kể sự thuận tiện cho hội viên trong các khung giờ cao điểm."
                 }
               ]
             },
             {
               "id": 7,
-              "title_en": "7. Hygiene products, Rubbish bins & Toilets",
-              "title_vi": "Đồ dùng vệ sinh, Thùng rác & Nhà vệ sinh",
+              "title_en": "7. Slippery floor",
+              "title_vi": "Sàn nhà trơn trượt",
+              "icon": "fa-triangle-exclamation",
+              "options": [
+                {
+                  "action_en": "The floor was wet and dangerously slippery.",
+                  "action_vi": "Sàn nhà ướt và trơn trượt nguy hiểm.",
+                  "reason_en": "I was concerned that I might slip and injure myself, particularly when walking barefoot.",
+                  "reason_vi": "Tôi lo mình có thể trượt ngã và bị thương, đặc biệt khi đi chân trần.",
+                  "expansion_1_en": "I would appreciate it if you could clean and dry the floor regularly to prevent accidents.",
+                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh và lau khô sàn nhà để ngăn ngừa tai nạn.",
+                  "expansion_2_en": "Eliminating slip hazards protects members from serious bodily injuries and potential liability issues.",
+                  "expansion_2_vi": "Loại bỏ nguy cơ trơn trượt sẽ bảo vệ hội viên khỏi chấn thương cơ thể nghiêm trọng và các rủi ro pháp lý."
+                },
+                {
+                  "action_en": "Water had accumulated across the floor.",
+                  "action_vi": "Nước đọng trên khắp sàn nhà.",
+                  "reason_en": "This made it difficult to move around safely and increased the risk of slips and falls.",
+                  "reason_vi": "Điều này khiến việc đi lại an toàn trở nên khó khăn và làm tăng nguy cơ trượt ngã.",
+                  "expansion_1_en": "I believe that steps should be taken to keep the floor clean and dry at all times.",
+                  "expansion_1_vi": "Tôi tin rằng các biện pháp cần được thực hiện để giữ sàn nhà sạch sẽ và khô ráo mọi lúc.",
+                  "expansion_2_en": "Installing non-slip rubber mats and adequate drainage will provide long-term safety for gym users.",
+                  "expansion_2_vi": "Lắp đặt thảm cao su chống trượt và hệ thống thoát nước phù hợp sẽ mang lại sự an toàn lâu dài cho người tập."
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "title_en": "8. Dirty mirrors",
+              "title_vi": "Gương bẩn",
+              "icon": "fa-table-cells-large",
+              "options": [
+                {
+                  "action_en": "The mirrors were covered in dirt and stains.",
+                  "action_vi": "Các tấm gương bị phủ đầy bụi bẩn và vết ố.",
+                  "reason_en": "I could not see my reflection clearly, making it difficult to check my appearance before leaving the center.",
+                  "reason_vi": "Tôi không thể nhìn rõ hình ảnh phản chiếu của mình, khiến việc kiểm tra diện mạo trước khi rời trung tâm trở nên khó khăn.",
+                  "expansion_1_en": "I suggest that you clean the mirrors thoroughly and regularly.",
+                  "expansion_1_vi": "Tôi đề xuất quý vị vệ sinh gương kỹ lưỡng và thường xuyên.",
+                  "expansion_2_en": "Spotless mirrors enhance the overall aesthetic appeal and cleanliness of the facility.",
+                  "expansion_2_vi": "Gương soi sáng bóng sẽ nâng cao tính thẩm mỹ và cảm giác sạch sẽ chung của cơ sở."
+                },
+                {
+                  "action_en": "Some of the mirrors were cracked.",
+                  "action_vi": "Một số gương bị nứt.",
+                  "reason_en": "I was concerned that the damaged glass might break further and cause injuries to members.",
+                  "reason_vi": "Tôi lo rằng phần kính bị hỏng có thể vỡ thêm và gây thương tích cho các thành viên.",
+                  "expansion_1_en": "I strongly recommend that the management replace the cracked mirrors immediately.",
+                  "expansion_1_vi": "Tôi tha thiết đề xuất ban quản lý thay thế ngay các tấm gương bị nứt.",
+                  "expansion_2_en": "Removing shattered glass promptly eliminates hazardous conditions and protects members from harm.",
+                  "expansion_2_vi": "Tháo dỡ kính nứt kịp thời sẽ loại trừ các mối nguy hiểm và bảo vệ an toàn cho hội viên."
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "title_en": "9. Broken hair dryers",
+              "title_vi": "Máy sấy tóc bị hỏng",
+              "icon": "fa-wind",
+              "options": [
+                {
+                  "action_en": "Some of the hair dryers were out of order.",
+                  "action_vi": "Một số máy sấy tóc không thể sử dụng được.",
+                  "reason_en": "I was unable to dry my hair after taking a shower, which was inconvenient before heading home or going to work.",
+                  "reason_vi": "Tôi không thể sấy khô tóc sau khi tắm, điều này gây bất tiện trước khi về nhà hoặc đi làm.",
+                  "expansion_1_en": "I would appreciate it if you could repair or replace the faulty hair dryers.",
+                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hoặc thay thế các máy sấy tóc bị lỗi.",
+                  "expansion_2_en": "Reliable grooming appliances allow members to leave the center comfortably, especially during winter months.",
+                  "expansion_2_vi": "Thiết bị làm tóc hoạt động ổn định giúp hội viên rời trung tâm một cách thoải mái, đặc biệt trong mùa lạnh."
+                },
+                {
+                  "action_en": "There were not enough hair dryers for members to use.",
+                  "action_vi": "Không có đủ máy sấy tóc cho các thành viên sử dụng.",
+                  "reason_en": "I had to wait in a queue for an extended period, which delayed my departure from the sports center.",
+                  "reason_vi": "Tôi phải xếp hàng chờ trong một khoảng thời gian khá dài, khiến tôi rời trung tâm thể thao muộn hơn.",
+                  "expansion_1_en": "I would like to suggest that you provide additional hair dryers to reduce waiting times.",
+                  "expansion_1_vi": "Tôi muốn gợi ý rằng quý vị bổ sung máy sấy tóc để giảm thời gian chờ đợi.",
+                  "expansion_2_en": "Adding more appliances prevents bottleneck lines during crowded evening peak sessions.",
+                  "expansion_2_vi": "Bổ sung thêm thiết bị giúp tránh cảnh xếp hàng ùn tắc trong các khung giờ cao điểm buổi tối."
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "title_en": "10. Hygiene products",
+              "title_vi": "Đồ dùng vệ sinh",
               "icon": "fa-pump-soap",
               "options": [
                 {
-                  "action_en": "There was no soap or paper towels available near the sinks.",
-                  "action_vi": "Không có xà phòng hay khăn giấy gần các bồn rửa tay.",
-                  "reason_en": "Members were unable to wash and dry their hands properly, raising serious hygiene concerns.",
-                  "reason_vi": "Các thành viên không thể rửa và lau khô tay đúng cách, làm dấy lên mối lo ngại nghiêm trọng về vệ sinh.",
-                  "expansion_1_en": "I urge you to refill the soap dispensers regularly and install automatic hand dryers near the sinks.",
-                  "expansion_1_vi": "Tôi đề nghị bạn thường xuyên bổ sung xà phòng và lắp máy sấy tay tự động gần bồn rửa.",
-                  "expansion_2_en": "Maintaining well-stocked sanitization stations is a baseline requirement for any modern sports complex.",
-                  "expansion_2_vi": "Duy trì các trạm vệ sinh đầy đủ xà phòng là yêu cầu tối thiểu đối với bất kỳ khu liên hợp thể thao hiện đại nào."
+                  "action_en": "There was no soap available near the sinks.",
+                  "action_vi": "Không có xà phòng gần các bồn rửa tay.",
+                  "reason_en": "I was unable to wash my hands properly, raising concerns about basic hygiene in the facility.",
+                  "reason_vi": "Tôi không thể rửa tay đúng cách, làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.",
+                  "expansion_1_en": "I strongly recommend that you provide sufficient soap and refill the dispensers regularly.",
+                  "expansion_1_vi": "Tôi tha thiết đề xuất quý vị cung cấp đủ xà phòng và bổ sung vào các hộp đựng thường xuyên.",
+                  "expansion_2_en": "Maintaining adequate soap supplies is a basic public health expectation for modern fitness centers.",
+                  "expansion_2_vi": "Duy trì đủ xà phòng là yêu cầu cơ bản về sức khỏe cộng đồng của các trung tâm thể hình hiện đại."
                 },
                 {
-                  "action_en": "The rubbish bins were overflowing, with waste scattered around the bins creating an unpleasant smell.",
-                  "action_vi": "Các thùng rác bị đầy tràn, rác vương vãi xung quanh tạo ra mùi hôi khó chịu.",
-                  "reason_en": "This created a very messy and unhygienic impression of the entire facility.",
-                  "reason_vi": "Điều này tạo ra ấn tượng vô cùng bừa bộn và mất vệ sinh cho toàn bộ trung tâm.",
-                  "expansion_1_en": "The cleaning team must empty the bins more frequently, especially during peak exercise hours.",
-                  "expansion_1_vi": "Đội ngũ vệ sinh cần đổ rác thường xuyên hơn, đặc biệt là trong các khung giờ cao điểm tập luyện.",
-                  "expansion_2_en": "Routine waste disposal rounds throughout the evening will preserve an orderly and clean facility standard.",
-                  "expansion_2_vi": "Các đợt thu gom rác định kỳ suốt buổi tối sẽ duy trì tiêu chuẩn sạch sẽ và ngăn nắp cho toàn bộ cơ sở."
+                  "action_en": "There were no paper towels available.",
+                  "action_vi": "Không có khăn giấy.",
+                  "reason_en": "I had no convenient way to dry my hands after washing them, which made the facilities less practical to use.",
+                  "reason_vi": "Tôi không có cách thuận tiện để lau khô tay sau khi rửa, khiến các tiện ích kém thuận tiện hơn khi sử dụng.",
+                  "expansion_1_en": "I suggest that you provide paper towels or install hand dryers near the sinks.",
+                  "expansion_1_vi": "Tôi đề xuất quý vị cung cấp khăn giấy hoặc lắp đặt máy sấy tay gần các bồn rửa.",
+                  "expansion_2_en": "Automated hand dryers or towel dispensers ensure clean hands and reduce cross-contamination.",
+                  "expansion_2_vi": "Máy sấy tay tự động hoặc hộp khăn giấy giúp tay luôn sạch và hạn chế lây nhiễm chéo."
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "title_en": "11. Full rubbish bins",
+              "title_vi": "Thùng rác đầy",
+              "icon": "fa-trash-can",
+              "options": [
+                {
+                  "action_en": "The rubbish bins were overflowing.",
+                  "action_vi": "Các thùng rác bị đầy tràn.",
+                  "reason_en": "Rubbish had accumulated inside and around the bins, making the changing room look unhygienic and unpleasant.",
+                  "reason_vi": "Rác tích tụ bên trong và xung quanh thùng, khiến phòng thay đồ trông mất vệ sinh và gây cảm giác khó chịu.",
+                  "expansion_1_en": "I believe that steps should be taken to empty the rubbish bins more frequently, especially during busy periods.",
+                  "expansion_1_vi": "Tôi tin rằng các biện pháp cần được thực hiện để đổ rác thường xuyên hơn, đặc biệt vào những thời điểm đông người.",
+                  "expansion_2_en": "Frequent waste disposal prevents litter from spilling over and preserves clean surroundings.",
+                  "expansion_2_vi": "Xử lý rác thường xuyên giúp rác không bị rơi vãi và bảo tồn không gian xung quanh sạch đẹp."
                 },
                 {
-                  "action_en": "The toilets were poorly maintained and emitted a strong foul odor.",
-                  "action_vi": "Nhà vệ sinh được giữ gìn kém và bốc mùi hôi nồng nặc.",
-                  "reason_en": "The unsanitary conditions made me extremely uncomfortable using the facilities.",
-                  "reason_vi": "Điều kiện mất vệ sinh khiến tôi vô cùng khó chịu khi sử dụng các tiện ích này.",
-                  "expansion_1_en": "I insist that the management thoroughly disinfect the toilets and upgrade the ventilation system.",
-                  "expansion_1_vi": "Tôi yêu cầu ban quản lý khử trùng triệt để nhà vệ sinh và nâng cấp hệ thống thông gió.",
-                  "expansion_2_en": "Comprehensive daily deep-cleaning protocols must be established immediately to uphold public health standards.",
-                  "expansion_2_vi": "Quy trình tổng vệ sinh khử khuẩn hằng ngày cần được thiết lập ngay lập tức để giữ vững tiêu chuẩn y tế công cộng."
+                  "action_en": "Rubbish was scattered around the bins.",
+                  "action_vi": "Rác vương vãi xung quanh các thùng rác.",
+                  "reason_en": "This made the area look messy and unhygienic, creating a negative impression of the sports center.",
+                  "reason_vi": "Điều này khiến khu vực trông bừa bộn và mất vệ sinh, tạo ấn tượng tiêu cực về trung tâm thể thao.",
+                  "expansion_1_en": "I would appreciate it if you could clean the area around the bins regularly and dispose of rubbish properly.",
+                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh khu vực xung quanh thùng rác và xử lý rác đúng cách.",
+                  "expansion_2_en": "Neat trash stations prevent unpleasant sights and reinforce a high standard of professional management.",
+                  "expansion_2_vi": "Khu vực đổ rác gọn gàng ngăn ngừa cảnh mất mỹ quan và củng cố tiêu chuẩn quản lý chuyên nghiệp cao."
+                }
+              ]
+            },
+            {
+              "id": 12,
+              "title_en": "12. Unpleasant smell",
+              "title_vi": "Mùi khó chịu",
+              "icon": "fa-wind",
+              "options": [
+                {
+                  "action_en": "There was a persistent unpleasant smell in the changing room.",
+                  "action_vi": "Có mùi khó chịu dai dẳng trong phòng thay đồ.",
+                  "reason_en": "The smell made the room uncomfortable to use and negatively affected my overall experience at the sports center.",
+                  "reason_vi": "Mùi này khiến căn phòng trở nên khó chịu khi sử dụng và ảnh hưởng tiêu cực đến trải nghiệm tổng thể của tôi tại trung tâm thể thao.",
+                  "expansion_1_en": "I strongly recommend that you identify the source of the smell and improve the cleaning service.",
+                  "expansion_1_vi": "Tôi tha thiết đề xuất quý vị xác định nguồn gây mùi và cải thiện dịch vụ vệ sinh.",
+                  "expansion_2_en": "Neutralizing odors creates a pleasant atmosphere that encourages regular member attendance.",
+                  "expansion_2_vi": "Khử sạch mùi hôi tạo ra bầu không khí dễ chịu giúp giữ chân hội viên tập luyện đều đặn."
+                },
+                {
+                  "action_en": "The changing room was poorly ventilated.",
+                  "action_vi": "Phòng thay đồ thông gió kém.",
+                  "reason_en": "As a result, the air felt stuffy and unpleasant, particularly when many members were using the room at the same time.",
+                  "reason_vi": "Do đó, không khí trở nên ngột ngạt và khó chịu, đặc biệt khi nhiều thành viên sử dụng phòng cùng lúc.",
+                  "expansion_1_en": "I would like to suggest that you install a more effective ventilation system.",
+                  "expansion_1_vi": "Tôi muốn gợi ý rằng quý vị lắp đặt hệ thống thông gió hiệu quả hơn.",
+                  "expansion_2_en": "Continuous fresh air circulation eliminates dampness and promotes a much healthier indoor environment.",
+                  "expansion_2_vi": "Lưu thông không khí tươi liên tục loại bỏ sự ẩm thấp và thúc đẩy môi trường trong nhà lành mạnh hơn nhiều."
+                }
+              ]
+            },
+            {
+              "id": 13,
+              "title_en": "13. Dirty toilets",
+              "title_vi": "Nhà vệ sinh bẩn",
+              "icon": "fa-restroom",
+              "options": [
+                {
+                  "action_en": "The toilets were poorly maintained and unhygienic.",
+                  "action_vi": "Nhà vệ sinh được giữ gìn kém và mất vệ sinh.",
+                  "reason_en": "The unsanitary conditions made me uncomfortable using the toilets and raised concerns about the overall hygiene standards of the sports center.",
+                  "reason_vi": "Điều kiện mất vệ sinh khiến tôi không thoải mái khi sử dụng nhà vệ sinh và làm dấy lên lo ngại về tiêu chuẩn vệ sinh chung của trung tâm thể thao.",
+                  "expansion_1_en": "I believe that steps should be taken to clean and disinfect the toilets more regularly.",
+                  "expansion_1_vi": "Tôi tin rằng các biện pháp cần được thực hiện để vệ sinh và khử trùng nhà vệ sinh thường xuyên hơn.",
+                  "expansion_2_en": "Spotless restroom facilities are vital for upholding health regulations and maintaining customer satisfaction.",
+                  "expansion_2_vi": "Nhà vệ sinh sạch sẽ tinh tươm là thiết yếu để tuân thủ quy định y tế và duy trì sự hài lòng của khách hàng."
+                },
+                {
+                  "action_en": "There was a strong unpleasant smell coming from the toilets.",
+                  "action_vi": "Có mùi khó chịu nồng nặc phát ra từ nhà vệ sinh.",
+                  "reason_en": "The smell spread to the surrounding area, making the entire section unpleasant to use.",
+                  "reason_vi": "Mùi này lan ra khu vực xung quanh, khiến toàn bộ khu vực trở nên khó chịu khi sử dụng.",
+                  "expansion_1_en": "I would appreciate it if you could thoroughly clean the toilets and check the plumbing and ventilation systems.",
+                  "expansion_1_vi": "Tôi sẽ rất cảm kích nếu quý vị vệ sinh nhà vệ sinh kỹ lưỡng và kiểm tra hệ thống ống nước cùng hệ thống thông gió.",
+                  "expansion_2_en": "Regular plumbing inspections prevent sewage odors and maintain a sanitary changing environment.",
+                  "expansion_2_vi": "Kiểm tra hệ thống ống nước định kỳ ngăn chặn mùi hôi cống rãnh và duy trì không gian thay đồ sạch sẽ."
                 }
               ]
             }
