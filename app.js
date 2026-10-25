@@ -1782,7 +1782,7 @@ const RECITATION_QUESTIONS = {
   ],
   "complaint": [
     {
-      "cue": "Viết lời chào mở đầu trang trọng trong thư phàn nàn: \"Dear Sir/Madam, / Dear Customer Service Manager,\"",
+      "cue": "Viết lời chào mở đầu trang trọng trong thư phàn nàn: \"Kính gửi Quý ông/Quý bà, / Kính gửi Quản lý Dịch vụ Khách hàng,\"",
       "target": "Dear Sir/Madam, / Dear Customer Service Manager,"
     },
     {
