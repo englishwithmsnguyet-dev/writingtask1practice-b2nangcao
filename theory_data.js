@@ -307,32 +307,77 @@ const B2_CATEGORY_THEORY = {
     title_vi: "Thư phàn nàn",
     title_en: "Letter of Complaint",
     badge: "TYPE 04 - B2 LEVEL",
-    purpose: "Bày tỏ sự không hài lòng về chất lượng dịch vụ, sản phẩm hoặc thái độ phục vụ và yêu cầu biện pháp khắc phục, đổi hàng hoặc hoàn tiền.",
-    typical_register: "Chủ yếu là thư Trang trọng (Formal) hoặc Bán trang trọng (Semi-formal).",
+    purpose: "Bày tỏ sự không hài lòng về chất lượng sản phẩm, dịch vụ hoặc tiện ích, giải thích cảm xúc và đề xuất các giải pháp khắc phục thỏa đáng.",
+    typical_register: "Thư phàn nàn thường sử dụng phong cách trang trọng hoặc bán trang trọng, tùy thuộc vào người nhận và mối quan hệ giữa hai bên.",
     signs: [
-      "complain about...",
-      "express dissatisfaction with...",
-      "unhappy with...",
-      "poor service...",
-      "damaged item...",
-      "not satisfied with..."
+      "complain about …",
+      "express dissatisfaction with …",
+      "be unhappy with …",
+      "be disappointed with …",
+      "report a problem with …",
+      "describe the problems you experienced with …",
+      "explain why you were dissatisfied with …",
+      "suggest what should be done to improve …"
     ],
+    distinction_note: "Không nhất thiết đề bài phải có từ complain. Nếu đề yêu cầu mô tả vấn đề, giải thích sự không hài lòng và đề xuất cách cải thiện, người viết vẫn có thể triển khai theo dạng Letter of Complaint.",
     b2_power_structures: [
-      { pattern: "I am writing to express my dissatisfaction with …", meaning: "Tôi viết thư này để bày tỏ sự không hài lòng với...", example: "I am writing to express my dissatisfaction with the poor customer service I received yesterday." },
-      { pattern: "The main problem was that …", meaning: "Vấn đề chính là...", example: "The main problem was that the room had not been thoroughly cleaned before my arrival." },
-      { pattern: "To make matters worse, …", meaning: "Tệ hơn nữa là...", example: "To make matters worse, the air conditioner was broken and made loud noises throughout the night." },
-      { pattern: "Another concern was that …", meaning: "Một mối bận tâm khác là...", example: "Another concern was that the staff refused to take responsibility and showed an unprofessional attitude." },
-      { pattern: "A further issue was that …", meaning: "Một vấn đề xa hơn nữa là...", example: "A further issue was that the delivered item differed significantly from the description on your website." },
-      { pattern: "This situation caused me considerable inconvenience because …", meaning: "Tình huống này đã gây cho tôi nhiều sự bất tiện đáng kể vì...", example: "This situation caused me considerable inconvenience because I had an important morning conference." },
-      { pattern: "I strongly suggest that you replace / refund …", meaning: "Tôi tha thiết đề nghị quý công ty đổi / hoàn tiền...", example: "I strongly suggest that you refund the total charge or offer a complimentary stay in the future." },
-      { pattern: "I hope this matter will receive your prompt attention.", meaning: "Tôi hy vọng vấn đề này sẽ được quý đơn vị giải quyết nhanh chóng.", example: "I hope this matter will receive your prompt attention and I look forward to your prompt response." }
+      {
+        pattern: "I am writing to express my dissatisfaction with … I recently [used/bought/experienced] …, and I was disappointed with the experience.",
+        meaning: "Tôi viết thư này để bày tỏ sự không hài lòng với [vấn đề]. Gần đây tôi đã [sử dụng/mua/trải nghiệm] [sản phẩm/dịch vụ], và tôi đã thất vọng với trải nghiệm này.",
+        example: "I am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience."
+      },
+      {
+        pattern: "The main problem was that …",
+        meaning: "Vấn đề chính là...",
+        example: "The main problem was that the changing room was not cleaned on a regular basis, leaving the floor wet and slippery."
+      },
+      {
+        pattern: "Another concern was that …",
+        meaning: "Một mối bận tâm khác là...",
+        example: "Another concern was that several lockers were broken and could not be locked securely."
+      },
+      {
+        pattern: "A further issue was that …",
+        meaning: "Một vấn đề nữa là...",
+        example: "A further issue was that an unpleasant odor lingered in the room due to poor ventilation."
+      },
+      {
+        pattern: "To begin with, … → In addition, … → What made the situation worse was that …",
+        meaning: "Trước hết,... → Ngoài ra,... → Điều làm cho tình huống tệ hơn là...",
+        example: "To begin with, the floor was slippery. In addition, many lockers were broken. What made the situation worse was that there was no hot water in the showers."
+      },
+      {
+        pattern: "I was particularly disappointed with this experience because I expected a better level of quality and service.",
+        meaning: "Tôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn.",
+        example: "I was particularly disappointed with this experience because I expected a better level of quality and service from a reputable center."
+      },
+      {
+        pattern: "I would appreciate it if you could [đề xuất giải pháp cụ thể].",
+        meaning: "Tôi sẽ rất cảm kích nếu quý vị có thể [đề xuất giải pháp cụ thể].",
+        example: "I would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently."
+      },
+      {
+        pattern: "I strongly recommend that the management [đề xuất giải pháp cụ thể].",
+        meaning: "Tôi tha thiết đề xuất rằng ban quản lý [đề xuất giải pháp cụ thể].",
+        example: "I strongly recommend that the management repair the faulty lockers and upgrade the ventilation system immediately."
+      },
+      {
+        pattern: "I believe that steps should be taken to [biện pháp cần thực hiện].",
+        meaning: "Tôi tin rằng các biện pháp cần được thực hiện để [biện pháp cần thực hiện].",
+        example: "I believe that steps should be taken to ensure a clean, safe, and pleasant environment for all members."
+      },
+      {
+        pattern: "I hope that these issues will be addressed promptly. I look forward to hearing from you soon.",
+        meaning: "Tôi hy vọng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị.",
+        example: "I hope that these issues will be addressed promptly. I look forward to hearing from you soon."
+      }
     ],
-    connectors_hint: "To begin with, the main problem was … → To make matters worse, … → Another concern was that … → Finally, …",
+    connectors_hint: "To begin with, [vấn đề 1] … → In addition, [vấn đề 2] … → What made the situation worse was that [vấn đề 3] …",
     analysis_questions: [
       "Người nhận là ai?",
       "Mục đích bức thư là gì?",
-      "Đây là thư thân mật, trang trọng hay bán trang trọng?",
-      "Có những sự cố / vấn đề gì cần khiếu nại?"
+      "Đây là thư thân mật, trang trọng, hay bán trang trọng?",
+      "Có những yêu cầu gì trong thư?"
     ]
   },
 
