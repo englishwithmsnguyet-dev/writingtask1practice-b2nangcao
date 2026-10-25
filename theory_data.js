@@ -1575,6 +1575,687 @@ const B2_DETAILED_OUTLINES = {
         </div>
       </div>
     </div>
+
+    <!-- PHẦN IV: NGÂN HÀNG Ý TƯỞNG GỢI Ý CHI TIẾT (13 GỢI Ý TRIỂN KHAI CHO ĐỀ PHÒNG THAY ĐỒ) -->
+    <div class="bento-card card-theme-violet" style="padding: 1.4rem 1.6rem; margin-top: 1.75rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-lightbulb" style="color: var(--violet-light);"></i> IV. NGÂN HÀNG Ý TƯỞNG PHÁT TRIỂN BÀI VIẾT (13 GỢI Ý CHI TIẾT - CHỦ ĐỀ PHÒNG THAY ĐỒ)
+        </h4>
+        <span class="hl-pill hl-violet"><i class="fa-solid fa-layer-group"></i> 13 Nhóm vấn đề & Giải pháp</span>
+      </div>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0 0 1.15rem 0; text-align: justify !important; text-justify: inter-word !important;">
+        Khi viết phần Thân bài, học viên chọn từ <strong>2 đến 3 vấn đề</strong> dưới đây để phát triển thành các câu hoàn chỉnh theo công thức: <em>Vấn đề cụ thể → Hậu quả / Cảm nhận → Đề xuất giải pháp khắc phục</em>:
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem;">
+        
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-broom" style="color: var(--cyan-light);"></i>
+            <span>1. The dirty changing room (Phòng thay đồ bẩn)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          The changing room was poorly maintained. (Phòng thay đồ được giữ gìn kém.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            Rubbish was scattered across the floor, making the entire area look unhygienic and unpleasant to use. (Rác vương vãi khắp sàn nhà, khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> arrange for the changing room to be cleaned more frequently (bố trí vệ sinh phòng thay đồ thường xuyên hơn)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          The changing room was not cleaned on a regular basis/ regularly. (Phòng thay đồ không được vệ sinh thường xuyên.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            An unpleasant smell lingered in the room, making it uncomfortable for members to change their clothes. (Mùi khó chịu lưu lại trong phòng, khiến các thành viên cảm thấy không thoải mái khi thay quần áo.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> improve the cleaning service and ensure regular maintenance (cải thiện dịch vụ vệ sinh và bảo đảm việc bảo trì thường xuyên)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-lock" style="color: var(--cyan-light);"></i>
+            <span>2. Broken lockers (Tủ khóa bị hỏng)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          Some of the lockers were out of order. (Một số tủ khóa không thể sử dụng được.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I was unable to secure my personal belongings, which made me concerned about their safety. (Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> repair or replace the faulty lockers (sửa chữa hoặc thay thế các tủ khóa bị lỗi)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          There were insufficient lockers available for members. (Không có đủ tủ khóa cho các thành viên.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I had to wait until a locker became available, which wasted valuable time before my workout. (Tôi phải chờ đến khi có tủ trống, điều này làm lãng phí thời gian quý báu trước buổi tập.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> install additional lockers to accommodate more members (lắp đặt thêm tủ khóa để phục vụ nhiều thành viên hơn)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-shower" style="color: var(--cyan-light);"></i>
+            <span>3. Broken showers (Vòi sen bị hỏng)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          Some of the showers were not functioning properly. (Một số vòi sen không hoạt động bình thường.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I was unable to take a shower after exercising, which made it inconvenient to freshen up before leaving the center. (Tôi không thể tắm sau khi tập luyện, khiến việc vệ sinh cơ thể trước khi rời trung tâm trở nên bất tiện.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> repair the faulty showers as soon as possible (sửa chữa các vòi sen bị lỗi sớm nhất có thể)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          There was no hot water available. (Không có nước nóng.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I had no choice but to take a cold shower after exercising, which was particularly uncomfortable. (Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> ensure a reliable supply of hot water (bảo đảm nguồn cung cấp nước nóng ổn định)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-lightbulb" style="color: var(--cyan-light);"></i>
+            <span>4. Broken lights (Đèn bị hỏng)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          Some of the lights were not working properly. (Một số đèn không hoạt động bình thường.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            The changing room was poorly lit, making it difficult for members to move around safely. (Phòng thay đồ thiếu ánh sáng, khiến các thành viên khó di chuyển an toàn.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> replace the faulty lights with new ones (thay các đèn bị lỗi bằng đèn mới)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          The lighting in the changing room was inadequate. (Hệ thống chiếu sáng trong phòng thay đồ không đủ.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I found it difficult to locate my personal belongings, especially in the darker areas of the room. (Tôi thấy khó tìm đồ dùng cá nhân, đặc biệt ở những khu vực tối hơn trong phòng.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> install brighter lights to improve visibility (lắp đặt đèn sáng hơn để cải thiện tầm nhìn)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-shirt" style="color: var(--cyan-light);"></i>
+            <span>5. Clothes hooks (Móc treo đồ)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          There were insufficient clothes hooks available. (Không có đủ móc treo quần áo.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I had to leave my clothes on a bench or the floor, where they could easily become dirty. (Tôi phải để quần áo trên ghế hoặc sàn nhà, nơi chúng có thể dễ bị bẩn.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> install additional clothes hooks (lắp đặt thêm móc treo quần áo)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          Some of the clothes hooks were damaged. (Một số móc treo quần áo bị hỏng.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I was unable to hang my clothes properly, making it difficult to keep my belongings neat and organised. (Tôi không thể treo quần áo đúng cách, khiến việc giữ đồ đạc gọn gàng và ngăn nắp trở nên khó khăn.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> repair or replace the damaged clothes hooks (sửa chữa hoặc thay thế các móc treo quần áo bị hỏng)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-chair" style="color: var(--cyan-light);"></i>
+            <span>6. Dirty benches (Ghế ngồi bẩn)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          The benches were poorly maintained and visibly dirty. (Các ghế ngồi được giữ gìn kém và nhìn thấy rõ là rất bẩn.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I felt uncomfortable sitting on them because their surfaces appeared to have been neglected for some time. (Tôi cảm thấy không thoải mái khi ngồi lên ghế vì bề mặt của chúng có vẻ đã bị bỏ bê trong một thời gian.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> clean and disinfect the benches more frequently (vệ sinh và khử trùng ghế thường xuyên hơn)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          There were not enough benches in the changing room. (Không có đủ ghế ngồi trong phòng thay đồ.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I had to stand while changing my clothes, which was particularly inconvenient when the room was crowded. (Tôi phải đứng khi thay quần áo, điều này đặc biệt bất tiện khi phòng đông người.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> provide additional benches for members (bổ sung thêm ghế ngồi cho các thành viên)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-triangle-exclamation" style="color: var(--cyan-light);"></i>
+            <span>7. Slippery floor (Sàn nhà trơn trượt)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          The floor was wet and dangerously slippery. (Sàn nhà ướt và trơn trượt nguy hiểm.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I was concerned that I might slip and injure myself, particularly when walking barefoot. (Tôi lo mình có thể trượt ngã và bị thương, đặc biệt khi đi chân trần.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> clean and dry the floor regularly to prevent accidents (thường xuyên vệ sinh và lau khô sàn nhà để ngăn ngừa tai nạn)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          Water had accumulated across the floor. (Nước đọng trên khắp sàn nhà.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            This made it difficult to move around safely and increased the risk of slips and falls. (Điều này khiến việc đi lại an toàn trở nên khó khăn và làm tăng nguy cơ trượt ngã.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> keep the floor clean and dry at all times (giữ sàn nhà sạch sẽ và khô ráo mọi lúc)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-table-cells-large" style="color: var(--cyan-light);"></i>
+            <span>8. Dirty mirrors (Gương bẩn)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          The mirrors were covered in dirt and stains. (Các tấm gương bị phủ đầy bụi bẩn và vết ố.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I could not see my reflection clearly, making it difficult to check my appearance before leaving the center. (Tôi không thể nhìn rõ hình ảnh phản chiếu của mình, khiến việc kiểm tra diện mạo trước khi rời trung tâm trở nên khó khăn.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> clean the mirrors thoroughly and regularly (vệ sinh gương kỹ lưỡng và thường xuyên)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          Some of the mirrors were cracked. (Một số gương bị nứt.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I was concerned that the damaged glass might break further and cause injuries to members. (Tôi lo rằng phần kính bị hỏng có thể vỡ thêm và gây thương tích cho các thành viên.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> replace the cracked mirrors immediately (thay thế ngay các tấm gương bị nứt)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-wind" style="color: var(--cyan-light);"></i>
+            <span>9. Broken hair dryers (Máy sấy tóc bị hỏng)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          Some of the hair dryers were out of order. (Một số máy sấy tóc không thể sử dụng được.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I was unable to dry my hair after taking a shower, which was inconvenient before heading home or going to work. (Tôi không thể sấy khô tóc sau khi tắm, điều này gây bất tiện trước khi về nhà hoặc đi làm.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> repair or replace the faulty hair dryers (sửa chữa hoặc thay thế các máy sấy tóc bị lỗi)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          There were not enough hair dryers for members to use. (Không có đủ máy sấy tóc cho các thành viên sử dụng.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I had to wait in a queue for an extended period, which delayed my departure from the sports center. (Tôi phải xếp hàng chờ trong một khoảng thời gian khá dài, khiến tôi rời trung tâm thể thao muộn hơn.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> provide additional hair dryers to reduce waiting times (bổ sung máy sấy tóc để giảm thời gian chờ đợi)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-pump-soap" style="color: var(--cyan-light);"></i>
+            <span>10. Hygiene products (Đồ dùng vệ sinh)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          There was no soap available near the sinks. (Không có xà phòng gần các bồn rửa tay.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I was unable to wash my hands properly, raising concerns about basic hygiene in the facility. (Tôi không thể rửa tay đúng cách, làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> provide sufficient soap and refill the dispensers regularly (cung cấp đủ xà phòng và bổ sung vào các hộp đựng thường xuyên)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          There were no paper towels available. (Không có khăn giấy.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            I had no convenient way to dry my hands after washing them, which made the facilities less practical to use. (Tôi không có cách thuận tiện để lau khô tay sau khi rửa, khiến các tiện ích kém thuận tiện hơn khi sử dụng.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> provide paper towels or install hand dryers near the sinks (cung cấp khăn giấy hoặc lắp đặt máy sấy tay gần các bồn rửa)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-trash-can" style="color: var(--cyan-light);"></i>
+            <span>11. Full rubbish bins (Thùng rác đầy)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          The rubbish bins were overflowing. (Các thùng rác bị đầy tràn.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            Rubbish had accumulated inside and around the bins, making the changing room look unhygienic and unpleasant. (Rác tích tụ bên trong và xung quanh thùng, khiến phòng thay đồ trông mất vệ sinh và gây cảm giác khó chịu.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> empty the rubbish bins more frequently, especially during busy periods (đổ rác thường xuyên hơn, đặc biệt vào những thời điểm đông người)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          Rubbish was scattered around the bins. (Rác vương vãi xung quanh các thùng rác.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            This made the area look messy and unhygienic, creating a negative impression of the sports center. (Điều này khiến khu vực trông bừa bộn và mất vệ sinh, tạo ấn tượng tiêu cực về trung tâm thể thao.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> clean the area around the bins regularly and dispose of rubbish properly (thường xuyên vệ sinh khu vực xung quanh thùng rác và xử lý rác đúng cách)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-wind" style="color: var(--cyan-light);"></i>
+            <span>12. Unpleasant smell (Mùi khó chịu)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          There was a persistent unpleasant smell in the changing room. (Có mùi khó chịu dai dẳng trong phòng thay đồ.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            The smell made the room uncomfortable to use and negatively affected my overall experience at the sports center. (Mùi này khiến căn phòng trở nên khó chịu khi sử dụng và ảnh hưởng tiêu cực đến trải nghiệm tổng thể của tôi tại trung tâm thể thao.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> identify the source of the smell and improve the cleaning service (xác định nguồn gây mùi và cải thiện dịch vụ vệ sinh)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          The changing room was poorly ventilated. (Phòng thay đồ thông gió kém.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            As a result, the air felt stuffy and unpleasant, particularly when many members were using the room at the same time. (Do đó, không khí trở nên ngột ngạt và khó chịu, đặc biệt khi nhiều thành viên sử dụng phòng cùng lúc.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> install a more effective ventilation system (lắp đặt hệ thống thông gió hiệu quả hơn)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
+          <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fa-solid fa-restroom" style="color: var(--cyan-light);"></i>
+            <span>13. Dirty toilets (Nhà vệ sinh bẩn)</span>
+          </h5>
+          <span class="hl-pill hl-violet" style="font-size: 0.72rem;">2 Hướng triển khai</span>
+        </div>
+        <div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
+          The toilets were poorly maintained and unhygienic. (Nhà vệ sinh được giữ gìn kém và mất vệ sinh.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            The unsanitary conditions made me uncomfortable using the toilets and raised concerns about the overall hygiene standards of the sports center. (Điều kiện mất vệ sinh khiến tôi không thoải mái khi sử dụng nhà vệ sinh và làm dấy lên lo ngại về tiêu chuẩn vệ sinh chung của trung tâm thể thao.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> clean and disinfect the toilets more regularly (vệ sinh và khử trùng nhà vệ sinh thường xuyên hơn)
+          </div>
+        </div>
+      </div>
+    
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
+        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
+          There was a strong unpleasant smell coming from the toilets. (Có mùi khó chịu nồng nặc phát ra từ nhà vệ sinh.)
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            The smell spread to the surrounding area, making the entire section unpleasant to use. (Mùi này lan ra khu vực xung quanh, khiến toàn bộ khu vực trở nên khó chịu khi sử dụng.)
+          </div>
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> thoroughly clean the toilets and check the plumbing and ventilation systems (vệ sinh nhà vệ sinh kỹ lưỡng và kiểm tra hệ thống ống nước cùng hệ thống thông gió)
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    
+      </div>
+    </div>
+  
   `,
 
   feedback: `
