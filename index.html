@@ -236,6 +236,9 @@
 
     </aside>
 
+    <!-- Backdrop Overlay for Mobile Sidebar Drawer -->
+    <div class="sidebar-backdrop" id="sidebarBackdrop" onclick="closeMobileSidebar()"></div>
+
     <!-- ====================================================================
          MAIN CONTENT AREA
          ==================================================================== -->
@@ -243,6 +246,10 @@
       
       <!-- Top Action Bar -->
       <header class="top-header">
+        <button class="btn-menu-mobile" id="mobileMenuBtn" onclick="toggleMobileSidebar()" aria-label="Mở danh mục menu" title="Mở danh mục">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
         <div class="header-title-box">
           <i class="fa-solid fa-compass-drafting" style="color: var(--accent-primary);"></i>
           <span id="top-header-title-badge">LÝ THUYẾT TỔNG QUAN TASK 01</span>
