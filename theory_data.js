@@ -790,16 +790,22 @@ const B2_DETAILED_OUTLINES = {
           <div style="margin-bottom: 0.35rem;">
             <span class="hl-pill hl-cyan">• Thân mật</span>
           </div>
-          <div style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary);">
-            ↳ I’d really appreciate your help with this. Write back soon.
+          <div class="formula-arrow-row" style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              I’d really appreciate your help with this. Write back soon.
+            </div>
           </div>
         </div>
         <div style="background: var(--bg-inner); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 0.9rem 1.1rem;">
           <div style="margin-bottom: 0.35rem;">
             <span class="hl-pill hl-violet">• Trang trọng & Bán trang trọng</span>
           </div>
-          <div style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary);">
-            ↳ Thank you for your time. I look forward to hearing from you.
+          <div class="formula-arrow-row" style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              Thank you for your time. I look forward to hearing from you.
+            </div>
           </div>
         </div>
       </div>
