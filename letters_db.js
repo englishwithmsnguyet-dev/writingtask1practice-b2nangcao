@@ -12679,7 +12679,7 @@ const LETTERS_DATA = [
                   "action_vi": "lớp đệm mút và da bọc trên các máy tập ngực bị rách nát và ố bẩn loang lổ",
                   "reason_en": "because the torn pads look dirty and collect a lot of sweat bacteria.",
                   "reason_vi": "tích tụ vi khuẩn từ mồ hôi và tạo cảm giác mất vệ sinh, mất mỹ quan cho người tập.",
-                  "expansion_1_en": "The foam stuffing has begun disintegrating, emitting a sour stench that sticks to members' athletic shirts.",
+                  "expansion_1_en": "The foam stuffing has begun disintegrating, which creates a bad smell on members' athletic shirts.",
                   "expansion_1_vi": "Lớp mút xốp đệm đã bắt đầu mủn nát, bốc ra mùi chua hôi bám chặt vào áo thể thao của người tập.",
                   "expansion_2_en": "Such deteriorating padding is utterly unacceptable for a fitness brand that claims luxury standards.",
                   "expansion_2_vi": "Lớp đệm rách nát xuống cấp như vậy là điều không thể chấp nhận được ở một thương hiệu tự nhận chuẩn cao cấp."
@@ -13074,7 +13074,7 @@ const LETTERS_DATA = [
                   "action_vi": "món súp hải sản có mùi không còn tươi và vị thì lõng bõng, nhạt nhẽo",
                   "reason_en": "because the seafood did not taste fresh and was very watery.",
                   "reason_vi": "cho thấy nguyên liệu hải sản kém chất lượng hoặc không được bảo quản đúng cách.",
-                  "expansion_1_en": "The soup had separated into oily water, indicating that it had been sitting reheated for hours.",
+                  "expansion_1_en": "The soup had separated into oily water, which showed that it had been sitting reheated for hours.",
                   "expansion_1_vi": "Món súp đã bị tách nước và nổi váng dầu, chứng tỏ đã bị hâm đi hâm lại suốt nhiều giờ.",
                   "expansion_2_en": "One of our dining guests felt so nauseated after a single spoonful that she could not continue eating.",
                   "expansion_2_vi": "Một người bạn trong bàn của tôi cảm thấy buồn nôn sau khi nếm một muỗng đến mức không thể ăn tiếp."
@@ -13388,7 +13388,7 @@ const LETTERS_DATA = [
                   "action_vi": "bồn rửa mặt trong nhà tắm bị nghẹt nặng và thoát nước rất chậm",
                   "reason_en": "because the bathroom drain was clogged and dirty water flooded the floor.",
                   "reason_vi": "khiến nước thải đục ngầu tràn ra khắp sàn nhà tắm.",
-                  "expansion_1_en": "Soapy wastewater took over twenty minutes to drain away, leaving an unsightly scummy residue.",
+                  "expansion_1_en": "Soapy wastewater took over twenty minutes to drain away, which left an unsightly dirty residue on the floor.",
                   "expansion_1_vi": "Nước xà phòng bẩn mất hơn hai mươi phút mới rút hết, để lại một lớp cặn bẩn vô cùng mất thẩm mỹ.",
                   "expansion_2_en": "This plumbing blockage made basic dental care and face washing deeply uncomfortable.",
                   "expansion_2_vi": "Tình trạng nghẹt đường ống nước này khiến việc đánh răng và rửa mặt cơ bản trở nên rất khó chịu."
@@ -13398,7 +13398,7 @@ const LETTERS_DATA = [
                   "action_vi": "tín hiệu wifi trong phòng rất yếu và liên tục bị ngắt kết nối",
                   "reason_en": "because the Wi-Fi was broken and I could not check my messages.",
                   "reason_vi": "khiến tôi không thể tra cứu thông tin du lịch hay kiểm tra tin nhắn công việc.",
-                  "expansion_1_en": "The signal continually dropped out every two minutes, rendering simple web browsing impossible.",
+                  "expansion_1_en": "The signal continually dropped out every two minutes, which made simple web browsing impossible.",
                   "expansion_1_vi": "Tín hiệu mạng liên tục bị ngắt kết nối sau mỗi hai phút, khiến việc lướt web đơn giản cũng không thể thực hiện.",
                   "expansion_2_en": "I was unable to load urgent travel itineraries or check corporate communications from my office.",
                   "expansion_2_vi": "Tôi không thể tải lịch trình du lịch khẩn hay kiểm tra các trao đổi công việc từ văn phòng công ty."
@@ -13420,7 +13420,7 @@ const LETTERS_DATA = [
                   "reason_vi": "buộc tôi phải tắm nước lạnh buốt khó chịu trước khi ra ngoài.",
                   "expansion_1_en": "The shower delivered only freezing cold water despite letting the mixer tap run for ten minutes.",
                   "expansion_1_vi": "Vòi sen chỉ chảy ra nước lạnh buốt dù tôi đã để vòi trộn nước xả liên tục suốt mười phút.",
-                  "expansion_2_en": "Having to shower in icy water after a long, tiring flight was an utterly miserable ordeal.",
+                  "expansion_2_en": "Taking a shower in cold water after a long flight made me feel very uncomfortable and frustrated.",
                   "expansion_2_vi": "Phải tắm nước đá lạnh sau một chuyến bay dài mệt mỏi là một trải nghiệm thực sự tồi tệ."
                 }
               ]
