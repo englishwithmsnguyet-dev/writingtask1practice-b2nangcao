@@ -1207,75 +1207,239 @@ const B2_DETAILED_OUTLINES = {
   `,
 
   complaint: `
-    <!-- 4 Bước Phân tích đề -->
+    <!-- PHẦN I: DẤU HIỆU NHẬN BIẾT -->
     <div class="bento-card card-theme-cyan" style="padding: 1.25rem 1.5rem; margin-bottom: 1.35rem;">
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
-        <h4 style="font-size: 0.95rem; font-weight: 800; color: var(--text-primary); margin: 0;">
-          <i class="fa-solid fa-compass" style="color: var(--cyan-light);"></i> 4 BƯỚC PHÂN TÍCH ĐỀ TRƯỚC KHI VIẾT (THƯ PHÀN NÀN - COMPLAINT):
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-magnifying-glass" style="color: var(--cyan-light);"></i> I. DẤU HIỆU NHẬN BIẾT (TYPE 04: LETTER OF COMPLAINT - THƯ PHÀN NÀN)
         </h4>
-        <span class="hl-pill hl-violet">100% Trang trọng (Formal)</span>
+        <span class="hl-pill hl-cyan"><i class="fa-solid fa-tag"></i> Từ khóa cốt lõi</span>
       </div>
-      <div class="analysis-quad-grid" style="margin-top: 0.5rem;">
-        <div class="analysis-step-item step-cyan" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">1</div><span class="hl-pill hl-cyan">Người nhận</span></div>
-          <div class="label">Người nhận là ai?</div>
-          <div class="val">Quản lý khách sạn, Giám đốc trung tâm, Phòng Chăm sóc khách hàng.</div>
-        </div>
-        <div class="analysis-step-item step-amber" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">2</div><span class="hl-pill hl-amber">Mục đích</span></div>
-          <div class="label">Mục đích thư là gì?</div>
-          <div class="val">Bày tỏ sự không hài lòng và yêu cầu biện pháp bồi thường / hoàn tiền / xin lỗi.</div>
-        </div>
-        <div class="analysis-step-item step-emerald" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">3</div><span class="hl-pill hl-emerald">Văn phong</span></div>
-          <div class="label">Văn phong là gì?</div>
-          <div class="val">Trang trọng, lịch sự nhưng kiên quyết (Không dùng từ viết tắt don't, I'm).</div>
-        </div>
-        <div class="analysis-step-item step-rose" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">4</div><span class="hl-pill hl-rose">Yêu cầu</span></div>
-          <div class="label">Có những yêu cầu gì?</div>
-          <div class="val">Nêu rõ các sự cố (vấn đề 1, vấn đề 2) và giải pháp mong đợi.</div>
-        </div>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+        Dạng thư này thường xuất hiện khi đề bài có các từ khóa như:
+      </p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">complain about …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">express dissatisfaction with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">be unhappy with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">be disappointed with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">report a problem with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">describe the problems you experienced with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">explain why you were dissatisfied with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">suggest what should be done to improve …</span>
+      </div>
+
+      <!-- HỘP LƯU Ý PHÂN BIỆT ĐẶC BIỆT -->
+      <div style="background: rgba(245, 158, 11, 0.12); border-left: 4px solid var(--amber-light); border-radius: var(--radius-sm); padding: 0.95rem 1.15rem; font-size: 0.88rem; line-height: 1.65; color: var(--text-primary);">
+        <strong style="color: var(--amber-light); display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 0.3rem;">
+          <i class="fa-solid fa-triangle-exclamation"></i> LƯU Ý PHÂN BIỆT QUAN TRỌNG:
+        </strong>
+        <p style="margin: 0; text-align: justify !important; text-justify: inter-word !important;">
+          Không nhất thiết đề bài phải có từ <strong>complain</strong>. Nếu đề yêu cầu mô tả vấn đề, giải thích sự không hài lòng và đề xuất cách cải thiện, người viết vẫn có thể triển khai theo dạng <strong>Letter of Complaint</strong>.
+        </p>
       </div>
     </div>
 
-    <!-- Bước 1 -->
+    <!-- PHẦN II: DÀN Ý CHI TIẾT 5 BƯỚC -->
+    <div class="bento-card card-theme-violet" style="padding: 1.25rem 1.5rem; margin-bottom: 1.35rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-sitemap" style="color: var(--violet-light);"></i> II. DÀN Ý CHI TIẾT 5 BƯỚC (MASTER OUTLINE)
+        </h4>
+        <span class="hl-pill hl-violet">Phong cách: Trang trọng • Bán trang trọng</span>
+      </div>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+        <strong>LƯU Ý:</strong> Thư phàn nàn thường sử dụng phong cách trang trọng hoặc bán trang trọng, tùy thuộc vào người nhận và mối quan hệ giữa hai bên.
+      </p>
+    </div>
+
+    <!-- Bước 1: Lời chào mở đầu -->
     <div class="outline-step-card step-border-cyan">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-cyan"><i class="fa-solid fa-hand-wave"></i> BƯỚC 1: LỜI CHÀO MỞ ĐẦU (SALUTATION)</span>
-        <span class="hl-pill hl-violet">Trang trọng</span>
+        <span class="step-badge-3d step-badge-cyan"><i class="fa-solid fa-hand-wave"></i> 1. LỜI CHÀO MỞ ĐẦU (SALUTATION)</span>
+        <span class="hl-pill hl-cyan">Phân loại theo người nhận</span>
       </div>
-      <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border);">
-        <div class="formula-arrow-row">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
-            Dear Sir/Madam, / Dear Customer Service Manager,
+      <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border); font-size: 0.95rem; line-height: 1.7;">
+        <div style="margin-bottom: 0.75rem;">
+          <strong style="color: var(--violet-light);">• Trang trọng (Formal):</strong>
+          <div style="margin-left: 0.65rem; margin-top: 0.25rem; display: flex; flex-direction: column; gap: 0.35rem;">
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Sir, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nam)</span>
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nữ)</span>
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Sir/Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu không biết chắc chắn biết người nhận là nam hay nữ)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <strong style="color: var(--amber-light);">• Bán trang trọng (Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary);">
+              Dear Mr. / Ms. / Mrs. <span class="hl-placeholder">[họ của người nhận]</span>,
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 2 -->
+    <!-- Bước 2: Mở thư -->
     <div class="outline-step-card step-border-violet">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> BƯỚC 2: MỞ THƯ (OPENING)</span>
-        <span class="hl-pill hl-violet">Nêu sự việc và lý do phàn nàn</span>
+        <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> 2. MỞ THƯ (OPENING)</span>
+        <span class="hl-pill hl-violet">Nêu sự việc & Sự thất vọng</span>
       </div>
-      <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.14), rgba(168, 85, 247, 0.08)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
+      <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(168, 85, 247, 0.06)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
         <div class="formula-arrow-row">
           <span class="formula-arrow-icon">↳</span>
           <div class="formula-arrow-content">
-            <strong><span class="hl-mark-opening">I am writing to express my strong dissatisfaction with the service I received during my recent stay at your hotel.</span></strong>
+            <strong>I am writing to express my dissatisfaction with <span class="hl-placeholder">[vấn đề cần phàn nàn]</span>. I recently <span class="hl-placeholder">[sử dụng/mua/trải nghiệm]</span> <span class="hl-placeholder">[sản phẩm hoặc dịch vụ]</span>, and I was disappointed with the experience.</strong>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 3 -->
+    <!-- Bước 3: Thân thư -->
     <div class="outline-step-card step-border-emerald">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-emerald"><i class="fa-solid fa-layer-group"></i> BƯỚC 3: THÂN THƯ (BODY PARAGRAPHS)</span>
-        <span class="hl-pill hl-emerald">Liệt kê sự cố & Giải pháp</span>
+        <span class="step-badge-3d step-badge-emerald"><i class="fa-solid fa-layer-group"></i> 3. THÂN THƯ (BODY PARAGRAPHS)</span>
+        <span class="hl-pill hl-emerald">3 Thân thư: Vấn đề • Cảm xúc • Đề xuất giải pháp</span>
+      </div>
+
+      <!-- Thân thư 1: Trình bày các vấn đề cụ thể -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--cyan-light); margin-bottom: 0.65rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-triangle-exclamation"></i> Thân thư 1: Trình bày các vấn đề cụ thể
+        </div>
+        <p style="margin: 0 0 0.5rem 0; font-size: 0.88rem; color: var(--text-secondary);">
+          Có thể sử dụng các cấu trúc sau:
+        </p>
+        <div style="display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 0.85rem; margin-left: 0.5rem;">
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              The main problem was that <span class="hl-placeholder">[vấn đề 1]</span>.
+            </div>
+          </div>
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              Another concern was that <span class="hl-placeholder">[vấn đề 2]</span>.
+            </div>
+          </div>
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              A further issue was that <span class="hl-placeholder">[vấn đề 3]</span>.
+            </div>
+          </div>
+        </div>
+
+        <p style="margin: 0 0 0.5rem 0; font-size: 0.88rem; color: var(--text-secondary);">
+          Hoặc đa dạng hóa cách diễn đạt:
+        </p>
+        <div style="display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 0.85rem; margin-left: 0.5rem;">
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              To begin with, <span class="hl-placeholder">[vấn đề 1]</span>.
+            </div>
+          </div>
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              In addition, <span class="hl-placeholder">[vấn đề 2]</span>.
+            </div>
+          </div>
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              What made the situation worse was that <span class="hl-placeholder">[vấn đề 3]</span>.
+            </div>
+          </div>
+        </div>
+
+        <p style="margin: 0; color: var(--emerald-light); font-weight: 700; font-size: 0.88rem; text-align: justify !important; text-justify: inter-word !important;">
+          <i class="fa-solid fa-circle-info"></i> LƯU Ý QUAN TRỌNG: Sau mỗi vấn đề, nên bổ sung chi tiết hoặc hậu quả để giải thích tại sao vấn đề đó đáng quan tâm.
+        </p>
+      </div>
+
+      <!-- Thân thư 2: Giải thích cảm xúc -->
+      <div style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(245, 158, 11, 0.05)); border: 1px solid var(--rose-border); border-radius: var(--radius-md); padding: 1.1rem 1.3rem; margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--rose-light); margin-bottom: 0.5rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-face-frown"></i> Thân thư 2: Giải thích cảm xúc
+        </div>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary);">
+            I was particularly disappointed with this experience because I expected a better level of quality and service.
+          </div>
+        </div>
+      </div>
+
+      <!-- Thân thư 3: Đề xuất giải pháp -->
+      <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(6, 182, 212, 0.05)); border: 1px solid var(--emerald-border); border-radius: var(--radius-md); padding: 1.1rem 1.3rem; margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--emerald-light); margin-bottom: 0.5rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-screwdriver-wrench"></i> Thân thư 3: Đề xuất giải pháp
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.45rem; margin-left: 0.5rem;">
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              I would appreciate it if you could <span class="hl-placeholder">[đề xuất giải pháp cụ thể]</span>.
+            </div>
+          </div>
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              I would like to suggest that you <span class="hl-placeholder">[đề xuất giải pháp cụ thể]</span>.
+            </div>
+          </div>
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              I strongly recommend that the management <span class="hl-placeholder">[đề xuất giải pháp cụ thể]</span>.
+            </div>
+          </div>
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+              I believe that steps should be taken to <span class="hl-placeholder">[biện pháp cần thực hiện]</span>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TỪ LIÊN KẾT GỢI Ý -->
+      <div class="connector-flow-box" style="margin-bottom: 1.25rem;">
+        <strong style="color: var(--emerald-light); font-size: 0.92rem;"><i class="fa-solid fa-route"></i> TỪ LIÊN KẾT GỢI Ý (ĐỀ XUẤT SỬ DỤNG):</strong>
+        <div class="connector-chain-nodes" style="margin-top: 0.65rem; margin-bottom: 0.85rem;">
+          <span class="flow-node-3d"><span class="flow-node-num">1</span> To begin with, <span class="hl-placeholder">[vấn đề 1]</span></span>
+          <i class="fa-solid fa-arrow-right flow-arrow"></i>
+          <span class="flow-node-3d"><span class="flow-node-num">2</span> In addition, <span class="hl-placeholder">[vấn đề 2]</span></span>
+          <i class="fa-solid fa-arrow-right flow-arrow"></i>
+          <span class="flow-node-3d"><span class="flow-node-num">3</span> What made the situation worse was that <span class="hl-placeholder">[vấn đề 3]</span></span>
+        </div>
+        <div style="border-top: 1px dashed var(--panel-border); padding-top: 0.65rem; font-size: 0.88rem; color: var(--text-primary);">
+          <strong style="color: var(--cyan-light);">Hoặc chuỗi liên kết theo mức độ quan tâm:</strong>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.4rem;">
+            <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.3rem 0.65rem;">The main problem was that …</span>
+            <span class="hl-pill hl-emerald" style="font-size: 0.85rem; padding: 0.3rem 0.65rem;">Another concern was that …</span>
+            <span class="hl-pill hl-amber" style="font-size: 0.85rem; padding: 0.3rem 0.65rem;">A further issue was that …</span>
+          </div>
+        </div>
       </div>
 
       <!-- BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG -->
@@ -1288,53 +1452,126 @@ const B2_DETAILED_OUTLINES = {
               <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp đa dạng các cấu trúc dưới đây vào phần Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
             </div>
           </div>
-          <span class="hl-pill hl-amber"><i class="fa-solid fa-crown"></i> 8 Cấu trúc B2</span>
+          <span class="hl-pill hl-amber"><i class="fa-solid fa-crown"></i> Chuẩn B2</span>
         </div>
         <div id="outlineStructuresContainer" class="formulas-grid-2col"></div>
       </div>
-
-      <!-- Từ liên kết -->
-      <div class="connector-flow-box">
-        <strong style="color: var(--emerald-light); font-size: 0.86rem;"><i class="fa-solid fa-route"></i> SƠ ĐỒ CHUỖI TỪ LIÊN KẾT GỢI Ý CHUẨN:</strong>
-        <div class="connector-chain-nodes" style="margin-top: 0.5rem;">
-          <span class="flow-node-3d"><span class="flow-node-num">1</span> To begin with, the main problem was …</span>
-          <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">2</span> To make matters worse, …</span>
-          <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">3</span> Another concern was that …</span>
-          <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">4</span> Finally, …</span>
-        </div>
-      </div>
     </div>
 
-    <!-- Bước 4 -->
+    <!-- Bước 4: Kết thư -->
     <div class="outline-step-card step-border-amber">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> BƯỚC 4: KẾT THƯ (CLOSING)</span>
-        <span class="hl-pill hl-amber">Yêu cầu phản hồi sớm</span>
+        <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> 4. KẾT THƯ (CLOSING)</span>
+        <span class="hl-pill hl-amber">Yêu cầu giải quyết vấn đề & Mong đợi hồi âm</span>
       </div>
-      <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.14), rgba(234, 88, 12, 0.06)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 0.9rem 1.2rem; font-size: 1.02rem; color: var(--text-primary);">
-        <div class="formula-arrow-row">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content">
-            <strong><span class="hl-mark-opening">I look forward to your prompt response and a satisfactory resolution to this matter.</span></strong>
+      <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(234, 88, 12, 0.05)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 0.95rem; line-height: 1.7;">
+        <div style="margin-bottom: 0.65rem;">
+          <strong style="color: var(--amber-light);"><i class="fa-solid fa-clock"></i> Yêu cầu giải quyết vấn đề:</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem; font-size: 1.02rem; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              <strong>I hope that these issues will be addressed promptly.</strong>
+            </div>
+          </div>
+        </div>
+        <div>
+          <strong style="color: var(--cyan-light);"><i class="fa-solid fa-envelope"></i> Mong đợi hồi âm:</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem; font-size: 1.02rem; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              <strong>I look forward to hearing from you soon.</strong>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 5 -->
+    <!-- Bước 5: Lời chào kết thúc -->
     <div class="outline-step-card step-border-rose">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> BƯỚC 5: LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
+        <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> 5. LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
+        <span class="hl-pill hl-rose">Đúng chuẩn từng văn phong</span>
       </div>
-      <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border);">
-        <div class="formula-arrow-row">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content">
-            <strong style="color: var(--text-primary); font-size: 1.02rem;">Yours faithfully,</strong>
+      <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border); font-size: 0.95rem; line-height: 1.7;">
+        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
+          <div>
+            <strong style="color: var(--cyan-light);">• Thân mật:</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Best wishes,
+              </div>
+            </div>
           </div>
+          <div>
+            <strong style="color: var(--violet-light);">• Trang trọng:</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Yours faithfully,
+              </div>
+            </div>
+          </div>
+          <div>
+            <strong style="color: var(--amber-light);">• Bán trang trọng:</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Yours sincerely,
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VÍ DỤ MINH HỌA & PHÂN TÍCH ĐỀ -->
+    <div class="bento-card card-theme-emerald" style="padding: 1.4rem 1.6rem; margin-top: 1.75rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-book-open-reader" style="color: var(--emerald-light);"></i> VÍ DỤ MINH HOẠ (SAMPLE TOPIC & PROMPT ANALYSIS)
+        </h4>
+        <span class="hl-pill hl-emerald"><i class="fa-solid fa-star"></i> Đề mẫu B2</span>
+      </div>
+
+      <div style="background: var(--bg-card); border: 1.5px solid var(--emerald-border); border-radius: var(--radius-md); padding: 1.15rem 1.25rem; margin-bottom: 1.25rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; text-align: justify !important; text-justify: inter-word !important;">
+          You are a member of a local sports center. You have recently used the changing room and were not satisfied with its condition. Write an email to the manager of the sports center. In your email, you should:
+        </p>
+        <div style="margin: 0.5rem 0 0.65rem 0.5rem; display: flex; flex-direction: column; gap: 0.25rem; color: var(--text-secondary); font-size: 0.93rem;">
+          <div>• Describe the problems you found in the changing room</div>
+          <div>• Explain how the situation made you feel</div>
+          <div>• Suggest what should be done to improve the facility</div>
+        </div>
+        <p style="margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+          You should write at least 120 words. <strong>Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.</strong>
+        </p>
+      </div>
+
+      <!-- 4 Câu hỏi Phân tích đề -->
+      <h5 style="font-size: 0.95rem; font-weight: 800; color: var(--emerald-light); margin: 0 0 0.65rem 0;">
+        <i class="fa-solid fa-compass"></i> PHÂN TÍCH ĐỀ BÀI (4 CÂU HỎI VÀNG):
+      </h5>
+      <div class="analysis-quad-grid" style="margin-top: 0.5rem;">
+        <div class="analysis-step-item step-cyan" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">1</div><span class="hl-pill hl-cyan">Người nhận</span></div>
+          <div class="label">Người nhận là ai?</div>
+          <div class="val">Quản lý trung tâm thể thao (The Manager of the Sports Center).</div>
+        </div>
+        <div class="analysis-step-item step-amber" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">2</div><span class="hl-pill hl-amber">Mục đích</span></div>
+          <div class="label">Mục đích bức thư là gì?</div>
+          <div class="val">Khiếu nại về tình trạng xuống cấp, mất vệ sinh của phòng thay đồ, nêu cảm xúc thất vọng và đề xuất các giải pháp cải thiện cụ thể.</div>
+        </div>
+        <div class="analysis-step-item step-emerald" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">3</div><span class="hl-pill hl-emerald">Văn phong</span></div>
+          <div class="label">Đây là thư thân mật, trang trọng, hay bán trang trọng?</div>
+          <div class="val">Thư trang trọng (Formal) hoặc bán trang trọng (Semi-formal) vì gửi tới người quản lý cơ sở.</div>
+        </div>
+        <div class="analysis-step-item step-rose" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">4</div><span class="hl-pill hl-rose">Yêu cầu</span></div>
+          <div class="label">Có những yêu cầu gì trong thư?</div>
+          <div class="val">1. Miêu tả các sự cố trong phòng thay đồ (vệ sinh kém, sàn trơn, tủ đồ hỏng) • 2. Nêu cảm xúc bất an, thất vọng • 3. Đề xuất các biện pháp cải thiện cơ sở vật chất.</div>
         </div>
       </div>
     </div>
