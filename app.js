@@ -1708,67 +1708,75 @@ const RECITATION_QUESTIONS = {
   ],
   "description": [
     {
-      "cue": "Viết lời chào mở đầu thư mô tả thân mật (Dear + tên người nhận): \"Dear [tên của người nhận],\"",
+      "cue": "Viết lời chào mở đầu thư mô tả thân mật (gửi bạn bè): \"Kính gửi [tên của người nhận],\"",
       "target": "Dear [tên của người nhận],"
     },
     {
-      "cue": "Viết lời chào mở đầu trang trọng (nếu biết chắc chắn người nhận là nam): \"Dear Sir,\"",
+      "cue": "Viết lời chào mở đầu thư trang trọng khi biết chắc chắn người nhận là nam: \"Kính gửi Ông,\"",
       "target": "Dear Sir,"
     },
     {
-      "cue": "Viết lời chào mở đầu trang trọng (nếu biết chắc chắn người nhận là nữ): \"Dear Madam,\"",
+      "cue": "Viết lời chào mở đầu thư trang trọng khi biết chắc chắn người nhận là nữ: \"Kính gửi Bà,\"",
       "target": "Dear Madam,"
     },
     {
-      "cue": "Viết lời chào mở đầu trang trọng (nếu không biết chắc chắn nam hay nữ): \"Dear Sir/Madam,\"",
+      "cue": "Viết lời chào mở đầu thư trang trọng khi không biết chắc chắn người nhận là nam hay nữ: \"Kính gửi Quý ông/Quý bà,\"",
       "target": "Dear Sir/Madam,"
     },
     {
-      "cue": "Viết lời chào mở đầu bán trang trọng (Dear Mr. / Ms. / Mrs. + họ người nhận):",
+      "cue": "Viết lời chào mở đầu thư bán trang trọng khi đã biết họ của người nhận: \"Kính gửi Ông / Bà [họ của người nhận],\"",
       "target": "Dear Mr. / Ms. / Mrs. [họ của người nhận],"
     },
     {
-      "cue": "Mở thư 2.1 (thư yêu cầu cung cấp thông tin - thân mật): \"How have you been lately? In your letter, you asked me about [chủ đề...], so I’d be happy to share some details with you.\"",
+      "cue": "Viết câu mở thư thân mật khi thư yêu cầu cung cấp thông tin: \"Dạo này bạn thế nào? Trong thư bạn có hỏi tôi về [chủ đề cần được cung cấp thông tin], vì vậy tôi rất vui được chia sẻ một vài chi tiết với bạn.\"",
       "target": "How have you been lately? In your letter, you asked me about [chủ đề cần được cung cấp thông tin], so I’d be happy to share some details with you."
     },
     {
-      "cue": "Mở thư 2.1 (thư yêu cầu cung cấp thông tin - trang trọng & bán trang trọng): \"I hope this letter finds you well. In your letter, you requested information about [chủ đề...], so I am writing to provide you with the relevant details.\"",
+      "cue": "Viết câu mở thư trang trọng & bán trang trọng khi thư yêu cầu cung cấp thông tin: \"Tôi hy vọng lá thư này đến khi bạn/quý vị vẫn mạnh khỏe. Trong thư bạn/quý vị có yêu cầu thông tin về [chủ đề cần được cung cấp thông tin], vì vậy tôi viết thư này để cung cấp các chi tiết liên quan.\"",
       "target": "I hope this letter finds you well. In your letter, you requested information about [chủ đề cần được cung cấp thông tin], so I am writing to provide you with the relevant details."
     },
     {
-      "cue": "Mở thư 2.2 (thư yêu cầu mô tả một đối tượng/sự việc - thân mật): \"How have you been lately? You asked me to describe [đối tượng...], so let me tell you a little more about it.\"",
+      "cue": "Viết câu mở thư thân mật khi thư yêu cầu mô tả một đối tượng hoặc sự việc: \"Dạo này bạn thế nào? Bạn có nhờ tôi mô tả [đối tượng cần được mô tả], vì vậy để tôi kể cho bạn nghe thêm một chút về điều đó nhé.\"",
       "target": "How have you been lately? You asked me to describe [đối tượng cần được mô tả], so let me tell you a little more about it."
     },
     {
-      "cue": "Mở thư 2.2 (thư yêu cầu mô tả một đối tượng/sự việc - trang trọng & bán trang trọng): \"I hope this letter finds you well. You asked me to describe [đối tượng...], so I am writing to provide you with a detailed description.\"",
+      "cue": "Viết câu mở thư trang trọng & bán trang trọng khi thư yêu cầu mô tả một đối tượng hoặc sự việc: \"Tôi hy vọng lá thư này đến khi bạn/quý vị vẫn mạnh khỏe. Bạn/Quý vị có yêu cầu tôi mô tả [đối tượng cần được mô tả], vì vậy tôi viết thư này để cung cấp bản mô tả chi tiết.\"",
       "target": "I hope this letter finds you well. You asked me to describe [đối tượng cần được mô tả], so I am writing to provide you with a detailed description."
     },
     {
-      "cue": "Viết chuỗi 4 từ liên kết đề xuất trong thân bài thư mô tả (To begin with, … → In addition, … → Furthermore, … → Finally, …):",
+      "cue": "Viết chuỗi 4 từ liên kết đề xuất trong thân bài thư mô tả: \"Để bắt đầu, ... → Ngoài ra, ... → Hơn nữa, ... → Cuối cùng, ...\"",
       "target": "To begin with, … → In addition, … → Furthermore, … → Finally, …"
     },
     {
-      "cue": "Viết 3 cụm chuyển ý theo nội dung mô tả trong thân bài (As for..., In terms of..., Regarding...):",
-      "target": "As for ______, … | In terms of ______, … | Regarding ______, …"
+      "cue": "Viết cụm chuyển ý theo nội dung mô tả trong thân bài: \"Liên quan đến [chủ đề], ...\"",
+      "target": "As for ______, …"
     },
     {
-      "cue": "Viết câu kết thư mô tả thân mật: \"I hope you find this information helpful. Let me know if you need any more details.\"",
+      "cue": "Viết cụm chuyển ý theo nội dung mô tả trong thân bài: \"Xét về mặt [chủ đề], ...\"",
+      "target": "In terms of ______, …"
+    },
+    {
+      "cue": "Viết cụm chuyển ý theo nội dung mô tả trong thân bài: \"Về phương diện [chủ đề], ...\"",
+      "target": "Regarding ______, …"
+    },
+    {
+      "cue": "Viết câu kết thư mô tả thân mật: \"Tôi hy vọng bạn thấy thông tin này hữu ích. Hãy cho tôi biết nếu bạn cần thêm bất kỳ chi tiết nào nhé.\"",
       "target": "I hope you find this information helpful. Let me know if you need any more details."
     },
     {
-      "cue": "Viết câu kết thư trang trọng & bán trang trọng: \"I hope the information provided is helpful. Please feel free to contact me if you require any further details.\"",
+      "cue": "Viết câu kết thư mô tả trang trọng & bán trang trọng: \"Tôi hy vọng thông tin được cung cấp là hữu ích. Xin vui lòng liên hệ với tôi nếu bạn/quý vị cần thêm bất kỳ chi tiết nào.\"",
       "target": "I hope the information provided is helpful. Please feel free to contact me if you require any further details."
     },
     {
-      "cue": "Viết lời chào kết thúc thư thân mật: \"Best wishes,\"",
+      "cue": "Viết lời chào kết thúc thư thân mật: \"Lời chúc tốt đẹp nhất,\"",
       "target": "Best wishes,"
     },
     {
-      "cue": "Viết lời chào kết thúc thư trang trọng (khi mở đầu là Dear Sir/Madam): \"Yours faithfully,\"",
+      "cue": "Viết lời chào kết thúc thư trang trọng (khi mở đầu bằng Dear Sir/Madam): \"Trân trọng,\"",
       "target": "Yours faithfully,"
     },
     {
-      "cue": "Viết lời chào kết thúc thư bán trang trọng (khi mở đầu là Dear Mr./Ms. [họ]): \"Yours sincerely,\"",
+      "cue": "Viết lời chào kết thúc thư bán trang trọng (khi mở đầu bằng Dear Mr./Ms. [họ]): \"Trân trọng,\"",
       "target": "Yours sincerely,"
     }
   ],
