@@ -1400,7 +1400,12 @@ const B2_DETAILED_OUTLINES = {
         <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> BƯỚC 4: KẾT THƯ (CLOSING)</span>
       </div>
       <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.14), rgba(234, 88, 12, 0.06)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 0.9rem 1.2rem; font-size: 1.02rem; color: var(--text-primary);">
-        ↳ <strong><span class="hl-mark-opening">I hope these comments will be helpful for organizing future sessions. Thank you for your dedication.</span></strong>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content">
+            <strong><span class="hl-mark-opening">I hope these comments will be helpful for organizing future sessions. Thank you for your dedication.</span></strong>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -1410,7 +1415,12 @@ const B2_DETAILED_OUTLINES = {
         <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> BƯỚC 5: LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
       </div>
       <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border);">
-        <strong style="color: var(--text-primary); font-size: 1.02rem;">Yours sincerely,</strong>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content">
+            <strong style="color: var(--text-primary); font-size: 1.02rem;">Yours sincerely,</strong>
+          </div>
+        </div>
       </div>
     </div>
   `,
