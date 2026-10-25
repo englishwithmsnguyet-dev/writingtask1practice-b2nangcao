@@ -1593,8 +1593,11 @@ const B2_DETAILED_OUTLINES = {
         <span class="hl-pill hl-violet">Trang trọng</span>
       </div>
       <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border);">
-        <div style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
-          ↳ Dear Hiring Manager, / Dear Sir/Madam,
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+            Dear Hiring Manager, / Dear Sir/Madam,
+          </div>
         </div>
       </div>
     </div>
@@ -1605,7 +1608,12 @@ const B2_DETAILED_OUTLINES = {
         <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> BƯỚC 2: MỞ THƯ (OPENING)</span>
       </div>
       <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.14), rgba(168, 85, 247, 0.08)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
-        ↳ <strong><span class="hl-mark-opening">I am writing to express my strong interest in the volunteer position advertised on your university website.</span></strong>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content">
+            <strong><span class="hl-mark-opening">I am writing to express my strong interest in the volunteer position advertised on your university website.</span></strong>
+          </div>
+        </div>
       </div>
     </div>
 
