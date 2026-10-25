@@ -1926,13 +1926,13 @@ const RECITATION_QUESTIONS = {
       "target": "Once again, I truly apologize for any inconvenience caused. I look forward to catching up with you soon."
     },
     {
-      "cue": "Viết lời chào kết thúc thư xin lỗi: \"Best wishes, / Yours sincerely,\"",
+      "cue": "Viết lời chào kết thúc thư xin lỗi (thân mật hoặc bán trang trọng): \"Lời chúc tốt đẹp nhất, / Trân trọng,\"",
       "target": "Best wishes, / Yours sincerely,"
     }
   ],
   "application": [
     {
-      "cue": "Viết lời chào mở đầu trang trọng trong thư ứng tuyển: \"Dear Hiring Manager, / Dear Sir/Madam,\"",
+      "cue": "Viết lời chào mở đầu trang trọng trong thư ứng tuyển: \"Kính gửi Quản lý Tuyển dụng, / Kính gửi Quý ông/Quý bà,\"",
       "target": "Dear Hiring Manager, / Dear Sir/Madam,"
     },
     {
