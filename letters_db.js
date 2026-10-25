@@ -7492,189 +7492,209 @@ const LETTERS_DATA = [
           "sentence_practice_b1": [
             {
               "id": 1,
-              "part": "1. Mở thư (Opening - Chào hỏi & Nêu lý do hồi âm về bạn Hoa)",
-              "vi": "Chào Emily! Cảm ơn thư của cậu. Tớ rất vui khi nhận được thư, và tớ rất sẵn lòng chia sẻ với cậu một vài thông tin về Hoa, một trong những người bạn thân nhất của tớ.",
-              "en": "Dear Emily, Thanks for your letter. I was so glad to hear from you, and I’m very happy to share some information about Hoa, one of my closest friends.",
+              "part": "1. Lời chào & Mở thư (Salutation & Opening)",
+              "vi": "Chào Emily! Dạo này bạn thế nào? Trong thư bạn có hỏi tôi về bạn Hoa của tôi, vì vậy tôi rất vui được chia sẻ một vài chi tiết với bạn.",
+              "en": "Dear Emily, How have you been lately? In your letter, you asked me about my friend Hoa, so I’d be happy to share some details with you.",
               "vocab_hints": [
                 {
-                  "en": "glad to hear from you",
-                  "vi": "rất vui khi nhận được thư của cậu"
+                  "en": "How have you been lately?",
+                  "vi": "Dạo này bạn thế nào?"
                 },
                 {
-                  "en": "one of my closest friends",
-                  "vi": "một trong những người bạn thân nhất"
+                  "en": "share some details with you",
+                  "vi": "chia sẻ một vài chi tiết với bạn"
                 }
               ],
-              "explanation": "Mở thư tự nhiên gửi bạn bè, khẳng định mối quan hệ bạn thân với Hoa để tăng độ tin cậy.",
+              "explanation": "Mở thư thân mật chuẩn Dàn ý 2.1 của Thư Mô Tả khi được yêu cầu cung cấp thông tin.",
               "checkpoints": [
                 {
                   "id": "cp1",
-                  "name": "Nhắc đến Hoa & mục đích giới thiệu",
+                  "name": "Mở thư hỏi thăm & nêu lý do",
                   "pattern": {},
-                  "desc": "Nhắc đến bạn Hoa và mục đích chia sẻ thông tin",
-                  "missingFeedback": "Cần nhắc đến bạn Hoa và mục đích chia sẻ thông tin về bạn ấy."
+                  "desc": "Mở thư thân mật hỏi thăm và nêu lý do viết về bạn Hoa",
+                  "missingFeedback": "Cần có câu mở thư thân mật chuẩn B2 nêu rõ lý do viết về Hoa."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Dear Emily, It was lovely to hear from you! Since Hoa is a good friend of mine, I'd be delighted to tell you more about her background and character."
+                "Dear Emily, How have you been lately? You asked me about Hoa in your letter, so let me share some information with you."
               ],
-              "criteria_tip": "Mở bài thân mật, nêu rõ mục đích hồi âm giúp ghi điểm Organization."
+              "criteria_tip": "Mở bài thân mật, nêu rõ mục đích hồi âm giúp ghi trọn điểm Task Fulfillment & Organization."
             },
             {
               "id": 2,
               "part": "2. Thân thư - Ý 1: Tính cách của Hoa (Personality)",
-              "vi": "Trước hết, về tính cách, Hoa là một cô gái vô cùng ấm áp, chu đáo và gọn gàng, bạn ấy luôn tôn trọng sự riêng tư của người khác và giữ phòng ốc sạch sẽ.",
-              "en": "First of all, regarding her personality, Hoa is an extremely warm, considerate, and tidy person who always respects others' privacy and keeps living spaces clean.",
+              "vi": "Trước hết, xét về tính cách, Hoa là một người rất thân thiện và biết quan tâm đến người khác. Vì vậy, cô ấy luôn hòa hợp tốt với những người khác và có thể xây dựng các mối quan hệ tích cực với những người xung quanh.",
+              "en": "To begin with, regarding her personality, Hoa is a very friendly and considerate person. Therefore, she always gets along well with others, and she can build and maintain positive relationships with the people around her.",
               "vocab_hints": [
                 {
-                  "en": "warm, considerate, and tidy",
-                  "vi": "ấm áp, chu đáo và ngăn nắp"
+                  "en": "regarding her personality",
+                  "vi": "xét về tính cách"
                 },
                 {
-                  "en": "respects others' privacy",
-                  "vi": "tôn trọng sự riêng tư của người khác"
+                  "en": "friendly and considerate",
+                  "vi": "thân thiện và biết quan tâm"
+                },
+                {
+                  "en": "gets along well with others",
+                  "vi": "hòa hợp tốt với người khác"
                 }
               ],
-              "explanation": "Miêu tả tính cách tích cực của Hoa (chu đáo, ngăn nắp, tôn trọng gia đình).",
+              "explanation": "Dùng cụm chuyển ý B2 'To begin with, regarding her personality' kết hợp liên từ kết quả 'Therefore'.",
               "checkpoints": [
                 {
                   "id": "cp1",
                   "name": "Tính cách của Hoa (Personality)",
                   "pattern": {},
-                  "desc": "Tính cách của Hoa ('her personality')",
-                  "missingFeedback": "Cần miêu tả tính cách của Hoa ('her personality')."
+                  "desc": "Tính cách của Hoa ('regarding her personality')",
+                  "missingFeedback": "Cần miêu tả tính cách của Hoa ('regarding her personality')."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Firstly, when it comes to her character, she is very polite, gentle, and responsible, so she will never make any disturbances."
+                "To begin with, in terms of personality, Hoa is very polite and considerate, so she always gets on well with everyone around her."
               ],
-              "criteria_tip": "Từ vựng miêu tả tính cách 'considerate' và 'tidy' rất ghi điểm."
+              "criteria_tip": "Từ vựng miêu tả tính cách 'considerate' và cụm 'gets along well with' rất được đánh giá cao."
             },
             {
               "id": 3,
               "part": "3. Thân thư - Ý 2: Sở thích của Hoa (Hobbies)",
-              "vi": "Thứ hai, vào thời gian rảnh, bạn ấy rất thích nấu các món ăn Việt Nam truyền thống, đọc sách và đi dạo, nên tớ chắc chắn bạn ấy sẽ rất thích nấu ăn cho gia đình cậu.",
-              "en": "Secondly, in her free time, she really enjoys cooking traditional Vietnamese dishes, reading books, and walking, so I'm sure she would love cooking for your family.",
+              "vi": "Ngoài ra, xét về sở thích, cô ấy thích những hoạt động yên tĩnh như đọc sách. Vì vậy, cô ấy khó có khả năng làm phiền các thành viên khác trong gia đình và luôn tôn trọng không gian riêng tư của mọi người.",
+              "en": "In addition, in terms of her hobbies, she enjoys quiet activities such as reading books. Therefore, she is unlikely to disturb other family members, and she can enjoy her hobbies while respecting everyone's need for personal space and privacy.",
               "vocab_hints": [
                 {
-                  "en": "cooking traditional Vietnamese dishes",
-                  "vi": "nấu các món ăn truyền thống Việt Nam"
+                  "en": "in terms of her hobbies",
+                  "vi": "xét về sở thích"
                 },
                 {
-                  "en": "cooking for your family",
-                  "vi": "nấu ăn cho gia đình cậu"
+                  "en": "quiet activities such as reading books",
+                  "vi": "hoạt động yên tĩnh như đọc sách"
+                },
+                {
+                  "en": "respecting everyone's need for privacy",
+                  "vi": "tôn trọng sự riêng tư của mọi người"
                 }
               ],
-              "explanation": "Nêu sở thích nấu ăn và đọc sách lành mạnh, gợi ý Hoa sẽ nấu ăn cho gia đình.",
+              "explanation": "Nêu sở thích yên tĩnh gắn liền với việc không làm phiền và tôn trọng không gian riêng của gia đình.",
               "checkpoints": [
                 {
                   "id": "cp1",
                   "name": "Sở thích của Hoa (Hobbies)",
                   "pattern": {},
-                  "desc": "Sở thích của Hoa ('her hobbies')",
-                  "missingFeedback": "Cần nêu sở thích của Hoa ('her hobbies')."
+                  "desc": "Sở thích của Hoa ('in terms of her hobbies')",
+                  "missingFeedback": "Cần nêu sở thích của Hoa ('in terms of her hobbies')."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Secondly, her hobbies include baking, reading literature, and gardening, which means she is very peaceful and loves sharing delicious treats."
+                "In addition, regarding her hobbies, she likes quiet activities like reading, so she will never make any noise at home."
               ],
-              "criteria_tip": "Gắn sở thích nấu nướng với việc đóng góp cho gia đình giúp câu trả lời sinh động."
+              "criteria_tip": "Giải thích rõ sở thích đọc sách giúp gia đình có không gian yên tĩnh."
             },
             {
               "id": 4,
               "part": "4. Thân thư - Ý 3: Công việc & Việc học tập (Current work or study)",
-              "vi": "Tiếp theo, bạn ấy vừa tốt nghiệp chuyên ngành tiếng Anh và sắp sang London để học bằng Thạc sĩ Marketing, vì vậy bạn ấy có thể giao tiếp tiếng Anh rất trôi chảy.",
-              "en": "Next, she has just graduated with an English degree and is moving to London to pursue a Master's degree in Marketing, so she can communicate in English fluently.",
+              "vi": "Hơn thế nữa, liên quan đến việc học tập hiện tại, cô ấy hiện đang học ngành tài chính tại Đại học Ngoại thương. Chuyến đi đến London là một phần trong chương trình đại học của cô ấy, điều này sẽ cho cô ấy cơ hội tích lũy kinh nghiệm quốc tế và tìm hiểu thêm về một nền văn hóa khác.",
+              "en": "Furthermore, as for her current study, she is currently studying finance at Foreign Trade University. The trip to London is part of her university program, so this will give her a chance to gain international experience and learn more about a different culture.",
               "vocab_hints": [
                 {
-                  "en": "graduated with an English degree",
-                  "vi": "tốt nghiệp ngành tiếng Anh"
+                  "en": "as for her current study",
+                  "vi": "liên quan đến việc học tập hiện tại"
                 },
                 {
-                  "en": "pursue a Master's degree",
-                  "vi": "theo học bằng Thạc sĩ"
+                  "en": "part of her university program",
+                  "vi": "một phần trong chương trình đại học"
+                },
+                {
+                  "en": "gain international experience",
+                  "vi": "tích lũy kinh nghiệm quốc tế"
                 }
               ],
-              "explanation": "Thông tin về học vấn và khẳng định khả năng giao tiếp tiếng Anh lưu loát.",
+              "explanation": "Cung cấp rõ ràng thông tin ngành học hiện tại và mục đích chuyến đi London gắn với chương trình học.",
               "checkpoints": [
                 {
                   "id": "cp1",
                   "name": "Công việc / Học tập (Work or study)",
                   "pattern": {},
-                  "desc": "Việc học tập hoặc công việc hiện tại của Hoa",
-                  "missingFeedback": "Cần cung cấp thông tin học tập hoặc công việc hiện tại của Hoa ('current work or study')."
+                  "desc": "Việc học tập hiện tại của Hoa ('as for her current study')",
+                  "missingFeedback": "Cần cung cấp thông tin học tập của Hoa ('current study')."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Furthermore, she is a hardworking graduate who is preparing for her postgraduate course in London, and her English proficiency is excellent."
+                "Furthermore, regarding her study, she is an undergraduate student majoring in finance, and going to London is part of her course."
               ],
-              "criteria_tip": "Khẳng định Hoa nói tiếng Anh tốt giúp giải tỏa nỗi lo rào cản ngôn ngữ của Emily."
+              "criteria_tip": "Nêu rõ ngành học và lý do sang London giải đáp trọn vẹn câu hỏi trong thư của Emily."
             },
             {
               "id": 5,
               "part": "5. Thân thư - Ý 4: Sự hòa hợp với gia đình (Fitting in the family)",
-              "vi": "Cuối cùng, tớ có thể cam đoan rằng bạn ấy sẽ hòa nhập với gia đình cậu rất tốt vì bạn ấy rất yêu trẻ con, thích thú cưng và luôn chủ động phụ giúp việc nhà.",
-              "en": "Finally, I can assure you that she will fit into your family wonderfully because she loves children, adores pets, and is always eager to help with household chores.",
+              "vi": "Cuối cùng, mình tin rằng Hoa sẽ hòa nhập tốt với gia đình bạn vì cô ấy luôn đối xử với mọi người bằng sự tử tế và tôn trọng. Do đó, các thành viên trong gia đình bạn có thể cảm thấy thoải mái khi ở bên cô ấy.",
+              "en": "Finally, I believe Hoa will fit in well with your family because she always treats people with kindness and respect. As a result, your family members are likely to feel comfortable around her.",
               "vocab_hints": [
                 {
-                  "en": "fit into your family wonderfully",
-                  "vi": "hòa nhập với gia đình cậu rất tốt"
+                  "en": "fit in well with your family",
+                  "vi": "hòa nhập tốt với gia đình bạn"
                 },
                 {
-                  "en": "help with household chores",
-                  "vi": "phụ giúp công việc nhà"
+                  "en": "treats people with kindness and respect",
+                  "vi": "đối xử với mọi người bằng sự tử tế và tôn trọng"
+                },
+                {
+                  "en": "feel comfortable around her",
+                  "vi": "cảm thấy thoải mái khi ở bên cô ấy"
                 }
               ],
-              "explanation": "Khẳng định Hoa sẽ hòa hợp hoàn hảo và không gây phiền hà.",
+              "explanation": "Đưa ra lời khẳng định chắc chắn về khả năng hòa nhập cùng lý do thuyết phục.",
               "checkpoints": [
                 {
                   "id": "cp1",
                   "name": "Khả năng hòa hợp (Fit in the family)",
                   "pattern": {},
-                  "desc": "Khẳng định sự hòa hợp với gia đình ('whether she will fit in the family')",
-                  "missingFeedback": "Cần trả lời câu hỏi liệu Hoa có hòa hợp với gia đình không ('whether she will fit in my family')."
+                  "desc": "Khẳng định sự hòa hợp với gia đình ('fit in well with your family')",
+                  "missingFeedback": "Cần khẳng định sự hòa hợp với gia đình ('fit in well with your family')."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Lastly, I am certain she will get along with your family effortlessly since she is respectful of household routines and loves helping out."
+                "Finally, I am certain that she will get along with your family easily because she always behaves respectfully and kindly."
               ],
-              "criteria_tip": "Đáp ứng đầy đủ 4 gạch đầu dòng của bức thư gốc từ Emily."
+              "criteria_tip": "Dùng liên từ chỉ kết quả 'As a result' giúp câu văn liên kết chặt chẽ chuẩn B2."
             },
             {
               "id": 6,
-              "part": "6. Kết thư (Closing - Nhắn nhủ & Giục hồi âm)",
-              "vi": "Tớ hy vọng những thông tin này sẽ giúp cậu yên tâm. Hãy gửi lời chào của tớ tới gia đình cậu nhé. Hãy viết thư lại cho tớ sớm nhé!",
-              "en": "I hope this information gives you peace of mind. Please send my warm regards to your family. Write back to me soon!",
+              "part": "6. Kết thư & Lời chào (Closing & Sign-off)",
+              "vi": "Tôi hy vọng bạn thấy thông tin này hữu ích. Hãy cho tôi biết nếu bạn cần thêm bất kỳ chi tiết nào nhé. Chúc bạn những điều tốt đẹp nhất,",
+              "en": "I hope you find this information helpful. Let me know if you need any more details. Best wishes,",
               "vocab_hints": [
                 {
-                  "en": "gives you peace of mind",
-                  "vi": "giúp cậu an tâm"
+                  "en": "find this information helpful",
+                  "vi": "thấy thông tin này hữu ích"
                 },
                 {
-                  "en": "send my warm regards",
-                  "vi": "gửi lời chào ấm áp"
+                  "en": "need any more details",
+                  "vi": "cần thêm chi tiết nào"
+                },
+                {
+                  "en": "Best wishes,",
+                  "vi": "Chúc mọi điều tốt đẹp nhất,"
                 }
               ],
-              "explanation": "Kết thư ấm áp, gửi lời chào gia đình và giục hồi âm.",
+              "explanation": "Kết thư và lời chào kết thúc thân mật chuẩn Dàn ý 5 bước B2.",
               "checkpoints": [
                 {
                   "id": "cp1",
-                  "name": "Lời kết thư thân thiện",
+                  "name": "Lời kết thư & chào kết thúc",
                   "pattern": {},
-                  "desc": "Lời kết thư thân mật ('Write back to me soon!')",
-                  "missingFeedback": "Cần có câu kết thư thân mật ('Write back to me soon!')."
+                  "desc": "Lời kết thư chuẩn B2 ('I hope you find this information helpful')",
+                  "missingFeedback": "Cần có câu kết thư chuẩn B2 ('I hope you find this information helpful')."
                 }
               ],
               "grammar_notes": [],
               "alternatives": [
-                "I hope this helps you make your decision. Don't hesitate to ask if you need to know anything else. All the best!"
+                "I hope this information is helpful to you. Please let me know if you need any more details. Warm regards,"
               ],
-              "criteria_tip": "Câu chào 'send my warm regards to your family' rất tự nhiên trong văn hóa Anh."
+              "criteria_tip": "Kết thư chuẩn Dàn ý giúp bài viết khép lại tự nhiên và trọn vẹn cấu trúc B2."
             }
           ],
           "sentence_practice_b2": [
