@@ -1072,21 +1072,6 @@ const B2_DETAILED_OUTLINES = {
           </div>
         </div>
       </div>
-
-      <!-- BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG -->
-      <div class="bento-card card-theme-amber" style="margin: 1.25rem 0; padding: 1.25rem 1.4rem;">
-        <div class="bento-card-header" style="margin-bottom: 1rem;">
-          <div class="bento-header-left">
-            <div class="bento-icon-badge badge-amber"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-            <div>
-              <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG</h4>
-              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp đa dạng các cấu trúc dưới đây vào phần Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
-            </div>
-          </div>
-          <span class="hl-pill hl-amber"><i class="fa-solid fa-crown"></i> Chuẩn B2</span>
-        </div>
-        <div id="outlineStructuresContainer" class="formulas-grid-2col"></div>
-      </div>
     </div>
 
     <!-- Bước 4: Kết thư -->
@@ -1465,21 +1450,6 @@ const B2_DETAILED_OUTLINES = {
             <span class="hl-pill hl-amber" style="font-size: 0.85rem; padding: 0.3rem 0.65rem;">A further issue was that …</span>
           </div>
         </div>
-      </div>
-
-      <!-- BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG -->
-      <div class="bento-card card-theme-amber" style="margin: 1.25rem 0; padding: 1.25rem 1.4rem;">
-        <div class="bento-card-header" style="margin-bottom: 1rem;">
-          <div class="bento-header-left">
-            <div class="bento-icon-badge badge-amber"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-            <div>
-              <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG</h4>
-              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp đa dạng các cấu trúc dưới đây vào phần Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
-            </div>
-          </div>
-          <span class="hl-pill hl-amber"><i class="fa-solid fa-crown"></i> Chuẩn B2</span>
-        </div>
-        <div id="outlineStructuresContainer" class="formulas-grid-2col"></div>
       </div>
     </div>
 
