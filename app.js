@@ -4742,48 +4742,85 @@ function buildIdeasCardsHtml(ideas, isCompact, catKey) {
             const actVi = opt.action_vi || opt.problem_vi || '';
             const rsnEn = opt.reason_en || opt.impact_en || '';
             const rsnVi = opt.reason_vi || opt.impact_vi || '';
-            const exp1En = opt.expansion_1_en || opt.solution_en || '';
-            const exp1Vi = opt.expansion_1_vi || opt.solution_vi || '';
-            const exp2En = opt.expansion_2_en || '';
-            const exp2Vi = opt.expansion_2_vi || '';
+
+            let solEn = opt.solution_en || '';
+            let solVi = opt.solution_vi || '';
+            let exp1En = opt.expansion_1_en || '';
+            let exp1Vi = opt.expansion_1_vi || '';
+            let exp2En = opt.expansion_2_en || '';
+            let exp2Vi = opt.expansion_2_vi || '';
+
+            // Kiểm tra nếu expansion_1_en thực chất là câu giải pháp B2
+            const isSolSentence = (str) => /^(I would appreciate it if you could|I strongly recommend|I would like to suggest|I suggest that you|I believe that steps should be taken to|I recommend that)\b/i.test(str || '');
+            if (!solEn && isSolSentence(exp1En)) {
+              solEn = exp1En;
+              solVi = exp1Vi;
+              exp1En = '';
+              exp1Vi = '';
+            }
 
             if (isComplaint) {
-              const pairBody1Text = [actEn, rsnEn].filter(Boolean).map(s => s.endsWith('.') ? s : s + '.').join(' ').replace(/'/g, "\\'");
-              const solutionText = (exp1En ? (exp1En.endsWith('.') ? exp1En : exp1En + '.') : '').replace(/'/g, "\\'");
+              const gTitle = (group.title_en || '') + ' ' + (group.title_vi || '');
+              const isSolutionGroup = /suggested improvements|corrective actions|maintenance|giải pháp|khắc phục|cải tiến/i.test(gTitle);
+              const isFeelingGroup = /how you felt|feelings|cảm nhận|cảm xúc/i.test(gTitle);
+
+              let actBadge = '<span class="hl-pill hl-rose" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;"><i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính (Thân thư 1)</span>';
+              let rsnBadge = '<span class="hl-pill hl-amber" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;"><i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể (Thân thư 1)</span>';
+              let cardBorderColor = 'var(--rose-light)';
+              let actBg = 'rgba(239, 68, 68, 0.05)';
+
+              if (isSolutionGroup) {
+                actBadge = '<span class="hl-pill hl-emerald" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;"><i class="fa-solid fa-screwdriver-wrench"></i> Đề xuất giải pháp (Thân thư 3)</span>';
+                rsnBadge = '<span class="hl-pill hl-amber" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;"><i class="fa-solid fa-bullseye"></i> Mục đích / Kỳ vọng</span>';
+                cardBorderColor = 'var(--emerald-light)';
+                actBg = 'rgba(16, 185, 129, 0.05)';
+              } else if (isFeelingGroup) {
+                actBadge = '<span class="hl-pill hl-rose" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;"><i class="fa-solid fa-face-frown"></i> Cảm xúc & Cảm nhận (Thân thư 2)</span>';
+                rsnBadge = '<span class="hl-pill hl-amber" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;"><i class="fa-solid fa-circle-info"></i> Lý do / Giải thích cảm xúc</span>';
+                cardBorderColor = 'var(--rose-light)';
+                actBg = 'rgba(239, 68, 68, 0.05)';
+              }
+
+              // Chuẩn bị nội dung sao chép
+              const pairText = [actEn, rsnEn].filter(Boolean).map(s => s.endsWith('.') ? s : s + '.').join(' ').replace(/'/g, "\\'");
+              const solutionText = (solEn ? (solEn.endsWith('.') ? solEn : solEn + '.') : '').replace(/'/g, "\\'");
+              let allSentences = [];
+              if (actEn) allSentences.push(actEn.endsWith('.') ? actEn : actEn + '.');
+              if (rsnEn) allSentences.push(rsnEn.endsWith('.') ? rsnEn : rsnEn + '.');
+              if (exp1En) allSentences.push(exp1En.endsWith('.') ? exp1En : exp1En + '.');
+              if (exp2En) allSentences.push(exp2En.endsWith('.') ? exp2En : exp2En + '.');
+              if (solEn) allSentences.push(solEn.endsWith('.') ? solEn : solEn + '.');
+              const fullCopyText = allSentences.join(' ').replace(/'/g, "\\'");
 
               return `
-                <div class="idea-option-card" style="border-left: 3px solid var(--rose-light);">
-                  <!-- 1. Câu vấn đề chính (Thân thư 1) -->
-                  <div class="idea-action-row" style="background: rgba(239, 68, 68, 0.05); padding: 0.6rem 0.75rem; border-radius: var(--radius-sm); margin-bottom: 0.5rem;">
+                <div class="idea-option-card" style="border-left: 3px solid ${cardBorderColor};">
+                  <!-- 1. Hàng đầu tiên (Vấn đề / Cảm xúc / Giải pháp) -->
+                  <div class="idea-action-row" style="background: ${actBg}; padding: 0.6rem 0.75rem; border-radius: var(--radius-sm); margin-bottom: 0.5rem;">
                     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.3rem;">
-                      <span class="hl-pill hl-rose" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;">
-                        <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính (Thân thư 1)
-                      </span>
+                      ${actBadge}
                       <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600;">Hướng ${optIdx + 1}</span>
                     </div>
                     <div style="font-weight: 700; color: var(--text-primary); font-size: 0.93rem; line-height: 1.5;">${escapeHtml(actEn)}</div>
                     ${actVi ? `<div style="font-size: 0.83rem; color: var(--text-muted); font-style: italic; margin-top: 0.2rem;">(${escapeHtml(actVi)})</div>` : ''}
                   </div>
 
-                  <!-- 2. Câu mô tả cụ thể (Thân thư 1) -->
+                  <!-- 2. Hàng thứ hai (Mô tả cụ thể / Lý do / Mục đích) -->
                   ${rsnEn ? `
                     <div class="idea-reason-row" style="background: rgba(245, 158, 11, 0.05); padding: 0.6rem 0.75rem; border-radius: var(--radius-sm); margin-bottom: 0.5rem;">
                       <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.3rem;">
-                        <span class="hl-pill hl-amber" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;">
-                          <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể (Thân thư 1)
-                        </span>
+                        ${rsnBadge}
                       </div>
                       <div style="font-size: 0.9rem; color: var(--text-primary); line-height: 1.5;">${escapeHtml(rsnEn)}</div>
                       ${rsnVi ? `<div style="font-size: 0.83rem; color: var(--text-muted); font-style: italic; margin-top: 0.2rem;">(${escapeHtml(rsnVi)})</div>` : ''}
                     </div>
                   ` : ''}
 
-                  <!-- 3. Đề xuất giải pháp (Thân thư 3) -->
+                  <!-- 3. Câu mở rộng 1 (nếu có - LUÔN NẰM TRƯỚC GIẢI PHÁP) -->
                   ${exp1En ? `
-                    <div class="idea-expansion-row" style="background: rgba(16, 185, 129, 0.05); padding: 0.6rem 0.75rem; border-radius: var(--radius-sm); margin-bottom: 0.5rem; border: 1px solid rgba(16, 185, 129, 0.2);">
+                    <div class="idea-expansion-row" style="background: rgba(6, 182, 212, 0.05); padding: 0.6rem 0.75rem; border-radius: var(--radius-sm); margin-bottom: 0.5rem; border: 1px solid rgba(6, 182, 212, 0.2);">
                       <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.3rem;">
-                        <span class="hl-pill hl-emerald" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;">
-                          <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân thư 3)
+                        <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;">
+                          <i class="fa-solid fa-circle-plus"></i> Câu mở rộng 1
                         </span>
                       </div>
                       <div style="font-size: 0.9rem; color: var(--text-primary); line-height: 1.5;">${escapeHtml(exp1En)}</div>
@@ -4791,12 +4828,12 @@ function buildIdeasCardsHtml(ideas, isCompact, catKey) {
                     </div>
                   ` : ''}
 
-                  <!-- 4. Expansion 2 (nếu có) -->
+                  <!-- 4. Câu mở rộng 2 (nếu có - LUÔN NẰM TRƯỚC GIẢI PHÁP) -->
                   ${exp2En ? `
                     <div class="idea-expansion-row" style="background: rgba(99, 102, 241, 0.05); padding: 0.6rem 0.75rem; border-radius: var(--radius-sm); margin-bottom: 0.5rem; border: 1px solid rgba(99, 102, 241, 0.2);">
                       <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.3rem;">
                         <span class="hl-pill hl-violet" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;">
-                          <i class="fa-solid fa-circle-plus"></i> Câu mở rộng bổ sung
+                          <i class="fa-solid fa-circle-plus"></i> Câu mở rộng 2
                         </span>
                       </div>
                       <div style="font-size: 0.9rem; color: var(--text-primary); line-height: 1.5;">${escapeHtml(exp2En)}</div>
@@ -4804,16 +4841,56 @@ function buildIdeasCardsHtml(ideas, isCompact, catKey) {
                     </div>
                   ` : ''}
 
+                  <!-- 5. Đề xuất giải pháp (Thân thư 3) (nếu có - LUÔN NẰM SAU CÁC CÂU MỞ RỘNG) -->
+                  ${solEn ? `
+                    <div class="idea-expansion-row" style="background: rgba(16, 185, 129, 0.05); padding: 0.6rem 0.75rem; border-radius: var(--radius-sm); margin-bottom: 0.5rem; border: 1px solid rgba(16, 185, 129, 0.2);">
+                      <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.3rem;">
+                        <span class="hl-pill hl-emerald" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; font-weight: 700;">
+                          <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân thư 3)
+                        </span>
+                      </div>
+                      <div style="font-size: 0.9rem; color: var(--text-primary); line-height: 1.5;">${escapeHtml(solEn)}</div>
+                      ${solVi ? `<div style="font-size: 0.83rem; color: var(--text-muted); font-style: italic; margin-top: 0.2rem;">(${escapeHtml(solVi)})</div>` : ''}
+                    </div>
+                  ` : ''}
+
                   <!-- Action Footer -->
                   <div class="idea-card-footer" style="display: flex; flex-wrap: wrap; gap: 0.4rem; justify-content: flex-end; margin-top: 0.45rem;">
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${pairBody1Text}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--cyan-light); border-color: var(--cyan-border);" title="Sao chép Cặp câu (Vấn đề chính + Mô tả cụ thể) để dán vào Thân thư 1">
-                      <i class="fa-solid fa-copy"></i> Chép Cặp câu (Thân 1)
-                    </button>
-                    ${exp1En ? `
+                    ${isSolutionGroup ? `
+                      <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${pairText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--emerald-light); border-color: var(--emerald-border);" title="Sao chép câu Đề xuất giải pháp vào Thân thư 3">
+                        <i class="fa-solid fa-screwdriver-wrench"></i> Chép Giải pháp (Thân 3)
+                      </button>
+                      ${exp1En ? `
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${fullCopyText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--cyan-light); border-color: var(--cyan-border);" title="Sao chép toàn bộ ý kèm câu mở rộng">
+                          <i class="fa-solid fa-copy"></i> Chép kèm Câu mở rộng
+                        </button>
+                      ` : ''}
+                    ` : isFeelingGroup ? `
+                      <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${pairText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--rose-light); border-color: var(--rose-border);" title="Sao chép câu Cảm xúc vào Thân thư 2">
+                        <i class="fa-solid fa-face-frown"></i> Chép Cảm xúc (Thân 2)
+                      </button>
+                      ${exp1En ? `
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${fullCopyText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--cyan-light); border-color: var(--cyan-border);" title="Sao chép toàn bộ ý kèm câu mở rộng">
+                          <i class="fa-solid fa-copy"></i> Chép kèm Câu mở rộng
+                        </button>
+                      ` : ''}
+                    ` : solEn ? `
+                      <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${pairText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--cyan-light); border-color: var(--cyan-border);" title="Sao chép Cặp câu (Vấn đề chính + Mô tả cụ thể) để dán vào Thân thư 1">
+                        <i class="fa-solid fa-copy"></i> Chép Cặp câu (Thân 1)
+                      </button>
                       <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${solutionText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--emerald-light); border-color: var(--emerald-border);" title="Sao chép câu Đề xuất giải pháp để dán vào Thân thư 3">
                         <i class="fa-solid fa-screwdriver-wrench"></i> Chép Giải pháp (Thân 3)
                       </button>
-                    ` : ''}
+                    ` : `
+                      <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${pairText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--cyan-light); border-color: var(--cyan-border);" title="Sao chép Cặp câu (Vấn đề chính + Mô tả cụ thể) để dán vào Thân thư 1">
+                        <i class="fa-solid fa-copy"></i> Chép Cặp câu (Thân 1)
+                      </button>
+                      ${exp1En ? `
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${fullCopyText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--violet-light); border-color: var(--violet-border);" title="Sao chép toàn bộ ý kèm câu mở rộng">
+                          <i class="fa-solid fa-circle-plus"></i> Chép kèm Câu mở rộng
+                        </button>
+                      ` : ''}
+                    `}
                   </div>
                 </div>
               `;
