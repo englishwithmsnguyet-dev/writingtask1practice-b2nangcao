@@ -4340,17 +4340,35 @@ function toggleZenWritingMode() {
 }
 
 // --------------------------------------------------------------------------
-// MOBILE SIDEBAR
+// MOBILE SIDEBAR DRAWER & BACKDROP
 // --------------------------------------------------------------------------
 function toggleMobileSidebar() {
   const sb = document.getElementById('mainSidebar');
-  if (sb) sb.classList.toggle('mobile-open');
+  const backdrop = document.getElementById('sidebarBackdrop');
+  if (!sb) return;
+  const isOpen = sb.classList.toggle('mobile-open');
+  if (backdrop) backdrop.classList.toggle('active', isOpen);
+  if (isOpen) {
+    document.body.classList.add('mobile-drawer-active');
+  } else {
+    document.body.classList.remove('mobile-drawer-active');
+  }
 }
 
 function closeMobileSidebar() {
   const sb = document.getElementById('mainSidebar');
+  const backdrop = document.getElementById('sidebarBackdrop');
   if (sb) sb.classList.remove('mobile-open');
+  if (backdrop) backdrop.classList.remove('active');
+  document.body.classList.remove('mobile-drawer-active');
 }
+
+// Lắng nghe phím ESC để đóng Mobile Sidebar nếu đang mở
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeMobileSidebar();
+  }
+});
 
 // --------------------------------------------------------------------------
 // STUDENT MODAL & PROFILE
