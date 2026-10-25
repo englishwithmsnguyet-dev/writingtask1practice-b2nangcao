@@ -1323,8 +1323,33 @@ const B2_DETAILED_OUTLINES = {
         <div style="font-weight: 800; color: var(--cyan-light); margin-bottom: 0.65rem; font-size: 0.98rem;">
           <i class="fa-solid fa-triangle-exclamation"></i> Thân thư 1: Trình bày các vấn đề cụ thể
         </div>
+
+        <!-- HỘP NGUYÊN TẮC VÀNG: CẤU TRÚC THEO TỪNG CẶP CÂU -->
+        <div style="background: rgba(239, 68, 68, 0.08); border: 1.5px solid var(--rose-border); border-radius: var(--radius-sm); padding: 0.95rem 1.15rem; margin-bottom: 1rem; font-size: 0.88rem; line-height: 1.65; color: var(--text-primary);">
+          <strong style="color: var(--rose-light); display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 0.35rem; font-size: 0.92rem;">
+            <i class="fa-solid fa-circle-exclamation"></i> NGUYÊN TẮC BẮT BUỘC TRONG THÂN THƯ 1: CẤU TRÚC THEO TỪNG CẶP CÂU
+          </strong>
+          <p style="margin: 0; text-align: justify !important; text-justify: inter-word !important;">
+            Đối với thư phàn nàn, mỗi vấn đề được nêu ra trong Thân thư 1 luôn gồm <strong>1 CẶP CÂU HOÀN CHỈNH</strong>:
+          </p>
+          <div style="margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.4rem; padding-left: 0.5rem;">
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon" style="color: var(--rose-light);">1.</span>
+              <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+                <strong>Câu vấn đề chính:</strong> Nêu rõ sự việc gặp sự cố bằng các cấu trúc dẫn dắt (<em>The main problem was that... / Another concern was that... / A further issue was that...</em>).
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon" style="color: var(--amber-light);">2.</span>
+              <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+                <strong>Câu mô tả cụ thể:</strong> Đi kèm ngay phía sau để mô tả chi tiết biểu hiện thực tế hoặc hậu quả/bất tiện trực tiếp đến người viết (dùng câu độc lập hoặc mệnh đề quan hệ đầy đủ, tuyệt đối không dùng rút gọn đại từ quan hệ).
+              </div>
+            </div>
+          </div>
+        </div>
+
         <p style="margin: 0 0 0.5rem 0; font-size: 0.88rem; color: var(--text-secondary);">
-          Có thể sử dụng các cấu trúc sau:
+          Có thể sử dụng các cấu trúc dẫn dắt sau:
         </p>
         <div style="display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 0.85rem; margin-left: 0.5rem;">
           <div class="formula-arrow-row">
@@ -1372,7 +1397,7 @@ const B2_DETAILED_OUTLINES = {
         </div>
 
         <p style="margin: 0; color: var(--emerald-light); font-weight: 700; font-size: 0.88rem; text-align: justify !important; text-justify: inter-word !important;">
-          <i class="fa-solid fa-circle-info"></i> LƯU Ý QUAN TRỌNG: Sau mỗi vấn đề, nên bổ sung chi tiết hoặc hậu quả để giải thích tại sao vấn đề đó đáng quan tâm.
+          <i class="fa-solid fa-circle-info"></i> LƯU Ý QUAN TRỌNG: Sau mỗi vấn đề, luôn đi kèm 1 câu mô tả chi tiết hoặc hậu quả để giải thích tại sao vấn đề đó đáng quan tâm.
         </p>
       </div>
 
@@ -1585,7 +1610,7 @@ const B2_DETAILED_OUTLINES = {
         <span class="hl-pill hl-violet"><i class="fa-solid fa-layer-group"></i> 13 Nhóm vấn đề & Giải pháp</span>
       </div>
       <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0 0 1.15rem 0; text-align: justify !important; text-justify: inter-word !important;">
-        Khi viết phần Thân bài, học viên chọn từ <strong>2 đến 3 vấn đề</strong> dưới đây để phát triển thành các câu hoàn chỉnh theo cấu trúc: <em>Vấn đề cụ thể → Hậu quả / Tác động → Đề xuất giải pháp khắc phục</em> (câu văn tự nhiên, rõ ràng, không dùng cấu trúc rút gọn phức tạp):
+        Khi viết phần Thân bài, học viên chọn từ <strong>2 đến 3 vấn đề</strong> dưới đây. Mỗi vấn đề triển khai theo quy tắc: <strong>1 Cặp câu ở Thân thư 1</strong> (Câu vấn đề chính + Câu mô tả cụ thể/hậu quả) và <strong>1 câu Đề xuất giải pháp</strong> dành riêng cho Thân thư 3 (tuyệt đối không dùng rút gọn đại từ quan hệ):
       </p>
 
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem;">
@@ -1600,47 +1625,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          The changing room was poorly maintained. <span style="font-weight: 400; color: var(--text-muted);">(Phòng thay đồ được giữ gìn kém.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The changing room was poorly maintained.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Phòng thay đồ được giữ gìn kém.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use. <span style="color: var(--text-muted);">(Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would appreciate it if you could arrange for the changing room to be cleaned more frequently. <span style="font-weight: 400; color: var(--text-muted);">(Tôi sẽ rất cảm kích nếu quý vị có thể bố trí vệ sinh phòng thay đồ thường xuyên hơn.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would appreciate it if you could arrange for the changing room to be cleaned more frequently.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi sẽ rất cảm kích nếu quý vị có thể bố trí vệ sinh phòng thay đồ thường xuyên hơn.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The changing room was not cleaned on a regular basis.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Phòng thay đồ không được vệ sinh thường xuyên.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              An unpleasant smell lingered in the room, so members felt uncomfortable when changing their clothes.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Mùi khó chịu lưu lại trong phòng, vì vậy các thành viên cảm thấy không thoải mái khi thay quần áo.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I strongly recommend that you improve the cleaning service and ensure regular maintenance.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tha thiết đề xuất quý vị cải thiện dịch vụ vệ sinh và bảo đảm việc bảo trì thường xuyên.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          The changing room was not cleaned on a regular basis. <span style="font-weight: 400; color: var(--text-muted);">(Phòng thay đồ không được vệ sinh thường xuyên.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            An unpleasant smell lingered in the room, so members felt uncomfortable when changing their clothes. <span style="color: var(--text-muted);">(Mùi khó chịu lưu lại trong phòng, vì vậy các thành viên cảm thấy không thoải mái khi thay quần áo.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I strongly recommend that you improve the cleaning service and ensure regular maintenance. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tha thiết đề xuất quý vị cải thiện dịch vụ vệ sinh và bảo đảm việc bảo trì thường xuyên.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -1651,47 +1741,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          Some of the lockers were out of order. <span style="font-weight: 400; color: var(--text-muted);">(Một số tủ khóa không thể sử dụng được.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            Some of the lockers were out of order.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Một số tủ khóa không thể sử dụng được.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I was unable to secure my personal belongings, which made me concerned about their safety. <span style="color: var(--text-muted);">(Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I was unable to secure my personal belongings, which made me concerned about their safety.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would like to suggest that you repair or replace the faulty lockers as soon as possible. <span style="font-weight: 400; color: var(--text-muted);">(Tôi muốn gợi ý rằng quý vị sửa chữa hoặc thay thế các tủ khóa bị lỗi sớm nhất có thể.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would like to suggest that you repair or replace the faulty lockers as soon as possible.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi muốn gợi ý rằng quý vị sửa chữa hoặc thay thế các tủ khóa bị lỗi sớm nhất có thể.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There were insufficient lockers available for members.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Không có đủ tủ khóa cho các thành viên.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I had to wait until a locker became available, which wasted valuable time before my workout.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải chờ đến khi có tủ trống, điều này làm lãng phí thời gian quý báu trước buổi tập.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I suggest that you install additional lockers to accommodate more members.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi đề xuất quý vị lắp đặt thêm tủ khóa để phục vụ nhiều thành viên hơn.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          There were insufficient lockers available for members. <span style="font-weight: 400; color: var(--text-muted);">(Không có đủ tủ khóa cho các thành viên.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I had to wait until a locker became available, which wasted valuable time before my workout. <span style="color: var(--text-muted);">(Tôi phải chờ đến khi có tủ trống, điều này làm lãng phí thời gian quý báu trước buổi tập.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I suggest that you install additional lockers to accommodate more members. <span style="font-weight: 400; color: var(--text-muted);">(Tôi đề xuất quý vị lắp đặt thêm tủ khóa để phục vụ nhiều thành viên hơn.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -1702,47 +1857,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          Some of the showers were not functioning properly. <span style="font-weight: 400; color: var(--text-muted);">(Một số vòi sen không hoạt động bình thường.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            Some of the showers were not functioning properly.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Một số vòi sen không hoạt động bình thường.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I was unable to take a shower after exercising, which made it inconvenient to freshen up before leaving the center. <span style="color: var(--text-muted);">(Tôi không thể tắm sau khi tập luyện, khiến việc vệ sinh cơ thể trước khi rời trung tâm trở nên bất tiện.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I was unable to take a shower after exercising, which made it inconvenient to freshen up before leaving the center.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể tắm sau khi tập luyện, khiến việc vệ sinh cơ thể trước khi rời trung tâm trở nên bất tiện.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would appreciate it if you could repair the faulty showers as soon as possible. <span style="font-weight: 400; color: var(--text-muted);">(Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa các vòi sen bị lỗi sớm nhất có thể.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would appreciate it if you could repair the faulty showers as soon as possible.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa các vòi sen bị lỗi sớm nhất có thể.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There was no hot water available in the showers.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Không có nước nóng trong các vòi sen.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I strongly recommend that the management ensure a reliable supply of hot water.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tha thiết đề xuất ban quản lý bảo đảm nguồn cung cấp nước nóng ổn định.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          There was no hot water available in the showers. <span style="font-weight: 400; color: var(--text-muted);">(Không có nước nóng trong các vòi sen.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I had no choice but to take a cold shower after exercising, which was particularly uncomfortable. <span style="color: var(--text-muted);">(Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I strongly recommend that the management ensure a reliable supply of hot water. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tha thiết đề xuất ban quản lý bảo đảm nguồn cung cấp nước nóng ổn định.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -1753,47 +1973,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          Some of the lights were not working properly. <span style="font-weight: 400; color: var(--text-muted);">(Một số đèn không hoạt động bình thường.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            Some of the lights were not working properly.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Một số đèn không hoạt động bình thường.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            The changing room was poorly lit, which made it difficult for members to move around safely. <span style="color: var(--text-muted);">(Phòng thay đồ thiếu ánh sáng, điều này khiến các thành viên khó di chuyển an toàn.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              The changing room was poorly lit, which made it difficult for members to move around safely.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Phòng thay đồ thiếu ánh sáng, điều này khiến các thành viên khó di chuyển an toàn.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I suggest that you replace the faulty lights with new ones promptly. <span style="font-weight: 400; color: var(--text-muted);">(Tôi đề xuất quý vị thay các đèn bị lỗi bằng đèn mới kịp thời.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I suggest that you replace the faulty lights with new ones promptly.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi đề xuất quý vị thay các đèn bị lỗi bằng đèn mới kịp thời.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The lighting in the changing room was inadequate.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Hệ thống chiếu sáng trong phòng thay đồ không đủ.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I found it difficult to locate my personal belongings, especially in the darker areas of the room.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi thấy khó tìm đồ dùng cá nhân, đặc biệt ở những khu vực tối hơn trong phòng.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I believe that steps should be taken to install brighter lights to improve visibility.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tin rằng các biện pháp cần được thực hiện để lắp đặt đèn sáng hơn nhằm cải thiện tầm nhìn.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          The lighting in the changing room was inadequate. <span style="font-weight: 400; color: var(--text-muted);">(Hệ thống chiếu sáng trong phòng thay đồ không đủ.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I found it difficult to locate my personal belongings, especially in the darker areas of the room. <span style="color: var(--text-muted);">(Tôi thấy khó tìm đồ dùng cá nhân, đặc biệt ở những khu vực tối hơn trong phòng.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I believe that steps should be taken to install brighter lights to improve visibility. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tin rằng các biện pháp cần được thực hiện để lắp đặt đèn sáng hơn nhằm cải thiện tầm nhìn.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -1804,47 +2089,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          There were insufficient clothes hooks available. <span style="font-weight: 400; color: var(--text-muted);">(Không có đủ móc treo quần áo.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There were insufficient clothes hooks available.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Không có đủ móc treo quần áo.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I had to leave my clothes on a bench or the floor, where they could easily become dirty. <span style="color: var(--text-muted);">(Tôi phải để quần áo trên ghế hoặc sàn nhà, nơi chúng có thể dễ bị bẩn.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I had to leave my clothes on a bench or the floor, where they could easily become dirty.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải để quần áo trên ghế hoặc sàn nhà, nơi chúng có thể dễ bị bẩn.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would appreciate it if you could install additional clothes hooks. <span style="font-weight: 400; color: var(--text-muted);">(Tôi sẽ rất cảm kích nếu quý vị có thể lắp đặt thêm móc treo quần áo.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would appreciate it if you could install additional clothes hooks.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi sẽ rất cảm kích nếu quý vị có thể lắp đặt thêm móc treo quần áo.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            Some of the clothes hooks were damaged.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Một số móc treo quần áo bị hỏng.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I was unable to hang my clothes properly, which made it difficult to keep my belongings neat and organized.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể treo quần áo đúng cách, điều này khiến việc giữ đồ đạc gọn gàng và ngăn nắp trở nên khó khăn.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I strongly recommend that the management repair or replace the damaged clothes hooks.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tha thiết đề xuất ban quản lý sửa chữa hoặc thay thế các móc treo quần áo bị hỏng.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          Some of the clothes hooks were damaged. <span style="font-weight: 400; color: var(--text-muted);">(Một số móc treo quần áo bị hỏng.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I was unable to hang my clothes properly, which made it difficult to keep my belongings neat and organized. <span style="color: var(--text-muted);">(Tôi không thể treo quần áo đúng cách, điều này khiến việc giữ đồ đạc gọn gàng và ngăn nắp trở nên khó khăn.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I strongly recommend that the management repair or replace the damaged clothes hooks. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tha thiết đề xuất ban quản lý sửa chữa hoặc thay thế các móc treo quần áo bị hỏng.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -1855,47 +2205,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          The benches were poorly maintained and visibly dirty. <span style="font-weight: 400; color: var(--text-muted);">(Các ghế ngồi được giữ gìn kém và nhìn thấy rõ là rất bẩn.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The benches were poorly maintained and visibly dirty.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Các ghế ngồi được giữ gìn kém và nhìn thấy rõ là rất bẩn.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I felt uncomfortable sitting on them because their surfaces looked dusty and neglected. <span style="color: var(--text-muted);">(Tôi cảm thấy không thoải mái khi ngồi lên ghế vì bề mặt của chúng trông bụi bặm và bị bỏ bê.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I felt uncomfortable sitting on them because their surfaces looked dusty and neglected.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi cảm thấy không thoải mái khi ngồi lên ghế vì bề mặt của chúng trông bụi bặm và bị bỏ bê.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would like to suggest that you clean and disinfect the benches more frequently. <span style="font-weight: 400; color: var(--text-muted);">(Tôi muốn gợi ý rằng quý vị vệ sinh và khử trùng ghế thường xuyên hơn.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would like to suggest that you clean and disinfect the benches more frequently.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi muốn gợi ý rằng quý vị vệ sinh và khử trùng ghế thường xuyên hơn.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There were not enough benches in the changing room.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Không có đủ ghế ngồi trong phòng thay đồ.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I had to stand while changing my clothes, which was particularly inconvenient when the room was crowded.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải đứng khi thay quần áo, điều này đặc biệt bất tiện khi phòng đông người.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I suggest that you provide additional benches for members.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi đề xuất quý vị bổ sung thêm ghế ngồi cho các thành viên.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          There were not enough benches in the changing room. <span style="font-weight: 400; color: var(--text-muted);">(Không có đủ ghế ngồi trong phòng thay đồ.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I had to stand while changing my clothes, which was particularly inconvenient when the room was crowded. <span style="color: var(--text-muted);">(Tôi phải đứng khi thay quần áo, điều này đặc biệt bất tiện khi phòng đông người.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I suggest that you provide additional benches for members. <span style="font-weight: 400; color: var(--text-muted);">(Tôi đề xuất quý vị bổ sung thêm ghế ngồi cho các thành viên.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -1906,47 +2321,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          The floor was wet and dangerously slippery. <span style="font-weight: 400; color: var(--text-muted);">(Sàn nhà ướt và trơn trượt nguy hiểm.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The floor was wet and dangerously slippery.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Sàn nhà ướt và trơn trượt nguy hiểm.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I was concerned that I might slip and injure myself, particularly when walking barefoot. <span style="color: var(--text-muted);">(Tôi lo mình có thể trượt ngã và bị thương, đặc biệt khi đi chân trần.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I was concerned that I might slip and injure myself, particularly when walking barefoot.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi lo mình có thể trượt ngã và bị thương, đặc biệt khi đi chân trần.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would appreciate it if you could clean and dry the floor regularly to prevent accidents. <span style="font-weight: 400; color: var(--text-muted);">(Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh và lau khô sàn nhà để ngăn ngừa tai nạn.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would appreciate it if you could clean and dry the floor regularly to prevent accidents.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh và lau khô sàn nhà để ngăn ngừa tai nạn.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            Water had accumulated across the floor.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Nước đọng trên khắp sàn nhà.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              This made it difficult to move around safely and increased the risk of slips and falls.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Điều này khiến việc đi lại an toàn trở nên khó khăn và làm tăng nguy cơ trượt ngã.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I believe that steps should be taken to keep the floor clean and dry at all times.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tin rằng các biện pháp cần được thực hiện để giữ sàn nhà sạch sẽ và khô ráo mọi lúc.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          Water had accumulated across the floor. <span style="font-weight: 400; color: var(--text-muted);">(Nước đọng trên khắp sàn nhà.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            This made it difficult to move around safely and increased the risk of slips and falls. <span style="color: var(--text-muted);">(Điều này khiến việc đi lại an toàn trở nên khó khăn và làm tăng nguy cơ trượt ngã.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I believe that steps should be taken to keep the floor clean and dry at all times. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tin rằng các biện pháp cần được thực hiện để giữ sàn nhà sạch sẽ và khô ráo mọi lúc.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -1957,47 +2437,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          The mirrors were covered in dirt and stains. <span style="font-weight: 400; color: var(--text-muted);">(Các tấm gương bị phủ đầy bụi bẩn và vết ố.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The mirrors were covered in dirt and stains.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Các tấm gương bị phủ đầy bụi bẩn và vết ố.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I could not see my reflection clearly, so it was difficult to check my appearance before leaving the center. <span style="color: var(--text-muted);">(Tôi không thể nhìn rõ hình ảnh phản chiếu của mình, vì vậy rất khó để kiểm tra diện mạo trước khi rời trung tâm.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I could not see my reflection clearly, so it was difficult to check my appearance before leaving the center.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể nhìn rõ hình ảnh phản chiếu của mình, vì vậy rất khó để kiểm tra diện mạo trước khi rời trung tâm.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I suggest that you clean the mirrors thoroughly and regularly. <span style="font-weight: 400; color: var(--text-muted);">(Tôi đề xuất quý vị vệ sinh gương kỹ lưỡng và thường xuyên.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I suggest that you clean the mirrors thoroughly and regularly.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi đề xuất quý vị vệ sinh gương kỹ lưỡng và thường xuyên.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            Some of the mirrors were cracked.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Một số gương bị nứt.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I was concerned that the damaged glass might break further and cause injuries to members.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi lo rằng phần kính bị hỏng có thể vỡ thêm và gây thương tích cho các thành viên.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I strongly recommend that the management replace the cracked mirrors immediately.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tha thiết đề xuất ban quản lý thay thế ngay các tấm gương bị nứt.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          Some of the mirrors were cracked. <span style="font-weight: 400; color: var(--text-muted);">(Một số gương bị nứt.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I was concerned that the damaged glass might break further and cause injuries to members. <span style="color: var(--text-muted);">(Tôi lo rằng phần kính bị hỏng có thể vỡ thêm và gây thương tích cho các thành viên.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I strongly recommend that the management replace the cracked mirrors immediately. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tha thiết đề xuất ban quản lý thay thế ngay các tấm gương bị nứt.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -2008,47 +2553,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          Some of the hair dryers were out of order. <span style="font-weight: 400; color: var(--text-muted);">(Một số máy sấy tóc không thể sử dụng được.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            Some of the hair dryers were out of order.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Một số máy sấy tóc không thể sử dụng được.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I was unable to dry my hair after taking a shower, which was inconvenient before heading home or going to work. <span style="color: var(--text-muted);">(Tôi không thể sấy khô tóc sau khi tắm, điều này gây bất tiện trước khi về nhà hoặc đi làm.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I was unable to dry my hair after taking a shower, which was inconvenient before heading home or going to work.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể sấy khô tóc sau khi tắm, điều này gây bất tiện trước khi về nhà hoặc đi làm.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would appreciate it if you could repair or replace the faulty hair dryers. <span style="font-weight: 400; color: var(--text-muted);">(Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hoặc thay thế các máy sấy tóc bị lỗi.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would appreciate it if you could repair or replace the faulty hair dryers.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hoặc thay thế các máy sấy tóc bị lỗi.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There were not enough hair dryers for members to use.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Không có đủ máy sấy tóc cho các thành viên sử dụng.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I had to wait in a queue for a long time, which delayed my departure from the sports center.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải xếp hàng chờ trong một thời gian dài, khiến tôi rời trung tâm thể thao muộn hơn.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would like to suggest that you provide additional hair dryers to reduce waiting times.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi muốn gợi ý rằng quý vị bổ sung máy sấy tóc để giảm thời gian chờ đợi.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          There were not enough hair dryers for members to use. <span style="font-weight: 400; color: var(--text-muted);">(Không có đủ máy sấy tóc cho các thành viên sử dụng.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I had to wait in a queue for a long time, which delayed my departure from the sports center. <span style="color: var(--text-muted);">(Tôi phải xếp hàng chờ trong một thời gian dài, khiến tôi rời trung tâm thể thao muộn hơn.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would like to suggest that you provide additional hair dryers to reduce waiting times. <span style="font-weight: 400; color: var(--text-muted);">(Tôi muốn gợi ý rằng quý vị bổ sung máy sấy tóc để giảm thời gian chờ đợi.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -2059,47 +2669,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          There was no soap available near the sinks. <span style="font-weight: 400; color: var(--text-muted);">(Không có xà phòng gần các bồn rửa tay.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There was no soap available near the sinks.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Không có xà phòng gần các bồn rửa tay.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I was unable to wash my hands properly, which raised concerns about basic hygiene in the facility. <span style="color: var(--text-muted);">(Tôi không thể rửa tay đúng cách, điều này làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I was unable to wash my hands properly, which raised concerns about basic hygiene in the facility.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể rửa tay đúng cách, điều này làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I strongly recommend that you provide sufficient soap and refill the dispensers regularly. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tha thiết đề xuất quý vị cung cấp đủ xà phòng và bổ sung vào các hộp đựng thường xuyên.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I strongly recommend that you provide sufficient soap and refill the dispensers regularly.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tha thiết đề xuất quý vị cung cấp đủ xà phòng và bổ sung vào các hộp đựng thường xuyên.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There were no paper towels available.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Không có khăn giấy.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              I had no convenient way to dry my hands after washing them, which made the facilities less practical to use.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không có cách thuận tiện để lau khô tay sau khi rửa, khiến các tiện ích kém thuận tiện hơn khi sử dụng.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I suggest that you provide paper towels or install hand dryers near the sinks.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi đề xuất quý vị cung cấp khăn giấy hoặc lắp đặt máy sấy tay gần các bồn rửa.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          There were no paper towels available. <span style="font-weight: 400; color: var(--text-muted);">(Không có khăn giấy.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            I had no convenient way to dry my hands after washing them, which made the facilities less practical to use. <span style="color: var(--text-muted);">(Tôi không có cách thuận tiện để lau khô tay sau khi rửa, khiến các tiện ích kém thuận tiện hơn khi sử dụng.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I suggest that you provide paper towels or install hand dryers near the sinks. <span style="font-weight: 400; color: var(--text-muted);">(Tôi đề xuất quý vị cung cấp khăn giấy hoặc lắp đặt máy sấy tay gần các bồn rửa.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -2110,47 +2785,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          The rubbish bins were overflowing. <span style="font-weight: 400; color: var(--text-muted);">(Các thùng rác bị đầy tràn.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The rubbish bins were overflowing.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Các thùng rác bị đầy tràn.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            Rubbish had accumulated around the bins, which made the changing room look unhygienic and unpleasant. <span style="color: var(--text-muted);">(Rác tích tụ xung quanh thùng, điều này khiến phòng thay đồ trông mất vệ sinh và gây cảm giác khó chịu.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              Rubbish had accumulated around the bins, which made the changing room look unhygienic and unpleasant.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Rác tích tụ xung quanh thùng, điều này khiến phòng thay đồ trông mất vệ sinh và gây cảm giác khó chịu.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I believe that steps should be taken to empty the rubbish bins more frequently, especially during busy periods. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tin rằng các biện pháp cần được thực hiện để đổ rác thường xuyên hơn, đặc biệt vào những thời điểm đông người.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I believe that steps should be taken to empty the rubbish bins more frequently, especially during busy periods.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tin rằng các biện pháp cần được thực hiện để đổ rác thường xuyên hơn, đặc biệt vào những thời điểm đông người.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            Rubbish was scattered around the bins.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Rác vương vãi xung quanh các thùng rác.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              This made the area look messy and unhygienic, which created a negative impression of the sports center.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Điều này khiến khu vực trông bừa bộn và mất vệ sinh, tạo ấn tượng tiêu cực về trung tâm thể thao.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would appreciate it if you could clean the area around the bins regularly and dispose of rubbish properly.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh khu vực xung quanh thùng rác và xử lý rác đúng cách.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          Rubbish was scattered around the bins. <span style="font-weight: 400; color: var(--text-muted);">(Rác vương vãi xung quanh các thùng rác.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            This made the area look messy and unhygienic, which created a negative impression of the sports center. <span style="color: var(--text-muted);">(Điều này khiến khu vực trông bừa bộn và mất vệ sinh, tạo ấn tượng tiêu cực về trung tâm thể thao.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would appreciate it if you could clean the area around the bins regularly and dispose of rubbish properly. <span style="font-weight: 400; color: var(--text-muted);">(Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh khu vực xung quanh thùng rác và xử lý rác đúng cách.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -2161,47 +2901,112 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          There was a persistent unpleasant smell in the changing room. <span style="font-weight: 400; color: var(--text-muted);">(Có mùi khó chịu dai dẳng trong phòng thay đồ.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There was a persistent unpleasant smell in the changing room.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Có mùi khó chịu dai dẳng trong phòng thay đồ.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            The smell made the room uncomfortable to use and negatively affected my overall experience at the sports center. <span style="color: var(--text-muted);">(Mùi này khiến căn phòng trở nên khó chịu khi sử dụng và ảnh hưởng tiêu cực đến trải nghiệm tổng thể của tôi tại trung tâm thể thao.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              The smell made the room uncomfortable to use and negatively affected my overall experience at the sports center.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Mùi này khiến căn phòng trở nên khó chịu khi sử dụng và ảnh hưởng tiêu cực đến trải nghiệm tổng thể của tôi tại trung tâm thể thao.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I strongly recommend that you identify the source of the smell and improve the cleaning service. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tha thiết đề xuất quý vị xác định nguồn gây mùi và cải thiện dịch vụ vệ sinh.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I strongly recommend that you identify the source of the smell and improve the cleaning service.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tha thiết đề xuất quý vị xác định nguồn gây mùi và cải thiện dịch vụ vệ sinh.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The changing room was poorly ventilated.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Phòng thay đồ thông gió kém.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              As a result, the air felt stuffy and unpleasant, particularly when many members were using the room at the same time.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Do đó, không khí trở nên ngột ngạt và khó chịu, đặc biệt khi nhiều thành viên sử dụng phòng cùng lúc.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would like to suggest that you install a more effective ventilation system.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi muốn gợi ý rằng quý vị lắp đặt hệ thống thông gió hiệu quả hơn.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          The changing room was poorly ventilated. <span style="font-weight: 400; color: var(--text-muted);">(Phòng thay đồ thông gió kém.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            As a result, the air felt stuffy and unpleasant, particularly when many members were using the room at the same time. <span style="color: var(--text-muted);">(Do đó, không khí trở nên ngột ngạt và khó chịu, đặc biệt khi nhiều thành viên sử dụng phòng cùng lúc.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would like to suggest that you install a more effective ventilation system. <span style="font-weight: 400; color: var(--text-muted);">(Tôi muốn gợi ý rằng quý vị lắp đặt hệ thống thông gió hiệu quả hơn.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
+
       <div style="background: var(--bg-inner); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; display: flex; flex-direction: column;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--panel-border); padding-bottom: 0.55rem;">
           <h5 style="margin: 0; font-size: 0.98rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 0.45rem;">
@@ -2212,47 +3017,111 @@ const B2_DETAILED_OUTLINES = {
         </div>
         <div>
           
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 1</span>
-          The toilets were poorly maintained and unhygienic. <span style="font-weight: 400; color: var(--text-muted);">(Nhà vệ sinh được giữ gìn kém và mất vệ sinh.)</span>
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            The toilets were poorly maintained and unhygienic.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Nhà vệ sinh được giữ gìn kém và mất vệ sinh.)</div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            The unsanitary conditions made me uncomfortable using the toilets and raised concerns about the overall hygiene standards of the sports center. <span style="color: var(--text-muted);">(Điều kiện mất vệ sinh khiến tôi không thoải mái khi sử dụng nhà vệ sinh và làm dấy lên lo ngại về tiêu chuẩn vệ sinh chung của trung tâm thể thao.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              The unsanitary conditions made me uncomfortable using the toilets and raised concerns about the overall hygiene standards of the sports center.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Điều kiện mất vệ sinh khiến tôi không thoải mái khi sử dụng nhà vệ sinh và làm dấy lên lo ngại về tiêu chuẩn vệ sinh chung của trung tâm thể thao.)</div>
           </div>
         </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
           <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I believe that steps should be taken to clean and disinfect the toilets more regularly. <span style="font-weight: 400; color: var(--text-muted);">(Tôi tin rằng các biện pháp cần được thực hiện để vệ sinh và khử trùng nhà vệ sinh thường xuyên hơn.)</span>
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I believe that steps should be taken to clean and disinfect the toilets more regularly.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi tin rằng các biện pháp cần được thực hiện để vệ sinh và khử trùng nhà vệ sinh thường xuyên hơn.)</div>
           </div>
+        </div>
+        
+      </div>
+          
+      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.75rem;">
+        <!-- 1. Câu vấn đề chính (Thân 1) -->
+        <div style="margin-bottom: 0.45rem;">
+          <div style="margin-bottom: 0.2rem;">
+            <span class="hl-pill hl-rose" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+              <i class="fa-solid fa-triangle-exclamation"></i> 1. Câu vấn đề chính
+            </span>
+          </div>
+          <div style="font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.5;">
+            There was a strong unpleasant smell coming from the toilets.
+          </div>
+          <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Có mùi khó chịu nồng nặc phát ra từ nhà vệ sinh.)</div>
+        </div>
+
+        <!-- 2. Câu mô tả cụ thể (Thân 1) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem; margin-bottom: 0.45rem;">
+          <span class="formula-arrow-icon" style="color: var(--amber-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-amber" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-magnifying-glass"></i> 2. Câu mô tả cụ thể
+              </span>
+            </div>
+            <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
+              The smell spread to the surrounding area, which made the entire section unpleasant to use.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Mùi này lan ra khu vực xung quanh, điều này khiến toàn bộ khu vực trở nên khó chịu khi sử dụng.)</div>
+          </div>
+        </div>
+        
+
+        <!-- 3. Đề xuất giải pháp (Thân 3) -->
+        
+        <div class="formula-arrow-row" style="margin-left: 0.35rem;">
+          <span class="formula-arrow-icon" style="color: var(--emerald-light); font-size: 0.85rem;">↳</span>
+          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
+            <div style="margin-bottom: 0.2rem;">
+              <span class="hl-pill hl-emerald" style="font-size: 0.7rem; padding: 0.12rem 0.5rem; font-weight: 700;">
+                <i class="fa-solid fa-screwdriver-wrench"></i> 3. Đề xuất giải pháp (Thân 3)
+              </span>
+            </div>
+            <div style="color: var(--emerald-light); font-weight: 600; font-size: 0.9rem; line-height: 1.5;">
+              I would appreciate it if you could thoroughly clean the toilets and check the plumbing and ventilation systems.
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi sẽ rất cảm kích nếu quý vị vệ sinh nhà vệ sinh kỹ lưỡng và kiểm tra hệ thống ống nước cùng hệ thống thông gió.)</div>
+          </div>
+        </div>
+        
+      </div>
+          
         </div>
       </div>
-    
-      <div style="background: var(--bg-card); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 0.6rem;">
-        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem; font-size: 0.92rem;">
-          <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; margin-right: 0.35rem;">Ý 2</span>
-          There was a strong unpleasant smell coming from the toilets. <span style="font-weight: 400; color: var(--text-muted);">(Có mùi khó chịu nồng nặc phát ra từ nhà vệ sinh.)</span>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-bottom: 0.35rem; font-size: 0.88rem; color: var(--text-secondary);">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            The smell spread to the surrounding area, which made the entire section unpleasant to use. <span style="color: var(--text-muted);">(Mùi này lan ra khu vực xung quanh, điều này khiến toàn bộ khu vực trở nên khó chịu khi sử dụng.)</span>
-          </div>
-        </div>
-        <div class="formula-arrow-row" style="margin-left: 0.5rem; font-size: 0.88rem; color: var(--emerald-light); font-weight: 600;">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="text-align: justify !important; text-justify: inter-word !important;">
-            <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 0.25rem;"></i> I would appreciate it if you could thoroughly clean the toilets and check the plumbing and ventilation systems. <span style="font-weight: 400; color: var(--text-muted);">(Tôi sẽ rất cảm kích nếu quý vị vệ sinh nhà vệ sinh kỹ lưỡng và kiểm tra hệ thống ống nước cùng hệ thống thông gió.)</span>
-          </div>
-        </div>
-      </div>
-    
-        </div>
-      </div>
-    
+  
       </div>
     </div>
   `,
