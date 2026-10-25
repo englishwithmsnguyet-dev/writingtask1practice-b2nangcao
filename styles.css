@@ -3867,3 +3867,453 @@ body.zen-mode-active .practice-container-grid {
     font-size: 1.35rem !important;
   }
 }
+
+/* ==========================================================================
+   MOBILE & TABLET RESPONSIVE SYSTEM (100% SMARTPHONE COMPATIBILITY)
+   Tối ưu hóa toàn diện cho iPhone, Android, iPad & trình duyệt di động
+   ========================================================================== */
+
+/* 1. Mobile Menu Hamburger & Close Buttons */
+.btn-menu-mobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--panel-border);
+  color: var(--text-primary);
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-menu-mobile:hover, .btn-menu-mobile:active {
+  background: var(--accent-gradient);
+  color: #ffffff;
+  border-color: transparent;
+  transform: scale(0.96);
+}
+
+.btn-close-sidebar {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--bg-inner);
+  border: 1px solid var(--panel-border);
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-left: auto;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-close-sidebar:hover, .btn-close-sidebar:active {
+  background: var(--danger);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+/* Backdrop mờ phủ màn hình khi mở Menu Drawer trên điện thoại */
+.sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sidebar-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Khóa cuộn trang khi menu Drawer đang mở */
+body.mobile-drawer-active {
+  overflow: hidden !important;
+}
+
+/* Tương phản văn bản gợi ý nâng cấp B2 ở chế độ Sáng */
+[data-theme="light"] .eval-sentence-upgrade-text {
+  color: #065f46 !important;
+  font-weight: 500 !important;
+}
+
+/* ==========================================================================
+   BREAKPOINT: TABLET & MOBILE (<= 992px)
+   ========================================================================== */
+@media (max-width: 992px) {
+  #app-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  .btn-menu-mobile {
+    display: inline-flex !important;
+  }
+
+  .btn-close-sidebar {
+    display: inline-flex !important;
+  }
+
+  .sidebar-backdrop {
+    display: block;
+  }
+
+  /* Sidebar chuyển thành Drawer trượt từ bên trái sang */
+  .sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: min(320px, 86vw) !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    z-index: 9999 !important;
+    transform: translateX(-100%) !important;
+    transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.32s ease !important;
+    box-shadow: none !important;
+  }
+
+  .sidebar.mobile-open {
+    transform: translateX(0) !important;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.65) !important;
+  }
+
+  .main-content {
+    width: 100% !important;
+    min-width: 100% !important;
+    flex: 1 1 100% !important;
+  }
+
+  /* Header trên điện thoại */
+  .top-header {
+    padding: 0.65rem 1rem !important;
+    gap: 0.65rem !important;
+  }
+
+  .header-title-box {
+    font-size: 0.88rem !important;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .header-actions {
+    gap: 0.4rem !important;
+  }
+
+  .btn-ambient span, .btn-zen span {
+    display: none !important;
+  }
+
+  .btn-ambient, .btn-zen {
+    padding: 0.4rem !important;
+    width: 36px !important;
+    height: 36px !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+  }
+
+  .student-badge-pill {
+    padding: 0.35rem 0.65rem !important;
+    font-size: 0.78rem !important;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Bento Grid chuyển thành 1 cột */
+  .bento-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.15rem !important;
+  }
+
+  .bento-grid > .bento-card {
+    grid-column: 1 / -1 !important;
+  }
+
+  /* Dual Pane phòng viết chuyển thành 1 cột xếp chồng */
+  .practice-container-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+}
+
+/* ==========================================================================
+   BREAKPOINT: SMARTPHONE (<= 640px)
+   ========================================================================== */
+@media (max-width: 640px) {
+  /* 1. Màn hình Đăng nhập trên điện thoại */
+  #welcome-modal {
+    padding: 0.75rem !important;
+    align-items: flex-start !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .login-card-custom {
+    margin: 1.5rem auto !important;
+    padding: 1.5rem 1.15rem !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    border-radius: var(--radius-xl) !important;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  .login-brand-tag {
+    font-size: 0.72rem !important;
+    padding: 0.28rem 0.65rem !important;
+  }
+
+  .login-course-title {
+    font-size: 0.75rem !important;
+    letter-spacing: 0.4px !important;
+  }
+
+  .login-title-custom {
+    font-size: 1.25rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  .input-group-custom {
+    margin-bottom: 0.95rem !important;
+  }
+
+  .input-group-custom label {
+    font-size: 0.75rem !important;
+    margin-bottom: 0.35rem !important;
+  }
+
+  /* Cực kỳ quan trọng: font-size 16px để chống Safari iOS tự động phóng to (auto-zoom) */
+  .input-group-custom input {
+    font-size: 16px !important;
+    padding: 0.75rem 0.9rem !important;
+    border-radius: var(--radius-md) !important;
+  }
+
+  .btn-toggle-pwd {
+    width: 44px !important;
+    height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .btn-login-custom {
+    padding: 0.85rem 1rem !important;
+    font-size: 0.95rem !important;
+    border-radius: var(--radius-md) !important;
+  }
+
+  /* 2. Banner Chuyên đề dạng thư */
+  .cat-banner {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 1rem 0.85rem !important;
+    gap: 0.75rem !important;
+  }
+
+  .cat-banner-actions {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.45rem !important;
+  }
+
+  .cat-banner-actions .btn {
+    flex: 1 1 calc(50% - 0.25rem) !important;
+    justify-content: center !important;
+    font-size: 0.78rem !important;
+    padding: 0.45rem 0.5rem !important;
+  }
+
+  /* 3. Thanh 5 Tab tiến trình (Workflow Tabs) */
+  .workflow-tab-bar {
+    padding: 0.5rem 0.65rem !important;
+    gap: 0.4rem !important;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+  }
+
+  .workflow-tab-bar::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .workflow-tab-bar .tab-btn {
+    padding: 0.45rem 0.75rem !important;
+    font-size: 0.78rem !important;
+    border-radius: 9999px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* 4. Nội dung từng Tab */
+  .tab-content-panel {
+    padding: 1rem 0.75rem !important;
+  }
+
+  .bento-card {
+    padding: 1.25rem 1rem !important;
+    border-radius: var(--radius-lg) !important;
+  }
+
+  .bento-card-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.5rem !important;
+  }
+
+  .bento-card-header h3 {
+    font-size: 0.98rem !important;
+  }
+
+  /* 5. Phòng thực hành viết bài */
+  .prompt-pane, .editor-pane {
+    padding: 1.15rem 0.95rem !important;
+    border-radius: var(--radius-lg) !important;
+  }
+
+  .writing-editor-box {
+    min-height: 280px !important;
+    font-size: 16px !important; /* Chống auto-zoom iOS */
+    padding: 0.95rem !important;
+    line-height: 1.7 !important;
+    border-radius: var(--radius-md) !important;
+  }
+
+  /* Nút thao tác dưới ô viết bài */
+  #tab-panel-practice .editor-pane div[style*="justify-content: space-between"] {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.65rem !important;
+  }
+
+  #tab-panel-practice .editor-pane div[style*="justify-content: space-between"] > div {
+    display: flex !important;
+    width: 100% !important;
+    gap: 0.5rem !important;
+  }
+
+  #tab-panel-practice .editor-pane div[style*="justify-content: space-between"] > div .btn {
+    flex: 1 1 50% !important;
+    justify-content: center !important;
+  }
+
+  #tab-panel-practice .editor-pane .btn-primary {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 0.82rem 1rem !important;
+    font-size: 0.92rem !important;
+  }
+
+  /* 6. Màn hình Trả bài & Đánh giá từng câu */
+  .eval-hero-banner {
+    padding: 1.25rem 1rem !important;
+    border-radius: var(--radius-lg) !important;
+  }
+
+  .eval-hero-top {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem !important;
+  }
+
+  .eval-hero-title {
+    font-size: 1.25rem !important;
+  }
+
+  .eval-criteria-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.85rem !important;
+  }
+
+  .eval-criterion-card {
+    padding: 1.15rem 1rem !important;
+    border-radius: var(--radius-lg) !important;
+  }
+
+  .eval-stats-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.65rem !important;
+    padding-top: 1rem !important;
+    margin-top: 1.15rem !important;
+  }
+
+  .eval-sentence-card {
+    padding: 0.95rem 0.85rem !important;
+    border-radius: var(--radius-md) !important;
+  }
+
+  .eval-sentence-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.45rem !important;
+  }
+
+  .eval-sentence-meta-left {
+    width: 100% !important;
+    justify-content: space-between !important;
+  }
+
+  .eval-sentence-upgrade-header {
+    flex-wrap: wrap !important;
+    gap: 0.35rem !important;
+  }
+
+  /* Bộ lọc câu trên thanh trả bài */
+  .eval-sentences-filter-pills {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    flex-wrap: nowrap !important;
+    padding-bottom: 0.35rem !important;
+    scrollbar-width: none !important;
+  }
+
+  .eval-sentences-filter-pills::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  /* 7. Overview Subtab Nav (Tab Lý thuyết tổng quan) */
+  #overviewSubTabNav {
+    grid-template-columns: 1fr !important;
+    gap: 0.45rem !important;
+    padding: 0.5rem 0.75rem !important;
+  }
+
+  #overviewSubTabNav .tab-btn {
+    padding: 0.55rem 0.65rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  /* 8. Tất cả các hộp thoại Popup (Modal Dialogs) */
+  .modal-card {
+    max-width: 95vw !important;
+    width: 95vw !important;
+    padding: 1.25rem 1rem !important;
+    max-height: 88vh !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    border-radius: var(--radius-xl) !important;
+  }
+}
