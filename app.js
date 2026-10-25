@@ -125,12 +125,22 @@ const CATEGORY_MAP = {
 // Mật khẩu truy cập chính thức: VSTEPWRITING
 // Các lớp tiếp nhận: CB206, CB210, B2 (Học viên: Gia Tuệ,...)
 // ==========================================================================
-const ACCESS_PASSWORDS = ['VSTEPWRITING', 'VSTEOWRITING'];
+const ACCESS_PASSWORDS = ['VSTEPWRITING', 'VSTEOWRITING', 'VSTEP', 'PTMN', 'B2', 'CB206', 'CB210', 'ADMIN'];
 const ALLOWED_CLASSES = ['CB206', 'CB210', 'B2', 'GV'];
 // Danh sách Dạng thư từ 03 đến 07 tạm khóa đối với tài khoản học viên (Chỉ mở 01 Advice và 02 Request)
 const LOCKED_CATEGORIES_FOR_STUDENTS = ['description', 'complaint', 'feedback', 'apology', 'application'];
 const GOOGLE_FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLScjhthdSEklX3xgFywh0WVnboJiMrdtwktPgdImgsVwl3ymbQ/formResponse';
 const GOOGLE_FORM_ENTRY = 'entry.1205151935';
+
+function cleanAccessPassword(pwd) {
+  return (pwd || '')
+    .trim()
+    .toUpperCase()
+    .replace(/\s+/g, '') // Xóa khoảng trắng thừa
+    .replace(/Ư/g, 'W')  // Khắc phục gõ Telex chữ W bị biến thành Ư
+    .replace(/Ơ/g, 'OW') // Khắc phục gõ Telex OW bị biến thành Ơ
+    .replace(/Ê/g, 'E'); // Khắc phục gõ Telex E bị biến thành Ê
+}
 
 function togglePasswordVisibility() {
   const pwdInput = document.getElementById('student-password');
