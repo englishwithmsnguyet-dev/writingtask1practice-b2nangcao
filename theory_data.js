@@ -854,20 +854,45 @@ const B2_DETAILED_OUTLINES = {
         <span class="hl-pill hl-cyan">Phân loại theo người nhận</span>
       </div>
       <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border); font-size: 0.95rem; line-height: 1.7;">
-        <div style="margin-bottom: 0.45rem;">
-          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong><br>
-          <span style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary); margin-left: 1rem;">↳ Dear <span class="hl-placeholder">[tên của người nhận]</span>,</span>
+        <div style="margin-bottom: 0.6rem;">
+          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary);">
+              Dear <span class="hl-placeholder">[tên của người nhận]</span>,
+            </div>
+          </div>
         </div>
-        <div style="margin-bottom: 0.45rem;">
-          <strong style="color: var(--amber-light);">• Bán trang trọng (Semi-formal):</strong><br>
-          <span style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary); margin-left: 1rem;">↳ Dear Mr. / Ms. / Mrs. <span class="hl-placeholder">[họ của người nhận]</span>,</span>
+        <div style="margin-bottom: 0.6rem;">
+          <strong style="color: var(--amber-light);">• Bán trang trọng (Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary);">
+              Dear Mr. / Ms. / Mrs. <span class="hl-placeholder">[họ của người nhận]</span>,
+            </div>
+          </div>
         </div>
         <div>
-          <strong style="color: var(--violet-light);">• Trang trọng (Formal):</strong><br>
-          <div style="margin-left: 1rem; color: var(--text-primary); font-weight: 700;">
-            ↳ Dear Sir, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nam)</span><br>
-            ↳ Dear Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nữ)</span><br>
-            ↳ Dear Sir/Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu không biết chắc chắn người nhận là nam hay nữ)</span>
+          <strong style="color: var(--violet-light);">• Trang trọng (Formal):</strong>
+          <div style="margin-left: 0.65rem; margin-top: 0.25rem; display: flex; flex-direction: column; gap: 0.35rem;">
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Sir, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nam)</span>
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nữ)</span>
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Sir/Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu không biết chắc chắn người nhận là nam hay nữ)</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -882,38 +907,50 @@ const B2_DETAILED_OUTLINES = {
       
       <!-- 2.1 Khi thư yêu cầu cung cấp thông tin -->
       <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(168, 85, 247, 0.06)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; margin-bottom: 0.85rem; font-size: 0.95rem; line-height: 1.7;">
-        <div style="font-weight: 800; color: var(--violet-light); margin-bottom: 0.4rem; font-size: 0.96rem;">
+        <div style="font-weight: 800; color: var(--violet-light); margin-bottom: 0.5rem; font-size: 0.96rem;">
           <i class="fa-solid fa-circle-info"></i> 2.1. Khi thư yêu cầu cung cấp thông tin:
         </div>
-        <div style="margin-bottom: 0.5rem;">
-          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong><br>
-          <div style="margin-left: 1rem; font-size: 1rem; color: var(--text-primary);">
-            ↳ <strong>How have you been lately? In your letter, you asked me about <span class="hl-placeholder">[chủ đề cần được cung cấp thông tin]</span>, so I’d be happy to share some details with you.</strong>
+        <div style="margin-bottom: 0.65rem;">
+          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem; font-size: 1rem; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              <strong>How have you been lately? In your letter, you asked me about <span class="hl-placeholder">[chủ đề cần được cung cấp thông tin]</span>, so I’d be happy to share some details with you.</strong>
+            </div>
           </div>
         </div>
         <div>
-          <strong style="color: var(--amber-light);">• Trang trọng & bán trang trọng (Formal / Semi-formal):</strong><br>
-          <div style="margin-left: 1rem; font-size: 1rem; color: var(--text-primary);">
-            ↳ <strong>I hope this letter finds you well. In your letter, you requested information about <span class="hl-placeholder">[chủ đề cần được cung cấp thông tin]</span>, so I am writing to provide you with the relevant details.</strong>
+          <strong style="color: var(--amber-light);">• Trang trọng & bán trang trọng (Formal / Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem; font-size: 1rem; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              <strong>I hope this letter finds you well. In your letter, you requested information about <span class="hl-placeholder">[chủ đề cần được cung cấp thông tin]</span>, so I am writing to provide you with the relevant details.</strong>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- 2.2 Khi thư yêu cầu mô tả một đối tượng hoặc sự việc -->
       <div style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.12), rgba(59, 130, 246, 0.06)); border: 1px solid var(--cyan-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; font-size: 0.95rem; line-height: 1.7;">
-        <div style="font-weight: 800; color: var(--cyan-light); margin-bottom: 0.4rem; font-size: 0.96rem;">
+        <div style="font-weight: 800; color: var(--cyan-light); margin-bottom: 0.5rem; font-size: 0.96rem;">
           <i class="fa-solid fa-paintbrush"></i> 2.2. Khi thư yêu cầu mô tả một đối tượng hoặc sự việc:
         </div>
-        <div style="margin-bottom: 0.5rem;">
-          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong><br>
-          <div style="margin-left: 1rem; font-size: 1rem; color: var(--text-primary);">
-            ↳ <strong>How have you been lately? You asked me to describe <span class="hl-placeholder">[đối tượng cần được mô tả]</span>, so let me tell you a little more about it.</strong>
+        <div style="margin-bottom: 0.65rem;">
+          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem; font-size: 1rem; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              <strong>How have you been lately? You asked me to describe <span class="hl-placeholder">[đối tượng cần được mô tả]</span>, so let me tell you a little more about it.</strong>
+            </div>
           </div>
         </div>
         <div>
-          <strong style="color: var(--amber-light);">• Trang trọng & bán trang trọng (Formal / Semi-formal):</strong><br>
-          <div style="margin-left: 1rem; font-size: 1rem; color: var(--text-primary);">
-            ↳ <strong>I hope this letter finds you well. You asked me to describe <span class="hl-placeholder">[đối tượng cần được mô tả]</span>, so I am writing to provide you with a detailed description.</strong>
+          <strong style="color: var(--amber-light);">• Trang trọng & bán trang trọng (Formal / Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem; font-size: 1rem; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              <strong>I hope this letter finds you well. You asked me to describe <span class="hl-placeholder">[đối tượng cần được mô tả]</span>, so I am writing to provide you with a detailed description.</strong>
+            </div>
           </div>
         </div>
       </div>
