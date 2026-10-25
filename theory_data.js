@@ -1019,15 +1019,21 @@ const B2_DETAILED_OUTLINES = {
       </div>
       <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(234, 88, 12, 0.05)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 0.95rem; line-height: 1.7;">
         <div style="margin-bottom: 0.65rem;">
-          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong><br>
-          <div style="margin-left: 1rem; font-size: 1.02rem; color: var(--text-primary);">
-            ↳ <strong>I hope you find this information helpful. Let me know if you need any more details.</strong>
+          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem; font-size: 1.02rem; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              <strong>I hope you find this information helpful. Let me know if you need any more details.</strong>
+            </div>
           </div>
         </div>
         <div>
-          <strong style="color: var(--amber-light);">• Trang trọng & Bán trang trọng (Formal / Semi-formal):</strong><br>
-          <div style="margin-left: 1rem; font-size: 1.02rem; color: var(--text-primary);">
-            ↳ <strong>I hope the information provided is helpful. Please feel free to contact me if you require any further details.</strong>
+          <strong style="color: var(--amber-light);">• Trang trọng & Bán trang trọng (Formal / Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem; font-size: 1.02rem; color: var(--text-primary);">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content">
+              <strong>I hope the information provided is helpful. Please feel free to contact me if you require any further details.</strong>
+            </div>
           </div>
         </div>
       </div>
@@ -1042,16 +1048,31 @@ const B2_DETAILED_OUTLINES = {
       <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border); font-size: 0.95rem; line-height: 1.7;">
         <div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
           <div>
-            <strong style="color: var(--cyan-light);">• Thân mật:</strong><br>
-            <span style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">↳ Best wishes,</span>
+            <strong style="color: var(--cyan-light);">• Thân mật:</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Best wishes,
+              </div>
+            </div>
           </div>
           <div>
-            <strong style="color: var(--violet-light);">• Trang trọng:</strong><br>
-            <span style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">↳ Yours faithfully,</span>
+            <strong style="color: var(--violet-light);">• Trang trọng:</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Yours faithfully,
+              </div>
+            </div>
           </div>
           <div>
-            <strong style="color: var(--amber-light);">• Bán trang trọng:</strong><br>
-            <span style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">↳ Yours sincerely,</span>
+            <strong style="color: var(--amber-light);">• Bán trang trọng:</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Yours sincerely,
+              </div>
+            </div>
           </div>
         </div>
       </div>
