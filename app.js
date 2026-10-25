@@ -299,12 +299,12 @@ function enterRoom() {
     const finalData = `[B2 NÂNG CAO] [ĐĂNG NHẬP] ${nameVal} - Lớp: ${finalClassVal}${isTeacher ? ' (Giáo viên)' : ''} - Vào học lúc ${timeString}`;
     
     // Method 1: sendBeacon (Hiện đại, ngầm và không chặn trình duyệt)
-    if (navigator.sendBeacon) {
-      const fd = new FormData();
-      fd.append(GOOGLE_FORM_ENTRY, finalData);
-      fd.append('fvv', '1');
-      fd.append('pageHistory', '0');
+    if (typeof navigator !== 'undefined' && navigator.sendBeacon && typeof FormData !== 'undefined') {
       try {
+        const fd = new FormData();
+        fd.append(GOOGLE_FORM_ENTRY, finalData);
+        fd.append('fvv', '1');
+        fd.append('pageHistory', '0');
         navigator.sendBeacon(GOOGLE_FORM_ACTION, fd);
       } catch (be) {}
     }
