@@ -75,11 +75,11 @@ const CATEGORY_MAP = {
   description: { 
     id: 3, 
     key: 'description', 
-    title_vi: 'Thư Cung Cấp Thông Tin', 
+    title_vi: 'Thư Mô Tả', 
     title_en: 'Letter of Description', 
     icon: 'fa-circle-info', 
     badge: 'BAND B2',
-    defaultTopicId: 'de-05'
+    defaultTopicId: 'de-19'
   },
   complaint: { 
     id: 4, 
@@ -127,8 +127,8 @@ const CATEGORY_MAP = {
 // ==========================================================================
 const ACCESS_PASSWORDS = ['VSTEPWRITING', 'VSTEOWRITING', 'VSTEP', 'PTMN', 'B2', 'CB206', 'CB210', 'ADMIN'];
 const ALLOWED_CLASSES = ['CB206', 'CB210', 'B2', 'GV'];
-// Danh sách Dạng thư từ 03 đến 07 tạm khóa đối với tài khoản học viên (Chỉ mở 01 Advice và 02 Request)
-const LOCKED_CATEGORIES_FOR_STUDENTS = ['description', 'complaint', 'feedback', 'apology', 'application'];
+// Danh sách Dạng thư từ 04 đến 07 tạm khóa đối với tài khoản học viên (Chỉ mở 01 Advice, 02 Request, 03 Description)
+const LOCKED_CATEGORIES_FOR_STUDENTS = ['complaint', 'feedback', 'apology', 'application'];
 const GOOGLE_FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLScjhthdSEklX3xgFywh0WVnboJiMrdtwktPgdImgsVwl3ymbQ/formResponse';
 const GOOGLE_FORM_ENTRY = 'entry.1205151935';
 
@@ -1708,52 +1708,68 @@ const RECITATION_QUESTIONS = {
   ],
   "description": [
     {
-      "cue": "Viết lời chào mở đầu thư mô tả (thân mật hoặc trang trọng): \"Dear [tên người nhận], / Dear Sir/Madam,\"",
-      "target": "Dear [tên người nhận], / Dear Sir/Madam,"
+      "cue": "Viết lời chào mở đầu thư mô tả thân mật (Dear + tên người nhận): \"Dear [tên của người nhận],\"",
+      "target": "Dear [tên của người nhận],"
     },
     {
-      "cue": "Viết câu mở thư cung cấp thông tin: \"Cảm ơn thư của bạn hỏi về dự án sắp tới. Tôi rất vui lòng chia sẻ một số thông tin chi tiết với bạn.\"",
-      "target": "Thanks for your letter asking about the upcoming project. I am delighted to share some detailed information with you."
+      "cue": "Viết lời chào mở đầu trang trọng (nếu biết chắc chắn người nhận là nam): \"Dear Sir,\"",
+      "target": "Dear Sir,"
     },
     {
-      "cue": "Viết câu dẫn dắt chia sẻ thông tin: \"Tớ/Tôi viết thư này để chia sẻ một số chi tiết về...\"",
-      "target": "I am writing to share some details about …"
+      "cue": "Viết lời chào mở đầu trang trọng (nếu biết chắc chắn người nhận là nữ): \"Dear Madam,\"",
+      "target": "Dear Madam,"
     },
     {
-      "cue": "Viết cấu trúc hồi tưởng sự kiện: \"Theo như tớ nhớ, sự kiện đó đã diễn ra...\"",
-      "target": "As far as I remember, the event was …"
+      "cue": "Viết lời chào mở đầu trang trọng (nếu không biết chắc chắn nam hay nữ): \"Dear Sir/Madam,\"",
+      "target": "Dear Sir/Madam,"
     },
     {
-      "cue": "Viết cấu trúc nhấn mạnh điểm ấn tượng nhất: \"Điều làm tớ ấn tượng sâu sắc nhất là...\"",
-      "target": "What impressed me the most was …"
+      "cue": "Viết lời chào mở đầu bán trang trọng (Dear Mr. / Ms. / Mrs. + họ người nhận):",
+      "target": "Dear Mr. / Ms. / Mrs. [họ của người nhận],"
     },
     {
-      "cue": "Viết câu mô tả bầu không khí sôi động: \"Không khí vô cùng náo nhiệt và sôi động vì...\"",
-      "target": "The atmosphere was lively and vibrant because …"
+      "cue": "Mở thư 2.1 (thư yêu cầu cung cấp thông tin - thân mật): \"How have you been lately? In your letter, you asked me about [chủ đề...], so I’d be happy to share some details with you.\"",
+      "target": "How have you been lately? In your letter, you asked me about [chủ đề cần được cung cấp thông tin], so I’d be happy to share some details with you."
     },
     {
-      "cue": "Viết câu mô tả trang thiết bị, cơ sở vật chất: \"Về cơ sở vật chất, địa điểm được trang bị...\"",
-      "target": "In terms of facilities, the venue is equipped with …"
+      "cue": "Mở thư 2.1 (thư yêu cầu cung cấp thông tin - trang trọng & bán trang trọng): \"I hope this letter finds you well. In your letter, you requested information about [chủ đề...], so I am writing to provide you with the relevant details.\"",
+      "target": "I hope this letter finds you well. In your letter, you requested information about [chủ đề cần được cung cấp thông tin], so I am writing to provide you with the relevant details."
     },
     {
-      "cue": "Viết câu nêu bật một đặc điểm nổi bật thu hút người đọc: \"Một điểm đặc biệt đáng chú ý mà cậu có thể thích là...\"",
-      "target": "One notable feature that you might like is …"
+      "cue": "Mở thư 2.2 (thư yêu cầu mô tả một đối tượng/sự việc - thân mật): \"How have you been lately? You asked me to describe [đối tượng...], so let me tell you a little more about it.\"",
+      "target": "How have you been lately? You asked me to describe [đối tượng cần được mô tả], so let me tell you a little more about it."
     },
     {
-      "cue": "Viết câu mô tả vị trí địa lý thuận tiện: \"Nơi này tọa lạc ở vị trí thuận tiện gần... để...\"",
-      "target": "It is located conveniently near … so that …"
+      "cue": "Mở thư 2.2 (thư yêu cầu mô tả một đối tượng/sự việc - trang trọng & bán trang trọng): \"I hope this letter finds you well. You asked me to describe [đối tượng...], so I am writing to provide you with a detailed description.\"",
+      "target": "I hope this letter finds you well. You asked me to describe [đối tượng cần được mô tả], so I am writing to provide you with a detailed description."
     },
     {
-      "cue": "Viết câu tóm tắt cơ hội, lợi ích tổng thể: \"Nhìn chung, nơi này mang đến cơ hội tuyệt vời để...\"",
-      "target": "Overall, it offers a great opportunity for …"
+      "cue": "Viết chuỗi 4 từ liên kết đề xuất trong thân bài thư mô tả (To begin with, … → In addition, … → Furthermore, … → Finally, …):",
+      "target": "To begin with, … → In addition, … → Furthermore, … → Finally, …"
     },
     {
-      "cue": "Viết câu kết thư cung cấp thông tin: \"Tôi hy vọng thông tin này mang lại cho bạn một bức tranh rõ ràng. Hãy cho tôi biết nếu bạn cần thêm chi tiết nào khác.\"",
-      "target": "I hope this information gives you a clear picture. Let me know if you need any further details."
+      "cue": "Viết 3 cụm chuyển ý theo nội dung mô tả trong thân bài (As for..., In terms of..., Regarding...):",
+      "target": "As for ______, … | In terms of ______, … | Regarding ______, …"
     },
     {
-      "cue": "Viết lời chào kết thúc thư (thân mật hoặc bán trang trọng): \"Best wishes, / Yours sincerely,\"",
-      "target": "Best wishes, / Yours sincerely,"
+      "cue": "Viết câu kết thư mô tả thân mật: \"I hope you find this information helpful. Let me know if you need any more details.\"",
+      "target": "I hope you find this information helpful. Let me know if you need any more details."
+    },
+    {
+      "cue": "Viết câu kết thư trang trọng & bán trang trọng: \"I hope the information provided is helpful. Please feel free to contact me if you require any further details.\"",
+      "target": "I hope the information provided is helpful. Please feel free to contact me if you require any further details."
+    },
+    {
+      "cue": "Viết lời chào kết thúc thư thân mật: \"Best wishes,\"",
+      "target": "Best wishes,"
+    },
+    {
+      "cue": "Viết lời chào kết thúc thư trang trọng (khi mở đầu là Dear Sir/Madam): \"Yours faithfully,\"",
+      "target": "Yours faithfully,"
+    },
+    {
+      "cue": "Viết lời chào kết thúc thư bán trang trọng (khi mở đầu là Dear Mr./Ms. [họ]): \"Yours sincerely,\"",
+      "target": "Yours sincerely,"
     }
   ],
   "complaint": [
@@ -3565,10 +3581,10 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
     } else if (s.isSignoff || (idx >= total - 2 && wc <= 3 && !/[.!?]$/.test(txt)) || /^(best wishes|yours sincerely|yours faithfully|best regards|warm regards|warmly|all the best|love|sincerely)/i.test(txt)) {
       role = "Ký tên & Kết thúc thư (Sign-off)";
       roleKey = "signoff";
-    } else if (idx >= total - 3 && (lower.includes("thank you for your time") || lower.includes("look forward to") || lower.includes("let me know how") || lower.includes("write back soon") || lower.includes("really appreciate your help") || lower.includes("feel free to contact") || lower.includes("hope you find my suggestions") || lower.includes("hope this information") || lower.includes("apologize once again"))) {
+    } else if (idx >= total - 3 && (lower.includes("thank you for your time") || lower.includes("look forward to") || lower.includes("let me know") || lower.includes("write back soon") || lower.includes("really appreciate your help") || lower.includes("feel free to contact") || lower.includes("hope you find") || lower.includes("hope the information") || lower.includes("hope this information") || lower.includes("apologize once again"))) {
       role = "Lời kết thư & Kỳ vọng (Closing Remark)";
       roleKey = "closing";
-    } else if (idx <= 3 && (lower.includes("how are you") || lower.includes("how have you been") || lower.includes("writing to") || lower.includes("writing this") || lower.includes("pleased to") || lower.includes("glad to") || lower.includes("purpose of") || lower.includes("inform you") || (lower.includes("thank") && idx === 1))) {
+    } else if (idx <= 3 && (lower.includes("how are you") || lower.includes("how have you been") || lower.includes("writing to") || lower.includes("writing this") || lower.includes("pleased to") || lower.includes("glad to") || lower.includes("purpose of") || lower.includes("inform you") || lower.includes("in your letter") || lower.includes("happy to share") || lower.includes("provide you with") || lower.includes("asked me to describe") || lower.includes("hope this letter finds you") || (lower.includes("thank") && idx === 1))) {
       role = "Mở bài & Nêu mục đích viết thư (Opening & Purpose)";
       roleKey = "opening";
     } else if (/^(because|this is because|in fact|specifically|to be specific|for example|for instance|therefore|as a result|this will|this helps|this allows|this means|so that|moreover|furthermore|in addition)/i.test(txt) || lower.includes("this will allow") || lower.includes("so that you can") || lower.includes("as a consequence")) {
@@ -3633,11 +3649,15 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
         upgrade = "I am writing to apply for the position advertised on your official website.";
       } else if (catKey === 'feedback') {
         upgrade = "I am writing to provide feedback on the recent event and share a few suggestions for future improvements.";
+      } else if (catKey === 'description') {
+        upgrade = isFormal ?
+          "I hope this letter finds you well. In your letter, you requested information about this matter, so I am writing to provide you with the relevant details." :
+          "How have you been lately? In your letter, you asked me about my friend Hoa, so I’d be happy to share some details with you.";
       } else {
         upgrade = "How have you been lately? I hope everything is going well. In your letter, you asked me about this topic, so here are some details.";
       }
     } else if (roleKey === "closing") {
-      if (lower.includes("look forward") || lower.includes("let me know") || lower.includes("really appreciate") || lower.includes("thank you for your time")) {
+      if (lower.includes("look forward") || lower.includes("let me know") || lower.includes("really appreciate") || lower.includes("thank you for your time") || lower.includes("feel free to contact")) {
         quality = "excellent";
         qualityBadge = "Xuất sắc (Chuẩn B2)";
         feedback.push("Lời kết thúc tự nhiên, thể hiện rõ thiện chí và sự mong đợi phản hồi.");
@@ -3661,6 +3681,10 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
         upgrade = "I hope that this issue will be addressed promptly. I look forward to receiving your reply soon.";
       } else if (catKey === 'application') {
         upgrade = "Thank you for considering my application. I would welcome the opportunity to discuss my qualifications with you in an interview.";
+      } else if (catKey === 'description') {
+        upgrade = isFormal ?
+          "I hope the information provided is helpful. Please feel free to contact me if you require any further details." :
+          "I hope you find this information helpful. Let me know if you need any more details.";
       } else {
         upgrade = "I hope you find this information helpful. Let me know if you need any further details.";
       }
@@ -3676,10 +3700,10 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
             upgrade = upgrade.replace(new RegExp(err.quote, "gi"), err.fix);
           }
         });
-      } else if (lower.includes("when it comes to") || lower.includes("last but not least") || lower.includes("as for") || lower.includes("regarding") || lower.includes("to begin with") || lower.includes("on top of that") || lower.includes("besides that")) {
+      } else if (lower.includes("when it comes to") || lower.includes("last but not least") || lower.includes("as for") || lower.includes("regarding") || lower.includes("to begin with") || lower.includes("on top of that") || lower.includes("besides that") || lower.includes("in terms of")) {
         quality = "excellent";
         qualityBadge = "Xuất sắc (Band 8.0 - 9.0)";
-        feedback.push("Áp dụng chuỗi liên từ chuyển ý độc quyền chuẩn B2 rất mượt mà.");
+        feedback.push("Áp dụng chuỗi liên từ chuyển ý độc quyền chuẩn B2 (To begin with, regarding, in terms of, as for...) rất mượt mà.");
         if (lower.includes("because") || lower.includes("so that") || lower.includes("which") || lower.includes("in order to")) {
           feedback.push("Cấu trúc câu phức cân đối, thể hiện tư duy lập luận logic.");
         }
@@ -4493,7 +4517,10 @@ function findTopicById(topicId) {
   for (const cat of LETTERS_DATA) {
     if (cat.topics) {
       const found = cat.topics.find(t => t.id === topicId);
-      if (found) return found;
+      if (found) {
+        if (!found.category_id) found.category_id = cat.category_id;
+        return found;
+      }
     }
   }
   return null;
