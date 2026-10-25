@@ -1832,7 +1832,7 @@ const RECITATION_QUESTIONS = {
   ],
   "feedback": [
     {
-      "cue": "Viết lời chào mở đầu thư phản hồi: \"Dear Organizers, / Dear Mr. / Ms. [họ],\"",
+      "cue": "Viết lời chào mở đầu thư phản hồi: \"Kính gửi Ban tổ chức, / Kính gửi Ông/Bà [họ],\"",
       "target": "Dear Organizers, / Dear Mr. / Ms. [họ],"
     },
     {
@@ -1882,7 +1882,7 @@ const RECITATION_QUESTIONS = {
   ],
   "apology": [
     {
-      "cue": "Viết lời chào mở đầu thư xin lỗi (thân mật hoặc bán trang trọng): \"Dear [tên người nhận], / Dear Mr. / Ms. [họ],\"",
+      "cue": "Viết lời chào mở đầu thư xin lỗi (thân mật hoặc bán trang trọng): \"Kính gửi [tên người nhận], / Kính gửi Ông/Bà [họ],\"",
       "target": "Dear [tên người nhận], / Dear Mr. / Ms. [họ],"
     },
     {
