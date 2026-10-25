@@ -1782,52 +1782,88 @@ const RECITATION_QUESTIONS = {
   ],
   "complaint": [
     {
-      "cue": "Viết lời chào mở đầu trang trọng trong thư phàn nàn: \"Kính gửi Quý ông/Quý bà, / Kính gửi Quản lý Dịch vụ Khách hàng,\"",
-      "target": "Dear Sir/Madam, / Dear Customer Service Manager,"
+      "cue": "Viết lời chào mở đầu trang trọng khi biết chắc chắn người nhận là nam: \"Kính gửi Ông,\"",
+      "target": "Dear Sir,"
     },
     {
-      "cue": "Viết câu mở thư bày tỏ sự không hài lòng mạnh mẽ về dịch vụ khách sạn: \"Tôi viết thư này để bày tỏ sự không hài lòng mạnh mẽ đối với dịch vụ tôi đã nhận trong kỳ nghỉ gần đây tại khách sạn của quý vị.\"",
-      "target": "I am writing to express my strong dissatisfaction with the service I received during my recent stay at your hotel."
+      "cue": "Viết lời chào mở đầu trang trọng khi biết chắc chắn người nhận là nữ: \"Kính gửi Bà,\"",
+      "target": "Dear Madam,"
     },
     {
-      "cue": "Viết câu mở đầu nêu sự phàn nàn: \"Tôi viết thư này để bày tỏ sự không hài lòng với...\"",
-      "target": "I am writing to express my dissatisfaction with …"
+      "cue": "Viết lời chào mở đầu trang trọng khi không biết chắc chắn người nhận là nam hay nữ: \"Kính gửi Ông/Bà,\"",
+      "target": "Dear Sir/Madam,"
     },
     {
-      "cue": "Viết câu nêu sự cố chính đầu tiên: \"Vấn đề chính là...\"",
-      "target": "The main problem was that …"
+      "cue": "Viết lời chào mở đầu bán trang trọng kèm họ người nhận: \"Kính gửi Ông/Bà/Cô [họ của người nhận],\"",
+      "target": "Dear Mr. / Ms. / Mrs. [họ của người nhận],"
     },
     {
-      "cue": "Viết liên từ nhấn mạnh tình hình trầm trọng hơn: \"Tệ hơn nữa là...\"",
-      "target": "To make matters worse, …"
+      "cue": "Viết câu mở thư phàn nàn và nêu sự thất vọng với trải nghiệm: \"Tôi viết thư này để bày tỏ sự không hài lòng với [vấn đề cần phàn nàn]. Gần đây tôi đã [sử dụng/mua/trải nghiệm] [sản phẩm hoặc dịch vụ], và tôi đã thất vọng với trải nghiệm này.\"",
+      "target": "I am writing to express my dissatisfaction with [vấn đề cần phàn nàn]. I recently [sử dụng/mua/trải nghiệm] [sản phẩm hoặc dịch vụ], and I was disappointed with the experience."
     },
     {
-      "cue": "Viết câu nêu mối lo ngại, bận tâm tiếp theo: \"Một mối bận tâm khác là...\"",
-      "target": "Another concern was that …"
+      "cue": "Viết cấu trúc trình bày vấn đề chính thứ nhất: \"Vấn đề chính là [vấn đề 1].\"",
+      "target": "The main problem was that [vấn đề 1]."
     },
     {
-      "cue": "Viết câu bổ sung một sự cố nghiêm trọng khác: \"Một vấn đề xa hơn nữa là...\"",
-      "target": "A further issue was that …"
+      "cue": "Viết cấu trúc trình bày mối bận tâm tiếp theo: \"Một mối bận tâm khác là [vấn đề 2].\"",
+      "target": "Another concern was that [vấn đề 2]."
     },
     {
-      "cue": "Viết câu trình bày sự bất tiện đáng kể gánh chịu: \"Tình huống này đã gây cho tôi nhiều sự bất tiện đáng kể vì...\"",
-      "target": "This situation caused me considerable inconvenience because …"
+      "cue": "Viết cấu trúc bổ sung một vấn đề thứ ba: \"Một vấn đề nữa là [vấn đề 3].\"",
+      "target": "A further issue was that [vấn đề 3]."
     },
     {
-      "cue": "Viết câu kiên quyết yêu cầu đổi hàng hoặc hoàn tiền: \"Tôi tha thiết đề nghị quý công ty đổi / hoàn tiền...\"",
-      "target": "I strongly suggest that you replace / refund …"
+      "cue": "Viết liên từ mở đầu chuỗi vấn đề: \"Trước hết, [vấn đề 1].\"",
+      "target": "To begin with, [vấn đề 1]."
     },
     {
-      "cue": "Viết câu yêu cầu được giải quyết nhanh chóng: \"Tôi hy vọng vấn đề này sẽ được quý đơn vị giải quyết nhanh chóng.\"",
-      "target": "I hope this matter will receive your prompt attention."
+      "cue": "Viết liên từ bổ sung vấn đề tiếp theo: \"Ngoài ra, [vấn đề 2].\"",
+      "target": "In addition, [vấn đề 2]."
     },
     {
-      "cue": "Viết câu kết thư phàn nàn mong phản hồi khẩn trương và hướng xử lý thỏa đáng: \"Tôi rất mong nhận được phản hồi nhanh chóng và một hướng giải quyết thỏa đáng cho vấn đề này từ quý vị.\"",
-      "target": "I look forward to your prompt response and a satisfactory resolution to this matter."
+      "cue": "Viết cấu trúc nhấn mạnh điều làm cho tình huống tệ hơn: \"Điều làm cho tình huống tệ hơn là [vấn đề 3].\"",
+      "target": "What made the situation worse was that [vấn đề 3]."
     },
     {
-      "cue": "Viết lời chào kết thúc thư phàn nàn trang trọng: \"Trân trọng,\"",
+      "cue": "Viết câu giải thích cảm xúc thất vọng vì kỳ vọng chất lượng và dịch vụ tốt hơn: \"Tôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn.\"",
+      "target": "I was particularly disappointed with this experience because I expected a better level of quality and service."
+    },
+    {
+      "cue": "Viết cấu trúc đề xuất giải pháp lịch sự: \"Tôi sẽ rất cảm kích nếu quý vị có thể [đề xuất giải pháp cụ thể].\"",
+      "target": "I would appreciate it if you could [đề xuất giải pháp cụ thể]."
+    },
+    {
+      "cue": "Viết cấu trúc đưa ra lời gợi ý giải pháp: \"Tôi muốn gợi ý rằng quý vị [đề xuất giải pháp cụ thể].\"",
+      "target": "I would like to suggest that you [đề xuất giải pháp cụ thể]."
+    },
+    {
+      "cue": "Viết cấu trúc khuyến nghị mạnh mẽ tới ban quản lý: \"Tôi tha thiết đề xuất rằng ban quản lý [đề xuất giải pháp cụ thể].\"",
+      "target": "I strongly recommend that the management [đề xuất giải pháp cụ thể]."
+    },
+    {
+      "cue": "Viết cấu trúc đề xuất biện pháp cần thực hiện: \"Tôi tin rằng các biện pháp cần được thực hiện để [biện pháp cần thực hiện].\"",
+      "target": "I believe that steps should be taken to [biện pháp cần thực hiện]."
+    },
+    {
+      "cue": "Viết câu kết thư yêu cầu giải quyết các vấn đề nhanh chóng: \"Tôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời.\"",
+      "target": "I hope that these issues will be addressed promptly."
+    },
+    {
+      "cue": "Viết câu kết thư mong đợi sớm nhận được hồi âm: \"Tôi rất mong sớm nhận được hồi âm từ quý vị.\"",
+      "target": "I look forward to hearing from you soon."
+    },
+    {
+      "cue": "Viết lời chào kết thúc thư thân mật: \"Lời chúc tốt đẹp nhất,\"",
+      "target": "Best wishes,"
+    },
+    {
+      "cue": "Viết lời chào kết thúc thư trang trọng: \"Trân trọng,\"",
       "target": "Yours faithfully,"
+    },
+    {
+      "cue": "Viết lời chào kết thúc thư bán trang trọng: \"Trân trọng,\"",
+      "target": "Yours sincerely,"
     }
   ],
   "feedback": [
