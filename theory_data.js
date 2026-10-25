@@ -558,9 +558,14 @@ const B2_DETAILED_OUTLINES = {
         <span class="hl-pill hl-amber">Chúc may mắn + Mong hồi âm</span>
       </div>
       <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.14), rgba(234, 88, 12, 0.06)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 0.9rem 1.2rem; font-size: 1.02rem; color: var(--text-primary);">
-        ↳ <strong><span class="hl-mark-opening">I hope you find my suggestions helpful. Let me know how things go.</span></strong>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content">
+            <strong><span class="hl-mark-opening">I hope you find my suggestions helpful. Let me know how things go.</span></strong>
+          </div>
+        </div>
       </div>
-      <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.45rem 0 0 0;">
+      <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.45rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
         <i class="fa-solid fa-language" style="color: var(--amber-light);"></i> <em>Dịch: Tớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé.</em>
       </p>
     </div>
@@ -572,8 +577,11 @@ const B2_DETAILED_OUTLINES = {
         <span class="hl-pill hl-rose">Không ký tên thật vào bài thi</span>
       </div>
       <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border);">
-        <div style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
-          ↳ <span class="hl-mark-connector">Best wishes,</span>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+            <span class="hl-mark-connector">Best wishes,</span>
+          </div>
         </div>
       </div>
     </div>
