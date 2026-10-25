@@ -12595,137 +12595,49 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Broken treadmills & severe waiting queues",
-              "title_vi": "Máy chạy bộ hỏng & tình trạng chờ đợi",
+              "title_en": "1. Broken treadmills & waiting queues",
+              "title_vi": "Máy chạy bộ hỏng & thời gian chờ đợi",
               "icon": "fa-person-running",
               "options": [
                 {
-                  "action_en": "three out of five cardio running treadmills have been broken down for more than two weeks",
-                  "action_vi": "ba trong số năm máy chạy bộ cardio đã bị hỏng hơn hai tuần nay",
-                  "reason_en": "because members have to wait for a long time during peak hours.",
-                  "reason_vi": "gây ra tình trạng xếp hàng chờ đợi kéo dài tới 30 phút vào các khung giờ cao điểm.",
-                  "expansion_1_en": "Exercisers are forced to stand around idly or queue up for over thirty minutes just to run.",
-                  "expansion_1_vi": "Người tập buộc phải đứng chờ một cách vô ích hoặc xếp hàng hơn ba mươi phút chỉ để được chạy.",
-                  "expansion_2_en": "This intolerable backlog severely disrupts our daily training routines before morning office hours.",
-                  "expansion_2_vi": "Sự ùn tắc khó chịu này làm gián đoạn nghiêm trọng thói quen tập luyện hằng ngày trước giờ làm việc."
+                  "action_en": "Several running treadmills were out of order during peak workout hours.",
+                  "action_vi": "Một số máy chạy bộ đã bị hỏng trong các khung giờ tập cao điểm.",
+                  "reason_en": "Members had to wait for more than thirty minutes, which wasted valuable exercise time.",
+                  "reason_vi": "Các hội viên phải chờ hơn ba mươi phút, điều này làm lãng phí thời gian tập luyện quý báu.",
+                  "solution_en": "I would appreciate it if you could repair or replace the broken treadmills as soon as possible.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hoặc thay thế các máy chạy bộ bị hỏng càng sớm càng tốt."
                 },
                 {
-                  "action_en": "the digital control monitors on the running machines frequently freeze or shut down mid-session",
-                  "action_vi": "màn hình điều khiển điện tử trên máy chạy thường xuyên bị đơ hoặc tự tắt khi đang tập",
-                  "reason_en": "because this helps disrupt members' workout tracking and posing abrupt stopping hazards.",
-                  "reason_vi": "làm gián đoạn quá trình theo dõi bài tập và tiềm ẩn nguy cơ té ngã do dừng đột ngột.",
-                  "expansion_1_en": "Running belts jerk violently to a dead stop while users are sprinting at high speeds.",
-                  "expansion_1_vi": "Thảm chạy bất ngờ khựng lại đột ngột trong khi người tập đang chạy nước rút ở tốc độ cao.",
-                  "expansion_2_en": "This mechanical malfunction creates a grave safety hazard that could cause severe knee or ankle injuries.",
-                  "expansion_2_vi": "Sự cố cơ học này tạo ra mối nguy hiểm khôn lường có thể gây chấn thương đầu gối hoặc mắt cá chân nghiêm trọng."
-                },
-                {
-                  "action_en": "staff only taped handwritten 'Out of Order' signs without providing any repair timeline",
-                  "action_vi": "nhân viên chỉ dán giấy viết tay 'Tạm ngưng hoạt động' mà không có thông báo thời gian sửa chữa",
-                  "reason_en": "because members do not know when the machines will be fixed.",
-                  "reason_vi": "khiến các hội viên tập luyện bức xúc vì không rõ khi nào máy móc mới hoạt động trở lại.",
-                  "expansion_1_en": "Gym members have repeatedly inquired at the front reception but received only vague excuses.",
-                  "expansion_1_vi": "Hội viên đã nhiều lần hỏi thăm tại quầy lễ tân nhưng chỉ nhận được những lời thoái thác mơ hồ.",
-                  "expansion_2_en": "Leaving damaged equipment neglected without an estimated completion date reflects poor club management.",
-                  "expansion_2_vi": "Việc bỏ mặc thiết bị hỏng mà không có ngày sửa chữa dự kiến thể hiện sự quản lý yếu kém của câu lạc bộ."
-                },
-                {
-                  "action_en": "one of the operational treadmills makes loud grinding squeaks during running",
-                  "action_vi": "một trong những máy chạy còn chạy được phát ra tiếng kêu kẽo kẹt chói tai khi hoạt động",
-                  "reason_en": "because it makes a loud noise and feels very unsafe to run on.",
-                  "reason_vi": "gây ô nhiễm tiếng ồn và báo hiệu băng tải bên trong đã bị mòn hỏng nghiêm trọng.",
-                  "expansion_1_en": "The harsh metallic friction noise gives off an acrid burning smell after just ten minutes of use.",
-                  "expansion_1_vi": "Tiếng kim loại ma sát chói tai còn bốc ra mùi khét lẹt chỉ sau mười phút sử dụng.",
-                  "expansion_2_en": "Many members avoid using it altogether out of fear that internal motor components might combust.",
-                  "expansion_2_vi": "Nhiều hội viên hoàn toàn không dám dùng vì lo sợ các linh kiện mô tơ bên trong có thể bốc cháy."
-                },
-                {
-                  "action_en": "busy working members are unable to finish their morning cardio before heading to their offices",
-                  "action_vi": "nhiều hội viên bận rộn không thể hoàn thành bài tập cardio buổi sáng trước giờ đi làm",
-                  "reason_en": "because they do not have enough time to finish their workouts before work.",
-                  "reason_vi": "làm lãng phí thời gian biểu hạn hẹp buổi sáng vì sự thiếu hụt trang thiết bị.",
-                  "expansion_1_en": "Many paying members have had to abandon their workouts and leave the facility feeling deeply dissatisfied.",
-                  "expansion_1_vi": "Nhiều hội viên đóng phí đã phải bỏ dở buổi tập và rời phòng tập trong tâm trạng vô cùng thất vọng.",
-                  "expansion_2_en": "We are paying for reliable fitness amenities, not for endless waiting and disrupted schedules.",
-                  "expansion_2_vi": "Chúng tôi trả tiền cho các tiện nghi thể thao chuẩn mực, chứ không phải để chờ đợi vô tận và lỡ dở lịch trình."
-                },
-                {
-                  "action_en": "despite charging high premium monthly membership rates, cardio machines remain neglected",
-                  "action_vi": "dù thu phí hội viên hàng tháng khá cao, các máy cardio lại bị bỏ bê không bảo dưỡng",
-                  "reason_en": "because we pay high monthly fees for good quality equipment.",
-                  "reason_vi": "thể hiện sự thiếu trách nhiệm đối với cam kết chất lượng của một trung tâm thể hình cao cấp.",
-                  "expansion_1_en": "Your marketing promotional flyers proudly promise state-of-the-art cardio gear across all branches.",
-                  "expansion_1_vi": "Các tờ rơi quảng cáo của quý trung tâm luôn tự hào hứa hẹn trang thiết bị tim mạch tối tân trên mọi chi nhánh.",
-                  "expansion_2_en": "The persistent breakdown of core machinery completely contradicts the premium prices we are paying.",
-                  "expansion_2_vi": "Tình trạng hỏng hóc kéo dài của máy móc cốt lõi hoàn toàn mâu thuẫn với mức phí cao cấp mà chúng tôi chi trả."
+                  "action_en": "The electronic control screens on the treadmills frequently froze and stopped suddenly.",
+                  "action_vi": "Màn hình điều khiển điện tử trên máy chạy bộ thường xuyên bị đơ và dừng lại đột ngột.",
+                  "reason_en": "This technical malfunction was very dangerous, which could easily cause runners to fall and get injured.",
+                  "reason_vi": "Sự cố kỹ thuật này rất nguy hiểm, điều này có thể dễ dàng khiến người chạy bị ngã và chấn thương.",
+                  "solution_en": "I strongly recommend that the management inspect and calibrate all running machines immediately.",
+                  "solution_vi": "Tôi tha thiết đề xuất ban quản lý kiểm tra và hiệu chỉnh lại toàn bộ các máy chạy bộ ngay lập tức."
                 }
               ]
             },
             {
               "id": 2,
-              "title_en": "2. Damaged weight equipment & safety hazards",
-              "title_vi": "Máy tập tạ hư hỏng & nguy cơ mất an toàn",
+              "title_en": "2. Damaged weight equipment & cables",
+              "title_vi": "Máy tập tạ và dây cáp bị hư hỏng",
               "icon": "fa-dumbbell",
               "options": [
                 {
-                  "action_en": "several cable crossover pulley machines have severely frayed steel wires",
-                  "action_vi": "nhiều máy kéo cáp đa năng bị sờn đứt các sợi thép bọc ngoài",
-                  "reason_en": "because the worn cables can snap and cause serious injuries to members.",
-                  "reason_vi": "tiềm ẩn nguy cơ đứt cáp nguy hiểm có thể gây chấn thương nghiêm trọng cho người tập tạ nặng.",
-                  "expansion_1_en": "Several exposed wire strands are already protruding dangerously from the protective rubber sleeves.",
-                  "expansion_1_vi": "Nhiều sợi thép đã đứt và thò ra ngoài lớp vỏ cao su bọc bảo vệ một cách rất nguy hiểm.",
-                  "expansion_2_en": "If a tension wire snaps mid-lift, heavy iron weight stacks could crash down onto members.",
-                  "expansion_2_vi": "Nếu dây cáp chịu lực bị đứt giữa lúc đang kéo tạ, các bánh tạ nặng có thể sập đè lên người tập."
+                  "action_en": "Several weight machines had frayed cables and loose weight pins.",
+                  "action_vi": "Một số máy tập tạ có dây cáp bị sờn và chốt tạ bị lỏng lẻo.",
+                  "reason_en": "I felt very unsafe while exercising, which made it impossible to complete my workout routine.",
+                  "reason_vi": "Tôi cảm thấy rất mất an toàn khi tập luyện, điều này khiến tôi không thể hoàn thành bài tập của mình.",
+                  "solution_en": "I would appreciate it if you could replace all damaged tension cables and inspect the safety pins.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể thay thế tất cả các dây cáp bị hư hỏng và kiểm tra các chốt an toàn."
                 },
                 {
-                  "action_en": "multiple adjustable incline benches have loose bolts and unstable back supports",
-                  "action_vi": "nhiều ghế tập tạ dốc có ốc vít bị lỏng và tựa lưng lung lay mất thăng bằng",
-                  "reason_en": "because members can easily lose balance when lifting heavy weights.",
-                  "reason_vi": "gây nguy cơ mất thăng bằng nghiêm trọng khi đẩy tạ đôi với trọng lượng lớn.",
-                  "expansion_1_en": "The backrests wobble uncontrollably whenever someone attempts dumbbell chest presses above twenty kilograms.",
-                  "expansion_1_vi": "Phần tựa lưng rung lắc mất kiểm soát mỗi khi có người đẩy tạ đơn ngực trên hai mươi ký.",
-                  "expansion_2_en": "A sudden loss of equilibrium during heavy resistance sets can easily cause debilitating shoulder tears.",
-                  "expansion_2_vi": "Việc mất thăng bằng bất thình lình khi nâng tạ nặng có thể dễ dàng dẫn đến rách cơ vai nghiêm trọng."
-                },
-                {
-                  "action_en": "dumbbell racks are missing vital pairs and weights remain scattered untidily on the rubber mats",
-                  "action_vi": "các giá để tạ bị thiếu nhiều cặp tạ và tạ đơn bị vứt bừa bãi trên sàn cao su",
-                  "reason_en": "because members can easily trip and fall over the scattered weights.",
-                  "reason_vi": "tạo thành các chướng ngại vật dễ gây vấp ngã nguy hiểm cho người đi lại trong phòng tập.",
-                  "expansion_1_en": "Exercisers continually waste valuable time scouring every corner of the floor just to find matching dumbbells.",
-                  "expansion_1_vi": "Người tập liên tục tốn thời gian quý báu sục sạo khắp mọi ngóc ngách sàn phòng tập chỉ để tìm cặp tạ đồng bộ.",
-                  "expansion_2_en": "Floor trainers appear completely indifferent to enforcing basic gym etiquette and rack organization.",
-                  "expansion_2_vi": "Các huấn luyện viên sàn dường như hoàn toàn thờ ơ trong việc nhắc nhở văn hóa sắp xếp tạ ngăn nắp."
-                },
-                {
-                  "action_en": "the leg press machine safety lock catches frequently slip out of position",
-                  "action_vi": "chốt hãm an toàn của máy đạp đùi thường xuyên bị trượt và không ăn khớp",
-                  "reason_en": "because the machine may slip and injure members during exercise.",
-                  "reason_vi": "đe dọa trực tiếp đến sự an toàn của người tập khi gánh tải trọng tạ lớn.",
-                  "expansion_1_en": "Users must constantly check the locking pins with anxiety before attempting heavy leg presses.",
-                  "expansion_1_vi": "Người dùng phải liên tục nơm nớp kiểm tra chốt khóa an toàn trước khi dám đẩy tạ chân khối lượng lớn.",
-                  "expansion_2_en": "A faulty safety latch on a four-hundred-pound sled poses a life-threatening risk to any exerciser.",
-                  "expansion_2_vi": "Chốt an toàn bị lỗi trên giá tạ hàng trăm cân tiềm ẩn nguy cơ đe dọa tính mạng đối với bất kỳ ai."
-                },
-                {
-                  "action_en": "foam paddings and synthetic leather on chest machines are badly torn and stained",
-                  "action_vi": "lớp đệm mút và da bọc trên các máy tập ngực bị rách nát và ố bẩn loang lổ",
-                  "reason_en": "because the torn pads look dirty and collect a lot of sweat bacteria.",
-                  "reason_vi": "tích tụ vi khuẩn từ mồ hôi và tạo cảm giác mất vệ sinh, mất mỹ quan cho người tập.",
-                  "expansion_1_en": "The foam stuffing has begun disintegrating, which creates a bad smell on members' athletic shirts.",
-                  "expansion_1_vi": "Lớp mút xốp đệm đã bắt đầu mủn nát, bốc ra mùi chua hôi bám chặt vào áo thể thao của người tập.",
-                  "expansion_2_en": "Such deteriorating padding is utterly unacceptable for a fitness brand that claims luxury standards.",
-                  "expansion_2_vi": "Lớp đệm rách nát xuống cấp như vậy là điều không thể chấp nhận được ở một thương hiệu tự nhận chuẩn cao cấp."
-                },
-                {
-                  "action_en": "the rubber gym flooring around the squat racks is cracked and deeply indented",
-                  "action_vi": "mặt sàn cao su quanh các khung gánh tạ bị nứt nẻ và lún sâu",
-                  "reason_en": "because members cannot stand firmly when lifting heavy weights.",
-                  "reason_vi": "làm giảm độ vững chãi của bàn chân khi thực hiện các bài tập gánh tạ nặng.",
-                  "expansion_1_en": "Deep floor ruts beneath heavy squat bars compromise athletes' foot stability during loaded squats.",
-                  "expansion_1_vi": "Những rãnh lõm sâu dưới giá gánh tạ nặng làm mất đi độ vững chãi của bàn chân trong lúc gánh tạ.",
-                  "expansion_2_en": "Any uneven footing under heavy bar loads places extreme, dangerous strain on the lower spine.",
-                  "expansion_2_vi": "Bất kỳ vị trí đặt chân không bằng phẳng nào dưới thanh đòn nặng cũng gây áp lực cực kỳ nguy hiểm lên cột sống."
+                  "action_en": "Many dumbbells and weight plates were rusty and scattered across the floor.",
+                  "action_vi": "Nhiều quả tạ đơn và tạ đĩa bị rỉ sét và vương vãi khắp sàn nhà.",
+                  "reason_en": "It was difficult for members to find the correct weights, which created a cluttered and hazardous environment.",
+                  "reason_vi": "Hội viên rất khó tìm được mức tạ phù hợp, điều này tạo ra một môi trường bừa bộn và nguy hiểm.",
+                  "solution_en": "I strongly recommend that staff organize the weight racks regularly and replace the rusted equipment.",
+                  "solution_vi": "Tôi tha thiết đề xuất nhân viên sắp xếp giá tạ thường xuyên và thay thế các thiết bị bị rỉ sét."
                 }
               ]
             },
@@ -12733,135 +12645,79 @@ const LETTERS_DATA = [
               "id": 3,
               "title_en": "3. Broken air conditioning & poor ventilation",
               "title_vi": "Điều hòa hỏng & phòng tập bí bách",
-              "icon": "fa-fan",
+              "icon": "fa-wind",
               "options": [
                 {
-                  "action_en": "the central air conditioning system in the main cardio zone has stopped operating entirely",
-                  "action_vi": "hệ thống điều hòa trung tâm ở khu vực tập cardio chính đã ngưng hoạt động hoàn toàn",
-                  "reason_en": "because the workout room becomes very hot, stuffy, and uncomfortable.",
-                  "reason_vi": "khiến cả căn phòng kín trở nên nóng bức, ẩm thấp và ngột ngạt đến nghẹt thở.",
-                  "expansion_1_en": "The temperature on the second floor regularly reaches over thirty-four degrees Celsius by noon.",
-                  "expansion_1_vi": "Nhiệt độ trên tầng hai thường xuyên vượt quá ba mươi tư độ C vào giữa trưa.",
-                  "expansion_2_en": "Exercising in such oppressive heat turns healthy workouts into dangerous physical ordeals.",
-                  "expansion_2_vi": "Tập luyện trong môi trường oi bức ngột ngạt như vậy biến bài tập thể chất thành một cực hình nguy hiểm."
+                  "action_en": "The air conditioning system in the main workout room was not functioning properly.",
+                  "action_vi": "Hệ thống điều hòa không khí trong phòng tập chính hoạt động không tốt.",
+                  "reason_en": "The room became extremely hot and stuffy, which made exercising very uncomfortable and exhausting.",
+                  "reason_vi": "Căn phòng trở nên vô cùng nóng bức và bí bách, điều này khiến việc tập luyện rất khó chịu và kiệt sức.",
+                  "solution_en": "I would appreciate it if you could repair the air conditioning system and improve the room ventilation.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hệ thống điều hòa và cải thiện độ thông gió của phòng."
                 },
                 {
-                  "action_en": "the lack of fresh air circulation creates a heavy, unpleasant sweat odor throughout the floor",
-                  "action_vi": "sự thiếu lưu thông không khí tạo nên mùi mồ hôi nồng nặc và ẩm mốc khắp mặt sàn",
-                  "reason_en": "because it makes it extremely uncomfortable and nauseating for exercisers during intense workouts.",
-                  "reason_vi": "khiến người tập cảm thấy vô cùng khó chịu và bức bối khi vận động cường độ cao.",
-                  "expansion_1_en": "Stagnant humid air filled with sweat vapor makes it exceedingly difficult to catch one's breath.",
-                  "expansion_1_vi": "Không khí ngưng đọng ẩm ướt đầy hơi mồ hôi khiến người tập vô cùng khó thở và ngột ngạt.",
-                  "expansion_2_en": "The suffocating atmosphere has triggered frequent nausea and dizzy spells among aerobic participants.",
-                  "expansion_2_vi": "Bầu không khí ngột ngạt này đã gây ra cảm giác buồn nôn và chóng mặt thường xuyên cho học viên aerobic."
-                },
-                {
-                  "action_en": "only two small pedestal electric fans were brought into the spacious gym as a stopgap measure",
-                  "action_vi": "chỉ có hai chiếc quạt cây nhỏ được mang vào phòng tập rộng lớn như một giải pháp chắp vá",
-                  "reason_en": "because two small fans cannot cool down such a large workout room.",
-                  "reason_vi": "hoàn toàn không đủ để làm mát cho hàng chục hội viên đang đổ mồ hôi trong phòng.",
-                  "expansion_1_en": "These household fans simply blow warm, stagnant air across the room without cooling anything down.",
-                  "expansion_1_vi": "Những chiếc quạt gia đình này chỉ đơn thuần thổi luồng khí nóng ẩm quanh phòng chứ không hề hạ nhiệt.",
-                  "expansion_2_en": "Relying on such inadequate measures demonstrates an unprofessional attitude toward paying customers.",
-                  "expansion_2_vi": "Trông cậy vào giải pháp tạm bợ như vậy thể hiện thái độ thiếu chuyên nghiệp đối với khách hàng trả phí."
-                },
-                {
-                  "action_en": "windows cannot be opened to let breeze in due to high street dust and traffic noise outside",
-                  "action_vi": "cửa sổ không thể mở để đón gió vì khói bụi và tiếng ồn xe cộ từ đường phố bên ngoài",
-                  "reason_en": "because we cannot open the windows due to street dust outside.",
-                  "reason_vi": "khiến không khí tù đọng bị giữ lại bên trong và làm tình trạng ngột ngạt thêm tồi tệ.",
-                  "expansion_1_en": "The heavy glass panes are permanently sealed shut to comply with building fire code regulations.",
-                  "expansion_1_vi": "Các ô cửa kính lớn được cố định đóng chặt để tuân thủ quy chuẩn phòng cháy chữa cháy của tòa nhà.",
-                  "expansion_2_en": "Consequently, the gym remains completely devoid of natural ventilation while the chillers are down.",
-                  "expansion_2_vi": "Hệ quả là phòng tập hoàn toàn không có sự lưu thông khí tự nhiên một khi hệ thống làm mát bị hỏng."
-                },
-                {
-                  "action_en": "several members felt dizzy and had to cut their training sessions short due to heat exhaustion",
-                  "action_vi": "nhiều hội viên cảm thấy chóng mặt và phải bỏ dở buổi tập sớm do kiệt sức vì nóng",
-                  "reason_en": "because several members felt dizzy and had to leave early.",
-                  "reason_vi": "tiềm ẩn các rủi ro sức khỏe nghiêm trọng như mất nước và ngất xỉu do sốc nhiệt.",
-                  "expansion_1_en": "Two gym members recently had to be assisted onto benches after experiencing acute heat exhaustion.",
-                  "expansion_1_vi": "Hai hội viên gần đây đã phải nhờ người đỡ nằm ra ghế nghỉ sau khi bị kiệt sức vì sốc nhiệt.",
-                  "expansion_2_en": "Immediate cooling repairs are imperative before an exerciser suffers a severe medical emergency.",
-                  "expansion_2_vi": "Việc sửa chữa điều hòa ngay lập tức là cấp bách trước khi có hội viên gặp phải biến cố y tế nguy kịch."
-                },
-                {
-                  "action_en": "the drinking water dispenser frequently runs out of cold water during sweltering afternoons",
-                  "action_vi": "cây nước uống tự động thường xuyên cạn nước lạnh vào những buổi chiều oi ả",
-                  "reason_en": "because members need clean cold water after strenuous exercise.",
-                  "reason_vi": "khiến hội viên không thể bù nước kịp thời trong quá trình tập luyện nặng.",
-                  "expansion_1_en": "Members are forced to buy expensive bottled beverages from outside just to avoid dehydration.",
-                  "expansion_1_vi": "Hội viên buộc phải tự mua nước đóng chai đắt đỏ từ bên ngoài chỉ để tránh bị mất nước.",
-                  "expansion_2_en": "Providing cold, filtered drinking water is a fundamental amenity that should never be compromised.",
-                  "expansion_2_vi": "Cung cấp nước uống mát sạch là một tiện ích cơ bản nhất không bao giờ được phép thiếu thốn."
+                  "action_en": "The ventilation fans emitted a loud rattling noise throughout the day.",
+                  "action_vi": "Các quạt thông gió phát ra tiếng kêu rè rè đinh tai nhức óc suốt cả ngày.",
+                  "reason_en": "This constant noise caused significant disturbance, so members could not concentrate on their workouts.",
+                  "reason_vi": "Tiếng ồn liên tục này gây khó chịu đáng kể, vì vậy các hội viên không thể tập trung vào bài tập của mình.",
+                  "solution_en": "I strongly recommend that you service the ventilation fans to ensure a quiet and comfortable training environment.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị bảo dưỡng quạt thông gió để đảm bảo môi trường tập luyện yên tĩnh và thoải mái."
                 }
               ]
             },
             {
               "id": 4,
-              "title_en": "4. Demanded maintenance & corrective actions",
-              "title_vi": "Yêu cầu sửa chữa & bảo trì kịp thời",
-              "icon": "fa-screwdriver-wrench",
+              "title_en": "4. Dirty water dispensers & hygiene issues",
+              "title_vi": "Cây nước uống bẩn & vệ sinh phòng tập kém",
+              "icon": "fa-bottle-water",
               "options": [
                 {
-                  "action_en": "dispatch certified technicians to service and replace damaged treadmill components immediately",
-                  "action_vi": "cử kỹ thuật viên chuyên nghiệp đến sửa chữa và thay thế linh kiện máy chạy bộ ngay lập tức",
-                  "reason_en": "so that all cardio machines are restored to safe working order without further delay.",
-                  "reason_vi": "để tất cả máy cardio được khôi phục trạng thái hoạt động an toàn mà không bị trì hoãn thêm.",
-                  "expansion_1_en": "Qualified technicians must inspect mechanical belts and recalibrate digital speed sensors immediately.",
-                  "expansion_1_vi": "Các kỹ thuật viên có chuyên môn phải kiểm tra băng tải cơ học và hiệu chỉnh lại cảm biến tốc độ ngay lập tức.",
-                  "expansion_2_en": "Please furnish members with a transparent, binding schedule detailing when all treadmills will run.",
-                  "expansion_2_vi": "Xin vui lòng công bố cho hội viên một lịch trình cam kết minh bạch về thời gian các máy chạy sẽ hoạt động."
+                  "action_en": "The drinking water dispensers were dirty and out of cold water.",
+                  "action_vi": "Các cây nước uống bị bẩn và hết nước mát.",
+                  "reason_en": "Members were unable to rehydrate properly during their workouts, which was very inconvenient.",
+                  "reason_vi": "Hội viên không thể bổ sung nước đầy đủ khi tập luyện, điều này rất bất tiện.",
+                  "solution_en": "I would appreciate it if you could clean the water dispensers daily and provide sufficient drinking water.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể vệ sinh cây nước hàng ngày và cung cấp đủ nước uống."
                 },
                 {
-                  "action_en": "conduct an immediate safety audit to tighten loose bolts and replace frayed cables on weight machines",
-                  "action_vi": "tiến hành kiểm tra an toàn khẩn cấp để siết chặt ốc vít và thay dây cáp sờn trên các máy tập tạ",
-                  "reason_en": "because the personal safety of paying members must always remain your highest priority.",
-                  "reason_vi": "vì an toàn tính mạng của hội viên phải luôn là ưu tiên hàng đầu của trung tâm.",
-                  "expansion_1_en": "Damaged cables and loose bolts pose acute liability risks that your club cannot afford to ignore.",
-                  "expansion_1_vi": "Dây cáp hỏng và bu-lông lỏng lẻo tiềm ẩn rủi ro pháp lý lớn mà câu lạc bộ không thể xem nhẹ.",
-                  "expansion_2_en": "A comprehensive structural overhaul of the resistance zone is required to ensure member safety.",
-                  "expansion_2_vi": "Một đợt đại tu toàn diện khu vực tập tạ là điều bắt buộc để đảm bảo an toàn tuyệt đối cho người tập."
-                },
+                  "action_en": "Workout mats and benches were not sanitized after use.",
+                  "action_vi": "Thảm tập và ghế tập không được vệ sinh khử khuẩn sau khi sử dụng.",
+                  "reason_en": "Sweat stains remained on the leather surfaces, which made them look unhygienic and unpleasant.",
+                  "reason_vi": "Vết mồ hôi lưu lại trên bề mặt da, điều này khiến chúng trông mất vệ sinh và khó chịu.",
+                  "solution_en": "I strongly recommend that you provide disinfectant sprays and cleaning cloths for members to use.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị trang bị thêm chai xịt khử trùng và khăn lau để hội viên sử dụng."
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title_en": "5. Lack of maintenance notices & assistance",
+              "title_vi": "Thiếu thông báo bảo trì & nhân viên hỗ trợ",
+              "icon": "fa-triangle-exclamation",
+              "options": [
                 {
-                  "action_en": "repair and thoroughly service the central ventilation and cooling units before this weekend",
-                  "action_vi": "sửa chữa và bảo dưỡng toàn diện hệ thống thông gió và làm mát trước cuối tuần này",
-                  "reason_en": "because in order to maintain a hygienic, breathable, and healthy gym environment.",
-                  "reason_vi": "nhằm duy trì môi trường tập luyện hợp vệ sinh, thoáng khí và an toàn cho sức khỏe.",
-                  "expansion_1_en": "Industrial-grade air chillers must be serviced urgently to restore the room temperature to twenty-two degrees.",
-                  "expansion_1_vi": "Máy làm lạnh công nghiệp cần được bảo trì khẩn cấp để đưa nhiệt độ phòng về mức hai mươi hai độ dễ chịu.",
-                  "expansion_2_en": "Proper airflow circulation and odor filtering are non-negotiable standards for any indoor gym.",
-                  "expansion_2_vi": "Lưu thông khí đầy đủ và khử mùi hôi là những tiêu chuẩn không thể thỏa hiệp đối với bất kỳ phòng tập nào."
-                },
+                  "action_en": "There were no warning signs or maintenance schedules posted on the broken machines.",
+                  "action_vi": "Không hề có biển cảnh báo hay thông báo lịch sửa chữa trên các máy bị hỏng.",
+                  "reason_en": "Members did not know which equipment was safe to use, which caused widespread confusion.",
+                  "reason_vi": "Hội viên không biết thiết bị nào an toàn để dùng, điều này gây ra sự bối rối cho nhiều người.",
+                  "solution_en": "I would appreciate it if you could post clear status notices and repair timelines on all faulty equipment.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể dán thông báo tình trạng rõ ràng và tiến độ sửa chữa trên các thiết bị lỗi."
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title_en": "6. Feelings & Disappointment (Thân thư 2)",
+              "title_vi": "Cảm xúc thất vọng & Tác động (Dành cho Thân thư 2)",
+              "icon": "fa-face-frown",
+              "options": [
                 {
-                  "action_en": "implement a rigorous weekly preventive maintenance checklist for all workout machinery",
-                  "action_vi": "áp dụng quy trình kiểm tra bảo trì định kỳ hàng tuần cho toàn bộ hệ thống máy tập",
-                  "reason_en": "in order to prevent future equipment malfunctions and prolong machine longevity.",
-                  "reason_vi": "để ngăn ngừa các sự cố hỏng hóc kỹ thuật tái diễn và kéo dài tuổi thọ thiết bị.",
-                  "expansion_1_en": "Floor staff should be instructed to clear dumbbells and sanitize equipment benches every two hours.",
-                  "expansion_1_vi": "Nhân viên sàn cần được yêu cầu thu dọn tạ đơn và lau khử trùng các ghế tập sau mỗi hai tiếng.",
-                  "expansion_2_en": "A neat and disciplined training environment encourages members to respect the club's equipment.",
-                  "expansion_2_vi": "Một không gian tập luyện ngăn nắp và kỷ luật sẽ khuyến khích các hội viên có ý thức giữ gìn dụng cụ chung."
-                },
-                {
-                  "action_en": "provide a fee discount or extend our membership validity to compensate for this disruption",
-                  "action_vi": "giảm trừ phí hoặc gia hạn thêm thời gian gói tập để bù đắp cho những bất tiện này",
-                  "reason_en": "because members have not received the quality of services for which they paid in advance.",
-                  "reason_vi": "vì hội viên đã không nhận được chất lượng dịch vụ tương xứng với số tiền đã thanh toán trước.",
-                  "expansion_1_en": "We should not be expected to pay the full monthly fee while core amenities remain inaccessible.",
-                  "expansion_1_vi": "Chúng tôi không thể bị yêu cầu đóng đủ phí tháng trong khi các tiện nghi cốt lõi không thể sử dụng.",
-                  "expansion_2_en": "Offering a membership extension or credit rebate would demonstrate goodwill and retain your customer base.",
-                  "expansion_2_vi": "Tặng thêm hạn thành viên hoặc hoàn lại tín dụng sẽ thể hiện thiện chí và giúp giữ chân khách hàng."
-                },
-                {
-                  "action_en": "assign gym floor staff to regularly sanitize equipment and organize dumbbells neatly",
-                  "action_vi": "bố trí nhân viên thường xuyên khử khuẩn máy móc và sắp xếp tạ ngăn nắp vào giá",
-                  "reason_en": "because a neat and clean gym will make members feel much more comfortable.",
-                  "reason_vi": "thể hiện sự chuyên nghiệp và tôn trọng đối với sự hài lòng của khách hàng.",
-                  "expansion_1_en": "Unless significant maintenance progress is demonstrated within seven days, I will terminate my contract.",
-                  "expansion_1_vi": "Nếu không có tiến triển bảo trì rõ rệt trong vòng bảy ngày tới, tôi sẽ đơn phương chấm dứt hợp đồng.",
-                  "expansion_2_en": "I also reserve the right to file an official complaint with consumer protection authorities.",
-                  "expansion_2_vi": "Tôi cũng bảo lưu quyền khiếu nại chính thức lên các cơ quan bảo vệ quyền lợi người tiêu dùng."
+                  "action_en": "I was particularly disappointed with this experience because I expected a much better standard of service.",
+                  "action_vi": "Tôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng dịch vụ tốt hơn nhiều.",
+                  "reason_en": "As an annual fee-paying member, this persistent breakdown severely disrupted my daily fitness routine.",
+                  "reason_vi": "Với tư cách là hội viên đóng phí cả năm, sự cố hỏng hóc kéo dài này đã làm gián đoạn nghiêm trọng thói quen tập luyện hàng ngày của tôi.",
+                  "solution_en": "I believe that these steps should be taken to ensure a safe, clean, and professional gym environment.",
+                  "solution_vi": "Tôi tin rằng các biện pháp này cần được thực hiện để đảm bảo một môi trường phòng tập an toàn, sạch sẽ và chuyên nghiệp."
                 }
               ]
             }
@@ -13089,136 +12945,48 @@ const LETTERS_DATA = [
             {
               "id": 1,
               "title_en": "1. Inferior food quality & cold dishes",
-              "title_vi": "Chất lượng món ăn kém & đồ ăn nguội",
-              "icon": "fa-bowl-food",
+              "title_vi": "Chất lượng món ăn kém & thức ăn bị nguội",
+              "icon": "fa-utensils",
               "options": [
                 {
-                  "action_en": "the signature ribeye steaks were tough, overcooked, and served completely lukewarm",
-                  "action_vi": "món bít tết sườn bò đặc trưng bị dai, nấu quá chín và dọn ra trong tình trạng nguội ngắt",
-                  "reason_en": "despite our explicit request for medium-rare steaks cooked to order.",
-                  "reason_vi": "mặc dù chúng tôi đã yêu cầu rất rõ ràng mức độ chín vừa khi gọi món.",
-                  "expansion_1_en": "We requested medium-rare doneness, but the meat was grey, dry, and nearly impossible to chew.",
-                  "expansion_1_vi": "Chúng tôi yêu cầu thịt chín vừa, nhưng miếng bò lại ngả màu xám, khô khốc và gần như không thể nhai nổi.",
-                  "expansion_2_en": "Paying premium prices for such sub-par culinary preparation is utterly disappointing.",
-                  "expansion_2_vi": "Bỏ ra số tiền lớn cho một món ăn được chế biến cẩu thả như vậy là điều vô cùng thất vọng."
+                  "action_en": "The steak and seafood dishes were served lukewarm and undercooked.",
+                  "action_vi": "Các món bít tết và hải sản được mang ra khi đã nguội và chưa chín kỹ.",
+                  "reason_en": "The meat was tough and lacked seasoning, which ruined the dining experience for my family.",
+                  "reason_vi": "Thịt bị dai và thiếu gia vị, điều này đã làm hỏng trải nghiệm bữa ăn của gia đình tôi.",
+                  "solution_en": "I would appreciate it if you could retrain your kitchen staff and ensure that all dishes are served hot.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị đào tạo lại nhân viên bếp và đảm bảo mọi món ăn được phục vụ nóng sốt."
                 },
                 {
-                  "action_en": "the seafood chowder smelled distinctly stale and had a watery, bland texture",
-                  "action_vi": "món súp hải sản có mùi không còn tươi và vị thì lõng bõng, nhạt nhẽo",
-                  "reason_en": "because the seafood did not taste fresh and was very watery.",
-                  "reason_vi": "cho thấy nguyên liệu hải sản kém chất lượng hoặc không được bảo quản đúng cách.",
-                  "expansion_1_en": "The soup had separated into oily water, which showed that it had been sitting reheated for hours.",
-                  "expansion_1_vi": "Món súp đã bị tách nước và nổi váng dầu, chứng tỏ đã bị hâm đi hâm lại suốt nhiều giờ.",
-                  "expansion_2_en": "One of our dining guests felt so nauseated after a single spoonful that she could not continue eating.",
-                  "expansion_2_vi": "Một người bạn trong bàn của tôi cảm thấy buồn nôn sau khi nếm một muỗng đến mức không thể ăn tiếp."
-                },
-                {
-                  "action_en": "the pasta course was overly greasy and heavily oversalted",
-                  "action_vi": "món mì Ý ngập trong dầu mỡ và bị nêm quá nhiều muối mặn chát",
-                  "reason_en": "because the food was too salty and oily for my family to eat.",
-                  "reason_vi": "khiến người nhà tôi hầu như không thể ăn nổi và phải để lại nguyên đĩa.",
-                  "expansion_1_en": "The pasta was swimming in a pool of heavy cooking oil with an overwhelming amount of raw garlic.",
-                  "expansion_1_vi": "Đĩa mì Ý ngập ngụa trong dầu ăn và có mùi tỏi sống nồng nặc át hết mọi hương vị.",
-                  "expansion_2_en": "No one at our table was able to finish more than a third of the dish.",
-                  "expansion_2_vi": "Không một ai ở bàn chúng tôi có thể ăn hết được quá một phần ba đĩa thức ăn đó."
-                },
-                {
-                  "action_en": "the vegetable salad sides were visibly wilted, browning, and lacked dressing",
-                  "action_vi": "phần rau củ ăn kèm bị héo úa, thâm xỉn và thiếu hẳn nước sốt",
-                  "reason_en": "because the vegetables looked old, dark, and unwashed.",
-                  "reason_vi": "làm dấy lên những lo ngại nghiêm trọng về khâu bảo quản vệ sinh trong bếp của quý vị.",
-                  "expansion_1_en": "The lettuce edges were slimy and brown, which showed that the greens were far from fresh.",
-                  "expansion_1_vi": "Mép các lá xà lách đã bị nhũn nâu, chứng tỏ nguyên liệu rau củ không hề tươi mới.",
-                  "expansion_2_en": "A reputable restaurant should never compromise on the freshness of its basic raw salad ingredients.",
-                  "expansion_2_vi": "Một nhà hàng danh tiếng không bao giờ được phép buông lỏng độ tươi ngon của nguyên liệu rau xà lách."
-                },
-                {
-                  "action_en": "the complimentary bread rolls served at the table were dry, rock-hard, and stale",
-                  "action_vi": "bánh mì ăn kèm dọn đầu giờ thì khô khốc, cứng như đá và mất đi độ giòn thơm",
-                  "reason_en": "because the bread was dry and rock-hard instead of warm and soft.",
-                  "reason_vi": "cho thấy sự thiếu chăm chút đáng thất vọng đối với tiêu chuẩn phục vụ cơ bản.",
-                  "expansion_1_en": "The bread crust was so tough that we could barely tear it apart with our hands.",
-                  "expansion_1_vi": "Vỏ bánh mì cứng đến mức chúng tôi gần như không thể dùng tay xé rời ra được.",
-                  "expansion_2_en": "Serving stale, day-old bakery items to guests at the start of dinner created an awful first impression.",
-                  "expansion_2_vi": "Phục vụ bánh mì cũ từ ngày hôm trước ngay đầu bữa ăn đã tạo nên một ấn tượng ban đầu vô cùng tồi tệ."
-                },
-                {
-                  "action_en": "the chocolate lava dessert cake was still icy cold and frozen in the center",
-                  "action_vi": "bánh tráng miệng sô cô la nham thạch vẫn còn lạnh ngắt và đóng băng ở phần nhân",
-                  "reason_en": "because the cake was still frozen solid in the middle.",
-                  "reason_vi": "chứng minh rằng nhà bếp đã rã đông ẩu thả bằng lò vi sóng từ đồ ngọt làm sẵn.",
-                  "expansion_1_en": "Instead of having a warm molten chocolate filling, the cake core was a solid block of frost.",
-                  "expansion_1_vi": "Thay vì có nhân sô-cô-la tan chảy ấm nóng, phần lõi chiếc bánh lại là một khối đá đông cứng ngắc.",
-                  "expansion_2_en": "It was obvious that kitchen staff merely defrosted the dessert hastily in a microwave before serving.",
-                  "expansion_2_vi": "Rõ ràng là nhân viên bếp chỉ rã đông món tráng miệng một cách vội vã bằng lò vi sóng trước khi dọn ra."
+                  "action_en": "The soup was excessively salty and the bread was stale.",
+                  "action_vi": "Món súp bị quá mặn và bánh mì thì bị cũ dai.",
+                  "reason_en": "We were unable to finish our appetizers, which was very disappointing for a reputable restaurant.",
+                  "reason_vi": "Chúng tôi không thể ăn hết các món khai vị, điều này rất đáng thất vọng đối với một nhà hàng có tiếng.",
+                  "solution_en": "I strongly recommend that the head chef monitor food quality more strictly before dishes leave the kitchen.",
+                  "solution_vi": "Tôi tha thiết đề xuất bếp trưởng giám sát chất lượng món ăn chặt chẽ hơn trước khi mang ra cho khách."
                 }
               ]
             },
             {
               "id": 2,
-              "title_en": "2. Unreasonable wait time for service",
-              "title_vi": "Thời gian chờ đợi món ăn quá lâu",
-              "icon": "fa-hourglass-half",
+              "title_en": "2. Excessive wait time for food & tables",
+              "title_vi": "Thời gian chờ đợi món ăn & xếp bàn quá lâu",
+              "icon": "fa-clock",
               "options": [
                 {
-                  "action_en": "we were made to wait for nearly an hour before our appetizer salads were brought out",
-                  "action_vi": "chúng tôi phải ngồi chờ gần một tiếng đồng hồ mới có món khai vị dọn lên bàn",
-                  "reason_en": "because my elderly parents had to wait too long and felt very hungry.",
-                  "reason_vi": "khiến các bậc phụ huynh lớn tuổi bị đói lả, mệt mỏi và vô cùng sốt ruột.",
-                  "expansion_1_en": "We had to sit at an empty table without even complimentary bread or water for over forty minutes.",
-                  "expansion_1_vi": "Chúng tôi phải ngồi bên chiếc bàn trống trơn mà không có nổi bánh mì hay nước lọc suốt hơn bốn mươi phút.",
-                  "expansion_2_en": "This unacceptable delay caused our evening schedule to run uncomfortably late.",
-                  "expansion_2_vi": "Sự chậm trễ không thể chấp nhận này đã khiến toàn bộ lịch trình buổi tối của chúng tôi bị xáo trộn muộn màng."
+                  "action_en": "We had to wait for nearly an hour before the main courses were served.",
+                  "action_vi": "Chúng tôi đã phải chờ gần một tiếng đồng hồ trước khi các món chính được mang lên.",
+                  "reason_en": "My elderly parents became very hungry and tired, which caused our evening celebration to run uncomfortably late.",
+                  "reason_vi": "Bố mẹ lớn tuổi của tôi cảm thấy rất đói và mệt, điều này khiến buổi tiệc tối của chúng tôi kéo dài quá muộn.",
+                  "solution_en": "I would appreciate it if you could improve your kitchen workflow to reduce waiting times during peak hours.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể cải thiện quy trình bếp để giảm thời gian chờ đợi vào giờ cao điểm."
                 },
                 {
-                  "action_en": "there was an inexplicable forty-minute gap between our starters and the main courses",
-                  "action_vi": "có một khoảng thời gian chờ kéo dài 40 phút khó hiểu giữa món khai vị và món chính",
-                  "reason_en": "because completely spoiling the natural rhythm and enjoyment of our celebratory family gathering.",
-                  "reason_vi": "làm gián đoạn hoàn toàn nhịp độ vui vẻ và sự ấm cúng của buổi tiệc mừng gia đình.",
-                  "expansion_1_en": "By the time the hot entrees arrived, our appetite had completely vanished from waiting.",
-                  "expansion_1_vi": "Đến lúc các món chính nóng sốt được bưng lên thì cơn thèm ăn của chúng tôi đã hoàn toàn biến mất vì chờ đợi.",
-                  "expansion_2_en": "Such an erratic serving pace completely disrupted the rhythm of our celebratory anniversary meal.",
-                  "expansion_2_vi": "Nhịp độ phục vụ thất thường như vậy đã phá hỏng hoàn toàn không khí bữa tiệc kỷ niệm của chúng tôi."
-                },
-                {
-                  "action_en": "tables seated long after our arrival received their entrees well before our dishes were served",
-                  "action_vi": "các bàn đến sau chúng tôi khá lâu lại được phục vụ món ăn trước bàn chúng tôi",
-                  "reason_en": "because guests who arrived after us received their food first.",
-                  "reason_vi": "thể hiện sự lộn xộn và thiếu chuyên nghiệp trong quy trình quản lý đơn gọi món ở bếp.",
-                  "expansion_1_en": "Watching adjacent walk-in tables receive steaming platters while we were ignored was deeply humiliating.",
-                  "expansion_1_vi": "Nhìn những bàn khách đến sau được phục vụ món ăn nóng hổi trong khi bàn mình bị ngó lơ thực sự rất bực mình.",
-                  "expansion_2_en": "The floor supervisors made zero effort to prioritize tickets in their actual order of arrival.",
-                  "expansion_2_vi": "Các giám sát viên sàn không hề có nỗ lực nào để sắp xếp thứ tự đơn gọi món theo đúng thời gian vào bàn."
-                },
-                {
-                  "action_en": "refreshment drinks were delivered only after we followed up three separate times with different staff",
-                  "action_vi": "đồ uống chỉ được mang ra sau khi chúng tôi phải nhắc nhở ba lần với nhiều nhân viên khác nhau",
-                  "reason_en": "because we had to ask three times just to get our drinks.",
-                  "reason_vi": "đây là sự chậm trễ khó chấp nhận đối với đồ uống đơn giản ở một nhà hàng cao cấp.",
-                  "expansion_1_en": "Our beverage order sat abandoned on the bar counter while our dishes grew increasingly dry.",
-                  "expansion_1_vi": "Đơn nước của chúng tôi bị bỏ quên trên quầy bar trong khi đồ ăn trên bàn ngày càng khô nguội.",
-                  "expansion_2_en": "Basic beverage service should be executed smoothly within five minutes of seated ordering.",
-                  "expansion_2_vi": "Dịch vụ đồ uống cơ bản đáng lẽ phải được phục vụ trôi chảy trong vòng năm phút sau khi gọi món."
-                },
-                {
-                  "action_en": "the kitchen was clearly disorganized despite our table being booked three days in advance",
-                  "action_vi": "nhà bếp rõ ràng bị lúng túng dù bàn tiệc của chúng tôi đã được đặt trước ba ngày",
-                  "reason_en": "because we had already reserved the table three days in advance.",
-                  "reason_vi": "thể hiện khâu chuẩn bị sơ sài và thiếu hụt nhân sự bếp cho ca phục vụ cuối tuần.",
-                  "expansion_1_en": "Advance reservations are meant to help kitchens prepare staffing and ingredient prep adequately.",
-                  "expansion_1_vi": "Việc đặt bàn trước là để giúp bếp có thể chuẩn bị nhân sự và sơ chế nguyên liệu một cách chu đáo.",
-                  "expansion_2_en": "Failing to manage orders despite prior notice shows severe operational incompetence.",
-                  "expansion_2_vi": "Không quản lý được các đơn hàng dù đã có thông báo trước cho thấy sự kém cỏi nghiêm trọng trong khâu vận hành."
-                },
-                {
-                  "action_en": "our entire dinner dragged on for over two and a half agonizing hours",
-                  "action_vi": "toàn bộ bữa tối kéo dài lê thê hơn hai tiếng rưỡi đồng hồ mệt mỏi",
-                  "reason_en": "because we had to spend nearly three hours waiting for our food.",
-                  "reason_vi": "biến một buổi lễ kỷ niệm đáng lẽ vui tươi thành một trải nghiệm bực bội, khó chịu.",
-                  "expansion_1_en": "What should have been an enjoyable one-hour anniversary celebration turned into an agonizing wait.",
-                  "expansion_1_vi": "Một bữa tiệc kỷ niệm một tiếng vui vẻ đáng lẽ phải có đã biến thành một sự chờ đợi mệt mỏi kéo dài.",
-                  "expansion_2_en": "Our evening was entirely ruined by the restaurant's utter lack of urgency and kitchen coordination.",
-                  "expansion_2_vi": "Buổi tối của chúng tôi đã bị phá hỏng hoàn toàn bởi sự thiếu khẩn trương và phối hợp rời rạc của bộ phận bếp."
+                  "action_en": "Our table was not ready upon arrival despite having a confirmed reservation.",
+                  "action_vi": "Bàn của chúng tôi chưa được chuẩn bị sẵn khi đến dù đã được xác nhận đặt chỗ trước.",
+                  "reason_en": "We had to stand in the crowded reception area for forty minutes, which made us feel very uncomfortable.",
+                  "reason_vi": "Chúng tôi phải đứng ở khu vực lễ tân đông đúc suốt bốn mươi phút, điều này khiến chúng tôi cảm thấy rất khó chịu.",
+                  "solution_en": "I strongly recommend that you manage table reservations more effectively to avoid delays for guests.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị quản lý việc đặt bàn hiệu quả hơn để tránh gây chậm trễ cho thực khách."
                 }
               ]
             },
@@ -13226,135 +12994,63 @@ const LETTERS_DATA = [
               "id": 3,
               "title_en": "3. Inattentive & dismissive server attitude",
               "title_vi": "Thái độ phục vụ thiếu niềm nở & thờ ơ",
-              "icon": "fa-user-xmark",
+              "icon": "fa-user-tie",
               "options": [
                 {
-                  "action_en": "our allocated server repeatedly overlooked our hand signals when we attempted to request water",
-                  "action_vi": "nhân viên phụ trách liên tục phớt lờ khi chúng tôi ra hiệu xin thêm nước lọc",
-                  "reason_en": "because the floor staff were clustered in corners chatting among themselves.",
-                  "reason_vi": "do nhân viên phục vụ chỉ mải mê tụ tập ở góc phòng nói chuyện riêng với nhau.",
-                  "expansion_1_en": "The designated waiter glanced in our direction multiple times but chose to look away purposefully.",
-                  "expansion_1_vi": "Nhân viên phụ trách đã liếc nhìn về phía chúng tôi nhiều lần nhưng lại cố tình ngoảnh mặt đi chỗ khác.",
-                  "expansion_2_en": "We had to stand up and walk directly to the service station just to obtain drinking glasses.",
-                  "expansion_2_vi": "Chúng tôi thậm chí phải đứng dậy bước thẳng tới quầy phục vụ chỉ để xin được mấy chiếc ly uống nước."
+                  "action_en": "Our allocated server was unhelpful and inattentive throughout the dinner.",
+                  "action_vi": "Nhân viên phục vụ bàn của chúng tôi thờ ơ và thiếu nhiệt tình trong suốt bữa tối.",
+                  "reason_en": "The waiter ignored our hand gestures when we asked for water, which made us feel completely neglected.",
+                  "reason_vi": "Người phục vụ phớt lờ cử chỉ tay của chúng tôi khi gọi nước, điều này khiến chúng tôi cảm thấy hoàn toàn bị bỏ bê.",
+                  "solution_en": "I would appreciate it if you could conduct customer service training for your waiting staff.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể tổ chức đào tạo kỹ năng chăm sóc khách hàng cho nhân viên phục vụ bàn."
                 },
                 {
-                  "action_en": "when we politely brought the undercooked steak to the waiter's attention, he responded defensively",
-                  "action_vi": "khi chúng tôi lịch sự phản ánh về miếng bít tết chưa chín, nhân viên lại tỏ thái độ cãi lại",
-                  "reason_en": "because without uttering a single word of apology or offering to replace the dish.",
-                  "reason_vi": "mà không hề nói một lời xin lỗi hay có nhã ý đổi lại đĩa mới cho khách.",
-                  "expansion_1_en": "Instead of apologizing or offering a replacement, he scoffed and insisted the meat was perfectly fine.",
-                  "expansion_1_vi": "Thay vì xin lỗi hay đề nghị đổi đĩa khác, anh ta lại cười mỉa và khăng khăng rằng miếng thịt chẳng có vấn đề gì.",
-                  "expansion_2_en": "Treating constructive customer feedback with argumentative disrespect is entirely intolerable.",
-                  "expansion_2_vi": "Thái độ đôi co bất lịch sự với những góp ý chân thành của khách hàng là điều hoàn toàn không thể chấp nhận."
-                },
-                {
-                  "action_en": "empty appetizer plates and dirty glassware were left piled on the table throughout the dinner",
-                  "action_vi": "các đĩa ăn khai vị và ly cốc bẩn bị để chất đống trên bàn suốt cả bữa ăn",
-                  "reason_en": "because this helps clutter the dining surface because staff failed to clear them away promptly.",
-                  "reason_vi": "làm bừa bộn không gian bàn ăn vì nhân viên không chủ động dọn dẹp kịp thời.",
-                  "expansion_1_en": "Crusted sauce bowls and smeared butter knives crowded our small table throughout the entire meal.",
-                  "expansion_1_vi": "Những bát đựng sốt dơ bẩn và dao trét bơ bám cặn vây kín chiếc bàn nhỏ của chúng tôi suốt cả bữa ăn.",
-                  "expansion_2_en": "Waiters walked by our table empty-handed numerous times without bothering to clear a single plate.",
-                  "expansion_2_vi": "Các nhân viên phục vụ đi ngang qua bàn chúng tôi tay không nhiều lần mà chẳng buồn dọn lấy một chiếc đĩa."
-                },
-                {
-                  "action_en": "the waiter displayed visible irritation when we asked to speak with the floor manager",
-                  "action_vi": "người phục vụ thể hiện rõ sự khó chịu khi chúng tôi yêu cầu gặp quản lý ca trực",
-                  "reason_en": "because this helps exhibit an unprofessional attitude that is unacceptable in customer hospitality.",
-                  "reason_vi": "thể hiện thái độ thiếu chuyên nghiệp khó có thể chấp nhận trong ngành dịch vụ ẩm thực.",
-                  "expansion_1_en": "He rolled his eyes openly and turned his back before I could even finish articulating our complaint.",
-                  "expansion_1_vi": "Anh ta đảo mắt công khai rồi quay lưng bỏ đi trước khi tôi kịp trình bày xong lời khiếu nại của mình.",
-                  "expansion_2_en": "Such blatant rudeness demonstrates an alarming lack of basic hospitality training among your personnel.",
-                  "expansion_2_vi": "Sự thô lỗ trắng trợn đó chứng tỏ sự thiếu hụt nghiêm trọng trong khâu đào tạo nghiệp vụ nhà hàng của nhân viên."
-                },
-                {
-                  "action_en": "staff failed to inform us of menu items containing nuts despite our inquiry regarding allergies",
-                  "action_vi": "nhân viên không giải thích các món chứa hạt dù chúng tôi đã hỏi trước về dị ứng thực phẩm",
-                  "reason_en": "because some dishes contained nuts even though we asked beforehand.",
-                  "reason_vi": "cho thấy sự thiếu hiểu biết nguy hiểm về dị ứng có thể đe dọa sức khỏe của thực khách.",
-                  "expansion_1_en": "A member of our party has a severe peanut allergy which we explicitly mentioned when booking.",
-                  "expansion_1_vi": "Một người trong nhóm chúng tôi bị dị ứng đậu phộng nặng, điều mà chúng tôi đã nói rất rõ khi đặt bàn.",
-                  "expansion_2_en": "Neglecting dietary warnings could have triggered an acute anaphylactic medical emergency.",
-                  "expansion_2_vi": "Việc phớt lờ các cảnh báo dị ứng thực phẩm có thể đã kích hoạt một ca sốc phản vệ nguy hiểm tính mạng."
-                },
-                {
-                  "action_en": "our final bill contained two cocktails that were never ordered or delivered to our table",
-                  "action_vi": "hóa đơn thanh toán tính thêm hai ly cocktail mà bàn chúng tôi chưa từng gọi hay được phục vụ",
-                  "reason_en": "because the bill included drinks that we never ordered.",
-                  "reason_vi": "buộc chúng tôi phải mất thêm thời gian đối chất về sai sót hóa đơn trước khi rời đi.",
-                  "expansion_1_en": "When we brought this discrepancy to the cashier's notice, she acted as though we were attempting to cheat.",
-                  "expansion_1_vi": "Khi chúng tôi chỉ ra sự nhầm lẫn này, nhân viên thu ngân lại tỏ thái độ như thể chúng tôi đang muốn ăn quỵt tiền.",
-                  "expansion_2_en": "Demanding payment for unserved alcoholic drinks is borderline dishonest business conduct.",
-                  "expansion_2_vi": "Việc yêu cầu thanh toán cho những ly cocktail không hề được phục vụ là hành vi kinh doanh thiếu trung thực."
+                  "action_en": "The server showed visible annoyance when we politely complained about the cold food.",
+                  "action_vi": "Nhân viên tỏ thái độ bực bội ra mặt khi chúng tôi lịch sự phàn nàn về thức ăn bị nguội.",
+                  "reason_en": "No apology was offered and our concerns were dismissed, which was unacceptable for a professional establishment.",
+                  "reason_vi": "Không hề có lời xin lỗi nào được đưa ra và phản hồi của chúng tôi bị gạt đi, điều này không thể chấp nhận được ở một nhà hàng chuyên nghiệp.",
+                  "solution_en": "I strongly recommend that management remind all staff to handle customer feedback with politeness and respect.",
+                  "solution_vi": "Tôi tha thiết đề xuất ban quản lý nhắc nhở toàn bộ nhân viên phải tiếp nhận ý kiến khách hàng bằng sự lịch sự và tôn trọng."
                 }
               ]
             },
             {
               "id": 4,
-              "title_en": "4. Demanded compensation & corrective actions",
-              "title_vi": "Yêu cầu bồi thường & chấn chỉnh dịch vụ",
-              "icon": "fa-hand-holding-dollar",
+              "title_en": "4. Incorrect billing & unfair service fee",
+              "title_vi": "Tính nhầm hóa đơn & thu phí dịch vụ không thỏa đáng",
+              "icon": "fa-receipt",
               "options": [
                 {
-                  "action_en": "issue an immediate refund for the ruined main courses and the 10% service surcharge",
-                  "action_vi": "hoàn tiền ngay lập tức cho các món chính bị hỏng cùng 10% phí dịch vụ trên hóa đơn",
-                  "reason_en": "because we did not receive the culinary quality or standard of hospitality billed to us.",
-                  "reason_vi": "vì chúng tôi không nhận được chất lượng món ăn hay tiêu chuẩn dịch vụ tương xứng số tiền đã trả.",
-                  "expansion_1_en": "The culinary items delivered fell drastically short of edible quality, let alone premium dining.",
-                  "expansion_1_vi": "Các món ăn được mang ra kém xa mức chất lượng ăn được, chứ đừng nói là ẩm thực cao cấp.",
-                  "expansion_2_en": "Charging a mandatory service fee for such discourteous treatment is completely unjustified.",
-                  "expansion_2_vi": "Thu phí dịch vụ bắt buộc cho sự phục vụ khiếm nhã như vậy là điều hoàn toàn vô lý."
+                  "action_en": "The final bill included two beverage items that we did not order.",
+                  "action_vi": "Hóa đơn thanh toán cuối cùng bao gồm hai món đồ uống mà chúng tôi không hề gọi.",
+                  "reason_en": "We had to spend extra time explaining the mistake at the cashier, which was quite frustrating.",
+                  "reason_vi": "Chúng tôi phải mất thêm thời gian giải thích lỗi sai tại quầy thu ngân, điều này khá bực bội.",
+                  "solution_en": "I would appreciate it if you could refund the overcharged amount and check bills more carefully.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể hoàn trả số tiền tính thừa và kiểm tra hóa đơn cẩn thận hơn."
                 },
                 {
-                  "action_en": "require the general manager to provide a formal written explanation and apology",
-                  "action_vi": "yêu cầu tổng quản lý đưa ra văn bản giải thích và lời xin lỗi chính thức",
-                  "reason_en": "in order to demonstrate that our customer feedback is treated with genuine seriousness.",
-                  "reason_vi": "nhằm thể hiện rằng những phản hồi của khách hàng được lắng nghe và tôn trọng thực sự.",
-                  "expansion_1_en": "A formal response detailing corrective measures will demonstrate that you take consumer rights seriously.",
-                  "expansion_1_vi": "Một văn bản phản hồi chính thức nêu rõ các biện pháp khắc phục sẽ chứng minh quý nhà hàng coi trọng khách hàng.",
-                  "expansion_2_en": "I expect this written acknowledgment to be delivered to my email within three business days.",
-                  "expansion_2_vi": "Tôi mong đợi văn bản xác nhận này sẽ được gửi tới email của tôi trong vòng ba ngày làm việc."
-                },
+                  "action_en": "A full service fee was charged despite the extremely poor service we received.",
+                  "action_vi": "Phí dịch vụ đầy đủ vẫn bị tính dù chất lượng phục vụ mà chúng tôi nhận được rất tệ.",
+                  "reason_en": "We felt that this mandatory charge was unfair, so we left the restaurant feeling deeply disappointed.",
+                  "reason_vi": "Chúng tôi cảm thấy khoản phí bắt buộc này là không công bằng, vì vậy chúng tôi rời nhà hàng với tâm trạng vô cùng thất vọng.",
+                  "solution_en": "I strongly recommend that you offer a partial refund or discount voucher as a gesture of goodwill.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị hoàn lại một phần tiền hoặc tặng phiếu giảm giá như một hành động thiện chí."
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title_en": "5. Feelings & Disappointment (Thân thư 2)",
+              "title_vi": "Cảm xúc thất vọng & Bữa tiệc bị phá hỏng (Thân thư 2)",
+              "icon": "fa-face-frown",
+              "options": [
                 {
-                  "action_en": "retrain all waitstaff on customer communication etiquette, table clearing, and conflict handling",
-                  "action_vi": "huấn luyện lại toàn bộ nhân viên về kỹ năng giao tiếp, dọn bàn và xử lý phàn nàn của khách",
-                  "reason_en": "in order to prevent other diners from enduring similarly disrespectful treatment.",
-                  "reason_vi": "để ngăn các thực khách khác không phải chịu đựng cách phục vụ thiếu tôn trọng tương tự.",
-                  "expansion_1_en": "Staff must understand that attentive courtesy and prompt problem resolution are non-negotiable.",
-                  "expansion_1_vi": "Nhân viên cần hiểu rằng sự chu đáo, lịch thiệp và giải quyết vấn đề nhanh nhẹn là những tiêu chuẩn bắt buộc.",
-                  "expansion_2_en": "Continuous supervision on the dining floor is vital to prevent similar incidents from reoccurring.",
-                  "expansion_2_vi": "Việc giám sát liên tục tại sảnh tiệc là tối quan trọng để ngăn chặn những sự cố tương tự tái diễn."
-                },
-                {
-                  "action_en": "overhaul the kitchen order management protocol to prevent excessive dispatch delays",
-                  "action_vi": "rà soát và cơ cấu lại quy trình nhận đơn trong bếp để ngăn chặn sự chậm trễ kéo dài",
-                  "reason_en": "because the kitchen should serve courses on time without long pauses.",
-                  "reason_vi": "đảm bảo rằng các món ăn nóng được phục vụ ra bàn một cách nhịp nhàng và đúng thời điểm.",
-                  "expansion_1_en": "Installing an automated digital kitchen display system would help chefs track table tickets in real time.",
-                  "expansion_1_vi": "Lắp đặt hệ thống hiển thị đơn hàng điện tử sẽ giúp các đầu bếp theo dõi các đơn đặt theo thời gian thực.",
-                  "expansion_2_en": "Coordinated kitchen dispatch is essential to guarantee that appetizers and entrees flow smoothly.",
-                  "expansion_2_vi": "Điều phối bếp nhịp nhàng là điều cốt lõi để đảm bảo món khai vị và món chính được phục vụ trơn tru."
-                },
-                {
-                  "action_en": "offer a complimentary meal voucher for a future dining visit to restore customer trust",
-                  "action_vi": "tặng một voucher bữa ăn miễn phí cho lần ghé thăm sau để khôi phục niềm tin của khách hàng",
-                  "reason_en": "because this helps show goodwill and an earnest desire to make amends for this disappointing evening.",
-                  "reason_vi": "thể hiện sự cầu thị và mong muốn bù đắp cho buổi tối đầy thất vọng này.",
-                  "expansion_1_en": "Such a gesture would give your establishment an opportunity to demonstrate your true culinary standard.",
-                  "expansion_1_vi": "Một cử chỉ như vậy sẽ tạo cơ hội cho nhà hàng chứng minh đẳng cấp ẩm thực thực thụ của mình.",
-                  "expansion_2_en": "Without tangible amends, our family will permanently cease dining at your restaurant group.",
-                  "expansion_2_vi": "Nếu không có sự đền bù thỏa đáng, gia đình chúng tôi sẽ vĩnh viễn ngừng dùng bữa tại chuỗi nhà hàng của quý vị."
-                },
-                {
-                  "action_en": "enforce strict daily ingredients inspections to guarantee all meat and seafood are fresh",
-                  "action_vi": "siết chặt khâu kiểm tra nguyên liệu mỗi ngày để đảm bảo thịt và hải sản luôn tươi mới",
-                  "reason_en": "because food quality and guest safety must remain the bedrock of any reputable bistro.",
-                  "reason_vi": "vì chất lượng thực phẩm và an toàn của khách phải luôn là nền tảng của nhà hàng uy tín.",
-                  "expansion_1_en": "Food safety authorities mandate that all perishable seafood and dairy must be discarded if compromised.",
-                  "expansion_1_vi": "Cơ quan an toàn thực phẩm quy định hải sản và sữa tươi dễ hỏng phải bị tiêu hủy nếu không đảm bảo chất lượng.",
-                  "expansion_2_en": "Rigorous quality controls are required immediately to safeguard all patrons from food poisoning.",
-                  "expansion_2_vi": "Cần kiểm soát chất lượng nghiêm ngặt ngay lập tức để bảo vệ các thực khách khỏi nguy cơ ngộ độc thực phẩm."
+                  "action_en": "I was particularly disappointed with this experience because I expected a high level of dining and service.",
+                  "action_vi": "Tôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng chất lượng ẩm thực và phục vụ cao cấp.",
+                  "reason_en": "This disappointing dinner completely ruined our family celebration and left us feeling very upset.",
+                  "reason_vi": "Bữa tối đáng thất vọng này đã phá hỏng hoàn toàn buổi tiệc mừng của gia đình tôi và khiến chúng tôi vô cùng phiền lòng.",
+                  "solution_en": "I hope that you will address these issues promptly to prevent similar experiences for future guests.",
+                  "solution_vi": "Tôi hy vọng quý vị sẽ giải quyết những vấn đề này kịp thời để ngăn chặn trải nghiệm tương tự cho các thực khách sau."
                 }
               ]
             }
@@ -13392,205 +13088,121 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Problems with the room",
-              "title_vi": "Các sự cố trong phòng nghỉ",
-              "icon": "fa-bed",
+              "title_en": "1. Air conditioning malfunction & loud noise",
+              "title_vi": "Máy điều hòa bị hỏng & phát ra tiếng ồn lớn",
+              "icon": "fa-fan",
               "options": [
                 {
-                  "action_en": "the air conditioner emitted a loud buzzing noise and failed to cool the room",
-                  "action_vi": "máy điều hòa phát ra tiếng ồn lớn và không hề phả ra hơi mát",
-                  "reason_en": "because the room was very hot and I could not sleep at night.",
-                  "reason_vi": "khiến căn phòng nóng bức ngột ngạt và làm tôi không thể chợp mắt.",
-                  "expansion_1_en": "The continuous clattering vibration kept me tossing and turning throughout the entire night.",
-                  "expansion_1_vi": "Tiếng rung bần bật liên hồi khiến tôi trằn trọc mất ngủ suốt cả đêm dài.",
-                  "expansion_2_en": "Furthermore, the room remained stiflingly warm despite setting the digital thermostat to sixteen degrees.",
-                  "expansion_2_vi": "Hơn nữa, căn phòng vẫn nóng hầm hập dù tôi đã hạ nhiệt độ điều khiển xuống mười sáu độ."
+                  "action_en": "The air conditioner emitted a loud rattling noise and failed to cool the room.",
+                  "action_vi": "Máy điều hòa phát ra tiếng kêu rè rè lớn và không hề phả ra hơi mát.",
+                  "reason_en": "The room remained hot and stuffy, so my family could not sleep comfortably throughout the night.",
+                  "reason_vi": "Căn phòng vẫn nóng nực và ngột ngạt, vì vậy gia đình tôi không thể ngủ ngon suốt cả đêm.",
+                  "solution_en": "I would appreciate it if you could service the air conditioner and ensure that all room cooling units function properly.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể bảo dưỡng máy điều hòa và đảm bảo tất cả các máy làm mát trong phòng hoạt động tốt."
                 },
                 {
-                  "action_en": "the bedsheets and pillowcases had visible yellow stains and smelled musty",
-                  "action_vi": "ga trải giường và vỏ gối có vết ố vàng rõ rệt và bốc mùi ẩm mốc",
-                  "reason_en": "because the bed sheets looked old and had dirty marks on them.",
-                  "reason_vi": "chứng tỏ đồ vải chưa được giặt sạch hoặc chưa được thay mới cẩn thận.",
-                  "expansion_1_en": "The grey discoloration along the fabric seams suggested that the linen had not been laundered properly.",
-                  "expansion_1_vi": "Vết ố xám bẩn dọc theo các đường may cho thấy ga trải giường đã không được giặt giũ cẩn thận.",
-                  "expansion_2_en": "I had to lay my own travel jackets over the mattress just to feel safe resting on it.",
-                  "expansion_2_vi": "Tôi đã phải trải áo khoác du lịch của mình lên đệm chỉ để cảm thấy an tâm ngả lưng."
-                },
-                {
-                  "action_en": "the bathroom sink was severely clogged with slow drainage",
-                  "action_vi": "bồn rửa mặt trong nhà tắm bị nghẹt nặng và thoát nước rất chậm",
-                  "reason_en": "because the bathroom drain was clogged and dirty water flooded the floor.",
-                  "reason_vi": "khiến nước thải đục ngầu tràn ra khắp sàn nhà tắm.",
-                  "expansion_1_en": "Soapy wastewater took over twenty minutes to drain away, which left an unsightly dirty residue on the floor.",
-                  "expansion_1_vi": "Nước xà phòng bẩn mất hơn hai mươi phút mới rút hết, để lại một lớp cặn bẩn vô cùng mất thẩm mỹ.",
-                  "expansion_2_en": "This plumbing blockage made basic dental care and face washing deeply uncomfortable.",
-                  "expansion_2_vi": "Tình trạng nghẹt đường ống nước này khiến việc đánh răng và rửa mặt cơ bản trở nên rất khó chịu."
-                },
-                {
-                  "action_en": "the in-room wifi signal was extremely weak and kept disconnecting",
-                  "action_vi": "tín hiệu wifi trong phòng rất yếu và liên tục bị ngắt kết nối",
-                  "reason_en": "because the Wi-Fi was broken and I could not check my messages.",
-                  "reason_vi": "khiến tôi không thể tra cứu thông tin du lịch hay kiểm tra tin nhắn công việc.",
-                  "expansion_1_en": "The signal continually dropped out every two minutes, which made simple web browsing impossible.",
-                  "expansion_1_vi": "Tín hiệu mạng liên tục bị ngắt kết nối sau mỗi hai phút, khiến việc lướt web đơn giản cũng không thể thực hiện.",
-                  "expansion_2_en": "I was unable to load urgent travel itineraries or check corporate communications from my office.",
-                  "expansion_2_vi": "Tôi không thể tải lịch trình du lịch khẩn hay kiểm tra các trao đổi công việc từ văn phòng công ty."
-                },
-                {
-                  "action_en": "the window latch was loose and failed to lock securely",
-                  "action_vi": "chốt cửa sổ bị lỏng lẻo và không thể khóa chặt an toàn",
-                  "reason_en": "because street traffic noise came through the thin windows all night.",
-                  "reason_vi": "để lọt tiếng ồn xe cộ từ đường phố bên ngoài suốt cả đêm.",
-                  "expansion_1_en": "The loose metal latch rattled violently whenever heavy delivery trucks passed by in the street.",
-                  "expansion_1_vi": "Chốt kim loại lỏng lẻo kêu rung bần bật mỗi khi có xe tải chở hàng chạy qua dưới lòng đường.",
-                  "expansion_2_en": "Apart from the excessive noise, this compromised locking mechanism posed a serious security concern.",
-                  "expansion_2_vi": "Bên cạnh tiếng ồn quá mức, then cài hỏng này còn tiềm ẩn nguy cơ mất an toàn an ninh nghiêm trọng."
-                },
-                {
-                  "action_en": "there was no hot water from the shower tap during peak morning hours",
-                  "action_vi": "không có nước nóng từ vòi sen vào buổi sáng",
-                  "reason_en": "because the water heater was broken and I had to take a cold shower.",
-                  "reason_vi": "buộc tôi phải tắm nước lạnh buốt khó chịu trước khi ra ngoài.",
-                  "expansion_1_en": "The shower delivered only freezing cold water despite letting the mixer tap run for ten minutes.",
-                  "expansion_1_vi": "Vòi sen chỉ chảy ra nước lạnh buốt dù tôi đã để vòi trộn nước xả liên tục suốt mười phút.",
-                  "expansion_2_en": "Taking a shower in cold water after a long flight made me feel very uncomfortable and frustrated.",
-                  "expansion_2_vi": "Phải tắm nước đá lạnh sau một chuyến bay dài mệt mỏi là một trải nghiệm thực sự tồi tệ."
+                  "action_en": "The remote control of the air conditioner was broken and could not adjust the temperature.",
+                  "action_vi": "Điều khiển từ xa của máy điều hòa bị hỏng và không thể điều chỉnh được nhiệt độ.",
+                  "reason_en": "We had to sleep in a cold room with no way to turn off the fan, which made us feel exhausted.",
+                  "reason_vi": "Chúng tôi phải ngủ trong phòng lạnh mà không có cách nào tắt quạt, điều này khiến chúng tôi cảm thấy kiệt sức.",
+                  "solution_en": "I strongly recommend that you replace all faulty remote controls and inspect room equipment before guest arrivals.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị thay thế các điều khiển bị hỏng và kiểm tra trang thiết bị phòng trước khi khách nhận phòng."
                 }
               ]
             },
             {
               "id": 2,
-              "title_en": "2. How you felt about the experience",
-              "title_vi": "Cảm nhận về trải nghiệm",
-              "icon": "fa-face-frown-open",
+              "title_en": "2. Stained bedsheets & unhygienic bedding",
+              "title_vi": "Ga trải giường bị ố vàng & ẩm mốc",
+              "icon": "fa-bed",
               "options": [
                 {
-                  "action_en": "I felt utterly exhausted, stressed, and disappointed",
-                  "action_vi": "tôi cảm thấy kiệt sức, căng thẳng và hoàn toàn thất vọng",
-                  "reason_en": "because I had booked your hotel specifically for a restful holiday.",
-                  "reason_vi": "vì tôi đặt phòng khách sạn với mong muốn có một kỳ nghỉ thảnh thơi.",
-                  "expansion_1_en": "I specifically chose your four-star property hoping to enjoy a peaceful, rejuvenating break.",
-                  "expansion_1_vi": "Tôi đã chủ đích chọn khách sạn bốn sao của quý vị với hy vọng tận hưởng kỳ nghỉ yên bình, thư thái.",
-                  "expansion_2_en": "Instead, two consecutive sleepless nights left me feeling far more drained and irritable than before.",
-                  "expansion_2_vi": "Trái lại, hai đêm liền mất ngủ khiến tôi cảm thấy kiệt sức và bực bội hơn nhiều so với trước đây."
+                  "action_en": "The bedsheets and pillowcases had visible yellow stains and smelled musty.",
+                  "action_vi": "Ga trải giường và vỏ gối có vết ố vàng rõ rệt và bốc mùi ẩm mốc.",
+                  "reason_en": "It was clear that the linen had not been washed properly, which made us feel very uncomfortable.",
+                  "reason_vi": "Rõ ràng là đồ vải chưa được giặt giũ sạch sẽ, điều này khiến chúng tôi cảm thấy rất khó chịu.",
+                  "solution_en": "I would appreciate it if you could replace all stained bedsheets and enforce stricter laundry hygiene standards.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể thay mới toàn bộ ga trải giường ố bẩn và thắt chặt tiêu chuẩn vệ sinh giặt ủi."
                 },
                 {
-                  "action_en": "I felt misled because the actual room looked nothing like the glossy website photos",
-                  "action_vi": "tôi thấy mình bị lừa vì căn phòng thực tế khác xa ảnh quảng cáo trên trang web",
-                  "reason_en": "because the room looked completely different from the pictures online.",
-                  "reason_vi": "khiến tôi mất niềm tin vào tính trung thực của quảng cáo.",
-                  "expansion_1_en": "The online photographs showcased a luminous, contemporary suite with sparkling clean bathroom fixtures.",
-                  "expansion_1_vi": "Hình ảnh quảng cáo trên mạng thể hiện một căn phòng hiện đại, sáng sủa với thiết bị vệ sinh bóng loáng.",
-                  "expansion_2_en": "In reality, the assigned room was dim, claustrophobic, and suffered from obvious neglect.",
-                  "expansion_2_vi": "Trên thực tế, căn phòng được giao lại tối tăm, ngột ngạt và xuống cấp rõ rệt vì thiếu chăm chút."
-                },
-                {
-                  "action_en": "I felt ignored when front desk staff failed to offer a room change",
-                  "action_vi": "tôi cảm thấy bị ngó lơ khi nhân viên lễ tân không chịu đổi phòng",
-                  "reason_en": "despite my polite complaints on the first evening.",
-                  "reason_vi": "mặc dù tôi đã phản ánh lịch sự ngay từ buổi tối đầu tiên.",
-                  "expansion_1_en": "The night receptionist merely shrugged and claimed that no alternative rooms were vacant.",
-                  "expansion_1_vi": "Nhân viên lễ tân ca đêm chỉ nhún vai và thản nhiên bảo rằng không còn bất kỳ phòng trống nào để đổi.",
-                  "expansion_2_en": "Such passive indifference toward a distressed guest demonstrated a total lack of customer service standards.",
-                  "expansion_2_vi": "Sự thờ ơ vô cảm trước sự bất tiện của khách hàng thể hiện sự thiếu hụt hoàn toàn chuẩn mực phục vụ."
-                },
-                {
-                  "action_en": "it completely ruined the mood of my long-awaited family vacation",
-                  "action_vi": "sự việc đã phá hỏng hoàn toàn tâm trạng kỳ nghỉ gia đình mà tôi mong đợi",
-                  "reason_en": "because these problems ruined what should have been a great holiday.",
-                  "reason_vi": "biến những kỷ niệm đáng lẽ vui vẻ thành nỗi bực mình.",
-                  "expansion_1_en": "My family members had spent months coordinating schedules and saving money for this special trip.",
-                  "expansion_1_vi": "Các thành viên trong gia đình tôi đã mất nhiều tháng sắp xếp lịch trình và tiết kiệm cho chuyến đi này.",
-                  "expansion_2_en": "Enduring substandard accommodations severely dampened the cheerful vacation spirit we all anticipated.",
-                  "expansion_2_vi": "Phải chịu đựng căn phòng kém chất lượng đã dập tắt hoàn toàn không khí vui tươi mà cả nhà mong đợi."
-                },
-                {
-                  "action_en": "I felt that the high room rate was entirely unjustified by the substandard quality",
-                  "action_vi": "tôi thấy mức giá phòng đắt đỏ hoàn toàn không tương xứng với chất lượng tồi tệ",
-                  "reason_en": "because I felt that the service was not worth the price.",
-                  "reason_vi": "khiến tôi cảm thấy số tiền vất vả kiếm được bị lãng phí.",
-                  "expansion_1_en": "The nightly charge exceeded that of several well-reviewed boutique hotels in the surrounding district.",
-                  "expansion_1_vi": "Mức giá mỗi đêm ở đây cao hơn cả một số khách sạn boutique được đánh giá rất tốt ở khu vực lân cận.",
-                  "expansion_2_en": "Receiving hostel-grade facilities at premium luxury rates felt like complete consumer exploitation.",
-                  "expansion_2_vi": "Nhận về tiện nghi chỉ ngang nhà trọ giá rẻ với mức giá xa xỉ chẳng khác nào bị bóc lột trắng trợn."
-                },
-                {
-                  "action_en": "I was reluctant to recommend your establishment to colleagues or friends",
-                  "action_vi": "tôi sẽ không dám giới thiệu khách sạn này cho bạn bè hay đồng nghiệp",
-                  "reason_en": "due to this terrible customer service experience.",
-                  "reason_vi": "bởi trải nghiệm phục vụ khách hàng tồi tệ này.",
-                  "expansion_1_en": "I regularly travel to this city on corporate business and frequently advise colleagues on where to book.",
-                  "expansion_1_vi": "Tôi thường xuyên đến thành phố này công tác và hay tư vấn đồng nghiệp địa điểm đặt phòng lưu trú.",
-                  "expansion_2_en": "Given this deplorable experience, I will actively advise my company travel desk to blacklist your hotel.",
-                  "expansion_2_vi": "Với trải nghiệm tồi tệ này, tôi sẽ khuyến nghị bộ phận du lịch công ty đưa khách sạn vào danh sách đen."
+                  "action_en": "The mattress was old and sunken in the middle.",
+                  "action_vi": "Đệm giường đã quá cũ và bị lún sâu ở giữa.",
+                  "reason_en": "I suffered from severe back pain the next morning, which completely ruined my holiday mood.",
+                  "reason_vi": "Tôi bị đau lưng dữ dội vào sáng hôm sau, điều này đã phá hỏng hoàn toàn tâm trạng kỳ nghỉ của tôi.",
+                  "solution_en": "I strongly recommend that the management upgrade the mattresses to ensure a comfortable sleep for guests.",
+                  "solution_vi": "Tôi tha thiết đề xuất ban quản lý nâng cấp đệm giường để đảm bảo giấc ngủ thoải mái cho khách lưu trú."
                 }
               ]
             },
             {
               "id": 3,
-              "title_en": "3. Suggested improvements",
-              "title_vi": "Đề xuất cải tiến & Khắc phục",
-              "icon": "fa-screwdriver-wrench",
+              "title_en": "3. Plumbing issues & clogged bathroom drain",
+              "title_vi": "Sự cố ống nước & cống thoát nước bị nghẹt",
+              "icon": "fa-faucet-drip",
               "options": [
                 {
-                  "action_en": "conduct thorough maintenance checks on air conditioners and plumbing before check-in",
-                  "action_vi": "kiểm tra bảo dưỡng toàn diện điều hòa và hệ thống nước trước khi khách nhận phòng",
-                  "reason_en": "in order to prevent recurring breakdowns for upcoming guests.",
-                  "reason_vi": "để ngăn chặn các sự cố tương tự tái diễn với những vị khách tiếp theo.",
-                  "expansion_1_en": "A mandatory pre-arrival checklist would prevent guests from being assigned defective rooms.",
-                  "expansion_1_vi": "Bảng kiểm tra bắt buộc trước khi khách nhận phòng sẽ ngăn chặn việc giao những căn phòng bị lỗi.",
-                  "expansion_2_en": "Engineers should certify that air conditioning and hot water units are fully functional before key release.",
-                  "expansion_2_vi": "Kỹ sư cần xác nhận hệ thống điều hòa và nước nóng vận hành hoàn hảo trước khi giao chìa khóa."
+                  "action_en": "The bathroom sink and shower drain were severely clogged.",
+                  "action_vi": "Bồn rửa mặt và cống thoát nước phòng tắm bị nghẹt nặng.",
+                  "reason_en": "Dirty wastewater took a long time to drain away, which left an unpleasant residue on the floor.",
+                  "reason_vi": "Nước thải bẩn mất nhiều thời gian mới rút hết, điều này để lại lớp cặn bẩn khó chịu trên sàn.",
+                  "solution_en": "I would appreciate it if you could have the plumbing checked and cleared immediately.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể cho thợ kiểm tra và thông tắc đường ống nước ngay lập tức."
                 },
                 {
-                  "action_en": "strictly retrain housekeeping staff on hygiene and bedsheet sanitization",
-                  "action_vi": "đào tạo lại nghiêm ngặt nhân viên dọn phòng về quy trình vệ sinh ga gối",
-                  "reason_en": "because clean bed sheets help guests sleep comfortably.",
-                  "reason_vi": "đảm bảo mọi đồ vải luôn được giặt sạch sẽ và không tì vết.",
-                  "expansion_1_en": "Housekeeping supervisors must thoroughly inspect bedding and towels under bright inspection lamps.",
-                  "expansion_1_vi": "Giám sát buồng phòng phải kiểm tra kỹ ga giường và khăn tắm dưới đèn kiểm định công suất lớn.",
-                  "expansion_2_en": "Stained or worn linens must be retired immediately to uphold acceptable hospitality standards.",
-                  "expansion_2_vi": "Đồ vải bị ố bẩn hoặc sờn rách cần được loại bỏ ngay lập tức để giữ vững tiêu chuẩn khách sạn."
-                },
+                  "action_en": "The shower head had low water pressure and no hot water in the evening.",
+                  "action_vi": "Vòi hoa sen có áp lực nước yếu và không có nước nóng vào buổi tối.",
+                  "reason_en": "We were unable to take a warm shower after a long day of travel, which was very inconvenient.",
+                  "reason_vi": "Chúng tôi không thể tắm nước ấm sau một ngày dài di chuyển, điều này rất bất tiện.",
+                  "solution_en": "I strongly recommend that you repair the water heating system to ensure a reliable hot water supply.",
+                  "solution_vi": "Tôi tha thiết đề xuất quý vị sửa chữa hệ thống nước nóng để đảm bảo nguồn cung cấp nước ấm ổn định."
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "title_en": "4. Weak Wi-Fi connection",
+              "title_vi": "Tín hiệu Wi-Fi yếu & chập chờn",
+              "icon": "fa-wifi",
+              "options": [
                 {
-                  "action_en": "upgrade in-room wireless routers and internet bandwidth",
-                  "action_vi": "nâng cấp bộ phát wifi và đường truyền internet trong phòng",
-                  "reason_en": "in order to guarantee reliable, high-speed connection for modern travelers.",
-                  "reason_vi": "để đảm bảo kết nối mạng tốc độ cao ổn định cho du khách hiện đại.",
-                  "expansion_1_en": "Installing dedicated access points on every guest floor would resolve persistent signal dead zones.",
-                  "expansion_1_vi": "Lắp đặt các bộ phát sóng chuyên dụng tại mỗi tầng khách sẽ xóa bỏ những điểm chết sóng mạng kéo dài.",
-                  "expansion_2_en": "High-speed internet is no longer a luxury, but an indispensable utility for all modern guests.",
-                  "expansion_2_vi": "Mạng internet tốc độ cao giờ đây không còn là thứ xa xỉ, mà là tiện ích tối thiểu của mọi du khách hiện đại."
-                },
+                  "action_en": "The in-room Wi-Fi connection was extremely weak and kept disconnecting.",
+                  "action_vi": "Kết nối Wi-Fi trong phòng rất yếu và liên tục bị ngắt kết nối.",
+                  "reason_en": "I was unable to load travel itineraries or check important work emails, which caused great frustration.",
+                  "reason_vi": "Tôi không thể tải lịch trình du lịch hay kiểm tra email công việc quan trọng, điều này gây bực bội lớn.",
+                  "solution_en": "I would appreciate it if you could upgrade the wireless internet system on all guest floors.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể nâng cấp hệ thống internet không dây trên tất cả các tầng phòng nghỉ."
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title_en": "5. Front desk indifference & compensation request",
+              "title_vi": "Thái độ lễ tân thờ ơ & yêu cầu bồi hoàn",
+              "icon": "fa-bell-concierge",
+              "options": [
                 {
-                  "action_en": "empower front desk staff to resolve guest issues promptly and offer room changes",
-                  "action_vi": "trao quyền cho lễ tân giải quyết nhanh khiếu nại và đổi phòng linh hoạt",
-                  "reason_en": "so that customer dissatisfaction is handled immediately.",
-                  "reason_vi": "nhờ đó nỗi bức xúc của khách hàng được xử lý ngay tại chỗ.",
-                  "expansion_1_en": "Front desk staff must be trained to offer immediate upgrades or sincere apologies when faults occur.",
-                  "expansion_1_vi": "Nhân viên lễ tân cần được đào tạo để nâng hạng phòng ngay lập tức hoặc xin lỗi chân thành khi có sự cố.",
-                  "expansion_2_en": "Prompt conflict resolution can turn a negative experience into an opportunity to build customer loyalty.",
-                  "expansion_2_vi": "Xử lý khéo léo và nhanh chóng có thể biến một trải nghiệm tiêu cực thành cơ hội giữ chân khách hàng."
-                },
+                  "action_en": "The front desk staff showed complete indifference when we reported these room defects.",
+                  "action_vi": "Nhân viên lễ tân tỏ thái độ hoàn toàn thờ ơ khi chúng tôi báo cáo các sự cố trong phòng.",
+                  "reason_en": "No technician was sent to assist us, so we had to endure the uncomfortable room for two nights.",
+                  "reason_vi": "Không hề có nhân viên kỹ thuật nào được cử đến hỗ trợ, vì vậy chúng tôi phải chịu đựng căn phòng khó chịu suốt hai đêm.",
+                  "solution_en": "I would appreciate it if you could offer a partial refund for our stay and retrain your reception team.",
+                  "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể hoàn lại một phần tiền phòng cho kỳ nghỉ của chúng tôi và đào tạo lại đội ngũ lễ tân."
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title_en": "6. Feelings & Disappointment (Thân thư 2)",
+              "title_vi": "Cảm xúc thất vọng & Kỳ nghỉ bị ảnh hưởng (Thân thư 2)",
+              "icon": "fa-face-frown",
+              "options": [
                 {
-                  "action_en": "provide a partial refund or complimentary voucher for future stays",
-                  "action_vi": "hoàn lại một phần tiền phòng hoặc tặng phiếu giảm giá cho lần lưu trú sau",
-                  "reason_en": "because a fair gesture of goodwill to compensate for my ruined holiday.",
-                  "reason_vi": "như một thiện chí thỏa đáng để bù đắp cho kỳ nghỉ bị hỏng của tôi.",
-                  "expansion_1_en": "A partial refund would serve as a tangible demonstration of accountability for our ruined vacation.",
-                  "expansion_1_vi": "Việc hoàn lại một phần tiền phòng sẽ là minh chứng rõ ràng cho tinh thần trách nhiệm với kỳ nghỉ bị hỏng.",
-                  "expansion_2_en": "I look forward to hearing your proposed settlement proposal within the next forty-eight hours.",
-                  "expansion_2_vi": "Tôi mong đợi được lắng nghe phương án bồi thường thỏa đáng từ quý vị trong vòng bốn mươi tám giờ tới."
-                },
-                {
-                  "action_en": "establish regular room quality inspection by management",
-                  "action_vi": "thiết lập cơ chế kiểm tra chất lượng phòng định kỳ từ phía ban quản lý",
-                  "reason_en": "in order to uphold reputable hospitality standards.",
-                  "reason_vi": "để duy trì chuẩn mực uy tín của ngành khách sạn.",
-                  "expansion_1_en": "Senior managers should conduct unannounced weekly room audits to hold the cleaning contractor accountable.",
-                  "expansion_1_vi": "Ban quản lý cấp cao nên tiến hành các đợt kiểm tra phòng đột xuất hằng tuần để giám sát đội buồng phòng.",
-                  "expansion_2_en": "Maintaining consistent inspection protocols is the only foolproof way to rebuild your hotel's reputation.",
-                  "expansion_2_vi": "Duy trì quy trình kiểm tra nghiêm ngặt là con đường duy nhất để khôi phục lại uy tín của khách sạn."
+                  "action_en": "I was particularly disappointed with this experience because I expected a comfortable and pleasant vacation.",
+                  "action_vi": "Tôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng một kỳ nghỉ thoải mái và dễ chịu.",
+                  "reason_en": "Instead of relaxing, my family felt thoroughly exhausted and stressed throughout our stay.",
+                  "reason_vi": "Thay vì được thư giãn, gia đình tôi lại cảm thấy vô cùng mệt mỏi và căng thẳng trong suốt chuyến đi.",
+                  "solution_en": "I believe that these steps should be taken to restore the reputation of your hotel and ensure guest satisfaction.",
+                  "solution_vi": "Tôi tin rằng các biện pháp này cần được thực hiện để khôi phục uy tín của khách sạn và đảm bảo sự hài lòng của du khách."
                 }
               ]
             }
