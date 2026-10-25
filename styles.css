@@ -167,7 +167,34 @@ p,
 .criteria-card p,
 .strategy-step p,
 .sample-section-body,
-.writing-editor-box {
+.writing-editor-box,
+.outline-step-card p,
+.outline-formula-item,
+.formula-arrow-content,
+.formula-arrow-row {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}
+
+.formula-arrow-row {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.45rem !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}
+
+.formula-arrow-icon {
+  color: var(--accent-primary) !important;
+  font-weight: 800 !important;
+  flex-shrink: 0 !important;
+  margin-top: 0.05rem !important;
+  user-select: none;
+}
+
+.formula-arrow-content {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
   text-align: justify !important;
   text-justify: inter-word !important;
 }
