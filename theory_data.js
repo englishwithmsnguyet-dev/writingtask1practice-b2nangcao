@@ -482,8 +482,11 @@ const B2_DETAILED_OUTLINES = {
         <span class="hl-pill hl-cyan">Thân mật (Informal)</span>
       </div>
       <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border);">
-        <div style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
-          ↳ Dear <span class="hl-placeholder">[tên của người nhận]</span>,
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+            Dear <span class="hl-placeholder">[tên của người nhận]</span>,
+          </div>
         </div>
       </div>
     </div>
@@ -494,11 +497,16 @@ const B2_DETAILED_OUTLINES = {
         <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> BƯỚC 2: MỞ THƯ (OPENING)</span>
         <span class="hl-pill hl-violet">Hỏi thăm + Nêu mục đích khuyên</span>
       </div>
-      <p style="color: var(--text-secondary); margin-bottom: 0.6rem; font-size: 0.86rem;">Mẫu câu mở bài ăn điểm tuyệt đối chuẩn B2:</p>
+      <p style="color: var(--text-secondary); margin-bottom: 0.6rem; font-size: 0.86rem; text-align: justify !important; text-justify: inter-word !important;">Mẫu câu mở bài ăn điểm tuyệt đối chuẩn B2:</p>
       <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.14), rgba(168, 85, 247, 0.08)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
-        ↳ <strong><span class="hl-mark-opening">Thanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.</span></strong>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content">
+            <strong><span class="hl-mark-opening">Thanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.</span></strong>
+          </div>
+        </div>
       </div>
-      <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.5rem 0 0 0;">
+      <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
         <i class="fa-solid fa-language" style="color: var(--violet-light);"></i> <em>Dịch: Cảm ơn vì bức thư của cậu. Dạo này cậu thế nào? Sau khi suy nghĩ về tình huống của cậu, tớ có một vài gợi ý có thể giúp ích được.</em>
       </p>
     </div>
