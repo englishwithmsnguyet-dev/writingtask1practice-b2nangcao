@@ -224,46 +224,34 @@ function enterRoom() {
   }
 
   const normName = nameVal.toUpperCase();
-  let finalClassVal = classVal;
+  
+  // Nhận diện tài khoản Giáo viên (PTMN, Nguyệt Phạm, Cô Nguyệt, mã lớp GV, hoặc nhập pass PTMN/ADMIN)
+  const isTeacher = (
+    normName === 'PTMN' ||
+    normName.includes('NGUYỆT') ||
+    normName.includes('NGUYET') ||
+    normName.includes('GIÁO VIÊN') ||
+    normName.includes('GIAO VIEN') ||
+    normName.includes('TEACHER') ||
+    normName.includes('ADMIN') ||
+    classVal === 'GV' ||
+    classVal.includes('GIÁO') ||
+    classVal.includes('GIAO') ||
+    classVal.includes('TEACHER') ||
+    classVal.includes('ADMIN') ||
+    cleanAccessPassword(passwordVal) === 'PTMN' ||
+    cleanAccessPassword(passwordVal) === 'ADMIN'
+  );
 
-  // Kiểm tra tài khoản Giáo viên (Tên: PTMN, Mã: GV, không cần pass)
-  const isTeacher = (normName === 'PTMN' && (finalClassVal === 'GV' || !finalClassVal));
-  if (isTeacher) {
-    if (!finalClassVal) finalClassVal = 'GV';
-  } else {
-    if (finalClassVal === 'GV') {
-      if (loginError) {
-        loginError.textContent = 'Mã lớp GV chỉ dành riêng cho tài khoản Giáo viên (PTMN)!';
-        loginError.style.display = 'block';
-      }
-      if (studentInput) studentInput.focus();
-      return;
-    }
+  let finalClassVal = rawClassVal;
+  if (isTeacher && !finalClassVal) {
+    finalClassVal = 'GV';
+  } else if (!finalClassVal) {
+    finalClassVal = 'B2';
+  }
 
-    if (!finalClassVal) {
-      if (loginError) {
-        loginError.textContent = 'Vui lòng nhập Mã lớp học!';
-        loginError.style.display = 'block';
-      }
-      if (studentClassInput) studentClassInput.focus();
-      return;
-    }
-
-    // Kiểm tra lớp học hợp lệ (CB206, CB210, B2...)
-    const isSpecialStudent = normName.includes('GIA TUỆ') || normName.includes('GIA TUE');
-    const isAllowedClass = ALLOWED_CLASSES.includes(finalClassVal) || finalClassVal.startsWith('CB') || finalClassVal.startsWith('B2') || isSpecialStudent;
-    if (!isAllowedClass) {
-      if (loginError) {
-        loginError.textContent = 'Hệ thống hiện tại mở cho các lớp CB206, CB210 và B2! Vui lòng kiểm tra lại.';
-        loginError.style.display = 'block';
-      }
-      if (studentClassInput) {
-        studentClassInput.focus();
-        studentClassInput.select();
-      }
-      return;
-    }
-
+  // Nếu không phải Giáo viên thì kiểm tra mật khẩu truy cập (VSTEPWRITING)
+  if (!isTeacher) {
     if (!passwordVal) {
       if (loginError) {
         loginError.textContent = 'Vui lòng nhập Mật khẩu truy cập!';
@@ -273,10 +261,14 @@ function enterRoom() {
       return;
     }
 
-    // So sánh mật khẩu (chính thức: VSTEPWRITING)
-    if (!ACCESS_PASSWORDS.includes(passwordVal.toUpperCase())) {
+    const cleanedPwd = cleanAccessPassword(passwordVal);
+    const isPwdCorrect = ACCESS_PASSWORDS.includes(cleanedPwd) || 
+                         cleanedPwd.startsWith('VSTEP') || 
+                         cleanedPwd.endsWith('WRITING');
+
+    if (!isPwdCorrect) {
       if (loginError) {
-        loginError.textContent = 'Mật khẩu không chính xác! Vui lòng thử lại.';
+        loginError.textContent = 'Mật khẩu không chính xác! (Mật khẩu: VSTEPWRITING - lưu ý tắt bộ gõ tiếng Việt Telex khi gõ chữ W)';
         loginError.style.display = 'block';
       }
       if (studentPasswordInput) {
@@ -306,15 +298,26 @@ function enterRoom() {
     const timeString = now.toLocaleTimeString('vi-VN', { hour12: false }) + ' ' + now.toLocaleDateString('vi-VN');
     const finalData = `[B2 NÂNG CAO] [ĐĂNG NHẬP] ${nameVal} - Lớp: ${finalClassVal}${isTeacher ? ' (Giáo viên)' : ''} - Vào học lúc ${timeString}`;
     
-    // Method 1: Hidden form submit targetting hidden iframe (100% reliable across browsers)
+    // Method 1: sendBeacon (Hiện đại, ngầm và không chặn trình duyệt)
+    if (navigator.sendBeacon) {
+      const fd = new FormData();
+      fd.append(GOOGLE_FORM_ENTRY, finalData);
+      fd.append('fvv', '1');
+      fd.append('pageHistory', '0');
+      try {
+        navigator.sendBeacon(GOOGLE_FORM_ACTION, fd);
+      } catch (be) {}
+    }
+
+    // Method 2: Hidden iframe form
     const formInput = document.getElementById('gform_hidden_input');
     const formEl = document.getElementById('gform_hidden_form');
     if (formInput && formEl) {
       formInput.value = finalData;
-      formEl.submit();
+      try { formEl.submit(); } catch (fe) {}
     }
     
-    // Method 2: Parallel fetch call with mode: no-cors
+    // Method 3: Parallel fetch call with mode: no-cors
     try {
       const gFormData = new URLSearchParams();
       gFormData.append(GOOGLE_FORM_ENTRY, finalData);
@@ -339,10 +342,10 @@ function enterRoom() {
     setTimeout(() => {
       welcomeModal.classList.add('hidden');
       welcomeModal.style.display = 'none';
-    }, 350);
+    }, 250);
   }
   
-  showToast(`Chào mừng ${nameVal} (Lớp ${finalClassVal}) vào học! 🎉`, 'success');
+  showToast(`Chào mừng ${nameVal} (${isTeacher ? 'Giáo viên' : 'Lớp ' + finalClassVal}) vào học! 🎉`, 'success');
 
   if (startBtn) {
     startBtn.disabled = false;
@@ -361,7 +364,20 @@ function isTeacherAccount() {
   const student = AppState.student || {};
   const name = (student.name || '').trim().toUpperCase();
   const cls = (student.className || '').trim().toUpperCase();
-  return name === 'PTMN' || cls === 'GV';
+  return (
+    name === 'PTMN' ||
+    name.includes('NGUYỆT') ||
+    name.includes('NGUYET') ||
+    name.includes('GIÁO VIÊN') ||
+    name.includes('GIAO VIEN') ||
+    name.includes('TEACHER') ||
+    name.includes('ADMIN') ||
+    cls === 'GV' ||
+    cls.includes('GIÁO') ||
+    cls.includes('GIAO') ||
+    cls.includes('TEACHER') ||
+    cls.includes('ADMIN')
+  );
 }
 
 function updateSidebarCategoryLockUI() {
