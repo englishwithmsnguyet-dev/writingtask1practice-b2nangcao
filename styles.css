@@ -171,9 +171,14 @@ p,
 .outline-step-card p,
 .outline-formula-item,
 .formula-arrow-content,
-.formula-arrow-row {
+.formula-arrow-row,
+#samplePromptTextEn,
+#samplePromptTextVi,
+#practicePromptEn,
+#practicePromptVi {
   text-align: justify !important;
   text-justify: inter-word !important;
+  text-align-last: left !important;
 }
 
 .formula-arrow-row {
