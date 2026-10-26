@@ -419,19 +419,8 @@ function updateSidebarCategoryLockUI() {
 
 function updatePracticeCopyPasteBadge() {
   const badge = document.getElementById('practiceCopyPasteBadge');
-  if (!badge) return;
-  if (isTeacherAccount()) {
-    badge.style.background = 'rgba(16, 185, 129, 0.12)';
-    badge.style.color = 'var(--emerald-light)';
-    badge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
-    badge.innerHTML = '<i class="fa-solid fa-user-tie"></i> <span>Giáo viên (Được phép Copy-Paste)</span>';
-    badge.title = 'Tài khoản Giáo viên được phép sao chép và dán';
-  } else {
-    badge.style.background = 'rgba(244, 63, 94, 0.12)';
-    badge.style.color = 'var(--danger)';
-    badge.style.borderColor = 'rgba(244, 63, 94, 0.3)';
-    badge.innerHTML = '<i class="fa-solid fa-shield-halved"></i> <span>Khóa Copy - Paste</span>';
-    badge.title = 'Chức năng Sao chép & Dán bị khóa đối với học viên để rèn luyện kỹ năng gõ thực tế trong phòng thi';
+  if (badge) {
+    badge.style.display = 'none';
   }
 }
 
