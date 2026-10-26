@@ -3611,9 +3611,9 @@ const LETTERS_DATA = [
                   "action_vi": "cậu có thể di chuyển trên chuyến tàu ven biển qua đèo Hải Vân",
                   "reason_en": "because the train ride shows you incredible lush mountain scenery.",
                   "reason_vi": "bởi vì chuyến tàu mang lại cho cậu khung cảnh núi rừng xanh tươi tuyệt đẹp.",
-                  "expansion_1_en": "The train tracks hug the dramatic mountain slopes, offering breathtaking bird's-eye views of Lang Co Bay.",
+                  "expansion_1_en": "The train tracks hug the dramatic mountain slopes, offering stunning high-up views of Lang Co Bay.",
                   "expansion_1_vi": "Đường ray ôm sát sườn núi ngoạn mục, đem lại tầm nhìn từ trên cao tuyệt mỹ xuống vịnh Lăng Cô.",
-                  "expansion_2_en": "It is widely regarded as one of the most picturesque railway journeys in entire Southeast Asia.",
+                  "expansion_2_en": "It is widely regarded as one of the most scenic railway journeys in entire Southeast Asia.",
                   "expansion_2_vi": "Đây được xem là một trong những hành trình tàu hỏa có cảnh sắc đẹp nhất toàn khu vực Đông Nam Á."
                 }
               ]
@@ -3669,7 +3669,7 @@ const LETTERS_DATA = [
                   "action_vi": "cậu nên khám phá các khu chợ ẩm thực đêm dọc bờ sông Hàn",
                   "reason_en": "because you can taste authentic local snacks with welcoming residents.",
                   "reason_vi": "bởi vì cậu có thể thưởng thức các món ăn vặt bản địa chuẩn vị cùng người dân hiếu khách.",
-                  "expansion_1_en": "Stalls sell grilled rice paper snacks, iced avocado smoothies, and succulent lemongrass beef skewers.",
+                  "expansion_1_en": "Stalls sell grilled rice paper snacks, iced avocado smoothies, and delicious lemongrass beef skewers.",
                   "expansion_1_vi": "Các quầy hàng bán bánh tráng nướng, sinh tố bơ mát lạnh và xiên bò nướng sả thơm nức mũi.",
                   "expansion_2_en": "The lively atmosphere and reasonable prices make it a favorite spot for young people.",
                   "expansion_2_vi": "Không khí náo nhiệt cùng giá cả bình dân biến nơi đây thành thiên đường cho những tín đồ sành ăn."
@@ -4086,7 +4086,7 @@ const LETTERS_DATA = [
                   "action_vi": "các cậu có thể chọn chủ đề nâng cao nhận thức về sức khỏe tinh thần cho tuổi teen",
                   "reason_en": "because exam pressures often cause severe anxiety for students.",
                   "reason_vi": "bởi vì áp lực thi cử thường gây lo âu nghiêm trọng cho học sinh.",
-                  "expansion_1_en": "Discussing exam stress, screen addiction, and mindfulness techniques breaks common stigmas around emotional health.",
+                  "expansion_1_en": "Discussing exam stress, screen addiction, and relaxation techniques helps reduce student stress around emotional health.",
                   "expansion_1_vi": "Thảo luận về áp lực thi cử, nghiện màn hình điện thoại và phương pháp chánh niệm giúp xóa bỏ định kiến về sức khỏe cảm xúc.",
                   "expansion_2_en": "Providing supportive school helpline contacts makes the poster both deeply compassionate and practically useful.",
                   "expansion_2_vi": "Cung cấp các số điện thoại tư vấn tâm lý học đường giúp áp phích vừa ấm áp nhân văn vừa hữu ích thực tế."
@@ -4104,7 +4104,7 @@ const LETTERS_DATA = [
                   "action_vi": "các cậu có thể thu thập các thông tin thú vị từ trang web National Geographic",
                   "reason_en": "because professional scientists write and verify all their research articles.",
                   "reason_vi": "bởi vì các nhà khoa học chuyên nghiệp trực tiếp viết và thẩm định các bài báo.",
-                  "expansion_1_en": "Their science editors rigorously verify facts and provide stunning high-resolution infographics you can cite.",
+                  "expansion_1_en": "Their science editors rigorously verify facts and provide clear visual charts and facts you can cite.",
                   "expansion_1_vi": "Các biên tập viên khoa học kiểm chứng dữ liệu nghiêm ngặt và cung cấp đồ họa thông tin sắc nét bạn có thể trích dẫn.",
                   "expansion_2_en": "Citing world-renowned publications instantly lends strong credibility to your team's presentation.",
                   "expansion_2_vi": "Trích dẫn các ấn phẩm nổi tiếng thế giới lập tức tạo dựng uy tín vững vàng cho bài thuyết trình nhóm."
@@ -4114,7 +4114,7 @@ const LETTERS_DATA = [
                   "action_vi": "nhóm cậu nên truy cập vào kho thư viện số của trường đại học",
                   "reason_en": "because you can download free educational reports and statistics.",
                   "reason_vi": "bởi vì các cậu có thể tải về các báo cáo và số liệu thống kê giáo dục miễn phí.",
-                  "expansion_1_en": "Academic journals offer peer-reviewed research papers and precise statistical measurements about conservation.",
+                  "expansion_1_en": "Academic journals offer reliable research articles and precise statistics about conservation.",
                   "expansion_1_vi": "Các tạp chí học thuật cung cấp báo cáo nghiên cứu có bình duyệt và số liệu đo lường chính xác về bảo tồn.",
                   "expansion_2_en": "Using authentic academic sources will impress teachers during project grading.",
                   "expansion_2_vi": "Sử dụng nguồn tài liệu học thuật chuẩn chỉnh sẽ gây ấn tượng mạnh với thầy cô khi chấm điểm dự án."
@@ -4646,7 +4646,7 @@ const LETTERS_DATA = [
                   "action_vi": "cậu nên thay đèn huỳnh quang trắng bằng đèn ánh sáng vàng ấm",
                   "reason_en": "because warm lighting protects readers eyes and creates a soothing feeling.",
                   "reason_vi": "bởi vì ánh sáng vàng bảo vệ mắt người đọc và tạo cảm giác êm dịu.",
-                  "expansion_1_en": "Gentle warm amber illumination creates an inviting sanctuary that feels just like a private home library.",
+                  "expansion_1_en": "Gentle warm amber illumination creates a welcoming space that feels just like a cozy home library.",
                   "expansion_1_vi": "Ánh sáng vàng ấm dịu nhẹ tạo nên một không gian trú ẩn ấm cúng tựa như thư viện gia đình riêng tư.",
                   "expansion_2_en": "It reduces harsh glare on glossy paper, making extended browsing enjoyable and restful.",
                   "expansion_2_vi": "Nó làm giảm độ chói trên trang giấy bóng, giúp việc đọc sách trong thời gian dài trở nên dễ chịu, thư thái."
@@ -5189,7 +5189,7 @@ const LETTERS_DATA = [
                   "action_vi": "Có chương trình giảm giá hay ưu đãi đặc biệt nào dành cho sinh viên đại học không?",
                   "reason_en": "This is because a student discount would help me reduce my expenses and make the course more affordable.",
                   "reason_vi": "Điều này là vì ưu đãi dành cho sinh viên sẽ giúp tôi giảm chi phí và khiến khóa học trở nên vừa túi tiền hơn.",
-                  "expansion_1_en": "I would like to inquire if showing a valid student ID card entitles me to an early-bird concession.",
+                  "expansion_1_en": "I would like to inquire if showing a valid student ID card entitles me to an early-bird discount.",
                   "expansion_1_vi": "Tôi muốn hỏi xem liệu việc xuất trình thẻ sinh viên còn hạn có giúp tôi nhận được ưu đãi giảm giá sớm không.",
                   "expansion_2_en": "Any promotional tuition discount would make this culinary training much more accessible for me.",
                   "expansion_2_vi": "Bất kỳ sự ưu đãi giảm học phí nào cũng sẽ giúp khóa học nấu ăn này trở nên vừa tầm với tôi hơn rất nhiều."
@@ -5297,7 +5297,7 @@ const LETTERS_DATA = [
                   "action_vi": "Xin vui lòng cung cấp thông tin về thời lượng khóa học và lịch học hằng tuần?",
                   "reason_en": "The main reason is that knowing the course duration and class schedule will help me arrange my time more effectively.",
                   "reason_vi": "Lý do chính là biết thời lượng khóa học và lịch học sẽ giúp tôi sắp xếp thời gian hiệu quả hơn.",
-                  "expansion_1_en": "Could you let me know if morning, evening, or intensive weekend cooking cohorts are offered?",
+                  "expansion_1_en": "Could you let me know if morning, evening, or weekend cooking classes are offered?",
                   "expansion_1_vi": "Xin cho tôi biết trung tâm có mở các lớp nấu ăn buổi sáng, buổi tối hoặc các lớp cấp tốc cuối tuần không?",
                   "expansion_2_en": "Flexible scheduling will allow me to balance cooking lessons perfectly with my summer work commitments.",
                   "expansion_2_vi": "Lịch học linh hoạt sẽ cho phép tôi cân bằng hoàn hảo các buổi học nấu ăn với lịch làm việc mùa hè của mình."
@@ -5307,7 +5307,7 @@ const LETTERS_DATA = [
                   "action_vi": "Tôi muốn tìm hiểu về mục tiêu khóa học và chuẩn đầu ra.",
                   "reason_en": "This is because a practical training program would help me build confidence and cook delicious meals for my family.",
                   "reason_vi": "Điều này là vì một chương trình đào tạo phù hợp sẽ giúp tôi xây dựng sự tự tin và sử dụng tiếng Anh hiệu quả hơn trong giao tiếp hằng ngày.",
-                  "expansion_1_en": "I would be interested to know whether the course teaches food presentation aesthetics and table service etiquette.",
+                  "expansion_1_en": "I would be interested to know whether the course teaches food presentation skills and proper dining etiquette.",
                   "expansion_1_vi": "Tôi muốn biết liệu khóa học có giảng dạy nghệ thuật bài trí món ăn thẩm mỹ và nghi thức phục vụ bàn tiệc không.",
                   "expansion_2_en": "These polished culinary skills will enable me to confidently host memorable dinner parties for my family.",
                   "expansion_2_vi": "Những kỹ năng ẩm thực chỉn chu này sẽ cho phép tôi tự tin tổ chức những bữa tiệc tối đáng nhớ cho gia đình."
@@ -5485,7 +5485,7 @@ const LETTERS_DATA = [
                 "pronunciation reflexes",
                 "character recognition"
               ],
-              "explanation": "Cấu trúc nghi vấn nâng cao: 'pedagogical methodology', 'facilitate' (tạo điều kiện)."
+              "explanation": "Cấu trúc câu hỏi B2 lịch sự và tự nhiên khi hỏi về phương pháp giảng dạy."
             }
           ],
           "sample_b1": {
@@ -5634,7 +5634,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Được phát sẵn sách trong ngày đầu tiên giúp mình đỡ mất công tìm kiếm các ấn bản trên mạng."
                 },
                 {
-                  "action_en": "inquire if the center provides a referral discount or student concession",
+                  "action_en": "inquire if the center provides a referral discount or student discount",
                   "action_vi": "hỏi xem có chính sách giảm học phí cho bạn bè giới thiệu hoặc sinh viên không",
                   "reason_en": "because having a tuition discount would be a huge help for my tight budget.",
                   "reason_vi": "vì bất kỳ khoản ưu đãi nào cũng rất quý giá đối với sinh viên như tớ.",
@@ -5945,7 +5945,7 @@ const LETTERS_DATA = [
                   "action_vi": "Có chương trình giảm giá hay ưu đãi đặc biệt nào dành cho sinh viên đại học không?",
                   "reason_en": "This is because a student discount would help me reduce my expenses and make the course more affordable.",
                   "reason_vi": "Điều này là vì ưu đãi dành cho sinh viên sẽ giúp tôi giảm chi phí và khiến khóa học trở nên vừa túi tiền hơn.",
-                  "expansion_1_en": "A valid university student card might grant me a ten percent concession on my initial registration.",
+                  "expansion_1_en": "A valid university student card might grant me a ten percent discount on my initial registration.",
                   "expansion_1_vi": "Thẻ sinh viên đại học còn hạn có thể giúp tôi được giảm 10% học phí khi đăng ký khóa đầu tiên.",
                   "expansion_2_en": "These savings could be used to purchase valuable supplementary English reading novels.",
                   "expansion_2_vi": "Khoản tiết kiệm này có thể được dùng để mua thêm các cuốn tiểu thuyết tiếng Anh bổ ích."
@@ -6712,7 +6712,7 @@ const LETTERS_DATA = [
                   "action_vi": "hỏi trung tâm có lớp buổi tối hoặc cuối tuần không",
                   "reason_en": "because I am busy with part-time work during daytime weekdays.",
                   "reason_vi": "vì ban ngày các ngày trong tuần tớ bận đi làm thêm.",
-                  "expansion_1_en": "Are evening cohorts from seven to eight-thirty available for working adults?",
+                  "expansion_1_en": "Are evening classes from seven to eight-thirty available for working adults?",
                   "expansion_1_vi": "Trung tâm có các lớp học buổi tối từ 7h đến 8h30 dành cho người đi làm không?",
                   "expansion_2_en": "An evening slot allows me to commute home, eat dinner, and attend class comfortably.",
                   "expansion_2_vi": "Khung giờ tối cho phép mình về nhà, ăn tối thong thả rồi đến lớp trong tâm thế thoải mái nhất."
@@ -6748,7 +6748,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Có video bài giảng lưu trữ đảm bảo mình không bị lỡ từ vựng ngay cả khi phải học từ xa."
                 },
                 {
-                  "action_en": "ask when the next batch of classes will officially commence",
+                  "action_en": "ask when the next batch of classes will officially start",
                   "action_vi": "hỏi khi nào khóa học tiếp theo sẽ chính thức khai giảng",
                   "reason_en": "because I want to register early before slots fill up.",
                   "reason_vi": "vì tớ muốn đăng ký sớm trước khi lớp hết chỗ.",
@@ -8522,8 +8522,8 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Prime location & easy university commute",
-              "title_vi": "Vị trí đắc địa & đi lại đến trường",
+              "title_en": "1. Convenient location & easy university commute",
+              "title_vi": "Vị trí thuận tiện & đi lại đến trường",
               "icon": "fa-location-dot",
               "options": [
                 {
@@ -8531,10 +8531,10 @@ const LETTERS_DATA = [
                   "action_vi": "ngôi nhà nằm trên một con phố yên tĩnh, chỉ cách các giảng đường năm phút đi bộ",
                   "reason_en": "because I can walk to class easily and avoid all traffic jams.",
                   "reason_vi": "giúp việc đi lại hàng ngày cực kỳ thuận tiện và loại bỏ hoàn toàn nỗi lo kẹt xe buổi sáng.",
-                  "expansion_1_en": "I can wake up at seven-thirty in the morning and still reach the lecture hall ten minutes before classes commence.",
+                  "expansion_1_en": "I can wake up at seven-thirty in the morning and still reach the lecture hall ten minutes before classes start.",
                   "expansion_1_vi": "Mình có thể dậy lúc 7h30 sáng mà vẫn thong thả bước vào giảng đường trước giờ học 10 phút.",
-                  "expansion_2_en": "Not needing to battle traffic jams has eliminated daily stress and given me an extra hour of sleep.",
-                  "expansion_2_vi": "Không phải vật lộn với cảnh tắc đường đã xóa tan nỗi mệt mỏi hằng ngày và cho mình thêm một giờ ngủ quý giá."
+                  "expansion_2_en": "Avoiding morning traffic jams has reduced my daily stress and given me an extra hour of sleep.",
+                  "expansion_2_vi": "Tránh được cảnh tắc đường buổi sáng đã giúp giảm bớt mệt mỏi hằng ngày và cho mình thêm một giờ ngủ quý giá."
                 },
                 {
                   "action_en": "it is situated right next to a shaded public park and several cozy student cafes",
@@ -8543,8 +8543,8 @@ const LETTERS_DATA = [
                   "reason_vi": "mang lại không gian sống trong lành và những góc ngồi thư giãn đọc sách lý tưởng.",
                   "expansion_1_en": "I often grab a hot cup of milk coffee and sit under tall trees to review lesson handouts before presentations.",
                   "expansion_1_vi": "Mình thường mua một ly cà phê sữa nóng rồi ngồi dưới bóng cây râm mát để ôn lại bài trước giờ thuyết trình.",
-                  "expansion_2_en": "The leafy open environment provides a peaceful sanctuary to clear my thoughts after long study sessions.",
-                  "expansion_2_vi": "Không gian thoáng đãng rợp bóng cây đem lại chốn dừng chân thanh bình để thư thái đầu óc sau giờ học căng thẳng."
+                  "expansion_2_en": "The green open space provides a quiet and peaceful place to relax after long study sessions.",
+                  "expansion_2_vi": "Không gian thoáng đãng rợp bóng cây đem lại một nơi yên bình để thư giãn đầu óc sau giờ học căng thẳng."
                 },
                 {
                   "action_en": "the property is within brief walking distance of the central library and sports grounds",
@@ -8567,11 +8567,11 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Việc ghé mua rau củ tươi, sữa và hoa quả theo mùa chỉ tốn chưa đầy 10 phút mỗi buổi chiều."
                 },
                 {
-                  "action_en": "the house is safely nestled inside a secluded alley away from noisy main traffic avenues",
+                  "action_en": "the house is located inside a quiet alley away from noisy main roads",
                   "action_vi": "ngôi nhà nằm sâu trong một con ngõ an ninh, cách biệt khỏi đường lớn ồn ào",
                   "reason_en": "because this helps protect me from loud vehicle horns, street pollution, and heavy dust.",
                   "reason_vi": "bảo vệ tớ khỏi tiếng còi xe inh ỏi, khói bụi ô nhiễm và sự ồn ào của phố xá.",
-                  "expansion_1_en": "The express city bus stop is a two-minute stroll away, connecting straight to the downtown shopping quarter.",
+                  "expansion_1_en": "The city bus stop is only a two-minute walk away, connecting straight to the shopping area.",
                   "expansion_1_vi": "Trạm xe buýt nhanh chỉ cách nhà 2 phút đi bộ, nối thẳng đến khu mua sắm trung tâm thành phố.",
                   "expansion_2_en": "It makes weekend museum visits and social outings with friends remarkably fast and affordable.",
                   "expansion_2_vi": "Nó giúp các chuyến đi bảo tàng cuối tuần và tụ tập bạn bè trở nên vô cùng nhanh chóng, tiết kiệm."
@@ -8581,7 +8581,7 @@ const LETTERS_DATA = [
                   "action_vi": "sống gần trường giúp tớ tiết kiệm hơn một tiếng đồng hồ đi lại mỗi ngày",
                   "reason_en": "because it saves me a lot of travel time every single day.",
                   "reason_vi": "giúp tớ có thêm thời gian ngủ buổi sáng và tập trung hơn cho các bài tập lớn.",
-                  "expansion_1_en": "Being sheltered inside an alleyway completely muffles vehicle horns and street noises from main avenues.",
+                  "expansion_1_en": "Being located inside an alleyway completely blocks vehicle horns and loud noises from main streets.",
                   "expansion_1_vi": "Nằm nép mình trong một con ngõ giúp ngôi nhà cản sạch tiếng còi xe và bụi bặm ồn ào từ đường lớn.",
                   "expansion_2_en": "I can open the windows wide to enjoy clean, cool breezes while focusing deeply on writing essays.",
                   "expansion_2_vi": "Mình có thể mở toang cửa sổ đón gió mát lành trong khi tập trung cao độ để viết bài luận."
@@ -8609,9 +8609,9 @@ const LETTERS_DATA = [
                   "action_vi": "phòng khách ấm cúng được bài trí một bộ sofa êm ái, kệ sách và đèn sàn ánh sáng ấm",
                   "reason_en": "because my friends and I can relax and watch movies together on weekends.",
                   "reason_vi": "tạo nên không gian lý tưởng để tiếp bạn bè và cùng xem phim thư giãn vào cuối tuần.",
-                  "expansion_1_en": "I arranged a cozy reading corner with a plush rug and an adjustable lamp that casts warm golden light.",
+                  "expansion_1_en": "I arranged a cozy reading corner with a soft rug and an adjustable lamp that casts warm light.",
                   "expansion_1_vi": "Mình bố trí một góc đọc sách xinh xắn với thảm nhung êm ái và đèn sàn tỏa ánh sáng vàng dịu mắt.",
-                  "expansion_2_en": "It is the perfect place to curl up with a captivating novel and a steaming mug of peppermint tea.",
+                  "expansion_2_en": "It is the perfect place to sit back with an interesting book and a warm cup of tea.",
                   "expansion_2_vi": "Đây là nơi hoàn hảo để cuộn tròn đọc một cuốn tiểu thuyết lôi cuốn bên tách trà bạc hà nóng hổi."
                 },
                 {
@@ -8621,7 +8621,7 @@ const LETTERS_DATA = [
                   "reason_vi": "giúp tớ tự nấu những bữa ăn lành mạnh và tiết kiệm chi phí ăn ngoài.",
                   "expansion_1_en": "The kitchen island has clean granite surfaces and all essential cookware for baking and stewing dishes.",
                   "expansion_1_vi": "Bàn đảo bếp có mặt đá granite sạch bóng và đầy đủ nồi niêu chuyên dụng để làm bánh và nấu món hầm.",
-                  "expansion_2_en": "We can cook elaborate Vietnamese dinners together and bake fresh cookies whenever you come over.",
+                  "expansion_2_en": "We can cook delicious Vietnamese meals together and bake fresh cookies whenever you come over.",
                   "expansion_2_vi": "Tụi mình có thể cùng nhau nấu những bữa cơm Việt ấm cúng và nướng bánh quy thơm giòn mỗi khi bạn sang chơi."
                 },
                 {
@@ -8669,7 +8669,7 @@ const LETTERS_DATA = [
                   "reason_vi": "chăm sóc vườn cây xanh giúp tớ giải tỏa căng thẳng sau những giờ học dài.",
                   "expansion_1_en": "I planted fragrant basil, mint, cherry tomatoes, and trailing purple orchids in wooden planter boxes.",
                   "expansion_1_vi": "Mình trồng húng quế, bạc hà thơm nức, cà chua bi và những giò phong lan tím trong các chậu gỗ xinh xắn.",
-                  "expansion_2_en": "Tending the garden every morning provides a wonderful mindfulness pause before heading to lectures.",
+                  "expansion_2_en": "Watering the plants every morning helps me relax and feel refreshed before heading to class.",
                   "expansion_2_vi": "Chăm sóc vườn cây mỗi sáng mang lại khoảng lặng tâm hồn bình yên trước khi lên giảng đường."
                 },
                 {
@@ -8679,17 +8679,17 @@ const LETTERS_DATA = [
                   "reason_vi": "tạo nên góc ưa thích nhất để nhâm nhi tách trà sáng và nghe tiếng chim hót.",
                   "expansion_1_en": "In the evenings, we can sip jasmine tea under fairy lights while feeling gentle breezes ruffle our hair.",
                   "expansion_1_vi": "Vào buổi tối, tụi mình có thể nhâm nhi trà lài dưới ánh đèn đom đóm trong khi làn gió mát khẽ lùa qua tóc.",
-                  "expansion_2_en": "It feels like a secluded private rooftop cafe far above the commotion of city streets.",
+                  "expansion_2_en": "It feels like a cozy rooftop cafe far away from the noisy city streets.",
                   "expansion_2_vi": "Cảm giác nơi đây như một quán cà phê sân thượng riêng tư, tách biệt hoàn toàn khỏi sự ồn ã phố thị."
                 },
                 {
-                  "action_en": "the balcony overlooks a tranquil leafy alley with virtually zero vehicular traffic",
+                  "action_en": "the balcony overlooks a peaceful green alley with almost no vehicle traffic",
                   "action_vi": "ban công nhìn ra con ngõ nhỏ rợp bóng cây hầu như không có xe cộ qua lại",
                   "reason_en": "because it gives me a quiet view whenever I need to rest my eyes.",
                   "reason_vi": "mang lại tầm nhìn bình yên mỗi khi tớ cần nghỉ ngơi mắt sau khi nhìn màn hình máy tính.",
                   "expansion_1_en": "Old clay tile roofs and lush green canopies create a charming and peaceful neighborhood view.",
                   "expansion_1_vi": "Những mái ngói rêu phong và tán cây xanh mát tạo nên khung cảnh khu phố cổ kính, bình yên như tranh vẽ.",
-                  "expansion_2_en": "Watching vibrant crimson sunsets paint the evening sky from here is an everyday blessing.",
+                  "expansion_2_en": "Watching beautiful sunsets over the neighborhood from here is truly wonderful.",
                   "expansion_2_vi": "Được ngắm hoàng hôn đỏ rực nhuộm thắm bầu trời chiều từ góc ban công này là một niềm vui mỗi ngày."
                 },
                 {
@@ -8707,7 +8707,7 @@ const LETTERS_DATA = [
                   "action_vi": "cửa ban công mở rộng đón những luồng gió mát tự nhiên thổi vào khắp căn nhà",
                   "reason_en": "because they bring in cool breezes and keep the house airy.",
                   "reason_vi": "giữ cho các phòng luôn thông thoáng và giảm đáng kể lượng điện tiêu thụ.",
-                  "expansion_1_en": "I placed a soft wicker armchair where you can recline comfortably and listen to birds chirp in the trees.",
+                  "expansion_1_en": "I placed a comfortable armchair where you can sit back and listen to birds chirp in the trees.",
                   "expansion_1_vi": "Mình đặt một chiếc ghế mây êm ái nơi bạn có thể ngả lưng thư thái và lắng nghe tiếng chim hót trên cành.",
                   "expansion_2_en": "It is the most tranquil spot in the entire house for meditating or daydreaming after exams.",
                   "expansion_2_vi": "Đây là góc tĩnh lặng nhất trong cả căn nhà để ngồi thiền hay thư giãn đầu óc sau mùa thi cử."
@@ -8719,7 +8719,7 @@ const LETTERS_DATA = [
                   "reason_vi": "đem lại chỗ ngả lưng chớp nhoáng bình yên nhất vào những ngày cuối tuần.",
                   "expansion_1_en": "Gentle solar lanterns illuminate the brick walls with a cozy glow as soon as twilight falls.",
                   "expansion_1_vi": "Những chiếc đèn lồng năng lượng mặt trời tỏa ánh sáng ấm áp lên bức tường gạch ngay khi hoàng hôn buông.",
-                  "expansion_2_en": "It sets a lovely ambiance for long, heartfelt late-night conversations about our future aspirations.",
+                  "expansion_2_en": "It creates a cozy atmosphere for long, heartfelt conversations about our future plans.",
                   "expansion_2_vi": "Nó tạo nên không gian tuyệt đẹp cho những buổi tâm sự đêm khuya sâu lắng về những ước mơ tương lai."
                 }
               ]
@@ -8747,7 +8747,7 @@ const LETTERS_DATA = [
                   "reason_vi": "tạo nên bầu không khí cộng đồng ấm áp, gần gũi như đang ở chính ngôi nhà của mình.",
                   "expansion_1_en": "The elderly couple next door shared home-baked cakes and offered tools when I was assembling furniture.",
                   "expansion_1_vi": "Hai bác hàng xóm lớn tuổi tốt bụng đã biếu bánh tự làm và cho mình mượn đồ nghề khi lắp ráp đồ đạc.",
-                  "expansion_2_en": "Their genuine hospitality made me feel safe, welcomed, and deeply cherished right from moving day.",
+                  "expansion_2_en": "Their warm hospitality made me feel safe, welcome, and very happy right from moving day.",
                   "expansion_2_vi": "Sự hiếu khách chân thành của họ khiến mình cảm thấy an toàn, được chào đón và ấm lòng ngay từ ngày đầu dọn tới."
                 },
                 {
@@ -8761,7 +8761,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Mức giá sinh viên bình dân đồng nghĩa với việc mình được ăn ngon đủ chất mà không lo viêm màng túi."
                 },
                 {
-                  "action_en": "a bustling morning fresh market is located just a three-minute stroll away",
+                  "action_en": "a bustling morning market is located just a three-minute walk away",
                   "action_vi": "một khu chợ dân sinh buổi sáng tấp nập nằm cách nhà chỉ ba phút đi bộ",
                   "reason_en": "because I can buy fresh vegetables and fruits at affordable prices.",
                   "reason_vi": "giúp tớ mua được rau củ tươi ngon và hoa quả theo mùa với mức giá rất hợp lý.",
@@ -8775,7 +8775,7 @@ const LETTERS_DATA = [
                   "action_vi": "hiệu thuốc 24/7, tiệm văn phòng phẩm và tiệm giặt ủi nằm ngay sát bên",
                   "reason_en": "because I can find everything I need just a few steps from my door.",
                   "reason_vi": "đáp ứng mọi nhu cầu sinh hoạt thiết yếu chỉ cách vài bước chân ngoài ngõ.",
-                  "expansion_1_en": "Local residents take pride in sweeping the lane and tending communal flowerbeds along the fences.",
+                  "expansion_1_en": "Local residents take pride in sweeping the lane and caring for communal flowerbeds along the fences.",
                   "expansion_1_vi": "Các hộ dân trong ngõ rất có ý thức cùng nhau quét dọn đường đi và chăm sóc những bồn hoa dọc bờ rào.",
                   "expansion_2_en": "There is never any litter or unpleasant smell, so the neighborhood has a clean, safe, and friendly living environment.",
                   "expansion_2_vi": "Không bao giờ có rác thải hay mùi khó chịu, tạo nên một môi trường sống văn minh, sạch đẹp hiếm có."
@@ -9638,7 +9638,7 @@ const LETTERS_DATA = [
                   "action_vi": "bức vẽ của mình thể hiện phòng khách rộng rãi với ghế sofa êm ái và bàn trà nhỏ",
                   "reason_en": "because these furniture items create a very relaxing atmosphere.",
                   "reason_vi": "vì những đồ nội thất này tạo nên một không gian rất thư thái.",
-                  "expansion_1_en": "I used soft neutral watercolors to highlight the plush cushions and the smooth wooden flooring.",
+                  "expansion_1_en": "I used soft neutral watercolors to highlight the comfortable cushions and the smooth wooden flooring.",
                   "expansion_1_vi": "Mình đã dùng màu nước tông trầm nhẹ nhàng để làm nổi bật những chiếc gối tựa êm ái và sàn gỗ nhẵn bóng.",
                   "expansion_2_en": "These familiar objects immediately convey a feeling of warmth, safety, and domestic comfort.",
                   "expansion_2_vi": "Những đồ vật thân quen này ngay lập tức truyền tải cảm giác ấm áp, an toàn và bình yên gia đình."
@@ -9736,7 +9736,7 @@ const LETTERS_DATA = [
                   "action_vi": "vật quý giá nhất là chậu cây xanh tươi tốt gần cửa sổ",
                   "reason_en": "because my mother and I planted and cared for it together since childhood.",
                   "reason_vi": "vì mẹ và mình đã cùng nhau trồng và chăm sóc nó từ khi còn nhỏ.",
-                  "expansion_1_en": "Watering this small fern every morning has become a cherished shared ritual between my mom and me.",
+                  "expansion_1_en": "Watering this small fern every morning has become a meaningful daily habit between my mom and me.",
                   "expansion_1_vi": "Việc tưới chậu dương xỉ nhỏ này mỗi sáng đã trở thành thói quen gắn bó thân thương giữa hai mẹ con bè bạn.",
                   "expansion_2_en": "Its flourishing green leaves symbolize how familial love continually nurtures my personal growth.",
                   "expansion_2_vi": "Những tán lá xanh tốt biểu trưng cho tình yêu thương gia đình luôn nuôi dưỡng sự trưởng thành của mình."
@@ -10370,7 +10370,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì chúng tớ muốn cưu mang một chú cún bị bỏ rơi và lan tỏa lòng nhân ái.",
                   "expansion_1_en": "His delicate pink nose feels cool and wet against your palm whenever he nudges you for attention.",
                   "expansion_1_vi": "Chiếc mũi hồng chúm chím lành lạnh ươn ướt cọ vào lòng bàn tay mỗi khi bé muốn được bạn chú ý.",
-                  "expansion_2_en": "Combined with his cream-colored coat, he looks just like an adorable plush toy come to life.",
+                  "expansion_2_en": "Combined with his cream-colored coat, he looks just like an adorable stuffed toy come to life.",
                   "expansion_2_vi": "Kết hợp với bộ lông màu kem, bé trông hệt như một chú thú nhồi bông đáng yêu bước ra đời thực."
                 }
               ]
@@ -10815,7 +10815,7 @@ const LETTERS_DATA = [
                   "action_vi": "chúng tôi sẽ tổ chức trò chơi tìm kiếm các loại lá cây sắc màu",
                   "reason_en": "because searching for nature samples makes science learning very exciting.",
                   "reason_vi": "bởi vì việc tìm kiếm các mẫu vật tự nhiên giúp môn khoa học trở nên hào hứng.",
-                  "expansion_1_en": "The modern air-conditioned coach provides seat belts and comfortable reclining chairs for all students.",
+                  "expansion_1_en": "The modern air-conditioned coach provides seat belts and comfortable adjustable seats for all students.",
                   "expansion_1_vi": "Xe khách điều hòa hiện đại trang bị dây an toàn và ghế ngả êm ái cho tất cả học sinh.",
                   "expansion_2_en": "During the short journey, tour guides will organize fun trivia songs to keep the kids entertained.",
                   "expansion_2_vi": "Suốt hành trình ngắn, các anh chị hướng dẫn viên sẽ tổ chức trò chơi đố vui ca hát để các con phấn khởi."
@@ -11381,7 +11381,7 @@ const LETTERS_DATA = [
                   "expansion_1_en": "All four multi-directional wheels rotate smoothly without generating any rattling noise.",
                   "expansion_1_vi": "Cả bốn bánh xe xoay đa chiều đều vận hành êm ái, không hề phát ra tiếng kêu lọc cọc.",
                   "expansion_2_en": "The durable hard plastic shell ensures fragile business items inside remain fully protected.",
-                  "expansion_2_vi": "Lớp vỏ nhựa polycarbonate chịu lực đảm bảo các vật dụng công việc dễ vỡ bên trong được bảo vệ tối đa."
+                  "expansion_2_vi": "Lớp vỏ nhựa cứng chịu lực đảm bảo các vật dụng công việc dễ vỡ bên trong được bảo vệ tối đa."
                 },
                 {
                   "action_en": "there is a small rectangular Samsonite logo on the front surface",
