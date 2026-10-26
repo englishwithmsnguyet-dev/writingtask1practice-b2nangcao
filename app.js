@@ -5273,6 +5273,12 @@ function generateWordDocumentHtml(sub, topic) {
           <td><strong>Đề bài:</strong></td>
           <td colspan="3"><strong>${topic?.title_vi || sub.topicTitle}</strong></td>
         </tr>
+        ${sub.isRevision ? `
+        <tr>
+          <td><strong>Phiên bản bài làm:</strong></td>
+          <td colspan="3"><strong style="color: #2563eb; text-transform: uppercase;">Bản sửa lần ${sub.revisionNumber || 2} (Đã chỉnh sửa hoàn thiện theo góp ý)</strong></td>
+        </tr>
+        ` : ''}
         <tr>
           <td><strong>Số từ bài viết:</strong></td>
           <td><strong>${sub.wordCount} từ</strong> (Yêu cầu: 120+ từ)</td>
