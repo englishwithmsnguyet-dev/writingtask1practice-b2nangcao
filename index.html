@@ -699,6 +699,11 @@
                   <i class="fa-solid fa-shield-halved"></i> <span>Khóa Copy - Paste</span>
                 </div>
 
+                <!-- Auto-Save Status Indicator -->
+                <div id="practiceAutoSaveStatus" style="font-size: 0.75rem; font-weight: 600; color: var(--emerald-light); display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.25rem 0.65rem; border-radius: 9999px; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25);" title="Hệ thống tự động lưu nháp liên tục mỗi khi bạn gõ bài">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> <span>Tự động lưu: Sẵn sàng</span>
+                </div>
+
                 <!-- Word Counter -->
                 <div class="word-gauge">
                   <span>Số từ:</span>
@@ -713,14 +718,29 @@
                 <div id="practiceWordProgressBar" style="width: 0%; height: 100%; background: var(--danger); transition: all 0.25s ease;"></div>
               </div>
 
+              <!-- Revision Mode Banner (Hiển thị khi đang sửa lại bài viết) -->
+              <div id="practiceRevisionBanner" style="display: none; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: var(--radius-sm); padding: 0.6rem 0.85rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: var(--text-primary); justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span class="hl-pill hl-violet" style="font-size: 0.75rem; font-weight: 800;"><i class="fa-solid fa-pen-to-square"></i> CHẾ ĐỘ SỬA BÀI</span>
+                  <span id="practiceRevisionText" style="font-size: 0.84rem; color: var(--text-secondary);">Bạn đang sửa lại bài viết. Hãy áp dụng góp ý từ phiếu chấm điểm và bấm Nộp bài để nhận đánh giá mới!</span>
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm" onclick="cancelRevisionMode()" style="font-size: 0.72rem; padding: 0.2rem 0.5rem;">Thoát chế độ sửa</button>
+              </div>
+
               <!-- Textarea -->
               <textarea id="practiceWritingTextarea" class="writing-editor-box" placeholder="Bắt đầu viết bài thi tại đây (yêu cầu tối thiểu 120 từ)..." oninput="onPracticeTextareaInput()"></textarea>
 
               <!-- Actions -->
               <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; flex-wrap: wrap; gap: 0.75rem;">
-                <div style="display: flex; gap: 0.5rem;">
-                  <button class="btn btn-secondary" onclick="saveCurrentDraftAction()">
+                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                  <button class="btn btn-secondary" onclick="saveCurrentDraftAction()" title="Lưu nháp thủ công vào trình duyệt">
                     <i class="fa-solid fa-floppy-disk"></i> Lưu nháp
+                  </button>
+                  <button class="btn btn-secondary" onclick="openProgressBackupModal()" title="Xem tất cả bản nháp & sao lưu tiến độ ra tệp">
+                    <i class="fa-solid fa-box-archive"></i> Sao lưu tiến độ
+                  </button>
+                  <button class="btn btn-secondary" onclick="exportCurrentEditorToWord()" title="Xuất bản nháp đang viết ra tệp Microsoft Word (.doc)">
+                    <i class="fa-solid fa-file-word"></i> Xuất bản thảo (.doc)
                   </button>
                   <button class="btn btn-secondary" onclick="clearPracticeTextareaAction()" title="Xóa viết lại">
                     <i class="fa-solid fa-trash-can"></i> Xóa
