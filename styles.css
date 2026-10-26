@@ -4344,3 +4344,46 @@ body.mobile-drawer-active {
     border-radius: var(--radius-xl) !important;
   }
 }
+
+/* Auto-Save Status Indicator */
+#practiceAutoSaveStatus {
+  transition: all 0.25s ease;
+}
+#practiceAutoSaveStatus.saving {
+  background: rgba(245, 158, 11, 0.12) !important;
+  color: var(--amber-light) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+#practiceAutoSaveStatus.saved {
+  background: rgba(16, 185, 129, 0.12) !important;
+  color: var(--emerald-light) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+/* Revision Mode Banner */
+.revision-mode-banner {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(168, 85, 247, 0.12) 100%) !important;
+  border: 1px solid rgba(99, 102, 241, 0.35) !important;
+  border-left: 4px solid var(--violet-light) !important;
+  border-radius: var(--radius-md) !important;
+}
+
+/* Backup Draft Card */
+.backup-draft-card {
+  background: var(--bg-card);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  transition: all 0.2s ease;
+}
+.backup-draft-card:hover {
+  border-color: var(--accent-primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
