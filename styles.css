@@ -3690,13 +3690,28 @@ body.zen-mode-active .practice-container-grid {
 .eval-sample-en {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 1.05rem;
-  line-height: 1.8;
+  line-height: 1.85;
   color: var(--text-primary);
   margin-bottom: 1rem;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .eval-sample-en p {
   margin-bottom: 0.85rem;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
+  line-height: 1.85;
+}
+
+.eval-sample-en .sample-p-salutation,
+.eval-sample-en .sample-p-signoff {
+  text-align: left !important;
+  text-align-last: left !important;
 }
 
 .eval-sample-vi {
@@ -3706,13 +3721,28 @@ body.zen-mode-active .practice-container-grid {
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   font-size: 0.92rem;
   color: var(--text-secondary);
-  line-height: 1.65;
+  line-height: 1.8;
   font-style: italic;
   margin-top: 1rem;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .eval-sample-vi p {
   margin-bottom: 0.65rem;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
+  line-height: 1.8;
+}
+
+.eval-sample-vi .sample-trans-salutation,
+.eval-sample-vi .sample-trans-signoff {
+  text-align: left !important;
+  text-align-last: left !important;
 }
 
 .eval-sample-vocab-box {
