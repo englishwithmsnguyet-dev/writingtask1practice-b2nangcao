@@ -1386,7 +1386,70 @@ function onPracticeTextareaInput() {
     barEl.style.width = `${percent}%`;
     barEl.style.background = count < 100 ? 'var(--danger)' : (count < 120 ? 'var(--warning)' : 'var(--success)');
   }
+
+  // Tự động sao lưu tiến độ bài viết theo thời gian thực (Debounced Auto-Save)
+  triggerAutoSavePracticeDraft();
 }
+
+// --------------------------------------------------------------------------
+// REAL-TIME AUTO-SAVE (TỰ ĐỘNG LƯU TIẾN ĐỘ BÀI VIẾT)
+// --------------------------------------------------------------------------
+function triggerAutoSavePracticeDraft() {
+  const statusEl = document.getElementById('practiceAutoSaveStatus');
+  if (statusEl) {
+    statusEl.className = 'saving';
+    statusEl.innerHTML = '<i class="fa-solid fa-pencil fa-fade" style="color: var(--amber-light);"></i> <span style="color: var(--amber-light);">Đang lưu tiến độ...</span>';
+  }
+
+  if (AppState.autoSaveTimer) clearTimeout(AppState.autoSaveTimer);
+  AppState.autoSaveTimer = setTimeout(() => {
+    executeAutoSavePracticeDraft();
+  }, 700);
+}
+
+function executeAutoSavePracticeDraft() {
+  const topicId = AppState.activePracticeTopicId;
+  const textarea = document.getElementById('practiceWritingTextarea');
+  const statusEl = document.getElementById('practiceAutoSaveStatus');
+  if (!textarea || !topicId) return;
+
+  const content = textarea.value;
+  const topic = findTopicById(topicId);
+  const draftKey = `draft_${topicId}`;
+
+  if (content.trim()) {
+    AppState.drafts[draftKey] = {
+      topicId,
+      categoryKey: AppState.activeCategory,
+      topicTitle: topic?.title_vi || topic?.title_en || 'Bài viết',
+      content,
+      wordCount: content.trim().split(/\s+/).filter(Boolean).length,
+      savedAt: new Date().toISOString()
+    };
+    try {
+      localStorage.setItem('vstep_b2_task1_drafts', JSON.stringify(AppState.drafts));
+    } catch (e) {}
+
+    if (statusEl) {
+      statusEl.className = 'saved';
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString('vi-VN', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      statusEl.innerHTML = `<i class="fa-solid fa-cloud-arrow-up" style="color: var(--emerald-light);"></i> <span style="color: var(--emerald-light);">Đã tự động lưu (${timeStr})</span>`;
+    }
+  } else {
+    if (statusEl) {
+      statusEl.className = '';
+      statusEl.innerHTML = '<i class="fa-solid fa-cloud" style="color: var(--text-muted);"></i> <span style="color: var(--text-muted);">Tự động lưu: Sẵn sàng</span>';
+    }
+  }
+}
+
+// Lưu tiến độ khi học viên đóng hoặc reload trình duyệt
+window.addEventListener('beforeunload', () => {
+  if (typeof executeAutoSavePracticeDraft === 'function') {
+    executeAutoSavePracticeDraft();
+  }
+});
 
 // --------------------------------------------------------------------------
 // TIMER UTILITIES (20 MINS COUNTDOWN)
