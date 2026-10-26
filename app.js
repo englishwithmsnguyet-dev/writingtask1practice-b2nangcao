@@ -3637,6 +3637,15 @@ function renderErrorsListMarkup(errors) {
 
 function editSubmissionAgain(topicId) {
   AppState.activePracticeTopicId = topicId;
+  const topic = findTopicById(topicId);
+  const sub = AppState.submissions.find(s => s.topicId === topicId);
+
+  AppState.activeRevision = {
+    topicId,
+    originalSubId: sub?.id,
+    revisionCount: (sub?.revisionNumber || 1)
+  };
+
   switchWorkflowTab('practice');
 
   const editorGrid = document.getElementById('practiceEditorGrid');
@@ -3644,9 +3653,18 @@ function editSubmissionAgain(topicId) {
   if (editorGrid) editorGrid.style.display = '';
   if (resultContainer) resultContainer.style.display = 'none';
 
+  const revBanner = document.getElementById('practiceRevisionBanner');
+  const revText = document.getElementById('practiceRevisionText');
+  if (revBanner) {
+    revBanner.style.display = 'flex';
+    if (revText) {
+      const nextRev = (sub?.revisionNumber || 1) + 1;
+      revText.innerHTML = `Bạn đang sửa bài cho đề <strong>"${escapeHtml(topic?.title_vi || topicId)}"</strong> (Lần sửa thứ ${nextRev}). Hãy vận dụng câu nâng cấp B2 và bấm "NỘP BÀI" để nhận phiếu chấm mới!`;
+    }
+  }
+
   const textarea = document.getElementById('practiceWritingTextarea');
-  const sub = AppState.submissions.find(s => s.topicId === topicId);
-  if (textarea && sub && !textarea.value.trim()) {
+  if (textarea && sub) {
     textarea.value = sub.content;
     onPracticeTextareaInput();
   }
@@ -3654,6 +3672,14 @@ function editSubmissionAgain(topicId) {
     textarea.focus();
     textarea.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
+  showToast('🛠️ Đã mở bài viết ở Chế độ Sửa bài (Revision Mode)!', 'info');
+}
+
+function cancelRevisionMode() {
+  AppState.activeRevision = null;
+  const revBanner = document.getElementById('practiceRevisionBanner');
+  if (revBanner) revBanner.style.display = 'none';
+  showToast('Đã thoát Chế độ Sửa bài.', 'info');
 }
 
 function nextPracticeTopicInCat() {
