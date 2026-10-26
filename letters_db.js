@@ -2488,8 +2488,8 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì giáo viên có thể quan tâm và góp ý cho cậu nhiều hơn.",
                   "expansion_1_en": "The instructor can closely monitor your individual tone accuracy and tailor speaking drills to your pace.",
                   "expansion_1_vi": "Giảng viên có thể theo sát độ chính xác của từng dấu thanh và điều chỉnh bài luyện nói theo tốc độ của bạn.",
-                  "expansion_2_en": "Every student receives ample speaking time, which leads to noticeably faster linguistic progress.",
-                  "expansion_2_vi": "Mỗi học viên đều có nhiều thời lượng luyện nói, giúp khả năng ngôn ngữ tiến bộ nhanh chóng rõ rệt."
+                  "expansion_2_en": "Every student receives ample speaking time, and this leads to noticeably faster linguistic progress.",
+                  "expansion_2_vi": "Mỗi học viên đều có nhiều thời lượng luyện nói, và điều này giúp khả năng ngôn ngữ tiến bộ nhanh chóng rõ rệt."
                 }
               ]
             },
@@ -4638,8 +4638,8 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì những khách hàng mệt mỏi có thể ngồi xuống đọc thử vài chương sách một cách thoải mái.",
                   "expansion_1_en": "Add soft fabric cushions and a low wooden coffee table where guests can inspect preview copies unhurriedly.",
                   "expansion_1_vi": "Thêm những chiếc đệm êm ái và bàn trà gỗ thấp nơi khách có thể thong thả xem trước các cuốn sách mẫu.",
-                  "expansion_2_en": "A hospitable reading nook encourages prolonged visits, which naturally increases book purchasing.",
-                  "expansion_2_vi": "Góc đọc sách hiếu khách thôi thúc khách ở lại lâu hơn, từ đó làm tăng khả năng mua sách một cách tự nhiên."
+                  "expansion_2_en": "A hospitable reading nook encourages prolonged visits, and this naturally increases book purchasing.",
+                  "expansion_2_vi": "Góc đọc sách hiếu khách thôi thúc khách ở lại lâu hơn, và điều này làm tăng khả năng mua sách một cách tự nhiên."
                 },
                 {
                   "action_en": "you should replace white fluorescent lights with warm yellow lamps",
@@ -5118,8 +5118,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Could you let me know where the center is situated?",
                   "action_vi": "Bạn có thể cho tôi biết trung tâm nằm ở đâu được không?",
-                  "reason_en": "The main reason is that I want to make sure I can get to the center easily by motorbike, which is my main means of transport.",
-                  "reason_vi": "Lý do chính là tôi muốn đảm bảo mình có thể dễ dàng đến trung tâm bằng xe máy, phương tiện đi lại chính của tôi.",
+                  "reason_en": "The main reason is that I want to make sure I can get to the center easily by motorbike, as this is my main means of transport.",
+                  "reason_vi": "Lý do chính là tôi muốn đảm bảo mình có thể dễ dàng đến trung tâm bằng xe máy, vì đây là phương tiện đi lại chính của tôi.",
                   "expansion_1_en": "I need to know if the center provides a safe, covered parking space for student motorbikes during lessons.",
                   "expansion_1_vi": "Tôi cần biết liệu trung tâm có khu vực gửi xe máy có mái che an toàn cho học viên trong suốt buổi học không.",
                   "expansion_2_en": "Secure parking guarantees that I can focus entirely on food preparation without worrying about my vehicle.",
@@ -5874,8 +5874,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Could you let me know where the center is situated?",
                   "action_vi": "Bạn có thể cho tôi biết trung tâm nằm ở đâu được không?",
-                  "reason_en": "The main reason is that I want to make sure I can get to the center easily by motorbike, which is my main means of transport.",
-                  "reason_vi": "Lý do chính là tôi muốn đảm bảo mình có thể dễ dàng đến trung tâm bằng xe máy, phương tiện đi lại chính của tôi.",
+                  "reason_en": "The main reason is that I want to make sure I can get to the center easily by motorbike, as this is my main means of transport.",
+                  "reason_vi": "Lý do chính là tôi muốn đảm bảo mình có thể dễ dàng đến trung tâm bằng xe máy, vì đây là phương tiện đi lại chính của tôi.",
                   "expansion_1_en": "I want to verify whether the branch is close to major city bus lines and easily accessible on a motorbike.",
                   "expansion_1_vi": "Tôi muốn xác nhận xem chi nhánh có gần các tuyến xe buýt chính và thuận tiện đi lại bằng xe máy không.",
                   "expansion_2_en": "Easy accessibility ensures that poor weather will never disrupt my weekly study routine.",
@@ -7315,8 +7315,8 @@ const LETTERS_DATA = [
                   "action_vi": "Hoa là một người cởi mở và kiên nhẫn.",
                   "reason_en": "Therefore, she can communicate well with people around her.",
                   "reason_vi": "Vì vậy, cô ấy có thể giao tiếp tốt với những người xung quanh.",
-                  "expansion_1_en": "She listens carefully and expresses her ideas clearly, which helps her avoid misunderstandings.",
-                  "expansion_1_vi": "Cô ấy lắng nghe cẩn thận và diễn đạt ý tưởng rõ ràng, điều này giúp cô ấy tránh những hiểu lầm.",
+                  "expansion_1_en": "She listens carefully and expresses her ideas clearly, so she can easily avoid misunderstandings.",
+                  "expansion_1_vi": "Cô ấy lắng nghe cẩn thận và diễn đạt ý tưởng rõ ràng, vì vậy cô ấy có thể dễ dàng tránh những hiểu lầm.",
                   "expansion_2_en": "She is always eager to learn about British cultural customs and adapt to family traditions.",
                   "expansion_2_vi": "Cô ấy luôn ham học hỏi về các phong tục văn hóa Anh và sẵn sàng hòa nhập vào nếp sống gia đình bạn."
                 },
@@ -11666,8 +11666,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The changing room was poorly maintained.",
                   "action_vi": "Phòng thay đồ được giữ gìn kém.",
-                  "reason_en": "Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use.",
-                  "reason_vi": "Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.",
+                  "reason_en": "Rubbish was scattered across the floor, so the entire area looked unhygienic and unpleasant to use.",
+                  "reason_vi": "Rác vương vãi khắp sàn nhà, vì vậy toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.",
                   "solution_en": "I would appreciate it if you could arrange for the changing room to be cleaned more frequently.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể bố trí vệ sinh phòng thay đồ thường xuyên hơn."
                 },
@@ -11690,16 +11690,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Some of the lockers were out of order.",
                   "action_vi": "Một số tủ khóa không thể sử dụng được.",
-                  "reason_en": "I was unable to secure my personal belongings, which made me concerned about their safety.",
-                  "reason_vi": "Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng.",
+                  "reason_en": "I was unable to secure my personal belongings, so I felt very concerned about their safety.",
+                  "reason_vi": "Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, vì vậy tôi cảm thấy rất lo lắng về sự an toàn của chúng.",
                   "solution_en": "I would like to suggest that you repair or replace the faulty lockers as soon as possible.",
                   "solution_vi": "Tôi muốn gợi ý rằng quý vị sửa chữa hoặc thay thế các tủ khóa bị lỗi sớm nhất có thể."
                 },
                 {
                   "action_en": "There were insufficient lockers available for members.",
                   "action_vi": "Không có đủ tủ khóa cho các thành viên.",
-                  "reason_en": "I had to wait until a locker became available, which wasted valuable time before my workout.",
-                  "reason_vi": "Tôi phải chờ đến khi có tủ trống, điều này làm lãng phí thời gian quý báu trước buổi tập.",
+                  "reason_en": "I had to wait until a locker became available, and this wasted valuable time before my workout.",
+                  "reason_vi": "Tôi phải chờ đến khi có tủ trống, và điều này làm lãng phí thời gian quý báu trước buổi tập.",
                   "solution_en": "I suggest that you install additional lockers to accommodate more members.",
                   "solution_vi": "Tôi đề xuất quý vị lắp đặt thêm tủ khóa để phục vụ nhiều thành viên hơn."
                 }
@@ -11714,16 +11714,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Some of the showers were not functioning properly.",
                   "action_vi": "Một số vòi sen không hoạt động bình thường.",
-                  "reason_en": "I was unable to take a shower after exercising, which made it inconvenient to freshen up before leaving the center.",
-                  "reason_vi": "Tôi không thể tắm sau khi tập luyện, khiến việc vệ sinh cơ thể trước khi rời trung tâm trở nên bất tiện.",
+                  "reason_en": "I was unable to take a shower after exercising, so it was very inconvenient to freshen up before leaving the center.",
+                  "reason_vi": "Tôi không thể tắm sau khi tập luyện, vì vậy rất bất tiện để vệ sinh cơ thể trước khi rời trung tâm.",
                   "solution_en": "I would appreciate it if you could repair the faulty showers as soon as possible.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa các vòi sen bị lỗi sớm nhất có thể."
                 },
                 {
                   "action_en": "There was no hot water available in the showers.",
                   "action_vi": "Không có nước nóng trong các vòi sen.",
-                  "reason_en": "I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.",
-                  "reason_vi": "Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.",
+                  "reason_en": "I had no choice but to take a cold shower after exercising, and it was particularly uncomfortable.",
+                  "reason_vi": "Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, và điều này đặc biệt khó chịu.",
                   "solution_en": "I strongly recommend that the management ensure a reliable supply of hot water.",
                   "solution_vi": "Tôi tha thiết đề xuất ban quản lý bảo đảm nguồn cung cấp nước nóng ổn định."
                 }
@@ -11738,8 +11738,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Some of the lights were not working properly.",
                   "action_vi": "Một số đèn không hoạt động bình thường.",
-                  "reason_en": "The changing room was poorly lit, which made it difficult for members to move around safely.",
-                  "reason_vi": "Phòng thay đồ thiếu ánh sáng, điều này khiến các thành viên khó di chuyển an toàn.",
+                  "reason_en": "The changing room was poorly lit, so it was difficult for members to move around safely.",
+                  "reason_vi": "Phòng thay đồ thiếu ánh sáng, vì vậy các thành viên gặp khó khăn khi di chuyển an toàn.",
                   "solution_en": "I suggest that you replace the faulty lights with new ones promptly.",
                   "solution_vi": "Tôi đề xuất quý vị thay các đèn bị lỗi bằng đèn mới kịp thời."
                 },
@@ -11770,8 +11770,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Some of the clothes hooks were damaged.",
                   "action_vi": "Một số móc treo quần áo bị hỏng.",
-                  "reason_en": "I was unable to hang my clothes properly, which made it difficult to keep my belongings neat and organized.",
-                  "reason_vi": "Tôi không thể treo quần áo đúng cách, điều này khiến việc giữ đồ đạc gọn gàng và ngăn nắp trở nên khó khăn.",
+                  "reason_en": "I was unable to hang my clothes properly, and this made it difficult to keep my belongings neat and organized.",
+                  "reason_vi": "Tôi không thể treo quần áo gọn gàng, và điều này khiến việc giữ đồ đạc ngăn nắp trở nên khó khăn.",
                   "solution_en": "I strongly recommend that the management repair or replace the damaged clothes hooks.",
                   "solution_vi": "Tôi tha thiết đề xuất ban quản lý sửa chữa hoặc thay thế các móc treo quần áo bị hỏng."
                 }
@@ -11794,8 +11794,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "There were not enough benches in the changing room.",
                   "action_vi": "Không có đủ ghế ngồi trong phòng thay đồ.",
-                  "reason_en": "I had to stand while changing my clothes, which was particularly inconvenient when the room was crowded.",
-                  "reason_vi": "Tôi phải đứng khi thay quần áo, điều này đặc biệt bất tiện khi phòng đông người.",
+                  "reason_en": "I had to stand while changing my clothes, and this was particularly inconvenient when the room was crowded.",
+                  "reason_vi": "Tôi phải đứng khi thay quần áo, và điều này đặc biệt bất tiện khi phòng đông người.",
                   "solution_en": "I suggest that you provide additional benches for members.",
                   "solution_vi": "Tôi đề xuất quý vị bổ sung thêm ghế ngồi cho các thành viên."
                 }
@@ -11858,16 +11858,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Some of the hair dryers were out of order.",
                   "action_vi": "Một số máy sấy tóc không thể sử dụng được.",
-                  "reason_en": "I was unable to dry my hair after taking a shower, which was inconvenient before heading home or going to work.",
-                  "reason_vi": "Tôi không thể sấy khô tóc sau khi tắm, điều này gây bất tiện trước khi về nhà hoặc đi làm.",
+                  "reason_en": "I was unable to dry my hair after taking a shower, so it was inconvenient before heading home or going to work.",
+                  "reason_vi": "Tôi không thể sấy khô tóc sau khi tắm, vì vậy rất bất tiện trước khi về nhà hoặc đi làm.",
                   "solution_en": "I would appreciate it if you could repair or replace the faulty hair dryers.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hoặc thay thế các máy sấy tóc bị lỗi."
                 },
                 {
                   "action_en": "There were not enough hair dryers for members to use.",
                   "action_vi": "Không có đủ máy sấy tóc cho các thành viên sử dụng.",
-                  "reason_en": "I had to wait in a queue for a long time, which delayed my departure from the sports center.",
-                  "reason_vi": "Tôi phải xếp hàng chờ trong một thời gian dài, khiến tôi rời trung tâm thể thao muộn hơn.",
+                  "reason_en": "I had to wait in a queue for a long time, and this delayed my departure from the sports center.",
+                  "reason_vi": "Tôi phải xếp hàng chờ trong một thời gian dài, và điều này làm chậm trễ giờ rời trung tâm của tôi.",
                   "solution_en": "I would like to suggest that you provide additional hair dryers to reduce waiting times.",
                   "solution_vi": "Tôi muốn gợi ý rằng quý vị bổ sung máy sấy tóc để giảm thời gian chờ đợi."
                 }
@@ -11882,15 +11882,15 @@ const LETTERS_DATA = [
                 {
                   "action_en": "There was no soap available near the sinks.",
                   "action_vi": "Không có xà phòng gần các bồn rửa tay.",
-                  "reason_en": "I was unable to wash my hands properly, which raised concerns about basic hygiene in the facility.",
-                  "reason_vi": "Tôi không thể rửa tay đúng cách, điều này làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.",
+                  "reason_en": "I was unable to wash my hands properly, and this raised concerns about basic hygiene in the facility.",
+                  "reason_vi": "Tôi không thể rửa tay đúng cách, và điều này làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.",
                   "solution_en": "I strongly recommend that you provide sufficient soap and refill the dispensers regularly.",
                   "solution_vi": "Tôi tha thiết đề xuất quý vị cung cấp đủ xà phòng và bổ sung vào các hộp đựng thường xuyên."
                 },
                 {
                   "action_en": "There were no paper towels available.",
                   "action_vi": "Không có khăn giấy.",
-                  "reason_en": "I had no convenient way to dry my hands after washing them, which made the facilities less practical to use.",
+                  "reason_en": "I had no convenient way to dry my hands after washing them, so the facilities felt less practical to use.",
                   "reason_vi": "Tôi không có cách thuận tiện để lau khô tay sau khi rửa, khiến các tiện ích kém thuận tiện hơn khi sử dụng.",
                   "solution_en": "I suggest that you provide paper towels or install hand dryers near the sinks.",
                   "solution_vi": "Tôi đề xuất quý vị cung cấp khăn giấy hoặc lắp đặt máy sấy tay gần các bồn rửa."
@@ -11906,7 +11906,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The rubbish bins were overflowing.",
                   "action_vi": "Các thùng rác bị đầy tràn.",
-                  "reason_en": "Rubbish had accumulated around the bins, which made the changing room look unhygienic and unpleasant.",
+                  "reason_en": "Rubbish had accumulated around the bins, so the changing room looked unhygienic and unpleasant.",
                   "reason_vi": "Rác tích tụ xung quanh thùng, điều này khiến phòng thay đồ trông mất vệ sinh và gây cảm giác khó chịu.",
                   "solution_en": "I believe that steps should be taken to empty the rubbish bins more frequently, especially during busy periods.",
                   "solution_vi": "Tôi tin rằng các biện pháp cần được thực hiện để đổ rác thường xuyên hơn, đặc biệt vào những thời điểm đông người."
@@ -11914,8 +11914,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Rubbish was scattered around the bins.",
                   "action_vi": "Rác vương vãi xung quanh các thùng rác.",
-                  "reason_en": "This made the area look messy and unhygienic, which created a negative impression of the sports center.",
-                  "reason_vi": "Điều này khiến khu vực trông bừa bộn và mất vệ sinh, tạo ấn tượng tiêu cực về trung tâm thể thao.",
+                  "reason_en": "The bins were completely full, and this created a very negative impression of the sports center.",
+                  "reason_vi": "Các thùng rác đã đầy ứ, và điều này tạo ra một ấn tượng rất tiêu cực về trung tâm thể thao.",
                   "solution_en": "I would appreciate it if you could clean the area around the bins regularly and dispose of rubbish properly.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh khu vực xung quanh thùng rác và xử lý rác đúng cách."
                 }
@@ -11962,7 +11962,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "There was a strong unpleasant smell coming from the toilets.",
                   "action_vi": "Có mùi khó chịu nồng nặc phát ra từ nhà vệ sinh.",
-                  "reason_en": "The smell spread to the surrounding area, which made the entire section unpleasant to use.",
+                  "reason_en": "The smell spread to the surrounding area, so the entire section was unpleasant to use.",
                   "reason_vi": "Mùi này lan ra khu vực xung quanh, điều này khiến toàn bộ khu vực trở nên khó chịu khi sử dụng.",
                   "solution_en": "I would appreciate it if you could thoroughly clean the toilets and check the plumbing and ventilation systems.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị vệ sinh nhà vệ sinh kỹ lưỡng và kiểm tra hệ thống ống nước cùng hệ thống thông gió."
@@ -12060,8 +12060,8 @@ const LETTERS_DATA = [
             {
               "id": 2,
               "part": "2. Thân thư 1 - Cặp 1: Câu vấn đề chính 1 + Câu mô tả cụ thể 1",
-              "vi": "Trước hết, vấn đề chính là phòng thay đồ được giữ gìn kém. Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.",
-              "en": "To begin with, the main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use.",
+              "vi": "Trước hết, vấn đề chính là phòng thay đồ được giữ gìn kém. Rác vương vãi khắp sàn nhà, vì vậy toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.",
+              "en": "To begin with, the main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, so the entire area looked unhygienic and unpleasant to use.",
               "vocab_hints": [
                 {
                   "en": "To begin with, the main problem was that",
@@ -12103,7 +12103,7 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân thư 1 - Cặp 2 & 3: Các vấn đề tiếp theo kèm mô tả cụ thể",
               "vi": "Một mối bận tâm khác là một vài tủ đồ không thể sử dụng được. Tôi không thể cất giữ đồ dùng cá nhân an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng. Một vấn đề nữa là không có nước nóng trong phòng tắm vòi sen, khiến việc vệ sinh cơ thể sau khi tập luyện rất bất tiện.",
-              "en": "Another concern was that several lockers were out of order. I was unable to secure my personal belongings, which made me concerned about their safety. A further issue was that there was no hot water in the showers, which made it inconvenient to freshen up after exercising.",
+              "en": "Another concern was that several lockers were out of order. I was unable to secure my personal belongings, so I felt very concerned about their safety. A further issue was that there was no hot water in the showers, which made it inconvenient to freshen up after exercising.",
               "vocab_hints": [
                 {
                   "en": "Another concern was that",
@@ -12325,9 +12325,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.\n\nTo begin with, the main problem was that ***the changing room was poorly maintained***. ***Rubbish was scattered across the floor***, which made the entire area look unhygienic and unpleasant to use. Another concern was that ***several lockers were out of order***. I was ***unable to secure my personal belongings***, which made me concerned about their safety. A further issue was that ***there was no hot water available in the showers***. I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.\n\nI was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me ***feel extremely frustrated and uncomfortable throughout my visit***.\n\nI would appreciate it if you could ***arrange for the changing room to be cleaned and inspected much more frequently throughout the day***. In addition, I strongly recommend that the management ***repair the faulty lockers and ensure a steady supply of hot water immediately***. I believe that these steps should be taken to ***ensure a clean, safe, and pleasant environment for all members***.\n\nI hope that these issues will be addressed promptly. I look forward to hearing from you soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.\n\nTo begin with, the main problem was that ***the changing room was poorly maintained***. ***Rubbish was scattered across the floor***, which made the entire area look unhygienic and unpleasant to use. Another concern was that ***several lockers were out of order***. I was ***unable to secure my personal belongings***, which made me concerned about their safety. A further issue was that ***there was no hot water available in the showers***. I had no choice but to take a cold shower after exercising, and it was particularly uncomfortable.\n\nI was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me ***feel extremely frustrated and uncomfortable throughout my visit***.\n\nI would appreciate it if you could ***arrange for the changing room to be cleaned and inspected much more frequently throughout the day***. In addition, I strongly recommend that the management ***repair the faulty lockers and ensure a steady supply of hot water immediately***. I believe that these steps should be taken to ***ensure a clean, safe, and pleasant environment for all members***.\n\nI hope that these issues will be addressed promptly. I look forward to hearing from you soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ông/Bà,\n\nTôi viết thư này để bày tỏ sự không hài lòng với tình trạng của phòng thay đồ tại trung tâm thể thao của quý vị. Gần đây tôi đã sử dụng cơ sở này, và tôi đã thất vọng với trải nghiệm này.\n\nTrước hết, vấn đề chính là ***phòng thay đồ được giữ gìn kém***. ***Rác vương vãi khắp sàn nhà***, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng. Một mối bận tâm khác là ***một vài tủ đồ không thể sử dụng được***. Tôi ***không thể cất giữ đồ dùng cá nhân an toàn***, điều này khiến tôi lo lắng về sự an toàn của chúng. Một vấn đề nữa là ***không có nước nóng trong phòng tắm vòi sen***. Tôi không có lựa chọn nào khác ngoài việc phải tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.\n\nTôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn từ một trung tâm thể thao có uy tín. Tình trạng mất vệ sinh này khiến tôi ***cảm thấy vô cùng bực bội và khó chịu trong suốt chuyến đi***.\n\nTôi sẽ rất cảm kích nếu quý vị có thể ***sắp xếp vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn trong ngày***. Ngoài ra, tôi tha thiết đề xuất ban quản lý ***sửa chữa các tủ đồ bị hỏng và đảm bảo hệ thống nước nóng hoạt động tốt***. Tôi tin rằng các biện pháp này cần được thực hiện để ***đảm bảo một môi trường sạch sẽ, an toàn và dễ chịu cho tất cả các thành viên***.\n\nTôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.\n\nTo begin with, the main problem was that ***the changing room was poorly maintained***. ***Rubbish was scattered across the floor***, which made the entire area look unhygienic and unpleasant to use. Another concern was that ***several lockers were out of order***. I was ***unable to secure my personal belongings***, which made me concerned about their safety. A further issue was that ***there was no hot water available in the showers***. I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.\n\nI was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me ***feel extremely frustrated and uncomfortable throughout my visit***.\n\nI would appreciate it if you could ***arrange for the changing room to be cleaned and inspected much more frequently throughout the day***. In addition, I strongly recommend that the management ***repair the faulty lockers and ensure a steady supply of hot water immediately***. I believe that these steps should be taken to ***ensure a clean, safe, and pleasant environment for all members***.\n\nI hope that these issues will be addressed promptly. I look forward to hearing from you soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.\n\nTo begin with, the main problem was that ***the changing room was poorly maintained***. ***Rubbish was scattered across the floor***, which made the entire area look unhygienic and unpleasant to use. Another concern was that ***several lockers were out of order***. I was ***unable to secure my personal belongings***, which made me concerned about their safety. A further issue was that ***there was no hot water available in the showers***. I had no choice but to take a cold shower after exercising, and it was particularly uncomfortable.\n\nI was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me ***feel extremely frustrated and uncomfortable throughout my visit***.\n\nI would appreciate it if you could ***arrange for the changing room to be cleaned and inspected much more frequently throughout the day***. In addition, I strongly recommend that the management ***repair the faulty lockers and ensure a steady supply of hot water immediately***. I believe that these steps should be taken to ***ensure a clean, safe, and pleasant environment for all members***.\n\nI hope that these issues will be addressed promptly. I look forward to hearing from you soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ông/Bà,\n\nTôi viết thư này để bày tỏ sự không hài lòng với tình trạng của phòng thay đồ tại trung tâm thể thao của quý vị. Gần đây tôi đã sử dụng cơ sở này, và tôi đã thất vọng với trải nghiệm này.\n\nTrước hết, vấn đề chính là ***phòng thay đồ được giữ gìn kém***. ***Rác vương vãi khắp sàn nhà***, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng. Một mối bận tâm khác là ***một vài tủ đồ không thể sử dụng được***. Tôi ***không thể cất giữ đồ dùng cá nhân an toàn***, điều này khiến tôi lo lắng về sự an toàn của chúng. Một vấn đề nữa là ***không có nước nóng trong phòng tắm vòi sen***. Tôi không có lựa chọn nào khác ngoài việc phải tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.\n\nTôi đặc biệt thất vọng với trải nghiệm này vì tôi đã kỳ vọng mức chất lượng và dịch vụ tốt hơn từ một trung tâm thể thao có uy tín. Tình trạng mất vệ sinh này khiến tôi ***cảm thấy vô cùng bực bội và khó chịu trong suốt chuyến đi***.\n\nTôi sẽ rất cảm kích nếu quý vị có thể ***sắp xếp vệ sinh và kiểm tra phòng thay đồ thường xuyên hơn trong ngày***. Ngoài ra, tôi tha thiết đề xuất ban quản lý ***sửa chữa các tủ đồ bị hỏng và đảm bảo hệ thống nước nóng hoạt động tốt***. Tôi tin rằng các biện pháp này cần được thực hiện để ***đảm bảo một môi trường sạch sẽ, an toàn và dễ chịu cho tất cả các thành viên***.\n\nTôi hy vọng rằng những vấn đề này sẽ được giải quyết kịp thời. Tôi rất mong sớm nhận được hồi âm từ quý vị.\n\nTrân trọng,",
             "word_count": 236,
             "key_structures": [
@@ -12368,7 +12368,7 @@ const LETTERS_DATA = [
           "outline": {
             "salutation": "Dear Sir/Madam,",
             "opening": "I am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used this facility, and I was disappointed with the experience.",
-            "body_1": "To begin with, the main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use. Another concern was that several lockers were out of order. I was unable to secure my personal belongings, which made me concerned about their safety. A further issue was that there was no hot water available in the showers. I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.",
+            "body_1": "To begin with, the main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, so the entire area looked unhygienic and unpleasant to use. Another concern was that several lockers were out of order. I was unable to secure my personal belongings, so I felt very concerned about their safety. A further issue was that there was no hot water available in the showers. I had no choice but to take a cold shower after exercising, and it was particularly uncomfortable.",
             "body_2": "I was particularly disappointed with this experience because I expected a better level of quality and service from a reputable sports center. This unhygienic condition made me feel extremely frustrated and uncomfortable throughout my visit.",
             "body_3": "I would appreciate it if you could arrange for the changing room to be cleaned and inspected much more frequently throughout the day. In addition, I strongly recommend that the management repair the faulty lockers and ensure a steady supply of hot water immediately. I believe that these steps should be taken to ensure a clean, safe, and pleasant environment for all members.",
             "closing": "I hope that these issues will be addressed promptly. I look forward to hearing from you soon.",
@@ -12602,16 +12602,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Several running treadmills were out of order during peak workout hours.",
                   "action_vi": "Một số máy chạy bộ đã bị hỏng trong các khung giờ tập cao điểm.",
-                  "reason_en": "Members had to wait for more than thirty minutes, which wasted valuable exercise time.",
-                  "reason_vi": "Các hội viên phải chờ hơn ba mươi phút, điều này làm lãng phí thời gian tập luyện quý báu.",
+                  "reason_en": "Members had to wait for more than thirty minutes, and this wasted valuable exercise time.",
+                  "reason_vi": "Các hội viên phải chờ hơn ba mươi phút, và điều này làm lãng phí thời gian tập luyện quý báu.",
                   "solution_en": "I would appreciate it if you could repair or replace the broken treadmills as soon as possible.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hoặc thay thế các máy chạy bộ bị hỏng càng sớm càng tốt."
                 },
                 {
                   "action_en": "The electronic control screens on the treadmills frequently froze and stopped suddenly.",
                   "action_vi": "Màn hình điều khiển điện tử trên máy chạy bộ thường xuyên bị đơ và dừng lại đột ngột.",
-                  "reason_en": "This technical malfunction was very dangerous, which could easily cause runners to fall and get injured.",
-                  "reason_vi": "Sự cố kỹ thuật này rất nguy hiểm, điều này có thể dễ dàng khiến người chạy bị ngã và chấn thương.",
+                  "reason_en": "This technical malfunction was very dangerous, and it could easily cause runners to fall and get injured.",
+                  "reason_vi": "Sự cố kỹ thuật này rất nguy hiểm, và nó có thể dễ dàng khiến người chạy bị ngã và chấn thương.",
                   "solution_en": "I strongly recommend that the management inspect and calibrate all running machines immediately.",
                   "solution_vi": "Tôi tha thiết đề xuất ban quản lý kiểm tra và hiệu chỉnh lại toàn bộ các máy chạy bộ ngay lập tức."
                 }
@@ -12626,7 +12626,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Several weight machines had frayed cables and loose weight pins.",
                   "action_vi": "Một số máy tập tạ có dây cáp bị sờn và chốt tạ bị lỏng lẻo.",
-                  "reason_en": "I felt very unsafe while exercising, which made it impossible to complete my workout routine.",
+                  "reason_en": "I felt very unsafe while exercising, so I was unable to complete my workout routine.",
                   "reason_vi": "Tôi cảm thấy rất mất an toàn khi tập luyện, điều này khiến tôi không thể hoàn thành bài tập của mình.",
                   "solution_en": "I would appreciate it if you could replace all damaged tension cables and inspect the safety pins.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể thay thế tất cả các dây cáp bị hư hỏng và kiểm tra các chốt an toàn."
@@ -12634,7 +12634,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Many dumbbells and weight plates were rusty and scattered across the floor.",
                   "action_vi": "Nhiều quả tạ đơn và tạ đĩa bị rỉ sét và vương vãi khắp sàn nhà.",
-                  "reason_en": "It was difficult for members to find the correct weights, which created a cluttered and hazardous environment.",
+                  "reason_en": "It was difficult for members to find the correct weights, and this created a cluttered and hazardous environment.",
                   "reason_vi": "Hội viên rất khó tìm được mức tạ phù hợp, điều này tạo ra một môi trường bừa bộn và nguy hiểm.",
                   "solution_en": "I strongly recommend that staff organize the weight racks regularly and replace the rusted equipment.",
                   "solution_vi": "Tôi tha thiết đề xuất nhân viên sắp xếp giá tạ thường xuyên và thay thế các thiết bị bị rỉ sét."
@@ -12650,7 +12650,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The air conditioning system in the main workout room was not functioning properly.",
                   "action_vi": "Hệ thống điều hòa không khí trong phòng tập chính hoạt động không tốt.",
-                  "reason_en": "The room became extremely hot and stuffy, which made exercising very uncomfortable and exhausting.",
+                  "reason_en": "The room became extremely hot and stuffy, so exercising was very uncomfortable and exhausting.",
                   "reason_vi": "Căn phòng trở nên vô cùng nóng bức và bí bách, điều này khiến việc tập luyện rất khó chịu và kiệt sức.",
                   "solution_en": "I would appreciate it if you could repair the air conditioning system and improve the room ventilation.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hệ thống điều hòa và cải thiện độ thông gió của phòng."
@@ -12674,16 +12674,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The drinking water dispensers were dirty and out of cold water.",
                   "action_vi": "Các cây nước uống bị bẩn và hết nước mát.",
-                  "reason_en": "Members were unable to rehydrate properly during their workouts, which was very inconvenient.",
-                  "reason_vi": "Hội viên không thể bổ sung nước đầy đủ khi tập luyện, điều này rất bất tiện.",
+                  "reason_en": "Members were unable to rehydrate properly during their workouts, and this was very inconvenient.",
+                  "reason_vi": "Hội viên không thể bổ sung nước đầy đủ khi tập luyện, và điều này rất bất tiện.",
                   "solution_en": "I would appreciate it if you could clean the water dispensers daily and provide sufficient drinking water.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể vệ sinh cây nước hàng ngày và cung cấp đủ nước uống."
                 },
                 {
                   "action_en": "Workout mats and benches were not sanitized after use.",
                   "action_vi": "Thảm tập và ghế tập không được vệ sinh khử khuẩn sau khi sử dụng.",
-                  "reason_en": "Sweat stains remained on the leather surfaces, which made them look unhygienic and unpleasant.",
-                  "reason_vi": "Vết mồ hôi lưu lại trên bề mặt da, điều này khiến chúng trông mất vệ sinh và khó chịu.",
+                  "reason_en": "Sweat stains remained on the leather surfaces, so they looked unhygienic and unpleasant.",
+                  "reason_vi": "Vết mồ hôi lưu lại trên bề mặt da, vì vậy chúng trông mất vệ sinh và khó chịu.",
                   "solution_en": "I strongly recommend that you provide disinfectant sprays and cleaning cloths for members to use.",
                   "solution_vi": "Tôi tha thiết đề xuất quý vị trang bị thêm chai xịt khử trùng và khăn lau để hội viên sử dụng."
                 }
@@ -12698,8 +12698,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "There were no warning signs or maintenance schedules posted on the broken machines.",
                   "action_vi": "Không hề có biển cảnh báo hay thông báo lịch sửa chữa trên các máy bị hỏng.",
-                  "reason_en": "Members did not know which equipment was safe to use, which caused widespread confusion.",
-                  "reason_vi": "Hội viên không biết thiết bị nào an toàn để dùng, điều này gây ra sự bối rối cho nhiều người.",
+                  "reason_en": "Members did not know which equipment was safe to use, and this caused widespread confusion.",
+                  "reason_vi": "Hội viên không biết thiết bị nào an toàn để dùng, và điều này gây ra sự bối rối cho nhiều người.",
                   "solution_en": "I would appreciate it if you could post clear status notices and repair timelines on all faulty equipment.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể dán thông báo tình trạng rõ ràng và tiến độ sửa chữa trên các thiết bị lỗi."
                 }
@@ -12951,16 +12951,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The steak and seafood dishes were served lukewarm and undercooked.",
                   "action_vi": "Các món bít tết và hải sản được mang ra khi đã nguội và chưa chín kỹ.",
-                  "reason_en": "The meat was tough and lacked seasoning, which ruined the dining experience for my family.",
-                  "reason_vi": "Thịt bị dai và thiếu gia vị, điều này đã làm hỏng trải nghiệm bữa ăn của gia đình tôi.",
+                  "reason_en": "The meat was tough and lacked seasoning, so it ruined the dining experience for my family.",
+                  "reason_vi": "Thịt bị dai và thiếu gia vị, vì vậy nó đã làm hỏng trải nghiệm bữa ăn của gia đình tôi.",
                   "solution_en": "I would appreciate it if you could retrain your kitchen staff and ensure that all dishes are served hot.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị đào tạo lại nhân viên bếp và đảm bảo mọi món ăn được phục vụ nóng sốt."
                 },
                 {
                   "action_en": "The soup was excessively salty and the bread was stale.",
                   "action_vi": "Món súp bị quá mặn và bánh mì thì bị cũ dai.",
-                  "reason_en": "We were unable to finish our appetizers, which was very disappointing for a reputable restaurant.",
-                  "reason_vi": "Chúng tôi không thể ăn hết các món khai vị, điều này rất đáng thất vọng đối với một nhà hàng có tiếng.",
+                  "reason_en": "We were unable to finish our appetizers, and this was very disappointing for a reputable restaurant.",
+                  "reason_vi": "Chúng tôi không thể ăn hết các món khai vị, và điều này rất đáng thất vọng đối với một nhà hàng có tiếng.",
                   "solution_en": "I strongly recommend that the head chef monitor food quality more strictly before dishes leave the kitchen.",
                   "solution_vi": "Tôi tha thiết đề xuất bếp trưởng giám sát chất lượng món ăn chặt chẽ hơn trước khi mang ra cho khách."
                 }
@@ -12975,16 +12975,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "We had to wait for nearly an hour before the main courses were served.",
                   "action_vi": "Chúng tôi đã phải chờ gần một tiếng đồng hồ trước khi các món chính được mang lên.",
-                  "reason_en": "My elderly parents became very hungry and tired, which caused our evening celebration to run uncomfortably late.",
-                  "reason_vi": "Bố mẹ lớn tuổi của tôi cảm thấy rất đói và mệt, điều này khiến buổi tiệc tối của chúng tôi kéo dài quá muộn.",
+                  "reason_en": "My elderly parents became very hungry and tired. As a result, our evening celebration was delayed and ran uncomfortably late.",
+                  "reason_vi": "Bố mẹ lớn tuổi của tôi cảm thấy rất đói và mệt. Kết quả là, buổi tiệc tối của chúng tôi bị chậm trễ và kéo dài quá muộn.",
                   "solution_en": "I would appreciate it if you could improve your kitchen workflow to reduce waiting times during peak hours.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể cải thiện quy trình bếp để giảm thời gian chờ đợi vào giờ cao điểm."
                 },
                 {
                   "action_en": "Our table was not ready upon arrival despite having a confirmed reservation.",
                   "action_vi": "Bàn của chúng tôi chưa được chuẩn bị sẵn khi đến dù đã được xác nhận đặt chỗ trước.",
-                  "reason_en": "We had to stand in the crowded reception area for forty minutes, which made us feel very uncomfortable.",
-                  "reason_vi": "Chúng tôi phải đứng ở khu vực lễ tân đông đúc suốt bốn mươi phút, điều này khiến chúng tôi cảm thấy rất khó chịu.",
+                  "reason_en": "We had to stand in the crowded reception area for forty minutes, and this made us feel very uncomfortable.",
+                  "reason_vi": "Chúng tôi phải đứng ở khu vực lễ tân đông đúc suốt bốn mươi phút, và điều này khiến chúng tôi cảm thấy rất khó chịu.",
                   "solution_en": "I strongly recommend that you manage table reservations more effectively to avoid delays for guests.",
                   "solution_vi": "Tôi tha thiết đề xuất quý vị quản lý việc đặt bàn hiệu quả hơn để tránh gây chậm trễ cho thực khách."
                 }
@@ -12999,16 +12999,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Our allocated server was unhelpful and inattentive throughout the dinner.",
                   "action_vi": "Nhân viên phục vụ bàn của chúng tôi thờ ơ và thiếu nhiệt tình trong suốt bữa tối.",
-                  "reason_en": "The waiter ignored our hand gestures when we asked for water, which made us feel completely neglected.",
-                  "reason_vi": "Người phục vụ phớt lờ cử chỉ tay của chúng tôi khi gọi nước, điều này khiến chúng tôi cảm thấy hoàn toàn bị bỏ bê.",
+                  "reason_en": "The waiter ignored our hand gestures when we asked for water, so we felt completely neglected.",
+                  "reason_vi": "Người phục vụ phớt lờ cử chỉ tay của chúng tôi khi gọi nước, vì vậy chúng tôi cảm thấy hoàn toàn bị bỏ bê.",
                   "solution_en": "I would appreciate it if you could conduct customer service training for your waiting staff.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể tổ chức đào tạo kỹ năng chăm sóc khách hàng cho nhân viên phục vụ bàn."
                 },
                 {
                   "action_en": "The server showed visible annoyance when we politely complained about the cold food.",
                   "action_vi": "Nhân viên tỏ thái độ bực bội ra mặt khi chúng tôi lịch sự phàn nàn về thức ăn bị nguội.",
-                  "reason_en": "No apology was offered and our concerns were dismissed, which was unacceptable for a professional establishment.",
-                  "reason_vi": "Không hề có lời xin lỗi nào được đưa ra và phản hồi của chúng tôi bị gạt đi, điều này không thể chấp nhận được ở một nhà hàng chuyên nghiệp.",
+                  "reason_en": "No apology was offered and our concerns were dismissed, and this was unacceptable for a professional establishment.",
+                  "reason_vi": "Không hề có lời xin lỗi nào được đưa ra và phản hồi của chúng tôi bị gạt đi, và điều này không thể chấp nhận được ở một nhà hàng chuyên nghiệp.",
                   "solution_en": "I strongly recommend that management remind all staff to handle customer feedback with politeness and respect.",
                   "solution_vi": "Tôi tha thiết đề xuất ban quản lý nhắc nhở toàn bộ nhân viên phải tiếp nhận ý kiến khách hàng bằng sự lịch sự và tôn trọng."
                 }
@@ -13023,8 +13023,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The final bill included two beverage items that we did not order.",
                   "action_vi": "Hóa đơn thanh toán cuối cùng bao gồm hai món đồ uống mà chúng tôi không hề gọi.",
-                  "reason_en": "We had to spend extra time explaining the mistake at the cashier, which was quite frustrating.",
-                  "reason_vi": "Chúng tôi phải mất thêm thời gian giải thích lỗi sai tại quầy thu ngân, điều này khá bực bội.",
+                  "reason_en": "We had to spend extra time explaining the mistake at the cashier, and this was quite frustrating.",
+                  "reason_vi": "Chúng tôi phải mất thêm thời gian giải thích lỗi sai tại quầy thu ngân, và điều này khá bực bội.",
                   "solution_en": "I would appreciate it if you could refund the overcharged amount and check bills more carefully.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể hoàn trả số tiền tính thừa và kiểm tra hóa đơn cẩn thận hơn."
                 },
@@ -13103,8 +13103,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The remote control of the air conditioner was broken and could not adjust the temperature.",
                   "action_vi": "Điều khiển từ xa của máy điều hòa bị hỏng và không thể điều chỉnh được nhiệt độ.",
-                  "reason_en": "We had to sleep in a cold room with no way to turn off the fan, which made us feel exhausted.",
-                  "reason_vi": "Chúng tôi phải ngủ trong phòng lạnh mà không có cách nào tắt quạt, điều này khiến chúng tôi cảm thấy kiệt sức.",
+                  "reason_en": "We had to sleep in a cold room with no way to turn off the fan, so we felt completely exhausted.",
+                  "reason_vi": "Chúng tôi phải ngủ trong phòng lạnh mà không có cách nào tắt quạt, vì vậy chúng tôi cảm thấy hoàn toàn kiệt sức.",
                   "solution_en": "I strongly recommend that you replace all faulty remote controls and inspect room equipment before guest arrivals.",
                   "solution_vi": "Tôi tha thiết đề xuất quý vị thay thế các điều khiển bị hỏng và kiểm tra trang thiết bị phòng trước khi khách nhận phòng."
                 }
@@ -13119,16 +13119,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The bedsheets and pillowcases had visible yellow stains and smelled musty.",
                   "action_vi": "Ga trải giường và vỏ gối có vết ố vàng rõ rệt và bốc mùi ẩm mốc.",
-                  "reason_en": "It was clear that the linen had not been washed properly, which made us feel very uncomfortable.",
-                  "reason_vi": "Rõ ràng là đồ vải chưa được giặt giũ sạch sẽ, điều này khiến chúng tôi cảm thấy rất khó chịu.",
+                  "reason_en": "It was clear that the linen had not been washed properly, and this made us feel very uncomfortable.",
+                  "reason_vi": "Rõ ràng là đồ vải chưa được giặt giũ sạch sẽ, và điều này khiến chúng tôi cảm thấy rất khó chịu.",
                   "solution_en": "I would appreciate it if you could replace all stained bedsheets and enforce stricter laundry hygiene standards.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể thay mới toàn bộ ga trải giường ố bẩn và thắt chặt tiêu chuẩn vệ sinh giặt ủi."
                 },
                 {
                   "action_en": "The mattress was old and sunken in the middle.",
                   "action_vi": "Đệm giường đã quá cũ và bị lún sâu ở giữa.",
-                  "reason_en": "I suffered from severe back pain the next morning, which completely ruined my holiday mood.",
-                  "reason_vi": "Tôi bị đau lưng dữ dội vào sáng hôm sau, điều này đã phá hỏng hoàn toàn tâm trạng kỳ nghỉ của tôi.",
+                  "reason_en": "I suffered from severe back pain the next morning, and this completely ruined my holiday mood.",
+                  "reason_vi": "Tôi bị đau lưng dữ dội vào sáng hôm sau, và điều này đã phá hỏng hoàn toàn tâm trạng kỳ nghỉ của tôi.",
                   "solution_en": "I strongly recommend that the management upgrade the mattresses to ensure a comfortable sleep for guests.",
                   "solution_vi": "Tôi tha thiết đề xuất ban quản lý nâng cấp đệm giường để đảm bảo giấc ngủ thoải mái cho khách lưu trú."
                 }
@@ -13143,16 +13143,16 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The bathroom sink and shower drain were severely clogged.",
                   "action_vi": "Bồn rửa mặt và cống thoát nước phòng tắm bị nghẹt nặng.",
-                  "reason_en": "Dirty wastewater took a long time to drain away, which left an unpleasant residue on the floor.",
-                  "reason_vi": "Nước thải bẩn mất nhiều thời gian mới rút hết, điều này để lại lớp cặn bẩn khó chịu trên sàn.",
+                  "reason_en": "Dirty wastewater took a long time to drain away, so it left an unpleasant residue on the floor.",
+                  "reason_vi": "Nước thải bẩn mất nhiều thời gian mới rút hết, vì vậy nó để lại lớp cặn bẩn khó chịu trên sàn.",
                   "solution_en": "I would appreciate it if you could have the plumbing checked and cleared immediately.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể cho thợ kiểm tra và thông tắc đường ống nước ngay lập tức."
                 },
                 {
                   "action_en": "The shower head had low water pressure and no hot water in the evening.",
                   "action_vi": "Vòi hoa sen có áp lực nước yếu và không có nước nóng vào buổi tối.",
-                  "reason_en": "We were unable to take a warm shower after a long day of travel, which was very inconvenient.",
-                  "reason_vi": "Chúng tôi không thể tắm nước ấm sau một ngày dài di chuyển, điều này rất bất tiện.",
+                  "reason_en": "We were unable to take a warm shower after a long day of travel, and this was very inconvenient.",
+                  "reason_vi": "Chúng tôi không thể tắm nước ấm sau một ngày dài di chuyển, và điều này rất bất tiện.",
                   "solution_en": "I strongly recommend that you repair the water heating system to ensure a reliable hot water supply.",
                   "solution_vi": "Tôi tha thiết đề xuất quý vị sửa chữa hệ thống nước nóng để đảm bảo nguồn cung cấp nước ấm ổn định."
                 }
@@ -13167,8 +13167,8 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The in-room Wi-Fi connection was extremely weak and kept disconnecting.",
                   "action_vi": "Kết nối Wi-Fi trong phòng rất yếu và liên tục bị ngắt kết nối.",
-                  "reason_en": "I was unable to load travel itineraries or check important work emails, which caused great frustration.",
-                  "reason_vi": "Tôi không thể tải lịch trình du lịch hay kiểm tra email công việc quan trọng, điều này gây bực bội lớn.",
+                  "reason_en": "I was unable to load travel itineraries or check important work emails. As a result, this caused great frustration.",
+                  "reason_vi": "Tôi không thể tải lịch trình du lịch hay kiểm tra email công việc quan trọng. Kết quả là, điều này gây bực bội lớn.",
                   "solution_en": "I would appreciate it if you could upgrade the wireless internet system on all guest floors.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể nâng cấp hệ thống internet không dây trên tất cả các tầng phòng nghỉ."
                 }
@@ -16772,8 +16772,8 @@ const LETTERS_DATA = [
                   "reason_en": "because I was working on an urgent group project.",
                   "reason_vi": "vì tớ phải làm một bài tập nhóm gấp.",
                   "b1_sentence": "I am so sorry that I forgot to bring the book back to you because I was working on an urgent group project.",
-                  "expansion_1_en": "Our group assignment required daily meetings until 9:00 PM, which completely slipped my mind.",
-                  "expansion_1_vi": "Bài tập nhóm của bọn mình phải họp mỗi ngày tới tận 9 giờ tối, làm mình hoàn toàn đãng trí quên mất.",
+                  "expansion_1_en": "Our group assignment required daily meetings until 9:00 PM, but it completely slipped my mind.",
+                  "expansion_1_vi": "Bài tập nhóm của bọn mình phải họp mỗi ngày tới tận 9 giờ tối, nhưng mình hoàn toàn đãng trí quên mất.",
                   "expansion_2_en": "I felt terrible as soon as I spotted the novel resting on my bookshelf this morning.",
                   "expansion_2_vi": "Mình cảm thấy rất áy náy ngay khi nhìn thấy cuốn tiểu thuyết nằm trên giá sách sáng nay."
                 },

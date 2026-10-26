@@ -329,7 +329,7 @@ const B2_CATEGORY_THEORY = {
       {
         pattern: "The main problem was that …",
         meaning: "Vấn đề chính là...",
-        example: "The main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use."
+        example: "The main problem was that the changing room was poorly maintained. Rubbish was scattered across the floor, so the entire area looked unhygienic and unpleasant to use."
       },
       {
         pattern: "Another concern was that …",
@@ -1620,9 +1620,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              Rubbish was scattered across the floor, which made the entire area look unhygienic and unpleasant to use.
+              Rubbish was scattered across the floor, so the entire area looked unhygienic and unpleasant to use.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Rác vương vãi khắp sàn nhà, điều này khiến toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Rác vương vãi khắp sàn nhà, vì vậy toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.)</div>
           </div>
         </div>
         
@@ -1736,9 +1736,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I was unable to secure my personal belongings, which made me concerned about their safety.
+              I was unable to secure my personal belongings, so I felt very concerned about their safety.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, điều này khiến tôi lo lắng về sự an toàn của chúng.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể cất giữ đồ dùng cá nhân một cách an toàn, vì vậy tôi cảm thấy rất lo lắng về sự an toàn của chúng.)</div>
           </div>
         </div>
         
@@ -1787,9 +1787,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I had to wait until a locker became available, which wasted valuable time before my workout.
+              I had to wait until a locker became available, and this wasted valuable time before my workout.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải chờ đến khi có tủ trống, điều này làm lãng phí thời gian quý báu trước buổi tập.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải chờ đến khi có tủ trống, và điều này làm lãng phí thời gian quý báu trước buổi tập.)</div>
           </div>
         </div>
         
@@ -1852,9 +1852,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I was unable to take a shower after exercising, which made it inconvenient to freshen up before leaving the center.
+              I was unable to take a shower after exercising, so it was very inconvenient to freshen up before leaving the center.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể tắm sau khi tập luyện, khiến việc vệ sinh cơ thể trước khi rời trung tâm trở nên bất tiện.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể tắm sau khi tập luyện, vì vậy rất bất tiện để vệ sinh cơ thể trước khi rời trung tâm.)</div>
           </div>
         </div>
         
@@ -1903,9 +1903,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I had no choice but to take a cold shower after exercising, which was particularly uncomfortable.
+              I had no choice but to take a cold shower after exercising, and it was particularly uncomfortable.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, điều này đặc biệt khó chịu.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không còn lựa chọn nào khác ngoài việc tắm nước lạnh sau khi tập luyện, và điều này đặc biệt khó chịu.)</div>
           </div>
         </div>
         
@@ -1968,9 +1968,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              The changing room was poorly lit, which made it difficult for members to move around safely.
+              The changing room was poorly lit, so it was difficult for members to move around safely.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Phòng thay đồ thiếu ánh sáng, điều này khiến các thành viên khó di chuyển an toàn.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Phòng thay đồ thiếu ánh sáng, vì vậy các thành viên gặp khó khăn khi di chuyển an toàn.)</div>
           </div>
         </div>
         
@@ -2135,9 +2135,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I was unable to hang my clothes properly, which made it difficult to keep my belongings neat and organized.
+              I was unable to hang my clothes properly, and this made it difficult to keep my belongings neat and organized.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể treo quần áo đúng cách, điều này khiến việc giữ đồ đạc gọn gàng và ngăn nắp trở nên khó khăn.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể treo quần áo gọn gàng, và điều này khiến việc giữ đồ đạc ngăn nắp trở nên khó khăn.)</div>
           </div>
         </div>
         
@@ -2251,9 +2251,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I had to stand while changing my clothes, which was particularly inconvenient when the room was crowded.
+              I had to stand while changing my clothes, and this was particularly inconvenient when the room was crowded.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải đứng khi thay quần áo, điều này đặc biệt bất tiện khi phòng đông người.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải đứng khi thay quần áo, và điều này đặc biệt bất tiện khi phòng đông người.)</div>
           </div>
         </div>
         
@@ -2548,9 +2548,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I was unable to dry my hair after taking a shower, which was inconvenient before heading home or going to work.
+              I was unable to dry my hair after taking a shower, so it was inconvenient before heading home or going to work.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể sấy khô tóc sau khi tắm, điều này gây bất tiện trước khi về nhà hoặc đi làm.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể sấy khô tóc sau khi tắm, vì vậy rất bất tiện trước khi về nhà hoặc đi làm.)</div>
           </div>
         </div>
         
@@ -2599,9 +2599,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I had to wait in a queue for a long time, which delayed my departure from the sports center.
+              I had to wait in a queue for a long time, and this delayed my departure from the sports center.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải xếp hàng chờ trong một thời gian dài, khiến tôi rời trung tâm thể thao muộn hơn.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải xếp hàng chờ trong một thời gian dài, và điều này làm chậm trễ giờ rời trung tâm của tôi.)</div>
           </div>
         </div>
         
@@ -2664,9 +2664,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I was unable to wash my hands properly, which raised concerns about basic hygiene in the facility.
+              I was unable to wash my hands properly, and this raised concerns about basic hygiene in the facility.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể rửa tay đúng cách, điều này làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không thể rửa tay đúng cách, và điều này làm dấy lên lo ngại về vấn đề vệ sinh cơ bản tại cơ sở.)</div>
           </div>
         </div>
         
@@ -2715,7 +2715,7 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I had no convenient way to dry my hands after washing them, which made the facilities less practical to use.
+              I had no convenient way to dry my hands after washing them, so the facilities felt less practical to use.
             </div>
             <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi không có cách thuận tiện để lau khô tay sau khi rửa, khiến các tiện ích kém thuận tiện hơn khi sử dụng.)</div>
           </div>
@@ -2780,7 +2780,7 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              Rubbish had accumulated around the bins, which made the changing room look unhygienic and unpleasant.
+              Rubbish had accumulated around the bins, so the changing room looked unhygienic and unpleasant.
             </div>
             <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Rác tích tụ xung quanh thùng, điều này khiến phòng thay đồ trông mất vệ sinh và gây cảm giác khó chịu.)</div>
           </div>
@@ -2831,9 +2831,9 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              This made the area look messy and unhygienic, which created a negative impression of the sports center.
+              The bins were completely full, and this created a very negative impression of the sports center.
             </div>
-            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Điều này khiến khu vực trông bừa bộn và mất vệ sinh, tạo ấn tượng tiêu cực về trung tâm thể thao.)</div>
+            <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Các thùng rác đã đầy ứ, và điều này tạo ra một ấn tượng rất tiêu cực về trung tâm thể thao.)</div>
           </div>
         </div>
         
@@ -3063,7 +3063,7 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              The smell spread to the surrounding area, which made the entire section unpleasant to use.
+              The smell spread to the surrounding area, so the entire section was unpleasant to use.
             </div>
             <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Mùi này lan ra khu vực xung quanh, điều này khiến toàn bộ khu vực trở nên khó chịu khi sử dụng.)</div>
           </div>
