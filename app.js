@@ -5029,6 +5029,8 @@ function buildIdeasCardsHtml(ideas, isCompact, catKey) {
             let copySentences = [];
             if (actEn) copySentences.push(actEn.endsWith('.') ? actEn : actEn + '.');
             if (rsnEn) copySentences.push(rsnEn.endsWith('.') ? rsnEn : rsnEn + '.');
+            const pairText = copySentences.join(' ').replace(/'/g, "\\'");
+
             if (exp1En) copySentences.push(exp1En.endsWith('.') ? exp1En : exp1En + '.');
             if (exp2En) copySentences.push(exp2En.endsWith('.') ? exp2En : exp2En + '.');
             const fullCopyText = copySentences.join(' ').replace(/'/g, "\\'");
@@ -5082,10 +5084,15 @@ function buildIdeasCardsHtml(ideas, isCompact, catKey) {
                 ` : ''}
 
                 <!-- Action Footer -->
-                <div class="idea-card-footer">
-                  <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${fullCopyText}')" style="font-size: 0.75rem; padding: 0.25rem 0.65rem;" title="Sao chép toàn bộ câu này vào bài viết">
-                    <i class="fa-solid fa-copy"></i> Sao chép ý
+                <div class="idea-card-footer" style="display: flex; gap: 0.4rem; justify-content: flex-end; flex-wrap: wrap; margin-top: 0.45rem;">
+                  <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${pairText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--cyan-light); border-color: var(--cyan-border);" title="Sao chép cặp câu chính (Ý chính + Lý do/Mô tả)">
+                    <i class="fa-solid fa-copy"></i> Chép Cặp câu chính
                   </button>
+                  ${(exp1En || exp2En) ? `
+                    <button type="button" class="btn btn-secondary btn-sm" onclick="copyIdeaText('${fullCopyText}')" style="font-size: 0.74rem; padding: 0.25rem 0.65rem; color: var(--violet-light); border-color: var(--violet-border);" title="Sao chép toàn bộ câu này kèm theo câu mở rộng">
+                      <i class="fa-solid fa-circle-plus"></i> Chép kèm Câu mở rộng
+                    </button>
+                  ` : ''}
                 </div>
               </div>
             `;
