@@ -1388,19 +1388,29 @@ strong, b {
   font-size: 1.08rem;
   line-height: 1.85;
   color: var(--text-primary);
-  text-align: left !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
+  word-spacing: normal;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .sample-letter-text .sample-p {
   margin-bottom: 1.15rem;
-  text-align: left !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
   line-height: 1.85;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .sample-letter-text .sample-p-salutation {
   font-weight: 600;
   margin-bottom: 1.15rem;
   text-align: left !important;
+  text-align-last: left !important;
 }
 
 .sample-letter-text .sample-p-signoff {
@@ -1408,6 +1418,7 @@ strong, b {
   margin-top: 1.25rem;
   margin-bottom: 0.35rem;
   text-align: left !important;
+  text-align-last: left !important;
 }
 
 .sample-trans-text {
@@ -1417,19 +1428,28 @@ strong, b {
   margin-top: 1.75rem;
   padding-top: 1.5rem;
   border-top: 1px dashed var(--panel-border);
-  text-align: left !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .sample-trans-text .sample-trans-p {
   margin-bottom: 1.05rem;
-  text-align: left !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
   line-height: 1.8;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .sample-trans-text .sample-trans-salutation {
   font-weight: 600;
   margin-bottom: 1.05rem;
   text-align: left !important;
+  text-align-last: left !important;
 }
 
 .sample-trans-text .sample-trans-signoff {
@@ -1437,6 +1457,14 @@ strong, b {
   margin-top: 1.2rem;
   margin-bottom: 0.35rem;
   text-align: left !important;
+  text-align-last: left !important;
+}
+
+#sampleLetterEnBody,
+#sampleLetterViBody {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
 }
 
 /* ==========================================================================
