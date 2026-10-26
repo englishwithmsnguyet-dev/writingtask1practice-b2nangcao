@@ -391,15 +391,30 @@ function isTeacherAccount() {
   );
 }
 
-function updateSidebarCategoryLockUI() {
-  const isTeacher = isTeacherAccount();
+function isCategoryLocked(catKey) {
+  // Giáo viên: Mở toàn bộ 100% tất cả 07 dạng thư
+  if (isTeacherAccount()) return false;
 
-  LOCKED_CATEGORIES_FOR_STUDENTS.forEach((catKey) => {
+  // Học viên Gia Tuệ: Được mở khóa Dạng 01 (Advice), Dạng 02 (Request), Dạng 03 (Description) và Dạng 04 (Complaint)
+  if (isGiaTueAccount()) {
+    return LOCKED_CATEGORIES_FOR_GIATUE.includes(catKey);
+  }
+
+  // Học viên khác: Tạm khóa từ Dạng 03 đến Dạng 07 (chỉ mở Dạng 01 và 02)
+  return LOCKED_CATEGORIES_FOR_STUDENTS.includes(catKey);
+}
+
+function updateSidebarCategoryLockUI() {
+  const allCategories = ['advice', 'request', 'description', 'complaint', 'feedback', 'apology', 'application'];
+
+  allCategories.forEach((catKey) => {
     const navLink = document.getElementById(`nav-cat-${catKey}`);
     if (!navLink) return;
 
     let lockBadge = navLink.querySelector('.cat-lock-indicator');
-    if (!isTeacher) {
+    const locked = isCategoryLocked(catKey);
+
+    if (locked) {
       navLink.classList.add('nav-cat-locked');
       if (!lockBadge) {
         lockBadge = document.createElement('span');
