@@ -1279,7 +1279,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "take part in street food discovery walks around the Old Quarter",
                   "action_vi": "tham gia các chuyến đi bộ khám phá ẩm thực đường phố quanh Phố Cổ",
-                  "reason_en": "because tasting iconic street dishes is the most authentic way to experience local culinary life.",
+                  "reason_en": "because tasting iconic street dishes is the best way to experience local food culture.",
                   "reason_vi": "vì thưởng thức các món ăn đường phố là cách chân thực nhất để trải nghiệm đời sống ẩm thực.",
                   "expansion_1_en": "Sitting on low plastic stools with classmates to sip iced tea and enjoy crispy banh goi is delightful.",
                   "expansion_1_vi": "Ngồi trên những chiếc ghế nhựa thấp cùng bạn học nhâm nhi trà đá và thưởng thức bánh gối giòn rụm thật thú vị.",
@@ -1355,13 +1355,13 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Thói quen đơn giản này giúp tránh những bối rối không đáng có khi đi xe ôm vào lúc đêm muộn."
                 },
                 {
-                  "action_en": "stroll around pedestrian streets and Hoan Kiem Lake on Sunday mornings",
+                  "action_en": "walk around pedestrian streets and Hoan Kiem Lake on Sunday mornings",
                   "action_vi": "dạo bộ quanh phố đi bộ và Hồ Hoàn Kiếm vào các buổi sáng Chủ nhật",
                   "reason_en": "because the roads are closed to vehicles, providing a fresh and pleasant walking atmosphere.",
                   "reason_vi": "vì đường phố cấm xe cơ giới, tạo nên không gian đi bộ trong lành và dễ chịu.",
                   "expansion_1_en": "You can watch street artists paint, join folk games like tug-of-war, and listen to live acoustic bands.",
                   "expansion_1_vi": "Bạn có thể xem các nghệ sĩ đường phố vẽ tranh, tham gia trò chơi dân gian như kéo co và nghe nhạc acoustic sống động.",
-                  "expansion_2_en": "Strolling in the car-free zone provides the ideal backdrop to unwind and snap artistic photos.",
+                  "expansion_2_en": "Walking in the pedestrian zone provides an ideal setting to relax and take nice photos.",
                   "expansion_2_vi": "Tản bộ trong không gian phố đi bộ tạo nên bối cảnh lý tưởng để xả hơi và chụp những bức ảnh nghệ thuật."
                 },
                 {
@@ -1421,7 +1421,7 @@ const LETTERS_DATA = [
                   "action_vi": "ở khách sạn gần bến Ninh Kiều",
                   "reason_en": "because it is convenient to take morning boat tours and walk along the river.",
                   "reason_vi": "vì rất thuận tiện để đi tour thuyền buổi sáng và dạo bộ ngắm cảnh ven sông.",
-                  "expansion_1_en": "You can wake up early to catch the morning river breeze and stroll along the scenic riverside park.",
+                  "expansion_1_en": "You can wake up early to catch the morning river breeze and walk along the scenic riverside park.",
                   "expansion_1_vi": "Bạn có thể thức dậy sớm để đón gió sông ban mai và tản bộ dọc công viên bờ sông thơ mộng.",
                   "expansion_2_en": "This area is also packed with bustling night stalls and traditional folk food vendors.",
                   "expansion_2_vi": "Khu vực này cũng tập trung rất nhiều quầy hàng đêm nhộn nhịp và các gánh hàng ẩm thực dân gian truyền thống."
@@ -1599,7 +1599,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì đây là thiền viện lớn và thanh tịnh nhất vùng với kiến trúc gỗ lim bề thế.",
                   "expansion_1_en": "It features majestic Buddhist temples built in traditional Ly and Tran dynasty architectural styles.",
                   "expansion_1_vi": "Nơi đây sở hữu các tòa chánh điện trang nghiêm được xây dựng theo phong cách kiến trúc thời Lý - Trần.",
-                  "expansion_2_en": "Strolling through the quiet gardens surrounded by lotus ponds brings a deep sense of peace.",
+                  "expansion_2_en": "Walking through the quiet gardens surrounded by lotus ponds brings a deep sense of peace.",
                   "expansion_2_vi": "Tản bộ qua những khu vườn tĩnh lặng bao quanh bởi ao sen mang lại sự thanh tịnh sâu lắng cho tâm hồn."
                 },
                 {
@@ -3058,7 +3058,7 @@ const LETTERS_DATA = [
                   "action_vi": "tớ thường đi tàu điện buổi sáng đi làm",
                   "reason_en": "because the train always runs on time and has air conditioning.",
                   "reason_vi": "bởi vì tàu luôn chạy đúng giờ và có điều hòa mát mẻ.",
-                  "expansion_1_en": "The train station is only a two-minute stroll from my apartment lobby, so bad weather never bothers me.",
+                  "expansion_1_en": "The train station is only a two-minute walk from my apartment lobby, so bad weather never bothers me.",
                   "expansion_1_vi": "Ga tàu điện chỉ cách sảnh căn hộ 2 phút đi bộ, vì vậy mưa nắng thất thường chẳng hề làm mình bận tâm.",
                   "expansion_2_en": "I can sit back comfortably, read morning news on my tablet, and arrive at the office completely unstressed.",
                   "expansion_2_vi": "Mình có thể thảnh thơi ngồi đọc báo buổi sáng trên máy tính bảng và đến văn phòng với tâm trạng rất sảng khoái."
@@ -3078,7 +3078,7 @@ const LETTERS_DATA = [
                   "action_vi": "tớ có thể đi bộ đi làm vào những ngày nắng đẹp",
                   "reason_en": "because my apartment is only one kilometer away from the office.",
                   "reason_vi": "bởi vì căn hộ của tớ chỉ cách văn phòng đúng một cây số.",
-                  "expansion_1_en": "Strolling along tree-lined pavements in the early morning breeze provides refreshing cardiovascular exercise.",
+                  "expansion_1_en": "Walking along tree-lined streets in the early morning breeze provides great light exercise.",
                   "expansion_1_vi": "Tản bộ dọc theo vỉa hè rợp bóng cây dưới làn gió sớm mai đem lại bài tập thể dục tim mạch sảng khoái.",
                   "expansion_2_en": "It wakes up my mind and puts me in an energized, positive mood before heading into meetings.",
                   "expansion_2_vi": "Nó đánh thức tinh thần và tiếp thêm năng lượng tích cực cho mình trước khi bước vào các cuộc họp."
@@ -3659,7 +3659,7 @@ const LETTERS_DATA = [
                   "action_vi": "cậu có thể ghé thăm Lễ hội Biển Nha Trang vào tháng Sáu",
                   "reason_en": "because hundreds of exciting water sports competitions take place on the bay.",
                   "reason_vi": "bởi vì hàng trăm cuộc thi thể thao dưới nước hấp dẫn diễn ra trên vịnh.",
-                  "expansion_1_en": "The seaside festival features beach volleyball competitions, yacht parades, and vibrant culinary showcases.",
+                  "expansion_1_en": "The seaside festival features beach volleyball competitions, yacht parades, and exciting food stalls.",
                   "expansion_1_vi": "Lễ hội biển gồm các giải đấu bóng chuyền bãi biển, diễu hành du thuyền và hội chợ ẩm thực đặc sắc.",
                   "expansion_2_en": "You can sample grilled lobster and freshly caught seafood at festive beachside food courts.",
                   "expansion_2_vi": "Bạn có thể thưởng thức tôm hùm nướng và hải sản tươi rói tại các khu ẩm thực náo nhiệt ngay sát bờ biển."
@@ -4262,7 +4262,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì lỗi chính tả làm cho áp phích trông cẩu thả và giảm điểm bài tập của nhóm.",
                   "expansion_1_en": "Read all headlines aloud with your team to catch overlooked typing slips and missing punctuation marks.",
                   "expansion_1_vi": "Hãy cùng cả nhóm đọc to toàn bộ tiêu đề để phát hiện những lỗi gõ sót hay dấu câu bị thiếu.",
-                  "expansion_2_en": "Flawless grammar and spelling demonstrate thorough diligence, earning maximum presentation marks.",
+                  "expansion_2_en": "Good grammar and spelling show great care and effort, helping us earn high presentation marks.",
                   "expansion_2_vi": "Ngữ pháp và chính tả không tì vết thể hiện sự cẩn trọng tỉ mỉ, giúp bạn giành điểm thuyết trình tối đa."
                 }
               ]
@@ -4656,9 +4656,9 @@ const LETTERS_DATA = [
                   "action_vi": "cậu có thể đặt các chậu dương xỉ nhỏ trên nóc các kệ sách",
                   "reason_en": "because fresh green leaves bring refreshing natural beauty into the shop.",
                   "reason_vi": "bởi vì lá cây xanh tươi mang lại vẻ đẹp tự nhiên mát mẻ cho cửa hàng.",
-                  "expansion_1_en": "Trailing ivy plants and small potted succulents soften rigid wooden shelf corners with vibrant organic life.",
+                  "expansion_1_en": "Small potted plants and green vines make the wooden bookshelves look fresh and lively.",
                   "expansion_1_vi": "Những giò thường xuân buông rủ và chậu sen đá nhỏ làm mềm đi những góc kệ gỗ cứng nhắc bằng sức sống tự nhiên.",
-                  "expansion_2_en": "Greenery also improves indoor air quality, making the shop feel clean and rejuvenating.",
+                  "expansion_2_en": "Green plants also improve indoor air quality, making the shop feel clean and relaxing.",
                   "expansion_2_vi": "Cây xanh cũng thanh lọc không khí trong phòng, khiến hiệu sách luôn có cảm giác thanh sạch và tươi mới."
                 },
                 {
@@ -4716,7 +4716,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì việc tích đủ dấu khuyến khích khách hàng tiếp tục mua cuốn sách tiếp theo tại đây.",
                   "expansion_1_en": "Offer a free paperback or a special tote bag once a customer collects ten bookstore ink stamps.",
                   "expansion_1_vi": "Tặng một cuốn sách bìa mềm hoặc túi vải xinh xắn khi khách hàng tích lũy đủ 10 con dấu của tiệm sách.",
-                  "expansion_2_en": "This simple loyalty mechanism turns casual one-time visitors into dedicated regular patrons.",
+                  "expansion_2_en": "This simple loyalty card turns casual visitors into regular customers.",
                   "expansion_2_vi": "Cơ chế tích điểm đơn giản này sẽ biến những khách vãng lai thành những bạn đọc thân thiết thường xuyên."
                 },
                 {
@@ -4782,7 +4782,7 @@ const LETTERS_DATA = [
                   "action_vi": "cậu nên ghi nhớ tên của những khách hàng quen trong khu phố",
                   "reason_en": "because personal greetings make visitors feel like close family friends.",
                   "reason_vi": "bởi vì lời chào đích danh khiến khách hàng cảm thấy thân tình như bạn bè trong nhà.",
-                  "expansion_1_en": "Greeting a returning patron with 'Welcome back, Mr. Hai!' makes them feel genuinely valued as a community member.",
+                  "expansion_1_en": "Greeting a returning customer with 'Welcome back, Mr. Hai!' makes them feel genuinely welcome and valued.",
                   "expansion_1_vi": "Chào đón một khách quen bằng câu 'Chào mừng chú Hải quay lại tiệm ạ!' khiến họ thấy mình được trân trọng.",
                   "expansion_2_en": "Remembering their favorite reading interests allows you to alert them whenever exciting new editions arrive.",
                   "expansion_2_vi": "Ghi nhớ gu đọc của họ cho phép bạn thông báo ngay mỗi khi tiệm nhập về những đầu sách mới hấp dẫn."
@@ -5100,7 +5100,7 @@ const LETTERS_DATA = [
                   "action_vi": "Xin vui lòng cho tôi biết địa chỉ chính xác của trung tâm?",
                   "reason_en": "This is because a convenient location would help me save time and attend classes regularly.",
                   "reason_vi": "Điều này là vì vị trí thuận tiện sẽ giúp tôi tiết kiệm thời gian và tham gia lớp học đều đặn.",
-                  "expansion_1_en": "I would like to check whether your culinary studio is close to a metro station or public bus stop.",
+                  "expansion_1_en": "I would like to check whether your cooking studio is close to a metro station or public bus stop.",
                   "expansion_1_vi": "Tôi muốn kiểm tra xem xưởng dạy nấu ăn của trung tâm có gần ga tàu điện hay điểm dừng xe buýt không.",
                   "expansion_2_en": "A conveniently located kitchen will help me commute easily even on hot summer afternoons.",
                   "expansion_2_vi": "Một gian bếp tọa lạc ở vị trí thuận tiện sẽ giúp tôi đi lại dễ dàng ngay cả trong những chiều hè nắng nóng."
@@ -5112,7 +5112,7 @@ const LETTERS_DATA = [
                   "reason_vi": "Thực tế, tôi muốn trực tiếp đến trung tâm để kiểm tra cơ sở vật chất và xem liệu môi trường học tập có đáp ứng mong đợi của mình hay không.",
                   "expansion_1_en": "I hope to inspect the spaciousness of individual cooking stations and the modern kitchen appliances provided.",
                   "expansion_1_vi": "Tôi hy vọng có thể trực tiếp quan sát độ rộng rãi của từng bàn bếp nấu và các thiết bị làm bếp hiện đại được trang bị.",
-                  "expansion_2_en": "Seeing a clean and professional culinary setup will give me total confidence before officially registering.",
+                  "expansion_2_en": "Seeing a clean and professional cooking space will give me total confidence before officially registering.",
                   "expansion_2_vi": "Tận mắt thấy không gian nấu nướng sạch sẽ và chuyên nghiệp sẽ cho tôi sự an tâm tuyệt đối trước khi chính thức đăng ký."
                 },
                 {
@@ -5179,7 +5179,7 @@ const LETTERS_DATA = [
                   "action_vi": "Tôi muốn hỏi về chi phí của chương trình đào tạo.",
                   "reason_en": "The main reason is that I want to choose a course that offers good value for money without putting too much pressure on my budget.",
                   "reason_vi": "Lý do chính là tôi muốn chọn một khóa học có chất lượng tương xứng với chi phí mà không gây quá nhiều áp lực lên ngân sách.",
-                  "expansion_1_en": "I am comparing various culinary academies in town to find the highest standard of hands-on practice.",
+                  "expansion_1_en": "I am comparing various cooking schools in town to find the best hands-on practice.",
                   "expansion_1_vi": "Tôi đang so sánh nhiều học viện ẩm thực trong thành phố để tìm nơi có tiêu chuẩn thực hành cao nhất.",
                   "expansion_2_en": "A reasonably priced course with generous workstation time offers the best return on my investment.",
                   "expansion_2_vi": "Một khóa học giá cả hợp lý với nhiều thời lượng đứng bếp thực tế sẽ đem lại giá trị học tập xứng đáng nhất."
@@ -5191,7 +5191,7 @@ const LETTERS_DATA = [
                   "reason_vi": "Điều này là vì ưu đãi dành cho sinh viên sẽ giúp tôi giảm chi phí và khiến khóa học trở nên vừa túi tiền hơn.",
                   "expansion_1_en": "I would like to inquire if showing a valid student ID card entitles me to an early-bird discount.",
                   "expansion_1_vi": "Tôi muốn hỏi xem liệu việc xuất trình thẻ sinh viên còn hạn có giúp tôi nhận được ưu đãi giảm giá sớm không.",
-                  "expansion_2_en": "Any promotional tuition discount would make this culinary training much more accessible for me.",
+                  "expansion_2_en": "Any promotional tuition discount would make this cooking course much more affordable for me.",
                   "expansion_2_vi": "Bất kỳ sự ưu đãi giảm học phí nào cũng sẽ giúp khóa học nấu ăn này trở nên vừa tầm với tôi hơn rất nhiều."
                 },
                 {
@@ -5220,7 +5220,7 @@ const LETTERS_DATA = [
                   "reason_vi": "Điều này là vì giáo viên có kinh nghiệm có thể giải thích những điểm khó một cách rõ ràng và giúp học viên tránh các lỗi thường gặp.",
                   "expansion_1_en": "I would love to know if the instructors are certified professional chefs or seasoned restaurant managers.",
                   "expansion_1_vi": "Tôi rất muốn biết liệu các giảng viên đứng lớp có phải là đầu bếp chuyên nghiệp được cấp chứng chỉ hay quản lý nhà hàng lâu năm không.",
-                  "expansion_2_en": "Learning from veteran culinary masters will ensure that students grasp authentic food hygiene and knife skills.",
+                  "expansion_2_en": "Learning from experienced chefs will ensure that students learn good food hygiene and basic knife skills.",
                   "expansion_2_vi": "Học hỏi từ những bậc thầy ẩm thực giàu kinh nghiệm sẽ đảm bảo học viên nắm vững vệ sinh an toàn thực phẩm và kỹ năng dùng dao chuẩn xác."
                 },
                 {
@@ -5230,15 +5230,15 @@ const LETTERS_DATA = [
                   "reason_vi": "Thực tế, tôi sẽ cảm thấy tự tin hơn nếu giáo viên đưa ra phản hồi hữu ích và khuyến khích học viên tham gia vào các hoạt động trên lớp.",
                   "expansion_1_en": "It would be great to know whether chefs provide step-by-step demonstrations and personalized plating tips.",
                   "expansion_1_vi": "Sẽ thật tuyệt nếu được biết các đầu bếp có làm mẫu từng bước và tận tình hướng dẫn cách trình bày món ăn đẹp mắt không.",
-                  "expansion_2_en": "Constructive culinary feedback during cooking rounds helps beginners correct seasoning balance immediately.",
+                  "expansion_2_en": "Helpful feedback during cooking practice helps beginners adjust their seasonings immediately.",
                   "expansion_2_vi": "Những nhận xét ẩm thực tận tâm trong từng công đoạn nấu sẽ giúp người mới bắt đầu điều chỉnh gia vị chuẩn xác ngay lập tức."
                 },
                 {
                   "action_en": "Could you clarify whether the instructors are certified executive chefs or experienced cooking teachers?",
                   "action_vi": "Bạn có thể làm rõ giáo viên là các đầu bếp chuyên nghiệp hay giảng viên nấu ăn giàu kinh nghiệm không?",
-                  "reason_en": "The main reason is that I want to learn authentic cooking techniques and improve my culinary skills through professional guidance.",
+                  "reason_en": "The main reason is that I want to learn authentic cooking techniques and improve my cooking skills through professional guidance.",
                   "reason_vi": "Lý do chính là tôi muốn học các kỹ thuật nấu ăn chuẩn mực và nâng cao tay nghề thông qua sự hướng dẫn chuyên nghiệp.",
-                  "expansion_1_en": "I would be interested to learn about the chefs' international awards or signature culinary styles.",
+                  "expansion_1_en": "I would be interested to learn about the chefs' teaching experience and cooking styles.",
                   "expansion_1_vi": "Tôi rất quan tâm tìm hiểu về các giải thưởng quốc tế hoặc phong cách ẩm thực đặc trưng của đội ngũ đầu bếp.",
                   "expansion_2_en": "Their professional kitchen experience will inspire students to explore both traditional and modern cooking techniques.",
                   "expansion_2_vi": "Kinh nghiệm bếp núc chuyên nghiệp của các thầy cô sẽ truyền cảm hứng cho học viên khám phá cả kỹ thuật nấu truyền thống lẫn hiện đại."
@@ -5248,7 +5248,7 @@ const LETTERS_DATA = [
                   "action_vi": "Tôi quan tâm đến việc giảng viên hỗ trợ học viên như thế nào trong quá trình học tập.",
                   "reason_en": "This is because a friendly learning environment would make it easier for me to ask questions and practise speaking without feeling embarrassed.",
                   "reason_vi": "Điều này là vì một môi trường học tập thân thiện sẽ giúp tôi dễ dàng đặt câu hỏi và luyện nói mà không cảm thấy ngại ngùng.",
-                  "expansion_1_en": "A welcoming and patient chef makes it easy for complete novices to ask questions about delicate culinary techniques.",
+                  "expansion_1_en": "A welcoming and patient chef makes it easy for beginners to ask questions about basic cooking techniques.",
                   "expansion_1_vi": "Một đầu bếp cởi mở và kiên nhẫn sẽ giúp những học viên mới tinh dễ dàng đặt câu hỏi về các kỹ thuật nấu nướng tinh tế.",
                   "expansion_2_en": "An encouraging kitchen atmosphere ensures that everyone feels enthusiastic about attempting complex recipes.",
                   "expansion_2_vi": "Bầu không khí gian bếp đầy khích lệ đảm bảo mọi người đều hào hứng thử sức với các công thức chế biến phức tạp."
@@ -5309,7 +5309,7 @@ const LETTERS_DATA = [
                   "reason_vi": "Điều này là vì một chương trình đào tạo phù hợp sẽ giúp tôi xây dựng sự tự tin và sử dụng tiếng Anh hiệu quả hơn trong giao tiếp hằng ngày.",
                   "expansion_1_en": "I would be interested to know whether the course teaches food presentation skills and proper dining etiquette.",
                   "expansion_1_vi": "Tôi muốn biết liệu khóa học có giảng dạy nghệ thuật bài trí món ăn thẩm mỹ và nghi thức phục vụ bàn tiệc không.",
-                  "expansion_2_en": "These polished culinary skills will enable me to confidently host memorable dinner parties for my family.",
+                  "expansion_2_en": "These practical cooking skills will enable me to confidently cook delicious meals for my family.",
                   "expansion_2_vi": "Những kỹ năng ẩm thực chỉn chu này sẽ cho phép tôi tự tin tổ chức những bữa tiệc tối đáng nhớ cho gia đình."
                 },
                 {
@@ -5317,9 +5317,9 @@ const LETTERS_DATA = [
                   "action_vi": "Tôi muốn đảm bảo rằng giáo trình khóa học phù hợp với trình độ hiện tại của mình.",
                   "reason_en": "This would help me follow the lessons more easily and make steady progress throughout the semester.",
                   "reason_vi": "Điều này sẽ giúp tôi theo kịp bài giảng dễ dàng hơn và đạt được sự tiến bộ đều đặn trong suốt khóa học.",
-                  "expansion_1_en": "Does the program award an official certificate of completion upon finishing the final culinary practical exam?",
+                  "expansion_1_en": "Does the program award an official certificate of completion upon finishing the final practical exam?",
                   "expansion_1_vi": "Chương trình có cấp giấy chứng nhận hoàn thành khóa học chính thức sau khi học viên vượt qua bài kiểm tra thực hành cuối khóa không?",
-                  "expansion_2_en": "A recognized culinary qualification will serve as a valuable credential if I pursue hospitality careers.",
+                  "expansion_2_en": "A recognized certificate will serve as a useful credential if I pursue careers in the restaurant industry.",
                   "expansion_2_vi": "Một chứng chỉ ẩm thực được công nhận sẽ là điểm cộng giá trị nếu tôi theo đuổi sự nghiệp trong ngành nhà hàng khách sạn."
                 }
               ]
@@ -5804,7 +5804,7 @@ const LETTERS_DATA = [
                   "action_vi": "hỏi tốc độ giảng dạy từ vựng và ngữ pháp của khóa học tiến triển nhanh hay chậm",
                   "reason_en": "because a steady, well-paced curriculum ensures thorough understanding without feeling rushed.",
                   "reason_vi": "vì một tiến độ vừa phải sẽ giúp học viên hiểu bài thấu đáo mà không bị ngợp kiến thức.",
-                  "expansion_1_en": "When does the next beginner cohort officially start so I can prepare my registration?",
+                  "expansion_1_en": "When does the next beginner class officially start so I can prepare my registration?",
                   "expansion_1_vi": "Khóa mới cho người bắt đầu khi nào chính thức khai giảng để mình chuẩn bị đăng ký kịp thời?",
                   "expansion_2_en": "Signing up promptly ensures I can secure a seat in my preferred evening time slot.",
                   "expansion_2_vi": "Đăng ký sớm đảm bảo mình giữ được chỗ vào đúng khung giờ buổi tối yêu thích nhất."
@@ -5992,7 +5992,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Could you clarify whether the instructors are certified executive chefs or experienced cooking teachers?",
                   "action_vi": "Bạn có thể làm rõ giáo viên là các đầu bếp chuyên nghiệp hay giảng viên nấu ăn giàu kinh nghiệm không?",
-                  "reason_en": "The main reason is that I want to learn authentic cooking techniques and improve my culinary skills through professional guidance.",
+                  "reason_en": "The main reason is that I want to learn authentic cooking techniques and improve my cooking skills through professional guidance.",
                   "reason_vi": "Lý do chính là tôi muốn học các kỹ thuật nấu ăn chuẩn mực và nâng cao tay nghề thông qua sự hướng dẫn chuyên nghiệp.",
                   "expansion_1_en": "Native speakers provide genuine cultural nuances and authentic colloquial expressions.",
                   "expansion_1_vi": "Giáo viên bản ngữ cung cấp những sắc thái văn hóa chân thực và các thành ngữ giao tiếp đời thường.",
@@ -7029,10 +7029,10 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Hỏi thời lượng & Lịch học linh hoạt",
               "vi": "Bên cạnh việc cân nhắc học phí, tôi muốn tìm hiểu xem liệu thời lượng ba tháng có đủ để tích lũy lượng từ vựng cần thiết cho kỳ thi HSK hay không, đồng thời liệu trung tâm có cung cấp lịch học buổi tối linh hoạt phù hợp với lịch trình làm việc bận rộn của tôi.",
-              "en": "Besides considering the tuition fee, I would like to ascertain whether a three-month course duration is sufficient to acquire the vocabulary required for the HSK exam, and whether the center provides flexible evening schedules compatible with my busy working timetable.",
+              "en": "Besides considering the tuition fee, I would like to find out whether a three-month course duration is sufficient to acquire the vocabulary required for the HSK exam, and whether the center provides flexible evening schedules compatible with my busy working timetable.",
               "vocab_hints": [
                 {
-                  "en": "ascertain whether",
+                  "en": "find out whether",
                   "vi": "tìm hiểu xem liệu rằng"
                 },
                 {
@@ -7052,7 +7052,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Từ vựng 'ascertain' và 'compatible' giúp nâng band điểm Lexical Resource."
+              "criteria_tip": "Từ vựng rõ ràng, tự nhiên giúp diễn đạt mong muốn chuẩn xác."
             }
           ],
           "sample_b1": {
@@ -8147,7 +8147,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Nhận tấm huy chương kỷ niệm từ ban tổ chức như phần thưởng ngọt ngào cho chuỗi ngày miệt mài luyện tập."
                 },
                 {
-                  "action_en": "the panoramic view from the mountain summit was truly spectacular",
+                  "action_en": "the wide view from the mountain summit was truly spectacular",
                   "action_vi": "khung cảnh bao la nhìn từ đỉnh núi xuống thực sự ngoạn mục và thơ mộng",
                   "reason_en": "because the spectacular view helped me forget all my tiredness.",
                   "reason_vi": "khiến mọi giọt mồ hôi và sự nhức mỏi trên đường đua đều trở nên hoàn toàn xứng đáng.",
@@ -8263,7 +8263,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Sự góp mặt của bạn cũng sẽ truyền cảm hứng cho các thành viên mới tự tin bứt phá giới hạn của mình."
                 },
                 {
-                  "action_en": "taking part in this weekend tour will offer a rejuvenating escape from academic pressures",
+                  "action_en": "taking part in this weekend tour will offer a relaxing break from academic pressures",
                   "action_vi": "tham gia chuyến đi này sẽ là dịp tuyệt vời để giải tỏa căng thẳng sau những tuần học tập bận rộn",
                   "reason_en": "because this helps giv you renewed vitality and inspiration for the upcoming semester.",
                   "reason_vi": "giúp cậu nạp lại năng lượng và cảm hứng cho kỳ học mới sắp tới.",
@@ -8460,7 +8460,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Miêu tả không gian B2",
               "vi": "Căn hộ tràn ngập ánh sáng tự nhiên nhờ những khung cửa sổ kính suốt từ trần đến sàn, tạo ra bầu không khí thanh bình lý tưởng cho việc học tập.",
-              "en": "The apartment is bathed in generous daylight courtesy of floor-to-ceiling glass windows, cultivating a serene sanctuary ideal for intensive study.",
+              "en": "The apartment is filled with bright natural light from large windows, creating a quiet and comfortable study space.",
               "hints": [
                 "bathed in generous daylight",
                 "floor-to-ceiling glass windows",
@@ -8495,9 +8495,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Helen,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about my new house near the university campus, so I’d like to share some information with you.\n\nTo begin with, the property is situated in a tranquil residential quarter, merely a brief stroll from the central campus library. This prime location completely eliminates commuting hassles and allows me to maximize my study schedule.\n\nSecondly, the house features a spacious open-concept living area, two comfortable bedrooms, and a fully equipped kitchen with contemporary amenities.\n\nNext, there is a charming rooftop terrace filled with potted flowers and herbs, creating a serene sanctuary to unwind after intensive seminars.\n\nFinally, the local community is remarkably secure and welcoming, with reputable cafes, grocery markets, and bookstores readily available within short walking distance.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear Helen,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about my new house near the university campus, so I’d like to share some information with you.\n\nTo begin with, the property is situated in a tranquil residential quarter, merely a brief stroll from the central campus library. This prime location completely eliminates commuting hassles and allows me to maximize my study schedule.\n\nSecondly, the house features a spacious open-concept living area, two comfortable bedrooms, and a fully equipped kitchen with contemporary amenities.\n\nNext, there is a charming rooftop terrace filled with potted flowers and herbs, creating a peaceful place to unwind after long study hours.\n\nFinally, the local community is remarkably secure and welcoming, with reputable cafes, grocery markets, and bookstores readily available within short walking distance.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "letter_vi": "Helen thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu có hỏi tớ về căn nhà mới gần trường đại học, vì vậy tớ muốn chia sẻ một vài thông tin với cậu.\n\nTrước hết, ngôi nhà nằm trong một khu dân cư yên tĩnh, chỉ cách thư viện trung tâm của trường vài bước đi bộ. Vị trí đắc địa này hoàn toàn loại bỏ những phiền toái khi đi lại và giúp tớ tối ưu hóa thời gian học tập.\n\nThứ hai, ngôi nhà sở hữu không gian phòng khách mở rộng rãi, hai phòng ngủ tiện nghi và một căn bếp hiện đại đầy đủ tiện ích.\n\nTiếp theo, trên sân thượng có một khoảng ban công xinh xắn phủ đầy hoa cỏ, tạo nên một không gian thư thái để nghỉ ngơi sau những giờ học căng thẳng.\n\nCuối cùng, khu dân cư xung quanh vô cùng an ninh và thân thiện, có các quán cà phê yên tĩnh, siêu thị thực phẩm và hiệu sách chỉ cách vài bước chân.\n\nTớ hy vọng cậu thấy những chia sẻ này hữu ích. Cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
-            "text": "Dear Helen,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about my new house near the university campus, so I’d like to share some information with you.\n\nTo begin with, the property is situated in a tranquil residential quarter, merely a brief stroll from the central campus library. This prime location completely eliminates commuting hassles and allows me to maximize my study schedule.\n\nSecondly, the house features a spacious open-concept living area, two comfortable bedrooms, and a fully equipped kitchen with contemporary amenities.\n\nNext, there is a charming rooftop terrace filled with potted flowers and herbs, creating a serene sanctuary to unwind after intensive seminars.\n\nFinally, the local community is remarkably secure and welcoming, with reputable cafes, grocery markets, and bookstores readily available within short walking distance.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "text": "Dear Helen,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about my new house near the university campus, so I’d like to share some information with you.\n\nTo begin with, the property is situated in a tranquil residential quarter, merely a brief stroll from the central campus library. This prime location completely eliminates commuting hassles and allows me to maximize my study schedule.\n\nSecondly, the house features a spacious open-concept living area, two comfortable bedrooms, and a fully equipped kitchen with contemporary amenities.\n\nNext, there is a charming rooftop terrace filled with potted flowers and herbs, creating a peaceful place to unwind after long study hours.\n\nFinally, the local community is remarkably secure and welcoming, with reputable cafes, grocery markets, and bookstores readily available within short walking distance.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "translation": "Helen thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu có hỏi tớ về căn nhà mới gần trường đại học, vì vậy tớ muốn chia sẻ một vài thông tin với cậu.\n\nTrước hết, ngôi nhà nằm trong một khu dân cư yên tĩnh, chỉ cách thư viện trung tâm của trường vài bước đi bộ. Vị trí đắc địa này hoàn toàn loại bỏ những phiền toái khi đi lại và giúp tớ tối ưu hóa thời gian học tập.\n\nThứ hai, ngôi nhà sở hữu không gian phòng khách mở rộng rãi, hai phòng ngủ tiện nghi và một căn bếp hiện đại đầy đủ tiện ích.\n\nTiếp theo, trên sân thượng có một khoảng ban công xinh xắn phủ đầy hoa cỏ, tạo nên một không gian thư thái để nghỉ ngơi sau những giờ học căng thẳng.\n\nCuối cùng, khu dân cư xung quanh vô cùng an ninh và thân thiện, có các quán cà phê yên tĩnh, siêu thị thực phẩm và hiệu sách chỉ cách vài bước chân.\n\nTớ hy vọng cậu thấy những chia sẻ này hữu ích. Cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
             "word_count": 156,
             "key_structures": [
@@ -8663,7 +8663,7 @@ const LETTERS_DATA = [
               "icon": "fa-seedling",
               "options": [
                 {
-                  "action_en": "there is a charming balcony on the second floor adorned with potted plants and flowering herbs",
+                  "action_en": "there is a charming balcony on the second floor filled with potted plants and flowers",
                   "action_vi": "tầng hai có một ban công xinh xắn phủ đầy các chậu cây cảnh và hoa thơm",
                   "reason_en": "because watering the plants helps me reduce stress after class.",
                   "reason_vi": "chăm sóc vườn cây xanh giúp tớ giải tỏa căng thẳng sau những giờ học dài.",
@@ -9678,7 +9678,7 @@ const LETTERS_DATA = [
                   "action_vi": "mình vẽ một giá sách gỗ cao đầy những cuốn tiểu thuyết thú vị ở trong góc",
                   "reason_en": "because reading books at home is my favorite leisure activity.",
                   "reason_vi": "vì đọc sách tại nhà là sở thích thư giãn yêu thích nhất của mình.",
-                  "expansion_1_en": "I meticulously drew rows of colorful book spines alongside a tiny vintage desk clock.",
+                  "expansion_1_en": "I carefully drew rows of colorful book spines alongside a small vintage desk clock.",
                   "expansion_1_vi": "Mình đã cẩn thận vẽ từng dãy gáy sách rực rỡ bên cạnh một chiếc đồng hồ để bàn cổ điển nhỏ nhắn.",
                   "expansion_2_en": "It highlights my personal intellectual haven where I spend quiet evenings unwinding after classes.",
                   "expansion_2_vi": "Nó làm nổi bật góc trời tri thức riêng tư, nơi mình tận hưởng những buổi tối yên tĩnh sau giờ học."
@@ -10454,7 +10454,7 @@ const LETTERS_DATA = [
                   "action_vi": "ôm ấp cún trên ghế sofa giúp xua tan mọi mệt mỏi học tập của tớ",
                   "reason_en": "because his soft warmth gives me great peace of mind.",
                   "reason_vi": "bởi vì hơi ấm mềm mại của chú mang lại cho tớ sự bình yên tuyệt vời.",
-                  "expansion_1_en": "His amusing antics and joyful welcoming bounces melt away all my fatigue after strenuous tests.",
+                  "expansion_1_en": "His playful antics and joyful welcoming bounces melt away all my fatigue after tiring exams.",
                   "expansion_1_vi": "Những trò nghịch ngợm đáng yêu và màn đón chào nhảy tâng tâng xua tan mọi mệt mỏi sau các bài thi áp lực.",
                   "expansion_2_en": "Playing fetch with him in the courtyard provides the most relaxing mental break imaginable.",
                   "expansion_2_vi": "Chơi trò ném bóng cùng bé ngoài sân mang lại khoảng thời gian giải tỏa tâm trí tuyệt vời nhất."
@@ -13021,7 +13021,7 @@ const LETTERS_DATA = [
               "icon": "fa-receipt",
               "options": [
                 {
-                  "action_en": "The final bill included two beverage items that we did not order.",
+                  "action_en": "The final bill included two drink items that we did not order.",
                   "action_vi": "Hóa đơn thanh toán cuối cùng bao gồm hai món đồ uống mà chúng tôi không hề gọi.",
                   "reason_en": "We had to spend extra time explaining the mistake at the cashier, and this was quite frustrating.",
                   "reason_vi": "Chúng tôi phải mất thêm thời gian giải thích lỗi sai tại quầy thu ngân, và điều này khá bực bội.",
@@ -14293,7 +14293,7 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Exquisite food taste & festive party decor",
+              "title_en": "1. Delicious food taste & festive party decor",
               "title_vi": "Chất lượng món ăn ngon & trang trí tiệc đẹp",
               "icon": "fa-cake-candles",
               "options": [
@@ -14304,7 +14304,7 @@ const LETTERS_DATA = [
                   "reason_vi": "nhận được nhiều lời khen ngợi từ tất cả các khách mời trong suốt bữa tiệc.",
                   "expansion_1_en": "The broth had a rich, natural sweetness infused with aromatic herbs that delighted everyone.",
                   "expansion_1_vi": "Nước dùng có vị ngọt thanh tự nhiên hòa quyện với các loại thảo mộc dậy mùi thơm khiến ai cũng tấm tắc.",
-                  "expansion_2_en": "Several relatives complimented the culinary team on the authentic flavors of the broth.",
+                  "expansion_2_en": "Several relatives complimented the kitchen staff on the authentic flavors of the soup.",
                   "expansion_2_vi": "Nhiều người thân trong gia đình tôi đã dành lời khen ngợi cho đội ngũ bếp về hương vị đậm đà nguyên bản."
                 },
                 {
@@ -14376,7 +14376,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Khoảng lặng bất tiện này đã làm gián đoạn nhịp điệu rôm rả sôi nổi của bữa tiệc mừng sinh nhật."
                 },
                 {
-                  "action_en": "additional beverage orders and side dishes took over twenty minutes to arrive at our table",
+                  "action_en": "additional drink orders and side dishes took over twenty minutes to arrive at our table",
                   "action_vi": "đồ uống gọi thêm và các món ăn kèm mất hơn 20 phút mới được mang ra bàn",
                   "reason_en": "because we had to wait too long just to get extra drinks.",
                   "reason_vi": "gây ra sự bất tiện không đáng có khi mọi người đang háo hức nâng ly chúc mừng.",
@@ -14686,7 +14686,7 @@ const LETTERS_DATA = [
                   "reason_vi": "mang lại khởi đầu tuyệt vời cho mỗi ngày du lịch.",
                   "expansion_1_en": "The pho noodle soup station and freshly baked croissants were outstanding highlights each morning.",
                   "expansion_1_vi": "Quầy phở bò nóng hổi và những chiếc bánh sừng bò mới nướng là điểm nhấn tuyệt hảo vào mỗi sớm mai.",
-                  "expansion_2_en": "Offering diverse culinary options energizes guests for long days of coastal sightseeing.",
+                  "expansion_2_en": "Offering diverse dining choices helps guests stay energized for sightseeing.",
                   "expansion_2_vi": "Việc cung cấp thực đơn đa dạng mang lại nguồn năng lượng dồi dào cho du khách suốt ngày dài khám phá bờ biển."
                 },
                 {
@@ -14706,7 +14706,7 @@ const LETTERS_DATA = [
                   "reason_vi": "gây khó khăn khi xem video hoặc giải quyết công việc trực tuyến.",
                   "expansion_1_en": "The wireless signal dropped repeatedly while we were attempting to participate in an urgent video conference.",
                   "expansion_1_vi": "Tín hiệu mạng không dây liên tục bị chập chờn ngắt quãng khi chúng tôi đang cố tham gia cuộc họp trực tuyến khẩn.",
-                  "expansion_2_en": "Reliable internet connectivity is an indispensable requirement for today's remote-working travelers.",
+                  "expansion_2_en": "Reliable internet access is an essential requirement for today's travelers.",
                   "expansion_2_vi": "Kết nối internet ổn định là yêu cầu tối cần thiết đối với du khách làm việc từ xa ngày nay."
                 },
                 {
@@ -15157,17 +15157,17 @@ const LETTERS_DATA = [
                   "action_vi": "nhìn chung tôi rất hài lòng với món ăn ngon và không gian thanh lịch",
                   "reason_en": "because it created a memorable dining evening with my family.",
                   "reason_vi": "điều này đã tạo nên một bữa tối đáng nhớ bên gia đình tôi.",
-                  "expansion_1_en": "Every culinary course was artfully presented and infused with remarkably balanced seasonings.",
+                  "expansion_1_en": "Every dish was nicely presented and had well-balanced seasonings.",
                   "expansion_1_vi": "Mỗi món ăn đều được bài trí đầy tính nghệ thuật và nêm nếm gia vị vô cùng cân đối, tròn vị.",
                   "expansion_2_en": "The warm atmosphere and attentive service made our anniversary dinner genuinely memorable.",
                   "expansion_2_vi": "Không gian ấm cúng cùng sự phục vụ ân cần đã khiến bữa tối kỷ niệm của chúng tôi thực sự đáng nhớ."
                 },
                 {
-                  "action_en": "I was generally pleased with the culinary quality, though service speed needs refinement",
+                  "action_en": "I was generally pleased with the food quality, though service speed needs improvement",
                   "action_vi": "tôi nhìn chung hài lòng với chất lượng món ăn, dù tốc độ phục vụ cần hoàn thiện thêm",
                   "reason_en": "because I want to give you some helpful advice to attract more customers.",
                   "reason_vi": "đưa ra ý kiến xây dựng giúp nhà hàng mới ngày càng phát triển.",
-                  "expansion_1_en": "The culinary craftsmanship is undeniable, though meal pacing needs careful streamlining.",
+                  "expansion_1_en": "The food quality is undeniable, though the serving speed needs to be faster.",
                   "expansion_1_vi": "Tay nghề ẩm thực của đầu bếp là không thể phủ nhận, dù nhịp độ lên món cần được tinh chỉnh thêm.",
                   "expansion_2_en": "Fine-tuning service flow will enable your restaurant to establish itself as a premier dining destination.",
                   "expansion_2_vi": "Hoàn thiện quy trình phục vụ sẽ giúp nhà hàng khẳng định vị thế như một điểm đến ẩm thực hàng đầu."
@@ -15225,7 +15225,7 @@ const LETTERS_DATA = [
                   "action_vi": "món cá hồi nướng và mì hải sản được chế biến hoàn hảo với hương vị đậm đà",
                   "reason_en": "because the head chef cooked every dish with great care and skill.",
                   "reason_vi": "thể hiện tay nghề xuất sắc của bếp trưởng.",
-                  "expansion_1_en": "The salmon fillet possessed a wonderfully crisp skin while remaining succulent and buttery inside.",
+                  "expansion_1_en": "The salmon fillet had a wonderfully crispy skin while remaining tender and juicy inside.",
                   "expansion_1_vi": "Miếng cá hồi phi lê có lớp da giòn rụm tuyệt vời trong khi phần thịt bên trong vẫn mọng nước và béo ngậy.",
                   "expansion_2_en": "The creamy garlic pasta paired with fresh clams was seasoned to absolute perfection.",
                   "expansion_2_vi": "Món mì Ý sốt kem tỏi dùng kèm ngao tươi được nêm nếm hoàn hảo không một điểm chê."
@@ -15335,7 +15335,7 @@ const LETTERS_DATA = [
                   "reason_vi": "giúp việc đến và về của khách hàng thuận tiện, dễ dàng.",
                   "expansion_1_en": "Arranging validated parking at a nearby garage would resolve parking anxieties for drivers.",
                   "expansion_1_vi": "Liên kết gửi xe có hỗ trợ phí tại bãi đỗ gần đó sẽ giải tỏa hoàn toàn nỗi lo đỗ xe cho các tài xế.",
-                  "expansion_2_en": "Effortless arrival and departure logistics encourage patrons to dine more frequently.",
+                  "expansion_2_en": "Convenient parking and smooth arrival encourage customers to dine more frequently.",
                   "expansion_2_vi": "Khâu đến và về thuận tiện sẽ khuyến khích thực khách ghé nhà hàng dùng bữa thường xuyên hơn."
                 },
                 {
@@ -15345,7 +15345,7 @@ const LETTERS_DATA = [
                   "reason_vi": "mang đến cho khách quen những trải nghiệm ẩm thực mới mẻ.",
                   "expansion_1_en": "Rotating seasonal tasting menus featuring fresh catches keeps returning food enthusiasts intrigued.",
                   "expansion_1_vi": "Đổi mới thực đơn theo mùa với các mẻ hải sản tươi mới sẽ luôn thu hút sự tò mò của những người sành ăn.",
-                  "expansion_2_en": "Creative culinary showcases give regular patrons an enticing reason to revisit every month.",
+                  "expansion_2_en": "Special seasonal dishes give regular customers a good reason to revisit every month.",
                   "expansion_2_vi": "Những nét chấm phá ẩm thực sáng tạo mang đến cho khách quen lý do hấp dẫn để quay lại mỗi tháng."
                 }
               ]
@@ -15980,7 +15980,7 @@ const LETTERS_DATA = [
                   "action_vi": "em vô cùng ân hận vì đã lỡ hạn chót nộp bài và hoàn toàn nhận trách nhiệm về mình",
                   "reason_en": "because this helps know that my delay has disrupted your grading schedule and course evaluation timeline.",
                   "reason_vi": "vì biết sự chậm trễ này đã làm ảnh hưởng đến tiến độ chấm bài và đánh giá khóa học của thầy.",
-                  "expansion_1_en": "I recognize that grading dozens of extensive student papers requires enormous time and meticulous focus.",
+                  "expansion_1_en": "I recognize that grading dozens of student papers requires a lot of time and careful focus.",
                   "expansion_1_vi": "Em hiểu rằng việc chấm hàng chục bài nghiên cứu dài đòi hỏi rất nhiều thời gian và sự tập trung cao độ.",
                   "expansion_2_en": "I am truly remorseful for placing an unnecessary administrative burden on your busy schedule.",
                   "expansion_2_vi": "Em vô cùng hối hận vì đã gây thêm gánh nặng hành chính không đáng có cho lịch làm việc bận rộn của thầy."
@@ -16012,7 +16012,7 @@ const LETTERS_DATA = [
                   "reason_vi": "do lúc đó em quá hoảng loạn và thức trắng đêm tìm cách cứu vãn dữ liệu bị hỏng.",
                   "expansion_1_en": "In my anxiety, I focused all my energy on visiting night repair shops rather than sending a courtesy email.",
                   "expansion_1_vi": "Trong cơn bối rối lo lắng, em đã dồn toàn bộ tâm trí đi tìm tiệm cứu dữ liệu đêm thay vì gửi email xin phép trước.",
-                  "expansion_2_en": "I now realize that communicating difficulties proactively is an indispensable professional skill.",
+                  "expansion_2_en": "I now realize that communicating difficulties early is an essential professional skill.",
                   "expansion_2_vi": "Giờ đây em nhận ra rằng việc chủ động trao đổi về khó khăn là một kỹ năng làm việc chuyên nghiệp không thể thiếu."
                 },
                 {
@@ -16156,7 +16156,7 @@ const LETTERS_DATA = [
                   "action_vi": "kính mong thầy xem xét chấp nhận bài nộp muộn này để đánh giá kết quả môn học",
                   "reason_en": "because your academic guidance and evaluation mean an immense deal to my academic progress.",
                   "reason_vi": "vì sự đánh giá và chỉ dẫn học thuật của thầy có ý nghĩa vô cùng to lớn đối với việc học của em.",
-                  "expansion_1_en": "Receiving your constructive feedback is paramount to my academic and intellectual growth this semester.",
+                  "expansion_1_en": "Receiving your constructive feedback is very important for my academic progress this semester.",
                   "expansion_1_vi": "Nhận được những lời nhận xét mang tính xây dựng của thầy là điều vô cùng quý giá cho sự tiến bộ của em.",
                   "expansion_2_en": "I would be immensely thankful if you could find time in your busy schedule to evaluate my paper.",
                   "expansion_2_vi": "Em sẽ vô cùng cảm kích nếu thầy có thể dành chút thời gian quý báu để đọc và đánh giá bài của em."
@@ -16165,7 +16165,7 @@ const LETTERS_DATA = [
             },
             {
               "id": 4,
-              "title_en": "4. Commitment to academic diligence & prevention",
+              "title_en": "4. Commitment to academic effort & improvement",
               "title_vi": "Cam kết kỷ luật học tập & rút kinh nghiệm",
               "icon": "fa-certificate",
               "options": [
@@ -16194,7 +16194,7 @@ const LETTERS_DATA = [
                   "action_vi": "em sẽ cập nhật tiến độ hàng tuần đều đặn trong dự án khóa luận tốt nghiệp sắp tới",
                   "reason_en": "so that my academic supervisors can monitor my developmental milestones seamlessly.",
                   "reason_vi": "để thầy cô hướng dẫn có thể theo dõi từng chặng phát triển của đề tài một cách sát sao.",
-                  "expansion_1_en": "I deeply value your exceptional mentorship and am eager to prove my diligence in the upcoming exam.",
+                  "expansion_1_en": "I deeply value your guidance and am eager to prove my dedication in the upcoming exam.",
                   "expansion_1_vi": "Em rất trân trọng sự hướng dẫn tận tình của thầy và khao khát chứng minh sự nỗ lực trong kỳ thi sắp tới.",
                   "expansion_2_en": "I will strive to achieve outstanding results to regain your confidence in my academic dedication.",
                   "expansion_2_vi": "Em sẽ phấn đấu đạt kết quả xuất sắc nhất để lấy lại niềm tin của thầy đối với tinh thần học tập của em."
@@ -16463,7 +16463,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "we are profoundly sorry that your ordered dinner arrived lukewarm and unsatisfactory",
                   "action_vi": "chúng tôi vô cùng lấy làm tiếc khi bữa tối giao đến phòng bị nguội và không ngon miệng",
-                  "reason_en": "because our guests always deserve steaming, freshly prepared culinary perfection.",
+                  "reason_en": "because our guests always deserve warm, freshly prepared quality food.",
                   "reason_vi": "vì quý khách luôn xứng đáng được thưởng thức những món ăn nóng hổi và thơm ngon chuẩn vị.",
                   "expansion_1_en": "Receiving cold entrees after an agonizing wait ruins the entire in-room dining experience.",
                   "expansion_1_vi": "Nhận những món ăn nguội ngắt sau chuỗi thời gian chờ mệt mỏi đã phá hỏng hoàn toàn trải nghiệm dùng bữa.",
@@ -16493,7 +16493,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "please accept our heartfelt apologies for the distress caused to you and your family",
                   "action_vi": "xin quý khách vui lòng chấp nhận lời xin lỗi sâu sắc về những phiền toái đã gây ra cho gia đình",
-                  "reason_en": "because this helps know how important a peaceful holiday getaway is to our valued patrons.",
+                  "reason_en": "because we understand how important a relaxing holiday getaway is to our valued guests.",
                   "reason_vi": "vì chúng tôi thấu hiểu một kỳ nghỉ bình yên có ý nghĩa quan trọng như thế nào đối với quý khách.",
                   "expansion_1_en": "Vacations are precious opportunities for families to unwind, recharge, and create lasting memories.",
                   "expansion_1_vi": "Kỳ nghỉ là dịp quý báu để các gia đình thư giãn, tái tạo năng lượng và lưu giữ những kỷ niệm đẹp.",
@@ -16529,7 +16529,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Quá trình di chuyển bộ đột xuất này tất yếu làm thức ăn bị giảm nhiệt trên đường mang tới phòng."
                 },
                 {
-                  "action_en": "two key senior culinary supervisors were unexpectedly absent due to sudden medical emergencies",
+                  "action_en": "two key senior kitchen supervisors were unexpectedly absent due to sudden health problems",
                   "action_vi": "hai bếp trưởng giám sát ca trực bất ngờ vắng mặt do các trường hợp cấp cứu y tế gia đình",
                   "reason_en": "because this helps lead to communication lapses between the order desk and cooking stations.",
                   "reason_vi": "dẫn đến sự phối hợp thiếu nhịp nhàng giữa bộ phận nhận đơn và các bàn nấu ăn.",
@@ -16561,7 +16561,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "we recognize that these internal challenges offer no justification for sub-par guest service",
                   "action_vi": "chúng tôi hiểu rằng những trục trặc nội bộ này không thể biện minh cho chất lượng phục vụ kém",
-                  "reason_en": "because our patrons rightfully expect impeccable standards regardless of operational pressures.",
+                  "reason_en": "because our customers rightfully expect high service standards regardless of busy periods.",
                   "reason_vi": "vì quý khách luôn có quyền kỳ vọng vào tiêu chuẩn phục vụ hoàn hảo nhất dù khách sạn có bận rộn.",
                   "expansion_1_en": "Regardless of internal challenges, our guests should never bear the consequences of operational pressures.",
                   "expansion_1_vi": "Dù có bất kỳ khó khăn nội bộ nào, quý khách cũng tuyệt đối không phải gánh chịu hậu quả từ sự quá tải đó.",
@@ -16611,7 +16611,7 @@ const LETTERS_DATA = [
                   "action_vi": "một quản lý chất lượng ca trực hiện được bố trí túc trực thường xuyên tại bếp trong giờ cao điểm",
                   "reason_en": "in order to inspect each room service tray personally before it departs the kitchen.",
                   "reason_vi": "để đích thân kiểm tra từng khay đồ ăn trước khi rời khỏi khu vực nhà bếp.",
-                  "expansion_1_en": "The duty manager will inspect tray presentation, drink garnishes, and correct condiments meticulously.",
+                  "expansion_1_en": "The duty manager will carefully inspect tray presentation and correct condiments before serving.",
                   "expansion_1_vi": "Quản lý trực ca sẽ kiểm tra tỉ mỉ cách bài trí khay, đồ uống đi kèm và các loại gia vị chuẩn xác.",
                   "expansion_2_en": "This final checkpoint prevents missing items and guarantees immaculate fine-dining elegance.",
                   "expansion_2_vi": "Chốt kiểm tra cuối cùng này ngăn ngừa việc thiếu đồ và đảm bảo tính thẩm mỹ chuẩn mực của bữa ăn."
@@ -16649,7 +16649,7 @@ const LETTERS_DATA = [
                   "action_vi": "chúng tôi đã xóa bỏ toàn bộ chi phí bữa tối và dịch vụ phòng khỏi hóa đơn thanh toán của quý khách",
                   "reason_en": "because an immediate gesture of our desire to make amends for the inconvenience.",
                   "reason_vi": "như một hành động thiết thực ngay lập tức để bù đắp cho những phiền toái đã xảy ra.",
-                  "expansion_1_en": "The full cost of the food and beverage order has been credited back to your payment card.",
+                  "expansion_1_en": "The full cost of the food and drink order has been refunded back to your payment card.",
                   "expansion_1_vi": "Toàn bộ chi phí của đơn đồ ăn và thức uống đã được hoàn trả lại vào thẻ thanh toán của quý khách.",
                   "expansion_2_en": "We hope this immediate waiver demonstrates our sincere desire to take complete accountability.",
                   "expansion_2_vi": "Chúng tôi hy vọng việc miễn trừ lập tức này thể hiện mong muốn chân thành của chúng tôi trong việc nhận trách nhiệm."
@@ -16657,7 +16657,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "please accept our complimentary dining voucher for two at our Michelin-selected rooftop restaurant",
                   "action_vi": "xin quý khách vui lòng nhận voucher bữa tối miễn phí cho hai người tại nhà hàng tầng thượng sang trọng",
-                  "reason_en": "so that we may have the privilege of treating you to a truly exceptional culinary experience.",
+                  "reason_en": "so that we may have the opportunity to offer you a wonderful dining experience.",
                   "reason_vi": "để chúng tôi có cơ hội được đón tiếp quý khách với một trải nghiệm ẩm thực thực sự hoàn hảo.",
                   "expansion_1_en": "Our head sommelier will curate a private wine pairing tailored specifically to your taste preferences.",
                   "expansion_1_vi": "Chuyên gia rượu vang của chúng tôi sẽ thiết kế riêng một thực đơn rượu kết hợp đúng theo khẩu vị của quý khách.",
@@ -18299,7 +18299,7 @@ const LETTERS_DATA = [
                   "action_vi": "tôi đánh giá cao những phản hồi trung thực của bà về nhân viên buồng phòng",
                   "reason_en": "because your comments help us realize our operational weak points.",
                   "reason_vi": "bởi vì những ý kiến đóng góp của bà giúp chúng tôi nhận ra các thiếu sót trong khâu vận hành.",
-                  "expansion_1_en": "Constructive feedback from discerning patrons is vital for identifying operational blind spots.",
+                  "expansion_1_en": "Constructive feedback from valued guests is vital for identifying service weaknesses.",
                   "expansion_1_vi": "Những phản hồi chân thành từ các khách hàng tinh tế là yếu tố sống còn để chúng tôi nhận diện thiếu sót.",
                   "expansion_2_en": "Your specific observations have provided the impetus for an immediate management review.",
                   "expansion_2_vi": "Những nhận xét chi tiết của bà đã thúc đẩy ban giám đốc tiến hành cuộc rà soát vận hành ngay lập tức."
@@ -18309,7 +18309,7 @@ const LETTERS_DATA = [
                   "action_vi": "chúng tôi thấu hiểu nỗi thất vọng của bà về món ăn tối bị nguội lạnh",
                   "reason_en": "because dining quality should always meet our five-star standards.",
                   "reason_vi": "bởi vì chất lượng ẩm thực lẽ ra luôn phải đạt đúng tiêu chuẩn năm sao của chúng tôi.",
-                  "expansion_1_en": "Delivering lukewarm culinary courses contradicts our five-star fine dining reputation.",
+                  "expansion_1_en": "Delivering cold or lukewarm dishes goes against our high dining standards.",
                   "expansion_1_vi": "Phục vụ các món ăn nguội ngắt hoàn toàn đi ngược lại danh tiếng ẩm thực 5 sao của chúng tôi.",
                   "expansion_2_en": "We sincerely apologize for the frustration and hunger this service breakdown caused you.",
                   "expansion_2_vi": "Chúng tôi xin chân thành xin lỗi vì sự bực bội và cảm giác đói bụng mà sự cố này đã gây ra cho bà."
@@ -18353,7 +18353,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Bà có thể dùng mã định danh này để đối soát với ngân hàng nếu có bất kỳ thắc mắc nào phát sinh."
                 },
                 {
-                  "action_en": "I have waived all room service and beverage charges from your invoice",
+                  "action_en": "I have waived all room service and drink charges from your invoice",
                   "action_vi": "tôi đã miễn toàn bộ chi phí dịch vụ phòng và đồ uống trên hóa đơn của bà",
                   "reason_en": "because we want to relieve any lingering dissatisfaction from your stay.",
                   "reason_vi": "bởi vì chúng tôi muốn giải tỏa mọi sự không hài lòng còn đọng lại sau chuyến đi.",
@@ -18445,17 +18445,17 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì chúng tôi hy vọng được trực tiếp chứng minh những đổi mới dịch vụ thực sự của mình.",
                   "expansion_1_en": "The certificate entitles you to two nights in our ocean-facing suite, valid for twelve months.",
                   "expansion_1_vi": "Phiếu quà tặng cho phép bà nghỉ dưỡng hai đêm tại phòng suite hướng biển, có giá trị trong vòng mười hai tháng.",
-                  "expansion_2_en": "We would be honored to show you our true culinary and hospitality standard firsthand.",
+                  "expansion_2_en": "We would be pleased to show you our true food and hospitality standards in person.",
                   "expansion_2_vi": "Chúng tôi rất vinh hạnh được trực tiếp chứng minh đẳng cấp phục vụ và ẩm thực đích thực cho bà."
                 },
                 {
                   "action_en": "we have enclosed a free dinner voucher for two at our rooftop restaurant",
                   "action_vi": "chúng tôi xin gửi kèm một phiếu ăn tối miễn phí cho hai người tại nhà hàng tầng thượng",
-                  "reason_en": "because we wish to treat you to an unforgettable culinary experience.",
+                  "reason_en": "because we wish to offer you a memorable dining experience.",
                   "reason_vi": "bởi vì chúng tôi mong muốn được thết đãi bà một trải nghiệm ẩm thực khó quên.",
                   "expansion_1_en": "The rooftop voucher includes a four-course degustation menu prepared by our master chef.",
                   "expansion_1_vi": "Phiếu ăn tại tầng thượng bao gồm thực đơn nếm thử bốn món thượng hạng do bếp trưởng đích thân thực hiện.",
-                  "expansion_2_en": "We hope this exquisite culinary experience will create delightful new memories for your family.",
+                  "expansion_2_en": "We hope this wonderful dining experience will create pleasant memories for your family.",
                   "expansion_2_vi": "Chúng tôi hy vọng trải nghiệm ẩm thực tinh tế này sẽ tạo nên những kỷ niệm mới tươi đẹp cho gia đình bà."
                 },
                 {
@@ -18483,7 +18483,7 @@ const LETTERS_DATA = [
                   "action_vi": "chúng tôi hy vọng bà sẽ cho khách sạn thêm một cơ hội để lấy lại niềm tin nơi bà",
                   "reason_en": "because long-term customer loyalty is our most treasured asset.",
                   "reason_vi": "bởi vì sự gắn bó lâu dài của khách hàng chính là tài sản quý giá nhất của chúng tôi.",
-                  "expansion_1_en": "We value your patronage immensely and are committed to earning back your complete confidence.",
+                  "expansion_1_en": "We value your support immensely and are committed to earning back your complete trust.",
                   "expansion_1_vi": "Chúng tôi vô cùng trân trọng sự đồng hành của bà và cam kết nỗ lực hết mình để lấy lại niềm tin trọn vẹn.",
                   "expansion_2_en": "Thank you once again for your patience, gracious understanding, and constructive feedback.",
                   "expansion_2_vi": "Xin chân thành cảm ơn bà một lần nữa vì sự kiên nhẫn, lòng bao dung và những góp ý vô cùng quý báu."
@@ -18786,7 +18786,7 @@ const LETTERS_DATA = [
                   "reason_vi": "giúp tôi có thể giao tiếp lưu loát và tự tin với cả thực khách trong nước và quốc tế.",
                   "expansion_1_en": "My language coursework enables me to communicate effortlessly with international diners.",
                   "expansion_1_vi": "Các khóa học ngôn ngữ tại trường giúp em giao tiếp lưu loát và tự tin với các thực khách quốc tế.",
-                  "expansion_2_en": "I am confident in describing intricate culinary ingredients and culinary techniques clearly in English.",
+                  "expansion_2_en": "I am confident in explaining special ingredients and cooking techniques clearly in English.",
                   "expansion_2_vi": "Em tự tin có thể giới thiệu chi tiết về nguyên liệu và cách chế biến món ăn bằng tiếng Anh một cách rõ ràng."
                 },
                 {
@@ -18816,7 +18816,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi tôi rất khát khao được học hỏi và trưởng thành trong một môi trường năng động, lấy khách hàng làm trọng tâm.",
                   "expansion_1_en": "Your establishment's sterling reputation for warm hospitality aligns perfectly with my professional values.",
                   "expansion_1_vi": "Danh tiếng xuất sắc của nhà hàng về lòng hiếu khách hoàn toàn phù hợp với định hướng nghề nghiệp của em.",
-                  "expansion_2_en": "I am eager to master your elevated service standards and grow alongside your culinary team.",
+                  "expansion_2_en": "I am eager to learn your high service standards and work well alongside your kitchen team.",
                   "expansion_2_vi": "Em khao khát được rèn luyện theo quy chuẩn phục vụ cao cấp và trưởng thành cùng đội ngũ nhà hàng."
                 },
                 {
@@ -18852,7 +18852,7 @@ const LETTERS_DATA = [
                   "action_vi": "tôi từng làm nhân viên phục vụ và pha chế bán thời gian tại một quán cà phê đông khách suốt sáu tháng",
                   "reason_en": "because this job taught me how to welcome guests and serve drinks quickly.",
                   "reason_vi": "nơi tôi thành thạo kỹ năng chào đón khách, ghi nhận món chính xác và bưng bê khéo léo.",
-                  "expansion_1_en": "Serving hundreds of customers daily helped me develop rapid multitasking and beverage preparation skills.",
+                  "expansion_1_en": "Serving hundreds of customers daily helped me develop quick multitasking and drink preparation skills.",
                   "expansion_1_vi": "Phục vụ hàng trăm lượt khách mỗi ngày đã rèn luyện cho em kỹ năng xử lý nhiều việc cùng lúc và pha chế nhanh nhẹn.",
                   "expansion_2_en": "I learned how to stay composed, courteous, and efficient even during peak morning rush hours.",
                   "expansion_2_vi": "Em học được cách giữ bình tĩnh, lịch thiệp và làm việc hiệu quả ngay cả trong những giờ cao điểm sáng."
@@ -18874,7 +18874,7 @@ const LETTERS_DATA = [
                   "reason_vi": "đảm bảo việc in hóa đơn, thanh toán thẻ và chia tiền bàn luôn diễn ra chuẩn xác, nhanh chóng.",
                   "expansion_1_en": "I have managed cash registers and credit card terminals with zero discrepancy over six months.",
                   "expansion_1_vi": "Em đã quản lý máy thu ngân và máy quẹt thẻ tín dụng với độ chính xác tuyệt đối suốt sáu tháng qua.",
-                  "expansion_2_en": "My meticulous attention to detail ensures prompt billing and smooth end-of-shift reconciliations.",
+                  "expansion_2_en": "My strong attention to detail ensures prompt billing and smooth end-of-shift reports.",
                   "expansion_2_vi": "Sự cẩn trọng tỉ mỉ giúp em in hóa đơn nhanh chóng và đối soát sổ sách cuối ca làm việc suôn sẻ."
                 },
                 {
@@ -18922,7 +18922,7 @@ const LETTERS_DATA = [
                   "reason_vi": "giúp mỗi thực khách đều cảm thấy được chào đón nồng hậu ngay từ giây phút đầu tiên bước vào quán.",
                   "expansion_1_en": "A cheerful greeting and a sunny disposition immediately put arriving guests at ease.",
                   "expansion_1_vi": "Một lời chào niềm nở và nụ cười rạng rỡ ngay lập tức giúp thực khách cảm thấy thoải mái và gần gũi.",
-                  "expansion_2_en": "I strive to make every patron feel valued from the moment they step through the entrance.",
+                  "expansion_2_en": "I strive to make every customer feel welcome from the moment they step through the door.",
                   "expansion_2_vi": "Em luôn nỗ lực để mọi khách hàng đều cảm nhận được sự trân trọng ngay từ giây phút bước qua cửa."
                 },
                 {
@@ -18963,9 +18963,9 @@ const LETTERS_DATA = [
                   "reason_en": "so the restaurant always looks clean and welcoming.",
                   "reason_vi": "để nhà hàng luôn trông sạch sẽ và ấm cúng.",
                   "b1_sentence": "I always check tables and chairs carefully before guests arrive, so the restaurant always looks clean and welcoming.",
-                  "expansion_1_en": "I meticulously inspect cutlery, glassware, and condiments to guarantee spotless table setups.",
+                  "expansion_1_en": "I carefully inspect cutlery, glassware, and condiments to guarantee clean table setups.",
                   "expansion_1_vi": "Em tỉ mỉ kiểm tra dao nĩa, ly cốc và các lọ gia vị để đảm bảo bàn ăn luôn được sắp đặt tinh tươm.",
-                  "expansion_2_en": "Meticulous preparation before service hours ensures guests enjoy an exceptional dining environment.",
+                  "expansion_2_en": "Careful preparation before opening hours ensures guests enjoy a pleasant dining environment.",
                   "expansion_2_vi": "Khâu chuẩn bị kỹ lưỡng trước giờ đón khách đảm bảo thực khách được tận hưởng một không gian ẩm thực tuyệt vời."
                 },
                 {
@@ -18973,7 +18973,7 @@ const LETTERS_DATA = [
                   "action_vi": "tôi là người tiếp thu nhanh, ghi nhớ thực đơn đặc biệt và thành phần món ăn chỉ trong thời gian ngắn",
                   "reason_en": "because I learn menus very quickly and can answer customers' questions easily.",
                   "reason_vi": "giúp tôi có thể giải đáp các thắc mắc của khách một cách thấu đáo ngay từ tuần làm việc đầu tiên.",
-                  "expansion_1_en": "I memorize the ingredients and culinary story behind every signature dish within twenty-four hours.",
+                  "expansion_1_en": "I quickly memorize the ingredients and background behind every signature dish.",
                   "expansion_1_vi": "Em có khả năng ghi nhớ nguyên liệu và câu chuyện ẩm thực đằng sau mỗi món ăn đặc sắc chỉ trong một ngày.",
                   "expansion_2_en": "This enables me to answer diners' questions authoritatively and inspire confidence in our menu.",
                   "expansion_2_vi": "Điều này giúp em tự tin trả lời mọi thắc mắc của khách và tạo dựng niềm tin trọn vẹn vào thực đơn."
@@ -19007,7 +19007,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Lịch trình linh hoạt của em sẽ giúp đội ngũ luôn đủ nhân sự trong những mùa cao điểm tiệc tùng."
                 },
                 {
-                  "action_en": "I am prepared to commence work immediately upon completion of the interview process",
+                  "action_en": "I am prepared to start work immediately upon completing the interview process",
                   "action_vi": "tôi sẵn sàng bắt tay vào làm việc ngay sau khi hoàn thành buổi phỏng vấn tuyển dụng",
                   "reason_en": "because this helps hav already finalized my study timetable and personal commitments.",
                   "reason_vi": "vì tôi đã sắp xếp ổn định lịch học tập và các kế hoạch cá nhân.",
@@ -19033,7 +19033,7 @@ const LETTERS_DATA = [
                   "reason_vi": "để tôi có thể thể hiện rõ hơn sự nhiệt tình và phù hợp với công việc.",
                   "expansion_1_en": "I am prepared to undertake an unpaid trial shift so you can witness my work ethic firsthand.",
                   "expansion_1_vi": "Em sẵn sàng tham gia một ca làm việc thử việc để anh/chị có thể trực tiếp đánh giá năng lực của em.",
-                  "expansion_2_en": "I am confident that my diligence and friendly attitude will prove an immediate asset.",
+                  "expansion_2_en": "I am confident that my hard work and friendly attitude will make me a helpful team member.",
                   "expansion_2_vi": "Em tin tưởng rằng sự chăm chỉ và thái độ thân thiện của em sẽ đóng góp tích cực cho nhà hàng ngay từ đầu."
                 },
                 {
@@ -19697,7 +19697,7 @@ const LETTERS_DATA = [
                   "b1_sentence": "I am very eager to learn about fashion retail because this job will give me valuable communication experience.",
                   "expansion_1_en": "I want to gain comprehensive insights into visual merchandising, stock replenishment, and retail operations.",
                   "expansion_1_vi": "Em muốn học hỏi toàn diện về nghệ thuật trưng bày bắt mắt, bổ sung hàng hóa và quản lý vận hành bán lẻ.",
-                  "expansion_2_en": "I am a quick, enthusiastic learner who embraces new responsibilities with diligence.",
+                  "expansion_2_en": "I am a quick, enthusiastic learner who takes on new responsibilities with great dedication.",
                   "expansion_2_vi": "Em là người học việc nhanh nhạy, nhiệt huyết và luôn đón nhận nhiệm vụ mới với tinh thần trách nhiệm cao."
                 }
               ]
@@ -19725,9 +19725,9 @@ const LETTERS_DATA = [
                   "reason_en": "so I learned how to talk politely with customers and solve problems quickly.",
                   "reason_vi": "nên tôi đã học được cách nói chuyện lịch sự và xử lý tình huống nhanh nhẹn.",
                   "b1_sentence": "I worked at a cafe for six months during my summer holidays, so I learned how to talk politely with customers and solve problems quickly.",
-                  "expansion_1_en": "Working in a fast-paced cafe trained me to greet patrons warmly and handle rush-hour queues composedly.",
+                  "expansion_1_en": "Working in a fast-paced cafe trained me to greet customers warmly and handle rush-hour queues calmly.",
                   "expansion_1_vi": "Làm việc tại quán cà phê tấp nập đã rèn cho em cách chào đón khách niềm nở và bình tĩnh xử lý hàng dài chờ đợi.",
-                  "expansion_2_en": "I know how to resolve minor service hiccups courteously to keep all patrons content.",
+                  "expansion_2_en": "I know how to resolve minor service issues politely to keep all customers happy.",
                   "expansion_2_vi": "Em biết cách giải quyết các khúc mắc nhỏ một cách nhã nhặn để mọi thực khách đều cảm thấy hài lòng."
                 },
                 {
@@ -19799,7 +19799,7 @@ const LETTERS_DATA = [
                   "reason_en": "because I hope to start working as soon as possible.",
                   "reason_vi": "vì tôi rất hy vọng có thể bắt đầu công việc sớm nhất có thể.",
                   "b1_sentence": "I would be grateful if you could consider my application because I hope to start working as soon as possible.",
-                  "expansion_1_en": "My resume is attached for your review, and I am available to commence work immediately upon hiring.",
+                  "expansion_1_en": "My resume is attached for your review, and I am available to start work immediately upon hiring.",
                   "expansion_1_vi": "Bản sơ yếu lý lịch đã được đính kèm để anh/chị xem xét, và em có thể bắt đầu đi làm ngay khi được nhận.",
                   "expansion_2_en": "Thank you for considering my application, and I look forward to hearing from you soon.",
                   "expansion_2_vi": "Em xin chân thành cảm ơn anh/chị đã quan tâm tới hồ sơ và rất mong sớm nhận được phản hồi tốt lành."
@@ -20333,7 +20333,7 @@ const LETTERS_DATA = [
                   "b1_sentence": "I want to become a receptionist at your hotel because it offers a warm and professional working environment.",
                   "expansion_1_en": "Your establishment's sterling reputation for sophisticated, tranquil hospitality deeply resonates with me.",
                   "expansion_1_vi": "Danh tiếng xuất sắc của khách sạn về phong cách phục vụ tinh tế, thanh bình hoàn toàn đồng điệu với em.",
-                  "expansion_2_en": "I would take tremendous pride in being the first welcoming face our patrons see upon arrival.",
+                  "expansion_2_en": "I would take great pride in being the first welcoming face our guests see upon arrival.",
                   "expansion_2_vi": "Em sẽ vô cùng tự hào khi là gương mặt chào đón đầu tiên mà các du khách nhìn thấy khi bước vào khách sạn."
                 }
               ]
