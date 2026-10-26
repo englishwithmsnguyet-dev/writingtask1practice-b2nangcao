@@ -525,12 +525,13 @@ document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   
   const hash = (window.location.hash || '').replace('#', '').toLowerCase();
-  const isTeacher = isTeacherAccount();
-  if ((!LOCKED_CATEGORIES_FOR_STUDENTS.includes(hash) && CATEGORY_MAP[hash]) || (isTeacher && CATEGORY_MAP[hash])) {
-    selectCategory(hash);
-  } else if (CATEGORY_MAP[hash] && !isTeacher) {
-    // Nếu học viên gõ hash chuyên đề đang tạm khóa -> Tự động chuyển về Dạng 01
-    selectCategory('advice');
+  if (CATEGORY_MAP[hash]) {
+    if (!isCategoryLocked(hash)) {
+      selectCategory(hash);
+    } else {
+      // Nếu chuyên đề đang tạm khóa đối với tài khoản này -> Tự động chuyển về Dạng 01
+      selectCategory('advice');
+    }
   } else if (hash === 'overview') {
     switchMainScreen('overview');
   } else if (hash === 'submissions' || hash === 'all-submissions') {
@@ -551,12 +552,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.addEventListener('hashchange', () => {
   const hash = (window.location.hash || '').replace('#', '').toLowerCase();
-  const isTeacher = isTeacherAccount();
-  if ((!LOCKED_CATEGORIES_FOR_STUDENTS.includes(hash) && CATEGORY_MAP[hash]) || (isTeacher && CATEGORY_MAP[hash])) {
-    selectCategory(hash);
-  } else if (CATEGORY_MAP[hash] && !isTeacher) {
-    showToast('🔒 Dạng thư này tạm thời đang khóa đối với học viên.', 'warning');
-    selectCategory('advice');
+  if (CATEGORY_MAP[hash]) {
+    if (!isCategoryLocked(hash)) {
+      selectCategory(hash);
+    } else {
+      showToast('🔒 Dạng thư này tạm thời đang khóa đối với tài khoản học viên.', 'warning');
+      selectCategory('advice');
+    }
   } else if (hash === 'overview') {
     switchMainScreen('overview');
   } else if (hash === 'submissions' || hash === 'all-submissions') {
