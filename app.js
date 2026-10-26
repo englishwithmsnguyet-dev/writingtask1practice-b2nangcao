@@ -345,7 +345,11 @@ function enterRoom() {
     }, 250);
   }
   
-  showToast(`Chào mừng ${nameVal} (${isTeacher ? 'Giáo viên' : 'Lớp ' + finalClassVal}) vào học! 🎉`, 'success');
+  if (isGiaTueAccount()) {
+    showToast(`🎉 Chào mừng học viên Gia Tuệ! Hệ thống đã mở khóa hoàn toàn Dạng 03 (Thư miêu tả) và Dạng 04 (Thư phàn nàn) cho bạn!`, 'success');
+  } else {
+    showToast(`Chào mừng ${nameVal} (${isTeacher ? 'Giáo viên' : 'Lớp ' + finalClassVal}) vào học! 🎉`, 'success');
+  }
 
   if (startBtn) {
     startBtn.disabled = false;
@@ -357,9 +361,14 @@ function enterRoom() {
 }
 
 // ==========================================================================
-// KHÓA CHỨC NĂNG COPY & PASTE TRONG PHÒNG THỰC HÀNH VIẾT ĐỐI VỚI HỌC VIÊN
-// Tài khoản Giáo viên (PTMN / lớp GV) được phép Copy & Paste bình thường
+// PHÂN QUYỀN HỌC VIÊN & GIÁO VIÊN
 // ==========================================================================
+function isGiaTueAccount() {
+  const student = AppState.student || {};
+  const name = (student.name || '').trim().toUpperCase();
+  return name.includes('GIA TUỆ') || name.includes('GIA TUE') || name.includes('GIATUE');
+}
+
 function isTeacherAccount() {
   const student = AppState.student || {};
   const name = (student.name || '').trim().toUpperCase();
