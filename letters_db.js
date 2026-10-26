@@ -785,7 +785,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Nơi ở & Ẩm thực",
               "vi": "Xét về chỗ ở, việc đặt trước một khách sạn tại Phố Cổ sẽ tối ưu hóa lịch trình của bạn, trong khi việc thưởng thức các món ăn đường phố truyền thống như phở và cà phê trứng sẽ mang lại trải nghiệm ẩm thực bản địa đích thực.",
-              "en": "Regarding accommodation, booking a hotel near the Old Quarter in advance will optimize your sightseeing itinerary, while savoring authentic street delicacies like pho and egg coffee offers an immersive glimpse into local culinary heritage.",
+              "en": "Regarding accommodation, booking a hotel near the Old Quarter in advance will save you travel time, while enjoying famous street foods like pho and egg coffee will give you a wonderful taste of Vietnamese culture.",
               "vocab_hints": [
                 {
                   "en": "Regarding accommodation",
@@ -1567,7 +1567,7 @@ const LETTERS_DATA = [
                   "action_vi": "khám phá nhà cổ Bình Thủy",
                   "reason_en": "because it preserves century-old French-Vietnamese architectural heritage.",
                   "reason_vi": "vì ngôi nhà lưu giữ trọn vẹn nét kiến trúc giao thoa Pháp - Việt hàng trăm năm tuổi.",
-                  "expansion_1_en": "Its French-colonial facade and ornate wooden antique carvings have starred in numerous classic films.",
+                  "expansion_1_en": "Its French-style exterior and beautiful wooden antique carvings have appeared in several classic movies.",
                   "expansion_1_vi": "Mặt tiền kiến trúc Pháp cổ cùng những nét chạm khắc gỗ cổ kính từng xuất hiện trong nhiều bộ phim kinh điển.",
                   "expansion_2_en": "A knowledgeable guide can explain the architectural harmony between eastern and western design.",
                   "expansion_2_vi": "Một hướng dẫn viên am hiểu có thể giải thích sự giao thoa kiến trúc hài hòa giữa nét văn hóa Đông và Tây."
@@ -1589,7 +1589,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì bạn được chiêm ngưỡng đèn hoa sen rực rỡ và tận hưởng làn gió sông mát rượi.",
                   "expansion_1_en": "The pedestrian walkway is illuminated by giant lotus-shaped LED lights, creating a romantic atmosphere.",
                   "expansion_1_vi": "Cầu đi bộ được thắp sáng bởi hệ thống đèn LED hình hoa sen khổng lồ, tạo nên một không gian lãng mạn.",
-                  "expansion_2_en": "You can capture breathtaking panoramic photos of river cruises sailing beneath the starry sky.",
+                  "expansion_2_en": "You can take wonderful photos of river cruises sailing beneath the starry sky.",
                   "expansion_2_vi": "Bạn có thể chụp những bức ảnh toàn cảnh tuyệt đẹp về những du thuyền rực rỡ lướt dưới bầu trời đêm."
                 },
                 {
@@ -1599,7 +1599,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì đây là thiền viện lớn và thanh tịnh nhất vùng với kiến trúc gỗ lim bề thế.",
                   "expansion_1_en": "It features majestic Buddhist temples built in traditional Ly and Tran dynasty architectural styles.",
                   "expansion_1_vi": "Nơi đây sở hữu các tòa chánh điện trang nghiêm được xây dựng theo phong cách kiến trúc thời Lý - Trần.",
-                  "expansion_2_en": "Strolling through the serene gardens surrounded by lotus ponds brings profound peace of mind.",
+                  "expansion_2_en": "Strolling through the quiet gardens surrounded by lotus ponds brings a deep sense of peace.",
                   "expansion_2_vi": "Tản bộ qua những khu vườn tĩnh lặng bao quanh bởi ao sen mang lại sự thanh tịnh sâu lắng cho tâm hồn."
                 },
                 {
@@ -2620,9 +2620,9 @@ const LETTERS_DATA = [
                   "action_vi": "cậu nên luyện tập 6 thanh điệu tiếng Việt trên YouTube",
                   "reason_en": "because correct tones prevent confusing misunderstandings when speaking.",
                   "reason_vi": "bởi vì phát âm đúng dấu giúp tránh những hiểu lầm khi nói chuyện.",
-                  "expansion_1_en": "Watching native instructors demonstrate mouth shapes and throat resonance helps demystify difficult tones.",
+                  "expansion_1_en": "Watching native teachers show mouth shapes helps you pronounce difficult tones much more easily.",
                   "expansion_1_vi": "Xem giáo viên bản ngữ minh họa khẩu hình miệng và độ rung thanh quản giúp giải mã các dấu thanh khó.",
-                  "expansion_2_en": "Practicing the glottal hỏi and ngã tones five minutes daily will build rock-solid phonetic confidence.",
+                  "expansion_2_en": "Practicing the difficult hỏi and ngã tones for five minutes daily will build your speaking confidence.",
                   "expansion_2_vi": "Luyện các dấu hỏi và ngã 5 phút mỗi ngày sẽ xây dựng sự tự tin vững chắc về ngữ âm."
                 },
                 {
@@ -2992,7 +2992,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì họ muốn tớ cảm thấy thoải mái và được chào đón tại văn phòng.",
                   "expansion_1_en": "We share home-cooked specialties, chat about hobbies, and recharge our energy in a cozy cafeteria.",
                   "expansion_1_vi": "Tụi mình cùng chia sẻ món ngon tự nấu, trò chuyện về sở thích và nạp lại năng lượng ở căng tin ấm cúng.",
-                  "expansion_2_en": "These casual lunch gatherings helped me assimilate into the company culture within my very first week.",
+                  "expansion_2_en": "These casual lunch gatherings helped me adapt to the company culture within my very first week.",
                   "expansion_2_vi": "Những buổi ăn trưa thân mật này đã giúp mình hòa nhập vào văn hóa công ty ngay từ tuần đầu tiên."
                 },
                 {
@@ -3040,7 +3040,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì trạm xe buýt nằm ngay đối diện tòa nhà công ty.",
                   "expansion_1_en": "The office building is situated right on a wide avenue with dedicated turning lanes and ample traffic signals.",
                   "expansion_1_vi": "Tòa nhà văn phòng tọa lạc ngay trên đại lộ rộng rãi với làn rẽ riêng và hệ thống đèn giao thông thông thoáng.",
-                  "expansion_2_en": "I rarely encounter aggravating bottlenecks even during the peak morning commute window.",
+                  "expansion_2_en": "I rarely get stuck in heavy traffic jams even during the morning rush hour.",
                   "expansion_2_vi": "Mình hầu như hiếm khi gặp phải cảnh ùn ứ khó chịu ngay cả trong khung giờ cao điểm buổi sáng."
                 },
                 {
@@ -3387,7 +3387,7 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân bài B2 - Ý 2 (Destination & Connectivity)",
               "vi": "Đà Nẵng là sự kết hợp hoàn hảo giữa những bãi biển cát trắng hoang sơ và hệ thống giao thông hàng không cực kỳ thuận tiện.",
-              "en": "Da Nang offers a stunning blend of pristine sandy beaches and seamless flight connectivity from major transit hubs.",
+              "en": "Da Nang offers a wonderful combination of clean sandy beaches and very convenient direct flights from major airports.",
               "hints": [
                 "stunning blend of pristine sandy beaches",
                 "seamless flight connectivity"
@@ -3599,7 +3599,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "you can rent an automatic scooter to visit Son Tra Peninsula",
                   "action_vi": "cậu có thể thuê xe máy tay ga để tham quan bán đảo Sơn Trà",
-                  "reason_en": "because coastal mountain roads offer breathtaking panoramic ocean views.",
+                  "reason_en": "because coastal mountain roads offer stunning ocean views.",
                   "reason_vi": "bởi vì những con đường núi ven biển đem lại tầm nhìn ngoạn mục ra đại dương.",
                   "expansion_1_en": "The scenic winding coastal roads lead up to the majestic Linh Ung Pagoda and the giant Lady Buddha statue.",
                   "expansion_1_vi": "Cung đường ven biển uốn lượn tuyệt đẹp dẫn lên Chùa Linh Ứng uy nghiêm và bức tượng Phật Bà khổng lồ.",
@@ -3671,7 +3671,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì cậu có thể thưởng thức các món ăn vặt bản địa chuẩn vị cùng người dân hiếu khách.",
                   "expansion_1_en": "Stalls sell grilled rice paper snacks, iced avocado smoothies, and succulent lemongrass beef skewers.",
                   "expansion_1_vi": "Các quầy hàng bán bánh tráng nướng, sinh tố bơ mát lạnh và xiên bò nướng sả thơm nức mũi.",
-                  "expansion_2_en": "The lively ambiance and pocket-friendly prices make it a paradise for adventurous foodies.",
+                  "expansion_2_en": "The lively atmosphere and reasonable prices make it a favorite spot for young people.",
                   "expansion_2_vi": "Không khí náo nhiệt cùng giá cả bình dân biến nơi đây thành thiên đường cho những tín đồ sành ăn."
                 }
               ]
@@ -4204,7 +4204,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì các hình ảnh so sánh trước-sau để lại ấn tượng mạnh mẽ cho ban giám khảo.",
                   "expansion_1_en": "A divided column displaying a polluted river alongside a restored clean waterway speaks volumes in seconds.",
                   "expansion_1_vi": "Cột so sánh đặt con sông bị ô nhiễm bên cạnh dòng nước trong xanh được phục hồi sẽ truyền tải thông điệp trong tích tắc.",
-                  "expansion_2_en": "Data-driven visuals prove your solutions are workable and leave an indelible impression on judges.",
+                  "expansion_2_en": "Data-driven visuals prove your solutions are workable and leave a lasting impression on the judges.",
                   "expansion_2_vi": "Hình ảnh dựa trên số liệu chứng minh giải pháp của bạn có tính khả thi và ghi dấu ấn khó phai với giám khảo."
                 }
               ]
@@ -4452,7 +4452,7 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân bài B2 - Ý 2 (Aesthetic ambiance)",
               "vi": "Tạo lập một không gian đọc thanh lịch kết hợp với hương thơm cà phê thoang thoảng sẽ biến hiệu sách thành một điểm hẹn văn hóa lý tưởng.",
-              "en": "Creating an aesthetically pleasing ambiance infused with gentle acoustic melodies and subtle coffee aromas will turn the store into a cultural sanctuary.",
+              "en": "Creating a warm and cozy atmosphere with soft background music and coffee aromas will make your bookstore a favorite spot for readers.",
               "hints": [
                 "aesthetically pleasing ambiance",
                 "turn the store into a cultural sanctuary"
@@ -4517,9 +4517,9 @@ const LETTERS_DATA = [
           },
           "sample_b2": {
             "word_count": 173,
-            "letter_en": "Dear Moonie,\n\nThanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.\n\nFirst of all, when it comes to curating customer book selections, you could consider ***stocking bestselling contemporary fiction alongside popular personal development and self-help titles*** because these genres consistently attract young urban readers and students.\n\nAs for bookstore ambiance and decoration, it would be a good idea to ***arrange cozy wooden reading nooks with warm lighting and comfortable armchairs*** because an inviting, tranquil environment encourages visitors to linger and enjoy browsing.\n\nRegarding promotional campaigns, if I were you, I would ***launch weekend loyalty stamp cards and host monthly book discussion clubs*** because engaging community events foster customer retention and word-of-mouth recommendations.\n\nLast but not least, remember to ***maintain an active social media presence featuring weekly staff reading recommendations*** because visually appealing book reviews can draw a steady stream of passionate booklovers to your store.\n\nI hope you find my suggestions helpful. Let me know how things go.\n\nBest wishes,",
+            "letter_en": "Dear Moonie,\n\nThanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.\n\nFirst of all, when it comes to curating customer book selections, you could consider ***stocking bestselling contemporary fiction alongside popular personal development and self-help titles*** because these genres consistently attract young urban readers and students.\n\nAs for bookstore atmosphere and decoration, it would be a good idea to ***arrange cozy wooden reading nooks with warm lighting and comfortable armchairs*** because a welcoming and peaceful environment encourages visitors to stay longer and enjoy reading.\n\nRegarding promotional campaigns, if I were you, I would ***launch weekend loyalty stamp cards and host monthly book discussion clubs*** because engaging community events foster customer retention and word-of-mouth recommendations.\n\nLast but not least, remember to ***maintain an active social media presence featuring weekly staff reading recommendations*** because visually appealing book reviews can draw a steady stream of passionate booklovers to your store.\n\nI hope you find my suggestions helpful. Let me know how things go.\n\nBest wishes,",
             "letter_vi": "Chào Moonie,\n\nCảm ơn vì bức thư của cậu. Dạo này cậu thế nào? Sau khi suy nghĩ về tình huống của cậu, tớ có một vài gợi ý có thể giúp ích được.\n\nTrước hết, khi nói về việc lựa chọn đầu sách cho khách hàng, cậu có thể cân nhắc việc nhập các tiểu thuyết đương đại bán chạy nhất cùng với các tựa sách phát triển bản thân nổi tiếng vì những thể loại này luôn thu hút độc giả trẻ và sinh viên.\n\nVề không gian và trang trí hiệu sách, sẽ là một ý tưởng hay nếu cậu bố trí những góc đọc sách bằng gỗ ấm cúng với ánh đèn vàng và ghế bành thoải mái vì một môi trường hấp dẫn, yên bình sẽ khuyến khích khách nán lại và đọc sách.\n\nLiên quan đến các chiến dịch khuyến mãi, nếu tớ là cậu, tớ sẽ phát hành thẻ tích điểm vào cuối tuần và tổ chức các câu lạc bộ thảo luận sách hàng tháng vì các sự kiện cộng đồng hấp dẫn sẽ giúp giữ chân khách hàng và lan tỏa sự ủng hộ.\n\nCuối cùng nhưng không kém phần quan trọng, hãy nhớ duy trì sự hiện diện tích cực trên mạng xã hội với các bài giới thiệu sách hàng tuần của nhân viên vì các bài đánh giá sách trực quan hấp dẫn có thể thu hút lượng lớn những người yêu sách đến cửa hàng của cậu.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
-            "text": "Dear Moonie,\n\nThanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.\n\nFirst of all, when it comes to curating customer book selections, you could consider ***stocking bestselling contemporary fiction alongside popular personal development and self-help titles*** because these genres consistently attract young urban readers and students.\n\nAs for bookstore ambiance and decoration, it would be a good idea to ***arrange cozy wooden reading nooks with warm lighting and comfortable armchairs*** because an inviting, tranquil environment encourages visitors to linger and enjoy browsing.\n\nRegarding promotional campaigns, if I were you, I would ***launch weekend loyalty stamp cards and host monthly book discussion clubs*** because engaging community events foster customer retention and word-of-mouth recommendations.\n\nLast but not least, remember to ***maintain an active social media presence featuring weekly staff reading recommendations*** because visually appealing book reviews can draw a steady stream of passionate booklovers to your store.\n\nI hope you find my suggestions helpful. Let me know how things go.\n\nBest wishes,",
+            "text": "Dear Moonie,\n\nThanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.\n\nFirst of all, when it comes to curating customer book selections, you could consider ***stocking bestselling contemporary fiction alongside popular personal development and self-help titles*** because these genres consistently attract young urban readers and students.\n\nAs for bookstore atmosphere and decoration, it would be a good idea to ***arrange cozy wooden reading nooks with warm lighting and comfortable armchairs*** because a welcoming and peaceful environment encourages visitors to stay longer and enjoy reading.\n\nRegarding promotional campaigns, if I were you, I would ***launch weekend loyalty stamp cards and host monthly book discussion clubs*** because engaging community events foster customer retention and word-of-mouth recommendations.\n\nLast but not least, remember to ***maintain an active social media presence featuring weekly staff reading recommendations*** because visually appealing book reviews can draw a steady stream of passionate booklovers to your store.\n\nI hope you find my suggestions helpful. Let me know how things go.\n\nBest wishes,",
             "translation": "Chào Moonie,\n\nCảm ơn vì bức thư của cậu. Dạo này cậu thế nào? Sau khi suy nghĩ về tình huống của cậu, tớ có một vài gợi ý có thể giúp ích được.\n\nTrước hết, khi nói về việc lựa chọn đầu sách cho khách hàng, cậu có thể cân nhắc việc nhập các tiểu thuyết đương đại bán chạy nhất cùng với các tựa sách phát triển bản thân nổi tiếng vì những thể loại này luôn thu hút độc giả trẻ và sinh viên.\n\nVề không gian và trang trí hiệu sách, sẽ là một ý tưởng hay nếu cậu bố trí những góc đọc sách bằng gỗ ấm cúng với ánh đèn vàng và ghế bành thoải mái vì một môi trường hấp dẫn, yên bình sẽ khuyến khích khách nán lại và đọc sách.\n\nLiên quan đến các chiến dịch khuyến mãi, nếu tớ là cậu, tớ sẽ phát hành thẻ tích điểm vào cuối tuần và tổ chức các câu lạc bộ thảo luận sách hàng tháng vì các sự kiện cộng đồng hấp dẫn sẽ giúp giữ chân khách hàng và lan tỏa sự ủng hộ.\n\nCuối cùng nhưng không kém phần quan trọng, hãy nhớ duy trì sự hiện diện tích cực trên mạng xã hội với các bài giới thiệu sách hàng tuần của nhân viên vì các bài đánh giá sách trực quan hấp dẫn có thể thu hút lượng lớn những người yêu sách đến cửa hàng của cậu.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
             "structure_analysis": [
               {
@@ -4774,7 +4774,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì bao bì xanh vừa bảo vệ môi trường vừa trông rất trang nhã.",
                   "expansion_1_en": "Tying paper bags with rustic jute twine and sealing them with a vintage wax stamp adds an artisanal touch.",
                   "expansion_1_vi": "Buộc túi giấy bằng dây đay mộc mạc và dán niêm phong bằng con dấu sáp cổ điển mang lại nét thủ công tinh tế.",
-                  "expansion_2_en": "Thoughtful packaging makes every book purchase feel like an exquisite gift to oneself.",
+                  "expansion_2_en": "Thoughtful packaging makes every book purchase feel like a special gift to oneself.",
                   "expansion_2_vi": "Cách đóng gói chu đáo khiến mỗi cuốn sách mua về đều mang lại cảm giác như một món quà tuyệt vời cho chính mình."
                 },
                 {
@@ -5063,9 +5063,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a supportive pedagogical approach for beginners.\n\nFinally, I am also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin một số thông tin về khóa học nấu ăn mùa hè tại Delight Kitchen, vì tôi rất quan tâm đến việc nâng cao kỹ năng nấu nướng của mình và muốn tìm hiểu thêm trước khi đưa ra quyết định.\n\nTrước hết, xin quý trung tâm vui lòng cung cấp thêm thông tin về thời khóa biểu khóa học và địa điểm học? Tôi cần kiểm tra xem giờ học có phù hợp với lịch làm việc toàn thời gian của mình hay không.\n\nThêm vào đó, xin quý trung tâm cho tôi biết thêm chi tiết về tổng học phí và liệu các dụng cụ làm bếp cùng nguyên liệu cần thiết đã được bao gồm hoàn toàn hay chưa?\n\nHơn nữa, tôi muốn tìm hiểu thêm về các giảng viên ẩm thực. Tôi muốn đảm bảo rằng họ có chuyên môn sâu rộng trong ngành và có phương pháp giảng dạy tận tình cho học viên mới bắt đầu.\n\nCuối cùng, tôi cũng đang băn khoăn về chương trình đào tạo. Xin vui lòng chia sẻ những món ăn Việt Nam và phương Tây cụ thể mà giáo trình thực hành chú trọng?\n\nCảm ơn vì thời gian của quý trung tâm. Tôi rất mong sớm nhận được hồi âm từ quý cơ quan.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a supportive pedagogical approach for beginners.\n\nFinally, I am also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin một số thông tin về khóa học nấu ăn mùa hè tại Delight Kitchen, vì tôi rất quan tâm đến việc nâng cao kỹ năng nấu nướng của mình và muốn tìm hiểu thêm trước khi đưa ra quyết định.\n\nTrước hết, xin quý trung tâm vui lòng cung cấp thêm thông tin về thời khóa biểu khóa học và địa điểm học? Tôi cần kiểm tra xem giờ học có phù hợp với lịch làm việc toàn thời gian của mình hay không.\n\nThêm vào đó, xin quý trung tâm cho tôi biết thêm chi tiết về tổng học phí và liệu các dụng cụ làm bếp cùng nguyên liệu cần thiết đã được bao gồm hoàn toàn hay chưa?\n\nHơn nữa, tôi muốn tìm hiểu thêm về các giảng viên ẩm thực. Tôi muốn đảm bảo rằng họ có chuyên môn sâu rộng trong ngành và có phương pháp giảng dạy tận tình cho học viên mới bắt đầu.\n\nCuối cùng, tôi cũng đang băn khoăn về chương trình đào tạo. Xin vui lòng chia sẻ những món ăn Việt Nam và phương Tây cụ thể mà giáo trình thực hành chú trọng?\n\nCảm ơn vì thời gian của quý trung tâm. Tôi rất mong sớm nhận được hồi âm từ quý cơ quan.\n\nTrân trọng,",
             "word_count": 156,
             "key_structures": [
@@ -5234,10 +5234,10 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Những nhận xét ẩm thực tận tâm trong từng công đoạn nấu sẽ giúp người mới bắt đầu điều chỉnh gia vị chuẩn xác ngay lập tức."
                 },
                 {
-                  "action_en": "Could you clarify whether the teachers are native English speakers or certified bilingual lecturers?",
-                  "action_vi": "Bạn có thể làm rõ giáo viên là người bản xứ hay giảng viên song ngữ có chứng chỉ không?",
-                  "reason_en": "The main reason is that I want to identify my weaknesses and improve my English skills through effective guidance.",
-                  "reason_vi": "Lý do chính là tôi muốn xác định điểm yếu và cải thiện các kỹ năng tiếng Anh thông qua sự hướng dẫn hiệu quả.",
+                  "action_en": "Could you clarify whether the instructors are certified executive chefs or experienced cooking teachers?",
+                  "action_vi": "Bạn có thể làm rõ giáo viên là các đầu bếp chuyên nghiệp hay giảng viên nấu ăn giàu kinh nghiệm không?",
+                  "reason_en": "The main reason is that I want to learn authentic cooking techniques and improve my culinary skills through professional guidance.",
+                  "reason_vi": "Lý do chính là tôi muốn học các kỹ thuật nấu ăn chuẩn mực và nâng cao tay nghề thông qua sự hướng dẫn chuyên nghiệp.",
                   "expansion_1_en": "I would be interested to learn about the chefs' international awards or signature culinary styles.",
                   "expansion_1_vi": "Tôi rất quan tâm tìm hiểu về các giải thưởng quốc tế hoặc phong cách ẩm thực đặc trưng của đội ngũ đầu bếp.",
                   "expansion_2_en": "Their professional kitchen experience will inspire students to explore both traditional and modern cooking techniques.",
@@ -5283,9 +5283,9 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Có lộ trình bài học rõ ràng giúp tôi xác nhận các công thức món ăn hoàn toàn phù hợp với nguyện vọng nấu nướng của mình."
                 },
                 {
-                  "action_en": "I would like to know how much time is devoted to practical speaking and listening activities.",
+                  "action_en": "I would like to know how much class time is devoted to hands-on cooking practice.",
                   "action_vi": "Tôi muốn biết bao nhiêu thời lượng được dành cho các hoạt động thực hành nói và nghe.",
-                  "reason_en": "In fact, I would prefer a course that provides regular opportunities to practise speaking and listening in real-life situations.",
+                  "reason_en": "In fact, I would prefer a course that provides regular opportunities to practice cooking real dishes in the kitchen.",
                   "reason_vi": "Thực tế, tôi thích một khóa học tạo cơ hội thường xuyên để luyện nói và nghe trong các tình huống thực tế.",
                   "expansion_1_en": "I would like to confirm what percentage of class hours is spent on hands-on cooking rather than theoretical lectures.",
                   "expansion_1_vi": "Tôi muốn xác nhận tỷ lệ phần trăm thời lượng buổi học dành cho việc tự tay nấu nướng so với phần bài giảng lý thuyết.",
@@ -5305,7 +5305,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "I would like to learn about the course objectives and learning outcomes.",
                   "action_vi": "Tôi muốn tìm hiểu về mục tiêu khóa học và chuẩn đầu ra.",
-                  "reason_en": "This is because a suitable training program would help me build confidence and use English more effectively in everyday communication.",
+                  "reason_en": "This is because a practical training program would help me build confidence and cook delicious meals for my family.",
                   "reason_vi": "Điều này là vì một chương trình đào tạo phù hợp sẽ giúp tôi xây dựng sự tự tin và sử dụng tiếng Anh hiệu quả hơn trong giao tiếp hằng ngày.",
                   "expansion_1_en": "I would be interested to know whether the course teaches food presentation aesthetics and table service etiquette.",
                   "expansion_1_vi": "Tôi muốn biết liệu khóa học có giảng dạy nghệ thuật bài trí món ăn thẩm mỹ và nghi thức phục vụ bàn tiệc không.",
@@ -5479,9 +5479,9 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Hỏi hiệu quả B2",
               "vi": "Liệu phương pháp giảng dạy tại trung tâm có thực sự tạo điều kiện cho học viên đạt được phản xạ phát âm tự nhiên và nắm vững các nét chữ Hán căn bản không?",
-              "en": "Does the pedagogical methodology truly facilitate natural pronunciation reflexes and equip beginners with solid Chinese character recognition skills?",
+              "en": "Does the teaching method truly help students speak naturally and learn basic Chinese characters easily?",
               "hints": [
-                "pedagogical methodology truly facilitate",
+                "teaching method truly help students",
                 "pronunciation reflexes",
                 "character recognition"
               ],
@@ -5974,9 +5974,9 @@ const LETTERS_DATA = [
                   "action_vi": "Bạn có thể cung cấp một số thông tin về đội ngũ giáo viên được không?",
                   "reason_en": "This is because experienced teachers can explain difficult points clearly and help students avoid common mistakes.",
                   "reason_vi": "Điều này là vì giáo viên có kinh nghiệm có thể giải thích những điểm khó một cách rõ ràng và giúp học viên tránh các lỗi thường gặp.",
-                  "expansion_1_en": "Seasoned teachers possess deep pedagogical insight to diagnose pronunciation flaws quickly.",
+                  "expansion_1_en": "Experienced teachers have the right skills to correct pronunciation errors quickly.",
                   "expansion_1_vi": "Giáo viên dày dạn kinh nghiệm có năng lực sư phạm sâu sắc để chẩn đoán nhanh các lỗi phát âm.",
-                  "expansion_2_en": "Their structured explanations will help me overcome chronic grammatical hesitation in spoken English.",
+                  "expansion_2_en": "Their clear explanations will help me speak Chinese more naturally and confidently without hesitation.",
                   "expansion_2_vi": "Những lời giải thích mạch lạc của họ sẽ giúp tôi vượt qua sự ấp úng ngữ pháp kinh niên khi nói tiếng Anh."
                 },
                 {
@@ -5990,10 +5990,10 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Được phát biểu thường xuyên trong các buổi tranh biện và nhập vai sẽ đẩy nhanh độ trôi chảy tự nhiên."
                 },
                 {
-                  "action_en": "Could you clarify whether the teachers are native English speakers or certified bilingual lecturers?",
-                  "action_vi": "Bạn có thể làm rõ giáo viên là người bản xứ hay giảng viên song ngữ có chứng chỉ không?",
-                  "reason_en": "The main reason is that I want to identify my weaknesses and improve my English skills through effective guidance.",
-                  "reason_vi": "Lý do chính là tôi muốn xác định điểm yếu và cải thiện các kỹ năng tiếng Anh thông qua sự hướng dẫn hiệu quả.",
+                  "action_en": "Could you clarify whether the instructors are certified executive chefs or experienced cooking teachers?",
+                  "action_vi": "Bạn có thể làm rõ giáo viên là các đầu bếp chuyên nghiệp hay giảng viên nấu ăn giàu kinh nghiệm không?",
+                  "reason_en": "The main reason is that I want to learn authentic cooking techniques and improve my culinary skills through professional guidance.",
+                  "reason_vi": "Lý do chính là tôi muốn học các kỹ thuật nấu ăn chuẩn mực và nâng cao tay nghề thông qua sự hướng dẫn chuyên nghiệp.",
                   "expansion_1_en": "Native speakers provide genuine cultural nuances and authentic colloquial expressions.",
                   "expansion_1_vi": "Giáo viên bản ngữ cung cấp những sắc thái văn hóa chân thực và các thành ngữ giao tiếp đời thường.",
                   "expansion_2_en": "Bilingual Vietnamese lecturers can also explain complex grammatical contrasts clearly.",
@@ -6039,9 +6039,9 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Một khung giáo trình toàn diện đảm bảo tôi có thể làm chủ cả kỹ năng viết học thuật lẫn nói lưu loát."
                 },
                 {
-                  "action_en": "I would like to know how much time is devoted to practical speaking and listening activities.",
+                  "action_en": "I would like to know how much class time is devoted to hands-on cooking practice.",
                   "action_vi": "Tôi muốn biết bao nhiêu thời lượng được dành cho các hoạt động thực hành nói và nghe.",
-                  "reason_en": "In fact, I would prefer a course that provides regular opportunities to practise speaking and listening in real-life situations.",
+                  "reason_en": "In fact, I would prefer a course that provides regular opportunities to practice cooking real dishes in the kitchen.",
                   "reason_vi": "Thực tế, tôi thích một khóa học tạo cơ hội thường xuyên để luyện nói và nghe trong các tình huống thực tế.",
                   "expansion_1_en": "Regular interactive pair work and class presentations simulate real-life professional discussions.",
                   "expansion_1_vi": "Các bài làm việc cặp tương tác thường xuyên và thuyết trình trước lớp mô phỏng các cuộc thảo luận công việc thực tế.",
@@ -6061,7 +6061,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "I would like to learn about the course objectives and learning outcomes.",
                   "action_vi": "Tôi muốn tìm hiểu về mục tiêu khóa học và chuẩn đầu ra.",
-                  "reason_en": "This is because a suitable training program would help me build confidence and use English more effectively in everyday communication.",
+                  "reason_en": "This is because a practical training program would help me build confidence and cook delicious meals for my family.",
                   "reason_vi": "Điều này là vì một chương trình đào tạo phù hợp sẽ giúp tôi xây dựng sự tự tin và sử dụng tiếng Anh hiệu quả hơn trong giao tiếp hằng ngày.",
                   "expansion_1_en": "Clear milestone assessments will allow me to track my expanding vocabulary and grammatical precision.",
                   "expansion_1_vi": "Các bài đánh giá định kỳ rõ ràng sẽ cho phép tôi theo dõi sự tiến bộ về vốn từ và độ chuẩn xác ngữ pháp.",
@@ -6430,9 +6430,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Moonie,\n\nHow have you been lately? I’m writing to ask a few questions about the English course at Rainbow Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address of the center? I need to figure out whether it is within a reasonable commuting distance from my apartment.\n\nBesides that, I want to know more about the tuition fee. It is essential for me to prepare a sufficient budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong pedagogical skills and are supportive enough to help me progress.\n\nFinally, I’m also wondering about the training program. Could you share what specific skills or knowledge areas the curriculum focuses on?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear Moonie,\n\nHow have you been lately? I’m writing to ask a few questions about the English course at Rainbow Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address of the center? I need to figure out whether it is within a reasonable commuting distance from my apartment.\n\nBesides that, I want to know more about the tuition fee. It is essential for me to prepare a sufficient budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and are supportive enough to help me progress.\n\nFinally, I’m also wondering about the training program. Could you share what specific skills or knowledge areas the curriculum focuses on?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
             "letter_vi": "Chào Moonie,\n\nDạo này cậu thế nào? Tớ viết thư này để hỏi vài thông tin về khóa học tiếng Anh tại Trung tâm Ngoại ngữ Rainbow, vì tớ đang dự định đăng ký học vào tháng tới để nâng cao kỹ năng ngôn ngữ của mình.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa chỉ của trung tâm không? Tớ cần kiểm tra xem khoảng cách đi lại từ căn hộ của tớ có thuận tiện không.\n\nBên cạnh đó, tớ muốn biết thêm về học phí. Việc chuẩn bị ngân sách đầy đủ trước khi chính thức đăng ký là rất cần thiết đối với tớ.\n\nThêm vào đó, cậu có thể cung cấp thêm thông tin về các giáo viên không? Tớ muốn đảm bảo rằng họ có kỹ năng giảng dạy vững vàng và luôn nhiệt tình hỗ trợ để giúp tớ tiến bộ.\n\nCuối cùng, tớ cũng đang băn khoăn về chương trình đào tạo. Cậu có thể chia sẻ những kỹ năng hoặc mảng kiến thức cụ thể nào mà giáo trình chú trọng không?\n\nTớ rất trân trọng sự giúp đỡ của cậu về việc này. Hãy hồi âm cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
-            "text": "Dear Moonie,\n\nHow have you been lately? I’m writing to ask a few questions about the English course at Rainbow Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address of the center? I need to figure out whether it is within a reasonable commuting distance from my apartment.\n\nBesides that, I want to know more about the tuition fee. It is essential for me to prepare a sufficient budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong pedagogical skills and are supportive enough to help me progress.\n\nFinally, I’m also wondering about the training program. Could you share what specific skills or knowledge areas the curriculum focuses on?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
+            "text": "Dear Moonie,\n\nHow have you been lately? I’m writing to ask a few questions about the English course at Rainbow Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address of the center? I need to figure out whether it is within a reasonable commuting distance from my apartment.\n\nBesides that, I want to know more about the tuition fee. It is essential for me to prepare a sufficient budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and are supportive enough to help me progress.\n\nFinally, I’m also wondering about the training program. Could you share what specific skills or knowledge areas the curriculum focuses on?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
             "translation": "Chào Moonie,\n\nDạo này cậu thế nào? Tớ viết thư này để hỏi vài thông tin về khóa học tiếng Anh tại Trung tâm Ngoại ngữ Rainbow, vì tớ đang dự định đăng ký học vào tháng tới để nâng cao kỹ năng ngôn ngữ của mình.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa chỉ của trung tâm không? Tớ cần kiểm tra xem khoảng cách đi lại từ căn hộ của tớ có thuận tiện không.\n\nBên cạnh đó, tớ muốn biết thêm về học phí. Việc chuẩn bị ngân sách đầy đủ trước khi chính thức đăng ký là rất cần thiết đối với tớ.\n\nThêm vào đó, cậu có thể cung cấp thêm thông tin về các giáo viên không? Tớ muốn đảm bảo rằng họ có kỹ năng giảng dạy vững vàng và luôn nhiệt tình hỗ trợ để giúp tớ tiến bộ.\n\nCuối cùng, tớ cũng đang băn khoăn về chương trình đào tạo. Cậu có thể chia sẻ những kỹ năng hoặc mảng kiến thức cụ thể nào mà giáo trình chú trọng không?\n\nTớ rất trân trọng sự giúp đỡ của cậu về việc này. Hãy hồi âm cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
             "word_count": 155,
             "key_structures": [
@@ -7081,9 +7081,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Linda,\n\nHow have you been lately? I’m writing to ask a few questions about the Chinese course at Happy Chinese Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address and commuting accessibility of the center? I need to figure out whether it is within a reasonable distance from my university.\n\nBesides that, I want to know more about the tuition fee and available discounts. It is essential for me to prepare an adequate budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong pedagogical skills and provide supportive pronunciation coaching for beginners.\n\nFinally, I’m also wondering about the training program. Could you share what specific conversational topics and cultural activities the curriculum covers?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear Linda,\n\nHow have you been lately? I’m writing to ask a few questions about the Chinese course at Happy Chinese Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address and commuting accessibility of the center? I need to figure out whether it is within a reasonable distance from my university.\n\nBesides that, I want to know more about the tuition fee and available discounts. It is essential for me to prepare an adequate budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and provide supportive pronunciation coaching for beginners.\n\nFinally, I’m also wondering about the training program. Could you share what specific conversational topics and cultural activities the curriculum covers?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
             "letter_vi": "Chào Linda,\n\nDạo này cậu thế nào? Tớ viết thư này để hỏi vài thông tin về khóa học tiếng Trung tại Trung tâm Ngoại ngữ Happy Chinese, vì tớ đang dự định đăng ký học vào tháng tới để nâng cao kỹ năng ngôn ngữ của mình.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa chỉ và cách đi lại đến trung tâm không? Tớ cần xem xét liệu trung tâm có nằm trong khoảng cách hợp lý từ trường đại học của tớ không.\n\nBên cạnh đó, tớ muốn biết thêm về học phí và các ưu đãi hiện có. Việc chuẩn bị ngân sách phù hợp trước khi đăng ký chính thức là rất quan trọng đối với tớ.\n\nThêm vào đó, cậu có thể cung cấp thêm thông tin về các giáo viên không? Tớ muốn đảm bảo rằng họ có kỹ năng sư phạm tốt và hướng dẫn phát âm tận tình cho người mới bắt đầu.\n\nCuối cùng, tớ cũng đang băn khoăn về chương trình đào tạo. Cậu có thể chia sẻ những chủ đề giao tiếp và hoạt động văn hóa cụ thể nào mà giáo trình bao gồm không?\n\nTớ rất trân trọng sự giúp đỡ của cậu về việc này. Hãy hồi âm cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
-            "text": "Dear Linda,\n\nHow have you been lately? I’m writing to ask a few questions about the Chinese course at Happy Chinese Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address and commuting accessibility of the center? I need to figure out whether it is within a reasonable distance from my university.\n\nBesides that, I want to know more about the tuition fee and available discounts. It is essential for me to prepare an adequate budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong pedagogical skills and provide supportive pronunciation coaching for beginners.\n\nFinally, I’m also wondering about the training program. Could you share what specific conversational topics and cultural activities the curriculum covers?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
+            "text": "Dear Linda,\n\nHow have you been lately? I’m writing to ask a few questions about the Chinese course at Happy Chinese Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address and commuting accessibility of the center? I need to figure out whether it is within a reasonable distance from my university.\n\nBesides that, I want to know more about the tuition fee and available discounts. It is essential for me to prepare an adequate budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and provide supportive pronunciation coaching for beginners.\n\nFinally, I’m also wondering about the training program. Could you share what specific conversational topics and cultural activities the curriculum covers?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
             "translation": "Chào Linda,\n\nDạo này cậu thế nào? Tớ viết thư này để hỏi vài thông tin về khóa học tiếng Trung tại Trung tâm Ngoại ngữ Happy Chinese, vì tớ đang dự định đăng ký học vào tháng tới để nâng cao kỹ năng ngôn ngữ của mình.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa chỉ và cách đi lại đến trung tâm không? Tớ cần xem xét liệu trung tâm có nằm trong khoảng cách hợp lý từ trường đại học của tớ không.\n\nBên cạnh đó, tớ muốn biết thêm về học phí và các ưu đãi hiện có. Việc chuẩn bị ngân sách phù hợp trước khi đăng ký chính thức là rất quan trọng đối với tớ.\n\nThêm vào đó, cậu có thể cung cấp thêm thông tin về các giáo viên không? Tớ muốn đảm bảo rằng họ có kỹ năng sư phạm tốt và hướng dẫn phát âm tận tình cho người mới bắt đầu.\n\nCuối cùng, tớ cũng đang băn khoăn về chương trình đào tạo. Cậu có thể chia sẻ những chủ đề giao tiếp và hoạt động văn hóa cụ thể nào mà giáo trình bao gồm không?\n\nTớ rất trân trọng sự giúp đỡ của cậu về việc này. Hãy hồi âm cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
             "word_count": 160,
             "key_structures": [
@@ -10749,7 +10749,7 @@ const LETTERS_DATA = [
             "structure_analysis": [
               {
                 "label": "Formal Greeting & Assurance",
-                "desc": "Courteous salutation appreciating parental inquiries and setting a reassuring pedagogical tone"
+                "desc": "Courteous salutation appreciating parental inquiries and setting a reassuring educational tone"
               },
               {
                 "label": "Curriculum-linked Field Activities",
