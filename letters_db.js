@@ -7307,7 +7307,7 @@ const LETTERS_DATA = [
                   "reason_vi": "Vì vậy, cô ấy thường có mối quan hệ tốt với những người khác.",
                   "expansion_1_en": "She knows how to treat others with kindness and respect, even when they have different opinions.",
                   "expansion_1_vi": "Cô ấy biết cách đối xử tử tế và tôn trọng mọi người, ngay cả khi họ có những ý kiến khác nhau.",
-                  "expansion_2_en": "Her well-mannered communication style will bring a soothing and civilized presence to your home.",
+                  "expansion_2_en": "Her polite communication style will bring a warm and pleasant atmosphere to your home.",
                   "expansion_2_vi": "Cách giao tiếp lịch thiệp của cô ấy sẽ đem lại sự dễ chịu và văn minh cho mái ấm của gia đình bạn."
                 },
                 {
@@ -8043,9 +8043,9 @@ const LETTERS_DATA = [
                   "action_vi": "cuộc đua xe đạp địa hình diễn ra tại Vườn quốc gia Ba Vì vào Chủ nhật tuần trước",
                   "reason_en": "because you can enjoy fresh mountain air, towering pine forests, and beautiful nature.",
                   "reason_vi": "được bao quanh bởi không khí núi rừng mát mẻ, rừng thông bạt ngàn và cảnh sắc kỳ vĩ.",
-                  "expansion_1_en": "Towering ancient pine trees lined both sides of the course, providing soothing shade throughout the morning.",
+                  "expansion_1_en": "Towering ancient pine trees lined both sides of the course, providing pleasant shade throughout the morning.",
                   "expansion_1_vi": "Những hàng thông cổ thụ sừng sững phủ bóng mát rượi hai bên đường đua suốt cả buổi sáng.",
-                  "expansion_2_en": "The crisp mountain breeze kept our bodies remarkably cool despite the rigorous physical exertion.",
+                  "expansion_2_en": "The crisp mountain breeze kept our bodies remarkably cool despite the tough physical workout.",
                   "expansion_2_vi": "Làn gió núi trong lành giữ cho cơ thể tụi mình vô cùng mát mẻ dù phải vận động thể lực rất căng thẳng."
                 },
                 {
@@ -8075,7 +8075,7 @@ const LETTERS_DATA = [
                   "reason_vi": "khiến toàn bộ sự kiện trông vô cùng chuyên nghiệp và mãn nhãn.",
                   "expansion_1_en": "The course wound past sparkling highland reservoirs, terraced tea hills, and misty mountain ridges.",
                   "expansion_1_vi": "Đường đua uốn lượn qua những hồ nước vùng cao trong vắt, đồi chè bậc thang và những rặng núi mờ sương.",
-                  "expansion_2_en": "Pedaling amidst such pristine natural beauty transformed the grueling competition into an unforgettable visual feast.",
+                  "expansion_2_en": "Cycling through such beautiful nature made the tough race feel like an unforgettable adventure.",
                   "expansion_2_vi": "Đạp xe giữa cảnh sắc thiên nhiên nguyên sơ biến cuộc đua cam go thành một trải nghiệm mãn nhãn khó quên."
                 },
                 {
@@ -8147,13 +8147,13 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Nhận tấm huy chương kỷ niệm từ ban tổ chức như phần thưởng ngọt ngào cho chuỗi ngày miệt mài luyện tập."
                 },
                 {
-                  "action_en": "the sweeping panoramic vista from the mountain summit was absolutely breathtaking",
+                  "action_en": "the panoramic view from the mountain summit was truly spectacular",
                   "action_vi": "khung cảnh bao la nhìn từ đỉnh núi xuống thực sự ngoạn mục và thơ mộng",
-                  "reason_en": "because the breathtaking view helped me forget all my tiredness.",
+                  "reason_en": "because the spectacular view helped me forget all my tiredness.",
                   "reason_vi": "khiến mọi giọt mồ hôi và sự nhức mỏi trên đường đua đều trở nên hoàn toàn xứng đáng.",
                   "expansion_1_en": "My reinforced tubeless tires absorbed bumpy tree roots effortlessly, maintaining steady forward traction.",
                   "expansion_1_vi": "Bộ lốp không săm chuyên dụng nuốt trọn những rễ cây gồ ghề, duy trì độ bám đường ổn định khi leo dốc.",
-                  "expansion_2_en": "Having reliable gear proved that rigorous bike maintenance before the race was well worth the effort.",
+                  "expansion_2_en": "Having reliable gear proved that careful bike maintenance before the race was well worth the effort.",
                   "expansion_2_vi": "Trang bị đáng tin cậy chứng minh việc bảo dưỡng xe kỹ càng trước ngày đua là hoàn toàn xứng đáng."
                 },
                 {
@@ -8197,7 +8197,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "we have mapped out a moderate, scenic trail suitable for leisurely cycling and photography",
                   "action_vi": "chúng tớ đã thiết kế một cung đường vừa sức, cảnh đẹp phù hợp để vừa đạp xe vừa chụp ảnh",
-                  "reason_en": "so that participants can enjoy the picturesque landscape without feeling overwhelmed.",
+                  "reason_en": "so that participants can enjoy the beautiful scenery without feeling too tired.",
                   "reason_vi": "để mọi người có thể thảnh thơi thưởng ngoạn phong cảnh mà không bị quá tải về thể lực.",
                   "expansion_1_en": "The trail has gentle rolling slopes rather than sheer vertical drops, so it is friendly for relaxed riding.",
                   "expansion_1_vi": "Đường đi thoai thoải uốn lượn chứ không có dốc đứng nguy hiểm, rất thích hợp để vừa đạp xe vừa thảnh thơi ngắm cảnh.",
@@ -8629,7 +8629,7 @@ const LETTERS_DATA = [
                   "action_vi": "mỗi phòng ngủ đều có bàn học rộng rãi và ghế xoay công thái học êm ái",
                   "reason_en": "because it helps me concentrate better when studying for exams.",
                   "reason_vi": "tạo góc học tập lý tưởng cho những giờ làm đồ án và ôn thi căng thẳng.",
-                  "expansion_1_en": "A glass-enclosed shower stall with steady water pressure and an automatic heater ensures soothing baths.",
+                  "expansion_1_en": "A modern shower with strong water pressure and a water heater ensures relaxing warm showers.",
                   "expansion_1_vi": "Phòng tắm đứng vách kính với vòi sen nước chảy mạnh và bình nóng lạnh tự động đảm bảo những giờ tắm thư thái.",
                   "expansion_2_en": "Large mirrors and bright vanity lighting make getting ready in the morning pleasant and brisk.",
                   "expansion_2_vi": "Chiếc gương lớn cùng đèn chiếu sáng giúp việc chuẩn bị trang phục mỗi sáng thật nhanh gọn, dễ chịu."
@@ -8687,7 +8687,7 @@ const LETTERS_DATA = [
                   "action_vi": "ban công nhìn ra con ngõ nhỏ rợp bóng cây hầu như không có xe cộ qua lại",
                   "reason_en": "because it gives me a quiet view whenever I need to rest my eyes.",
                   "reason_vi": "mang lại tầm nhìn bình yên mỗi khi tớ cần nghỉ ngơi mắt sau khi nhìn màn hình máy tính.",
-                  "expansion_1_en": "Old clay tile roofs and lush green canopies create a picturesque, timeless neighborhood panorama.",
+                  "expansion_1_en": "Old clay tile roofs and lush green canopies create a charming and peaceful neighborhood view.",
                   "expansion_1_vi": "Những mái ngói rêu phong và tán cây xanh mát tạo nên khung cảnh khu phố cổ kính, bình yên như tranh vẽ.",
                   "expansion_2_en": "Watching vibrant crimson sunsets paint the evening sky from here is an everyday blessing.",
                   "expansion_2_vi": "Được ngắm hoàng hôn đỏ rực nhuộm thắm bầu trời chiều từ góc ban công này là một niềm vui mỗi ngày."
@@ -8777,7 +8777,7 @@ const LETTERS_DATA = [
                   "reason_vi": "đáp ứng mọi nhu cầu sinh hoạt thiết yếu chỉ cách vài bước chân ngoài ngõ.",
                   "expansion_1_en": "Local residents take pride in sweeping the lane and tending communal flowerbeds along the fences.",
                   "expansion_1_vi": "Các hộ dân trong ngõ rất có ý thức cùng nhau quét dọn đường đi và chăm sóc những bồn hoa dọc bờ rào.",
-                  "expansion_2_en": "There is never any litter or unpleasant smell, so the neighborhood has a remarkably civilized living environment.",
+                  "expansion_2_en": "There is never any litter or unpleasant smell, so the neighborhood has a clean, safe, and friendly living environment.",
                   "expansion_2_vi": "Không bao giờ có rác thải hay mùi khó chịu, tạo nên một môi trường sống văn minh, sạch đẹp hiếm có."
                 },
                 {
@@ -8884,7 +8884,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "they also have two other branch campuses in District 5 and Binh Thanh",
                   "action_vi": "trung tâm còn có 2 chi nhánh khác tại Quận 5 và Bình Thạnh",
-                  "reason_en": "because this helps giv you the flexibility to choose the nearest campus.",
+                  "reason_en": "because this helps give you the flexibility to choose the nearest campus.",
                   "reason_vi": "giúp cậu linh hoạt chọn chi nhánh gần nhà nhất.",
                   "expansion_1_en": "The branch is open daily until nine-thirty in the evening, so staff are always on hand to assist.",
                   "expansion_1_vi": "Cơ sở mở cửa mỗi ngày đến tận 9h30 tối, vì vậy đội ngũ nhân viên luôn sẵn sàng giải đáp thắc mắc.",
@@ -9602,7 +9602,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì thời tiết xấu khiến việc ngồi vẽ ngoài vườn khá bất tiện.",
                   "expansion_1_en": "A sudden rain shower forced me to move my easel and drawing materials straight into the hallway.",
                   "expansion_1_vi": "Một cơn mưa rào bất chợt buộc mình phải chuyển giá vẽ và dụng cụ vào ngay gian hành lang.",
-                  "expansion_2_en": "Fortunately, working indoors gave me plenty of time to focus on intricate wooden textures.",
+                  "expansion_2_en": "Fortunately, working indoors gave me plenty of time to focus on detailed wooden patterns.",
                   "expansion_2_vi": "May mắn thay, việc vẽ trong nhà lại cho mình nhiều thời gian để tập trung vào những vân gỗ tinh xảo."
                 },
                 {
@@ -9726,7 +9726,7 @@ const LETTERS_DATA = [
                   "action_vi": "điểm nổi bật chính là chiếc đồng hồ gỗ nhỏ thủ công đặt trên kệ",
                   "reason_en": "because my father crafted it with his own hands for my tenth birthday.",
                   "reason_vi": "vì bố mình đã tự tay làm nó nhân dịp sinh nhật lần thứ mười của mình.",
-                  "expansion_1_en": "The clock face features faint hand-carved Roman numerals that show my father's meticulous craftsmanship.",
+                  "expansion_1_en": "The clock face features faint hand-carved Roman numerals that show my father's careful craftsmanship.",
                   "expansion_1_vi": "Mặt đồng hồ có những chữ số La Mã khắc tay tỉ mỉ, thể hiện tay nghề khéo léo của bố mình.",
                   "expansion_2_en": "Every ticking second reminds me of his boundless patience and unconditional paternal love.",
                   "expansion_2_vi": "Từng tiếng tích tắc trôi qua lại nhắc mình nhớ đến sự nhẫn nại và tình phụ tử bao la của bố."
@@ -9756,7 +9756,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì nó luôn nhắc nhở mình về những kỷ niệm vui vẻ và tình yêu thương của cha mẹ.",
                   "expansion_1_en": "Completing this artwork helped me realize that real artistic beauty lies in everyday domestic moments.",
                   "expansion_1_vi": "Hoàn thiện tác phẩm giúp mình nhận ra vẻ đẹp nghệ thuật đích thực luôn tiềm ẩn trong những khoảnh khắc đời thường.",
-                  "expansion_2_en": "I truly hope this piece conveys the profound gratitude I feel toward my dedicated parents.",
+                  "expansion_2_en": "I truly hope this piece expresses the deep gratitude I feel toward my loving parents.",
                   "expansion_2_vi": "Mình thực lòng mong bức tranh sẽ truyền tải trọn vẹn lòng biết ơn sâu sắc dành cho bố mẹ tận tụy."
                 },
                 {
@@ -9950,7 +9950,7 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Moonie,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me to describe my drawing project, so here are some details.\n\nTo begin with, I have already finished my drawing project. I decided to draw a scene inside my house rather than in the garden. I chose the living room because it is where my family spends most of our time together.\n\nSecondly, my drawing shows the living room of my house. There is a large sofa in the center, a television on the wall, and a bookshelf in one corner. There are also several family photos on a shelf, which make the room look warm and welcoming.\n\nNext, this drawing represents my daily life and many happy moments with my family. It shows the place where we often relax, watch television, and talk to one another. Therefore, it is one of my favorite areas in the house.\n\nFinally, the most important object in my drawing is a family photo hanging on the wall. It is especially meaningful to me because it reminds me of many wonderful memories with my parents and siblings. Whenever I look at it, I feel grateful for having such a loving family.\n\nI hope you find this information helpful. Let me know if you need more details.\n\nBest wishes,",
+            "letter_en": "Dear Moonie,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me to describe my drawing project, so here are some details.\n\nTo begin with, I have already finished my drawing project. I decided to draw a scene inside my house rather than in the garden. I chose the living room because it is where my family spends most of our time together.\n\nSecondly, my drawing shows the living room of my house. There is a large sofa in the center, a television on the wall, and a bookshelf in one corner. There are also several family photos on a shelf, and they make the room look warm and welcoming.\n\nNext, this drawing represents my daily life and many happy moments with my family. It shows the place where we often relax, watch television, and talk to one another. Therefore, it is one of my favorite areas in the house.\n\nFinally, the most important object in my drawing is a family photo hanging on the wall. It is especially meaningful to me because it reminds me of many wonderful memories with my parents and siblings. Whenever I look at it, I feel grateful for having such a loving family.\n\nI hope you find this information helpful. Let me know if you need more details.\n\nBest wishes,",
             "letter_vi": "Moonie thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu đã hỏi tớ miêu tả về dự án vẽ tranh của tớ, vì vậy dưới đây là một số chi tiết.\n\nTrước hết, tớ đã hoàn thành xong dự án vẽ tranh của mình rồi. Tớ quyết định vẽ một khung cảnh bên trong ngôi nhà thay vì ngoài vườn. Tớ chọn phòng khách vì đó là nơi gia đình tớ dành phần lớn thời gian quây quần bên nhau.\n\nThứ hai, bức vẽ của tớ miêu tả phòng khách của nhà tớ. Có một chiếc ghế sofa lớn ở trung tâm, một chiếc ti vi trên tường, và một giá sách ở một góc. Cũng có vài bức ảnh gia đình trên kệ, khiến căn phòng trông thật ấm áp và chào đón.\n\nTiếp theo, bức tranh này tượng trưng cho cuộc sống hàng ngày và nhiều khoảnh khắc hạnh phúc cùng gia đình tớ. Nó thể hiện nơi chúng tớ thường thư giãn, xem ti vi và trò chuyện cùng nhau. Do đó, đây là một trong những khu vực tớ yêu thích nhất trong nhà.\n\nCuối cùng, đồ vật quan trọng nhất trong bức vẽ của tớ là bức ảnh gia đình treo trên tường. Nó đặc biệt có ý nghĩa với tớ vì nó gợi nhắc tớ về nhiều kỷ niệm tuyệt vời cùng bố mẹ và anh chị em. Bất cứ khi nào nhìn vào đó, tớ đều cảm thấy biết ơn vì có một gia đình yêu thương như vậy.\n\nTớ hy vọng cậu thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé.\n\nChúc cậu mọi điều tốt lành,",
             "text": "Dear Moonie,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me to describe my drawing project, so here are some details.\n\nTo begin with, I have already finished my drawing project. I decided to draw a scene inside my house rather than in the garden. I chose the living room because it is where my family spends most of our time together.\n\nSecondly, my drawing shows the living room of my house. There is a large sofa in the center, a television on the wall, and a bookshelf in one corner. There are also several family photos on a shelf, which make the room look warm and welcoming.\n\nNext, this drawing represents my daily life and many happy moments with my family. It shows the place where we often relax, watch television, and talk to one another. Therefore, it is one of my favorite areas in the house.\n\nFinally, the most important object in my drawing is a family photo hanging on the wall. It is especially meaningful to me because it reminds me of many wonderful memories with my parents and siblings. Whenever I look at it, I feel grateful for having such a loving family.\n\nI hope you find this information helpful. Let me know if you need more details.\n\nBest wishes,",
             "translation": "Moonie thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu đã hỏi tớ miêu tả về dự án vẽ tranh của tớ, vì vậy dưới đây là một số chi tiết.\n\nTrước hết, tớ đã hoàn thành xong dự án vẽ tranh của mình rồi. Tớ quyết định vẽ một khung cảnh bên trong ngôi nhà thay vì ngoài vườn. Tớ chọn phòng khách vì đó là nơi gia đình tớ dành phần lớn thời gian quây quần bên nhau.\n\nThứ hai, bức vẽ của tớ miêu tả phòng khách của nhà tớ. Có một chiếc ghế sofa lớn ở trung tâm, một chiếc ti vi trên tường, và một giá sách ở một góc. Cũng có vài bức ảnh gia đình trên kệ, khiến căn phòng trông thật ấm áp và chào đón.\n\nTiếp theo, bức tranh này tượng trưng cho cuộc sống hàng ngày và nhiều khoảnh khắc hạnh phúc cùng gia đình tớ. Nó thể hiện nơi chúng tớ thường thư giãn, xem ti vi và trò chuyện cùng nhau. Do đó, đây là một trong những khu vực tớ yêu thích nhất trong nhà.\n\nCuối cùng, đồ vật quan trọng nhất trong bức vẽ của tớ là bức ảnh gia đình treo trên tường. Nó đặc biệt có ý nghĩa với tớ vì nó gợi nhắc tớ về nhiều kỷ niệm tuyệt vời cùng bố mẹ và anh chị em. Bất cứ khi nào nhìn vào đó, tớ đều cảm thấy biết ơn vì có một gia đình yêu thương như vậy.\n\nTớ hy vọng cậu thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé.\n\nChúc cậu mọi điều tốt lành,",
@@ -10875,7 +10875,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì cha mẹ là người hiểu rõ nhất những món ăn nào con mình ăn an toàn.",
                   "expansion_1_en": "Professional bakers will guide students through kneading soft dough into creative animal shapes.",
                   "expansion_1_vi": "Các thợ làm bánh chuyên nghiệp sẽ hướng dẫn học sinh nhào bột và nặn bánh thành hình thù con vật ngộ nghĩnh.",
-                  "expansion_2_en": "Tasting warm bread fresh out of the stone oven will be an unforgettable sensory delight for her.",
+                  "expansion_2_en": "Tasting warm bread fresh out of the stone oven will be an delightful and fun experience for her.",
                   "expansion_2_vi": "Thưởng thức chiếc bánh mì ấm nóng vừa ra lò sẽ là trải nghiệm giác quan khó quên đối với bé."
                 },
                 {
@@ -10885,7 +10885,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì học sinh có thể ăn ngay mà không phải xếp hàng chờ đợi lấy đồ ăn.",
                   "expansion_1_en": "Fun group activities like tug-of-war and sack racing encourage healthy teamwork and laughter.",
                   "expansion_1_vi": "Các trò chơi tập thể như kéo co và nhảy bao bố khích lệ tinh thần đồng đội và mang lại nhiều tiếng cười.",
-                  "expansion_2_en": "Running on soft grassy fields provides wonderful physical exercise away from sedentary urban habits.",
+                  "expansion_2_en": "Running on soft grassy fields provides wonderful physical exercise away from indoor computer screens and phones.",
                   "expansion_2_vi": "Chạy nhảy trên thảm cỏ êm ái đem lại bài vận động thể chất tuyệt vời, tách biệt thói quen thụ động nơi đô thị."
                 }
               ]
@@ -11001,7 +11001,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì trẻ em cần lau sạch tay cẩn thận trước khi ăn bữa trưa.",
                   "expansion_1_en": "Children often forget to wash hands thoroughly when eager to grab lunch with classmates.",
                   "expansion_1_vi": "Các bé thường quên rửa tay kỹ lưỡng khi đang háo hức cùng bạn bè thưởng thức bữa trưa ngoài trời.",
-                  "expansion_2_en": "Having travel-sized wipes within arm's reach ensures top-tier personal hygiene all day long.",
+                  "expansion_2_en": "Having travel-sized wipes within arm's reach ensures good personal hygiene and cleanliness all day long.",
                   "expansion_2_vi": "Có sẵn khăn ướt mini tiện lợi trong tầm tay đảm bảo vệ sinh cá nhân tối ưu trong suốt chuyến đi."
                 }
               ]
@@ -11380,7 +11380,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì chất liệu cứng bảo vệ các vật dụng dễ vỡ bên trong khỏi va đập.",
                   "expansion_1_en": "All four multi-directional wheels rotate smoothly without generating any rattling noise.",
                   "expansion_1_vi": "Cả bốn bánh xe xoay đa chiều đều vận hành êm ái, không hề phát ra tiếng kêu lọc cọc.",
-                  "expansion_2_en": "The sturdy polycarbonate shell ensures internal fragile business items remain fully protected.",
+                  "expansion_2_en": "The durable hard plastic shell ensures fragile business items inside remain fully protected.",
                   "expansion_2_vi": "Lớp vỏ nhựa polycarbonate chịu lực đảm bảo các vật dụng công việc dễ vỡ bên trong được bảo vệ tối đa."
                 },
                 {
@@ -11418,7 +11418,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì tôi cần phải trình những văn bản gốc này cho khách hàng vào ngày mai.",
                   "expansion_1_en": "These legal documents carry official corporate red stamps and cannot be replaced easily.",
                   "expansion_1_vi": "Các văn bản pháp lý này đều có đóng dấu đỏ chính thức của doanh nghiệp và không thể thay thế dễ dàng.",
-                  "expansion_2_en": "Failing to produce them tomorrow morning could severely jeopardize our company's partnership.",
+                  "expansion_2_en": "Failing to produce them tomorrow morning could severely damage our company's partnership.",
                   "expansion_2_vi": "Nếu không xuất trình được tài liệu vào sáng mai, quan hệ đối tác của công ty chúng tôi có thể bị ảnh hưởng nghiêm trọng."
                 },
                 {
@@ -11458,7 +11458,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì tôi muốn chia sẻ đặc sản địa phương với các đồng nghiệp trong khu vực.",
                   "expansion_1_en": "The premium Arabica coffee beans are packaged in distinctive golden foil gift boxes.",
                   "expansion_1_vi": "Những gói hạt cà phê Arabica thượng hạng được đóng trong các hộp quà phủ giấy kim loại màu vàng sang trọng.",
-                  "expansion_2_en": "They represent thoughtful cultural tokens of appreciation for our northern branch partners.",
+                  "expansion_2_en": "They are meaningful souvenir gifts of appreciation for our northern branch partners.",
                   "expansion_2_vi": "Đây là những món quà tri ân văn hóa đầy ý nghĩa dành cho các đối tác chi nhánh phía Bắc của chúng tôi."
                 }
               ]
@@ -11496,7 +11496,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì nhân viên khách sạn có thể ký nhận hộ trong lúc tôi đang họp.",
                   "expansion_1_en": "The hotel front desk operates 24/7 and is fully authorized to receive luggage on my behalf.",
                   "expansion_1_vi": "Quầy lễ tân khách sạn trực suốt hai mươi tư giờ và có đầy đủ ủy quyền để ký nhận hành lý thay cho tôi.",
-                  "expansion_2_en": "I have already briefed the head concierge regarding this anticipated airport baggage delivery.",
+                  "expansion_2_en": "I have already informed the hotel reception staff about this expected airport baggage delivery.",
                   "expansion_2_vi": "Tôi đã trao đổi trước với trưởng bộ phận lễ tân về việc đón nhận kiện hành lý sân bay chuyển tới."
                 },
                 {
@@ -11666,7 +11666,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The changing room was poorly maintained.",
                   "action_vi": "Phòng thay đồ được giữ gìn kém.",
-                  "reason_en": "Rubbish was scattered across the floor, so the entire area looked unhygienic and unpleasant to use.",
+                  "reason_en": "Rubbish was scattered across the floor, so the entire area looked dirty and unpleasant to use.",
                   "reason_vi": "Rác vương vãi khắp sàn nhà, vì vậy toàn bộ khu vực trông mất vệ sinh và gây cảm giác khó chịu khi sử dụng.",
                   "solution_en": "I would appreciate it if you could arrange for the changing room to be cleaned more frequently.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể bố trí vệ sinh phòng thay đồ thường xuyên hơn."
@@ -11696,7 +11696,7 @@ const LETTERS_DATA = [
                   "solution_vi": "Tôi muốn gợi ý rằng quý vị sửa chữa hoặc thay thế các tủ khóa bị lỗi sớm nhất có thể."
                 },
                 {
-                  "action_en": "There were insufficient lockers available for members.",
+                  "action_en": "There were not enough lockers available for members.",
                   "action_vi": "Không có đủ tủ khóa cho các thành viên.",
                   "reason_en": "I had to wait until a locker became available, and this wasted valuable time before my workout.",
                   "reason_vi": "Tôi phải chờ đến khi có tủ trống, và điều này làm lãng phí thời gian quý báu trước buổi tập.",
@@ -11744,7 +11744,7 @@ const LETTERS_DATA = [
                   "solution_vi": "Tôi đề xuất quý vị thay các đèn bị lỗi bằng đèn mới kịp thời."
                 },
                 {
-                  "action_en": "The lighting in the changing room was inadequate.",
+                  "action_en": "The lighting in the changing room was too dim.",
                   "action_vi": "Hệ thống chiếu sáng trong phòng thay đồ không đủ.",
                   "reason_en": "I found it difficult to locate my personal belongings, especially in the darker areas of the room.",
                   "reason_vi": "Tôi thấy khó tìm đồ dùng cá nhân, đặc biệt ở những khu vực tối hơn trong phòng.",
@@ -11760,7 +11760,7 @@ const LETTERS_DATA = [
               "icon": "fa-shirt",
               "options": [
                 {
-                  "action_en": "There were insufficient clothes hooks available.",
+                  "action_en": "There were not enough clothes hooks available.",
                   "action_vi": "Không có đủ móc treo quần áo.",
                   "reason_en": "I had to leave my clothes on a bench or the floor, so they could easily become dirty.",
                   "reason_vi": "Tôi phải để quần áo trên ghế hoặc sàn nhà, nơi chúng có thể dễ bị bẩn.",
@@ -11816,7 +11816,7 @@ const LETTERS_DATA = [
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị thường xuyên vệ sinh và lau khô sàn nhà để ngăn ngừa tai nạn."
                 },
                 {
-                  "action_en": "Water had accumulated across the floor.",
+                  "action_en": "A lot of water had gathered on the floor.",
                   "action_vi": "Nước đọng trên khắp sàn nhà.",
                   "reason_en": "This made it difficult to move around safely and increased the risk of slips and falls.",
                   "reason_vi": "Điều này khiến việc đi lại an toàn trở nên khó khăn và làm tăng nguy cơ trượt ngã.",
@@ -11906,7 +11906,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The rubbish bins were overflowing.",
                   "action_vi": "Các thùng rác bị đầy tràn.",
-                  "reason_en": "Rubbish had accumulated around the bins, so the changing room looked unhygienic and unpleasant.",
+                  "reason_en": "Rubbish had piled up around the bins, so the changing room looked dirty and unpleasant.",
                   "reason_vi": "Rác tích tụ xung quanh thùng, điều này khiến phòng thay đồ trông mất vệ sinh và gây cảm giác khó chịu.",
                   "solution_en": "I believe that steps should be taken to empty the rubbish bins more frequently, especially during busy periods.",
                   "solution_vi": "Tôi tin rằng các biện pháp cần được thực hiện để đổ rác thường xuyên hơn, đặc biệt vào những thời điểm đông người."
@@ -11952,7 +11952,7 @@ const LETTERS_DATA = [
               "icon": "fa-restroom",
               "options": [
                 {
-                  "action_en": "The toilets were poorly maintained and unhygienic.",
+                  "action_en": "The toilets were poorly maintained and very dirty.",
                   "action_vi": "Nhà vệ sinh được giữ gìn kém và mất vệ sinh.",
                   "reason_en": "The unsanitary conditions made me uncomfortable using the toilets and raised concerns about the overall hygiene standards of the sports center.",
                   "reason_vi": "Điều kiện mất vệ sinh khiến tôi không thoải mái khi sử dụng nhà vệ sinh và làm dấy lên lo ngại về tiêu chuẩn vệ sinh chung của trung tâm thể thao.",
@@ -12610,7 +12610,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The electronic control screens on the treadmills frequently froze and stopped suddenly.",
                   "action_vi": "Màn hình điều khiển điện tử trên máy chạy bộ thường xuyên bị đơ và dừng lại đột ngột.",
-                  "reason_en": "This technical malfunction was very dangerous, and it could easily cause runners to fall and get injured.",
+                  "reason_en": "This sudden breakdown was very dangerous, and it could easily cause runners to fall and get injured.",
                   "reason_vi": "Sự cố kỹ thuật này rất nguy hiểm, và nó có thể dễ dàng khiến người chạy bị ngã và chấn thương.",
                   "solution_en": "I strongly recommend that the management inspect and calibrate all running machines immediately.",
                   "solution_vi": "Tôi tha thiết đề xuất ban quản lý kiểm tra và hiệu chỉnh lại toàn bộ các máy chạy bộ ngay lập tức."
@@ -12656,7 +12656,7 @@ const LETTERS_DATA = [
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể sửa chữa hệ thống điều hòa và cải thiện độ thông gió của phòng."
                 },
                 {
-                  "action_en": "The ventilation fans emitted a loud rattling noise throughout the day.",
+                  "action_en": "The ventilation fans made a loud rattling noise throughout the day.",
                   "action_vi": "Các quạt thông gió phát ra tiếng kêu rè rè đinh tai nhức óc suốt cả ngày.",
                   "reason_en": "This constant noise caused significant disturbance, so members could not concentrate on their workouts.",
                   "reason_vi": "Tiếng ồn liên tục này gây khó chịu đáng kể, vì vậy các hội viên không thể tập trung vào bài tập của mình.",
@@ -12682,7 +12682,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "Workout mats and benches were not sanitized after use.",
                   "action_vi": "Thảm tập và ghế tập không được vệ sinh khử khuẩn sau khi sử dụng.",
-                  "reason_en": "Sweat stains remained on the leather surfaces, so they looked unhygienic and unpleasant.",
+                  "reason_en": "Sweat stains remained on the leather surfaces, so they looked dirty and unpleasant.",
                   "reason_vi": "Vết mồ hôi lưu lại trên bề mặt da, vì vậy chúng trông mất vệ sinh và khó chịu.",
                   "solution_en": "I strongly recommend that you provide disinfectant sprays and cleaning cloths for members to use.",
                   "solution_vi": "Tôi tha thiết đề xuất quý vị trang bị thêm chai xịt khử trùng và khăn lau để hội viên sử dụng."
@@ -12944,7 +12944,7 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Inferior food quality & cold dishes",
+              "title_en": "1. Poor food quality & cold dishes",
               "title_vi": "Chất lượng món ăn kém & thức ăn bị nguội",
               "icon": "fa-utensils",
               "options": [
@@ -12992,7 +12992,7 @@ const LETTERS_DATA = [
             },
             {
               "id": 3,
-              "title_en": "3. Inattentive & dismissive server attitude",
+              "title_en": "3. Inattentive & unfriendly server attitude",
               "title_vi": "Thái độ phục vụ thiếu niềm nở & thờ ơ",
               "icon": "fa-user-tie",
               "options": [
@@ -13031,7 +13031,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "A full service fee was charged despite the extremely poor service we received.",
                   "action_vi": "Phí dịch vụ đầy đủ vẫn bị tính dù chất lượng phục vụ mà chúng tôi nhận được rất tệ.",
-                  "reason_en": "We felt that this mandatory charge was unfair, so we left the restaurant feeling deeply disappointed.",
+                  "reason_en": "We felt that this automatic service charge was unfair, so we left the restaurant feeling deeply disappointed.",
                   "reason_vi": "Chúng tôi cảm thấy khoản phí bắt buộc này là không công bằng, vì vậy chúng tôi rời nhà hàng với tâm trạng vô cùng thất vọng.",
                   "solution_en": "I strongly recommend that you offer a partial refund or discount voucher as a gesture of goodwill.",
                   "solution_vi": "Tôi tha thiết đề xuất quý vị hoàn lại một phần tiền hoặc tặng phiếu giảm giá như một hành động thiện chí."
@@ -13088,12 +13088,12 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Air conditioning malfunction & loud noise",
+              "title_en": "1. Air conditioning breakdown & loud noise",
               "title_vi": "Máy điều hòa bị hỏng & phát ra tiếng ồn lớn",
               "icon": "fa-fan",
               "options": [
                 {
-                  "action_en": "The air conditioner emitted a loud rattling noise and failed to cool the room.",
+                  "action_en": "The air conditioner made a loud rattling noise and failed to cool the room.",
                   "action_vi": "Máy điều hòa phát ra tiếng kêu rè rè lớn và không hề phả ra hơi mát.",
                   "reason_en": "The room remained hot and stuffy, so my family could not sleep comfortably throughout the night.",
                   "reason_vi": "Căn phòng vẫn nóng nực và ngột ngạt, vì vậy gia đình tôi không thể ngủ ngon suốt cả đêm.",
@@ -13112,7 +13112,7 @@ const LETTERS_DATA = [
             },
             {
               "id": 2,
-              "title_en": "2. Stained bedsheets & unhygienic bedding",
+              "title_en": "2. Stained bedsheets & dirty bedding",
               "title_vi": "Ga trải giường bị ố vàng & ẩm mốc",
               "icon": "fa-bed",
               "options": [
@@ -13143,7 +13143,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The bathroom sink and shower drain were severely clogged.",
                   "action_vi": "Bồn rửa mặt và cống thoát nước phòng tắm bị nghẹt nặng.",
-                  "reason_en": "Dirty wastewater took a long time to drain away, so it left an unpleasant residue on the floor.",
+                  "reason_en": "Dirty wastewater took a long time to drain away, so it left unpleasant dirty marks on the floor.",
                   "reason_vi": "Nước thải bẩn mất nhiều thời gian mới rút hết, vì vậy nó để lại lớp cặn bẩn khó chịu trên sàn.",
                   "solution_en": "I would appreciate it if you could have the plumbing checked and cleared immediately.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể cho thợ kiểm tra và thông tắc đường ống nước ngay lập tức."
@@ -13176,12 +13176,12 @@ const LETTERS_DATA = [
             },
             {
               "id": 5,
-              "title_en": "5. Front desk indifference & compensation request",
+              "title_en": "5. Unhelpful front desk staff & compensation request",
               "title_vi": "Thái độ lễ tân thờ ơ & yêu cầu bồi hoàn",
               "icon": "fa-bell-concierge",
               "options": [
                 {
-                  "action_en": "The front desk staff showed complete indifference when we reported these room defects.",
+                  "action_en": "The front desk staff showed an unhelpful attitude when we reported these room problems.",
                   "action_vi": "Nhân viên lễ tân tỏ thái độ hoàn toàn thờ ơ khi chúng tôi báo cáo các sự cố trong phòng.",
                   "reason_en": "No technician was sent to assist us, so we had to endure the uncomfortable room for two nights.",
                   "reason_vi": "Không hề có nhân viên kỹ thuật nào được cử đến hỗ trợ, vì vậy chúng tôi phải chịu đựng căn phòng khó chịu suốt hai đêm.",
