@@ -8199,7 +8199,7 @@ const LETTERS_DATA = [
                   "action_vi": "chúng tớ đã thiết kế một cung đường vừa sức, cảnh đẹp phù hợp để vừa đạp xe vừa chụp ảnh",
                   "reason_en": "so that participants can enjoy the picturesque landscape without feeling overwhelmed.",
                   "reason_vi": "để mọi người có thể thảnh thơi thưởng ngoạn phong cảnh mà không bị quá tải về thể lực.",
-                  "expansion_1_en": "The trail has gentle rolling slopes rather than sheer vertical drops, making it friendly for relaxed riding.",
+                  "expansion_1_en": "The trail has gentle rolling slopes rather than sheer vertical drops, so it is friendly for relaxed riding.",
                   "expansion_1_vi": "Đường đi thoai thoải uốn lượn chứ không có dốc đứng nguy hiểm, rất thích hợp để vừa đạp xe vừa thảnh thơi ngắm cảnh.",
                   "expansion_2_en": "We plan to make frequent stops at scenic viewpoints to take photos and sample wild forest berries.",
                   "expansion_2_vi": "Nhóm dự kiến dừng lại ở nhiều điểm ngắm cảnh đẹp để chụp ảnh và nếm thử các loại dâu rừng."
@@ -8287,7 +8287,7 @@ const LETTERS_DATA = [
                   "action_vi": "tớ sẵn lòng cho cậu mượn chiếc xe đạp địa hình dự phòng và mũ bảo hiểm của tớ",
                   "reason_en": "so that you will not need to worry about purchasing or transporting extra cycling gear.",
                   "reason_vi": "nên cậu không cần phải bận tâm về việc chuẩn bị hay chở thêm đồ đạc cồng kềnh.",
-                  "expansion_1_en": "We can split travel fuel and food costs evenly, making the entire two-day getaway exceptionally economical.",
+                  "expansion_1_en": "We can split travel fuel and food costs evenly, so the entire two-day getaway will be exceptionally economical.",
                   "expansion_1_vi": "Tụi mình có thể chia đều chi phí xăng xe và đồ ăn, giúp chuyến đi 2 ngày trở nên vô cùng tiết kiệm.",
                   "expansion_2_en": "It offers five-star outdoor memories for only a tiny fraction of conventional resort hotel expenses.",
                   "expansion_2_vi": "Chuyến dã ngoại mang lại trải nghiệm chuẩn năm sao mà chi phí chỉ bằng một phần nhỏ so với đi resort."
@@ -8777,7 +8777,7 @@ const LETTERS_DATA = [
                   "reason_vi": "đáp ứng mọi nhu cầu sinh hoạt thiết yếu chỉ cách vài bước chân ngoài ngõ.",
                   "expansion_1_en": "Local residents take pride in sweeping the lane and tending communal flowerbeds along the fences.",
                   "expansion_1_vi": "Các hộ dân trong ngõ rất có ý thức cùng nhau quét dọn đường đi và chăm sóc những bồn hoa dọc bờ rào.",
-                  "expansion_2_en": "There is never any litter or unpleasant smell, creating a remarkably civilized living environment.",
+                  "expansion_2_en": "There is never any litter or unpleasant smell, so the neighborhood has a remarkably civilized living environment.",
                   "expansion_2_vi": "Không bao giờ có rác thải hay mùi khó chịu, tạo nên một môi trường sống văn minh, sạch đẹp hiếm có."
                 },
                 {
