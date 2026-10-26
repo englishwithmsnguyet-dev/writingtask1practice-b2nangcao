@@ -657,10 +657,10 @@ function selectCategory(catKey) {
     }
   }
 
-  // Tạm khóa Dạng thư từ 03 đến 07 đối với tài khoản học viên (Chỉ mở Dạng 01 Advice và Dạng 02 Request)
-  if (!isTeacherAccount() && LOCKED_CATEGORIES_FOR_STUDENTS.includes(catKey)) {
+  // Tạm khóa Dạng thư từ 05 đến 07 đối với tài khoản học viên (Đã mở Dạng 01 Advice, Dạng 02 Request, Dạng 03 Description, Dạng 04 Complaint)
+  if (!isTeacherAccount() && !isGiaTueAccount() && LOCKED_CATEGORIES_FOR_STUDENTS.includes(catKey)) {
     const catInfo = CATEGORY_MAP[catKey];
-    showToast(`🔒 Dạng thư "${catInfo?.title_vi || catKey}" tạm thời đang khóa đối với học viên. Hiện tại bạn hãy tập trung luyện Dạng 01 (Advice) và Dạng 02 (Request) nhé!`, 'warning');
+    showToast(`🔒 Dạng thư "${catInfo?.title_vi || catKey}" tạm thời đang khóa đối với học viên. Hiện tại hệ thống đã mở Dạng 01 (Advice), Dạng 02 (Request), Dạng 03 (Description) và Dạng 04 (Complaint) để bạn luyện tập nhé!`, 'warning');
     return;
   }
 
