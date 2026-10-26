@@ -4346,18 +4346,126 @@ body.mobile-drawer-active {
 }
 
 /* Auto-Save Status Indicator */
-#practiceAutoSaveStatus {
+.editor-autosave-indicator {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   transition: all 0.25s ease;
 }
-#practiceAutoSaveStatus.saving {
-  background: rgba(245, 158, 11, 0.12) !important;
+.editor-autosave-indicator.saving {
   color: var(--amber-light) !important;
-  border-color: rgba(245, 158, 11, 0.3) !important;
 }
-#practiceAutoSaveStatus.saved {
-  background: rgba(16, 185, 129, 0.12) !important;
+.editor-autosave-indicator.saved {
   color: var(--emerald-light) !important;
-  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+/* Modern Minimalist Writing Toolbar */
+.editor-top-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.65rem 1rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-inner);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  flex-wrap: wrap;
+}
+
+.editor-timer-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.btn-timer-play {
+  padding: 0.3rem 0.65rem !important;
+  font-size: 0.76rem !important;
+  font-weight: 700 !important;
+  border-radius: var(--radius-sm) !important;
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--panel-border) !important;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: all 0.2s ease;
+}
+.btn-timer-play:hover {
+  border-color: var(--cyan-border) !important;
+  color: var(--cyan-light) !important;
+}
+
+.btn-timer-reset {
+  padding: 0.3rem 0.5rem !important;
+  font-size: 0.76rem !important;
+  border-radius: var(--radius-sm) !important;
+  background: var(--bg-card) !important;
+  color: var(--text-muted) !important;
+  border: 1px solid var(--panel-border) !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn-timer-reset:hover {
+  color: var(--text-primary) !important;
+  border-color: var(--panel-border-hover) !important;
+}
+
+/* Word Counter Component */
+.editor-word-count-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--bg-card);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-md);
+  padding: 0.32rem 0.75rem;
+  font-size: 0.84rem;
+}
+
+.word-count-label {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.word-count-value {
+  font-size: 1.15rem;
+  font-weight: 900;
+  font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, monospace;
+}
+
+.word-count-target {
+  color: var(--text-muted);
+  font-size: 0.76rem;
+}
+
+.word-count-status-pill {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  letter-spacing: 0.2px;
+}
+.word-count-status-pill.badge-danger {
+  background: rgba(244, 63, 94, 0.12);
+  color: var(--danger);
+  border: 1px solid rgba(244, 63, 94, 0.25);
+}
+.word-count-status-pill.badge-warning {
+  background: rgba(245, 158, 11, 0.12);
+  color: var(--warning);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+.word-count-status-pill.badge-success {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--success);
+  border: 1px solid rgba(16, 185, 129, 0.25);
 }
 
 /* Revision Mode Banner */
