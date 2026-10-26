@@ -127,8 +127,10 @@ const CATEGORY_MAP = {
 // ==========================================================================
 const ACCESS_PASSWORDS = ['VSTEPWRITING', 'VSTEOWRITING', 'VSTEP', 'PTMN', 'B2', 'CB206', 'CB210', 'ADMIN'];
 const ALLOWED_CLASSES = ['CB206', 'CB210', 'B2', 'GV'];
-// Danh sách Dạng thư từ 05 đến 07 tạm khóa đối với tài khoản học viên (Đã mở 01 Advice, 02 Request, 03 Description, 04 Complaint)
-const LOCKED_CATEGORIES_FOR_STUDENTS = ['feedback', 'apology', 'application'];
+// Danh sách Dạng thư tạm khóa đối với học viên thông thường (Chỉ mở 01 Advice, 02 Request)
+const LOCKED_CATEGORIES_FOR_STUDENTS = ['description', 'complaint', 'feedback', 'apology', 'application'];
+// Riêng học viên Gia Tuệ: Mở khóa thêm Dạng 03 (Description) và Dạng 04 (Complaint)
+const LOCKED_CATEGORIES_FOR_GIATUE = ['feedback', 'apology', 'application'];
 const GOOGLE_FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLScjhthdSEklX3xgFywh0WVnboJiMrdtwktPgdImgsVwl3ymbQ/formResponse';
 const GOOGLE_FORM_ENTRY = 'entry.1205151935';
 
