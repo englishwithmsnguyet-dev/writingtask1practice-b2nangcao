@@ -2529,6 +2529,11 @@ body.zen-mode-active .practice-container-grid {
   color: var(--text-primary);
   white-space: pre-line;
   letter-spacing: 0.2px;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  text-align-last: left !important;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 /* Action Footer */
