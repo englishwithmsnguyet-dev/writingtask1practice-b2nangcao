@@ -1223,6 +1223,13 @@ function renderCategoryPracticeTab() {
 }
 
 function onPracticeTopicChange(topicId) {
+  // Tự động lưu tiến độ của đề hiện tại trước khi chuyển sang đề mới
+  if (AppState.activePracticeTopicId && AppState.activePracticeTopicId !== topicId) {
+    if (typeof executeAutoSavePracticeDraft === 'function') {
+      executeAutoSavePracticeDraft();
+    }
+  }
+
   AppState.activePracticeTopicId = topicId;
   const editorGrid = document.getElementById('practiceEditorGrid');
   const resultContainer = document.getElementById('practiceCompletionResultContainer');
