@@ -5420,3 +5420,361 @@ function downloadWordDocument(sub, topic) {
     showToast('Lỗi khi xuất file Word: ' + err.message, 'error');
   }
 }
+
+// ==========================================================================
+// SAO CHÉP BÀI LÀM & NHẬN XÉT SỬA LỖI
+// ==========================================================================
+function copySubmissionCorrection(subId) {
+  const sub = AppState.submissions.find(s => s.id === subId);
+  if (!sub) return;
+  const ev = sub.evaluation || {};
+  const topic = findTopicById(sub.topicId);
+
+  let text = `=== BÀI LÀM VSTEP WRITING TASK 01 ===\n`;
+  text += `Học viên: ${sub.studentName} - Lớp: ${sub.className}\n`;
+  text += `Đề bài: ${topic?.title_vi || sub.topicTitle}\n`;
+  if (sub.isRevision) {
+    text += `Phiên bản: Bản sửa lần ${sub.revisionNumber || 2} (Đã chỉnh sửa theo góp ý)\n`;
+  }
+  text += `Điểm tổng quan: ${ev.overallBand || 7.0} / 10.0 (TF: ${ev.tf?.band || 7.0}, OR: ${ev.or?.band || 7.0}, LR: ${ev.lr?.band || 7.0}, GRA: ${ev.gra?.band || 7.0})\n\n`;
+  text += `--- BÀI VIẾT CỦA HỌC VIÊN (${sub.wordCount} từ) ---\n`;
+  text += `${sub.content}\n\n`;
+
+  const sentences = ev.sentenceEvaluations || [];
+  if (sentences.length > 0) {
+    text += `--- NHẬN XÉT & CÂU NÂNG CẤP CHUẨN B2 ---\n`;
+    sentences.forEach((s, idx) => {
+      text += `[Câu ${idx + 1}]: "${s.original}"\n`;
+      if (s.feedback) text += `  Nhận xét: ${s.feedback}\n`;
+      if (s.upgraded) text += `  ➔ Nâng cấp B2: "${s.upgraded}"\n`;
+      text += `\n`;
+    });
+  }
+
+  copyIdeaText(text);
+  showToast('📋 Đã sao chép toàn bộ Bài viết & Nhận xét sửa lỗi vào bộ nhớ tạm!', 'success');
+}
+
+// ==========================================================================
+// XUẤT BẢN THẢO WORD (.DOC) KHI ĐANG VIẾT
+// ==========================================================================
+function exportCurrentEditorToWord() {
+  const topicId = AppState.activePracticeTopicId;
+  const textarea = document.getElementById('practiceWritingTextarea');
+  const content = (textarea ? textarea.value : '').trim();
+  const topic = findTopicById(topicId);
+
+  if (!content) {
+    showToast('Chưa có nội dung bài viết để xuất file Word!', 'warning');
+    return;
+  }
+
+  const draftData = {
+    topicId,
+    categoryKey: AppState.activeCategory,
+    topicTitle: topic?.title_vi || topic?.title_en || 'Bài tập viết thư',
+    studentName: AppState.student?.name || 'Học viên VSTEP B2',
+    className: AppState.student?.className || 'CB206 - Mục tiêu B2',
+    content,
+    wordCount: content.split(/\s+/).filter(Boolean).length,
+    savedAt: new Date().toISOString()
+  };
+
+  downloadDraftWordDocument(draftData, topic);
+}
+
+function exportSingleDraftToWord(draftKey) {
+  const draft = AppState.drafts[draftKey];
+  if (!draft) {
+    showToast('Không tìm thấy bản nháp để xuất!', 'warning');
+    return;
+  }
+  const topic = findTopicById(draft.topicId);
+  downloadDraftWordDocument(draft, topic);
+}
+
+function downloadDraftWordDocument(draft, topic) {
+  try {
+    const htmlContent = generateDraftWordDocumentHtml(draft, topic);
+    const blob = new Blob(['\ufeff', htmlContent], {
+      type: 'application/msword;charset=utf-8'
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const safeTopicId = draft.topicId || 'de';
+    const safeName = (draft.studentName || AppState.student?.name || 'HocVien')
+      .replace(/[^\w\s\u00C0-\u1EF9]/gi, '')
+      .trim()
+      .replace(/\s+/g, '_');
+    const safeTitle = (topic?.title_vi || draft.topicTitle || 'BanThao')
+      .replace(/[^\w\s\u00C0-\u1EF9]/gi, '')
+      .trim()
+      .replace(/\s+/g, '_')
+      .substring(0, 30);
+
+    a.href = url;
+    a.download = `VSTEP_B2_BanThao_${safeTopicId}_${safeName}_${safeTitle}.doc`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast('📄 Đã xuất bản thảo Word (.doc) thành công!', 'success');
+  } catch (err) {
+    console.error("Export draft word error:", err);
+    showToast('Lỗi khi xuất file: ' + err.message, 'error');
+  }
+}
+
+function generateDraftWordDocumentHtml(draft, topic) {
+  const sample = topic?.details?.sample_b2 || topic?.sample_b2 || {};
+  const words = (draft.content || '').trim().split(/\s+/).filter(Boolean);
+
+  return `
+    <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Bản Thảo Bài Viết VSTEP Writing Task 01</title>
+      <style>
+        @page { size: 21.0cm 29.7cm; margin: 2.0cm; mso-page-orientation: portrait; }
+        body { font-family: "Times New Roman", Times, serif; font-size: 12pt; line-height: 1.6; color: #111827; }
+        h1 { font-size: 16pt; color: #1e3a8a; text-align: center; margin-bottom: 4pt; }
+        h2 { font-size: 12pt; color: #1e40af; border-bottom: 2pt solid #2563eb; padding-bottom: 4pt; margin-top: 14pt; margin-bottom: 8pt; text-transform: uppercase; }
+        table { width: 100%; border-collapse: collapse; margin-top: 6pt; margin-bottom: 12pt; }
+        th, td { border: 1pt solid #cbd5e1; padding: 6pt 8pt; font-size: 10.5pt; vertical-align: top; }
+        th { background-color: #f1f5f9; color: #0f172a; font-weight: bold; }
+        .student-text { background-color: #f8fafc; border: 1.5pt solid #cbd5e1; padding: 14pt; font-size: 12pt; line-height: 1.8; margin: 10pt 0; }
+        .prompt-box { background-color: #eff6ff; border: 1pt solid #bfdbfe; border-left: 4pt solid #3b82f6; padding: 10pt 12pt; margin: 8pt 0; }
+      </style>
+    </head>
+    <body>
+      <div style="text-align: center; margin-bottom: 12pt;">
+        <p style="font-size: 12pt; font-weight: bold; color: #1e40af; margin: 0; text-transform: uppercase;">ENGLISH WITH MISS NGUYET - VSTEP B2 NÂNG CAO</p>
+        <h1>BẢN THẢO BÀI VIẾT THỰC HÀNH VSTEP TASK 01</h1>
+        <p style="font-size: 10pt; color: #64748b; font-style: italic;">Thời gian xuất file: ${new Date().toLocaleString("vi-VN")}</p>
+      </div>
+
+      <h2>I. THÔNG TIN BÀI VIẾT</h2>
+      <table>
+        <tr>
+          <td width="20%"><strong>Học viên:</strong></td>
+          <td width="30%">${escapeHtml(draft.studentName || AppState.student?.name || "Học viên VSTEP B2")}</td>
+          <td width="20%"><strong>Lớp học:</strong></td>
+          <td width="30%">${escapeHtml(draft.className || AppState.student?.className || "CB206 - Mục tiêu B2")}</td>
+        </tr>
+        <tr>
+          <td><strong>Đề bài:</strong></td>
+          <td colspan="3"><strong>${escapeHtml(topic?.title_vi || draft.topicTitle || "")}</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Số từ bản thảo:</strong></td>
+          <td><strong>${words.length} từ</strong> (Yêu cầu bài thi: 120+ từ)</td>
+          <td><strong>Trạng thái:</strong></td>
+          <td><strong style="color: #0284c7;">Bản thảo đang luyện viết</strong></td>
+        </tr>
+      </table>
+
+      <h2>II. ĐỀ BÀI (PROMPT)</h2>
+      <div class="prompt-box">
+        ${escapeHtml(topic?.prompt || "").replace(/\n/g, "<br>")}
+      </div>
+
+      <h2>III. NỘI DUNG BÀI LÀM CỦA HỌC VIÊN</h2>
+      <div class="student-text">
+        ${escapeHtml(draft.content || "").replace(/\n/g, "<br>")}
+      </div>
+
+      ${sample?.letter_en ? `
+        <h2>IV. BÀI MẪU THAM KHẢO CHUẨN B2 (THAM KHẢO TỪ GIÁO VIÊN)</h2>
+        <div style="background-color: #f0fdf4; border: 1pt solid #86efac; border-left: 4pt solid #16a34a; padding: 12pt; font-size: 11pt; line-height: 1.8;">
+          <p style="font-weight: bold; color: #166534; margin-top: 0;">SAMPLE LETTER (BAND 8.0 - 9.0):</p>
+          ${escapeHtml(sample.letter_en || sample.text || "").replace(/\n/g, "<br>")}
+        </div>
+      ` : ''}
+
+      <div style="margin-top: 25pt; text-align: right;">
+        <p style="font-weight: bold; margin-bottom: 35pt;">GIÁO VIÊN HƯỚNG DẪN</p>
+        <p style="font-weight: bold; color: #1e40af;">Miss Nguyet - Chuyên gia VSTEP B2</p>
+      </div>
+    </body>
+    </html>
+  `;
+}
+
+// ==========================================================================
+// HỘP SAO LƯU TIẾN ĐỘ & QUẢN LÝ BẢN NHÁP (MODAL & BACKUP/RESTORE)
+// ==========================================================================
+function openProgressBackupModal() {
+  const modal = document.getElementById('progressBackupModalOverlay');
+  if (!modal) return;
+  renderBackupModalDraftsList();
+  modal.style.display = 'flex';
+}
+
+function closeProgressBackupModal() {
+  const modal = document.getElementById('progressBackupModalOverlay');
+  if (modal) modal.style.display = 'none';
+}
+
+function renderBackupModalDraftsList() {
+  const container = document.getElementById('progressBackupModalBody');
+  const statsEl = document.getElementById('backupModalStatsBadge');
+  if (!container) return;
+
+  const draftKeys = Object.keys(AppState.drafts || {});
+  const totalDrafts = draftKeys.length;
+  const totalSubs = (AppState.submissions || []).length;
+
+  if (statsEl) {
+    statsEl.innerHTML = `<span>Đang lưu: <strong>${totalDrafts} bản nháp</strong> • <strong>${totalSubs} bài đã nộp</strong></span>`;
+  }
+
+  if (totalDrafts === 0) {
+    container.innerHTML = `
+      <div style="text-align: center; padding: 3rem 1.5rem; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px dashed var(--panel-border);">
+        <i class="fa-solid fa-floppy-disk" style="font-size: 2.8rem; color: var(--text-muted); margin-bottom: 0.75rem;"></i>
+        <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.35rem;">CHƯA CÓ BẢN NHÁP NÀO ĐƯỢC LƯU</h4>
+        <p style="color: var(--text-secondary); font-size: 0.85rem; max-width: 500px; margin: 0 auto 1.25rem auto; line-height: 1.5;">
+          Khi bạn gõ bài viết trong Phòng Thực Hành, hệ thống sẽ tự động lưu lại tiến độ liên tục tại đây để bạn không bao giờ bị mất bài.
+        </p>
+        <button class="btn btn-primary btn-sm" onclick="closeProgressBackupModal(); switchWorkflowTab('practice');">
+          <i class="fa-solid fa-pen-nib"></i> Vào phòng viết bài ngay
+        </button>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = `
+    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+      ${draftKeys.map(key => {
+        const d = AppState.drafts[key];
+        const topic = findTopicById(d.topicId);
+        const cat = CATEGORY_MAP[d.categoryKey] || {};
+        const words = (d.content || '').trim().split(/\s+/).filter(Boolean);
+        const dateStr = d.savedAt ? new Date(d.savedAt).toLocaleString('vi-VN') : 'Gần đây';
+
+        return `
+          <div class="backup-draft-card">
+            <div style="flex: 1; min-width: 250px;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;">
+                <span class="hl-pill hl-cyan" style="font-size: 0.72rem; padding: 0.12rem 0.5rem;">
+                  <i class="fa-solid ${cat.icon || 'fa-tag'}"></i> ${escapeHtml(cat.title_vi || d.categoryKey || '')}
+                </span>
+                <span style="font-size: 0.78rem; color: var(--text-muted);">
+                  <i class="fa-regular fa-clock"></i> ${dateStr}
+                </span>
+                <span class="hl-pill ${words.length >= 120 ? 'hl-emerald' : 'hl-amber'}" style="font-size: 0.72rem; padding: 0.12rem 0.5rem;">
+                  <i class="fa-solid fa-pen-nib"></i> ${words.length} từ
+                </span>
+              </div>
+              <h4 style="font-size: 0.96rem; font-weight: 800; color: var(--text-primary); margin: 0 0 0.35rem 0;">
+                ${escapeHtml(topic?.title_vi || d.topicTitle || 'Bài làm')}
+              </h4>
+              <div style="font-size: 0.83rem; color: var(--text-secondary); line-height: 1.45; max-height: 2.9em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; font-style: italic;">
+                "${escapeHtml(d.content || '')}"
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap;">
+              <button class="btn btn-primary btn-sm" onclick="resumeDraftFromBackup('${d.categoryKey}', '${d.topicId}')" style="font-size: 0.76rem; padding: 0.3rem 0.7rem;" title="Mở bản nháp này để tiếp tục viết">
+                <i class="fa-solid fa-pen-to-square"></i> Tiếp tục viết
+              </button>
+              <button class="btn btn-secondary btn-sm" onclick="exportSingleDraftToWord('${key}')" style="font-size: 0.76rem; padding: 0.3rem 0.65rem; color: var(--accent-primary); border-color: var(--accent-primary);" title="Xuất bản nháp này ra file Word (.doc)">
+                <i class="fa-solid fa-file-word"></i> Xuất Word
+              </button>
+              <button class="btn btn-secondary btn-sm" onclick="copyIdeaText('${(d.content || '').replace(/'/g, "\\'")}')" style="font-size: 0.76rem; padding: 0.3rem 0.55rem;" title="Sao chép nội dung bản nháp">
+                <i class="fa-solid fa-copy"></i>
+              </button>
+              <button class="btn btn-secondary btn-sm" onclick="deleteDraftAction('${key}'); renderBackupModalDraftsList();" style="font-size: 0.76rem; padding: 0.3rem 0.55rem; color: var(--danger);" title="Xóa bản nháp này">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+function resumeDraftFromBackup(catKey, topicId) {
+  closeProgressBackupModal();
+  selectCategory(catKey);
+  AppState.activePracticeTopicId = topicId;
+  switchWorkflowTab('practice');
+  const textarea = document.getElementById('practiceWritingTextarea');
+  if (textarea) {
+    textarea.focus();
+    textarea.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+function downloadAllBackupJson() {
+  const backupData = {
+    exportedAt: new Date().toISOString(),
+    version: '2.0',
+    student: AppState.student,
+    drafts: AppState.drafts,
+    submissions: AppState.submissions
+  };
+
+  const str = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(backupData, null, 2));
+  const dl = document.createElement('a');
+  const safeName = (AppState.student?.name || 'VSTEP_Student').replace(/[^\w]/gi, '_');
+  dl.setAttribute("href", str);
+  dl.setAttribute("download", `VSTEP_B2_Backup_${safeName}_${Date.now()}.json`);
+  dl.click();
+  showToast('📥 Đã tải file sao lưu toàn bộ tiến độ (.json) về máy tính!', 'success');
+}
+
+function triggerImportBackupJson() {
+  const fileInput = document.getElementById('backupJsonFileInput');
+  if (fileInput) {
+    fileInput.value = '';
+    fileInput.click();
+  }
+}
+
+function handleBackupFileImport(event) {
+  const file = event.target.files && event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (!data || (!data.drafts && !data.submissions)) {
+        showToast('Tệp sao lưu không đúng định dạng VSTEP B2!', 'error');
+        return;
+      }
+
+      if (data.drafts && typeof data.drafts === 'object') {
+        AppState.drafts = Object.assign({}, AppState.drafts, data.drafts);
+        localStorage.setItem('vstep_b2_task1_drafts', JSON.stringify(AppState.drafts));
+      }
+
+      if (Array.isArray(data.submissions)) {
+        const existingIds = new Set(AppState.submissions.map(s => s.id));
+        data.submissions.forEach(sub => {
+          if (!existingIds.has(sub.id)) {
+            AppState.submissions.push(sub);
+          }
+        });
+        localStorage.setItem('vstep_b2_task1_submissions', JSON.stringify(AppState.submissions));
+      }
+
+      if (data.student && data.student.name) {
+        AppState.student = data.student;
+        localStorage.setItem('vstep_b2_task1_student', JSON.stringify(AppState.student));
+        updateStudentDisplay();
+      }
+
+      renderBackupModalDraftsList();
+      showToast('🎉 Đã khôi phục thành công dữ liệu từ tệp sao lưu!', 'success');
+    } catch (err) {
+      console.error(err);
+      showToast('Lỗi đọc tệp sao lưu: ' + err.message, 'error');
+    }
+  };
+  reader.readAsText(file);
+}
