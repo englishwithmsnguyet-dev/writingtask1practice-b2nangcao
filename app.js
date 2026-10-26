@@ -808,6 +808,13 @@ function populateTopicSelectors(categoryTopics) {
 // 4. WORKFLOW TABS: 5-STEP PEDAGOGICAL FLOW
 // ==========================================================================
 function switchWorkflowTab(tabName) {
+  // Tự động lưu nháp nếu đang chuyển khỏi tab Thực hành viết bài
+  if (AppState.activeTab === 'practice' && tabName !== 'practice') {
+    if (typeof executeAutoSavePracticeDraft === 'function') {
+      executeAutoSavePracticeDraft();
+    }
+  }
+
   if (AppState.isRecitationInProgress && tabName !== 'submissions') {
     if (confirm('🔒 Bạn đang trong bài kiểm tra Trả bài. Bạn có muốn nộp bài sớm để chuyển sang tab khác không?')) {
       submitRecitationEarly();
