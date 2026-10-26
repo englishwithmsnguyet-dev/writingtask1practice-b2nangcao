@@ -1360,6 +1360,7 @@ function onPracticeTextareaInput() {
   const textarea = document.getElementById('practiceWritingTextarea');
   const countEl = document.getElementById('practiceWordCountNum');
   const barEl = document.getElementById('practiceWordProgressBar');
+  const badgeEl = document.getElementById('practiceWordCountBadge');
   if (!textarea) return;
 
   const words = textarea.value.trim().split(/\s+/).filter(Boolean);
@@ -1367,7 +1368,20 @@ function onPracticeTextareaInput() {
 
   if (countEl) {
     countEl.textContent = count;
-    countEl.className = count < 100 ? 'word-badge-danger' : (count < 120 ? 'word-badge-warning' : 'word-badge-success');
+    countEl.className = 'word-count-value ' + (count < 100 ? 'word-count-danger' : (count < 120 ? 'word-count-warning' : 'word-count-success'));
+  }
+
+  if (badgeEl) {
+    if (count < 100) {
+      badgeEl.className = 'word-count-status-pill badge-danger';
+      badgeEl.textContent = 'Chưa đủ từ';
+    } else if (count < 120) {
+      badgeEl.className = 'word-count-status-pill badge-warning';
+      badgeEl.textContent = 'Gần đạt';
+    } else {
+      badgeEl.className = 'word-count-status-pill badge-success';
+      badgeEl.textContent = 'Đạt chuẩn B2';
+    }
   }
 
   if (barEl) {
@@ -1386,8 +1400,8 @@ function onPracticeTextareaInput() {
 function triggerAutoSavePracticeDraft() {
   const statusEl = document.getElementById('practiceAutoSaveStatus');
   if (statusEl) {
-    statusEl.className = 'saving';
-    statusEl.innerHTML = '<i class="fa-solid fa-pencil fa-fade" style="color: var(--amber-light);"></i> <span style="color: var(--amber-light);">Đang lưu tiến độ...</span>';
+    statusEl.className = 'editor-autosave-indicator saving';
+    statusEl.innerHTML = '<i class="fa-solid fa-pencil fa-fade" style="color: var(--amber-light);"></i> <span>Đang lưu...</span>';
   }
 
   if (AppState.autoSaveTimer) clearTimeout(AppState.autoSaveTimer);
@@ -1420,15 +1434,15 @@ function executeAutoSavePracticeDraft() {
     } catch (e) {}
 
     if (statusEl) {
-      statusEl.className = 'saved';
+      statusEl.className = 'editor-autosave-indicator saved';
       const now = new Date();
-      const timeStr = now.toLocaleTimeString('vi-VN', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
-      statusEl.innerHTML = `<i class="fa-solid fa-cloud-arrow-up" style="color: var(--emerald-light);"></i> <span style="color: var(--emerald-light);">Đã tự động lưu (${timeStr})</span>`;
+      const timeStr = now.toLocaleTimeString('vi-VN', { hour12: false, hour: '2-digit', minute: '2-digit' });
+      statusEl.innerHTML = `<i class="fa-solid fa-cloud-arrow-up" style="color: var(--emerald-light);"></i> <span>Đã tự động lưu (${timeStr})</span>`;
     }
   } else {
     if (statusEl) {
-      statusEl.className = '';
-      statusEl.innerHTML = '<i class="fa-solid fa-cloud" style="color: var(--text-muted);"></i> <span style="color: var(--text-muted);">Tự động lưu: Sẵn sàng</span>';
+      statusEl.className = 'editor-autosave-indicator';
+      statusEl.innerHTML = '<i class="fa-solid fa-cloud" style="color: var(--text-muted);"></i> <span>Tự động lưu: Sẵn sàng</span>';
     }
   }
 }
