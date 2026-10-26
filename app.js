@@ -1568,19 +1568,30 @@ function submitAndEvaluatePracticeLetter() {
   // Run official VSTEP Evaluation (including Sentence-by-Sentence Evaluation)
   const evalResult = evaluateVstepLetter(text, topic);
 
+  const isRevision = !!AppState.activeRevision;
+  const revNum = isRevision ? ((AppState.activeRevision.revisionCount || 1) + 1) : 1;
+  const rawTitle = topic?.title_vi || topic?.title_en || 'Bài tập viết thư';
+
   const submission = {
     id: `sub_${Date.now()}`,
     topicId,
     categoryKey: AppState.activeCategory,
-    topicTitle: topic?.title_vi || topic?.title_en || 'Bài tập viết thư',
+    topicTitle: isRevision ? `${rawTitle} (Bản sửa lần ${revNum})` : rawTitle,
     studentName: AppState.student?.name || 'Học viên VSTEP B2',
     className: AppState.student?.className || 'CB206 - Mục tiêu B2',
     content: text,
     wordCount: words.length,
     timeSpentSecs: Math.max(timeSpentSecs, 60),
     submittedAt: new Date().toISOString(),
-    evaluation: evalResult
+    evaluation: evalResult,
+    isRevision,
+    revisionNumber: revNum
   };
+
+  // Reset revision state after successful submission
+  AppState.activeRevision = null;
+  const revBanner = document.getElementById('practiceRevisionBanner');
+  if (revBanner) revBanner.style.display = 'none';
 
   // Add to submissions
   AppState.submissions.unshift(submission);
@@ -1596,7 +1607,7 @@ function submitAndEvaluatePracticeLetter() {
   // Sound & notification & confetti
   playFanfare();
   shootConfetti();
-  showToast('🎉 Đã nộp bài và hoàn tất chấm điểm VSTEP B2!', 'success');
+  showToast(isRevision ? `🎉 Đã hoàn tất chấm điểm Bản sửa lần ${revNum}!` : '🎉 Đã nộp bài và hoàn tất chấm điểm VSTEP B2!', 'success');
 
   // Render evaluation report directly in Practice Room
   const resultContainer = document.getElementById('practiceCompletionResultContainer');
@@ -1610,19 +1621,25 @@ function submitAndEvaluatePracticeLetter() {
           </div>
           <div>
             <div class="eval-completion-banner-title">
-              🎉 Chúc mừng bạn đã hoàn thành bài viết!
+              🎉 ${isRevision ? `Chúc mừng bạn đã hoàn thành Bản sửa lần ${revNum}!` : 'Chúc mừng bạn đã hoàn thành bài viết!'}
             </div>
             <div class="eval-completion-banner-sub">
-              Hệ thống đã hoàn tất chấm điểm 4 tiêu chí VSTEP Task 01, nhận xét chi tiết từng câu và đính kèm bài mẫu B2 tham khảo.
+              Hệ thống đã hoàn tất chấm điểm 4 tiêu chí VSTEP Task 01, nhận xét chi tiết từng câu và xuất phiếu đánh giá.
             </div>
           </div>
         </div>
-        <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
-          <button class="btn btn-export-word" onclick="exportSubmissionToWord('${submission.id}')">
+        <div style="display: flex; gap: 0.65rem; flex-wrap: wrap; align-items: center;">
+          <button class="btn btn-export-word" onclick="exportSubmissionToWord('${submission.id}')" title="Tải phiếu chấm điểm và bài sửa về máy dạng tệp Microsoft Word (.docx)">
             <i class="fa-solid fa-file-word"></i> Xuất file Word (.docx)
           </button>
-          <button class="btn btn-secondary" onclick="editSubmissionAgain('${topicId}')" style="font-weight: 700; border-radius: 50px;">
-            <i class="fa-solid fa-pen-to-square"></i> Viết lại / Chỉnh sửa
+          <button class="btn btn-secondary" onclick="window.print()" style="font-weight: 700; border-radius: 50px;" title="In phiếu đánh giá hoặc lưu dưới dạng PDF">
+            <i class="fa-solid fa-print"></i> In / Lưu PDF
+          </button>
+          <button class="btn btn-secondary" onclick="copySubmissionCorrection('${submission.id}')" style="font-weight: 700; border-radius: 50px;" title="Sao chép bài viết và nhận xét sửa bài vào bộ nhớ tạm">
+            <i class="fa-solid fa-copy"></i> Chép bài & sửa lỗi
+          </button>
+          <button class="btn btn-secondary" onclick="editSubmissionAgain('${topicId}')" style="font-weight: 700; border-radius: 50px; color: var(--accent-primary); border-color: var(--accent-primary);" title="Mở lại bài làm để tiếp tục chỉnh sửa">
+            <i class="fa-solid fa-pen-to-square"></i> Sửa bài lần nữa
           </button>
         </div>
       </div>
