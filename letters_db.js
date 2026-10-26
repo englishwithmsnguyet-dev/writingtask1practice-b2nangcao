@@ -11762,7 +11762,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "There were insufficient clothes hooks available.",
                   "action_vi": "Không có đủ móc treo quần áo.",
-                  "reason_en": "I had to leave my clothes on a bench or the floor, where they could easily become dirty.",
+                  "reason_en": "I had to leave my clothes on a bench or the floor, so they could easily become dirty.",
                   "reason_vi": "Tôi phải để quần áo trên ghế hoặc sàn nhà, nơi chúng có thể dễ bị bẩn.",
                   "solution_en": "I would appreciate it if you could install additional clothes hooks.",
                   "solution_vi": "Tôi sẽ rất cảm kích nếu quý vị có thể lắp đặt thêm móc treo quần áo."

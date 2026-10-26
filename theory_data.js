@@ -2084,7 +2084,7 @@ const B2_DETAILED_OUTLINES = {
               </span>
             </div>
             <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">
-              I had to leave my clothes on a bench or the floor, where they could easily become dirty.
+              I had to leave my clothes on a bench or the floor, so they could easily become dirty.
             </div>
             <div style="font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-top: 0.15rem;">(Tôi phải để quần áo trên ghế hoặc sàn nhà, nơi chúng có thể dễ bị bẩn.)</div>
           </div>
