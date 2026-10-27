@@ -368,7 +368,7 @@ function enterRoom() {
 function isGiaTueAccount() {
   const student = AppState.student || {};
   const name = (student.name || '').trim().toUpperCase();
-  return name.includes('GIA TUỆ') || name.includes('GIA TUE') || name.includes('GIATUE');
+  return name.includes('GIA TUỆ') || name.includes('GIA TUÊ') || name.includes('GIA TUE') || name.includes('GIATUE');
 }
 
 function isTeacherAccount() {
