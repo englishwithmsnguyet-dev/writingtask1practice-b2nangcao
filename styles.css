@@ -563,7 +563,7 @@ strong, b {
 
 .header-middle-brand {
   position: relative;
-  font-family: 'Roboto Serif', serif;
+  font-family: var(--font-heading);
   font-weight: 850;
   font-size: clamp(0.95rem, 1.22vw, 1.25rem);
   letter-spacing: 1.2px;
