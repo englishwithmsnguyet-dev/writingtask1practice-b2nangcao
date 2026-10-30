@@ -3221,20 +3221,33 @@ function buildSubmissionCardMarkup(sub, isInlinePractice) {
   // Band Score classification
   let scoreClass = 'score-mid';
   let bandStatusText = 'TIỆM CẬN B2 (B1+)';
-  if (overallBand >= 7.0) {
+  if (ev.isPromptCopy) {
+    scoreClass = 'score-low';
+    bandStatusText = 'SAO CHÉP ĐỀ BÀI (0.0 ĐIỂM)';
+  } else if (overallBand >= 7.0) {
     scoreClass = 'score-high';
     bandStatusText = 'ĐẠT CHUẨN VSTEP B2';
-  } else if (overallBand < 6.0) {
+  } else if (overallBand >= 5.5) {
+    scoreClass = 'score-mid';
+    bandStatusText = 'TIỆM CẬN B2 (B1+)';
+  } else if (overallBand >= 4.0) {
     scoreClass = 'score-low';
-    bandStatusText = 'CẦN TIẾP TỤC LUYỆN TẬP';
+    bandStatusText = 'TRÌNH ĐỘ B1';
+  } else {
+    scoreClass = 'score-low';
+    bandStatusText = 'CHƯA ĐẠT CHUẨN (CẦN VIẾT LẠI)';
   }
 
   // Teacher comment generator
   let teacherQuote = '';
-  if (overallBand >= 7.5 && errors.length <= 2) {
+  if (ev.isPromptCopy) {
+    teacherQuote = 'Hệ thống phát hiện bài viết sao chép lại nguyên văn đề bài hoặc các câu hướng dẫn của đề thi. Theo quy chế VSTEP Task 01, phần sao chép đề bài sẽ bị tính 0.0 điểm và không được công nhận kết quả. Bạn hãy tự viết một bức thư hoàn chỉnh theo đúng định dạng nhé!';
+  } else if (overallBand >= 7.5 && errors.length <= 2) {
     teacherQuote = 'Bài viết rất xuất sắc! Bố cục mạch lạc chuẩn học thuật, kiểm soát ngữ pháp chặt chẽ và áp dụng hiệu quả chuỗi liên từ chuyển ý chuẩn B2. Bạn đã sẵn sàng tự tin bước vào phòng thi VSTEP!';
   } else if (overallBand >= 6.5) {
     teacherQuote = 'Bài viết đạt yêu cầu cơ bản của mức điểm B2. Nội dung đáp ứng đủ các ý hỏi của đề, cách dùng từ tương đối tự nhiên. Hãy xem kỹ các điểm lưu ý bên dưới để trau chuốt thêm nhé!';
+  } else if (sub.wordCount < 60) {
+    teacherQuote = 'Bài viết quá ngắn (dưới 60 từ), chưa đủ dung lượng tối thiểu để đánh giá bài thi viết thư VSTEP. Hãy viết ít nhất 120 từ theo tiêu chuẩn phòng thi!';
   } else if (sub.wordCount < 120) {
     teacherQuote = 'Độ dài bài viết chưa đạt mốc 120 từ của tiêu chuẩn bài thi VSTEP Task 01. Hãy mở rộng thêm các chi tiết minh họa và giải thích lý do ở phần thân bài để nâng điểm Task Fulfillment!';
   } else {
