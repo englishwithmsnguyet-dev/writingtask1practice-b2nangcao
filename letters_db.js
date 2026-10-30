@@ -14248,7 +14248,7 @@ const LETTERS_DATA = [
             {
               "id": 1,
               "part": "Góp ý quy trình B2",
-              "vi": "Thiết lập một điều phối viên sự kiện chuyên trách để kiểm tra âm thanh và điều tiết thời điểm phục vụ món tráng miệng sẽ giúp các bữa tiệc diễn ra hoàn hảo hơn.",
+              "vi": "Phân công một người giám sát kiểm tra âm lượng và phục vụ bánh sinh nhật đúng giờ sẽ cải thiện đáng kể trải nghiệm bữa tiệc.",
               "en": "Assigning a supervisor to check sound levels and serve the birthday cake on time would greatly improve the party experience.",
               "hints": [
                 "Assigning a dedicated floor captain",
@@ -15941,7 +15941,7 @@ const LETTERS_DATA = [
             {
               "id": 1,
               "part": "Giải trình học thuật B2",
-              "vi": "Một sự cố phần cứng không lường trước đã làm hỏng ổ lưu trữ của tôi, vô hiệu hóa khả năng truy xuất chương cuối của luận văn bất chấp mọi nỗ lực sao lưu đám mây.",
+              "vi": "Một sự cố máy tính bất ngờ đã làm hỏng ổ cứng của tôi, tạm thời khiến tôi không thể mở lại chương cuối trước hạn nộp bài.",
               "en": "A sudden computer problem damaged my hard drive, temporarily preventing me from opening the final chapter before the deadline.",
               "hints": [
                 "unanticipated hardware failure corrupted",
@@ -16416,7 +16416,7 @@ const LETTERS_DATA = [
             {
               "id": 1,
               "part": "Cam kết dịch vụ B2",
-              "vi": "Chúng tôi đã nâng cấp hệ thống máy phát điện phụ trợ và điều chỉnh lại quy trình giao món ban đêm nhằm đảm bảo thời gian phục vụ chuẩn xác cho mọi quý khách.",
+              "vi": "Chúng tôi đã lắp đặt máy phát điện dự phòng và sắp xếp lại đội ngũ bếp ca đêm nhằm đảm bảo dịch vụ phòng luôn nhanh chóng và chu đáo cho mọi du khách.",
               "en": "We have installed backup power generators and reorganized night-shift kitchen staff to ensure smooth and fast room service for all guests.",
               "hints": [
                 "instituted auxiliary backup power generators",
