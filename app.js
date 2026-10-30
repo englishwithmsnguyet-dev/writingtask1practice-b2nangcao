@@ -3389,7 +3389,7 @@ function buildSubmissionCardMarkup(sub, isInlinePractice) {
         
         <div class="eval-panel-header">
           <h3>
-            <i class="fa-solid fa-chart-pie"></i> BẢNG ĐIỂM 4 TIÊU CHÍ CHUẨN VSTEP TASK 01
+            <i class="fa-solid fa-chart-pie"></i> BẢNG ĐIỂM 4 TIÊU CHÍ CHUẨN VSTEP WRITING TASK 01
           </h3>
           <p>
             Được đánh giá chi tiết theo khung tham chiếu chấm điểm chính thức của Bộ GD&ĐT dành cho bài thi viết thư VSTEP B2.
