@@ -2859,7 +2859,7 @@ const LETTERS_DATA = [
                 "daily commute is very convenient",
                 "saving me from peak hour traffic"
               ],
-              "explanation": "Cụm từ "very convenient" và "peak hour traffic" diễn đạt tự nhiên chuẩn B2."
+              "explanation": "Cụm từ 'very convenient' và 'peak hour traffic' diễn đạt tự nhiên chuẩn B2."
             },
             {
               "id": 4,
