@@ -3590,7 +3590,7 @@ function buildSubmissionCardMarkup(sub, isInlinePractice) {
           <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; width: 100%;">
             <div>
               <h3>
-                <i class="fa-solid fa-list-check" style="color: var(--cyan-light);"></i> ĐÁNH GIÁ & NHẬN XÉT CHI TIẾT TỪNG CÂU (VSTEP TASK 01)
+                <i class="fa-solid fa-list-check" style="color: var(--cyan-light);"></i> ĐÁNH GIÁ & NHẬN XÉT CHI TIẾT TỪNG CÂU (VSTEP WRITING TASK 01)
               </h3>
               <p>
                 Phân tích cấu trúc, ngữ pháp, từ vựng và gợi ý nâng cấp câu văn chuẩn B2 cho từng câu trong bài viết của bạn.
