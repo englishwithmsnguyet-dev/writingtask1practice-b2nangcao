@@ -4137,6 +4137,93 @@ function detectPromptCopying(text, topic) {
   };
 }
 
+// Phát hiện bài thi lạc đề / viết nhầm dạng thư
+function detectOffTopic(text, topic, catKey) {
+  if (!text || !topic) return { isOffTopic: false, reason: '' };
+
+  const lowerText = text.toLowerCase();
+  const words = lowerText.split(/\s+/).filter(Boolean);
+  if (words.length < 35) return { isOffTopic: false, reason: '' };
+
+  const effectiveCatKey = catKey || topic.category_id || '';
+
+  // 1. Nhận diện nhầm lẫn dạng thư nghiêm trọng (Category / Genre Mismatch)
+  const hasAppSignals = /\b(apply for|applying for|position of|job vacancy|my resume|my cv|curriculum vitae|my career|an interview|qualifications for this role|applying for the post)\b/i.test(lowerText);
+  const hasComplaintSignals = /\b(writing to complain|express my dissatisfaction|extremely disappointed|unacceptable service|file a formal complaint)\b/i.test(lowerText);
+  const hasApologySignals = /\b(apologize for|sincere apology|sincere apologies|truly sorry|forgive me|please accept my apology|sorry for keeping|sorry for not returning)\b/i.test(lowerText);
+  const hasAdviceSignals = /\b(give you some advice|my recommendation|i suggest that you|if i were you|you should consider|you ought to)\b/i.test(lowerText);
+
+  if (effectiveCatKey === 'apology' && hasAppSignals && !hasApologySignals) {
+    return {
+      isOffTopic: true,
+      type: 'category_mismatch',
+      reason: 'Bài viết nộp là Thư ứng tuyển xin việc (Application), trong khi đề bài yêu cầu viết Thư xin lỗi (Letter of Apology).'
+    };
+  }
+
+  if (effectiveCatKey === 'application' && hasComplaintSignals && !hasAppSignals) {
+    return {
+      isOffTopic: true,
+      type: 'category_mismatch',
+      reason: 'Bài viết nộp là Thư phàn nàn (Complaint), trong khi đề bài yêu cầu viết Thư ứng tuyển xin việc (Letter of Application).'
+    };
+  }
+
+  if (effectiveCatKey === 'advice' && hasAppSignals && !hasAdviceSignals) {
+    return {
+      isOffTopic: true,
+      type: 'category_mismatch',
+      reason: 'Bài viết nộp là Thư ứng tuyển xin việc (Application), trong khi đề bài yêu cầu viết Thư cho lời khuyên (Letter of Advice).'
+    };
+  }
+
+  // 2. Trích xuất từ khóa chủ đề cốt lõi của đề bài
+  const commonStopwords = new Set([
+    'write', 'letter', 'email', 'should', 'least', 'words', 'response', 'evaluated', 'terms', 'name',
+    'address', 'task', 'fulfillment', 'organization', 'vocabulary', 'grammar', 'read', 'part', 'below',
+    'recent', 'recently', 'about', 'your', 'with', 'from', 'have', 'been', 'this', 'that', 'they',
+    'them', 'what', 'when', 'where', 'which', 'will', 'would', 'could', 'tell', 'explain', 'give',
+    'first', 'time', 'good', 'make', 'help', 'much', 'many', 'more', 'some', 'well', 'also', 'because',
+    'since', 'after', 'before', 'their', 'there', 'here', 'into', 'just', 'like', 'than', 'other',
+    'very', 'every', 'friend', 'friends', 'dear', 'sincerely', 'faithfully', 'regards', 'wishes',
+    'please', 'thank', 'thanks', 'working', 'experience', 'full'
+  ]);
+
+  const rawKeywords = [
+    ...(topic.tags || []),
+    topic.title_en || '',
+    topic.context || '',
+    topic.prompt || '',
+    ...(topic.details?.vocab || []).map(v => v.en)
+  ].join(' ').toLowerCase();
+
+  const substantiveKeywords = Array.from(new Set(
+    rawKeywords.replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter(w => w.length >= 4 && !commonStopwords.has(w))
+  ));
+
+  // Đối chiếu từ khóa cốt lõi với bài viết của học viên
+  const matchedKeywords = substantiveKeywords.filter(k => lowerText.includes(k));
+
+  // Nếu bài viết trên 60 từ nhưng số từ khóa thực chất khớp <= 1 từ
+  if (words.length >= 60 && matchedKeywords.length <= 1) {
+    return {
+      isOffTopic: true,
+      type: 'content_unrelated',
+      matchedCount: matchedKeywords.length,
+      matched: matchedKeywords,
+      reason: `Nội dung bài viết hoàn toàn lạc đề (Đề bài yêu cầu về "${topic.title_vi || topic.title_en}", nhưng nội dung bài viết không chứa các thông tin và từ khóa liên quan đến tình huống đề thi).`
+    };
+  }
+
+  return {
+    isOffTopic: false,
+    matchedCount: matchedKeywords.length,
+    matched: matchedKeywords.slice(0, 5)
+  };
+}
+
 function evaluateVstepLetter(text, topic) {
   const words = text.split(/\s+/).filter(Boolean);
   const wordCount = words.length;
@@ -4181,6 +4268,55 @@ function evaluateVstepLetter(text, topic) {
       },
       detectedErrors: [],
       sentenceEvaluations: evaluateSentenceBySentence(text, topic, [])
+    };
+  }
+
+  // 0.1 CHECK OFF-TOPIC (Phát hiện lạc đề / Viết nhầm dạng thư)
+  const categoryObj = (typeof findCategoryByTopicId === 'function') ? findCategoryByTopicId(topic?.id) : null;
+  const activeCatKey = categoryObj?.category_id || AppState.activeCategory || topic?.category_id;
+  const offTopicCheck = detectOffTopic(text, topic, activeCatKey);
+  if (offTopicCheck.isOffTopic) {
+    const tf = 1.0;
+    const or = 2.0;
+    const lr = 2.0;
+    const gra = 2.5;
+    const overall = Number(((tf + or + lr + gra) / 4).toFixed(1));
+    const detectedErrors = detectComprehensiveLetterErrors(text);
+    return {
+      isOffTopic: true,
+      offTopicReason: offTopicCheck.reason,
+      overallBand: overall,
+      tf: {
+        band: tf,
+        strengths: [],
+        improvements: [
+          offTopicCheck.reason,
+          "Theo quy chế thi VSTEP Task 01, bài làm lạc đề bị phạt điểm liệt ở tiêu chí Task Fulfillment (1.0/10) và không được công nhận đạt chuẩn B2."
+        ]
+      },
+      or: {
+        band: or,
+        strengths: [],
+        improvements: [
+          "Bố cục các đoạn văn dù có liên từ nhưng không phục vụ giải quyết tình huống đề bài yêu cầu."
+        ]
+      },
+      lr: {
+        band: lr,
+        strengths: [],
+        improvements: [
+          "Từ vựng không đúng ngữ cảnh và chủ đề đề bài yêu cầu."
+        ]
+      },
+      gra: {
+        band: gra,
+        strengths: [],
+        improvements: [
+          "Ngữ pháp không phục vụ mục đích giao tiếp của dạng thư được yêu cầu trong đề thi."
+        ]
+      },
+      detectedErrors,
+      sentenceEvaluations: evaluateSentenceBySentence(text, topic, detectedErrors, true)
     };
   }
 
