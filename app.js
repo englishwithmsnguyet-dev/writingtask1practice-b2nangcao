@@ -1639,13 +1639,29 @@ function submitAndEvaluatePracticeLetter() {
 
   const text = textarea.value.trim();
   const words = text.split(/\s+/).filter(Boolean);
+  const topic = findTopicById(topicId);
+
+  // Kiểm tra nếu bài viết sao chép lại đề bài
+  const copyCheck = detectPromptCopying(text, topic);
+  if (copyCheck.isPromptCopy) {
+    alert(
+      '🚫 PHÁT HIỆN SAO CHÉP ĐỀ BÀI (0.0 ĐIỂM)!\n\n' +
+      'Nội dung bạn nhập vào là câu hỏi / hướng dẫn của đề thi chứ không phải bài viết thư của thí sinh.\n\n' +
+      'Theo quy chế thi VSTEP Task 01, bài làm sao chép đề bài sẽ bị tính 0 ĐIỂM (không công nhận kết quả).\n\n' +
+      'Vui lòng tự viết một bức thư hoàn chỉnh bao gồm:\n' +
+      '• Lời chào mở đầu (Dear...)\n' +
+      '• Đoạn mở thư nêu mục đích viết thư\n' +
+      '• Các đoạn thân bài trả lời các yêu cầu của đề bài\n' +
+      '• Lời kết thư (Yours sincerely / Best regards...)\n' +
+      'trước khi nhấn Nộp bài!'
+    );
+    return;
+  }
 
   if (words.length < 30) {
     alert('Bài viết quá ngắn (dưới 30 từ)! Vui lòng viết ít nhất 120 từ theo tiêu chuẩn bài thi VSTEP Task 01 để hệ thống đánh giá chính xác.');
     return;
   }
-
-  const topic = findTopicById(topicId);
   const timeSpentSecs = AppState.timerTotalSeconds - AppState.timerRemaining;
 
   // Run official VSTEP Evaluation (including Sentence-by-Sentence Evaluation)
