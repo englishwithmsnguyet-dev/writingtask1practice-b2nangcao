@@ -3306,7 +3306,7 @@ function buildSubmissionCardMarkup(sub, isInlinePractice) {
         <div class="eval-hero-top">
           <div style="flex: 1; min-width: 280px;">
             <div class="eval-badge-mini">
-              <i class="fa-solid fa-award"></i> KẾT QUẢ ĐÁNH GIÁ CHUẨN VSTEP TASK 01
+              <i class="fa-solid fa-award"></i> KẾT QUẢ ĐÁNH GIÁ CHUẨN VSTEP WRITING TASK 01
             </div>
             
             <h1 class="eval-hero-title">
