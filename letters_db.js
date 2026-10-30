@@ -13541,77 +13541,95 @@ const LETTERS_DATA = [
     "badge": "Hay ra đề",
     "description": "Đưa ra đánh giá, nhận xét (cả điểm hài lòng và điểm chưa hài lòng) về một dịch vụ, sự kiện, đồng thời đóng góp ý kiến cải thiện (văn phong bán trang trọng hoặc trang trọng).",
     "identifying_signs": [
-      "give feedback on / share your opinion about...",
-      "write a letter to comment on...",
-      "say what you liked or did not like about...",
-      "say what you are satisfied or dissatisfied with..."
+      "give/provide feedback on …",
+      "share your opinion about …",
+      "describe your experience with …",
+      "write a letter to comment on …",
+      "say what you liked or did not like about …",
+      "say what you were satisfied or dissatisfied with …",
+      "express your satisfaction or dissatisfaction with …",
+      "make suggestions for improvement"
     ],
     "master_outline": {
       "title": "Khung Dàn Ý Chuẩn - Thư Phản Hồi, Đánh Giá (Letter of Feedback)",
-      "note": "Thư cho phản hồi đánh giá thường là thư bán trang trọng hoặc trang trọng.",
-      "step1_salutation": "Dear Sir/Madam, (hoặc Dear Mr. / Ms. [họ của người nhận],)",
-      "step2_opening": "I am writing to give you feedback on [vấn đề cần phản hồi đánh giá]. I recently used your [sản phẩm/dịch vụ] and would like to share my experience.",
+      "note": "Thư phản hồi, đánh giá thường sử dụng phong cách trang trọng hoặc bán trang trọng, tùy thuộc vào người nhận và mối quan hệ giữa hai bên.",
+      "step1_salutation": {
+        "formal": "Dear Sir, / Dear Madam, / Dear Sir/Madam,",
+        "semi_formal": "Dear Mr. / Ms. / Mrs. [họ của người nhận],"
+      },
+      "step2_opening": "I hope this letter finds you well. I am writing to provide feedback on [sản phẩm/dịch vụ/trải nghiệm cần đánh giá - danh từ/cụm danh từ]. I would like to share my experience and offer some suggestions for improvement.",
       "step3_body": {
-        "intro": "Thân thư chia làm 3 phần: Khen ngợi + Phản ánh điểm chưa hài lòng + Đề xuất giải pháp.",
+        "intro": "Thân thư chia làm 3 phần: Đánh giá những điểm tích cực (nếu có) + Đánh giá những điểm chưa tích cực (nếu có) + Đề xuất giải pháp.",
         "positive_section": {
-          "lead": "First of all, I would like to mention some positive points about your [sản phẩm/dịch vụ].",
+          "lead": "First of all, I would like to mention some positive aspects of [đối tượng được đánh giá].",
           "structures": [
-            "I was very satisfied with [điểm khen] because [lý do].",
-            "I really liked [điểm khen] because [lý do].",
-            "I was impressed with [điểm khen] as [lý do].",
-            "One thing I liked most was [điểm khen] since [lý do]."
+            "One aspect I appreciated was [điểm tích cực - danh từ/cụm danh từ] because [lý do - mệnh đề].",
+            "I was very satisfied with [điểm tích cực - danh từ/cụm danh từ], as [lý do - mệnh đề].",
+            "I was particularly impressed with [điểm tích cực - danh từ/cụm danh từ] because [lý do - mệnh đề].",
+            "The quality of [điểm tích cực - danh từ/cụm danh từ] was excellent, which made my experience more enjoyable. In fact, [lý do - mệnh đề]."
           ]
         },
         "negative_section": {
-          "lead": "However, there were also some areas that needed improvement.",
+          "lead": "However, there were also some areas that could be improved.",
           "structures": [
-            "I was disappointed with [điểm chê] because [lý do].",
-            "One thing that disappointed me was [điểm chê] since [lý do].",
-            "I was not satisfied with [điểm chê] as [lý do].",
-            "The quality of [điểm chê] was not as good as I expected because [lý do]."
+            "One issue that I encountered was [điểm chưa hài lòng - danh từ/cụm danh từ] because [lý do - mệnh đề].",
+            "I was quite disappointed with [điểm chưa hài lòng - danh từ/cụm danh từ], as [lý do - mệnh đề].",
+            "I was not entirely satisfied with [điểm chưa hài lòng - danh từ/cụm danh từ] because [lý do - mệnh đề].",
+            "The quality of [điểm chưa hài lòng - danh từ/cụm danh từ] was not as good as I had expected. To be specific, [lý do - mệnh đề]."
           ]
         },
         "suggestion_section": {
-          "lead": "To enhance the quality of your [sản phẩm/dịch vụ], I have a few suggestions.",
+          "lead": "To improve the quality of your [sản phẩm/dịch vụ/cơ sở vật chất], I have a few suggestions.",
           "structures": [
-            "I suggest that you should [hành động – Vo].",
-            "I think you should [hành động – Vo].",
-            "It would be better if you could [hành động – Vo].",
-            "I hope you will consider [hành động – Ving]."
+            "I suggest that you [hành động – V0].",
+            "I would recommend that you [hành động – V0].",
+            "It would be better if you could [hành động – V0].",
+            "I hope you will consider [hành động – V-ing]."
           ]
         }
       },
-      "step4_closing": "I hope my feedback will help you improve your [sản phẩm/dịch vụ]. Please feel free to contact me if you have any further questions.",
-      "step5_signoff": "Yours faithfully, (hoặc Yours sincerely, khi xưng hô bằng họ)"
+      "step4_closing": "I hope my feedback will be useful in improving your [sản phẩm/dịch vụ/cơ sở vật chất]. Please feel free to contact me if you have any further questions.",
+      "step5_signoff": {
+        "formal": "Yours faithfully,",
+        "semi_formal": "Yours sincerely,"
+      }
     },
     "common_structures": [
       {
-        "name": "Mở đầu phản hồi",
-        "en": "I am writing to give you feedback on... I recently used... and would like to share my experience."
+        "name": "Mở đầu thư phản hồi",
+        "en": "I hope this letter finds you well. I am writing to provide feedback on... I would like to share my experience and offer some suggestions for improvement."
       },
       {
-        "name": "Dẫn dắt điểm khen",
-        "en": "First of all, I would like to mention some positive points about..."
+        "name": "Dẫn dắt điểm tích cực",
+        "en": "First of all, I would like to mention some positive aspects of..."
       },
       {
-        "name": "Cấu trúc khen",
-        "en": "I was very satisfied with [điểm khen] because [lý do]..."
+        "name": "Cấu trúc khen ngợi 1",
+        "en": "One aspect I appreciated was [positive aspect] because [reason]..."
       },
       {
-        "name": "Dẫn dắt điểm chê",
-        "en": "However, there were also some areas that needed improvement."
+        "name": "Cấu trúc khen ngợi 2",
+        "en": "I was very satisfied with [positive aspect], as [reason]..."
       },
       {
-        "name": "Cấu trúc chê",
-        "en": "I was disappointed with [điểm chê] because [lý do]..."
+        "name": "Dẫn dắt điểm cần cải thiện",
+        "en": "However, there were also some areas that could be improved."
       },
       {
-        "name": "Dẫn dắt đề xuất",
-        "en": "To enhance the quality of your service, I suggest that you should..."
+        "name": "Cấu trúc phản ánh 1",
+        "en": "One issue that I encountered was [issue] because [reason]..."
       },
       {
-        "name": "Kết thư phản hồi",
-        "en": "I hope my feedback will help you improve your service. Please feel free to contact me if you have any further questions."
+        "name": "Cấu trúc phản ánh 2",
+        "en": "The quality of [issue] was not as good as I had expected. To be specific, [reason]..."
+      },
+      {
+        "name": "Dẫn dắt đề xuất giải pháp",
+        "en": "To improve the quality of your services, I have a few suggestions: I suggest that you..."
+      },
+      {
+        "name": "Kết thư phản hồi chuẩn",
+        "en": "I hope my feedback will be useful in improving your services. Please feel free to contact me if you have any further questions."
       }
     ],
     "topics": [
@@ -15683,79 +15701,90 @@ const LETTERS_DATA = [
     "badge": "Phổ biến",
     "description": "Gửi lời xin lỗi chân thành về một sai sót, sự cố hoặc việc không thể thực hiện cam kết; giải thích lý do cụ thể và đưa ra giải pháp khắc phục/đền bù.",
     "identifying_signs": [
-      "apologize for / say sorry for...",
-      "explain why you (missed, were late, forgot, damaged...)",
+      "apologize for / say sorry for …",
+      "explain why you … (missed …, were late …, forgot …, damaged …, etc.)",
       "say how you will make up for it",
-      "explain the situation and offer a solution"
+      "explain the situation and offer a solution",
+      "apologize for not being able to …",
+      "explain the reason for …"
     ],
     "master_outline": {
       "title": "Khung Dàn Ý Chuẩn - Thư Xin Lỗi (Letter of Apology)",
-      "note": "Thư xin lỗi có thể là thư thân mật, bán trang trọng hoặc trang trọng.",
+      "note": "Thư xin lỗi thường sử dụng phong cách thân mật, trang trọng hoặc bán trang trọng, tùy thuộc vào người nhận và mối quan hệ giữa hai bên.",
       "step1_salutation": {
         "informal": "Dear [tên của người nhận],",
-        "formal": "Dear Sir/Madam, (hoặc Dear Professor / Mr. / Ms. [họ],)"
+        "formal": "Dear Sir, / Dear Madam, / Dear Sir/Madam,",
+        "semi_formal": "Dear Mr. / Ms. / Mrs. [họ của người nhận],"
       },
       "step2_opening": {
-        "informal": "I’m really sorry for [vấn đề cần xin lỗi]. Let me explain what happened so you can understand the situation.",
-        "formal": "I am writing to apologize for [vấn đề cần xin lỗi]. I understand that this may have caused some inconvenience, and I would like to explain the situation."
+        "informal": "How have you been lately? I’m really sorry for [vấn đề cần xin lỗi - Ving/danh từ/cụm danh từ]. Let me explain what happened.",
+        "formal": "I hope this letter finds you well. I am writing to sincerely apologize for [vấn đề cần xin lỗi - Ving/danh từ/cụm danh từ]. I would also like to explain what happened."
       },
       "step3_body": {
-        "intro": "Lần lượt giải thích lý do và nêu hành động bù đắp phù hợp.",
+        "intro": "Thân thư chia làm 3 phần: Giải thích lý do + Cung cấp thông tin bổ sung + Đề xuất cách khắc phục / chuộc lỗi.",
         "reason_explanation": {
           "informal_lead": "First of all, let me explain why this happened.",
           "informal_structures": [
-            "I’m really sorry that I couldn’t [hành động – Vo] because [lý do].",
-            "I missed [sự kiện] because [lý do].",
-            "I felt bad about not [hành động – Ving] because [lý do].",
-            "I didn’t mean to [hành động – Vo], but [lý do]."
+            "I’m really sorry that I couldn’t [hành động – V0] because [lý do - mệnh đề].",
+            "I didn’t mean to [hành động – V0], but [lý do - mệnh đề].",
+            "I couldn’t manage to [hành động – V0] because [lý do - mệnh đề]."
           ],
           "formal_lead": "First of all, I would like to explain why this happened.",
           "formal_structures": [
-            "I was unable to [hành động – Vo] because [lý do].",
-            "I regret that I was unable to [hành động – Vo] because [lý do].",
-            "Because [lý do], I was unable to [hành động – Vo].",
-            "Unfortunately, I could not [hành động – Vo] because [lý do]."
+            "The reason why I could not [hành động – V0] was that [lý do - mệnh đề].",
+            "I regret that I was unable to [hành động – V0] because [lý do - mệnh đề].",
+            "Because [lý do - mệnh đề], I was unable to [hành động – V0]."
           ],
-          "past_simple_note": "LƯU Ý: Sau khi nêu lý do, thêm 1-3 câu mô tả cụ thể tình huống ở thì QUÁ KHỨ ĐƠN để người đọc hiểu rõ."
+          "past_simple_note": "LƯU Ý: Sau khi nêu lý do, nên bổ sung 1–3 câu mô tả cụ thể tình huống để người đọc hiểu rõ hơn. Sử dụng thì QUÁ KHỨ ĐƠN để kể lại những sự việc đã xảy ra."
         },
+        "additional_info": "Lần lượt trả lời các yêu cầu bổ sung trong đề bài, chẳng hạn tình trạng hiện tại, tiến độ công việc hoặc thông tin liên quan đến sự việc.",
         "compensation_section": {
-          "informal": "Finally, let me make it up to you by [hành động – Ving].",
-          "formal": "To make up for my mistake, I would like to [hành động – Vo]."
+          "informal": "Let me make it up to you by [hành động – V-ing], and I’ll make sure this does not happen again.",
+          "formal": "I would like to make up for this by [hành động – V-ing]. I will make every effort to avoid similar situations in the future."
         }
       },
       "step4_closing": {
-        "informal": "Sorry once again. Thanks for taking the time to read this. Write back soon.",
-        "formal": "I would like to apologize once again for the inconvenience. Thank you for taking the time to read my letter. I look forward to receiving your reply soon."
+        "informal": "I’m really sorry once again. I truly appreciate your understanding. Write back soon.",
+        "formal": "I would like to apologize once again for the inconvenience. Thank you for your understanding. I look forward to hearing from you soon."
       },
       "step5_signoff": {
         "informal": "Best wishes,",
-        "formal": "Yours sincerely, (hoặc Yours faithfully, khi xưng hô Dear Sir/Madam)"
+        "formal": "Yours faithfully,",
+        "semi_formal": "Yours sincerely,"
       }
     },
     "common_structures": [
       {
-        "name": "Mở đầu xin lỗi (Trang trọng)",
-        "en": "I am writing to apologize for... I understand that this may have caused some inconvenience..."
+        "name": "Mở đầu xin lỗi (Thân mật)",
+        "en": "How have you been lately? I’m really sorry for [vấn đề]. Let me explain what happened."
       },
       {
-        "name": "Mở đầu xin lỗi (Thân mật)",
-        "en": "I’m really sorry for... Let me explain what happened so you can understand the situation."
+        "name": "Mở đầu xin lỗi (Trang trọng)",
+        "en": "I hope this letter finds you well. I am writing to sincerely apologize for [vấn đề]. I would also like to explain what happened."
+      },
+      {
+        "name": "Giải thích lý do (Thân mật)",
+        "en": "First of all, let me explain why this happened. I’m really sorry that I couldn’t... because..."
       },
       {
         "name": "Giải thích lý do (Trang trọng)",
-        "en": "First of all, I would like to explain why this happened. Unfortunately, I could not... because..."
+        "en": "First of all, I would like to explain why this happened. The reason why I could not... was that..."
       },
       {
-        "name": "Hành động đền bù (Trang trọng)",
-        "en": "To make up for my mistake, I would like to [Vo]..."
+        "name": "Đề xuất khắc phục (Thân mật)",
+        "en": "Let me make it up to you by [V-ing], and I’ll make sure this does not happen again."
       },
       {
-        "name": "Hành động đền bù (Thân mật)",
-        "en": "Finally, let me make it up to you by [Ving]..."
+        "name": "Đề xuất khắc phục (Trang trọng)",
+        "en": "I would like to make up for this by [V-ing]. I will make every effort to avoid similar situations in the future."
       },
       {
-        "name": "Kết thư xin lỗi chuẩn",
-        "en": "I would like to apologize once again for the inconvenience. Thank you for taking the time to read my letter."
+        "name": "Kết thư xin lỗi (Thân mật)",
+        "en": "I’m really sorry once again. I truly appreciate your understanding. Write back soon."
+      },
+      {
+        "name": "Kết thư xin lỗi (Trang trọng)",
+        "en": "I would like to apologize once again for the inconvenience. Thank you for your understanding. I look forward to hearing from you soon."
       }
     ],
     "topics": [
@@ -18504,54 +18533,60 @@ const LETTERS_DATA = [
     "badge": "Trang trọng nhất",
     "description": "Ứng tuyển vào vị trí công việc, học bổng hoặc dự án tình nguyện. Luôn là thư trang trọng (Formal Letter) với 4 luận điểm thân thư chuẩn mực.",
     "identifying_signs": [
-      "apply for the position / the job of...",
+      "apply for the position of …",
+      "apply for the job of …",
       "write a letter of application",
       "respond to a job advertisement",
-      "apply for a part-time / full-time job"
+      "express your interest in a job vacancy",
+      "apply for a part-time/full-time job"
     ],
     "master_outline": {
       "title": "Khung Dàn Ý Chuẩn - Thư Ứng Tuyển (Letter of Application)",
-      "note": "Thư ứng tuyển thường gặp nhất là thư xin việc và luôn là thư trang trọng.",
-      "step1_salutation": "Dear Sir/Madam, (hoặc Dear Sir, / Dear Madam,)",
-      "step2_opening": "I am writing to apply for the position of [vị trí công việc] which was advertised on/in [nguồn tuyển dụng].",
+      "note": "Thư ứng tuyển thường sử dụng văn phong trang trọng (formal) 100%, đặc biệt khi người viết gửi đơn trực tiếp đến nhà tuyển dụng hoặc bộ phận tuyển dụng.",
+      "step1_salutation": "Dear Sir/Madam,",
+      "step2_opening": "I am writing to apply for the position of [vị trí công việc], which was advertised on/in [nguồn tuyển dụng].",
       "step3_body": {
-        "intro": "Thân thư trình bày 4 luận điểm tuần tự:",
-        "part1_title": "1. Trình độ học vấn và năng lực chuyên môn",
-        "part1_structure": "I recently graduated from [tên trường] with a bachelor’s degree in [chuyên ngành]. During my studies, I developed a strong understanding of [lĩnh vực]. I also gained useful knowledge and abilities such as [kiến thức/năng lực 1] and [kiến thức/năng lực 2].",
-        "part2_title": "2. Lý do có hứng thú với vị trí công việc này",
-        "part2_structure": "I am very interested in this position because it matches my interests and career goals. In addition, I enjoy [hoạt động liên quan đến công việc]. Therefore, I believe this job will give me a good opportunity to apply what I have learned during my studies and gain practical experience.",
-        "part3_title": "3. Kinh nghiệm làm việc đã có",
-        "part3_structure": "I worked part-time as a [vị trí công việc] at [nơi làm việc]. In this job, I was responsible for [nhiệm vụ]. This experience helped me develop skills such as [kỹ năng mềm 1] and [kỹ năng mềm 2].",
-        "part4_title": "4. Khẳng định là ứng cử viên phù hợp",
-        "part4_structure": "I believe I would be a suitable candidate for this position. This is because I am [đặc điểm tính cách: enthusiastic, honest, and hardworking]. Moreover, I am eager to learn and can adapt quickly to new environments."
+        "intro": "Thân thư trình bày 3 phần chính:",
+        "part1_title": "3.1. Thể hiện sự quan tâm đến vị trí ứng tuyển",
+        "part1_structure": "I am particularly interested in this position because it closely matches my interests and career goals. In addition, I have a strong interest in [hoạt động liên quan đến công việc], which motivates me to apply for this role. I believe this job will give me a valuable opportunity to apply my knowledge and gain practical experience. (Nếu đã có kinh nghiệm: I believe this position will allow me to further develop my professional skills and contribute to your organization.)",
+        "part2_title": "3.2. Giới thiệu trình độ học vấn và kinh nghiệm làm việc",
+        "part2_education_graduated": "I recently graduated from [tên trường] with a bachelor’s degree in [chuyên ngành]. During my studies, I developed a good understanding of my field. I also gained useful knowledge of relevant theories and practical skills related to my major.",
+        "part2_education_studying": "I am currently studying [chuyên ngành] at [tên trường]. During my studies, I have developed a good understanding of my field. I have also gained useful knowledge of relevant theories and practical skills related to my major.",
+        "part2_experience": "I worked part-time as a [vị trí công việc] at [nơi làm việc]. In this role, I was responsible for [nhiệm vụ]. This experience allowed me to develop important soft skills such as [kỹ năng mềm 1] and [kỹ năng mềm 2]. It also gave me valuable hands-on experience and strengthened my ability to handle tasks efficiently.",
+        "part3_title": "3.3. Giải thích sự phù hợp với vị trí ứng tuyển",
+        "part3_structure": "I believe I would be a suitable candidate for this position because I am [đặc điểm tính cách]. Moreover, I am eager to learn and can adapt quickly to new environments. I am confident that I can make a positive contribution to your organization and perform my duties effectively."
       },
-      "step4_closing": "I would be grateful if you could consider my application. I look forward to receiving your reply soon.",
+      "step4_closing": "I would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.",
       "step5_signoff": "Yours faithfully,"
     },
     "common_structures": [
       {
-        "name": "Mở đầu ứng tuyển",
-        "en": "I am writing to apply for the position of [vị trí] which was advertised on [nguồn]..."
+        "name": "Mở đầu thư ứng tuyển",
+        "en": "I am writing to apply for the position of [vị trí công việc], which was advertised on/in [nguồn tuyển dụng]."
       },
       {
-        "name": "Học vấn & Chuyên môn",
-        "en": "I recently graduated from [trường] with a bachelor’s degree in [chuyên ngành]..."
+        "name": "Thể hiện sự quan tâm",
+        "en": "I am particularly interested in this position because it closely matches my interests and career goals. In addition, I have a strong interest in..."
       },
       {
-        "name": "Hứng thú công việc",
-        "en": "I am very interested in this position because it matches my career goals..."
+        "name": "Học vấn (Đã tốt nghiệp)",
+        "en": "I recently graduated from [tên trường] with a bachelor’s degree in [chuyên ngành]. During my studies, I developed a good understanding of my field."
+      },
+      {
+        "name": "Học vấn (Đang học)",
+        "en": "I am currently studying [chuyên ngành] at [tên trường]. During my studies, I have developed a good understanding of my field."
       },
       {
         "name": "Kinh nghiệm làm việc",
-        "en": "I worked part-time as a [vị trí] at [nơi làm]. In this job, I was responsible for..."
+        "en": "I worked part-time as a [vị trí] at [nơi làm]. In this role, I was responsible for... This experience allowed me to develop important soft skills such as..."
       },
       {
-        "name": "Khẳng định phù hợp",
-        "en": "I believe I would be a suitable candidate for this position because I am..."
+        "name": "Khẳng định sự phù hợp",
+        "en": "I believe I would be a suitable candidate for this position because I am [tính cách]. Moreover, I am eager to learn and can adapt quickly to new environments."
       },
       {
-        "name": "Kết thư ứng tuyển",
-        "en": "I would be grateful if you could consider my application. I look forward to receiving your reply soon."
+        "name": "Kết thư ứng tuyển chuẩn",
+        "en": "I would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon."
       }
     ],
     "topics": [

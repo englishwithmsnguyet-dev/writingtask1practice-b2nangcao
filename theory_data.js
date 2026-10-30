@@ -386,32 +386,34 @@ const B2_CATEGORY_THEORY = {
     title_vi: "Thư phản hồi, đánh giá",
     title_en: "Letter of Feedback",
     badge: "TYPE 05 - B2 LEVEL",
-    purpose: "Đưa ra đánh giá, nhận xét khách quan về một khóa học, sự kiện hoặc dịch vụ đã trải nghiệm (khen ngợi điểm tốt và góp ý điểm cần khắc phục).",
+    purpose: "Đưa ra đánh giá, nhận xét khách quan về một sản phẩm, dịch vụ, cơ sở vật chất hoặc sự kiện đã trải nghiệm (khen ngợi điểm tích cực, phản ánh điểm chưa hài lòng và đề xuất giải pháp cải thiện cụ thể).",
     typical_register: "Bán trang trọng (Semi-formal) hoặc Trang trọng (Formal).",
     signs: [
-      "give feedback on...",
-      "write a review...",
-      "comment on...",
-      "share your opinions about...",
-      "evaluate...",
-      "suggestions for improvement..."
+      "give/provide feedback on …",
+      "share your opinion about …",
+      "describe your experience with …",
+      "write a letter to comment on …",
+      "say what you liked or did not like about …",
+      "say what you were satisfied or dissatisfied with …",
+      "express your satisfaction or dissatisfaction with …",
+      "make suggestions for improvement"
     ],
     b2_power_structures: [
-      { pattern: "I am writing to give my feedback on …", meaning: "Tôi/Tớ viết thư để đưa ra phản hồi, đánh giá về...", example: "I am writing to give my feedback on the recent workshop organized by your department." },
-      { pattern: "I was particularly impressed by …", meaning: "Tôi đặc biệt ấn tượng bởi...", example: "I was particularly impressed by the insightful presentations and the practical case studies shared." },
-      { pattern: "The aspect I found most rewarding was …", meaning: "Khía cạnh tôi thấy hữu ích nhất chính là...", example: "The aspect I found most rewarding was the interactive group discussion session." },
-      { pattern: "However, there are still a few areas that could be improved.", meaning: "Tuy nhiên, vẫn còn một vài khía cạnh có thể cải thiện thêm.", example: "However, there are still a few areas that could be improved, particularly the time management." },
-      { pattern: "One drawback was that …", meaning: "Một điểm hạn chế là...", example: "One drawback was that the breakout rooms were somewhat cramped for large group activities." },
-      { pattern: "I would recommend that you allocate more time for …", meaning: "Tôi khuyến nghị quý vị nên dành thêm thời gian cho...", example: "I would recommend that you allocate more time for direct Q&A sessions with the guest speakers." },
-      { pattern: "It would be better if you could provide …", meaning: "Sẽ tốt hơn nhiều nếu quý ban có thể cung cấp...", example: "It would be better if you could provide hand-out materials and slide decks prior to the seminar." },
-      { pattern: "I hope these comments will be helpful for your upcoming events.", meaning: "Tôi hy vọng những đóng góp này sẽ hữu ích cho các sự kiện sắp tới.", example: "I hope these comments will be helpful for improving the quality of future training sessions." }
+      { pattern: "One aspect I appreciated was [điểm tích cực] because [lý do].", meaning: "Một khía cạnh tôi rất đánh giá cao là [điểm tích cực] bởi vì [lý do].", example: "One aspect I appreciated was the spacious and spotless room because it provided a remarkably relaxing atmosphere." },
+      { pattern: "I was very satisfied with [điểm tích cực], as [lý do].", meaning: "Tôi rất hài lòng với [điểm tích cực], bởi vì [lý do].", example: "I was very satisfied with the customer service, as the front desk staff were polite, welcoming, and always ready to help." },
+      { pattern: "I was particularly impressed with [điểm tích cực] because [lý do].", meaning: "Tôi đặc biệt ấn tượng với [điểm tích cực] bởi vì [lý do].", example: "I was particularly impressed with the prompt check-in process because it saved us valuable time after a long journey." },
+      { pattern: "The quality of [điểm tích cực] was excellent, which made my experience more enjoyable. In fact, [lý do].", meaning: "Chất lượng của [điểm tích cực] rất tuyệt vời, khiến trải nghiệm thêm phần thú vị. Trên thực tế, [lý do].", example: "The quality of the cuisine was excellent, which made my experience more enjoyable. In fact, every dish was freshly prepared." },
+      { pattern: "One issue that I encountered was [điểm chưa hài lòng] because [lý do].", meaning: "Một vấn đề mà tôi gặp phải là [điểm chưa hài lòng] bởi vì [lý do].", example: "One issue that I encountered was the unstable Wi-Fi connection because it disrupted my urgent online meetings." },
+      { pattern: "I was quite disappointed with [điểm chưa hài lòng], as [lý do].", meaning: "Tôi khá thất vọng với [điểm chưa hài lòng], bởi vì [lý do].", example: "I was quite disappointed with the limited breakfast choices, as there were very few nutritious options available." },
+      { pattern: "The quality of [điểm chưa hài lòng] was not as good as I had expected. To be specific, [lý do].", meaning: "Chất lượng của [điểm chưa hài lòng] không được tốt như kỳ vọng. Cụ thể là, [lý do].", example: "The quality of the room air conditioning was not as good as I had expected. To be specific, it made a loud noise throughout the night." },
+      { pattern: "I suggest that you [hành động – Vo]. / It would be better if you could [hành động – Vo].", meaning: "Tôi đề xuất quý vị nên... / Sẽ tốt hơn nhiều nếu quý vị có thể...", example: "I suggest that you upgrade the Wi-Fi network and diversify the morning breakfast menu to satisfy more guests." }
     ],
-    connectors_hint: "First of all, regarding the positive aspects, … → Furthermore, … → However, one drawback was that … → In conclusion, …",
+    connectors_hint: "First of all, I would like to mention some positive aspects of … → However, there were also some areas that could be improved. → To improve the quality, I have a few suggestions.",
     analysis_questions: [
       "Người nhận là ai?",
       "Mục đích bức thư là gì?",
-      "Đây là thư thân mật, trang trọng hay bán trang trọng?",
-      "Có những điểm cộng và điểm cần cải thiện nào?"
+      "Đây là thư thân mật, trang trọng, hay bán trang trọng?",
+      "Có những yêu cầu gì trong thư?"
     ]
   },
 
@@ -420,32 +422,32 @@ const B2_CATEGORY_THEORY = {
     title_vi: "Thư xin lỗi",
     title_en: "Letter of Apology",
     badge: "TYPE 06 - B2 LEVEL",
-    purpose: "Bày tỏ lời xin lỗi chân thành vì đã không thể tham gia sự kiện, làm lỡ hẹn, gây ra sơ suất hoặc thiệt hại và đề xuất phương án bù đắp, chuộc lỗi.",
-    typical_register: "Thân mật (Informal) hoặc Trang trọng (Formal).",
+    purpose: "Bày tỏ lời xin lỗi chân thành về một sai sót, sự cố lỡ hẹn hoặc việc không thể hoàn thành cam kết; giải thích lý do cụ thể và đưa ra phương án đền bù / khắc phục hậu quả.",
+    typical_register: "Thân mật (Informal), Bán trang trọng (Semi-formal) hoặc Trang trọng (Formal).",
     signs: [
-      "apologize for...",
-      "say sorry for...",
-      "express regret...",
-      "make an apology...",
-      "could not attend...",
-      "missed the event..."
+      "apologize for / say sorry for …",
+      "explain why you … (missed …, were late …, forgot …, damaged …, etc.)",
+      "say how you will make up for it",
+      "explain the situation and offer a solution",
+      "apologize for not being able to …",
+      "explain the reason for …"
     ],
     b2_power_structures: [
-      { pattern: "I am writing to sincerely apologize for …", meaning: "Tôi/Tớ viết thư này để chân thành xin lỗi vì...", example: "I am writing to sincerely apologize for not being able to attend your farewell party last night." },
-      { pattern: "I’m really sorry that I couldn’t + Vo because …", meaning: "Tớ thực sự xin lỗi vì đã không thể... bởi vì...", example: "I’m really sorry that I couldn’t meet you as promised because my flight was unexpectedly delayed." },
-      { pattern: "I feel terrible about not being able to …", meaning: "Tớ cảm thấy vô cùng áy náy vì đã không thể...", example: "I feel terrible about missing your graduation ceremony due to an urgent family emergency." },
-      { pattern: "I didn’t mean to cause any inconvenience, but …", meaning: "Tớ không hề cố ý gây bất tiện, nhưng...", example: "I didn’t mean to let you down, but unexpected overtime work kept me at the office until midnight." },
-      { pattern: "The reason why I could not attend was that …", meaning: "Lý do tôi không thể có mặt là vì...", example: "The reason why I could not attend the scheduled meeting was that I suffered from a severe migraine." },
-      { pattern: "I regret that I was unable to inform you in advance.", meaning: "Tôi rất lấy làm tiếc vì đã không thể báo trước cho bạn/quý vị.", example: "I regret that I was unable to inform you in advance due to network connection issues on my phone." },
-      { pattern: "Let me make it up to you by + V-ing …", meaning: "Hãy để tớ chuộc lỗi bằng cách...", example: "Let me make it up to you by treating you to dinner at your favorite Italian restaurant this weekend." },
-      { pattern: "To make up for my mistake, I would like to + Vo …", meaning: "Để đền bù cho sơ suất của mình, tôi xin được...", example: "To make up for my mistake, I would like to reschedule our appointment at your earliest convenience." }
+      { pattern: "I’m really sorry that I couldn’t [Vo] because [mệnh đề]. (Thân mật)", meaning: "Tớ thực sự xin lỗi vì đã không thể... bởi vì...", example: "I’m really sorry that I couldn’t return your book earlier because I was overwhelmed with exam preparation." },
+      { pattern: "I didn’t mean to [Vo], but [mệnh đề]. (Thân mật)", meaning: "Tớ không hề cố ý..., nhưng...", example: "I didn’t mean to forget our agreement, but urgent family matters kept me occupied all week." },
+      { pattern: "I couldn’t manage to [Vo] because [mệnh đề]. (Thân mật)", meaning: "Tớ đã không thể thu xếp để... bởi vì...", example: "I couldn’t manage to visit you last Sunday because I had to finish several urgent course assignments." },
+      { pattern: "Let me make it up to you by [V-ing], and I’ll make sure this does not happen again. (Thân mật)", meaning: "Hãy để tớ chuộc lỗi bằng cách..., và tớ đảm bảo điều này sẽ không lặp lại.", example: "Let me make it up to you by treating you to a cup of milk tea and snacks this Saturday afternoon." },
+      { pattern: "The reason why I could not [Vo] was that [mệnh đề]. (Trang trọng)", meaning: "Lý do tôi đã không thể... là vì...", example: "The reason why I could not submit the research paper on time was that my laptop hard drive failed unexpectedly." },
+      { pattern: "I regret that I was unable to [Vo] because [mệnh đề]. (Trang trọng)", meaning: "Tôi rất lấy làm tiếc vì đã không thể... bởi vì...", example: "I regret that I was unable to attend the faculty seminar because I was hospitalized for a severe fever." },
+      { pattern: "Because [mệnh đề], I was unable to [Vo]. (Trang trọng)", meaning: "Bởi vì..., tôi đã không thể...", example: "Because unforeseen transportation delays blocked the highway, I was unable to arrive at the presentation on schedule." },
+      { pattern: "I would like to make up for this by [V-ing]. I will make every effort to avoid similar situations. (Trang trọng)", meaning: "Tôi xin được đền bù bằng cách... Tôi sẽ nỗ lực hết mình để tránh tình huống tương tự.", example: "I would like to make up for this by submitting the finalized thesis directly to your office first thing tomorrow." }
     ],
-    connectors_hint: "Thân mật: First, I’m really sorry that … → The reason was that … → Let me make it up to you by … | Trang trọng: To begin with, … → The reason was that … → To make up for this, …",
+    connectors_hint: "Thân mật: First of all, let me explain why this happened. → Furthermore, … → Let me make it up to you by … | Trang trọng: First of all, I would like to explain why this happened. → In addition, … → I would like to make up for this by …",
     analysis_questions: [
       "Người nhận là ai?",
       "Mục đích bức thư là gì?",
-      "Đây là thư thân mật hay trang trọng?",
-      "Lý do của sự cố là gì và có hành động đền bù cụ thể nào?"
+      "Đây là thư thân mật, trang trọng, hay bán trang trọng?",
+      "Có những yêu cầu gì trong thư?"
     ]
   },
 
@@ -454,38 +456,36 @@ const B2_CATEGORY_THEORY = {
     title_vi: "Thư ứng tuyển",
     title_en: "Letter of Application",
     badge: "TYPE 07 - B2 LEVEL",
-    purpose: "Bày tỏ nguyện vọng ứng tuyển vào một vị trí công việc bán thời gian, chương trình tình nguyện, học bổng hoặc câu lạc bộ.",
-    typical_register: "Chủ yếu là thư Trang trọng (Formal).",
+    purpose: "Bày tỏ nguyện vọng ứng tuyển vào một vị trí công việc bán thời gian/toàn thời gian, dự án tình nguyện hoặc vị trí thực tập; trình bày trình độ học vấn, kinh nghiệm và khẳng định sự phù hợp với tổ chức.",
+    typical_register: "100% Trang trọng (Formal Letter).",
     signs: [
-      "apply for the position of...",
-      "volunteer application...",
-      "job application...",
-      "apply to join...",
-      "express my interest in..."
+      "apply for the position of …",
+      "apply for the job of …",
+      "write a letter of application",
+      "respond to a job advertisement",
+      "express your interest in a job vacancy",
+      "apply for a part-time/full-time job"
     ],
     b2_power_structures: [
-      { pattern: "I am writing to express my keen interest in the position of …", meaning: "Tôi viết thư này để bày tỏ sự quan tâm sâu sắc tới vị trí...", example: "I am writing to express my keen interest in the volunteer English tutor position at your club." },
-      { pattern: "I believe my background and skills make me a strong candidate for …", meaning: "Tôi tin rằng nền tảng và kỹ năng của mình giúp tôi là một ứng viên tiềm năng cho...", example: "I believe my background in pedagogy and fluency in English make me a strong candidate." },
-      { pattern: "During my previous role as …, I was responsible for …", meaning: "Trong vai trò trước đây là..., tôi chịu trách nhiệm về...", example: "During my previous role as a class leader, I was responsible for organizing extracurricular activities." },
-      { pattern: "I have developed strong communication and problem-solving skills.", meaning: "Tôi đã trau dồi được kỹ năng giao tiếp và giải quyết vấn đề xuất sắc.", example: "I have developed strong communication and problem-solving skills through various team projects." },
-      { pattern: "I am particularly drawn to this opportunity because …", meaning: "Tôi đặc biệt bị thu hút bởi cơ hội này vì...", example: "I am particularly drawn to this opportunity because of your organization's inspiring educational mission." },
-      { pattern: "I am confident that I can contribute effectively to your team.", meaning: "Tôi tự tin rằng mình có thể đóng góp hiệu quả vào đội ngũ của quý vị.", example: "I am confident that I can contribute effectively to your upcoming community outreach campaigns." },
-      { pattern: "I have attached my updated CV for your detailed review.", meaning: "Tôi xin đính kèm bản sơ yếu lý lịch để quý vị tiện xem xét chi tiết.", example: "I have attached my updated curriculum vitae and recommendation letters for your kind review." },
-      { pattern: "I would appreciate the chance to discuss my application further in an interview.", meaning: "Tôi rất cảm kích cơ hội được trao đổi sâu hơn về hồ sơ trong buổi phỏng vấn.", example: "I would appreciate the opportunity to discuss my qualifications further in a personal interview." }
+      { pattern: "I am writing to apply for the position of [vị trí], which was advertised on/in [nguồn].", meaning: "Tôi viết thư này để ứng tuyển vào vị trí [vị trí công việc], được đăng tuyển trên [nguồn tuyển dụng].", example: "I am writing to apply for the position of Sales Assistant, which was advertised on your company website." },
+      { pattern: "I am particularly interested in this position because it closely matches my interests and career goals.", meaning: "Tôi đặc biệt quan tâm đến vị trí này vì nó hoàn toàn phù hợp với sở thích và mục tiêu nghề nghiệp của tôi.", example: "I am particularly interested in this position because it closely matches my career aspirations in fashion retail." },
+      { pattern: "In addition, I have a strong interest in [hoạt động], which motivates me to apply for this role.", meaning: "Ngoài ra, tôi có niềm đam mê lớn đối với..., điều này thôi thúc tôi ứng tuyển vào vị trí này.", example: "In addition, I have a strong interest in styling and customer care, which motivates me to apply for this role." },
+      { pattern: "I believe this job will give me a valuable opportunity to apply my knowledge and gain practical experience.", meaning: "Tôi tin rằng công việc này sẽ cho tôi cơ hội quý giá để áp dụng kiến thức và tích lũy kinh nghiệm thực tế.", example: "I believe this job will give me a valuable opportunity to apply my knowledge and gain practical customer service experience." },
+      { pattern: "I recently graduated from [trường] with a bachelor’s degree in [ngành]. / I am currently studying [ngành] at [trường].", meaning: "Tôi vừa tốt nghiệp trường... với bằng cử nhân ngành... / Tôi hiện đang theo học ngành... tại trường...", example: "I recently graduated from Can Tho University with a bachelor’s degree in Business Administration." },
+      { pattern: "During my studies, I developed a good understanding of my field and gained useful practical skills.", meaning: "Trong quá trình học tập, tôi đã xây dựng hiểu biết vững vàng về lĩnh vực của mình và tiếp thu nhiều kỹ năng thực tế.", example: "During my studies, I developed a good understanding of retail operations and interpersonal communication." },
+      { pattern: "I worked part-time as a [vị trí] at [nơi làm]. In this role, I was responsible for [nhiệm vụ].", meaning: "Tôi từng làm việc bán thời gian ở vị trí... tại... Trong vai trò này, tôi chịu trách nhiệm về...", example: "I worked part-time as a sales assistant at a clothing store. In this role, I was responsible for welcoming shoppers and handling transactions." },
+      { pattern: "I believe I would be a suitable candidate for this position because I am [đặc điểm tính cách].", meaning: "Tôi tin rằng mình sẽ là ứng viên phù hợp cho vị trí này vì tôi là người...", example: "I believe I would be a suitable candidate for this position because I am enthusiastic, honest, and hardworking." }
     ],
-    connectors_hint: "First of all, regarding my qualifications, … → In addition, … → Furthermore, I have developed … → Finally, …",
+    connectors_hint: "I am particularly interested in this position because … → During my studies, I … / In this role, I was responsible for … → Finally, I believe I would be a suitable candidate because …",
     analysis_questions: [
       "Người nhận là ai?",
       "Mục đích bức thư là gì?",
-      "Văn phong là gì (100% Trang trọng)?",
-      "Vị trí ứng tuyển là gì và cần làm nổi bật kỹ năng/kinh nghiệm nào?"
+      "Đây là thư thân mật, trang trọng, hay bán trang trọng?",
+      "Có những yêu cầu gì trong thư?"
     ]
   }
 };
 
-// ==========================================================================
-// DÀN Ý CHI TIẾT CHUẨN VSTEP B2
-// ==========================================================================
 const B2_DETAILED_OUTLINES = {
   advice: `
     <!-- 4 Câu hỏi phân tích đề (4 Hộp nổi 4 màu) -->
@@ -3097,72 +3097,175 @@ const B2_DETAILED_OUTLINES = {
   `,
 
   feedback: `
-    <!-- 4 Bước Phân tích đề -->
-    <div class="bento-card card-theme-cyan" style="padding: 1.25rem 1.5rem; margin-bottom: 1.35rem;">
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
-        <h4 style="font-size: 0.95rem; font-weight: 800; color: var(--text-primary); margin: 0;">
-          <i class="fa-solid fa-compass" style="color: var(--cyan-light);"></i> 4 BƯỚC PHÂN TÍCH ĐỀ TRƯỚC KHI VIẾT (THƯ PHẢN HỒI, ĐÁNH GIÁ - FEEDBACK):
+    <!-- PHẦN I: DẤU HIỆU NHẬN BIẾT -->
+    <div class="bento-card card-theme-cyan" style="padding: 1.4rem 1.6rem; margin-bottom: 1.5rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-magnifying-glass" style="color: var(--cyan-light);"></i> I. DẤU HIỆU NHẬN BIẾT (TYPE 05: LETTER OF FEEDBACK - THƯ PHẢN HỒI, ĐÁNH GIÁ)
         </h4>
-        <span class="hl-pill hl-cyan">Bán trang trọng • Trang trọng</span>
+        <span class="hl-pill hl-cyan"><i class="fa-solid fa-tag"></i> Từ khóa cốt lõi</span>
       </div>
-      <div class="analysis-quad-grid" style="margin-top: 0.5rem;">
-        <div class="analysis-step-item step-cyan" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">1</div><span class="hl-pill hl-cyan">Người nhận</span></div>
-          <div class="label">Người nhận là ai?</div>
-          <div class="val">Ban tổ chức sự kiện, Giảng viên hoặc Quản lý dịch vụ.</div>
-        </div>
-        <div class="analysis-step-item step-amber" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">2</div><span class="hl-pill hl-amber">Mục đích</span></div>
-          <div class="label">Mục đích thư là gì?</div>
-          <div class="val">Nhận xét cả điểm tích cực (khen) và điểm cần hoàn thiện (góp ý).</div>
-        </div>
-        <div class="analysis-step-item step-emerald" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">3</div><span class="hl-pill hl-emerald">Văn phong</span></div>
-          <div class="label">Văn phong là gì?</div>
-          <div class="val">Khách quan, xây dựng, lịch thiệp (Semi-formal / Formal).</div>
-        </div>
-        <div class="analysis-step-item step-rose" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">4</div><span class="hl-pill hl-rose">Yêu cầu</span></div>
-          <div class="label">Có những yêu cầu gì?</div>
-          <div class="val">Đánh giá cụ thể các khía cạnh và đề xuất phương án cải thiện.</div>
-        </div>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+        Dạng thư này thường xuất hiện khi đề bài có các từ khóa như:
+      </p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">give/provide feedback on …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">share your opinion about …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">describe your experience with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">write a letter to comment on …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">say what you liked or did not like about …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">say what you were satisfied or dissatisfied with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">express your satisfaction or dissatisfaction with …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">make suggestions for improvement</span>
+      </div>
+
+      <!-- HỘP LƯU Ý VĂN PHONG -->
+      <div style="background: rgba(245, 158, 11, 0.12); border-left: 4px solid var(--amber-light); border-radius: var(--radius-sm); padding: 0.95rem 1.15rem; font-size: 0.88rem; line-height: 1.65; color: var(--text-primary);">
+        <strong style="color: var(--amber-light); display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 0.3rem;">
+          <i class="fa-solid fa-triangle-exclamation"></i> LƯU Ý VỀ VĂN PHONG VÀ ĐẶC TRƯNG GIAO TIẾP:
+        </strong>
+        <p style="margin: 0; text-align: justify !important; text-justify: inter-word !important;">
+          Thư phản hồi, đánh giá thường sử dụng phong cách <strong>trang trọng (Formal)</strong> hoặc <strong>bán trang trọng (Semi-formal)</strong>, tùy thuộc vào người nhận và mối quan hệ giữa hai bên. Khác với thư phàn nàn thuần túy chỉ tập trung vào lỗi sai, thư phản hồi luôn mang tính chất <strong>khách quan và xây dựng</strong>: ghi nhận điểm tích cực, nêu các điểm chưa hài lòng và đề xuất giải pháp cải thiện cụ thể.
+        </p>
       </div>
     </div>
 
-    <!-- Bước 1 -->
+    <!-- PHẦN II: DÀN Ý CHI TIẾT 5 BƯỚC -->
+    <div class="bento-card card-theme-violet" style="padding: 1.25rem 1.5rem; margin-bottom: 1.35rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-sitemap" style="color: var(--violet-light);"></i> II. DÀN Ý CHI TIẾT 5 BƯỚC (MASTER OUTLINE)
+        </h4>
+        <span class="hl-pill hl-violet">Phong cách: Trang trọng • Bán trang trọng</span>
+      </div>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+        <strong>LƯU Ý:</strong> Thư phản hồi, đánh giá thường sử dụng phong cách trang trọng hoặc bán trang trọng, tùy thuộc vào người nhận và mối quan hệ giữa hai bên.
+      </p>
+    </div>
+
+    <!-- Bước 1: Lời chào mở đầu -->
     <div class="outline-step-card step-border-cyan">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-cyan"><i class="fa-solid fa-hand-wave"></i> BƯỚC 1: LỜI CHÀO MỞ ĐẦU (SALUTATION)</span>
+        <span class="step-badge-3d step-badge-cyan"><i class="fa-solid fa-hand-wave"></i> 1. LỜI CHÀO MỞ ĐẦU (SALUTATION)</span>
+        <span class="hl-pill hl-cyan">Phân loại theo người nhận</span>
       </div>
-      <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border);">
-        <div class="formula-arrow-row">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
-            Dear Organizers, / Dear Mr. / Ms. <span class="hl-placeholder">[họ]</span>,
+      <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border); font-size: 0.95rem; line-height: 1.7;">
+        <div style="margin-bottom: 0.75rem;">
+          <strong style="color: var(--violet-light);">• Trang trọng (Formal):</strong>
+          <div style="margin-left: 0.65rem; margin-top: 0.25rem; display: flex; flex-direction: column; gap: 0.35rem;">
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Sir, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nam)</span>
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nữ)</span>
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Sir/Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu không biết chắc chắn người nhận là nam hay nữ)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <strong style="color: var(--amber-light);">• Bán trang trọng (Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary);">
+              Dear Mr. / Ms. / Mrs. <span class="hl-placeholder">[họ của người nhận]</span>,
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 2 -->
+    <!-- Bước 2: Mở thư -->
     <div class="outline-step-card step-border-violet">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> BƯỚC 2: MỞ THƯ (OPENING)</span>
+        <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> 2. MỞ THƯ (OPENING)</span>
+        <span class="hl-pill hl-violet">Chào hỏi lịch sự & Nêu mục đích phản hồi</span>
       </div>
-      <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.14), rgba(168, 85, 247, 0.08)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
+      <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(168, 85, 247, 0.06)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
         <div class="formula-arrow-row">
           <span class="formula-arrow-icon">↳</span>
           <div class="formula-arrow-content">
-            <strong><span class="hl-mark-opening">I am writing to provide my feedback on the recent conference and share some suggestions for future events.</span></strong>
+            <strong>I hope this letter finds you well. I am writing to provide feedback on <span class="hl-placeholder">[sản phẩm/dịch vụ/trải nghiệm cần đánh giá - danh từ/cụm danh từ]</span>. I would like to share my experience and offer some suggestions for improvement.</strong>
           </div>
         </div>
       </div>
+      <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+        <i class="fa-solid fa-language" style="color: var(--violet-light);"></i> <em>Dịch: Tôi hy vọng lá thư này đến được với quý vị trong lúc tốt đẹp. Tôi viết thư này để đưa ra phản hồi về [sản phẩm/dịch vụ]. Tôi muốn chia sẻ trải nghiệm của mình và đưa ra một vài đề xuất nhằm cải thiện chất lượng.</em>
+      </p>
     </div>
 
-    <!-- Bước 3 -->
+    <!-- Bước 3: Thân thư -->
     <div class="outline-step-card step-border-emerald">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-emerald"><i class="fa-solid fa-layer-group"></i> BƯỚC 3: THÂN THƯ (BODY PARAGRAPHS)</span>
+        <span class="step-badge-3d step-badge-emerald"><i class="fa-solid fa-layer-group"></i> 3. THÂN THƯ (BODY PARAGRAPHS)</span>
+        <span class="hl-pill hl-emerald">3 Phần: Điểm tích cực • Điểm chưa hài lòng • Đề xuất giải pháp</span>
+      </div>
+
+      <!-- 3.1 Đánh giá những điểm tích cực -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--emerald-light); margin-bottom: 0.45rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-circle-check"></i> 3.1. Đánh giá những điểm tích cực (nếu có)
+        </div>
+        <div class="formula-arrow-row" style="margin-bottom: 0.6rem;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="font-weight: 700; color: var(--text-primary);">
+            First of all, I would like to mention some positive aspects of <span class="hl-placeholder">[đối tượng được đánh giá]</span>.
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.45rem; padding-left: 0.5rem; font-size: 0.92rem;">
+          <div>• <strong>One aspect I appreciated was</strong> <span class="hl-placeholder">[điểm tích cực - danh từ/cụm danh từ]</span> <strong>because</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+          <div>• <strong>I was very satisfied with</strong> <span class="hl-placeholder">[điểm tích cực - danh từ/cụm danh từ]</span>, <strong>as</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+          <div>• <strong>I was particularly impressed with</strong> <span class="hl-placeholder">[điểm tích cực - danh từ/cụm danh từ]</span> <strong>because</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+          <div>• <strong>The quality of</strong> <span class="hl-placeholder">[điểm tích cực - danh từ/cụm danh từ]</span> <strong>was excellent, which made my experience more enjoyable. In fact,</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+        </div>
+      </div>
+
+      <!-- 3.2 Đánh giá những điểm chưa tích cực -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--rose-light); margin-bottom: 0.45rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-circle-exclamation"></i> 3.2. Đánh giá những điểm chưa tích cực (nếu có)
+        </div>
+        <div class="formula-arrow-row" style="margin-bottom: 0.6rem;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="font-weight: 700; color: var(--text-primary);">
+            However, there were also some areas that could be improved.
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.45rem; padding-left: 0.5rem; font-size: 0.92rem;">
+          <div>• <strong>One issue that I encountered was</strong> <span class="hl-placeholder">[điểm chưa hài lòng - danh từ/cụm danh từ]</span> <strong>because</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+          <div>• <strong>I was quite disappointed with</strong> <span class="hl-placeholder">[điểm chưa hài lòng - danh từ/cụm danh từ]</span>, <strong>as</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+          <div>• <strong>I was not entirely satisfied with</strong> <span class="hl-placeholder">[điểm chưa hài lòng - danh từ/cụm danh từ]</span> <strong>because</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+          <div>• <strong>The quality of</strong> <span class="hl-placeholder">[điểm chưa hài lòng - danh từ/cụm danh từ]</span> <strong>was not as good as I had expected. To be specific,</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+        </div>
+      </div>
+
+      <!-- 3.3 Đề xuất giải pháp -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--amber-light); margin-bottom: 0.45rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-lightbulb"></i> 3.3. Đề xuất giải pháp
+        </div>
+        <div class="formula-arrow-row" style="margin-bottom: 0.6rem;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="font-weight: 700; color: var(--text-primary);">
+            To improve the quality of your <span class="hl-placeholder">[sản phẩm/dịch vụ/cơ sở vật chất]</span>, I have a few suggestions.
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.45rem; padding-left: 0.5rem; font-size: 0.92rem;">
+          <div>• <strong>I suggest that you</strong> <span class="hl-placeholder">[hành động – V0]</span>.</div>
+          <div>• <strong>I would recommend that you</strong> <span class="hl-placeholder">[hành động – V0]</span>.</div>
+          <div>• <strong>It would be better if you could</strong> <span class="hl-placeholder">[hành động – V0]</span>.</div>
+          <div>• <strong>I hope you will consider</strong> <span class="hl-placeholder">[hành động – V-ing]</span>.</div>
+        </div>
       </div>
 
       <!-- BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG -->
@@ -3172,7 +3275,7 @@ const B2_DETAILED_OUTLINES = {
             <div class="bento-icon-badge badge-amber"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
             <div>
               <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG</h4>
-              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp đa dạng các cấu trúc dưới đây vào phần Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp linh hoạt các cấu trúc dưới đây vào Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
             </div>
           </div>
           <span class="hl-pill hl-amber"><i class="fa-solid fa-crown"></i> 8 Cấu trúc B2</span>
@@ -3180,119 +3283,356 @@ const B2_DETAILED_OUTLINES = {
         <div id="outlineStructuresContainer" class="formulas-grid-2col"></div>
       </div>
 
-      <!-- Từ liên kết -->
+      <!-- Sơ đồ chuỗi từ liên kết gợi ý dạng Flow Nodes -->
       <div class="connector-flow-box">
-        <strong style="color: var(--emerald-light); font-size: 0.86rem;"><i class="fa-solid fa-route"></i> SƠ ĐỒ CHUỖI TỪ LIÊN KẾT GỢI Ý CHUẨN:</strong>
-        <div class="connector-chain-nodes" style="margin-top: 0.5rem;">
-          <span class="flow-node-3d"><span class="flow-node-num">1</span> Regarding the positive aspects, …</span>
+        <strong style="color: var(--emerald-light); font-size: 0.92rem;"><i class="fa-solid fa-route"></i> SƠ ĐỒ CHUỖI TỪ LIÊN KẾT GỢI Ý CHUẨN B2:</strong>
+        <div class="connector-chain-nodes" style="margin-top: 0.65rem;">
+          <span class="flow-node-3d"><span class="flow-node-num">1</span> First of all, regarding positive aspects, …</span>
           <i class="fa-solid fa-arrow-right flow-arrow"></i>
           <span class="flow-node-3d"><span class="flow-node-num">2</span> Furthermore, …</span>
           <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">3</span> However, one drawback was that …</span>
+          <span class="flow-node-3d"><span class="flow-node-num">3</span> However, there were also areas that could be improved, …</span>
           <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">4</span> In conclusion, …</span>
+          <span class="flow-node-3d"><span class="flow-node-num">4</span> To improve the quality, I suggest that you should …</span>
         </div>
       </div>
     </div>
 
-    <!-- Bước 4 -->
+    <!-- Bước 4: Kết thư -->
     <div class="outline-step-card step-border-amber">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> BƯỚC 4: KẾT THƯ (CLOSING)</span>
+        <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> 4. KẾT THƯ (CLOSING)</span>
+        <span class="hl-pill hl-amber">Hy vọng phản hồi hữu ích & Lời mời liên hệ</span>
       </div>
-      <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.14), rgba(234, 88, 12, 0.06)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 0.9rem 1.2rem; font-size: 1.02rem; color: var(--text-primary);">
+      <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(234, 88, 12, 0.05)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
         <div class="formula-arrow-row">
           <span class="formula-arrow-icon">↳</span>
           <div class="formula-arrow-content">
-            <strong><span class="hl-mark-opening">I hope these comments will be helpful for organizing future sessions. Thank you for your dedication.</span></strong>
+            <strong>I hope my feedback will be useful in improving your <span class="hl-placeholder">[sản phẩm/dịch vụ/cơ sở vật chất]</span>. Please feel free to contact me if you have any further questions.</strong>
+          </div>
+        </div>
+      </div>
+      <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+        <i class="fa-solid fa-language" style="color: var(--amber-light);"></i> <em>Dịch: Tôi hy vọng những phản hồi của mình sẽ hữu ích trong việc cải thiện [sản phẩm/dịch vụ]. Xin vui lòng liên hệ với tôi nếu quý vị có thêm bất kỳ câu hỏi nào.</em>
+      </p>
+    </div>
+
+    <!-- Bước 5: Lời chào kết thúc -->
+    <div class="outline-step-card step-border-rose">
+      <div class="outline-step-title">
+        <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> 5. LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
+        <span class="hl-pill hl-rose">Đúng chuẩn từng văn phong</span>
+      </div>
+      <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border); font-size: 0.95rem; line-height: 1.7;">
+        <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+          <div>
+            <strong style="color: var(--violet-light);">• Trang trọng (khi xưng Dear Sir/Madam):</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Yours faithfully,
+              </div>
+            </div>
+          </div>
+          <div>
+            <strong style="color: var(--amber-light);">• Bán trang trọng (khi xưng tên họ Mr./Ms.):</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Yours sincerely,
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 5 -->
-    <div class="outline-step-card step-border-rose">
-      <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> BƯỚC 5: LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
+    <!-- VÍ DỤ MINH HỌA & PHÂN TÍCH ĐỀ -->
+    <div class="bento-card card-theme-emerald" style="padding: 1.4rem 1.6rem; margin-top: 1.75rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-book-open-reader" style="color: var(--emerald-light);"></i> VÍ DỤ MINH HỌA (SAMPLE TOPIC & PROMPT ANALYSIS)
+        </h4>
+        <span class="hl-pill hl-emerald"><i class="fa-solid fa-star"></i> Đề mẫu B2</span>
       </div>
-      <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border);">
-        <div class="formula-arrow-row">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content">
-            <strong style="color: var(--text-primary); font-size: 1.02rem;">Yours sincerely,</strong>
-          </div>
+
+      <div style="background: var(--bg-card); border: 1.5px solid var(--emerald-border); border-radius: var(--radius-md); padding: 1.15rem 1.25rem; margin-bottom: 1.25rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700;">
+          You recently stayed at a hotel and received an email from the hotel manager asking for feedback about your stay.
+        </p>
+        <p style="margin: 0 0 0.5rem 0;">
+          Write an email to give your opinion. In your email, you should:
+        </p>
+        <div style="margin: 0.5rem 0 0.75rem 0; padding-left: 0.5rem;">
+          <div style="display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.25rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>Say whether you were satisfied or dissatisfied with the service</span></div>
+          <div style="display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.25rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>Describe your experience</span></div>
+          <div style="display: flex; align-items: center; gap: 0.45rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>Suggest ways the hotel can improve its service</span></div>
+        </div>
+        <p style="margin: 0.5rem 0 0 0;">
+          You should write at least 120 words. <strong>Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.</strong>
+        </p>
+      </div>
+
+      <!-- 4 Câu hỏi Phân tích đề -->
+      <h5 style="font-size: 0.95rem; font-weight: 800; color: var(--emerald-light); margin: 0 0 0.65rem 0;">
+        <i class="fa-solid fa-compass"></i> PHÂN TÍCH ĐỀ BÀI (4 CÂU HỎI VÀNG):
+      </h5>
+      <div class="analysis-quad-grid" style="margin-top: 0.5rem;">
+        <div class="analysis-step-item step-cyan" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">1</div><span class="hl-pill hl-cyan">Người nhận</span></div>
+          <div class="label">Người nhận là ai?</div>
+          <div class="val">Hotel Manager (Quản lý khách sạn).</div>
+        </div>
+        <div class="analysis-step-item step-amber" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">2</div><span class="hl-pill hl-amber">Mục đích</span></div>
+          <div class="label">Mục đích bức thư là gì?</div>
+          <div class="val">Đưa ra phản hồi và đánh giá về kỳ nghỉ tại khách sạn (nêu điểm hài lòng/chưa hài lòng, miêu tả trải nghiệm và đề xuất cách cải thiện dịch vụ).</div>
+        </div>
+        <div class="analysis-step-item step-emerald" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">3</div><span class="hl-pill hl-emerald">Văn phong</span></div>
+          <div class="label">Văn phong thư là gì?</div>
+          <div class="val">Trang trọng (Formal) hoặc Bán trang trọng (Semi-formal).</div>
+        </div>
+        <div class="analysis-step-item step-rose" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">4</div><span class="hl-pill hl-rose">Yêu cầu</span></div>
+          <div class="label">Có những yêu cầu gì?</div>
+          <div class="val">1. Nêu mức độ hài lòng hoặc chưa hài lòng • 2. Miêu tả trải nghiệm cụ thể (điểm cộng và điểm trừ) • 3. Đề xuất các giải pháp giúp khách sạn nâng cấp dịch vụ.</div>
         </div>
       </div>
     </div>
+  
   `,
 
   apology: `
-    <!-- 4 Bước Phân tích đề -->
-    <div class="bento-card card-theme-cyan" style="padding: 1.25rem 1.5rem; margin-bottom: 1.35rem;">
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
-        <h4 style="font-size: 0.95rem; font-weight: 800; color: var(--text-primary); margin: 0;">
-          <i class="fa-solid fa-compass" style="color: var(--cyan-light);"></i> 4 BƯỚC PHÂN TÍCH ĐỀ TRƯỚC KHI VIẾT (THƯ XIN LỖI - APOLOGY):
+    <!-- PHẦN I: DẤU HIỆU NHẬN BIẾT -->
+    <div class="bento-card card-theme-cyan" style="padding: 1.4rem 1.6rem; margin-bottom: 1.5rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-magnifying-glass" style="color: var(--cyan-light);"></i> I. DẤU HIỆU NHẬN BIẾT (TYPE 06: LETTER OF APOLOGY - THƯ XIN LỖI)
         </h4>
-        <span class="hl-pill hl-cyan">Thân mật hoặc Trang trọng</span>
+        <span class="hl-pill hl-cyan"><i class="fa-solid fa-tag"></i> Từ khóa cốt lõi</span>
       </div>
-      <div class="analysis-quad-grid" style="margin-top: 0.5rem;">
-        <div class="analysis-step-item step-cyan" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">1</div><span class="hl-pill hl-cyan">Người nhận</span></div>
-          <div class="label">Người nhận là ai?</div>
-          <div class="val">Bạn bè thân thiết (Informal) hoặc Đối tác / Giáo viên (Formal).</div>
-        </div>
-        <div class="analysis-step-item step-amber" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">2</div><span class="hl-pill hl-amber">Mục đích</span></div>
-          <div class="label">Mục đích thư là gì?</div>
-          <div class="val">Bày tỏ lời xin lỗi chân thành, giải thích lý do chính đáng và đề xuất bù đắp.</div>
-        </div>
-        <div class="analysis-step-item step-emerald" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">3</div><span class="hl-pill hl-emerald">Văn phong</span></div>
-          <div class="label">Văn phong là gì?</div>
-          <div class="val">Thành thật, đồng cảm và có trách nhiệm.</div>
-        </div>
-        <div class="analysis-step-item step-rose" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">4</div><span class="hl-pill hl-rose">Yêu cầu</span></div>
-          <div class="label">Có những yêu cầu gì?</div>
-          <div class="val">Xin lỗi ➔ Giải thích nguyên nhân ➔ Đưa ra hành động bù đắp cụ thể.</div>
-        </div>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+        Dạng thư này thường xuất hiện khi đề bài có các từ khóa như:
+      </p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">apologize for / say sorry for …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">explain why you … (missed …, were late …, forgot …, damaged …, etc.)</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">say how you will make up for it</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">explain the situation and offer a solution</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">apologize for not being able to …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">explain the reason for …</span>
+      </div>
+
+      <!-- HỘP LƯU Ý VĂN PHONG -->
+      <div style="background: rgba(245, 158, 11, 0.12); border-left: 4px solid var(--amber-light); border-radius: var(--radius-sm); padding: 0.95rem 1.15rem; font-size: 0.88rem; line-height: 1.65; color: var(--text-primary);">
+        <strong style="color: var(--amber-light); display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 0.3rem;">
+          <i class="fa-solid fa-triangle-exclamation"></i> LƯU Ý VỀ VĂN PHONG VÀ ĐẶC TRƯNG GIAO TIẾP:
+        </strong>
+        <p style="margin: 0; text-align: justify !important; text-justify: inter-word !important;">
+          Thư xin lỗi thường sử dụng phong cách <strong>thân mật (Informal)</strong>, <strong>trang trọng (Formal)</strong> hoặc <strong>bán trang trọng (Semi-formal)</strong>, tùy thuộc vào người nhận và mối quan hệ giữa hai bên. Khi viết cho bạn bè, hãy dùng giọng điệu ấm áp, chân thành; khi viết cho giảng viên, đối tác hay khách hàng, hãy thể hiện sự tôn trọng, chuyên nghiệp và tinh thần trách nhiệm cao.
+        </p>
       </div>
     </div>
 
-    <!-- Bước 1 -->
+    <!-- PHẦN II: DÀN Ý CHI TIẾT 5 BƯỚC -->
+    <div class="bento-card card-theme-violet" style="padding: 1.25rem 1.5rem; margin-bottom: 1.35rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-sitemap" style="color: var(--violet-light);"></i> II. DÀN Ý CHI TIẾT 5 BƯỚC (MASTER OUTLINE)
+        </h4>
+        <span class="hl-pill hl-violet">3 Phong cách: Thân mật • Bán trang trọng • Trang trọng</span>
+      </div>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+        <strong>LƯU Ý:</strong> Thư xin lỗi thường sử dụng phong cách thân mật, trang trọng hoặc bán trang trọng, tùy thuộc vào người nhận và mối quan hệ giữa hai bên.
+      </p>
+    </div>
+
+    <!-- Bước 1: Lời chào mở đầu -->
     <div class="outline-step-card step-border-cyan">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-cyan"><i class="fa-solid fa-hand-wave"></i> BƯỚC 1: LỜI CHÀO MỞ ĐẦU (SALUTATION)</span>
+        <span class="step-badge-3d step-badge-cyan"><i class="fa-solid fa-hand-wave"></i> 1. LỜI CHÀO MỞ ĐẦU (SALUTATION)</span>
+        <span class="hl-pill hl-cyan">Phân loại theo người nhận</span>
       </div>
-      <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border);">
-        <div class="formula-arrow-row">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
-            Dear <span class="hl-placeholder">[tên người nhận]</span>, / Dear Mr. / Ms. <span class="hl-placeholder">[họ]</span>,
+      <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border); font-size: 0.95rem; line-height: 1.7;">
+        <div style="margin-bottom: 0.65rem;">
+          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary);">
+              Dear <span class="hl-placeholder">[tên của người nhận]</span>,
+            </div>
+          </div>
+        </div>
+        <div style="margin-bottom: 0.65rem;">
+          <strong style="color: var(--amber-light);">• Bán trang trọng (Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.65rem; margin-top: 0.25rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-size: 1.02rem; font-weight: 800; color: var(--text-primary);">
+              Dear Mr. / Ms. / Mrs. <span class="hl-placeholder">[họ của người nhận]</span>,
+            </div>
+          </div>
+        </div>
+        <div>
+          <strong style="color: var(--violet-light);">• Trang trọng (Formal):</strong>
+          <div style="margin-left: 0.65rem; margin-top: 0.25rem; display: flex; flex-direction: column; gap: 0.35rem;">
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Sir, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nam)</span>
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu biết chắc chắn người nhận là nữ)</span>
+              </div>
+            </div>
+            <div class="formula-arrow-row">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="color: var(--text-primary); font-weight: 700;">
+                Dear Sir/Madam, <span style="font-weight: 400; color: var(--text-muted);">(nếu không biết chắc chắn người nhận là nam hay nữ)</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 2 -->
+    <!-- Bước 2: Mở thư -->
     <div class="outline-step-card step-border-violet">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> BƯỚC 2: MỞ THƯ (OPENING)</span>
+        <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> 2. MỞ THƯ (OPENING)</span>
+        <span class="hl-pill hl-violet">Lời xin lỗi chân thành & Dẫn dắt giải thích</span>
       </div>
-      <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.14), rgba(168, 85, 247, 0.08)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
+
+      <!-- Thân mật -->
+      <div style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.12), rgba(59, 130, 246, 0.06)); border: 1px solid var(--cyan-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; margin-bottom: 0.85rem; font-size: 0.95rem; line-height: 1.7;">
+        <div style="font-weight: 800; color: var(--cyan-light); margin-bottom: 0.45rem; font-size: 0.96rem;">
+          <i class="fa-solid fa-user-group"></i> Thân mật (Informal):
+        </div>
         <div class="formula-arrow-row">
           <span class="formula-arrow-icon">↳</span>
           <div class="formula-arrow-content">
-            <strong><span class="hl-mark-opening">I am writing to sincerely apologize for missing our scheduled meeting yesterday.</span></strong>
+            <strong>How have you been lately? I’m really sorry for <span class="hl-placeholder">[vấn đề cần xin lỗi - Ving/danh từ/cụm danh từ]</span>. Let me explain what happened.</strong>
           </div>
         </div>
+        <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.45rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+          <i class="fa-solid fa-language" style="color: var(--cyan-light);"></i> <em>Dịch: Dạo này cậu thế nào? Tớ thực sự rất xin lỗi vì [vấn đề]. Để tớ giải thích những gì đã xảy ra nhé.</em>
+        </p>
+      </div>
+
+      <!-- Trang trọng & Bán trang trọng -->
+      <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(168, 85, 247, 0.06)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; font-size: 0.95rem; line-height: 1.7;">
+        <div style="font-weight: 800; color: var(--violet-light); margin-bottom: 0.45rem; font-size: 0.96rem;">
+          <i class="fa-solid fa-briefcase"></i> Trang trọng & Bán trang trọng (Formal / Semi-formal):
+        </div>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content">
+            <strong>I hope this letter finds you well. I am writing to sincerely apologize for <span class="hl-placeholder">[vấn đề cần xin lỗi - Ving/danh từ/cụm danh từ]</span>. I would also like to explain what happened.</strong>
+          </div>
+        </div>
+        <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.45rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+          <i class="fa-solid fa-language" style="color: var(--violet-light);"></i> <em>Dịch: Tôi hy vọng lá thư này đến được với quý vị trong lúc tốt đẹp. Tôi viết thư này để chân thành xin lỗi vì [vấn đề]. Tôi cũng xin phép được giải thích về những gì đã xảy ra.</em>
+        </p>
       </div>
     </div>
 
-    <!-- Bước 3 -->
+    <!-- Bước 3: Thân thư -->
     <div class="outline-step-card step-border-emerald">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-emerald"><i class="fa-solid fa-layer-group"></i> BƯỚC 3: THÂN THƯ (BODY PARAGRAPHS)</span>
+        <span class="step-badge-3d step-badge-emerald"><i class="fa-solid fa-layer-group"></i> 3. THÂN THƯ (BODY PARAGRAPHS)</span>
+        <span class="hl-pill hl-emerald">3 Phần: Giải thích lý do • Thông tin bổ sung • Cách khắc phục</span>
+      </div>
+
+      <!-- 3.1 Giải thích lý do -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--emerald-light); margin-bottom: 0.5rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-circle-question"></i> 3.1. Giải thích lý do (Explanation of the Reason)
+        </div>
+
+        <!-- Thân mật -->
+        <div style="margin-bottom: 0.85rem;">
+          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-top: 0.2rem; margin-bottom: 0.4rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-weight: 700;">
+              First of all, let me explain why this happened.
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.35rem; padding-left: 1rem; font-size: 0.92rem;">
+            <div>- <strong>I’m really sorry that I couldn’t</strong> <span class="hl-placeholder">[hành động – V0]</span> <strong>because</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+            <div>- <strong>I didn’t mean to</strong> <span class="hl-placeholder">[hành động – V0]</span>, <strong>but</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+            <div>- <strong>I couldn’t manage to</strong> <span class="hl-placeholder">[hành động – V0]</span> <strong>because</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+          </div>
+        </div>
+
+        <!-- Trang trọng -->
+        <div style="margin-bottom: 0.85rem;">
+          <strong style="color: var(--amber-light);">• Trang trọng & Bán trang trọng (Formal / Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-top: 0.2rem; margin-bottom: 0.4rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-weight: 700;">
+              First of all, I would like to explain why this happened.
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.35rem; padding-left: 1rem; font-size: 0.92rem;">
+            <div>- <strong>The reason why I could not</strong> <span class="hl-placeholder">[hành động – V0]</span> <strong>was that</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+            <div>- <strong>I regret that I was unable to</strong> <span class="hl-placeholder">[hành động – V0]</span> <strong>because</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>.</div>
+            <div>- <strong>Because</strong> <span class="hl-placeholder">[lý do - mệnh đề]</span>, <strong>I was unable to</strong> <span class="hl-placeholder">[hành động – V0]</span>.</div>
+          </div>
+        </div>
+
+        <!-- HỘP LƯU Ý THÌ QUÁ KHỨ ĐƠN -->
+        <div style="background: rgba(16, 185, 129, 0.1); border-left: 3px solid var(--emerald-light); padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-size: 0.88rem; line-height: 1.6;">
+          <strong style="color: var(--emerald-light); display: inline-flex; align-items: center; gap: 0.35rem;">
+            <i class="fa-solid fa-clock-rotate-left"></i> LƯU Ý QUAN TRỌNG:
+          </strong>
+          <span style="color: var(--text-primary);">
+            Sau khi nêu lý do, nên bổ sung <strong>1–3 câu mô tả cụ thể tình huống</strong> để người đọc hiểu rõ hơn. Sử dụng thì <strong>Quá khứ đơn (Past Simple)</strong> để kể lại những sự việc đã xảy ra.
+          </span>
+        </div>
+      </div>
+
+      <!-- 3.2 Cung cấp thông tin bổ sung -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--cyan-light); margin-bottom: 0.45rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-file-circle-plus"></i> 3.2. Cung cấp thông tin bổ sung (nếu đề bài yêu cầu)
+        </div>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="color: var(--text-primary);">
+            Lần lượt trả lời các yêu cầu bổ sung trong đề bài, chẳng hạn tình trạng hiện tại, tiến độ công việc hoặc thông tin liên quan đến sự việc (ví dụ: đã đọc xong sách chưa, tình trạng máy tính bị hư hỏng ra sao...).
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.3 Đề xuất cách khắc phục -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--amber-light); margin-bottom: 0.5rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-hand-holding-hand"></i> 3.3. Đề xuất cách khắc phục / Chuộc lỗi (nếu cần, tuỳ theo tình huống)
+        </div>
+
+        <div style="margin-bottom: 0.65rem;">
+          <strong style="color: var(--cyan-light);">• Thân mật (Informal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-top: 0.2rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-weight: 700; color: var(--text-primary);">
+              Let me make it up to you by <span class="hl-placeholder">[hành động – V-ing]</span>, and I’ll make sure this does not happen again.
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <strong style="color: var(--amber-light);">• Trang trọng & Bán trang trọng (Formal / Semi-formal):</strong>
+          <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-top: 0.2rem;">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="font-weight: 700; color: var(--text-primary);">
+              I would like to make up for this by <span class="hl-placeholder">[hành động – V-ing]</span>. I will make every effort to avoid similar situations in the future.
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG -->
@@ -3302,7 +3642,7 @@ const B2_DETAILED_OUTLINES = {
             <div class="bento-icon-badge badge-amber"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
             <div>
               <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG</h4>
-              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp đa dạng các cấu trúc dưới đây vào phần Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp linh hoạt các cấu trúc dưới đây vào Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
             </div>
           </div>
           <span class="hl-pill hl-amber"><i class="fa-solid fa-crown"></i> 8 Cấu trúc B2</span>
@@ -3310,118 +3650,314 @@ const B2_DETAILED_OUTLINES = {
         <div id="outlineStructuresContainer" class="formulas-grid-2col"></div>
       </div>
 
-      <!-- Từ liên kết -->
+      <!-- Sơ đồ chuỗi từ liên kết gợi ý dạng Flow Nodes -->
       <div class="connector-flow-box">
-        <strong style="color: var(--emerald-light); font-size: 0.86rem;"><i class="fa-solid fa-route"></i> SƠ ĐỒ CHUỖI TỪ LIÊN KẾT GỢI Ý CHUẨN:</strong>
-        <div class="connector-chain-nodes" style="margin-top: 0.5rem;">
-          <span class="flow-node-3d"><span class="flow-node-num">1</span> First, I’m really sorry that …</span>
-          <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">2</span> The reason was that …</span>
-          <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">3</span> Let me make it up to you by …</span>
+        <strong style="color: var(--emerald-light); font-size: 0.92rem;"><i class="fa-solid fa-route"></i> SƠ ĐỒ CHUỖI TỪ LIÊN KẾT GỢI Ý CHUẨN B2:</strong>
+        
+        <div style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+          <span class="hl-pill hl-cyan" style="margin-bottom: 0.35rem;">Thân mật (Informal):</span>
+          <div class="connector-chain-nodes" style="margin-top: 0.35rem;">
+            <span class="flow-node-3d"><span class="flow-node-num">1</span> First of all, let me explain why this happened.</span>
+            <i class="fa-solid fa-arrow-right flow-arrow"></i>
+            <span class="flow-node-3d"><span class="flow-node-num">2</span> Next, regarding the situation, …</span>
+            <i class="fa-solid fa-arrow-right flow-arrow"></i>
+            <span class="flow-node-3d"><span class="flow-node-num">3</span> Finally, let me make it up to you by …</span>
+          </div>
+        </div>
+
+        <div style="border-top: 1px dashed var(--panel-border); padding-top: 0.65rem;">
+          <span class="hl-pill hl-violet" style="margin-bottom: 0.35rem;">Trang trọng (Formal):</span>
+          <div class="connector-chain-nodes" style="margin-top: 0.35rem;">
+            <span class="flow-node-3d"><span class="flow-node-num">1</span> First of all, I would like to explain why this happened.</span>
+            <i class="fa-solid fa-arrow-right flow-arrow"></i>
+            <span class="flow-node-3d"><span class="flow-node-num">2</span> In addition, regarding …</span>
+            <i class="fa-solid fa-arrow-right flow-arrow"></i>
+            <span class="flow-node-3d"><span class="flow-node-num">3</span> To make up for this, I would like to …</span>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 4 -->
+    <!-- Bước 4: Kết thư -->
     <div class="outline-step-card step-border-amber">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> BƯỚC 4: KẾT THƯ (CLOSING)</span>
+        <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> 4. KẾT THƯ (CLOSING)</span>
+        <span class="hl-pill hl-amber">Nhắc lại lời xin lỗi & Cảm ơn sự thấu hiểu</span>
       </div>
-      <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.14), rgba(234, 88, 12, 0.06)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 0.9rem 1.2rem; font-size: 1.02rem; color: var(--text-primary);">
+
+      <!-- Thân mật -->
+      <div style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.12), rgba(59, 130, 246, 0.06)); border: 1px solid var(--cyan-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; margin-bottom: 0.75rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
+        <div style="font-weight: 800; color: var(--cyan-light); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          • Thân mật (Informal):
+        </div>
         <div class="formula-arrow-row">
           <span class="formula-arrow-icon">↳</span>
           <div class="formula-arrow-content">
-            <strong><span class="hl-mark-opening">Once again, I truly apologize for any inconvenience caused. I look forward to catching up with you soon.</span></strong>
+            <strong>I’m really sorry once again. I truly appreciate your understanding. Write back soon.</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trang trọng & Bán trang trọng -->
+      <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(234, 88, 12, 0.05)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
+        <div style="font-weight: 800; color: var(--amber-light); margin-bottom: 0.35rem; font-size: 0.92rem;">
+          • Trang trọng & Bán trang trọng (Formal / Semi-formal):
+        </div>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content">
+            <strong>I would like to apologize once again for the inconvenience. Thank you for your understanding. I look forward to hearing from you soon.</strong>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 5 -->
+    <!-- Bước 5: Lời chào kết thúc -->
     <div class="outline-step-card step-border-rose">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> BƯỚC 5: LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
+        <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> 5. LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
+        <span class="hl-pill hl-rose">Đúng chuẩn từng văn phong</span>
       </div>
-      <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border);">
-        <div class="formula-arrow-row">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content" style="font-size: 1.02rem; color: var(--text-primary);">
-            <strong>Best wishes,</strong> / <strong>Yours sincerely,</strong>
+      <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border); font-size: 0.95rem; line-height: 1.7;">
+        <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+          <div>
+            <strong style="color: var(--cyan-light);">• Thân mật:</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Best wishes,
+              </div>
+            </div>
+          </div>
+          <div>
+            <strong style="color: var(--violet-light);">• Trang trọng (khi xưng Dear Sir/Madam):</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Yours faithfully,
+              </div>
+            </div>
+          </div>
+          <div>
+            <strong style="color: var(--amber-light);">• Bán trang trọng (khi xưng tên họ Mr./Ms.):</strong>
+            <div class="formula-arrow-row" style="margin-top: 0.25rem;">
+              <span class="formula-arrow-icon">↳</span>
+              <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+                Yours sincerely,
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- VÍ DỤ MINH HỌA & PHÂN TÍCH ĐỀ -->
+    <div class="bento-card card-theme-emerald" style="padding: 1.4rem 1.6rem; margin-top: 1.75rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-book-open-reader" style="color: var(--emerald-light);"></i> VÍ DỤ MINH HỌA (SAMPLE TOPIC & PROMPT ANALYSIS)
+        </h4>
+        <span class="hl-pill hl-emerald"><i class="fa-solid fa-star"></i> Đề mẫu B2</span>
+      </div>
+
+      <div style="background: var(--bg-card); border: 1.5px solid var(--emerald-border); border-radius: var(--radius-md); padding: 1.15rem 1.25rem; margin-bottom: 1.25rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700;">
+          You borrowed a book from your friend Helen, but forgot to return it. Read part of her letter below:
+        </p>
+        <blockquote style="margin: 0.5rem 0; padding: 0.65rem 1rem; border-left: 3px solid var(--emerald-light); background: rgba(16, 185, 129, 0.08); font-style: italic; color: var(--text-secondary); border-radius: var(--radius-sm);">
+          "… Hey! How have you been lately? By the way, have you finished reading the book you borrowed from me? I was wondering why you haven’t returned it yet. When do you plan to give it back, and how will you return it? …"
+        </blockquote>
+        <p style="margin: 0.5rem 0 0 0;">
+          Write a letter to reply to Helen. In your letter, you should:
+        </p>
+        <div style="margin: 0.5rem 0 0.75rem 0; padding-left: 0.5rem;">
+          <div style="display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.25rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>apologize for not returning the book</span></div>
+          <div style="display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.25rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>explain your current situation and whether you’ve finished the book</span></div>
+          <div style="display: flex; align-items: center; gap: 0.45rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>say when and how you will return it</span></div>
+        </div>
+        <p style="margin: 0.5rem 0 0 0;">
+          You should write at least 120 words. <strong>Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.</strong>
+        </p>
+      </div>
+
+      <!-- 4 Câu hỏi Phân tích đề -->
+      <h5 style="font-size: 0.95rem; font-weight: 800; color: var(--emerald-light); margin: 0 0 0.65rem 0;">
+        <i class="fa-solid fa-compass"></i> PHÂN TÍCH ĐỀ BÀI (4 CÂU HỎI VÀNG):
+      </h5>
+      <div class="analysis-quad-grid" style="margin-top: 0.5rem;">
+        <div class="analysis-step-item step-cyan" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">1</div><span class="hl-pill hl-cyan">Người nhận</span></div>
+          <div class="label">Người nhận là ai?</div>
+          <div class="val">Helen (Bạn thân).</div>
+        </div>
+        <div class="analysis-step-item step-amber" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">2</div><span class="hl-pill hl-amber">Mục đích</span></div>
+          <div class="label">Mục đích bức thư là gì?</div>
+          <div class="val">Hồi âm xin lỗi bạn vì quên trả sách, giải thích lý do/tình hình hiện tại và hẹn ngày giờ, phương thức trả sách cụ thể.</div>
+        </div>
+        <div class="analysis-step-item step-emerald" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">3</div><span class="hl-pill hl-emerald">Văn phong</span></div>
+          <div class="label">Văn phong thư là gì?</div>
+          <div class="val">Thân mật (Informal letter).</div>
+        </div>
+        <div class="analysis-step-item step-rose" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">4</div><span class="hl-pill hl-rose">Yêu cầu</span></div>
+          <div class="label">Có những yêu cầu gì?</div>
+          <div class="val">1. Xin lỗi vì chưa trả sách • 2. Giải thích tình hình hiện tại & cho biết đã đọc xong sách chưa • 3. Nêu rõ khi nào và trả lại sách bằng cách nào.</div>
+        </div>
+      </div>
+    </div>
+  
   `,
 
   application: `
-    <!-- 4 Bước Phân tích đề -->
-    <div class="bento-card card-theme-cyan" style="padding: 1.25rem 1.5rem; margin-bottom: 1.35rem;">
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
-        <h4 style="font-size: 0.95rem; font-weight: 800; color: var(--text-primary); margin: 0;">
-          <i class="fa-solid fa-compass" style="color: var(--cyan-light);"></i> 4 BƯỚC PHÂN TÍCH ĐỀ TRƯỚC KHI VIẾT (THƯ ỨNG TUYỂN - APPLICATION):
+    <!-- PHẦN I: DẤU HIỆU NHẬN BIẾT -->
+    <div class="bento-card card-theme-cyan" style="padding: 1.4rem 1.6rem; margin-bottom: 1.5rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-magnifying-glass" style="color: var(--cyan-light);"></i> I. DẤU HIỆU NHẬN BIẾT (TYPE 07: LETTER OF APPLICATION - THƯ ỨNG TUYỂN)
         </h4>
-        <span class="hl-pill hl-violet">100% Trang trọng (Formal)</span>
+        <span class="hl-pill hl-cyan"><i class="fa-solid fa-tag"></i> Từ khóa cốt lõi</span>
       </div>
-      <div class="analysis-quad-grid" style="margin-top: 0.5rem;">
-        <div class="analysis-step-item step-cyan" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">1</div><span class="hl-pill hl-cyan">Người nhận</span></div>
-          <div class="label">Người nhận là ai?</div>
-          <div class="val">Nhà tuyển dụng, Ban điều hành câu lạc bộ hoặc Hội đồng xét tuyển.</div>
-        </div>
-        <div class="analysis-step-item step-amber" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">2</div><span class="hl-pill hl-amber">Mục đích</span></div>
-          <div class="label">Mục đích thư là gì?</div>
-          <div class="val">Bày tỏ nguyện vọng ứng tuyển, chứng minh năng lực và kinh nghiệm phù hợp.</div>
-        </div>
-        <div class="analysis-step-item step-emerald" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">3</div><span class="hl-pill hl-emerald">Văn phong</span></div>
-          <div class="label">Văn phong là gì?</div>
-          <div class="val">Chuyên nghiệp, tự tin, trang trọng (Tuyệt đối không dùng tiếng lóng hay viết tắt).</div>
-        </div>
-        <div class="analysis-step-item step-rose" style="padding: 0.85rem 1rem;">
-          <div class="analysis-step-top"><div class="num">4</div><span class="hl-pill hl-rose">Yêu cầu</span></div>
-          <div class="label">Có những yêu cầu gì?</div>
-          <div class="val">Nêu vị trí ứng tuyển ➔ Trình bày kỹ năng/kinh nghiệm ➔ Đề xuất phỏng vấn.</div>
-        </div>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+        Dạng thư này thường xuất hiện khi đề bài có các từ khóa như:
+      </p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">apply for the position of …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">apply for the job of …</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">write a letter of application</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">respond to a job advertisement</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">express your interest in a job vacancy</span>
+        <span class="hl-pill hl-cyan" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">apply for a part-time/full-time job</span>
+      </div>
+
+      <!-- HỘP LƯU Ý VĂN PHONG -->
+      <div style="background: rgba(245, 158, 11, 0.12); border-left: 4px solid var(--amber-light); border-radius: var(--radius-sm); padding: 0.95rem 1.15rem; font-size: 0.88rem; line-height: 1.65; color: var(--text-primary);">
+        <strong style="color: var(--amber-light); display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 0.3rem;">
+          <i class="fa-solid fa-triangle-exclamation"></i> LƯU Ý VỀ VĂN PHONG VÀ ĐẶC TRƯNG GIAO TIẾP:
+        </strong>
+        <p style="margin: 0; text-align: justify !important; text-justify: inter-word !important;">
+          Thư ứng tuyển thường sử dụng <strong>văn phong trang trọng (Formal) 100%</strong>, đặc biệt khi người viết gửi đơn trực tiếp đến nhà tuyển dụng hoặc bộ phận tuyển dụng. Tuyệt đối <strong>không sử dụng từ viết tắt</strong> (dùng <em>I am, do not, cannot</em> thay vì <em>I'm, don't, can't</em>), tránh dùng từ lóng và duy trì sự tự tin, chuyên nghiệp trong toàn bộ bài viết.
+        </p>
       </div>
     </div>
 
-    <!-- Bước 1 -->
+    <!-- PHẦN II: DÀN Ý CHI TIẾT 5 BƯỚC -->
+    <div class="bento-card card-theme-violet" style="padding: 1.25rem 1.5rem; margin-bottom: 1.35rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-sitemap" style="color: var(--violet-light);"></i> II. DÀN Ý CHI TIẾT 5 BƯỚC (MASTER OUTLINE)
+        </h4>
+        <span class="hl-pill hl-violet">100% Chuẩn Trang Trọng (Formal Letter)</span>
+      </div>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+        <strong>LƯU Ý:</strong> Thư ứng tuyển thường sử dụng văn phong trang trọng (formal), đặc biệt khi người viết gửi đơn trực tiếp đến nhà tuyển dụng hoặc bộ phận tuyển dụng.
+      </p>
+    </div>
+
+    <!-- Bước 1: Lời chào mở đầu -->
     <div class="outline-step-card step-border-cyan">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-cyan"><i class="fa-solid fa-hand-wave"></i> BƯỚC 1: LỜI CHÀO MỞ ĐẦU (SALUTATION)</span>
-        <span class="hl-pill hl-violet">Trang trọng</span>
+        <span class="step-badge-3d step-badge-cyan"><i class="fa-solid fa-hand-wave"></i> 1. LỜI CHÀO MỞ ĐẦU (SALUTATION)</span>
+        <span class="hl-pill hl-cyan">Chuẩn mực trang trọng</span>
       </div>
-      <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border);">
+      <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--cyan-border); font-size: 0.95rem; line-height: 1.7;">
         <div class="formula-arrow-row">
           <span class="formula-arrow-icon">↳</span>
           <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
-            Dear Hiring Manager, / Dear Sir/Madam,
+            Dear Sir/Madam,
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 2 -->
+    <!-- Bước 2: Mở thư -->
     <div class="outline-step-card step-border-violet">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> BƯỚC 2: MỞ THƯ (OPENING)</span>
+        <span class="step-badge-3d step-badge-violet"><i class="fa-solid fa-envelope-open-text"></i> 2. MỞ THƯ (OPENING)</span>
+        <span class="hl-pill hl-violet">Nêu rõ vị trí & Nguồn thông tin tuyển dụng</span>
       </div>
-      <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.14), rgba(168, 85, 247, 0.08)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
+      <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(168, 85, 247, 0.06)); border: 1px solid var(--violet-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
         <div class="formula-arrow-row">
           <span class="formula-arrow-icon">↳</span>
           <div class="formula-arrow-content">
-            <strong><span class="hl-mark-opening">I am writing to express my strong interest in the volunteer position advertised on your university website.</span></strong>
+            <strong>I am writing to apply for the position of <span class="hl-placeholder">[vị trí công việc]</span>, which was advertised on/in <span class="hl-placeholder">[nguồn tuyển dụng]</span>.</strong>
           </div>
         </div>
       </div>
+      <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+        <i class="fa-solid fa-language" style="color: var(--violet-light);"></i> <em>Dịch: Tôi viết thư này để ứng tuyển vào vị trí [vị trí công việc], được đăng tuyển trên [nguồn tuyển dụng].</em>
+      </p>
     </div>
 
-    <!-- Bước 3 -->
+    <!-- Bước 3: Thân thư -->
     <div class="outline-step-card step-border-emerald">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-emerald"><i class="fa-solid fa-layer-group"></i> BƯỚC 3: THÂN THƯ (BODY PARAGRAPHS)</span>
+        <span class="step-badge-3d step-badge-emerald"><i class="fa-solid fa-layer-group"></i> 3. THÂN THƯ (BODY PARAGRAPHS)</span>
+        <span class="hl-pill hl-emerald">3 Phần: Sự quan tâm • Học vấn & Kinh nghiệm • Sự phù hợp</span>
+      </div>
+
+      <!-- 3.1 Thể hiện sự quan tâm đến vị trí ứng tuyển -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--emerald-light); margin-bottom: 0.45rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-heart"></i> 3.1. Thể hiện sự quan tâm đến vị trí ứng tuyển
+        </div>
+        <div class="formula-arrow-row" style="margin-bottom: 0.6rem;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="color: var(--text-primary); line-height: 1.7;">
+            <strong>I am particularly interested in this position because it closely matches my interests and career goals. In addition, I have a strong interest in <span class="hl-placeholder">[hoạt động liên quan đến công việc]</span>, which motivates me to apply for this role. I believe this job will give me a valuable opportunity to apply my knowledge and gain practical experience.</strong>
+          </div>
+        </div>
+        <div style="background: rgba(16, 185, 129, 0.08); border-left: 3px solid var(--emerald-light); padding: 0.65rem 0.95rem; border-radius: var(--radius-sm); font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+          <i class="fa-solid fa-lightbulb" style="color: var(--emerald-light);"></i> <em>Nếu đã có kinh nghiệm làm việc, có thể thay câu cuối bằng:</em><br>
+          <strong style="color: var(--text-primary);">"I believe this position will allow me to further develop my professional skills and contribute to your organization."</strong>
+        </div>
+      </div>
+
+      <!-- 3.2 Giới thiệu trình độ học vấn và kinh nghiệm làm việc -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--cyan-light); margin-bottom: 0.5rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-graduation-cap"></i> 3.2. Giới thiệu trình độ học vấn và kinh nghiệm làm việc
+        </div>
+
+        <strong style="color: var(--amber-light); font-size: 0.93rem;">• Trình độ học vấn / Tình trạng hiện tại:</strong>
+        <div style="margin-left: 0.5rem; margin-top: 0.35rem; margin-bottom: 0.75rem; display: flex; flex-direction: column; gap: 0.45rem;">
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary);">
+              <span class="hl-pill hl-cyan" style="font-size: 0.78rem; padding: 0.15rem 0.5rem;">Đã tốt nghiệp</span>
+              <strong>I recently graduated from <span class="hl-placeholder">[tên trường]</span> with a bachelor’s degree in <span class="hl-placeholder">[chuyên ngành]</span>. During my studies, I developed a good understanding of my field. I also gained useful knowledge of relevant theories and practical skills related to my major.</strong>
+            </div>
+          </div>
+          <div class="formula-arrow-row">
+            <span class="formula-arrow-icon">↳</span>
+            <div class="formula-arrow-content" style="color: var(--text-primary);">
+              <span class="hl-pill hl-emerald" style="font-size: 0.78rem; padding: 0.15rem 0.5rem;">Đang theo học</span>
+              <strong>I am currently studying <span class="hl-placeholder">[chuyên ngành]</span> at <span class="hl-placeholder">[tên trường]</span>. During my studies, I have developed a good understanding of my field. I have also gained useful knowledge of relevant theories and practical skills related to my major.</strong>
+            </div>
+          </div>
+        </div>
+
+        <strong style="color: var(--cyan-light); font-size: 0.93rem;">• Kinh nghiệm làm việc:</strong>
+        <div class="formula-arrow-row" style="margin-left: 0.5rem; margin-top: 0.35rem;">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="color: var(--text-primary); line-height: 1.7;">
+            <strong>I worked part-time as a <span class="hl-placeholder">[vị trí công việc]</span> at <span class="hl-placeholder">[nơi làm việc]</span>. In this role, I was responsible for <span class="hl-placeholder">[nhiệm vụ]</span>. This experience allowed me to develop important soft skills such as <span class="hl-placeholder">[kỹ năng mềm 1]</span> and <span class="hl-placeholder">[kỹ năng mềm 2]</span>. It also gave me valuable hands-on experience and strengthened my ability to handle tasks efficiently.</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.3 Giải thích sự phù hợp với vị trí ứng tuyển -->
+      <div style="background: var(--bg-inner); padding: 1.1rem 1.3rem; border-radius: var(--radius-md); border: 1px solid var(--panel-border); margin-bottom: 1.15rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <div style="font-weight: 800; color: var(--rose-light); margin-bottom: 0.45rem; font-size: 0.98rem;">
+          <i class="fa-solid fa-user-check"></i> 3.3. Giải thích sự phù hợp với vị trí ứng tuyển
+        </div>
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="color: var(--text-primary); line-height: 1.7;">
+            <strong>I believe I would be a suitable candidate for this position because I am <span class="hl-placeholder">[đặc điểm tính cách: enthusiastic, honest, and hardworking]</span>. Moreover, I am eager to learn and can adapt quickly to new environments. I am confident that I can make a positive contribution to your organization and perform my duties effectively.</strong>
+          </div>
+        </div>
       </div>
 
       <!-- BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG -->
@@ -3431,7 +3967,7 @@ const B2_DETAILED_OUTLINES = {
             <div class="bento-icon-badge badge-amber"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
             <div>
               <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">BỘ CẤU TRÚC CÂU "ĂN ĐIỂM" BAND B2 ĐẶC TRƯNG</h4>
-              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp đa dạng các cấu trúc dưới đây vào phần Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0.15rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">Phối hợp linh hoạt các cấu trúc dưới đây vào Thân bài để bứt phá điểm Ngữ pháp & Từ vựng (kèm câu ví dụ mẫu):</p>
             </div>
           </div>
           <span class="hl-pill hl-amber"><i class="fa-solid fa-crown"></i> 8 Cấu trúc B2</span>
@@ -3439,49 +3975,113 @@ const B2_DETAILED_OUTLINES = {
         <div id="outlineStructuresContainer" class="formulas-grid-2col"></div>
       </div>
 
-      <!-- Từ liên kết -->
+      <!-- Sơ đồ chuỗi từ liên kết gợi ý dạng Flow Nodes -->
       <div class="connector-flow-box">
-        <strong style="color: var(--emerald-light); font-size: 0.86rem;"><i class="fa-solid fa-route"></i> SƠ ĐỒ CHUỖI TỪ LIÊN KẾT GỢI Ý CHUẨN:</strong>
-        <div class="connector-chain-nodes" style="margin-top: 0.5rem;">
-          <span class="flow-node-3d"><span class="flow-node-num">1</span> First of all, regarding my qualifications, …</span>
+        <strong style="color: var(--emerald-light); font-size: 0.92rem;"><i class="fa-solid fa-route"></i> SƠ ĐỒ CHUỖI TỪ LIÊN KẾT GỢI Ý CHUẨN B2:</strong>
+        <div class="connector-chain-nodes" style="margin-top: 0.65rem;">
+          <span class="flow-node-3d"><span class="flow-node-num">1</span> I am particularly interested in this position because …</span>
           <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">2</span> In addition, …</span>
+          <span class="flow-node-3d"><span class="flow-node-num">2</span> Regarding my education, I recently graduated / am studying …</span>
           <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">3</span> Furthermore, I have developed …</span>
+          <span class="flow-node-3d"><span class="flow-node-num">3</span> In addition, I worked part-time as a …</span>
           <i class="fa-solid fa-arrow-right flow-arrow"></i>
-          <span class="flow-node-3d"><span class="flow-node-num">4</span> Finally, …</span>
+          <span class="flow-node-3d"><span class="flow-node-num">4</span> Finally, I believe I would be a suitable candidate because …</span>
         </div>
       </div>
     </div>
 
-    <!-- Bước 4 -->
+    <!-- Bước 4: Kết thư -->
     <div class="outline-step-card step-border-amber">
       <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> BƯỚC 4: KẾT THƯ (CLOSING)</span>
+        <span class="step-badge-3d step-badge-amber"><i class="fa-solid fa-heart"></i> 4. KẾT THƯ (CLOSING)</span>
+        <span class="hl-pill hl-amber">Bày tỏ lòng biết ơn & Sẵn sàng phỏng vấn</span>
       </div>
-      <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.14), rgba(234, 88, 12, 0.06)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 0.9rem 1.2rem; font-size: 1.02rem; color: var(--text-primary);">
+      <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(234, 88, 12, 0.05)); border: 1px solid var(--amber-border); border-radius: var(--radius-md); padding: 1rem 1.25rem; font-size: 1.02rem; color: var(--text-primary); line-height: 1.7;">
         <div class="formula-arrow-row">
           <span class="formula-arrow-icon">↳</span>
           <div class="formula-arrow-content">
-            <strong><span class="hl-mark-opening">Thank you for considering my application. I would welcome the opportunity to discuss my qualifications with you in an interview.</span></strong>
+            <strong>I would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.</strong>
+          </div>
+        </div>
+      </div>
+      <p style="font-size: 0.83rem; color: var(--text-muted); margin: 0.5rem 0 0 0; text-align: justify !important; text-justify: inter-word !important;">
+        <i class="fa-solid fa-language" style="color: var(--amber-light);"></i> <em>Dịch: Tôi rất cảm kích nếu quý vị có thể xem xét hồ sơ ứng tuyển của tôi. Tôi luôn sẵn sàng tham gia phỏng vấn vào thời gian thuận tiện cho quý vị và rất mong sớm nhận được hồi âm.</em>
+      </p>
+    </div>
+
+    <!-- Bước 5: Lời chào kết thúc -->
+    <div class="outline-step-card step-border-rose">
+      <div class="outline-step-title">
+        <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> 5. LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
+        <span class="hl-pill hl-rose">100% Chuẩn Trang Trọng</span>
+      </div>
+      <div style="background: var(--bg-inner); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border); font-size: 0.95rem; line-height: 1.7;">
+        <div class="formula-arrow-row">
+          <span class="formula-arrow-icon">↳</span>
+          <div class="formula-arrow-content" style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">
+            Yours faithfully,
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bước 5 -->
-    <div class="outline-step-card step-border-rose">
-      <div class="outline-step-title">
-        <span class="step-badge-3d step-badge-rose"><i class="fa-solid fa-signature"></i> BƯỚC 5: LỜI CHÀO KẾT THÚC (SIGN-OFF)</span>
+    <!-- VÍ DỤ MINH HỌA & PHÂN TÍCH ĐỀ -->
+    <div class="bento-card card-theme-emerald" style="padding: 1.4rem 1.6rem; margin-top: 1.75rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin: 0;">
+          <i class="fa-solid fa-book-open-reader" style="color: var(--emerald-light);"></i> VÍ DỤ MINH HỌA (SAMPLE TOPIC & PROMPT ANALYSIS)
+        </h4>
+        <span class="hl-pill hl-emerald"><i class="fa-solid fa-star"></i> Đề mẫu B2</span>
       </div>
-      <div style="background: var(--bg-inner); padding: 0.85rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--rose-border);">
-        <div class="formula-arrow-row">
-          <span class="formula-arrow-icon">↳</span>
-          <div class="formula-arrow-content">
-            <strong style="color: var(--text-primary); font-size: 1.02rem;">Yours faithfully,</strong>
-          </div>
+
+      <div style="background: var(--bg-card); border: 1.5px solid var(--emerald-border); border-radius: var(--radius-md); padding: 1.15rem 1.25rem; margin-bottom: 1.25rem; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary);">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700;">
+          You saw a job advertisement for a sales assistant at a clothing store in your city. Write an email to apply for the job.
+        </p>
+        <p style="margin: 0 0 0.5rem 0;">
+          In your email, you should:
+        </p>
+        <div style="margin: 0.5rem 0 0.75rem 0; padding-left: 0.5rem;">
+          <div style="display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.25rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>Introduce yourself and your current situation</span></div>
+          <div style="display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.25rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>Say why you are interested in the position</span></div>
+          <div style="display: flex; align-items: center; gap: 0.45rem;"><i class="fa-solid fa-bolt" style="color: var(--amber-light);"></i> <span>Mention any experience you have working with customers</span></div>
+        </div>
+        <p style="margin: 0.5rem 0 0 0;">
+          You should write at least 120 words. <strong>Do not include your name or address. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.</strong>
+        </p>
+      </div>
+
+      <!-- 4 Câu hỏi Phân tích đề -->
+      <h5 style="font-size: 0.95rem; font-weight: 800; color: var(--emerald-light); margin: 0 0 0.65rem 0;">
+        <i class="fa-solid fa-compass"></i> PHÂN TÍCH ĐỀ BÀI (4 CÂU HỎI VÀNG):
+      </h5>
+      <div class="analysis-quad-grid" style="margin-top: 0.5rem;">
+        <div class="analysis-step-item step-cyan" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">1</div><span class="hl-pill hl-cyan">Người nhận</span></div>
+          <div class="label">Người nhận là ai?</div>
+          <div class="val">Hiring Manager / Store Manager (Nhà tuyển dụng / Quản lý cửa hàng thời trang).</div>
+        </div>
+        <div class="analysis-step-item step-amber" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">2</div><span class="hl-pill hl-amber">Mục đích</span></div>
+          <div class="label">Mục đích bức thư là gì?</div>
+          <div class="val">Ứng tuyển vào vị trí nhân viên bán hàng (Sales Assistant) tại cửa hàng quần áo.</div>
+        </div>
+        <div class="analysis-step-item step-emerald" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">3</div><span class="hl-pill hl-emerald">Văn phong</span></div>
+          <div class="label">Văn phong thư là gì?</div>
+          <div class="val">100% Trang trọng (Formal letter).</div>
+        </div>
+        <div class="analysis-step-item step-rose" style="padding: 0.9rem 1rem;">
+          <div class="analysis-step-top"><div class="num">4</div><span class="hl-pill hl-rose">Yêu cầu</span></div>
+          <div class="label">Có những yêu cầu gì?</div>
+          <div class="val">1. Giới thiệu bản thân và tình trạng học vấn/công việc hiện tại • 2. Nêu lý do yêu thích và quan tâm đến vị trí này • 3. Mô tả kinh nghiệm làm việc với khách hàng trước đây và sự phù hợp.</div>
         </div>
       </div>
     </div>
+  
   `
 };
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { OVERVIEW_THEORY, B2_CATEGORY_THEORY, B2_DETAILED_OUTLINES };
+}

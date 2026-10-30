@@ -911,6 +911,65 @@ function renderCategoryTheoryTab() {
         </span>
         ${idx < nodes.length - 1 ? '<i class="fa-solid fa-arrow-right flow-arrow"></i>' : ''}
       `).join('');
+    } else if (catKey === 'feedback') {
+      const nodes = [
+        { label: 'First of all, regarding positive aspects, …' },
+        { label: 'Furthermore, …' },
+        { label: 'However, there were also areas that could be improved, …' },
+        { label: 'To improve the quality, I suggest that you should …' }
+      ];
+      connHintEl.innerHTML = `
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-top: 0.25rem;">
+          ${nodes.map((n, idx) => `
+            <span class="flow-node-3d">
+              <span class="flow-node-num">${idx + 1}</span>
+              <span>${n.label}</span>
+            </span>
+            ${idx < nodes.length - 1 ? '<i class="fa-solid fa-arrow-right flow-arrow"></i>' : ''}
+          `).join('')}
+        </div>
+      `;
+    } else if (catKey === 'apology') {
+      connHintEl.innerHTML = `
+        <div style="width: 100%; margin-bottom: 0.4rem;">
+          <span class="hl-pill hl-cyan" style="margin-bottom: 0.35rem;">Thân mật (Informal):</span>
+          <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-top: 0.25rem;">
+            <span class="flow-node-3d"><span class="flow-node-num">1</span> First of all, let me explain why this happened.</span>
+            <i class="fa-solid fa-arrow-right flow-arrow"></i>
+            <span class="flow-node-3d"><span class="flow-node-num">2</span> Next, regarding the situation, …</span>
+            <i class="fa-solid fa-arrow-right flow-arrow"></i>
+            <span class="flow-node-3d"><span class="flow-node-num">3</span> Finally, let me make it up to you by …</span>
+          </div>
+        </div>
+        <div style="width: 100%;">
+          <span class="hl-pill hl-violet" style="margin-bottom: 0.35rem;">Trang trọng (Formal):</span>
+          <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-top: 0.25rem;">
+            <span class="flow-node-3d"><span class="flow-node-num">1</span> First of all, I would like to explain why this happened.</span>
+            <i class="fa-solid fa-arrow-right flow-arrow"></i>
+            <span class="flow-node-3d"><span class="flow-node-num">2</span> In addition, regarding …</span>
+            <i class="fa-solid fa-arrow-right flow-arrow"></i>
+            <span class="flow-node-3d"><span class="flow-node-num">3</span> To make up for this, I would like to …</span>
+          </div>
+        </div>
+      `;
+    } else if (catKey === 'application') {
+      const nodes = [
+        { label: 'I am particularly interested in this position because …' },
+        { label: 'Regarding my education, I recently graduated / am studying …' },
+        { label: 'In addition, I worked part-time as a …' },
+        { label: 'Finally, I believe I would be a suitable candidate because …' }
+      ];
+      connHintEl.innerHTML = `
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-top: 0.25rem;">
+          ${nodes.map((n, idx) => `
+            <span class="flow-node-3d">
+              <span class="flow-node-num">${idx + 1}</span>
+              <span>${n.label}</span>
+            </span>
+            ${idx < nodes.length - 1 ? '<i class="fa-solid fa-arrow-right flow-arrow"></i>' : ''}
+          `).join('')}
+        </div>
+      `;
     } else {
       connHintEl.innerHTML = `
         <div style="width: 100%; margin-bottom: 0.4rem;">
