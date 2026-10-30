@@ -796,7 +796,7 @@ const LETTERS_DATA = [
                   "vi": "tối ưu hóa lịch trình tham quan"
                 },
                 {
-                  "en": "savoring authentic street delicacies",
+                  "en": "savoring authentic street food",
                   "vi": "thưởng thức các món ngon đường phố chính gốc"
                 },
                 {
@@ -822,16 +822,16 @@ const LETTERS_DATA = [
                 },
                 {
                   "id": "cp3",
-                  "name": "Thưởng thức ẩm thực bản địa (Savoring local delicacies)",
+                  "name": "Thưởng thức ẩm thực bản địa (Savoring local specialties)",
                   "pattern": {},
                   "desc": "Thưởng thức món ăn đường phố và trải nghiệm di sản ẩm thực bản địa",
-                  "missingFeedback": "Cần thể hiện trải nghiệm ẩm thực bản địa với các từ vựng cao cấp như 'delicacies', 'culinary heritage'."
+                  "missingFeedback": "Cần thể hiện trải nghiệm ẩm thực bản địa với các từ vựng cao cấp như 'specialties', 'culinary heritage'."
                 }
               ],
               "alternatives": [
-                "As far as accommodation is concerned, reserving a room near the Old Quarter beforehand will streamline your sightseeing schedule, whilst tasting iconic street specialties such as pho and egg coffee provides an authentic cultural experience."
+                "As far as accommodation is concerned, reserving a room near the Old Quarter beforehand will save time your sightseeing schedule, while tasting iconic street specialties such as pho and egg coffee provides an authentic cultural experience."
               ],
-              "criteria_tip": "Sử dụng cấu trúc câu phức với danh động từ làm chủ ngữ (`booking a hotel...`) và liên từ đối chiếu (`while/whilst`) là vũ khí chủ đạo để đạt band điểm B2+."
+              "criteria_tip": "Sử dụng cấu trúc câu phức với danh động từ làm chủ ngữ (`booking a hotel...`) và liên từ đối chiếu (`while/while`) là vũ khí chủ đạo để đạt band điểm B2+."
             }
           ],
           "sample_b1": {
@@ -1627,7 +1627,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì thời tiết ban ngày vào tháng 12 tại miền Nam thường ấm áp và nhiều nắng.",
                   "expansion_1_en": "Natural fabrics dry quickly and keep you feeling cool when walking under the southern midday sun.",
                   "expansion_1_vi": "Chất liệu tự nhiên mau khô và giữ cho bạn cảm giác mát mẻ khi đi bộ dưới cái nắng trưa Nam Bộ.",
-                  "expansion_2_en": "Loose-fitting garments also allow maximum mobility when climbing on and off river boats.",
+                  "expansion_2_en": "Loose-fitting clothes also allow maximum mobility when climbing on and off river boats.",
                   "expansion_2_vi": "Trang phục rộng rãi cũng giúp bạn cử động linh hoạt tối đa khi bước lên xuống các mạn thuyền ghe."
                 },
                 {
@@ -2085,9 +2085,9 @@ const LETTERS_DATA = [
             }
           ],
           "sample_b1": {
-            "letter_en": "Dear Emily,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice for your upcoming trip to Can Tho in December.\n\nFirstly, you should stay at a riverside hotel or homestay near Ninh Kieu Wharf because it is very convenient for travelling and offers stunning river views.\n\nSecondly, it would be a good idea to try out local delicacies such as grilled snakehead fish, crispy sizzling pancakes, and fresh tropical fruits.\n\nNext, if I were you, I would take an early morning boat to visit Cai Rang floating market because you can experience the authentic river commerce of the Mekong Delta.\n\nFinally, remember to bring lightweight clothes, sunscreen, and an umbrella because the weather is warm and sunny during December.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear Emily,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice for your upcoming trip to Can Tho in December.\n\nFirstly, you should stay at a riverside hotel or homestay near Ninh Kieu Wharf because it is very convenient for travelling and offers stunning river views.\n\nSecondly, it would be a good idea to try out local specialties such as grilled snakehead fish, crispy sizzling pancakes, and fresh tropical fruits.\n\nNext, if I were you, I would take an early morning boat to visit Cai Rang floating market because you can experience the authentic river commerce of the Mekong Delta.\n\nFinally, remember to bring lightweight clothes, sunscreen, and an umbrella because the weather is warm and sunny during December.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
             "letter_vi": "Emily thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để đưa ra một vài lời khuyên cho chuyến du lịch sắp tới của cậu đến Cần Thơ vào tháng Mười Hai.\n\nĐầu tiên, cậu nên ở một khách sạn ven sông hoặc homestay gần Bến Ninh Kiều vì nó rất thuận tiện cho việc đi lại và có tầm nhìn hướng sông tuyệt đẹp.\n\nThứ hai, sẽ là một ý kiến hay nếu cậu thưởng thức các món ăn đặc sản địa phương như cá lóc nướng trui, bánh xèo giòn rụm và các loại trái cây nhiệt đới tươi ngon.\n\nTiếp theo, nếu tớ là cậu, tớ sẽ đi thuyền vào sáng sớm để tham quan chợ nổi Cái Răng vì cậu có thể trải nghiệm nét giao thương sông nước đích thực của miền Tây.\n\nCuối cùng, hãy nhớ mang theo quần áo mỏng nhẹ, kem chống nắng và một chiếc ô vì thời tiết vào tháng Mười Hai rất ấm áp và nhiều nắng.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết chuyến đi diễn ra thế nào nhé. Hồi âm sớm cho tớ nhé.\n\nChúc cậu mọi điều tốt lành,",
-            "text": "Dear Emily,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice for your upcoming trip to Can Tho in December.\n\nFirstly, you should stay at a riverside hotel or homestay near Ninh Kieu Wharf because it is very convenient for travelling and offers stunning river views.\n\nSecondly, it would be a good idea to try out local delicacies such as grilled snakehead fish, crispy sizzling pancakes, and fresh tropical fruits.\n\nNext, if I were you, I would take an early morning boat to visit Cai Rang floating market because you can experience the authentic river commerce of the Mekong Delta.\n\nFinally, remember to bring lightweight clothes, sunscreen, and an umbrella because the weather is warm and sunny during December.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "text": "Dear Emily,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice for your upcoming trip to Can Tho in December.\n\nFirstly, you should stay at a riverside hotel or homestay near Ninh Kieu Wharf because it is very convenient for travelling and offers stunning river views.\n\nSecondly, it would be a good idea to try out local specialties such as grilled snakehead fish, crispy sizzling pancakes, and fresh tropical fruits.\n\nNext, if I were you, I would take an early morning boat to visit Cai Rang floating market because you can experience the authentic river commerce of the Mekong Delta.\n\nFinally, remember to bring lightweight clothes, sunscreen, and an umbrella because the weather is warm and sunny during December.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
             "translation": "Emily thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để đưa ra một vài lời khuyên cho chuyến du lịch sắp tới của cậu đến Cần Thơ vào tháng Mười Hai.\n\nĐầu tiên, cậu nên ở một khách sạn ven sông hoặc homestay gần Bến Ninh Kiều vì nó rất thuận tiện cho việc đi lại và có tầm nhìn hướng sông tuyệt đẹp.\n\nThứ hai, sẽ là một ý kiến hay nếu cậu thưởng thức các món ăn đặc sản địa phương như cá lóc nướng trui, bánh xèo giòn rụm và các loại trái cây nhiệt đới tươi ngon.\n\nTiếp theo, nếu tớ là cậu, tớ sẽ đi thuyền vào sáng sớm để tham quan chợ nổi Cái Răng vì cậu có thể trải nghiệm nét giao thương sông nước đích thực của miền Tây.\n\nCuối cùng, hãy nhớ mang theo quần áo mỏng nhẹ, kem chống nắng và một chiếc ô vì thời tiết vào tháng Mười Hai rất ấm áp và nhiều nắng.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết chuyến đi diễn ra thế nào nhé. Hồi âm sớm cho tớ nhé.\n\nChúc cậu mọi điều tốt lành,",
             "word_count": 149,
             "key_structures": [
@@ -2476,7 +2476,7 @@ const LETTERS_DATA = [
                   "action_vi": "cậu nên tìm các khóa học tại trường Đại học Hà Nội",
                   "reason_en": "because the university offers very affordable rates for foreign students.",
                   "reason_vi": "bởi vì trường có mức học phí rất ưu đãi cho sinh viên quốc tế.",
-                  "expansion_1_en": "Their accredited curriculum follows national communicative standards and awards reputable certificates.",
+                  "expansion_1_en": "Their accredited course program follows national communicative standards and awards reputable certificates.",
                   "expansion_1_vi": "Giáo trình được kiểm định tại đây tuân theo chuẩn giao tiếp quốc gia và cấp chứng chỉ uy tín.",
                   "expansion_2_en": "You can also access spacious university libraries and join dynamic campus student clubs.",
                   "expansion_2_vi": "Bạn cũng có thể sử dụng thư viện đại học rộng lớn và tham gia các câu lạc bộ sinh viên năng động."
@@ -2870,7 +2870,7 @@ const LETTERS_DATA = [
                 "prepare clear answers for common interview questions",
                 "demonstrate genuine enthusiasm"
               ],
-              "explanation": "Dùng từ vựng B2 chuyên môn cao 'behavioral questions', 'demonstrate genuine enthusiasm'."
+              "explanation": "Dùng từ vựng B2 chuyên môn cao 'common interview questions', 'demonstrate genuine enthusiasm'."
             },
             {
               "id": 5,
@@ -2921,7 +2921,7 @@ const LETTERS_DATA = [
             "word_count": 179,
             "letter_en": "Dear Jane,\n\nThanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.\n\nFirst of all, when it comes to my new workplace, I am really happy with ***the supportive colleagues and convenient commuting distance*** because everyone is welcoming and the office is only a short bus ride from my home.\n\nAs for what to research before your job interview, it would be a good idea to ***study the company’s core values, recent projects, and main products thoroughly*** because interviewers always appreciate candidates who demonstrate genuine curiosity and preparation.\n\nRegarding how to prepare for typical interview questions, if I were you, I would ***practice answering common interview questions using specific examples from your past experience*** because this makes your answers compelling and authentic.\n\nLast but not least, remember to ***dress professionally and arrive at the interview location fifteen minutes early*** because making a punctual and polished first impression shows high dedication and reliability.\n\nI hope you find my suggestions helpful. Let me know how things go.\n\nBest wishes,",
             "letter_vi": "Chào Jane,\n\nCảm ơn vì bức thư của cậu. Dạo này cậu thế nào? Sau khi suy nghĩ về tình huống của cậu, tớ có một vài gợi ý có thể giúp ích được.\n\nTrước hết, khi nói về nơi làm việc mới của tớ, tớ thực sự rất hài lòng với các đồng nghiệp luôn hỗ trợ và khoảng cách đi lại thuận tiện vì mọi người đều thân thiện và văn phòng chỉ cách nhà tớ một chuyến xe buýt ngắn.\n\nVề những điều cần tìm hiểu trước buổi phỏng vấn xin việc, sẽ là một ý tưởng hay nếu cậu nghiên cứu kỹ về giá trị cốt lõi, các dự án gần đây và sản phẩm chính của công ty vì người phỏng vấn luôn đánh giá cao những ứng viên thể hiện sự tò mò và chuẩn bị chu đáo.\n\nLiên quan đến cách chuẩn bị cho các câu hỏi phỏng vấn điển hình, nếu tớ là cậu, tớ sẽ luyện tập trả lời các câu hỏi tình huống phổ biến bằng cách sử dụng các ví dụ cụ thể từ kinh nghiệm trước đây của cậu vì điều này giúp câu trả lời của cậu thuyết phục và chân thực.\n\nCuối cùng nhưng không kém phần quan trọng, hãy nhớ ăn mặc lịch sự và đến địa điểm phỏng vấn trước mười lăm phút vì việc tạo ấn tượng đầu tiên đúng giờ và chỉn chu thể hiện sự tận tâm và đáng tin cậy cao.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
-            "text": "Dear Jane,\n\nThanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.\n\nFirst of all, when it comes to my new workplace, I am really happy with ***the supportive colleagues and convenient commuting distance*** because everyone is welcoming and the office is only a short bus ride from my home.\n\nAs for what to research before your job interview, it would be a good idea to ***study the company’s core values, recent projects, and main products thoroughly*** because interviewers always appreciate candidates who demonstrate genuine curiosity and preparation.\n\nRegarding how to prepare for typical interview questions, if I were you, I would ***practice answering common behavioral questions using specific examples from your past experiences*** because this makes your answers compelling and authentic.\n\nLast but not least, remember to ***dress professionally and arrive at the interview location fifteen minutes early*** because making a punctual and polished first impression shows high dedication and reliability.\n\nI hope you find my suggestions helpful. Let me know how things go.\n\nBest wishes,",
+            "text": "Dear Jane,\n\nThanks for your letter. How have you been lately? After thinking about your situation, I have a few suggestions that might help.\n\nFirst of all, when it comes to my new workplace, I am really happy with ***the supportive colleagues and convenient commuting distance*** because everyone is welcoming and the office is only a short bus ride from my home.\n\nAs for what to research before your job interview, it would be a good idea to ***study the company’s core values, recent projects, and main products thoroughly*** because interviewers always appreciate candidates who demonstrate genuine curiosity and preparation.\n\nRegarding how to prepare for typical interview questions, if I were you, I would ***practice answering common interview questions using specific examples from your past experience*** because this makes your answers compelling and authentic.\n\nLast but not least, remember to ***dress professionally and arrive at the interview location fifteen minutes early*** because making a punctual and polished first impression shows high dedication and reliability.\n\nI hope you find my suggestions helpful. Let me know how things go.\n\nBest wishes,",
             "translation": "Chào Jane,\n\nCảm ơn vì bức thư của cậu. Dạo này cậu thế nào? Sau khi suy nghĩ về tình huống của cậu, tớ có một vài gợi ý có thể giúp ích được.\n\nTrước hết, khi nói về nơi làm việc mới của tớ, tớ thực sự rất hài lòng với các đồng nghiệp luôn hỗ trợ và khoảng cách đi lại thuận tiện vì mọi người đều thân thiện và văn phòng chỉ cách nhà tớ một chuyến xe buýt ngắn.\n\nVề những điều cần tìm hiểu trước buổi phỏng vấn xin việc, sẽ là một ý tưởng hay nếu cậu nghiên cứu kỹ về giá trị cốt lõi, các dự án gần đây và sản phẩm chính của công ty vì người phỏng vấn luôn đánh giá cao những ứng viên thể hiện sự tò mò và chuẩn bị chu đáo.\n\nLiên quan đến cách chuẩn bị cho các câu hỏi phỏng vấn điển hình, nếu tớ là cậu, tớ sẽ luyện tập trả lời các câu hỏi tình huống phổ biến bằng cách sử dụng các ví dụ cụ thể từ kinh nghiệm trước đây của cậu vì điều này giúp câu trả lời của cậu thuyết phục và chân thực.\n\nCuối cùng nhưng không kém phần quan trọng, hãy nhớ ăn mặc lịch sự và đến địa điểm phỏng vấn trước mười lăm phút vì việc tạo ấn tượng đầu tiên đúng giờ và chỉn chu thể hiện sự tận tâm và đáng tin cậy cao.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
             "structure_analysis": [
               {
@@ -3403,7 +3403,7 @@ const LETTERS_DATA = [
                 "brings together world-class teams",
                 "lighting up the night sky with incredible displays"
               ],
-              "explanation": "Mệnh đề phân từ và từ vựng cao cấp 'illuminating the night sky', 'breathtaking choreographies'."
+              "explanation": "Mệnh đề phân từ và từ vựng cao cấp 'lighting up the night sky', 'incredible displays'."
             },
             {
               "id": 5,
@@ -3414,7 +3414,7 @@ const LETTERS_DATA = [
                 "pack light summer clothes",
                 "comfortably enjoy your beach holiday"
               ],
-              "explanation": "Sử dụng từ vựng tinh tế 'breathable linen attire', 'relish your coastal exploration'."
+              "explanation": "Sử dụng từ vựng tinh tế 'light summer clothes', 'enjoy your beach holiday'."
             }
           ],
           "sample_b1": {
@@ -3699,7 +3699,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì ánh nắng gắt trên các bãi biển có thể làm cháy nắng làn da của cậu.",
                   "expansion_1_en": "Applying a water-resistant sunscreen with SPF 50+ prevents painful sunburns during beach swimming.",
                   "expansion_1_vi": "Thoa kem chống nắng kháng nước chỉ số SPF 50+ sẽ ngăn ngừa bỏng rát da khi tắm biển cả buổi.",
-                  "expansion_2_en": "Wearing polarized sunglasses will protect your retinas from intense tropical ultraviolet radiation.",
+                  "expansion_2_en": "Wearing sunglasses will protect your retinas from intense tropical ultraviolet radiation.",
                   "expansion_2_vi": "Đeo kính mát phân cực sẽ bảo vệ đôi mắt của bạn khỏi bức xạ tia cực tím nhiệt đới gay gắt."
                 },
                 {
@@ -3911,7 +3911,7 @@ const LETTERS_DATA = [
               "en": "I recommend focusing on reducing plastic waste in the ocean because this topic is very familiar and important to young people.",
               "hints": [
                 "reducing ocean plastic waste",
-                "resonates deeply with young audiences"
+                "is very meaningful to young audiences"
               ],
               "explanation": "Sử dụng cụm từ 'important topic that is very familiar to' ghi điểm từ vựng xuất sắc."
             },
@@ -3947,7 +3947,7 @@ const LETTERS_DATA = [
                 "clear message like 'Save Our Oceans'",
                 "inspire viewers to encourage people to protect the environment"
               ],
-              "explanation": "Cấu trúc câu hoàn chỉnh và từ vựng nâng cao 'compelling call-to-action', 'sustainable habits'."
+              "explanation": "Cấu trúc câu hoàn chỉnh và từ vựng nâng cao 'clear message like \"Save Our Oceans\"', 'sustainable habits'."
             }
           ],
           "sample_b1": {
@@ -4007,7 +4007,7 @@ const LETTERS_DATA = [
                 "desc": "Pro tips on whitespace, color palette harmony, and vector graphics"
               },
               {
-                "label": "Call-to-Action Impact",
+                "label": "slogan or message Impact",
                 "desc": "Crafting memorable slogans that prompt real audience engagement"
               },
               {
@@ -4443,10 +4443,10 @@ const LETTERS_DATA = [
               "vi": "Cậu hãy lắng nghe nhu cầu của khách hàng một cách tinh tế để giới thiệu những tác phẩm phù hợp chính xác với gu thẩm mỹ của họ.",
               "en": "Listening carefully to what customers want will help you recommend books that match their personal reading interests.",
               "hints": [
-                "active listening enables you to",
+                "careful listening enables you to",
                 "thoughtful book recommendations"
               ],
-              "explanation": "Cụm danh từ cao cấp 'active listening', 'tailor-made literary recommendations'."
+              "explanation": "Cụm danh từ cao cấp 'careful listening', 'suitable book recommendations'."
             },
             {
               "id": 3,
@@ -4736,7 +4736,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì các sự kiện cộng đồng sẽ mang hàng trăm độc giả mới đến với cửa hàng.",
                   "expansion_1_en": "Invite neighbors to bring pre-loved books to trade with others over complimentary cups of herbal tea.",
                   "expansion_1_vi": "Mời bạn bè và hàng xóm mang sách cũ đến giao lưu, đổi sách cùng nhau bên những tách trà thảo mộc thơm lừng.",
-                  "expansion_2_en": "Positioning your bookstore as a cultural neighborhood gathering place builds immense long-term community goodwill.",
+                  "expansion_2_en": "Positioning your bookstore as a cultural neighborhood gathering place builds great long-term community goodwill.",
                   "expansion_2_vi": "Định vị tiệm sách như một điểm hẹn văn hóa cộng đồng sẽ tạo dựng tình cảm gắn bó vô cùng bền chặt."
                 }
               ]
@@ -4886,7 +4886,7 @@ const LETTERS_DATA = [
           "Trang trọng",
           "B1 & B2"
         ],
-        "context": "You saw an advertisement for a summer cooking course at Delight Kitchen center. You are interested in attending. Write an email to the admissions manager asking for information about: course fees and discounts, class schedule, qualifications of chef instructors, and syllabus details.",
+        "context": "You saw an advertisement for a summer cooking course at Delight Kitchen center. You are interested in attending. Write an email to the admissions manager asking for information about: course fees and discounts, class schedule, qualifications of chef instructors, and course plan details.",
         "prompt": "You saw an advertisement for a summer cooking course at Delight Kitchen center. You are interested in attending. Write an email to the admissions manager asking for information about course fees, class schedules, instructor qualifications, and whether ingredients are provided.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
@@ -4923,7 +4923,7 @@ const LETTERS_DATA = [
               {
                 "point": "Hỏi nguyên liệu",
                 "formula": "Finally, I am also wondering about...",
-                "detail": "Finally, I am also wondering about the course syllabus and whether cooking ingredients are included in the tuition fee."
+                "detail": "Finally, I am also wondering about the course course plan and whether cooking ingredients are included in the tuition fee."
               }
             ],
             "closing": "Thank you for your time. I look forward to your reply.",
@@ -5004,7 +5004,7 @@ const LETTERS_DATA = [
               "id": 5,
               "part": "5. Thân thư - Ý 4 (Cấu trúc: Finally, I am also wondering about...)",
               "vi": "Cuối cùng, tôi cũng đang băn khoăn về giáo trình khóa học và liệu nguyên liệu nấu ăn đã bao gồm trong học phí hay chưa.",
-              "en": "Finally, I am also wondering about the course syllabus and whether cooking ingredients are included in the tuition fee.",
+              "en": "Finally, I am also wondering about the course course plan and whether cooking ingredients are included in the tuition fee.",
               "hints": [
                 "Finally, I am also wondering about",
                 "whether cooking ingredients are included"
@@ -5034,13 +5034,13 @@ const LETTERS_DATA = [
                 "detailed information about the cooking course",
                 "experience of the head chefs"
               ],
-              "explanation": "Từ vựng B2: 'immensely grateful', 'culinary curriculum' (chương trình ẩm thực), 'credentials' (bằng cấp chuyên môn)."
+              "explanation": "Từ vựng B2: 'greatly grateful', 'cooking course' (chương trình ẩm thực), 'credentials' (bằng cấp chuyên môn)."
             }
           ],
           "sample_b1": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to ask for some information about the summer cooking course at Delight Kitchen center because I am planning to study there soon.\n\nFirst of all, could you tell me the exact address and class schedules of the center? I want to know if the classes take place on weekday evenings or weekends. In addition, I would like to know about the total tuition fee for the course and whether all cooking ingredients are included in the price. Furthermore, can you tell me more about the chef instructors? Are they experienced and friendly with beginner students?\n\nFinally, I was wondering if you could give me some details about the course curriculum and the dishes we will learn to cook.\n\nThank you very much for your assistance. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to ask for some information about the summer cooking course at Delight Kitchen center because I am planning to study there soon.\n\nFirst of all, could you tell me the exact address and class schedules of the center? I want to know if the classes take place on weekday evenings or weekends. In addition, I would like to know about the total tuition fee for the course and whether all cooking ingredients are included in the price. Furthermore, can you tell me more about the chef instructors? Are they experienced and friendly with beginner students?\n\nFinally, I was wondering if you could give me some details about the course course program and the dishes we will learn to cook.\n\nThank you very much for your assistance. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin thông tin về khóa học nấu ăn mùa hè tại trung tâm Delight Kitchen vì tôi đang có dự định theo học tại đây trong thời gian tới.\n\nTrước hết, xin trung tâm vui lòng cho tôi biết địa chỉ chính xác và lịch học của các lớp? Tôi muốn biết các lớp học diễn ra vào buổi tối trong tuần hay vào cuối tuần. Thêm vào đó, tôi muốn tìm hiểu về tổng học phí của khóa học và liệu toàn bộ nguyên liệu nấu ăn đã được bao gồm trong giá hay chưa. Hơn nữa, xin vui lòng cho tôi biết thêm thông tin về các đầu bếp giảng dạy? Họ có nhiều kinh nghiệm và nhiệt tình hướng dẫn người mới bắt đầu không?\n\nCuối cùng, tôi muốn biết chi tiết về giáo trình khóa học và những món ăn chúng tôi sẽ được học nấu.\n\nTôi xin chân thành cảm ơn sự hỗ trợ của trung tâm. Tôi rất mong sớm nhận được phản hồi.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to ask for some information about the summer cooking course at Delight Kitchen center because I am planning to study there soon.\n\nFirst of all, could you tell me the exact address and class schedules of the center? I want to know if the classes take place on weekday evenings or weekends. In addition, I would like to know about the total tuition fee for the course and whether all cooking ingredients are included in the price. Furthermore, can you tell me more about the chef instructors? Are they experienced and friendly with beginner students?\n\nFinally, I was wondering if you could give me some details about the course curriculum and the dishes we will learn to cook.\n\nThank you very much for your assistance. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to ask for some information about the summer cooking course at Delight Kitchen center because I am planning to study there soon.\n\nFirst of all, could you tell me the exact address and class schedules of the center? I want to know if the classes take place on weekday evenings or weekends. In addition, I would like to know about the total tuition fee for the course and whether all cooking ingredients are included in the price. Furthermore, can you tell me more about the chef instructors? Are they experienced and friendly with beginner students?\n\nFinally, I was wondering if you could give me some details about the course course program and the dishes we will learn to cook.\n\nThank you very much for your assistance. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin thông tin về khóa học nấu ăn mùa hè tại trung tâm Delight Kitchen vì tôi đang có dự định theo học tại đây trong thời gian tới.\n\nTrước hết, xin trung tâm vui lòng cho tôi biết địa chỉ chính xác và lịch học của các lớp? Tôi muốn biết các lớp học diễn ra vào buổi tối trong tuần hay vào cuối tuần. Thêm vào đó, tôi muốn tìm hiểu về tổng học phí của khóa học và liệu toàn bộ nguyên liệu nấu ăn đã được bao gồm trong giá hay chưa. Hơn nữa, xin vui lòng cho tôi biết thêm thông tin về các đầu bếp giảng dạy? Họ có nhiều kinh nghiệm và nhiệt tình hướng dẫn người mới bắt đầu không?\n\nCuối cùng, tôi muốn biết chi tiết về giáo trình khóa học và những món ăn chúng tôi sẽ được học nấu.\n\nTôi xin chân thành cảm ơn sự hỗ trợ của trung tâm. Tôi rất mong sớm nhận được phản hồi.\n\nTrân trọng,",
             "word_count": 140,
             "key_structures": [
@@ -5065,7 +5065,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the cooking course. Could you share what specific Vietnamese and Western dishes students will learn to make?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin một số thông tin về khóa học nấu ăn mùa hè tại Delight Kitchen, vì tôi rất quan tâm đến việc nâng cao kỹ năng nấu nướng của mình và muốn tìm hiểu thêm trước khi đưa ra quyết định.\n\nTrước hết, xin quý trung tâm vui lòng cung cấp thêm thông tin về thời khóa biểu khóa học và địa điểm học? Tôi cần kiểm tra xem giờ học có phù hợp với lịch làm việc toàn thời gian của mình hay không.\n\nThêm vào đó, xin quý trung tâm cho tôi biết thêm chi tiết về tổng học phí và liệu các dụng cụ làm bếp cùng nguyên liệu cần thiết đã được bao gồm hoàn toàn hay chưa?\n\nHơn nữa, tôi muốn tìm hiểu thêm về các giảng viên ẩm thực. Tôi muốn đảm bảo rằng họ có chuyên môn sâu rộng trong ngành và có phương pháp giảng dạy tận tình cho học viên mới bắt đầu.\n\nCuối cùng, tôi cũng đang băn khoăn về chương trình đào tạo. Xin vui lòng chia sẻ những món ăn Việt Nam và phương Tây cụ thể mà giáo trình thực hành chú trọng?\n\nCảm ơn vì thời gian của quý trung tâm. Tôi rất mong sớm nhận được hồi âm từ quý cơ quan.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the cooking course. Could you share what specific Vietnamese and Western dishes students will learn to make?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin một số thông tin về khóa học nấu ăn mùa hè tại Delight Kitchen, vì tôi rất quan tâm đến việc nâng cao kỹ năng nấu nướng của mình và muốn tìm hiểu thêm trước khi đưa ra quyết định.\n\nTrước hết, xin quý trung tâm vui lòng cung cấp thêm thông tin về thời khóa biểu khóa học và địa điểm học? Tôi cần kiểm tra xem giờ học có phù hợp với lịch làm việc toàn thời gian của mình hay không.\n\nThêm vào đó, xin quý trung tâm cho tôi biết thêm chi tiết về tổng học phí và liệu các dụng cụ làm bếp cùng nguyên liệu cần thiết đã được bao gồm hoàn toàn hay chưa?\n\nHơn nữa, tôi muốn tìm hiểu thêm về các giảng viên ẩm thực. Tôi muốn đảm bảo rằng họ có chuyên môn sâu rộng trong ngành và có phương pháp giảng dạy tận tình cho học viên mới bắt đầu.\n\nCuối cùng, tôi cũng đang băn khoăn về chương trình đào tạo. Xin vui lòng chia sẻ những món ăn Việt Nam và phương Tây cụ thể mà giáo trình thực hành chú trọng?\n\nCảm ơn vì thời gian của quý trung tâm. Tôi rất mong sớm nhận được hồi âm từ quý cơ quan.\n\nTrân trọng,",
             "word_count": 156,
             "key_structures": [
@@ -5270,16 +5270,16 @@ const LETTERS_DATA = [
               "title_en": "4. The training program",
               "title_vi": "Chương trình đào tạo & Lịch học",
               "icon": "fa-graduation-cap",
-              "note": "Câu chính: Could you send me the detailed syllabus and class schedule? ➔ Chọn 1 câu mở rộng lý do bên dưới:",
+              "note": "Câu chính: Could you send me the detailed course plan and class schedule? ➔ Chọn 1 câu mở rộng lý do bên dưới:",
               "options": [
                 {
-                  "action_en": "Could you send me the detailed syllabus and curriculum of this course?",
+                  "action_en": "Could you send me the detailed course plan and course program of this course?",
                   "action_vi": "Bạn có thể gửi cho tôi đề cương chi tiết và chương trình học của khóa này được không?",
                   "reason_en": "This is because I want to choose a program that meets my learning needs and helps me make steady progress.",
                   "reason_vi": "Điều này là vì tôi muốn chọn một chương trình đáp ứng nhu cầu học tập và giúp tôi tiến bộ đều đặn.",
                   "expansion_1_en": "Could you send a list of signature dishes covered, such as appetizers, main courses, and desserts?",
                   "expansion_1_vi": "Trung tâm có thể gửi danh sách các món ăn tiêu biểu trong khóa học, như món khai vị, món chính và món tráng miệng không?",
-                  "expansion_2_en": "Having a clear curriculum roadmap helps me verify that the recipes align with my cooking ambitions.",
+                  "expansion_2_en": "Having a clear course program roadmap helps me verify that the recipes align with my cooking ambitions.",
                   "expansion_2_vi": "Có lộ trình bài học rõ ràng giúp tôi xác nhận các công thức món ăn hoàn toàn phù hợp với nguyện vọng nấu nướng của mình."
                 },
                 {
@@ -5313,7 +5313,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Những kỹ năng ẩm thực chỉn chu này sẽ cho phép tôi tự tin tổ chức những bữa tiệc tối đáng nhớ cho gia đình."
                 },
                 {
-                  "action_en": "I want to make sure the course syllabus matches my current proficiency level.",
+                  "action_en": "I want to make sure the course course plan matches my current proficiency level.",
                   "action_vi": "Tôi muốn đảm bảo rằng giáo trình khóa học phù hợp với trình độ hiện tại của mình.",
                   "reason_en": "This would help me follow the lessons more easily and make steady progress throughout the semester.",
                   "reason_vi": "Điều này sẽ giúp tôi theo kịp bài giảng dễ dàng hơn và đạt được sự tiến bộ đều đặn trong suốt khóa học.",
@@ -5702,7 +5702,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Những góp ý tận tình của thầy cô giúp những học viên còn e dè tự tin nói to trọn vẹn cả câu."
                 },
                 {
-                  "action_en": "ask if the curriculum places heavy emphasis on real-world conversational speaking",
+                  "action_en": "ask if the course program places heavy emphasis on real-world conversational speaking",
                   "action_vi": "hỏi xem giáo trình có chú trọng nhiều vào phản xạ giao tiếp thực tế không",
                   "reason_en": "because my primary goal is to converse fluently in daily social situations.",
                   "reason_vi": "vì mục tiêu chính của tớ là có thể giao tiếp trôi chảy trong đời sống hàng ngày.",
@@ -5738,7 +5738,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì tớ rất cần có người hướng dẫn khi tự giải bài tập ở nhà.",
                   "expansion_1_en": "Does the school organize occasional speaking clubs with native Chinese exchange undergraduates?",
                   "expansion_1_vi": "Trung tâm có thi thoảng tổ chức các câu lạc bộ giao tiếp với sinh viên trao đổi người Trung Quốc không?",
-                  "expansion_2_en": "Practicing with native peers provides invaluable real-world conversational exposure.",
+                  "expansion_2_en": "Practicing with native peers provides great real-world speaking practice.",
                   "expansion_2_vi": "Thực hành với người bản xứ đem lại cơ hội tiếp xúc giao tiếp thực tế vô cùng quý báu."
                 }
               ]
@@ -5802,7 +5802,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "ask how rapidly the course progresses through vocabulary and grammar points",
                   "action_vi": "hỏi tốc độ giảng dạy từ vựng và ngữ pháp của khóa học tiến triển nhanh hay chậm",
-                  "reason_en": "because a steady, well-paced curriculum ensures thorough understanding without feeling rushed.",
+                  "reason_en": "because a steady, well-paced course program ensures thorough understanding without feeling rushed.",
                   "reason_vi": "vì một tiến độ vừa phải sẽ giúp học viên hiểu bài thấu đáo mà không bị ngợp kiến thức.",
                   "expansion_1_en": "When does the next beginner class officially start so I can prepare my registration?",
                   "expansion_1_vi": "Khóa mới cho người bắt đầu khi nào chính thức khai giảng để mình chuẩn bị đăng ký kịp thời?",
@@ -5994,7 +5994,7 @@ const LETTERS_DATA = [
                   "action_vi": "Bạn có thể làm rõ giáo viên là các đầu bếp chuyên nghiệp hay giảng viên nấu ăn giàu kinh nghiệm không?",
                   "reason_en": "The main reason is that I want to learn authentic cooking techniques and improve my cooking skills through professional guidance.",
                   "reason_vi": "Lý do chính là tôi muốn học các kỹ thuật nấu ăn chuẩn mực và nâng cao tay nghề thông qua sự hướng dẫn chuyên nghiệp.",
-                  "expansion_1_en": "Native speakers provide genuine cultural nuances and authentic colloquial expressions.",
+                  "expansion_1_en": "Native speakers provide genuine cultural nuances and authentic everyday phrases.",
                   "expansion_1_vi": "Giáo viên bản ngữ cung cấp những sắc thái văn hóa chân thực và các thành ngữ giao tiếp đời thường.",
                   "expansion_2_en": "Bilingual Vietnamese lecturers can also explain complex grammatical contrasts clearly.",
                   "expansion_2_vi": "Các giảng viên Việt Nam song ngữ cũng có thể giải thích các điểm ngữ pháp đối chiếu rất rõ ràng."
@@ -6026,16 +6026,16 @@ const LETTERS_DATA = [
               "title_en": "4. The training program",
               "title_vi": "Chương trình đào tạo & Lịch học",
               "icon": "fa-graduation-cap",
-              "note": "Câu chính: Could you send me the detailed syllabus and class schedule? ➔ Chọn 1 câu mở rộng lý do bên dưới:",
+              "note": "Câu chính: Could you send me the detailed course plan and class schedule? ➔ Chọn 1 câu mở rộng lý do bên dưới:",
               "options": [
                 {
-                  "action_en": "Could you send me the detailed syllabus and curriculum of this course?",
+                  "action_en": "Could you send me the detailed course plan and course program of this course?",
                   "action_vi": "Bạn có thể gửi cho tôi đề cương chi tiết và chương trình học của khóa này được không?",
                   "reason_en": "This is because I want to choose a program that meets my learning needs and helps me make steady progress.",
                   "reason_vi": "Điều này là vì tôi muốn chọn một chương trình đáp ứng nhu cầu học tập và giúp tôi tiến bộ đều đặn.",
                   "expansion_1_en": "I would like to review the course units to see if business and social English modules are included.",
                   "expansion_1_vi": "Tôi muốn xem qua các chủ điểm bài học để biết liệu có các phần tiếng Anh giao tiếp xã hội và công việc không.",
-                  "expansion_2_en": "A comprehensive syllabus ensures that I can master both academic writing and spoken eloquence.",
+                  "expansion_2_en": "A comprehensive course plan ensures that I can master both academic writing and spoken eloquence.",
                   "expansion_2_vi": "Một khung giáo trình toàn diện đảm bảo tôi có thể làm chủ cả kỹ năng viết học thuật lẫn nói lưu loát."
                 },
                 {
@@ -6043,7 +6043,7 @@ const LETTERS_DATA = [
                   "action_vi": "Tôi muốn biết bao nhiêu thời lượng được dành cho các hoạt động thực hành nói và nghe.",
                   "reason_en": "In fact, I would prefer a course that provides regular opportunities to practice cooking real dishes in the kitchen.",
                   "reason_vi": "Thực tế, tôi thích một khóa học tạo cơ hội thường xuyên để luyện nói và nghe trong các tình huống thực tế.",
-                  "expansion_1_en": "Regular interactive pair work and class presentations simulate real-life professional discussions.",
+                  "expansion_1_en": "Regular interactive pair work and class presentations practice real-life professional discussions.",
                   "expansion_1_vi": "Các bài làm việc cặp tương tác thường xuyên và thuyết trình trước lớp mô phỏng các cuộc thảo luận công việc thực tế.",
                   "expansion_2_en": "These practical drills will eliminate the fear of speaking English in public meetings.",
                   "expansion_2_vi": "Những bài luyện thực tế này sẽ xóa tan nỗi sợ hãi khi phải phát biểu bằng tiếng Anh trước đám đông."
@@ -6069,7 +6069,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Đạt được các mục tiêu bài học cụ thể sẽ giúp tôi chuẩn bị hiệu quả cho kỳ thi lấy chứng chỉ B2."
                 },
                 {
-                  "action_en": "I want to make sure the course syllabus matches my current proficiency level.",
+                  "action_en": "I want to make sure the course course plan matches my current proficiency level.",
                   "action_vi": "Tôi muốn đảm bảo rằng giáo trình khóa học phù hợp với trình độ hiện tại của mình.",
                   "reason_en": "This would help me follow the lessons more easily and make steady progress throughout the semester.",
                   "reason_vi": "Điều này sẽ giúp tôi theo kịp bài giảng dễ dàng hơn và đạt được sự tiến bộ đều đặn trong suốt khóa học.",
@@ -6337,7 +6337,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Lastly, could you tell me more about the training program? Does the syllabus balance listening, speaking, reading, and writing evenly?"
+                "Lastly, could you tell me more about the training program? Does the course plan balance listening, speaking, reading, and writing evenly?"
               ],
               "criteria_tip": "Hoàn thành đủ 4 câu hỏi của đề bài giúp đạt điểm tối đa Task Fulfillment."
             },
@@ -6381,7 +6381,7 @@ const LETTERS_DATA = [
               "en": "Regarding the tuition fee, I would like to ask whether it covers all coursebooks and materials, and whether the course includes regular practice tests.",
               "vocab_hints": [
                 {
-                  "en": "all-inclusive tuition fee",
+                  "en": "total tuition fee",
                   "vi": "học phí trọn gói"
                 },
                 {
@@ -6432,7 +6432,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Moonie,\n\nHow have you been lately? I’m writing to ask a few questions about the English course at Rainbow Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address of the center? I need to figure out whether it is within a reasonable commuting distance from my apartment.\n\nBesides that, I want to know more about the tuition fee. It is essential for me to prepare a sufficient budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and are supportive enough to help me progress.\n\nFinally, I’m also wondering about the training program. Could you share what specific skills and topics the course focuses on?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
             "letter_vi": "Chào Moonie,\n\nDạo này cậu thế nào? Tớ viết thư này để hỏi vài thông tin về khóa học tiếng Anh tại Trung tâm Ngoại ngữ Rainbow, vì tớ đang dự định đăng ký học vào tháng tới để nâng cao kỹ năng ngôn ngữ của mình.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa chỉ của trung tâm không? Tớ cần kiểm tra xem khoảng cách đi lại từ căn hộ của tớ có thuận tiện không.\n\nBên cạnh đó, tớ muốn biết thêm về học phí. Việc chuẩn bị ngân sách đầy đủ trước khi chính thức đăng ký là rất cần thiết đối với tớ.\n\nThêm vào đó, cậu có thể cung cấp thêm thông tin về các giáo viên không? Tớ muốn đảm bảo rằng họ có kỹ năng giảng dạy vững vàng và luôn nhiệt tình hỗ trợ để giúp tớ tiến bộ.\n\nCuối cùng, tớ cũng đang băn khoăn về chương trình đào tạo. Cậu có thể chia sẻ những kỹ năng hoặc mảng kiến thức cụ thể nào mà giáo trình chú trọng không?\n\nTớ rất trân trọng sự giúp đỡ của cậu về việc này. Hãy hồi âm cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
-            "text": "Dear Moonie,\n\nHow have you been lately? I’m writing to ask a few questions about the English course at Rainbow Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address of the center? I need to figure out whether it is within a reasonable commuting distance from my apartment.\n\nBesides that, I want to know more about the tuition fee. It is essential for me to prepare a sufficient budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and are supportive enough to help me progress.\n\nFinally, I’m also wondering about the training program. Could you share what specific skills or knowledge areas the curriculum focuses on?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
+            "text": "Dear Moonie,\n\nHow have you been lately? I’m writing to ask a few questions about the English course at Rainbow Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address of the center? I need to figure out whether it is within a reasonable commuting distance from my apartment.\n\nBesides that, I want to know more about the tuition fee. It is essential for me to prepare a sufficient budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and are supportive enough to help me progress.\n\nFinally, I’m also wondering about the training program. Could you share what specific skills and topics the course focuses on?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
             "translation": "Chào Moonie,\n\nDạo này cậu thế nào? Tớ viết thư này để hỏi vài thông tin về khóa học tiếng Anh tại Trung tâm Ngoại ngữ Rainbow, vì tớ đang dự định đăng ký học vào tháng tới để nâng cao kỹ năng ngôn ngữ của mình.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa chỉ của trung tâm không? Tớ cần kiểm tra xem khoảng cách đi lại từ căn hộ của tớ có thuận tiện không.\n\nBên cạnh đó, tớ muốn biết thêm về học phí. Việc chuẩn bị ngân sách đầy đủ trước khi chính thức đăng ký là rất cần thiết đối với tớ.\n\nThêm vào đó, cậu có thể cung cấp thêm thông tin về các giáo viên không? Tớ muốn đảm bảo rằng họ có kỹ năng giảng dạy vững vàng và luôn nhiệt tình hỗ trợ để giúp tớ tiến bộ.\n\nCuối cùng, tớ cũng đang băn khoăn về chương trình đào tạo. Cậu có thể chia sẻ những kỹ năng hoặc mảng kiến thức cụ thể nào mà giáo trình chú trọng không?\n\nTớ rất trân trọng sự giúp đỡ của cậu về việc này. Hãy hồi âm cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
             "word_count": 155,
             "key_structures": [
@@ -6564,7 +6564,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "ask how many weeks or months the course lasts",
                   "action_vi": "hỏi khóa học kéo dài bao nhiêu tuần hoặc bao nhiêu tháng",
-                  "reason_en": "because I want to know when I can finish the syllabus.",
+                  "reason_en": "because I want to know when I can finish the course plan.",
                   "reason_vi": "vì tớ muốn biết khi nào thì hoàn thành xong chương trình.",
                   "expansion_1_en": "How many weeks does the beginner course run from opening day to the final test?",
                   "expansion_1_vi": "Khóa học cho người mới bắt đầu kéo dài bao nhiêu tuần từ ngày khai giảng đến bài thi cuối khóa?",
@@ -7083,7 +7083,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Linda,\n\nHow have you been lately? I’m writing to ask a few questions about the Chinese course at Happy Chinese Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address and commuting accessibility of the center? I need to figure out whether it is within a reasonable distance from my university.\n\nBesides that, I want to know more about the tuition fee and available discounts. It is essential for me to prepare an adequate budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and provide supportive pronunciation coaching for beginners.\n\nFinally, I’m also wondering about the training program. Could you share what specific speaking topics and practical activities the course covers?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
             "letter_vi": "Chào Linda,\n\nDạo này cậu thế nào? Tớ viết thư này để hỏi vài thông tin về khóa học tiếng Trung tại Trung tâm Ngoại ngữ Happy Chinese, vì tớ đang dự định đăng ký học vào tháng tới để nâng cao kỹ năng ngôn ngữ của mình.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa chỉ và cách đi lại đến trung tâm không? Tớ cần xem xét liệu trung tâm có nằm trong khoảng cách hợp lý từ trường đại học của tớ không.\n\nBên cạnh đó, tớ muốn biết thêm về học phí và các ưu đãi hiện có. Việc chuẩn bị ngân sách phù hợp trước khi đăng ký chính thức là rất quan trọng đối với tớ.\n\nThêm vào đó, cậu có thể cung cấp thêm thông tin về các giáo viên không? Tớ muốn đảm bảo rằng họ có kỹ năng sư phạm tốt và hướng dẫn phát âm tận tình cho người mới bắt đầu.\n\nCuối cùng, tớ cũng đang băn khoăn về chương trình đào tạo. Cậu có thể chia sẻ những chủ đề giao tiếp và hoạt động văn hóa cụ thể nào mà giáo trình bao gồm không?\n\nTớ rất trân trọng sự giúp đỡ của cậu về việc này. Hãy hồi âm cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
-            "text": "Dear Linda,\n\nHow have you been lately? I’m writing to ask a few questions about the Chinese course at Happy Chinese Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address and commuting accessibility of the center? I need to figure out whether it is within a reasonable distance from my university.\n\nBesides that, I want to know more about the tuition fee and available discounts. It is essential for me to prepare an adequate budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and provide supportive pronunciation coaching for beginners.\n\nFinally, I’m also wondering about the training program. Could you share what specific conversational topics and cultural activities the curriculum covers?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
+            "text": "Dear Linda,\n\nHow have you been lately? I’m writing to ask a few questions about the Chinese course at Happy Chinese Language Center, as I’m planning to enroll there next month to improve my language skills.\n\nFirst of all, can you let me know more about the address and commuting accessibility of the center? I need to figure out whether it is within a reasonable distance from my university.\n\nBesides that, I want to know more about the tuition fee and available discounts. It is essential for me to prepare an adequate budget before officially signing up.\n\nOn top of that, can you give me more information about the teachers? I want to ensure that they possess strong teaching skills and provide supportive pronunciation coaching for beginners.\n\nFinally, I’m also wondering about the training program. Could you share what specific speaking topics and practical activities the course covers?\n\nI’d really appreciate your help with this. Write back soon.\n\nBest wishes,",
             "translation": "Chào Linda,\n\nDạo này cậu thế nào? Tớ viết thư này để hỏi vài thông tin về khóa học tiếng Trung tại Trung tâm Ngoại ngữ Happy Chinese, vì tớ đang dự định đăng ký học vào tháng tới để nâng cao kỹ năng ngôn ngữ của mình.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa chỉ và cách đi lại đến trung tâm không? Tớ cần xem xét liệu trung tâm có nằm trong khoảng cách hợp lý từ trường đại học của tớ không.\n\nBên cạnh đó, tớ muốn biết thêm về học phí và các ưu đãi hiện có. Việc chuẩn bị ngân sách phù hợp trước khi đăng ký chính thức là rất quan trọng đối với tớ.\n\nThêm vào đó, cậu có thể cung cấp thêm thông tin về các giáo viên không? Tớ muốn đảm bảo rằng họ có kỹ năng sư phạm tốt và hướng dẫn phát âm tận tình cho người mới bắt đầu.\n\nCuối cùng, tớ cũng đang băn khoăn về chương trình đào tạo. Cậu có thể chia sẻ những chủ đề giao tiếp và hoạt động văn hóa cụ thể nào mà giáo trình bao gồm không?\n\nTớ rất trân trọng sự giúp đỡ của cậu về việc này. Hãy hồi âm cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
             "word_count": 160,
             "key_structures": [
@@ -7327,7 +7327,7 @@ const LETTERS_DATA = [
                   "reason_vi": "Vì vậy, cô ấy hiếm khi gặp vấn đề khi sống hoặc làm việc với người khác.",
                   "expansion_1_en": "She is willing to listen to different opinions and solve disagreements in a calm and respectful way.",
                   "expansion_1_vi": "Cô ấy sẵn sàng lắng nghe những ý kiến khác nhau và giải quyết bất đồng một cách bình tĩnh, tôn trọng.",
-                  "expansion_2_en": "Her gentle temperament makes shared daily living peaceful and completely conflict-free.",
+                  "expansion_2_en": "Her polite attitude makes shared daily living peaceful and completely conflict-free.",
                   "expansion_2_vi": "Tính cách hòa nhã của cô ấy giúp việc chung sống hằng ngày luôn êm ả và không hề có xích mích."
                 },
                 {
@@ -7710,7 +7710,7 @@ const LETTERS_DATA = [
               "en": "Knowing Hoa well, I can assure you that she is very polite, responsible, and tidy. I am confident that she will get along well with your family and will not cause any trouble.",
               "vocab_hints": [
                 {
-                  "en": "innate maturity",
+                  "en": "natural maturity",
                   "vi": "sự chín chắn tự nhiên"
                 },
                 {
@@ -7730,7 +7730,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Cụm từ 'integrate seamlessly' và 'household boundaries' đạt chuẩn từ vựng C1."
+              "criteria_tip": "Cụm từ 'integrate seamlessly' và 'house rules' đạt chuẩn từ vựng C1."
             }
           ],
           "sample_b1": {
@@ -7974,11 +7974,11 @@ const LETTERS_DATA = [
               "vi": "Cung đường đua địa hình quanh co với những khúc cua dốc đứng và bề mặt bùn lầy đòi hỏi sức bền thể lực phi thường cũng như phản xạ lái xe nhạy bén.",
               "en": "The challenging trail with steep hills and slippery mud tested both our physical stamina and cycling skills.",
               "hints": [
-                "tortuous cross-country route",
-                "sheer descents",
+                "challenging bike trail",
+                "steep slopes",
                 "cardiovascular endurance"
               ],
-              "explanation": "Cấu trúc miêu tả sinh động với các tính từ hình ảnh: 'tortuous' (quanh co), 'sheer descents' (dốc đứng)."
+              "explanation": "Cấu trúc miêu tả sinh động với các tính từ hình ảnh: 'winding' (quanh co), 'steep slopes' (dốc đứng)."
             }
           ],
           "sample_b1": {
@@ -8009,7 +8009,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear John,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the mountain biking competition that I participated in, so I’d like to share some exciting details with you.\n\nTo begin with, the event was held in Ba Vi National Park last weekend, drawing over two hundred seasoned riders across the region. The energetic atmosphere and friendly spirit among riders made the experience unforgettable.\n\nSecondly, the rugged trail featured steep uphill climbs, rocky descents, and winding pathways through dense pine woods. Riding along this difficult route required a lot of physical stamina and focus, but finishing in the top ten was truly exciting.\n\nNext, our cycling association is coordinating an adventurous weekend tour across the picturesque valleys surrounding Tam Dao.\n\nFinally, I would be delighted if you could join our team on this expedition, as your cycling expertise and love for outdoor adventure would make the journey even more memorable.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "letter_vi": "John thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu có hỏi tớ về giải đua xe đạp leo núi mà tớ vừa tham gia, vì vậy tớ muốn chia sẻ một vài chi tiết thú vị với cậu.\n\nTrước hết, sự kiện được tổ chức tại Vườn quốc gia Ba Vì vào cuối tuần trước, thu hút hơn hai trăm tay đua kỳ cựu trên khắp khu vực. Bầu không khí tràn đầy năng lượng và tinh thần thể thao đã biến trải nghiệm này thành một kỷ niệm khó quên.\n\nThứ hai, đường đua gồ ghề với những đoạn leo dốc dựng đứng, những con dốc đá trơn trượt và những lối mòn quanh co qua rừng thông rậm rạp. Chinh phục những chướng ngại vật đầy thách thức này đòi hỏi thể lực bền bỉ và phản xạ nhanh nhạy, nhưng việc cán đích trong top mười là một cảm xúc thực sự phấn khích.\n\nTiếp theo, hội đạp xe của chúng tớ đang lên kế hoạch cho một tour dã ngoại cuối tuần qua những thung lũng thơ mộng quanh Tam Đảo.\n\nCuối cùng, tớ sẽ rất vui nếu cậu có thể đồng hành cùng nhóm tớ trong chuyến đi này, bởi vì kinh nghiệm đạp xe và tình yêu thiên nhiên của cậu sẽ khiến chuyến đi thêm phần đáng nhớ.\n\nTớ hy vọng cậu thấy những thông tin này bổ ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết. Hồi âm sớm nhé.\n\nChúc những điều tốt đẹp nhất,",
-            "text": "Dear John,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the mountain biking competition that I participated in, so I’d like to share some exciting details with you.\n\nTo begin with, the event was held in Ba Vi National Park last weekend, drawing over two hundred seasoned riders across the region. The energetic atmosphere and competitive camaraderie made the experience unforgettable.\n\nSecondly, the rugged trail featured steep uphill climbs, rocky descents, and winding pathways through dense pine woods. Conquering these challenging obstacles demanded immense physical endurance and quick reflexes, but crossing the finish line in the top ten was thoroughly exhilarating.\n\nNext, our cycling association is coordinating an adventurous weekend tour across the picturesque valleys surrounding Tam Dao.\n\nFinally, I would be delighted if you could join our team on this expedition, as your cycling expertise and love for outdoor adventure would make the journey even more memorable.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "text": "Dear John,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the mountain biking competition that I participated in, so I’d like to share some exciting details with you.\n\nTo begin with, the event was held in Ba Vi National Park last weekend, drawing over two hundred seasoned riders across the region. The energetic atmosphere and friendly spirit among riders made the experience unforgettable.\n\nSecondly, the rugged trail featured steep uphill climbs, rocky descents, and winding pathways through dense pine woods. Riding along this difficult route required a lot of physical stamina and focus, but finishing in the top ten was truly exciting.\n\nNext, our cycling association is coordinating an adventurous weekend tour across the picturesque valleys surrounding Tam Dao.\n\nFinally, I would be delighted if you could join our team on this expedition, as your cycling expertise and love for outdoor adventure would make the journey even more memorable.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "translation": "John thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu có hỏi tớ về giải đua xe đạp leo núi mà tớ vừa tham gia, vì vậy tớ muốn chia sẻ một vài chi tiết thú vị với cậu.\n\nTrước hết, sự kiện được tổ chức tại Vườn quốc gia Ba Vì vào cuối tuần trước, thu hút hơn hai trăm tay đua kỳ cựu trên khắp khu vực. Bầu không khí tràn đầy năng lượng và tinh thần thể thao đã biến trải nghiệm này thành một kỷ niệm khó quên.\n\nThứ hai, đường đua gồ ghề với những đoạn leo dốc dựng đứng, những con dốc đá trơn trượt và những lối mòn quanh co qua rừng thông rậm rạp. Chinh phục những chướng ngại vật đầy thách thức này đòi hỏi thể lực bền bỉ và phản xạ nhanh nhạy, nhưng việc cán đích trong top mười là một cảm xúc thực sự phấn khích.\n\nTiếp theo, hội đạp xe của chúng tớ đang lên kế hoạch cho một tour dã ngoại cuối tuần qua những thung lũng thơ mộng quanh Tam Đảo.\n\nCuối cùng, tớ sẽ rất vui nếu cậu có thể đồng hành cùng nhóm tớ trong chuyến đi này, bởi vì kinh nghiệm đạp xe và tình yêu thiên nhiên của cậu sẽ khiến chuyến đi thêm phần đáng nhớ.\n\nTớ hy vọng cậu thấy những thông tin này bổ ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết. Hồi âm sớm nhé.\n\nChúc những điều tốt đẹp nhất,",
             "word_count": 178,
             "key_structures": [
@@ -8065,7 +8065,7 @@ const LETTERS_DATA = [
                   "reason_vi": "tiếp thêm cho tất cả các tay đua nguồn năng lượng và động lực thi đấu tuyệt vời.",
                   "expansion_1_en": "Spectators beat drums, blew whistles, and waved colorful school banners to encourage the competitors.",
                   "expansion_1_vi": "Khán giả đánh trống, thổi còi và vẫy cờ hoa rực rỡ để tiếp thêm động lực cho các vận động viên.",
-                  "expansion_2_en": "Their thunderous cheers echoed across the valley, filling every cyclist with an immense surge of adrenaline.",
+                  "expansion_2_en": "Their thunderous cheers echoed across the valley, filling every cyclist with an great surge of adrenaline.",
                   "expansion_2_vi": "Tiếng reo hò vang dội khắp thung lũng, truyền thêm nguồn năng lượng phấn khích tột độ cho từng tay đua."
                 },
                 {
@@ -8123,7 +8123,7 @@ const LETTERS_DATA = [
                   "reason_vi": "thử thách kỹ năng kiểm soát xe và độ bám của lốp đến giới hạn tối đa.",
                   "expansion_1_en": "Skidding carefully around slick mud banks required feathering the hydraulic disc brakes with extreme precision.",
                   "expansion_1_vi": "Rà bánh khéo léo qua các vũng bùn trơn đòi hỏi phải nhấp phanh đĩa dầu một cách cực kỳ chuẩn xác.",
-                  "expansion_2_en": "Splashing through shallow mountain creeks brought an exhilarating rush of pure adventure.",
+                  "expansion_2_en": "Splashing through shallow mountain creeks brought an exciting rush of pure adventure.",
                   "expansion_2_vi": "Băng qua những con suối cạn mát lạnh mang lại cảm giác phiêu lưu mạo hiểm vô cùng phấn khích."
                 },
                 {
@@ -8199,7 +8199,7 @@ const LETTERS_DATA = [
                   "action_vi": "chúng tớ đã thiết kế một cung đường vừa sức, cảnh đẹp phù hợp để vừa đạp xe vừa chụp ảnh",
                   "reason_en": "so that participants can enjoy the beautiful scenery without feeling too tired.",
                   "reason_vi": "để mọi người có thể thảnh thơi thưởng ngoạn phong cảnh mà không bị quá tải về thể lực.",
-                  "expansion_1_en": "The trail has gentle rolling slopes rather than sheer vertical drops, so it is friendly for relaxed riding.",
+                  "expansion_1_en": "The trail has gentle rolling slopes rather than steep vertical drops, so it is friendly for relaxed riding.",
                   "expansion_1_vi": "Đường đi thoai thoải uốn lượn chứ không có dốc đứng nguy hiểm, rất thích hợp để vừa đạp xe vừa thảnh thơi ngắm cảnh.",
                   "expansion_2_en": "We plan to make frequent stops at scenic viewpoints to take photos and sample wild forest berries.",
                   "expansion_2_vi": "Nhóm dự kiến dừng lại ở nhiều điểm ngắm cảnh đẹp để chụp ảnh và nếm thử các loại dâu rừng."
@@ -8693,7 +8693,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Được ngắm hoàng hôn đỏ rực nhuộm thắm bầu trời chiều từ góc ban công này là một niềm vui mỗi ngày."
                 },
                 {
-                  "action_en": "fairy lights wrap around the balcony railing, illuminating the space beautifully at night",
+                  "action_en": "fairy lights wrap around the balcony railing, lighting up the space beautifully at night",
                   "action_vi": "dây đèn đom đóm quấn quanh lan can ban công, thắp sáng lung linh khi màn đêm buông xuống",
                   "reason_en": "because it creates a cozy corner to read books in the evening.",
                   "reason_vi": "biến nơi đây thành góc đọc sách ấm cúng, lãng mạn dưới làn gió mát ban đêm.",
@@ -9090,7 +9090,7 @@ const LETTERS_DATA = [
                   "action_vi": "trung tâm mở câu lạc bộ tiếng Anh cuối tuần miễn phí với khách mời nước ngoài",
                   "reason_en": "because you can make new friends and practice speaking naturally.",
                   "reason_vi": "tạo cơ hội thực tế để kết bạn và nâng cao phản xạ giao tiếp.",
-                  "expansion_1_en": "The curriculum is benchmarked to CEFR B2 criteria, with ninety percent of graduates achieving their target.",
+                  "expansion_1_en": "The course program is benchmarked to CEFR B2 criteria, with ninety percent of graduates achieving their target.",
                   "expansion_1_vi": "Chương trình được thiết kế chuẩn theo khung tham chiếu CEFR B2, với 90% học viên đạt mục tiêu cam kết.",
                   "expansion_2_en": "Holding this certificate will fulfill your university graduation exit requirement and open career doors.",
                   "expansion_2_vi": "Sở hữu tấm bằng này sẽ đáp ứng chuẩn đầu ra đại học và mở toang nhiều cơ hội việc làm hấp dẫn."
@@ -9365,7 +9365,7 @@ const LETTERS_DATA = [
               "en": "Overall, I believe the center's practical course, which combines speaking practice with regular mock tests, will help you improve your English quickly.",
               "vocab_hints": [
                 {
-                  "en": "well-rounded curriculum",
+                  "en": "well-rounded course program",
                   "vi": "chương trình giảng dạy toàn diện"
                 },
                 {
@@ -9385,7 +9385,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Từ vựng 'harmoniously integrates' và 'language proficiency' đạt chuẩn B2/C1."
+              "criteria_tip": "Từ vựng 'smoothly integrates' và 'language proficiency' đạt chuẩn B2/C1."
             }
           ],
           "sample_b1": {
@@ -9416,7 +9416,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Nam,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the English course at Rainbow Language Center, so I’d like to share some detailed information with you.\n\nTo begin with, the center is situated right on Tran Hung Dao Avenue in the downtown district. Its central location offers convenient access via multiple bus routes and ample parking for commuters.\n\nSecondly, the overall tuition fee is highly competitive considering the modern multimedia classrooms and inclusive study materials.\n\nNext, the teaching faculty comprises highly qualified native lecturers alongside experienced bilingual teaching assistants who deliver personalized feedback on pronunciation.\n\nFinally, the course focuses on practical speaking activities, group presentations, and discussions, helping students improve their English confidence and writing skills quickly.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "letter_vi": "Nam thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều thuận lợi. Trong thư của cậu, cậu có hỏi tớ về khóa học tiếng Anh tại trung tâm Rainbow, vì vậy tớ muốn chia sẻ một vài thông tin chi tiết với cậu.\n\nTrước hết, trung tâm nằm ngay trên đường Trần Hưng Đạo thuộc khu vực trung tâm thành phố. Vị trí trung tâm này mang lại sự thuận tiện đi lại tuyệt vời qua nhiều tuyến xe buýt và có bãi đỗ xe rộng rãi.\n\nThứ hai, mức học phí trọn gói rất cạnh tranh khi xét đến hệ thống phòng học đa phương tiện hiện đại cùng giáo trình học được cung cấp miễn phí.\n\nTiếp theo, đội ngũ giảng dạy bao gồm các giáo viên bản xứ có trình độ chuyên môn cao cùng các trợ giảng song ngữ nhiệt huyết luôn sửa phát âm chi tiết cho từng học viên.\n\nCuối cùng, giáo trình đào tạo chuyên sâu chú trọng vào kỹ năng thuyết trình, làm việc nhóm và các buổi tranh biện thực tế, đảm bảo sự tiến bộ nhanh chóng về độ lưu loát khi giao tiếp và khả năng viết học thuật.\n\nTớ hy vọng cậu thấy những thông tin này hữu ích. Cho tớ biết nếu cậu cần thêm thông tin nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
-            "text": "Dear Nam,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the English course at Rainbow Language Center, so I’d like to share some detailed information with you.\n\nTo begin with, the center is situated right on Tran Hung Dao Avenue in the downtown district. Its central location offers superb accessibility via multiple bus routes and ample parking for commuters.\n\nSecondly, the overall tuition fee is highly competitive considering the modern multimedia classrooms and inclusive study materials.\n\nNext, the teaching faculty comprises highly qualified native lecturers alongside experienced bilingual teaching assistants who deliver personalized feedback on pronunciation.\n\nFinally, the intensive training curriculum emphasizes practical public speaking, collaborative presentations, and debate workshops, ensuring rapid progress in conversational fluency and academic writing.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "text": "Dear Nam,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the English course at Rainbow Language Center, so I’d like to share some detailed information with you.\n\nTo begin with, the center is situated right on Tran Hung Dao Avenue in the downtown district. Its central location offers convenient access via multiple bus routes and ample parking for commuters.\n\nSecondly, the overall tuition fee is highly competitive considering the modern multimedia classrooms and inclusive study materials.\n\nNext, the teaching faculty comprises highly qualified native lecturers alongside experienced bilingual teaching assistants who deliver personalized feedback on pronunciation.\n\nFinally, the course focuses on practical speaking activities, group presentations, and discussions, helping students improve their English confidence and writing skills quickly.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "translation": "Nam thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều thuận lợi. Trong thư của cậu, cậu có hỏi tớ về khóa học tiếng Anh tại trung tâm Rainbow, vì vậy tớ muốn chia sẻ một vài thông tin chi tiết với cậu.\n\nTrước hết, trung tâm nằm ngay trên đường Trần Hưng Đạo thuộc khu vực trung tâm thành phố. Vị trí trung tâm này mang lại sự thuận tiện đi lại tuyệt vời qua nhiều tuyến xe buýt và có bãi đỗ xe rộng rãi.\n\nThứ hai, mức học phí trọn gói rất cạnh tranh khi xét đến hệ thống phòng học đa phương tiện hiện đại cùng giáo trình học được cung cấp miễn phí.\n\nTiếp theo, đội ngũ giảng dạy bao gồm các giáo viên bản xứ có trình độ chuyên môn cao cùng các trợ giảng song ngữ nhiệt huyết luôn sửa phát âm chi tiết cho từng học viên.\n\nCuối cùng, giáo trình đào tạo chuyên sâu chú trọng vào kỹ năng thuyết trình, làm việc nhóm và các buổi tranh biện thực tế, đảm bảo sự tiến bộ nhanh chóng về độ lưu loát khi giao tiếp và khả năng viết học thuật.\n\nTớ hy vọng cậu thấy những thông tin này hữu ích. Cho tớ biết nếu cậu cần thêm thông tin nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
             "word_count": 149,
             "key_structures": [
@@ -9952,7 +9952,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Moonie,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me to describe my drawing project, so here are some details.\n\nTo begin with, I have already finished my drawing project. I decided to draw a scene inside my house rather than in the garden. I chose the living room because it is where my family spends most of our time together.\n\nSecondly, my drawing shows the living room of my house. There is a large sofa in the center, a television on the wall, and a bookshelf in one corner. There are also several family photos on a shelf, and they make the room look warm and welcoming.\n\nNext, this drawing represents my daily life and many happy moments with my family. It shows the place where we often relax, watch television, and talk to one another. Therefore, it is one of my favorite areas in the house.\n\nFinally, the most important object in my drawing is a family photo hanging on the wall. It is especially meaningful to me because it reminds me of many wonderful memories with my parents and siblings. Whenever I look at it, I feel grateful for having such a loving family.\n\nI hope you find this information helpful. Let me know if you need more details.\n\nBest wishes,",
             "letter_vi": "Moonie thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu đã hỏi tớ miêu tả về dự án vẽ tranh của tớ, vì vậy dưới đây là một số chi tiết.\n\nTrước hết, tớ đã hoàn thành xong dự án vẽ tranh của mình rồi. Tớ quyết định vẽ một khung cảnh bên trong ngôi nhà thay vì ngoài vườn. Tớ chọn phòng khách vì đó là nơi gia đình tớ dành phần lớn thời gian quây quần bên nhau.\n\nThứ hai, bức vẽ của tớ miêu tả phòng khách của nhà tớ. Có một chiếc ghế sofa lớn ở trung tâm, một chiếc ti vi trên tường, và một giá sách ở một góc. Cũng có vài bức ảnh gia đình trên kệ, khiến căn phòng trông thật ấm áp và chào đón.\n\nTiếp theo, bức tranh này tượng trưng cho cuộc sống hàng ngày và nhiều khoảnh khắc hạnh phúc cùng gia đình tớ. Nó thể hiện nơi chúng tớ thường thư giãn, xem ti vi và trò chuyện cùng nhau. Do đó, đây là một trong những khu vực tớ yêu thích nhất trong nhà.\n\nCuối cùng, đồ vật quan trọng nhất trong bức vẽ của tớ là bức ảnh gia đình treo trên tường. Nó đặc biệt có ý nghĩa với tớ vì nó gợi nhắc tớ về nhiều kỷ niệm tuyệt vời cùng bố mẹ và anh chị em. Bất cứ khi nào nhìn vào đó, tớ đều cảm thấy biết ơn vì có một gia đình yêu thương như vậy.\n\nTớ hy vọng cậu thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé.\n\nChúc cậu mọi điều tốt lành,",
-            "text": "Dear Moonie,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me to describe my drawing project, so here are some details.\n\nTo begin with, I have already finished my drawing project. I decided to draw a scene inside my house rather than in the garden. I chose the living room because it is where my family spends most of our time together.\n\nSecondly, my drawing shows the living room of my house. There is a large sofa in the center, a television on the wall, and a bookshelf in one corner. There are also several family photos on a shelf, which make the room look warm and welcoming.\n\nNext, this drawing represents my daily life and many happy moments with my family. It shows the place where we often relax, watch television, and talk to one another. Therefore, it is one of my favorite areas in the house.\n\nFinally, the most important object in my drawing is a family photo hanging on the wall. It is especially meaningful to me because it reminds me of many wonderful memories with my parents and siblings. Whenever I look at it, I feel grateful for having such a loving family.\n\nI hope you find this information helpful. Let me know if you need more details.\n\nBest wishes,",
+            "text": "Dear Moonie,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me to describe my drawing project, so here are some details.\n\nTo begin with, I have already finished my drawing project. I decided to draw a scene inside my house rather than in the garden. I chose the living room because it is where my family spends most of our time together.\n\nSecondly, my drawing shows the living room of my house. There is a large sofa in the center, a television on the wall, and a bookshelf in one corner. There are also several family photos on a shelf, and they make the room look warm and welcoming.\n\nNext, this drawing represents my daily life and many happy moments with my family. It shows the place where we often relax, watch television, and talk to one another. Therefore, it is one of my favorite areas in the house.\n\nFinally, the most important object in my drawing is a family photo hanging on the wall. It is especially meaningful to me because it reminds me of many wonderful memories with my parents and siblings. Whenever I look at it, I feel grateful for having such a loving family.\n\nI hope you find this information helpful. Let me know if you need more details.\n\nBest wishes,",
             "translation": "Moonie thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu đã hỏi tớ miêu tả về dự án vẽ tranh của tớ, vì vậy dưới đây là một số chi tiết.\n\nTrước hết, tớ đã hoàn thành xong dự án vẽ tranh của mình rồi. Tớ quyết định vẽ một khung cảnh bên trong ngôi nhà thay vì ngoài vườn. Tớ chọn phòng khách vì đó là nơi gia đình tớ dành phần lớn thời gian quây quần bên nhau.\n\nThứ hai, bức vẽ của tớ miêu tả phòng khách của nhà tớ. Có một chiếc ghế sofa lớn ở trung tâm, một chiếc ti vi trên tường, và một giá sách ở một góc. Cũng có vài bức ảnh gia đình trên kệ, khiến căn phòng trông thật ấm áp và chào đón.\n\nTiếp theo, bức tranh này tượng trưng cho cuộc sống hàng ngày và nhiều khoảnh khắc hạnh phúc cùng gia đình tớ. Nó thể hiện nơi chúng tớ thường thư giãn, xem ti vi và trò chuyện cùng nhau. Do đó, đây là một trong những khu vực tớ yêu thích nhất trong nhà.\n\nCuối cùng, đồ vật quan trọng nhất trong bức vẽ của tớ là bức ảnh gia đình treo trên tường. Nó đặc biệt có ý nghĩa với tớ vì nó gợi nhắc tớ về nhiều kỷ niệm tuyệt vời cùng bố mẹ và anh chị em. Bất cứ khi nào nhìn vào đó, tớ đều cảm thấy biết ơn vì có một gia đình yêu thương như vậy.\n\nTớ hy vọng cậu thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé.\n\nChúc cậu mọi điều tốt lành,",
             "word_count": 222,
             "key_structures": [
@@ -10752,11 +10752,11 @@ const LETTERS_DATA = [
                 "desc": "Courteous salutation appreciating parental inquiries and setting a reassuring educational tone"
               },
               {
-                "label": "Curriculum-linked Field Activities",
+                "label": "course program-linked Field Activities",
                 "desc": "Elaborating on eco-learning workshops, team sports, and outdoor creative sketching"
               },
               {
-                "label": "Nutritional Policy & Allergy Mitigation",
+                "label": "Nutritional Policy & Allergy prevention",
                 "desc": "Transparent reasoning for individual packed lunches regarding food hygiene and medical safety"
               },
               {
@@ -11195,9 +11195,9 @@ const LETTERS_DATA = [
               "en": "The lost item is a black Samsonite suitcase with four wheels and a brown leather luggage tag.",
               "hints": [
                 "black Samsonite suitcase with four wheels",
-                "four spinner wheels"
+                "four wheels"
               ],
-              "explanation": "Từ vựng miêu tả chi tiết 'charcoal-black', 'multi-directional spinner wheels'."
+              "explanation": "Từ vựng miêu tả chi tiết 'charcoal-black', 'four wheels'."
             },
             {
               "id": 4,
@@ -11208,7 +11208,7 @@ const LETTERS_DATA = [
                 "Aside from personal clothes",
                 "important work documents needed for"
               ],
-              "explanation": "Dùng từ vựng nâng cao 'confidential contract files essential for'."
+              "explanation": "Dùng từ vựng nâng cao 'important work documents needed for'."
             },
             {
               "id": 5,
@@ -11217,9 +11217,9 @@ const LETTERS_DATA = [
               "en": "You can reach me anytime on my mobile phone, and the suitcase can be delivered directly to the Daewoo Hotel reception desk.",
               "hints": [
                 "reach me anytime on my mobile phone",
-                "conveniently dispatched to"
+                "conveniently delivered to"
               ],
-              "explanation": "Cụm từ chuyên nghiệp 'around the clock', 'dispatched to'."
+              "explanation": "Cụm từ chuyên nghiệp 'around the clock', 'delivered to'."
             }
           ],
           "sample_b1": {
@@ -11272,11 +11272,11 @@ const LETTERS_DATA = [
               },
               {
                 "label": "Distinctive Physical Markers",
-                "desc": "Detailed breakdown of brand (Samsonite), hard-shell texture, dimensions, spinner wheels, and name tag"
+                "desc": "Detailed breakdown of brand (Samsonite), sturdy texture, dimensions, wheels, and name tag"
               },
               {
                 "label": "Inventory of Contents",
-                "desc": "Itemizing business attire, company laptop, and critical legal documents needing urgent retrieval"
+                "desc": "Itemizing business clothes, company laptop, and critical legal documents needing urgent retrieval"
               },
               {
                 "label": "Direct Communication & Dispatch",
@@ -11284,7 +11284,7 @@ const LETTERS_DATA = [
               },
               {
                 "label": "Appreciative Sign-off",
-                "desc": "Sincere gratitude for airport ground staff diligence and professional formal sign-off"
+                "desc": "Sincere gratitude for airport ground staff careful attention and professional formal sign-off"
               }
             ]
           },
@@ -11374,7 +11374,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Dấu hiệu nhận biết riêng biệt này giúp phân biệt chiếc vali rất dễ dàng giữa hàng chục chiếc màu tối tương tự."
                 },
                 {
-                  "action_en": "it is made of durable hard plastic with four spinner wheels",
+                  "action_en": "it is made of durable hard plastic with four wheels",
                   "action_vi": "vali được làm bằng nhựa cứng bền bỉ với bốn bánh xe xoay đa chiều",
                   "reason_en": "because hard material protects fragile items inside from impacts.",
                   "reason_vi": "bởi vì chất liệu cứng bảo vệ các vật dụng dễ vỡ bên trong khỏi va đập.",
@@ -11436,7 +11436,7 @@ const LETTERS_DATA = [
                   "action_vi": "chiếc vali chứa ba bộ vest công sở trang trọng kèm cà vạt",
                   "reason_en": "because I have to dress professionally for five upcoming meetings.",
                   "reason_vi": "bởi vì tôi phải ăn mặc lịch sự cho năm cuộc họp sắp tới.",
-                  "expansion_1_en": "I do not have spare business attire with me in my small cabin shoulder bag.",
+                  "expansion_1_en": "I do not have spare business clothes with me in my small cabin shoulder bag.",
                   "expansion_1_vi": "Tôi hoàn toàn không có trang phục công sở dự phòng trong chiếc túi xách nhỏ mang theo bên mình.",
                   "expansion_2_en": "Receiving the suitcase tonight is essential so I can prepare my formal clothes properly.",
                   "expansion_2_vi": "Nhận lại vali ngay tối nay là điều vô cùng cấp thiết để tôi kịp là ủi trang phục chỉn chu."
@@ -12280,7 +12280,7 @@ const LETTERS_DATA = [
                   "vi": "rất thất vọng về"
                 },
                 {
-                  "en": "implement immediate remedial measures",
+                  "en": "implement immediate repair actions",
                   "vi": "tiến hành các biện pháp khắc phục ngay lập tức"
                 }
               ],
@@ -12296,7 +12296,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Cụm từ 'remedial measures' và 'hazardous hygiene risks' đạt chuẩn band điểm cao."
+              "criteria_tip": "Cụm từ 'repair actions' và 'hazardous hygiene risks' đạt chuẩn band điểm cao."
             }
           ],
           "sample_b1": {
@@ -12570,7 +12570,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the workout equipment at Elite Fitness Club. I recently used your facility, and I was quite disappointed with the experience.\n\nTo begin with, the main problem was the ***unacceptable level of maintenance across the cardio equipment***. ***Multiple treadmills and stationary bicycles have remained defective for weeks*** without any repair notices, and this resulted in excessive crowding and inconvenience for paying members.\n\nTo make matters worse, another concern was the ***physical condition of the resistance weight machines***. Several cable attachments were visibly frayed and weight pins were missing, and this posed severe safety hazards during heavy training sessions.\n\nAnother concern was that the ***non-functioning air conditioning system***, so the workout atmosphere was oppressive and poorly ventilated.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***repair all defective machinery, schedule regular technical inspections, and fix the air conditioning system***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Quản lý,\n\nTôi viết thư này để bày tỏ sự không hài lòng về tình trạng thiết bị tập luyện tại Elite Fitness Club. Gần đây tôi có sử dụng cơ sở vật chất của quý trung tâm và cảm thấy khá thất vọng về trải nghiệm này.\n\nVấn đề lớn nhất là sự thiếu hụt nghiêm trọng trong công tác bảo trì các thiết bị cardio. Nhiều máy chạy bộ và xe đạp tập đã bị hỏng nhiều tuần liền mà không có bất kỳ thông báo sửa chữa nào, dẫn đến tình trạng quá tải và bất tiện cho các hội viên đóng phí.\n\nMột mối quan ngại khác là tình trạng vật lý của các máy tập tạ kháng lực. Nhiều dây cáp có dấu hiệu sờn rách rõ rệt và chốt tạ bị thất lạc, gây ra những hiểm họa an toàn khôn lường trong lúc tập nặng.\n\nMột vấn đề nữa là hệ thống điều hòa không hoạt động, tạo ra bầu không khí ngột ngạt và thiếu thông gió nghiêm trọng.\n\nDo đó, tôi rất mong quý vị sẽ có những hành động kịp thời để xử lý các vấn đề này. Cụ thể, tôi đề xuất quý vị bảo trì lại toàn bộ máy móc hỏng, thắt chặt việc kiểm tra kỹ thuật định kỳ và sửa chữa hệ thống điều hòa nhiệt độ.\n\nTôi hy vọng vấn đề này sẽ được giải quyết nhanh chóng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the workout equipment at Elite Fitness Club. I recently used your facility, and I was quite disappointed with the experience.\n\nTo begin with, the main problem was the ***unacceptable level of maintenance across the cardio equipment***. ***Multiple treadmills and stationary bicycles have remained defective for weeks*** without any repair notices, and this resulted in excessive crowding and inconvenience for paying members.\n\nTo make matters worse, another concern was the ***physical condition of the resistance weight machines***. Several cable attachments were visibly frayed and weight pins were missing, and this posed severe safety hazards during heavy training sessions.\n\nAnother concern was that the ***non-functioning air conditioning system***, so the workout atmosphere was oppressive and poorly ventilated.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***overhaul all defective machinery, enforce routine technical inspections, and repair the climate control system***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the workout equipment at Elite Fitness Club. I recently used your facility, and I was quite disappointed with the experience.\n\nTo begin with, the main problem was the ***unacceptable level of maintenance across the cardio equipment***. ***Multiple treadmills and stationary bicycles have remained defective for weeks*** without any repair notices, and this resulted in excessive crowding and inconvenience for paying members.\n\nTo make matters worse, another concern was the ***physical condition of the resistance weight machines***. Several cable attachments were visibly frayed and weight pins were missing, and this posed severe safety hazards during heavy training sessions.\n\nAnother concern was that the ***non-functioning air conditioning system***, so the workout atmosphere was oppressive and poorly ventilated.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***repair all defective machinery, schedule regular technical inspections, and fix the air conditioning system***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Quản lý,\n\nTôi viết thư này để bày tỏ sự không hài lòng về tình trạng thiết bị tập luyện tại Elite Fitness Club. Gần đây tôi có sử dụng cơ sở vật chất của quý trung tâm và cảm thấy khá thất vọng về trải nghiệm này.\n\nVấn đề lớn nhất là sự thiếu hụt nghiêm trọng trong công tác bảo trì các thiết bị cardio. Nhiều máy chạy bộ và xe đạp tập đã bị hỏng nhiều tuần liền mà không có bất kỳ thông báo sửa chữa nào, dẫn đến tình trạng quá tải và bất tiện cho các hội viên đóng phí.\n\nMột mối quan ngại khác là tình trạng vật lý của các máy tập tạ kháng lực. Nhiều dây cáp có dấu hiệu sờn rách rõ rệt và chốt tạ bị thất lạc, gây ra những hiểm họa an toàn khôn lường trong lúc tập nặng.\n\nMột vấn đề nữa là hệ thống điều hòa không hoạt động, tạo ra bầu không khí ngột ngạt và thiếu thông gió nghiêm trọng.\n\nDo đó, tôi rất mong quý vị sẽ có những hành động kịp thời để xử lý các vấn đề này. Cụ thể, tôi đề xuất quý vị bảo trì lại toàn bộ máy móc hỏng, thắt chặt việc kiểm tra kỹ thuật định kỳ và sửa chữa hệ thống điều hòa nhiệt độ.\n\nTôi hy vọng vấn đề này sẽ được giải quyết nhanh chóng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
             "word_count": 175,
             "key_structures": [
@@ -12737,7 +12737,7 @@ const LETTERS_DATA = [
           "Phàn nàn",
           "B1 & B2"
         ],
-        "context": "You celebrated your parents' wedding anniversary at The Grand Bistro last night. However, the food was served cold after a 45-minute wait, one dish was mistaken, and the server was dismissive when you asked for assistance. Write a formal complaint email to the restaurant general manager.",
+        "context": "You celebrated your parents' wedding anniversary at The Grand Bistro last night. However, the food was served cold after a 45-minute wait, one dish was mistaken, and the server was impatient when you asked for assistance. Write a formal complaint email to the restaurant general manager.",
         "prompt": "You had dinner at The Grand Bistro last night to celebrate a family event. The food quality was poor, wait time was excessive, and the server was unhelpful. Write a complaint letter to the restaurant manager describing the problems, explaining your disappointment, and asking for an appropriate resolution.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
@@ -12888,13 +12888,13 @@ const LETTERS_DATA = [
                 "unfriendly and impolite attitude",
                 "did not meet your usual service standards"
               ],
-              "explanation": "Từ vựng B2 chuyên ngành dịch vụ: 'unfriendly attitude' (thái độ trịch thượng), 'deficit in hospitality standards' (thiếu hụt chuẩn mực đón tiếp)."
+              "explanation": "Từ vựng B2 chuyên ngành dịch vụ: 'unfriendly attitude' (thái độ trịch thượng), 'drop in service standards' (thiếu hụt chuẩn mực đón tiếp)."
             }
           ],
           "sample_b1": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to complain about the quality of food and service at your restaurant. I recently dined at The Grand Bistro and was not satisfied with it.\n\nThe main problem was that our reserved table was not ready upon arrival, and we had to wait for forty minutes before being seated. Another issue was that the steak dishes were served completely cold and undercooked, so we were very disappointed. In addition, when we reported these matters, the server was indifferent, dismissive, and refused to offer an apology.\n\nTherefore, I would appreciate it if you could retrain your service staff on polite customer communication and ensure higher food preparation standards.\n\nI hope that you will look into these issues soon. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to complain about the quality of food and service at your restaurant. I recently dined at The Grand Bistro and was not satisfied with it.\n\nThe main problem was that our reserved table was not ready upon arrival, and we had to wait for forty minutes before being seated. Another issue was that the steak dishes were served completely cold and undercooked, so we were very disappointed. In addition, when we reported these matters, the server was indifferent, impatient, and refused to offer an apology.\n\nTherefore, I would appreciate it if you could retrain your service staff on polite customer communication and ensure higher food preparation standards.\n\nI hope that you will look into these issues soon. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để phàn nàn về chất lượng món ăn và dịch vụ tại nhà hàng của quý vị. Gần đây tôi có dùng bữa tại The Grand Bistro và không hài lòng về trải nghiệm này.\n\nVấn đề chính là bàn chúng tôi đã đặt trước vẫn chưa được chuẩn bị khi chúng tôi đến, và chúng tôi phải chờ đợi suốt bốn mươi phút mới có chỗ ngồi. Một vấn đề khác là các món bít tết được phục vụ khi đã nguội ngắt và nấu chưa chín, kém xa so với kỳ vọng của chúng tôi. Thêm vào đó, khi chúng tôi phản ánh những sự việc này, người phục vụ lại có thái độ thờ ơ, gạt đi và từ chối đưa ra lời xin lỗi.\n\nDo đó, tôi rất mong quý vị sẽ đào tạo lại nhân viên phục vụ về kỹ năng giao tiếp lịch sự với khách hàng và đảm bảo các tiêu chuẩn chế biến món ăn cao hơn.\n\nTôi hy vọng quý vị sẽ sớm xem xét những vấn đề này. Tôi rất mong sớm nhận được hồi âm.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to complain about the quality of food and service at your restaurant. I recently dined at The Grand Bistro and was not satisfied with it.\n\nThe main problem was that our reserved table was not ready upon arrival, and we had to wait for forty minutes before being seated. Another issue was that the steak dishes were served completely cold and undercooked, so we were very disappointed. In addition, when we reported these matters, the server was indifferent, dismissive, and refused to offer an apology.\n\nTherefore, I would appreciate it if you could retrain your service staff on polite customer communication and ensure higher food preparation standards.\n\nI hope that you will look into these issues soon. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to complain about the quality of food and service at your restaurant. I recently dined at The Grand Bistro and was not satisfied with it.\n\nThe main problem was that our reserved table was not ready upon arrival, and we had to wait for forty minutes before being seated. Another issue was that the steak dishes were served completely cold and undercooked, so we were very disappointed. In addition, when we reported these matters, the server was indifferent, impatient, and refused to offer an apology.\n\nTherefore, I would appreciate it if you could retrain your service staff on polite customer communication and ensure higher food preparation standards.\n\nI hope that you will look into these issues soon. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để phàn nàn về chất lượng món ăn và dịch vụ tại nhà hàng của quý vị. Gần đây tôi có dùng bữa tại The Grand Bistro và không hài lòng về trải nghiệm này.\n\nVấn đề chính là bàn chúng tôi đã đặt trước vẫn chưa được chuẩn bị khi chúng tôi đến, và chúng tôi phải chờ đợi suốt bốn mươi phút mới có chỗ ngồi. Một vấn đề khác là các món bít tết được phục vụ khi đã nguội ngắt và nấu chưa chín, kém xa so với kỳ vọng của chúng tôi. Thêm vào đó, khi chúng tôi phản ánh những sự việc này, người phục vụ lại có thái độ thờ ơ, gạt đi và từ chối đưa ra lời xin lỗi.\n\nDo đó, tôi rất mong quý vị sẽ đào tạo lại nhân viên phục vụ về kỹ năng giao tiếp lịch sự với khách hàng và đảm bảo các tiêu chuẩn chế biến món ăn cao hơn.\n\nTôi hy vọng quý vị sẽ sớm xem xét những vấn đề này. Tôi rất mong sớm nhận được hồi âm.\n\nTrân trọng,",
             "word_count": 132,
             "key_structures": [
@@ -12917,9 +12917,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the dining experience and customer service at The Grand Bistro. I recently visited your restaurant to celebrate a family dinner, and I was quite disappointed with the service.\n\nTo begin with, the main problem was the ***unacceptable delay in table allocation and course delivery***. Despite our confirmed reservation, our party was made to ***wait over forty-five minutes in the lobby*** before being seated, and the main courses arrived nearly an hour later.\n\nTo make matters worse, another concern was the ***substandard culinary execution***. Both the grilled salmon and steak were served lukewarm, tough, and improperly seasoned.\n\nAnother concern was that the ***unprofessional attitude of the waitstaff***, who displayed visible annoyance and unhelpfulness when politely requested to correct the mistakes.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***implement stricter kitchen workflow supervision and conduct mandatory hospitality training for your dining staff***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the dining experience and customer service at The Grand Bistro. I recently visited your restaurant to celebrate a family dinner, and I was quite disappointed with the service.\n\nTo begin with, the main problem was the ***unacceptable delay in table allocation and course delivery***. Despite our confirmed reservation, our party was made to ***wait over forty-five minutes in the lobby*** before being seated, and the main courses arrived nearly an hour later.\n\nTo make matters worse, another concern was the ***poor culinary execution***. Both the grilled salmon and steak were served lukewarm, tough, and improperly seasoned.\n\nAnother concern was that the ***unprofessional attitude of the waitstaff***, who displayed visible annoyance and unhelpfulness when politely requested to correct the mistakes.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***implement stricter kitchen workflow supervision and conduct mandatory hospitality training for your dining staff***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để bày tỏ sự không hài lòng sâu sắc về trải nghiệm ẩm thực và dịch vụ khách hàng tại The Grand Bistro. Gần đây tôi có đến nhà hàng để kỷ niệm một sự kiện gia đình, và tôi đã cảm thấy rất thất vọng với trải nghiệm này.\n\nVấn đề lớn nhất là sự chậm trễ không thể chấp nhận được trong việc sắp xếp bàn và lên món. Mặc dù chúng tôi đã đặt bàn từ trước, cả nhóm vẫn phải chờ hơn bốn mươi lăm phút tại sảnh mới được xếp chỗ, và các món chính được dọn ra sau đó gần một tiếng đồng hồ.\n\nMột mối quan ngại khác là chất lượng chế biến dưới chuẩn. Cả món cá hồi nướng và bít tết đều được phục vụ trong tình trạng nguội, dai và nêm nếm không đạt yêu cầu.\n\nMột vấn đề nữa là thái độ thiếu chuyên nghiệp của nhân viên phục vụ, những người tỏ ra khó chịu và bất hợp tác khi được yêu cầu khắc phục sai sót một cách lịch sự.\n\nDo đó, tôi rất mong quý vị sẽ có những hành động kịp thời để xử lý các vấn đề này. Cụ thể, tôi đề xuất quý vị thiết lập quy trình kiểm soát bếp chặt chẽ hơn và tổ chức các buổi đào tạo bắt buộc về nghiệp vụ phục vụ cho nhân viên.\n\nTôi hy vọng vấn đề này sẽ được giải quyết nhanh chóng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the dining experience and customer service at The Grand Bistro. I recently visited your establishment to celebrate a family milestone, and I was quite disappointed with the experience.\n\nTo begin with, the main problem was the ***unacceptable delay in table allocation and course delivery***. Despite our confirmed reservation, our party was made to ***wait over forty-five minutes in the lobby*** before being seated, and the main courses arrived nearly an hour later.\n\nTo make matters worse, another concern was the ***substandard culinary execution***. Both the grilled salmon and steak were served lukewarm, tough, and improperly seasoned.\n\nAnother concern was that the ***unprofessional attitude of the waitstaff***, who displayed visible annoyance and unhelpfulness when politely requested to rectify the errors.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***implement stricter kitchen workflow supervision and conduct mandatory hospitality training for your dining staff***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the dining experience and customer service at The Grand Bistro. I recently visited your restaurant to celebrate a family dinner, and I was quite disappointed with the service.\n\nTo begin with, the main problem was the ***unacceptable delay in table allocation and course delivery***. Despite our confirmed reservation, our party was made to ***wait over forty-five minutes in the lobby*** before being seated, and the main courses arrived nearly an hour later.\n\nTo make matters worse, another concern was the ***poor culinary execution***. Both the grilled salmon and steak were served lukewarm, tough, and improperly seasoned.\n\nAnother concern was that the ***unprofessional attitude of the waitstaff***, who displayed visible annoyance and unhelpfulness when politely requested to correct the mistakes.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***implement stricter kitchen workflow supervision and conduct mandatory hospitality training for your dining staff***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để bày tỏ sự không hài lòng sâu sắc về trải nghiệm ẩm thực và dịch vụ khách hàng tại The Grand Bistro. Gần đây tôi có đến nhà hàng để kỷ niệm một sự kiện gia đình, và tôi đã cảm thấy rất thất vọng với trải nghiệm này.\n\nVấn đề lớn nhất là sự chậm trễ không thể chấp nhận được trong việc sắp xếp bàn và lên món. Mặc dù chúng tôi đã đặt bàn từ trước, cả nhóm vẫn phải chờ hơn bốn mươi lăm phút tại sảnh mới được xếp chỗ, và các món chính được dọn ra sau đó gần một tiếng đồng hồ.\n\nMột mối quan ngại khác là chất lượng chế biến dưới chuẩn. Cả món cá hồi nướng và bít tết đều được phục vụ trong tình trạng nguội, dai và nêm nếm không đạt yêu cầu.\n\nMột vấn đề nữa là thái độ thiếu chuyên nghiệp của nhân viên phục vụ, những người tỏ ra khó chịu và bất hợp tác khi được yêu cầu khắc phục sai sót một cách lịch sự.\n\nDo đó, tôi rất mong quý vị sẽ có những hành động kịp thời để xử lý các vấn đề này. Cụ thể, tôi đề xuất quý vị thiết lập quy trình kiểm soát bếp chặt chẽ hơn và tổ chức các buổi đào tạo bắt buộc về nghiệp vụ phục vụ cho nhân viên.\n\nTôi hy vọng vấn đề này sẽ được giải quyết nhanh chóng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
             "word_count": 182,
             "key_structures": [
@@ -13007,7 +13007,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "The server showed visible annoyance when we politely complained about the cold food.",
                   "action_vi": "Nhân viên tỏ thái độ bực bội ra mặt khi chúng tôi lịch sự phàn nàn về thức ăn bị nguội.",
-                  "reason_en": "No apology was offered and our concerns were dismissed, and this was unacceptable for a professional establishment.",
+                  "reason_en": "No apology was offered and our concerns were dismissed, and this was unacceptable for a professional hotel.",
                   "reason_vi": "Không hề có lời xin lỗi nào được đưa ra và phản hồi của chúng tôi bị gạt đi, và điều này không thể chấp nhận được ở một nhà hàng chuyên nghiệp.",
                   "solution_en": "I strongly recommend that management remind all staff to handle customer feedback with politeness and respect.",
                   "solution_vi": "Tôi tha thiết đề xuất ban quản lý nhắc nhở toàn bộ nhân viên phải tiếp nhận ý kiến khách hàng bằng sự lịch sự và tôn trọng."
@@ -13209,7 +13209,7 @@ const LETTERS_DATA = [
           ],
           "vocab": [
             {
-              "en": "substandard room condition",
+              "en": "poor room condition",
               "vi": "tình trạng phòng không đạt tiêu chuẩn",
               "category": "1. Sự cố (Problems)"
             },
@@ -13229,7 +13229,7 @@ const LETTERS_DATA = [
               "category": "1. Sự cố (Problems)"
             },
             {
-              "en": "utterly exhausted and disappointed",
+              "en": "completely exhausted and disappointed",
               "vi": "vô cùng kiệt sức và thất vọng",
               "category": "2. Cảm xúc (Feelings)"
             },
@@ -13259,10 +13259,10 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "1. Mở thư (Opening - Mục đích khiếu nại về phòng nghỉ)",
               "vi": "Kính gửi Quản lý Khách sạn, Tôi viết thư này để khiếu nại về tình trạng phòng nghỉ không đạt tiêu chuẩn tại phòng 302 trong kỳ nghỉ ba đêm của tôi vào cuối tuần trước.",
-              "en": "Dear Hotel Manager, I am writing this letter to complain about the substandard condition of room 302 during my three-night stay at your hotel last weekend.",
+              "en": "Dear Hotel Manager, I am writing this letter to complain about the poor condition of room 302 during my three-night stay at your hotel last weekend.",
               "vocab_hints": [
                 {
-                  "en": "complain about the substandard condition",
+                  "en": "complain about the poor condition",
                   "vi": "khiếu nại về tình trạng không đạt chuẩn"
                 },
                 {
@@ -13282,7 +13282,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Dear Hotel Manager, I am writing to express my profound dissatisfaction with the poor condition of my room during my recent holiday at your establishment."
+                "Dear Hotel Manager, I am writing to express my great dissatisfaction with the poor condition of my room during my recent holiday at your hotel."
               ],
               "criteria_tip": "Mở bài trang trọng chuẩn xác giúp xác lập văn phong formal ngay từ đầu."
             },
@@ -13458,7 +13458,7 @@ const LETTERS_DATA = [
                   "vi": "tiện nghi bị hỏng và vệ sinh kém"
                 },
                 {
-                  "en": "meaningful financial reimbursement",
+                  "en": "meaningful refund",
                   "vi": "khoản bồi hoàn tài chính thỏa đáng"
                 }
               ],
@@ -13474,7 +13474,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Cụm 'financial reimbursement fully warranted' đạt chuẩn văn phong luật/kinh doanh quốc tế."
+              "criteria_tip": "Cụm 'refund is reasonable to compensate' đạt chuẩn văn phong luật/kinh doanh quốc tế."
             }
           ],
           "sample_b1": {
@@ -13505,7 +13505,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of room 302 during my recent vacation stay at your hotel. I recently used your facility, and I was quite disappointed with the experience.\n\nTo begin with, the main problem was the ***unacceptable level of noise and malfunction regarding the climate control system***. The unit ***continually emitted a grating mechanical rattle while blowing warm air***, so restful sleep was virtually impossible throughout our holiday.\n\nTo make matters worse, another concern was the ***defective plumbing fixtures in the en-suite bathroom***. ***Stagnant wastewater regularly accumulated across the tiles*** due to a clogged drain, and this created an unhygienic slipping hazard.\n\nAnother concern was that the ***total apathy exhibited by your front desk personnel***, who dismissed our complaints without dispatching engineering assistance.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***repair the air conditioners and offer a partial refund for our bad experience***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Quản lý khách sạn,\n\nTôi viết thư này để bày tỏ sự không hài lòng về tình trạng phòng 302 trong kỳ nghỉ dưỡng gần đây của tôi tại khách sạn của quý vị. Gần đây tôi đã sử dụng dịch vụ lưu trú của quý khách sạn và cảm thấy rất thất vọng với trải nghiệm này.\n\nVấn đề lớn nhất là tiếng ồn không thể chịu đựng nổi và sự cố của hệ thống điều hòa nhiệt độ. Chiếc máy liên tục phát ra tiếng kêu cơ khí chói tai trong khi chỉ thổi ra luồng khí nóng, khiến việc nghỉ ngơi vào ban đêm của chúng tôi trở nên bất khả thi trong suốt kỳ nghỉ.\n\nMột mối quan ngại khác là các thiết bị vệ sinh bị hỏng trong phòng tắm. Nước thải thường xuyên ứ đọng trên nền gạch do đường ống thoát nước bị tắc, gây mất vệ sinh và nguy cơ trơn trượt nguy hiểm.\n\nMột vấn đề nữa là thái độ thờ ơ từ nhân viên lễ tân, những người đã gạt phắt khiếu nại của chúng tôi mà không hề cử nhân viên kỹ thuật lên hỗ trợ.\n\nDo đó, tôi rất mong quý vị có hành động giải quyết ngay các vấn đề này. Cụ thể, tôi đề nghị quý vị bảo dưỡng toàn diện hệ thống điều hòa và hoàn trả một phần chi phí lưu trú cho kỳ nghỉ bị ảnh hưởng của chúng tôi.\n\nTôi hy vọng vấn đề này sẽ được giải quyết thỏa đáng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of room 302 during my recent vacation stay at your hotel. I recently used your facility, and I was quite disappointed with the experience.\n\nTo begin with, the main problem was the ***unacceptable level of noise and malfunction regarding the climate control system***. The unit ***continually emitted a grating mechanical rattle while blowing warm air***, so restful sleep was virtually impossible throughout our holiday.\n\nTo make matters worse, another concern was the ***defective plumbing fixtures in the en-suite bathroom***. ***Stagnant wastewater regularly accumulated across the tiles*** due to a clogged drain, and this created an unhygienic slipping hazard.\n\nAnother concern was that the ***total apathy exhibited by your front desk personnel***, who dismissed our complaints without dispatching engineering assistance.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***service the climate control units and process a partial financial reimbursement for our ruined stay***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of room 302 during my recent vacation stay at your hotel. I recently used your facility, and I was quite disappointed with the experience.\n\nTo begin with, the main problem was the ***unacceptable level of noise and malfunction regarding the climate control system***. The unit ***continually emitted a grating mechanical rattle while blowing warm air***, so restful sleep was virtually impossible throughout our holiday.\n\nTo make matters worse, another concern was the ***defective plumbing fixtures in the en-suite bathroom***. ***Stagnant wastewater regularly accumulated across the tiles*** due to a clogged drain, and this created an unhygienic slipping hazard.\n\nAnother concern was that the ***total apathy exhibited by your front desk personnel***, who dismissed our complaints without dispatching engineering assistance.\n\nFinally, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you ***repair the air conditioners and offer a partial refund for our bad experience***.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Quản lý khách sạn,\n\nTôi viết thư này để bày tỏ sự không hài lòng về tình trạng phòng 302 trong kỳ nghỉ dưỡng gần đây của tôi tại khách sạn của quý vị. Gần đây tôi đã sử dụng dịch vụ lưu trú của quý khách sạn và cảm thấy rất thất vọng với trải nghiệm này.\n\nVấn đề lớn nhất là tiếng ồn không thể chịu đựng nổi và sự cố của hệ thống điều hòa nhiệt độ. Chiếc máy liên tục phát ra tiếng kêu cơ khí chói tai trong khi chỉ thổi ra luồng khí nóng, khiến việc nghỉ ngơi vào ban đêm của chúng tôi trở nên bất khả thi trong suốt kỳ nghỉ.\n\nMột mối quan ngại khác là các thiết bị vệ sinh bị hỏng trong phòng tắm. Nước thải thường xuyên ứ đọng trên nền gạch do đường ống thoát nước bị tắc, gây mất vệ sinh và nguy cơ trơn trượt nguy hiểm.\n\nMột vấn đề nữa là thái độ thờ ơ từ nhân viên lễ tân, những người đã gạt phắt khiếu nại của chúng tôi mà không hề cử nhân viên kỹ thuật lên hỗ trợ.\n\nDo đó, tôi rất mong quý vị có hành động giải quyết ngay các vấn đề này. Cụ thể, tôi đề nghị quý vị bảo dưỡng toàn diện hệ thống điều hòa và hoàn trả một phần chi phí lưu trú cho kỳ nghỉ bị ảnh hưởng của chúng tôi.\n\nTôi hy vọng vấn đề này sẽ được giải quyết thỏa đáng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
             "word_count": 182,
             "key_structures": [
@@ -13808,9 +13808,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Mr. Tailor,\n\nI am writing to provide feedback on my recent daily experience utilizing public bus route 08. I recently used your services and would like to share my experience.\n\nOverall, I found your transport service quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exceptional courtesy demonstrated by your driving staff, who consistently ensure passenger safety through responsible driving habits. Furthermore, I was particularly impressed with the convenience of electronic smart ticketing, which significantly streamlines boarding procedures.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the severe irregularity in departure intervals during peak morning hours, leading to significant delays and intense passenger overcrowding. Additionally, I was disappointed with the subpar climate control on older fleet vehicles, creating an uncomfortably humid ride.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you adjust fleet scheduling dynamically to allocate higher vehicle frequencies during rush hours. Furthermore, it would be better if you could modernize onboard air conditioning across older buses to ensure passenger comfort.\n\nI hope my feedback will be useful in improving your public transport network. Please feel free to contact me if you have any further questions.\n\nYours sincerely,",
+            "letter_en": "Dear Mr. Tailor,\n\nI am writing to provide feedback on my recent daily experience utilizing public bus route 08. I recently used your services and would like to share my experience.\n\nOverall, I found your transport service quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exceptional courtesy demonstrated by your driving staff, who consistently ensure passenger safety through responsible driving habits. Furthermore, I was particularly impressed with the convenience of electronic smart ticketing, which significantly save times boarding procedures.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the severe irregularity in departure intervals during peak morning hours, leading to significant delays and intense passenger overcrowding. Additionally, I was disappointed with the subpar climate control on older fleet vehicles, creating an uncomfortably humid ride.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you adjust fleet scheduling dynamically to allocate higher vehicle frequencies during rush hours. Furthermore, it would be better if you could modernize onboard air conditioning across older buses to ensure passenger comfort.\n\nI hope my feedback will be useful in improving your public transport network. Please feel free to contact me if you have any further questions.\n\nYours sincerely,",
             "letter_vi": "Kính gửi ông Tailor,\n\nTôi viết thư này để cung cấp ý kiến phản hồi về trải nghiệm sử dụng tuyến xe buýt công cộng số 08 hàng ngày. Gần đây tôi đã sử dụng dịch vụ của quý cơ quan và muốn chia sẻ những đánh giá khách quan của mình.\n\nNhìn chung, tôi thấy dịch vụ vận tải của tuyến xe tương đối tốt, mặc dù vẫn còn một số khía cạnh có thể được cải thiện hơn nữa. Một điểm tôi rất trân trọng là thái độ vô cùng lịch thiệp của đội ngũ lái xe, những người luôn đảm bảo an toàn cho hành khách nhờ phong cách lái xe cẩn trọng. Hơn nữa, tôi đặc biệt ấn tượng với sự tiện lợi của hệ thống thẻ thông minh điện tử, giúp rút ngắn đáng kể thời gian lên xe của hành khách.\n\nTuy nhiên, cũng có một số vấn đề cần được khắc phục. Một vấn đề tôi gặp phải là sự chênh lệch lớn về tần suất giãn cách giữa các chuyến xe vào giờ cao điểm buổi sáng, gây ra tình trạng chậm trễ nghiêm trọng và chen chúc nghẹt thở. Thêm vào đó, tôi cảm thấy thất vọng với hệ thống điều hòa hoạt động kém trên các xe đời cũ, khiến không gian trên xe rất ngột ngạt và nóng bức.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài kiến nghị. Tôi đề xuất quý cơ quan điều chỉnh lịch trình linh hoạt để tăng tần suất chuyến vào các khung giờ cao điểm. Hơn nữa, sẽ tốt hơn nếu quý vị nâng cấp hệ thống điều hòa trên các xe cũ nhằm đảm bảo sự thoải mái cho hành khách.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho việc nâng cấp mạng lưới giao thông công cộng. Xin vui lòng liên hệ nếu ông có thêm câu hỏi.\n\nTrân trọng,",
-            "text": "Dear Mr. Tailor,\n\nI am writing to provide feedback on my recent daily experience utilizing public bus route 08. I recently used your services and would like to share my experience.\n\nOverall, I found your transport service quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exceptional courtesy demonstrated by your driving staff, who consistently ensure passenger safety through responsible driving habits. Furthermore, I was particularly impressed with the convenience of electronic smart ticketing, which significantly streamlines boarding procedures.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the severe irregularity in departure intervals during peak morning hours, leading to significant delays and intense passenger overcrowding. Additionally, I was disappointed with the subpar climate control on older fleet vehicles, creating an uncomfortably humid ride.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you adjust fleet scheduling dynamically to allocate higher vehicle frequencies during rush hours. Furthermore, it would be better if you could modernize onboard air conditioning across older buses to ensure passenger comfort.\n\nI hope my feedback will be useful in improving your public transport network. Please feel free to contact me if you have any further questions.\n\nYours sincerely,",
+            "text": "Dear Mr. Tailor,\n\nI am writing to provide feedback on my recent daily experience utilizing public bus route 08. I recently used your services and would like to share my experience.\n\nOverall, I found your transport service quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exceptional courtesy demonstrated by your driving staff, who consistently ensure passenger safety through responsible driving habits. Furthermore, I was particularly impressed with the convenience of electronic smart ticketing, which significantly save times boarding procedures.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the severe irregularity in departure intervals during peak morning hours, leading to significant delays and intense passenger overcrowding. Additionally, I was disappointed with the subpar climate control on older fleet vehicles, creating an uncomfortably humid ride.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you adjust fleet scheduling dynamically to allocate higher vehicle frequencies during rush hours. Furthermore, it would be better if you could modernize onboard air conditioning across older buses to ensure passenger comfort.\n\nI hope my feedback will be useful in improving your public transport network. Please feel free to contact me if you have any further questions.\n\nYours sincerely,",
             "translation": "Kính gửi ông Tailor,\n\nTôi viết thư này để cung cấp ý kiến phản hồi về trải nghiệm sử dụng tuyến xe buýt công cộng số 08 hàng ngày. Gần đây tôi đã sử dụng dịch vụ của quý cơ quan và muốn chia sẻ những đánh giá khách quan của mình.\n\nNhìn chung, tôi thấy dịch vụ vận tải của tuyến xe tương đối tốt, mặc dù vẫn còn một số khía cạnh có thể được cải thiện hơn nữa. Một điểm tôi rất trân trọng là thái độ vô cùng lịch thiệp của đội ngũ lái xe, những người luôn đảm bảo an toàn cho hành khách nhờ phong cách lái xe cẩn trọng. Hơn nữa, tôi đặc biệt ấn tượng với sự tiện lợi của hệ thống thẻ thông minh điện tử, giúp rút ngắn đáng kể thời gian lên xe của hành khách.\n\nTuy nhiên, cũng có một số vấn đề cần được khắc phục. Một vấn đề tôi gặp phải là sự chênh lệch lớn về tần suất giãn cách giữa các chuyến xe vào giờ cao điểm buổi sáng, gây ra tình trạng chậm trễ nghiêm trọng và chen chúc nghẹt thở. Thêm vào đó, tôi cảm thấy thất vọng với hệ thống điều hòa hoạt động kém trên các xe đời cũ, khiến không gian trên xe rất ngột ngạt và nóng bức.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài kiến nghị. Tôi đề xuất quý cơ quan điều chỉnh lịch trình linh hoạt để tăng tần suất chuyến vào các khung giờ cao điểm. Hơn nữa, sẽ tốt hơn nếu quý vị nâng cấp hệ thống điều hòa trên các xe cũ nhằm đảm bảo sự thoải mái cho hành khách.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho việc nâng cấp mạng lưới giao thông công cộng. Xin vui lòng liên hệ nếu ông có thêm câu hỏi.\n\nTrân trọng,",
             "word_count": 212,
             "key_structures": [
@@ -13846,7 +13846,7 @@ const LETTERS_DATA = [
                   "reason_vi": "giúp những hành khách đi lại hàng ngày như tôi có thể chủ động sắp xếp lịch trình đi làm, đi học.",
                   "expansion_1_en": "Reliable timetables allow office workers and students to commute without worrying about arriving late.",
                   "expansion_1_vi": "Lịch trình đáng tin cậy giúp dân công sở và học sinh đi lại mà không phải lo lắng về việc đến muộn.",
-                  "expansion_2_en": "This punctuality fosters immense trust in the municipal public transit system across our community.",
+                  "expansion_2_en": "This punctuality fosters great trust in the municipal public transit system across our community.",
                   "expansion_2_vi": "Sự đúng giờ này tạo dựng niềm tin to lớn vào hệ thống giao thông công cộng của thành phố trong cộng đồng."
                 },
                 {
@@ -14016,7 +14016,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Hành vi thiếu chuyên nghiệp như vậy làm suy giảm hoàn toàn nỗ lực thúc đẩy giao thông công cộng của thành phố."
                 },
                 {
-                  "action_en": "some ticket conductors exhibit rude, impatient, and dismissive attitudes when giving change",
+                  "action_en": "some ticket conductors exhibit rude, impatient, and impatient attitudes when giving change",
                   "action_vi": "một vài nhân viên bán vé có thái độ gắt gỏng, thiếu kiên nhẫn khi trả lại tiền thừa",
                   "reason_en": "because this helps tarnish the welcoming and helpful public image of the municipal bus network.",
                   "reason_vi": "làm xấu đi hình ảnh thân thiện và văn minh của hệ thống xe buýt thành phố.",
@@ -14286,7 +14286,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on our recent celebratory birthday dinner hosted at Golden Spoon restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the excellent culinary presentation and rich flavours of your grilled specialties, which delighted our guests. Furthermore, I was particularly impressed with the prompt and professional greeting offered by the front host upon our arrival.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the considerable delay in course clearance and dessert delivery, which disrupted the celebratory momentum. Additionally, I was disappointed with the acoustic environment, as high background music volume made it difficult to talk comfortably throughout the dinner.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you refine table management protocols to ensure timely transitions between course servings. Furthermore, it would be better if you could modulate sound levels appropriately within private banquet areas to create a relaxing dining atmosphere.\n\nI hope my feedback will be useful in improving your hospitality standards. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Quản lý nhà hàng Golden Spoon,\n\nTôi viết thư này để cung cấp đánh giá phản hồi về bữa tiệc sinh nhật vừa qua của chúng tôi được tổ chức tại nhà hàng Golden Spoon. Gần đây tôi đã sử dụng dịch vụ của quý nhà hàng và muốn chia sẻ trải nghiệm của mình.\n\nNhìn chung, tôi nhận thấy nhà hàng của quý vị rất đáng khen ngợi, mặc dù vẫn còn một vài khía cạnh có thể được cải thiện. Một điểm tôi đánh giá cao là cách trình bày ẩm thực tinh tế và hương vị đậm đà của các món nướng đặc sắc, khiến toàn bộ khách mời đều hài lòng. Hơn nữa, tôi đặc biệt ấn tượng với sự tiếp đón niềm nở và chuyên nghiệp của nhân viên lễ tân ngay khi chúng tôi bước vào.\n\nTuy nhiên, cũng có một số điểm cần được nâng cao. Một vấn đề mà chúng tôi gặp phải là sự chậm trễ đáng kể trong việc dọn đĩa và lên món tráng miệng, làm gián đoạn nhịp điệu của buổi tiệc sinh nhật. Thêm vào đó, tôi cảm thấy thất vọng với môi trường âm thanh, khi nhạc nền bật quá lớn gây cản trở việc trò chuyện thân mật trong suốt bữa tối.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài đề xuất. Tôi gợi ý quý nhà hàng hoàn thiện quy trình phục vụ tại bàn để đảm bảo sự chuyển tiếp nhịp nhàng giữa các món ăn. Hơn nữa, sẽ tốt hơn nếu quý vị điều chỉnh mức âm thanh vừa phải trong các khu vực phòng tiệc riêng để mang lại một không gian ẩm thực sang trọng và ấm cúng.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho việc nâng cao tiêu chuẩn phục vụ của nhà hàng. Xin vui lòng liên hệ nếu quý vị có thêm bất kỳ thắc mắc nào.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on our recent celebratory birthday dinner hosted at Golden Spoon restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exquisite culinary presentation and rich flavours of your grilled specialties, which delighted our guests. Furthermore, I was particularly impressed with the prompt and professional greeting offered by the front host upon our arrival.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the considerable delay in course clearance and dessert delivery, which disrupted the celebratory momentum. Additionally, I was disappointed with the acoustic environment, as high background music volume made it difficult to talk comfortably throughout the dinner.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you refine table management protocols to ensure timely transitions between course servings. Furthermore, it would be better if you could modulate sound levels appropriately within private banquet areas to create a relaxing dining atmosphere.\n\nI hope my feedback will be useful in improving your hospitality standards. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on our recent celebratory birthday dinner hosted at Golden Spoon restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the excellent culinary presentation and rich flavours of your grilled specialties, which delighted our guests. Furthermore, I was particularly impressed with the prompt and professional greeting offered by the front host upon our arrival.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the considerable delay in course clearance and dessert delivery, which disrupted the celebratory momentum. Additionally, I was disappointed with the acoustic environment, as high background music volume made it difficult to talk comfortably throughout the dinner.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you refine table management protocols to ensure timely transitions between course servings. Furthermore, it would be better if you could modulate sound levels appropriately within private banquet areas to create a relaxing dining atmosphere.\n\nI hope my feedback will be useful in improving your hospitality standards. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "translation": "Kính gửi Quản lý nhà hàng Golden Spoon,\n\nTôi viết thư này để cung cấp đánh giá phản hồi về bữa tiệc sinh nhật vừa qua của chúng tôi được tổ chức tại nhà hàng Golden Spoon. Gần đây tôi đã sử dụng dịch vụ của quý nhà hàng và muốn chia sẻ trải nghiệm của mình.\n\nNhìn chung, tôi nhận thấy nhà hàng của quý vị rất đáng khen ngợi, mặc dù vẫn còn một vài khía cạnh có thể được cải thiện. Một điểm tôi đánh giá cao là cách trình bày ẩm thực tinh tế và hương vị đậm đà của các món nướng đặc sắc, khiến toàn bộ khách mời đều hài lòng. Hơn nữa, tôi đặc biệt ấn tượng với sự tiếp đón niềm nở và chuyên nghiệp của nhân viên lễ tân ngay khi chúng tôi bước vào.\n\nTuy nhiên, cũng có một số điểm cần được nâng cao. Một vấn đề mà chúng tôi gặp phải là sự chậm trễ đáng kể trong việc dọn đĩa và lên món tráng miệng, làm gián đoạn nhịp điệu của buổi tiệc sinh nhật. Thêm vào đó, tôi cảm thấy thất vọng với môi trường âm thanh, khi nhạc nền bật quá lớn gây cản trở việc trò chuyện thân mật trong suốt bữa tối.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài đề xuất. Tôi gợi ý quý nhà hàng hoàn thiện quy trình phục vụ tại bàn để đảm bảo sự chuyển tiếp nhịp nhàng giữa các món ăn. Hơn nữa, sẽ tốt hơn nếu quý vị điều chỉnh mức âm thanh vừa phải trong các khu vực phòng tiệc riêng để mang lại một không gian ẩm thực sang trọng và ấm cúng.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho việc nâng cao tiêu chuẩn phục vụ của nhà hàng. Xin vui lòng liên hệ nếu quý vị có thêm bất kỳ thắc mắc nào.\n\nTrân trọng,",
             "word_count": 209,
             "key_structures": [
@@ -14458,7 +14458,7 @@ const LETTERS_DATA = [
                   "reason_vi": "buộc khách mời phải gào to mới có thể nói chuyện và trao đổi với nhau qua bàn.",
                   "expansion_1_en": "The loud music volume forced our elderly family members to cover their ears several times.",
                   "expansion_1_vi": "Âm lượng loa quá lớn đã buộc những người lớn tuổi trong gia đình chúng tôi phải liên tục bịt tai.",
-                  "expansion_2_en": "Guests were compelled to shout across the table just to hear each other's congratulatory remarks.",
+                  "expansion_2_en": "Guests had to shout across the table just to hear each other's congratulatory remarks.",
                   "expansion_2_vi": "Mọi người buộc phải nói to hét lên qua bàn tiệc chỉ để nghe được những lời chúc mừng của nhau."
                 },
                 {
@@ -14613,224 +14613,224 @@ const LETTERS_DATA = [
             ]
           },
           "suggested_ideas": [
-          {
-                    "id": 1,
-                    "title_en": "1. Overall satisfaction level",
-                    "title_vi": "1. Mức độ hài lòng tổng thể với kỳ lưu trú",
-                    "icon": "fa-thumbs-up",
-                    "pattern_en": "Overall, I was very satisfied / mostly pleased / somewhat disappointed with [aspect], because [Reason].",
-                    "pattern_vi": "Nhìn chung, tôi rất hài lòng / khá vui mừng / đôi chút thất vọng với [khía cạnh], vì [Lý do].",
-                    "options": [
-                              {
-                                        "action_en": "Overall, I was very satisfied with the warm hospitality and professional service.",
-                                        "action_vi": "nhìn chung tôi rất hài lòng với sự hiếu khách ấm áp và dịch vụ chuyên nghiệp.",
-                                        "reason_en": "because everything was well-managed and our family had a truly relaxing stay.",
-                                        "reason_vi": "vì mọi thứ đều được chuẩn bị chu đáo và gia đình chúng tôi đã có một kỳ lưu trú thực sự thư thái.",
-                                        "expansion_1_en": "The attentive service and polite attitude of your entire team left a lasting positive impression on us.",
-                                        "expansion_1_vi": "Sự phục vụ chu đáo và thái độ lễ phép của toàn thể nhân viên đã để lại ấn tượng tốt đẹp lâu dài cho chúng tôi.",
-                                        "expansion_2_en": "It proved to be one of the most wonderful vacation breaks we have enjoyed in recent years.",
-                                        "expansion_2_vi": "Đây thực sự là một trong những kỳ nghỉ tuyệt vời nhất mà chúng tôi được trải nghiệm trong những năm gần đây."
-                              },
-                              {
-                                        "action_en": "I was generally pleased with my stay, though a few minor aspects could be improved.",
-                                        "action_vi": "nhìn chung tôi khá hài lòng với kỳ nghỉ, mặc dù có vài chi tiết nhỏ có thể cải thiện thêm.",
-                                        "reason_en": "as most hotel amenities lived up to our high expectations.",
-                                        "reason_vi": "do phần lớn các tiện nghi của khách sạn đều đáp ứng đúng kỳ vọng cao của chúng tôi.",
-                                        "expansion_1_en": "With some small improvements in daily service, your hotel could easily become truly exceptional.",
-                                        "expansion_1_vi": "Chỉ cần tinh chỉnh thêm một chút trong vận hành hằng ngày, khách sạn hoàn toàn có thể đạt tới sự hoàn hảo.",
-                                        "expansion_2_en": "We certainly intend to recommend your hotel to our close friends and colleagues.",
-                                        "expansion_2_vi": "Chúng tôi chắc chắn sẽ giới thiệu khách sạn đến bạn bè thân thiết và đồng nghiệp."
-                              },
-                              {
-                                        "action_en": "Our overall experience was wonderful and we truly appreciated the great hospitality.",
-                                        "action_vi": "trải nghiệm tổng thể của chúng tôi rất tuyệt vời và chúng tôi thực sự cảm kích lòng hiếu khách.",
-                                        "reason_en": "because the peaceful atmosphere helped us fully recharge our energy.",
-                                        "reason_vi": "vì không gian yên bình đã giúp chúng tôi nạp lại trọn vẹn năng lượng.",
-                                        "expansion_1_en": "From the welcoming reception to check-out, we felt well taken care of at every step.",
-                                        "expansion_1_vi": "Từ khâu đón tiếp ban đầu đến lúc trả phòng, chúng tôi đều cảm nhận được sự chăm sóc tận tâm ở mọi khâu.",
-                                        "expansion_2_en": "Your convenient central location also allowed us to explore the city without any transport hassle.",
-                                        "expansion_2_vi": "Vị trí trung tâm thuận tiện cũng giúp chúng tôi tham quan thành phố mà không gặp trở ngại nào về đi lại."
-                              },
-                              {
-                                        "action_en": "While several aspects of our stay were enjoyable, I was dissatisfied with a few key services.",
-                                        "action_vi": "dù một số mặt của kỳ lưu trú khá dễ chịu, tôi cảm thấy chưa hài lòng với một vài dịch vụ chính.",
-                                        "reason_en": "because unexpected problems made our family holiday less comfortable.",
-                                        "reason_vi": "vì những bất tiện không lường trước đã ảnh hưởng đến sự thoải mái trong kỳ nghỉ của gia đình.",
-                                        "expansion_1_en": "I am writing this constructive feedback so your management team can address these issues promptly.",
-                                        "expansion_1_vi": "Tôi viết phản hồi mang tính xây dựng này để ban quản lý có thể nhanh chóng khắc phục các vấn đề trên.",
-                                        "expansion_2_en": "I trust that taking these matters seriously will help maintain your hotel's high reputation.",
-                                        "expansion_2_vi": "Tôi tin rằng việc quan tâm đúng mức tới các vấn đề này sẽ giúp duy trì uy tín cao của khách sạn."
-                              },
-                              {
-                                        "action_en": "I found the hotel accommodation satisfactory and reasonable for our travel budget.",
-                                        "action_vi": "tôi nhận thấy tiện nghi phòng nghỉ thỏa đáng và phù hợp với ngân sách du lịch của chúng tôi.",
-                                        "reason_en": "because the room rate offered good value for money given the central location.",
-                                        "reason_vi": "vì giá phòng mang lại giá trị tương xứng so với vị trí trung tâm thuận tiện.",
-                                        "expansion_1_en": "The complimentary amenities provided in the room were thoughtful and very convenient.",
-                                        "expansion_1_vi": "Các tiện nghi miễn phí được bố trí trong phòng rất chu đáo và tiện lợi.",
-                                        "expansion_2_en": "It made our short weekend getaway smooth and enjoyable.",
-                                        "expansion_2_vi": "Điều đó đã giúp chuyến đi nghỉ cuối tuần ngắn ngày của chúng tôi trở nên êm ả và thú vị."
-                              },
-                              {
-                                        "action_en": "Unfortunately, my experience fell somewhat below expectations during this recent visit.",
-                                        "action_vi": "thật không may, trải nghiệm của tôi lần này có phần dưới mức kỳ vọng.",
-                                        "reason_en": "as recurring technical issues in our room caused considerable annoyance.",
-                                        "reason_vi": "do các sự cố kỹ thuật lặp lại trong phòng đã gây ra nhiều phiền toái.",
-                                        "expansion_1_en": "I hope that my honest feedback will help you improve overall service quality for future guests.",
-                                        "expansion_1_vi": "Tôi hy vọng những chia sẻ thẳng thắn này sẽ hỗ trợ ban quản lý nâng cao chất lượng dịch vụ cho du khách tương lai.",
-                                        "expansion_2_en": "We have always valued your brand and hope to see noticeable improvements on our next return.",
-                                        "expansion_2_vi": "Chúng tôi vốn luôn yêu mến thương hiệu khách sạn và hy vọng sẽ thấy những cải thiện rõ rệt trong lần trở lại tới."
-                              }
-                    ]
-          },
-          {
-                    "id": 2,
-                    "title_en": "2. Describe your experience (Positive & Areas for improvement)",
-                    "title_vi": "2. Miêu tả trải nghiệm thực tế (Điểm khen & Điểm cần cải thiện)",
-                    "icon": "fa-hotel",
-                    "pattern_en": "Regarding [aspect], I found that [positive / negative detail]. In particular, [Expansion].",
-                    "pattern_vi": "Về [khía cạnh], tôi nhận thấy [chi tiết khen / chê]. Cụ thể là [Câu mở rộng].",
-                    "options": [
-                              {
-                                        "action_en": "The front desk and housekeeping staff were consistently friendly, polite, and helpful.",
-                                        "action_vi": "nhân viên lễ tân và dọn phòng luôn thân thiện, lịch thiệp và nhiệt tình giúp đỡ.",
-                                        "reason_en": "Their professional attitude and warm smiles made our stay completely stress-free.",
-                                        "reason_vi": "thái độ chuyên nghiệp và nụ cười ấm áp của họ đã giúp kỳ nghỉ của chúng tôi hoàn toàn thoải mái.",
-                                        "expansion_1_en": "They answered all our questions politely and gave excellent recommendations for local restaurants.",
-                                        "expansion_1_vi": "Họ trả lời mọi câu hỏi rất nhã nhặn và gợi ý những quán ăn địa phương vô cùng tuyệt vời.",
-                                        "expansion_2_en": "Their welcoming manner gave us confidence that guests' needs are genuinely valued.",
-                                        "expansion_2_vi": "Cách đón tiếp niềm nở của họ khiến chúng tôi tin tưởng rằng nhu cầu của du khách thực sự được coi trọng."
-                              },
-                              {
-                                        "action_en": "The guest room was exceptionally clean, well-arranged, and spacious.",
-                                        "action_vi": "phòng nghỉ đặc biệt sạch sẽ, ngăn nắp và rộng rãi.",
-                                        "reason_en": "because the housekeeping staff cleaned thoroughly and refreshed fresh towels every morning.",
-                                        "reason_vi": "vì đội ngũ dọn phòng đã làm vệ sinh rất kỹ và thay khăn mới mỗi buổi sáng.",
-                                        "expansion_1_en": "The modern interior furnishings and bright lighting made our stay very comfortable.",
-                                        "expansion_1_vi": "Nội thất hiện đại và ánh sáng chan hòa đã khiến kỳ lưu trú của chúng tôi rất tiện nghi.",
-                                        "expansion_2_en": "However, the air conditioner blew directly onto the bed, which felt quite chilly at night.",
-                                        "expansion_2_vi": "Tuy nhiên, máy điều hòa lại thổi thẳng vào giường khiến ban đêm cảm thấy khá lạnh."
-                              },
-                              {
-                                        "action_en": "The daily breakfast buffet offered a delicious selection of freshly prepared dishes.",
-                                        "action_vi": "bữa sáng buffet hằng ngày mang đến thực đơn ngon miệng với nhiều món ăn tươi nóng.",
-                                        "reason_en": "giving guests plenty of wonderful energy to start each sightseeing day.",
-                                        "reason_vi": "mang lại nguồn năng lượng dồi dào để du khách bắt đầu mỗi ngày tham quan.",
-                                        "expansion_1_en": "However, during peak morning hours between 7:30 and 8:30 AM, several popular food trays ran empty.",
-                                        "expansion_1_vi": "Tuy nhiên, vào giờ cao điểm buổi sáng từ 7h30 đến 8h30, một số khay đồ ăn phổ biến bị hết sạch.",
-                                        "expansion_2_en": "The kitchen staff did not refill the dishes quickly enough, leaving many guests waiting.",
-                                        "expansion_2_vi": "Nhân viên bếp đã không châm thêm đồ ăn đủ nhanh, khiến nhiều khách phải đứng chờ."
-                              },
-                              {
-                                        "action_en": "The Wi-Fi connection in our bedroom was unstable and frequently disconnected.",
-                                        "action_vi": "kết nối Wi-Fi trong phòng ngủ không ổn định và thường xuyên bị ngắt quãng.",
-                                        "reason_en": "which made it very inconvenient to check work emails or search for travel information.",
-                                        "reason_vi": "điều này gây nhiều bất tiện khi kiểm tra email công việc hoặc tra cứu thông tin du lịch.",
-                                        "expansion_1_en": "The network signal dropped completely every time we moved towards the balcony.",
-                                        "expansion_1_vi": "Tín hiệu mạng bị mất hẳn mỗi khi chúng tôi bước ra phía ban công.",
-                                        "expansion_2_en": "A stable high-speed internet connection is essential for travelers who need to stay connected.",
-                                        "expansion_2_vi": "Kết nối internet tốc độ cao ổn định là điều rất thiết yếu đối với du khách cần giữ liên lạc."
-                              },
-                              {
-                                        "action_en": "The mattress and pillows were soft, clean, and extremely comfortable.",
-                                        "action_vi": "đệm và gối nằm rất êm ái, sạch sẽ và vô cùng thoải mái.",
-                                        "reason_en": "which helped us get deep, peaceful sleep after long walking tours around the city.",
-                                        "reason_vi": "giúp chúng tôi có giấc ngủ sâu và yên bình sau những chuyến đi bộ dài quanh thành phố.",
-                                        "expansion_1_en": "The bedsheets were spotless and smelled fresh throughout our entire stay.",
-                                        "expansion_1_vi": "Ga trải giường sạch tinh tươm và thơm mát trong suốt kỳ lưu trú của chúng tôi.",
-                                        "expansion_2_en": "High-quality bedding is definitely one of your hotel's strongest highlights.",
-                                        "expansion_2_vi": "Bộ chăn ga gối chất lượng cao chắc chắn là một trong những điểm cộng lớn nhất của khách sạn."
-                              },
-                              {
-                                        "action_en": "The soundproofing between guest rooms was not very effective.",
-                                        "action_vi": "khả năng cách âm giữa các phòng nghỉ còn chưa thực sự tốt.",
-                                        "reason_en": "because loud conversations and television sounds from the neighboring room could be heard clearly.",
-                                        "reason_vi": "vì tiếng nói chuyện lớn và âm thanh tivi từ phòng bên cạnh có thể nghe thấy rõ ràng.",
-                                        "expansion_1_en": "In addition, housekeeping staff talking loudly in the hallway woke us up quite early in the morning.",
-                                        "expansion_1_vi": "Ngoài ra, nhân viên dọn phòng nói chuyện khá to ngoài hành lang đã đánh thức chúng tôi dậy từ sớm.",
-                                        "expansion_2_en": "This reduced the relaxing atmosphere that we had expected during our holiday.",
-                                        "expansion_2_vi": "Điều này làm giảm đi bầu không khí thư thái mà chúng tôi mong đợi trong kỳ nghỉ."
-                              },
-                              {
-                                        "action_en": "The room rate was reasonable and matched the overall quality of services provided.",
-                                        "action_vi": "giá phòng hợp lý và tương xứng với chất lượng dịch vụ tổng thể được cung cấp.",
-                                        "reason_en": "offering good value for money and making our family holiday feel truly worthwhile.",
-                                        "reason_vi": "mang lại giá trị xứng đáng với chi phí bỏ ra và khiến kỳ nghỉ gia đình thực sự ý nghĩa.",
-                                        "expansion_1_en": "However, the prices of drinks and snacks in the mini-bar were much higher than expected.",
-                                        "expansion_1_vi": "Tuy nhiên, giá đồ uống và đồ ăn nhẹ trong tủ lạnh mini lại đắt hơn nhiều so với dự kiến.",
-                                        "expansion_2_en": "Transparent pricing with fewer unexpected extra charges would make guests feel much happier.",
-                                        "expansion_2_vi": "Mức giá rõ ràng và ít khoản phụ thu bất ngờ sẽ giúp khách hàng cảm thấy hài lòng hơn nhiều."
-                              },
-                              {
-                                        "action_en": "The bathroom was well-ventilated, but the hot water supply was inconsistent in the evening.",
-                                        "action_vi": "phòng tắm rất thoáng khí, nhưng nguồn nước nóng vào buổi tối lại không ổn định.",
-                                        "reason_en": "as the water pressure was unstable and took several minutes to warm up.",
-                                        "reason_vi": "do áp lực nước chập chờn và phải mất vài phút nước mới đủ ấm.",
-                                        "expansion_1_en": "The drainage system also drained slowly, causing water to pool around the shower floor.",
-                                        "expansion_1_vi": "Hệ thống thoát nước cũng chảy khá chậm khiến nước bị đọng trên sàn tắm.",
-                                        "expansion_2_en": "A quick maintenance check could easily fix these plumbing issues.",
-                                        "expansion_2_vi": "Một đợt kiểm tra bảo trì nhanh chóng có thể dễ dàng khắc phục các sự cố đường ống nước này."
-                              }
-                    ]
-          },
-          {
-                    "id": 3,
-                    "title_en": "3. Suggestions for service improvement",
-                    "title_vi": "3. Đề xuất cải thiện chất lượng dịch vụ (Giải pháp kiến nghị)",
-                    "icon": "fa-screwdriver-wrench",
-                    "pattern_en": "I strongly recommend / suggest that the hotel [Action], in order to [Benefit].",
-                    "pattern_vi": "Tôi chân thành khuyến nghị / đề xuất khách sạn [Hành động], nhằm [Lợi ích].",
-                    "options": [
-                              {
-                                        "action_en": "I suggest that the hotel upgrade the wireless internet routers on every guest floor.",
-                                        "action_vi": "tôi đề xuất khách sạn nâng cấp các bộ định tuyến Wi-Fi ở mỗi tầng phòng nghỉ.",
-                                        "reason_en": "in order to guarantee a fast, stable, and uninterrupted internet connection for all guests.",
-                                        "reason_vi": "nhằm đảm bảo đường truyền internet nhanh, ổn định và không bị gián đoạn cho mọi du khách.",
-                                        "expansion_1_en": "Installing Wi-Fi signal boosters along corridors would solve weak signal spots immediately.",
-                                        "expansion_1_vi": "Lắp đặt thêm các bộ kích sóng hiện đại dọc hành lang sẽ giải quyết triệt để các góc khuất sóng."
-                              },
-                              {
-                                        "action_en": "I recommend assigning dedicated kitchen staff to refill buffet trays promptly during peak hours.",
-                                        "action_vi": "tôi khuyến nghị phân công nhân viên bếp túc trực để châm thêm thức ăn buffet kịp thời trong giờ cao điểm.",
-                                        "reason_en": "so that all guests can enjoy a wide variety of fresh, hot food without long waiting times.",
-                                        "reason_vi": "để mọi du khách đều được thưởng thức đầy đủ các món ăn tươi nóng mà không phải chờ đợi lâu.",
-                                        "expansion_1_en": "Rotating menu items regularly would also make breakfast exciting for guests on longer stays.",
-                                        "expansion_1_vi": "Thường xuyên luân phiên đổi mới món ăn cũng sẽ giúp bữa sáng thêm thú vị cho khách ở dài ngày."
-                              },
-                              {
-                                        "action_en": "I would suggest reminding the housekeeping team to keep quiet when working in corridors before 9:00 AM.",
-                                        "action_vi": "tôi muốn đề xuất nhắc nhở đội dọn phòng giữ yên lặng khi làm việc ngoài hành lang trước 9 giờ sáng.",
-                                        "reason_en": "because vacationing guests need quiet surroundings to sleep in and rest comfortably.",
-                                        "reason_vi": "vì khách đi nghỉ dưỡng cần không gian yên tĩnh để ngủ nướng và nghỉ ngơi thoải mái.",
-                                        "expansion_1_en": "Using rubber wheels on housekeeping carts would significantly reduce noise in the corridors.",
-                                        "expansion_1_vi": "Gắn thêm bánh xe cao su giảm chấn cho các xe đẩy dọn phòng sẽ giảm đáng kể tiếng ồn ầm ĩ ngoài hành lang."
-                              },
-                              {
-                                        "action_en": "I believe the hotel should offer more reasonable rates for mini-bar snacks and laundry services.",
-                                        "action_vi": "tôi tin rằng khách sạn nên đưa ra mức giá hợp lý hơn cho đồ ăn mini-bar và dịch vụ giặt ủi.",
-                                        "reason_en": "so that guests feel the total cost fairly matches the high quality of accommodation received.",
-                                        "reason_vi": "để khách cảm thấy tổng chi phí tương xứng một cách công bằng với chất lượng lưu trú nhận được.",
-                                        "expansion_1_en": "Offering discount packages for families staying more than two nights would also boost guest loyalty.",
-                                        "expansion_1_vi": "Đưa ra các gói ưu đãi giảm giá cho gia đình ở trên 2 đêm cũng sẽ gia tăng sự gắn bó của khách hàng."
-                              },
-                              {
-                                        "action_en": "I suggest that your technical maintenance team inspect the shower drainage and hot water pressure in guest rooms.",
-                                        "action_vi": "tôi đề xuất đội kỹ thuật bảo trì kiểm tra đường thoát nước và áp lực nước nóng trong các phòng nghỉ.",
-                                        "reason_en": "to ensure that guests always enjoy a smooth and relaxing hot shower after a long day.",
-                                        "reason_vi": "để đảm bảo du khách luôn được tận hưởng vòi tắm nước nóng mượt mà, thư giãn sau một ngày dài.",
-                                        "expansion_1_en": "Regular routine maintenance checks before guest check-in will easily prevent unexpected plumbing faults.",
-                                        "expansion_1_vi": "Kiểm tra bảo dưỡng định kỳ trước khi khách nhận phòng sẽ dễ dàng ngăn chặn các sự cố đường ống bất ngờ."
-                              },
-                              {
-                                        "action_en": "I recommend providing regular customer care training sessions for all front desk and service staff.",
-                                        "action_vi": "tôi khuyến nghị tổ chức các buổi tập huấn chăm sóc khách hàng định kỳ cho toàn bộ nhân viên lễ tân và phục vụ.",
-                                        "reason_en": "to maintain a consistently polite, prompt, and welcoming attitude toward international guests.",
-                                        "reason_vi": "nhằm duy trì thái độ luôn lịch sự, nhanh nhẹn và niềm nở đối với du khách quốc tế.",
-                                        "expansion_1_en": "A warm smile and proactive greeting at the lobby door make a huge positive difference to every traveler.",
-                                        "expansion_1_vi": "Một nụ cười ấm áp và lời chào chủ động ngay cửa sảnh sẽ tạo nên ấn tượng rất lớn với mọi du khách."
-                              }
-                    ]
-          }
+            {
+              "id": 1,
+              "title_en": "1. Overall satisfaction level",
+              "title_vi": "1. Mức độ hài lòng tổng thể với kỳ lưu trú",
+              "icon": "fa-thumbs-up",
+              "pattern_en": "Overall, I was very satisfied / mostly pleased / somewhat disappointed with [aspect], because [Reason].",
+              "pattern_vi": "Nhìn chung, tôi rất hài lòng / khá vui mừng / đôi chút thất vọng với [khía cạnh], vì [Lý do].",
+              "options": [
+                {
+                  "action_en": "Overall, I was very satisfied with the warm hospitality and professional service.",
+                  "action_vi": "nhìn chung tôi rất hài lòng với sự hiếu khách ấm áp và dịch vụ chuyên nghiệp.",
+                  "reason_en": "because everything was well-managed and our family had a truly relaxing stay.",
+                  "reason_vi": "vì mọi thứ đều được chuẩn bị chu đáo và gia đình chúng tôi đã có một kỳ lưu trú thực sự thư thái.",
+                  "expansion_1_en": "The attentive service and polite attitude of your entire team left a lasting positive impression on us.",
+                  "expansion_1_vi": "Sự phục vụ chu đáo và thái độ lễ phép của toàn thể nhân viên đã để lại ấn tượng tốt đẹp lâu dài cho chúng tôi.",
+                  "expansion_2_en": "It proved to be one of the most wonderful vacation breaks we have enjoyed in recent years.",
+                  "expansion_2_vi": "Đây thực sự là một trong những kỳ nghỉ tuyệt vời nhất mà chúng tôi được trải nghiệm trong những năm gần đây."
+                },
+                {
+                  "action_en": "I was generally pleased with my stay, though a few minor aspects could be improved.",
+                  "action_vi": "nhìn chung tôi khá hài lòng với kỳ nghỉ, mặc dù có vài chi tiết nhỏ có thể cải thiện thêm.",
+                  "reason_en": "as most hotel amenities lived up to our high expectations.",
+                  "reason_vi": "do phần lớn các tiện nghi của khách sạn đều đáp ứng đúng kỳ vọng cao của chúng tôi.",
+                  "expansion_1_en": "With some small improvements in daily service, your hotel could easily become truly exceptional.",
+                  "expansion_1_vi": "Chỉ cần tinh chỉnh thêm một chút trong vận hành hằng ngày, khách sạn hoàn toàn có thể đạt tới sự hoàn hảo.",
+                  "expansion_2_en": "We certainly intend to recommend your hotel to our close friends and colleagues.",
+                  "expansion_2_vi": "Chúng tôi chắc chắn sẽ giới thiệu khách sạn đến bạn bè thân thiết và đồng nghiệp."
+                },
+                {
+                  "action_en": "Our overall experience was wonderful and we truly appreciated the great hospitality.",
+                  "action_vi": "trải nghiệm tổng thể của chúng tôi rất tuyệt vời và chúng tôi thực sự cảm kích lòng hiếu khách.",
+                  "reason_en": "because the peaceful atmosphere helped us fully recharge our energy.",
+                  "reason_vi": "vì không gian yên bình đã giúp chúng tôi nạp lại trọn vẹn năng lượng.",
+                  "expansion_1_en": "From the welcoming reception to check-out, we felt well taken care of at every step.",
+                  "expansion_1_vi": "Từ khâu đón tiếp ban đầu đến lúc trả phòng, chúng tôi đều cảm nhận được sự chăm sóc tận tâm ở mọi khâu.",
+                  "expansion_2_en": "Your convenient central location also allowed us to explore the city without any transport hassle.",
+                  "expansion_2_vi": "Vị trí trung tâm thuận tiện cũng giúp chúng tôi tham quan thành phố mà không gặp trở ngại nào về đi lại."
+                },
+                {
+                  "action_en": "While several aspects of our stay were enjoyable, I was dissatisfied with a few key services.",
+                  "action_vi": "dù một số mặt của kỳ lưu trú khá dễ chịu, tôi cảm thấy chưa hài lòng với một vài dịch vụ chính.",
+                  "reason_en": "because unexpected problems made our family holiday less comfortable.",
+                  "reason_vi": "vì những bất tiện không lường trước đã ảnh hưởng đến sự thoải mái trong kỳ nghỉ của gia đình.",
+                  "expansion_1_en": "I am writing this constructive feedback so your management team can address these issues promptly.",
+                  "expansion_1_vi": "Tôi viết phản hồi mang tính xây dựng này để ban quản lý có thể nhanh chóng khắc phục các vấn đề trên.",
+                  "expansion_2_en": "I trust that taking these matters seriously will help maintain your hotel's high reputation.",
+                  "expansion_2_vi": "Tôi tin rằng việc quan tâm đúng mức tới các vấn đề này sẽ giúp duy trì uy tín cao của khách sạn."
+                },
+                {
+                  "action_en": "I found the hotel accommodation satisfactory and reasonable for our travel budget.",
+                  "action_vi": "tôi nhận thấy tiện nghi phòng nghỉ thỏa đáng và phù hợp với ngân sách du lịch của chúng tôi.",
+                  "reason_en": "because the room rate offered good value for money given the central location.",
+                  "reason_vi": "vì giá phòng mang lại giá trị tương xứng so với vị trí trung tâm thuận tiện.",
+                  "expansion_1_en": "The complimentary amenities provided in the room were thoughtful and very convenient.",
+                  "expansion_1_vi": "Các tiện nghi miễn phí được bố trí trong phòng rất chu đáo và tiện lợi.",
+                  "expansion_2_en": "It made our short weekend getaway smooth and enjoyable.",
+                  "expansion_2_vi": "Điều đó đã giúp chuyến đi nghỉ cuối tuần ngắn ngày của chúng tôi trở nên êm ả và thú vị."
+                },
+                {
+                  "action_en": "Unfortunately, my experience fell somewhat below expectations during this recent visit.",
+                  "action_vi": "thật không may, trải nghiệm của tôi lần này có phần dưới mức kỳ vọng.",
+                  "reason_en": "as recurring technical issues in our room caused considerable annoyance.",
+                  "reason_vi": "do các sự cố kỹ thuật lặp lại trong phòng đã gây ra nhiều phiền toái.",
+                  "expansion_1_en": "I hope that my honest feedback will help you improve overall service quality for future guests.",
+                  "expansion_1_vi": "Tôi hy vọng những chia sẻ thẳng thắn này sẽ hỗ trợ ban quản lý nâng cao chất lượng dịch vụ cho du khách tương lai.",
+                  "expansion_2_en": "We have always valued your brand and hope to see noticeable improvements on our next return.",
+                  "expansion_2_vi": "Chúng tôi vốn luôn yêu mến thương hiệu khách sạn và hy vọng sẽ thấy những cải thiện rõ rệt trong lần trở lại tới."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Describe your experience (Positive & Areas for improvement)",
+              "title_vi": "2. Miêu tả trải nghiệm thực tế (Điểm khen & Điểm cần cải thiện)",
+              "icon": "fa-hotel",
+              "pattern_en": "Regarding [aspect], I found that [positive / negative detail]. In particular, [Expansion].",
+              "pattern_vi": "Về [khía cạnh], tôi nhận thấy [chi tiết khen / chê]. Cụ thể là [Câu mở rộng].",
+              "options": [
+                {
+                  "action_en": "The front desk and housekeeping staff were consistently friendly, polite, and helpful.",
+                  "action_vi": "nhân viên lễ tân và dọn phòng luôn thân thiện, lịch thiệp và nhiệt tình giúp đỡ.",
+                  "reason_en": "Their professional attitude and warm smiles made our stay completely stress-free.",
+                  "reason_vi": "thái độ chuyên nghiệp và nụ cười ấm áp của họ đã giúp kỳ nghỉ của chúng tôi hoàn toàn thoải mái.",
+                  "expansion_1_en": "They answered all our questions politely and gave excellent recommendations for local restaurants.",
+                  "expansion_1_vi": "Họ trả lời mọi câu hỏi rất nhã nhặn và gợi ý những quán ăn địa phương vô cùng tuyệt vời.",
+                  "expansion_2_en": "Their welcoming manner gave us confidence that guests' needs are genuinely valued.",
+                  "expansion_2_vi": "Cách đón tiếp niềm nở của họ khiến chúng tôi tin tưởng rằng nhu cầu của du khách thực sự được coi trọng."
+                },
+                {
+                  "action_en": "The guest room was exceptionally clean, well-arranged, and spacious.",
+                  "action_vi": "phòng nghỉ đặc biệt sạch sẽ, ngăn nắp và rộng rãi.",
+                  "reason_en": "because the housekeeping staff cleaned thoroughly and refreshed fresh towels every morning.",
+                  "reason_vi": "vì đội ngũ dọn phòng đã làm vệ sinh rất kỹ và thay khăn mới mỗi buổi sáng.",
+                  "expansion_1_en": "The modern interior furnishings and bright lighting made our stay very comfortable.",
+                  "expansion_1_vi": "Nội thất hiện đại và ánh sáng chan hòa đã khiến kỳ lưu trú của chúng tôi rất tiện nghi.",
+                  "expansion_2_en": "However, the air conditioner blew directly onto the bed, which felt quite chilly at night.",
+                  "expansion_2_vi": "Tuy nhiên, máy điều hòa lại thổi thẳng vào giường khiến ban đêm cảm thấy khá lạnh."
+                },
+                {
+                  "action_en": "The daily breakfast buffet offered a delicious selection of freshly prepared dishes.",
+                  "action_vi": "bữa sáng buffet hằng ngày mang đến thực đơn ngon miệng với nhiều món ăn tươi nóng.",
+                  "reason_en": "giving guests plenty of wonderful energy to start each sightseeing day.",
+                  "reason_vi": "mang lại nguồn năng lượng dồi dào để du khách bắt đầu mỗi ngày tham quan.",
+                  "expansion_1_en": "However, during peak morning hours between 7:30 and 8:30 AM, several popular food trays ran empty.",
+                  "expansion_1_vi": "Tuy nhiên, vào giờ cao điểm buổi sáng từ 7h30 đến 8h30, một số khay đồ ăn phổ biến bị hết sạch.",
+                  "expansion_2_en": "The kitchen staff did not refill the dishes quickly enough, leaving many guests waiting.",
+                  "expansion_2_vi": "Nhân viên bếp đã không châm thêm đồ ăn đủ nhanh, khiến nhiều khách phải đứng chờ."
+                },
+                {
+                  "action_en": "The Wi-Fi connection in our bedroom was unstable and frequently disconnected.",
+                  "action_vi": "kết nối Wi-Fi trong phòng ngủ không ổn định và thường xuyên bị ngắt quãng.",
+                  "reason_en": "which made it very inconvenient to check work emails or search for travel information.",
+                  "reason_vi": "điều này gây nhiều bất tiện khi kiểm tra email công việc hoặc tra cứu thông tin du lịch.",
+                  "expansion_1_en": "The network signal dropped completely every time we moved towards the balcony.",
+                  "expansion_1_vi": "Tín hiệu mạng bị mất hẳn mỗi khi chúng tôi bước ra phía ban công.",
+                  "expansion_2_en": "A stable high-speed internet connection is essential for travelers who need to stay connected.",
+                  "expansion_2_vi": "Kết nối internet tốc độ cao ổn định là điều rất thiết yếu đối với du khách cần giữ liên lạc."
+                },
+                {
+                  "action_en": "The mattress and pillows were soft, clean, and extremely comfortable.",
+                  "action_vi": "đệm và gối nằm rất êm ái, sạch sẽ và vô cùng thoải mái.",
+                  "reason_en": "which helped us get deep, peaceful sleep after long walking tours around the city.",
+                  "reason_vi": "giúp chúng tôi có giấc ngủ sâu và yên bình sau những chuyến đi bộ dài quanh thành phố.",
+                  "expansion_1_en": "The bedsheets were spotless and smelled fresh throughout our entire stay.",
+                  "expansion_1_vi": "Ga trải giường sạch tinh tươm và thơm mát trong suốt kỳ lưu trú của chúng tôi.",
+                  "expansion_2_en": "High-quality bedding is definitely one of your hotel's strongest highlights.",
+                  "expansion_2_vi": "Bộ chăn ga gối chất lượng cao chắc chắn là một trong những điểm cộng lớn nhất của khách sạn."
+                },
+                {
+                  "action_en": "The soundproofing between guest rooms was not very effective.",
+                  "action_vi": "khả năng cách âm giữa các phòng nghỉ còn chưa thực sự tốt.",
+                  "reason_en": "because loud conversations and television sounds from the neighboring room could be heard clearly.",
+                  "reason_vi": "vì tiếng nói chuyện lớn và âm thanh tivi từ phòng bên cạnh có thể nghe thấy rõ ràng.",
+                  "expansion_1_en": "In addition, housekeeping staff talking loudly in the hallway woke us up quite early in the morning.",
+                  "expansion_1_vi": "Ngoài ra, nhân viên dọn phòng nói chuyện khá to ngoài hành lang đã đánh thức chúng tôi dậy từ sớm.",
+                  "expansion_2_en": "This reduced the relaxing atmosphere that we had expected during our holiday.",
+                  "expansion_2_vi": "Điều này làm giảm đi bầu không khí thư thái mà chúng tôi mong đợi trong kỳ nghỉ."
+                },
+                {
+                  "action_en": "The room rate was reasonable and matched the overall quality of services provided.",
+                  "action_vi": "giá phòng hợp lý và tương xứng với chất lượng dịch vụ tổng thể được cung cấp.",
+                  "reason_en": "offering good value for money and making our family holiday feel truly worthwhile.",
+                  "reason_vi": "mang lại giá trị xứng đáng với chi phí bỏ ra và khiến kỳ nghỉ gia đình thực sự ý nghĩa.",
+                  "expansion_1_en": "However, the prices of drinks and snacks in the mini-bar were much higher than expected.",
+                  "expansion_1_vi": "Tuy nhiên, giá đồ uống và đồ ăn nhẹ trong tủ lạnh mini lại đắt hơn nhiều so với dự kiến.",
+                  "expansion_2_en": "Transparent pricing with fewer unexpected extra charges would make guests feel much happier.",
+                  "expansion_2_vi": "Mức giá rõ ràng và ít khoản phụ thu bất ngờ sẽ giúp khách hàng cảm thấy hài lòng hơn nhiều."
+                },
+                {
+                  "action_en": "The bathroom was well-ventilated, but the hot water supply was inconsistent in the evening.",
+                  "action_vi": "phòng tắm rất thoáng khí, nhưng nguồn nước nóng vào buổi tối lại không ổn định.",
+                  "reason_en": "as the water pressure was unstable and took several minutes to warm up.",
+                  "reason_vi": "do áp lực nước chập chờn và phải mất vài phút nước mới đủ ấm.",
+                  "expansion_1_en": "The drainage system also drained slowly, causing water to pool around the shower floor.",
+                  "expansion_1_vi": "Hệ thống thoát nước cũng chảy khá chậm khiến nước bị đọng trên sàn tắm.",
+                  "expansion_2_en": "A quick maintenance check could easily fix these plumbing issues.",
+                  "expansion_2_vi": "Một đợt kiểm tra bảo trì nhanh chóng có thể dễ dàng khắc phục các sự cố đường ống nước này."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Suggestions for service improvement",
+              "title_vi": "3. Đề xuất cải thiện chất lượng dịch vụ (Giải pháp kiến nghị)",
+              "icon": "fa-screwdriver-wrench",
+              "pattern_en": "I strongly recommend / suggest that the hotel [Action], in order to [Benefit].",
+              "pattern_vi": "Tôi chân thành khuyến nghị / đề xuất khách sạn [Hành động], nhằm [Lợi ích].",
+              "options": [
+                {
+                  "action_en": "I suggest that the hotel upgrade the wireless internet routers on every guest floor.",
+                  "action_vi": "tôi đề xuất khách sạn nâng cấp các bộ định tuyến Wi-Fi ở mỗi tầng phòng nghỉ.",
+                  "reason_en": "in order to guarantee a fast, stable, and uninterrupted internet connection for all guests.",
+                  "reason_vi": "nhằm đảm bảo đường truyền internet nhanh, ổn định và không bị gián đoạn cho mọi du khách.",
+                  "expansion_1_en": "Installing Wi-Fi signal boosters along corridors would solve weak signal spots immediately.",
+                  "expansion_1_vi": "Lắp đặt thêm các bộ kích sóng hiện đại dọc hành lang sẽ giải quyết triệt để các góc khuất sóng."
+                },
+                {
+                  "action_en": "I recommend assigning dedicated kitchen staff to refill buffet trays promptly during peak hours.",
+                  "action_vi": "tôi khuyến nghị phân công nhân viên bếp túc trực để châm thêm thức ăn buffet kịp thời trong giờ cao điểm.",
+                  "reason_en": "so that all guests can enjoy a wide variety of fresh, hot food without long waiting times.",
+                  "reason_vi": "để mọi du khách đều được thưởng thức đầy đủ các món ăn tươi nóng mà không phải chờ đợi lâu.",
+                  "expansion_1_en": "Rotating menu items regularly would also make breakfast exciting for guests on longer stays.",
+                  "expansion_1_vi": "Thường xuyên luân phiên đổi mới món ăn cũng sẽ giúp bữa sáng thêm thú vị cho khách ở dài ngày."
+                },
+                {
+                  "action_en": "I would suggest reminding the housekeeping team to keep quiet when working in corridors before 9:00 AM.",
+                  "action_vi": "tôi muốn đề xuất nhắc nhở đội dọn phòng giữ yên lặng khi làm việc ngoài hành lang trước 9 giờ sáng.",
+                  "reason_en": "because vacationing guests need quiet surroundings to sleep in and rest comfortably.",
+                  "reason_vi": "vì khách đi nghỉ dưỡng cần không gian yên tĩnh để ngủ nướng và nghỉ ngơi thoải mái.",
+                  "expansion_1_en": "Using rubber wheels on housekeeping carts would significantly reduce noise in the corridors.",
+                  "expansion_1_vi": "Gắn thêm bánh xe cao su giảm chấn cho các xe đẩy dọn phòng sẽ giảm đáng kể tiếng ồn ầm ĩ ngoài hành lang."
+                },
+                {
+                  "action_en": "I believe the hotel should offer more reasonable rates for mini-bar snacks and laundry services.",
+                  "action_vi": "tôi tin rằng khách sạn nên đưa ra mức giá hợp lý hơn cho đồ ăn mini-bar và dịch vụ giặt ủi.",
+                  "reason_en": "so that guests feel the total cost fairly matches the high quality of accommodation received.",
+                  "reason_vi": "để khách cảm thấy tổng chi phí tương xứng một cách công bằng với chất lượng lưu trú nhận được.",
+                  "expansion_1_en": "Offering discount packages for families staying more than two nights would also boost guest loyalty.",
+                  "expansion_1_vi": "Đưa ra các gói ưu đãi giảm giá cho gia đình ở trên 2 đêm cũng sẽ gia tăng sự gắn bó của khách hàng."
+                },
+                {
+                  "action_en": "I suggest that your technical maintenance team inspect the shower drainage and hot water pressure in guest rooms.",
+                  "action_vi": "tôi đề xuất đội kỹ thuật bảo trì kiểm tra đường thoát nước và áp lực nước nóng trong các phòng nghỉ.",
+                  "reason_en": "to ensure that guests always enjoy a smooth and relaxing hot shower after a long day.",
+                  "reason_vi": "để đảm bảo du khách luôn được tận hưởng vòi tắm nước nóng mượt mà, thư giãn sau một ngày dài.",
+                  "expansion_1_en": "Regular routine maintenance checks before guest check-in will easily prevent unexpected plumbing faults.",
+                  "expansion_1_vi": "Kiểm tra bảo dưỡng định kỳ trước khi khách nhận phòng sẽ dễ dàng ngăn chặn các sự cố đường ống bất ngờ."
+                },
+                {
+                  "action_en": "I recommend providing regular customer care training sessions for all front desk and service staff.",
+                  "action_vi": "tôi khuyến nghị tổ chức các buổi tập huấn chăm sóc khách hàng định kỳ cho toàn bộ nhân viên lễ tân và phục vụ.",
+                  "reason_en": "to maintain a consistently polite, prompt, and welcoming attitude toward international guests.",
+                  "reason_vi": "nhằm duy trì thái độ luôn lịch sự, nhanh nhẹn và niềm nở đối với du khách quốc tế.",
+                  "expansion_1_en": "A warm smile and proactive greeting at the lobby door make a huge positive difference to every traveler.",
+                  "expansion_1_vi": "Một nụ cười ấm áp và lời chào chủ động ngay cửa sảnh sẽ tạo nên ấn tượng rất lớn với mọi du khách."
+                }
+              ]
+            }
           ],
           "vocab": [
             {
@@ -15125,7 +15125,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent stay at your accommodation. I recently used your services and would like to share my experience.\n\nOverall, I found your hotel quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the spaciousness and cleanliness of the room, which provided a remarkably relaxing atmosphere. Furthermore, I was particularly impressed with the front desk staff because they were exceedingly welcoming and consistently attentive to my needs throughout my visit.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the limited variety offered at the breakfast buffet, as it lacked sufficient healthy options. Additionally, I was disappointed with the complimentary Wi-Fi connection, as its unstable speed made it very difficult for me to complete urgent online work.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you diversify the breakfast menu by incorporating more nutritious choices. Furthermore, it would be better if you could upgrade the Wi-Fi connection to ensure stable internet access for guests.\n\nI hope my feedback will be useful in improving your hotel. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ông/Bà,\n\nTôi viết thư này để cung cấp phản hồi về kỳ nghỉ gần đây của tôi tại chỗ ở của ông/bà. Gần đây tôi đã sử dụng dịch vụ của ông/bà và muốn chia sẻ trải nghiệm của mình.\n\nNhìn chung, tôi thấy khách sạn của ông/bà khá đáng hài lòng, mặc dù có một số khía cạnh có thể được cải thiện. Một điểm tôi đánh giá cao là sự rộng rãi và sạch sẽ của căn phòng, mang lại một bầu không khí thư giãn đáng chú ý. Hơn nữa, tôi đặc biệt ấn tượng với đội ngũ nhân viên lễ tân vì họ vô cùng niềm nở và luôn chú ý đến nhu cầu của tôi trong suốt chuyến thăm.\n\nTuy nhiên, cũng có một vài lĩnh vực cần được cải thiện. Một vấn đề mà tôi gặp phải là sự đa dạng hạn chế được cung cấp tại tiệc buffet bữa sáng, vì nó thiếu các lựa chọn lành mạnh đầy đủ. Ngoài ra, tôi rất thất vọng với kết nối Wi-Fi miễn phí, vì tốc độ không ổn định của nó đã cản trở đáng kể khả năng xử lý công việc từ xa khẩn cấp của tôi.\n\nĐể nâng cao chất lượng dịch vụ của ông/bà, tôi có một vài gợi ý. Tôi đề nghị ông/bà đa dạng hóa thực đơn bữa sáng bằng cách kết hợp nhiều lựa chọn bổ dưỡng hơn. Hơn nữa, sẽ tốt hơn nếu ông/bà có thể nâng cấp cơ sở hạ tầng internet để đảm bảo kết nối liền mạch cho những du khách đi công tác.\n\nTôi hy vọng phản hồi của tôi sẽ hữu ích trong việc cải thiện khách sạn của ông/bà. Vui lòng liên hệ với tôi nếu ông/bà có bất kỳ câu hỏi nào thêm.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent stay at your accommodation. I recently used your services and would like to share my experience.\n\nOverall, I found your hotel quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the spaciousness and cleanliness of the room, which provided a remarkably relaxing atmosphere. Furthermore, I was particularly impressed with the front desk staff because they were exceedingly welcoming and consistently attentive to my needs throughout my visit.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the limited variety offered at the breakfast buffet, as it lacked sufficient healthy options. Additionally, I was disappointed with the complimentary Wi-Fi connection, as its unstable speed made it very difficult for me to complete urgent online work.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you diversify the breakfast menu by incorporating more nutritious choices. Furthermore, it would be better if you could upgrade your internet infrastructure to guarantee seamless connectivity for business travelers.\n\nI hope my feedback will be useful in improving your hotel. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent stay at your accommodation. I recently used your services and would like to share my experience.\n\nOverall, I found your hotel quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the spaciousness and cleanliness of the room, which provided a remarkably relaxing atmosphere. Furthermore, I was particularly impressed with the front desk staff because they were exceedingly welcoming and consistently attentive to my needs throughout my visit.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the limited variety offered at the breakfast buffet, as it lacked sufficient healthy options. Additionally, I was disappointed with the complimentary Wi-Fi connection, as its unstable speed made it very difficult for me to complete urgent online work.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you diversify the breakfast menu by incorporating more nutritious choices. Furthermore, it would be better if you could upgrade the Wi-Fi connection to ensure stable internet access for guests.\n\nI hope my feedback will be useful in improving your hotel. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "translation": "Kính gửi Ông/Bà,\n\nTôi viết thư này để cung cấp phản hồi về kỳ nghỉ gần đây của tôi tại chỗ ở của ông/bà. Gần đây tôi đã sử dụng dịch vụ của ông/bà và muốn chia sẻ trải nghiệm của mình.\n\nNhìn chung, tôi thấy khách sạn của ông/bà khá đáng hài lòng, mặc dù có một số khía cạnh có thể được cải thiện. Một điểm tôi đánh giá cao là sự rộng rãi và sạch sẽ của căn phòng, mang lại một bầu không khí thư giãn đáng chú ý. Hơn nữa, tôi đặc biệt ấn tượng với đội ngũ nhân viên lễ tân vì họ vô cùng niềm nở và luôn chú ý đến nhu cầu của tôi trong suốt chuyến thăm.\n\nTuy nhiên, cũng có một vài lĩnh vực cần được cải thiện. Một vấn đề mà tôi gặp phải là sự đa dạng hạn chế được cung cấp tại tiệc buffet bữa sáng, vì nó thiếu các lựa chọn lành mạnh đầy đủ. Ngoài ra, tôi rất thất vọng với kết nối Wi-Fi miễn phí, vì tốc độ không ổn định của nó đã cản trở đáng kể khả năng xử lý công việc từ xa khẩn cấp của tôi.\n\nĐể nâng cao chất lượng dịch vụ của ông/bà, tôi có một vài gợi ý. Tôi đề nghị ông/bà đa dạng hóa thực đơn bữa sáng bằng cách kết hợp nhiều lựa chọn bổ dưỡng hơn. Hơn nữa, sẽ tốt hơn nếu ông/bà có thể nâng cấp cơ sở hạ tầng internet để đảm bảo kết nối liền mạch cho những du khách đi công tác.\n\nTôi hy vọng phản hồi của tôi sẽ hữu ích trong việc cải thiện khách sạn của ông/bà. Vui lòng liên hệ với tôi nếu ông/bà có bất kỳ câu hỏi nào thêm.\n\nTrân trọng,",
             "word_count": 205,
             "key_structures": [
@@ -15231,7 +15231,7 @@ const LETTERS_DATA = [
                   "reason_vi": "khiến nhóm của chúng tôi cảm thấy được chào đón chu đáo.",
                   "expansion_1_en": "The host welcomed us warmly at the entrance and escorted us directly to our reserved table.",
                   "expansion_1_vi": "Nhân viên đón tiếp chào đón chúng tôi nồng nhiệt ngay tại cửa và dẫn chúng tôi vào đúng bàn đã đặt.",
-                  "expansion_2_en": "First impressions are vital, and your front-of-house staff executed this greeting flawlessly.",
+                  "expansion_2_en": "First impressions are vital, and your front-of-house staff executed this greeting smooth and enjoyablely.",
                   "expansion_2_vi": "Ấn tượng ban đầu luôn tối quan trọng, và đội ngũ tiếp tân của quý vị đã làm điều này một cách hoàn hảo."
                 },
                 {
@@ -15299,7 +15299,7 @@ const LETTERS_DATA = [
                   "reason_vi": "cho thấy sự phối hợp giữa quầy bar và bếp còn chút trục trặc.",
                   "expansion_1_en": "Our handcrafted mocktails were delivered long after we had finished our hot pumpkin soup.",
                   "expansion_1_vi": "Những ly mocktail pha chế thủ công được mang ra rất lâu sau khi chúng tôi đã dùng xong bát súp bí đỏ nóng.",
-                  "expansion_2_en": "Drink service should always precede or coincide with appetizer delivery to ensure a cohesive experience.",
+                  "expansion_2_en": "Drink service should always precede or coincide with appetizer delivery to ensure a smooth dining experience.",
                   "expansion_2_vi": "Đồ uống phải luôn được phục vụ trước hoặc cùng lúc với món khai vị để đảm bảo trải nghiệm trọn vẹn."
                 },
                 {
@@ -15343,7 +15343,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "use digital order screens for the kitchen",
                   "action_vi": "sử dụng màn hình điện tử báo đơn cho nhà bếp",
-                  "reason_en": "in order to streamline order delivery and eliminate mistakes.",
+                  "reason_en": "in order to speed up food delivery and eliminate mistakes.",
                   "reason_vi": "để việc truyền đơn món ăn nhanh chóng và không bị nhầm lẫn.",
                   "expansion_1_en": "Digital handheld terminals allow waitstaff to relay food orders straight to the kitchen display.",
                   "expansion_1_vi": "Máy tính bảng cầm tay cho phép nhân viên gửi thẳng đơn gọi món vào màn hình của bếp tức thì.",
@@ -15519,7 +15519,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Regarding our experience, while the food taste was superb, the waiting time between appetizers and entrees was unexpectedly prolonged."
+                "Regarding our experience, while the food taste was excellent, the waiting time between appetizers and entrees was unexpectedly prolonged."
               ],
               "criteria_tip": "Miêu tả cụ thể món ăn và thời gian chờ giúp bài viết sinh động, chân thực."
             },
@@ -15554,7 +15554,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [
-                "To improve service efficiency, I recommend increasing kitchen manpower on weekends so that orders can be dispatched faster."
+                "To improve service efficiency, I recommend increasing kitchen manpower on weekends so that orders can be delivered faster."
               ],
               "criteria_tip": "Đưa ra đề xuất cải thiện thực tế đáp ứng bullet 3."
             },
@@ -15680,7 +15680,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent dining experience at your newly opened restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the excellent quality and freshness of the pan-seared seafood, which showcased your culinary talent. Furthermore, I was particularly impressed with the welcoming attitude and helpfulness of the front-of-house greeting staff.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the prolonged wait time between appetizers and main courses, which exceeded forty-five minutes during peak dinner hours. Additionally, I was disappointed with the limited dessert selection, which lacked dairy-free or fruit-based selections.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you optimize kitchen prep lines to accelerate plating times during rush hours. Furthermore, it would be better if you could broaden your dessert menu to accommodate diverse dietary preferences.\n\nI hope my feedback will be useful in improving your restaurant. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để cung cấp đánh giá phản hồi về trải nghiệm ẩm thực gần đây của tôi tại nhà hàng mới khai trương của quý vị. Gần đây tôi đã dùng bữa tại nhà hàng và muốn chia sẻ những nhận xét khách quan của mình.\n\nNhìn chung, tôi nhận thấy nhà hàng của quý vị rất đáng khen ngợi, mặc dù vẫn còn một vài khía cạnh có thể cải thiện tốt hơn. Một điểm tôi rất trân trọng là chất lượng tuyệt hảo và độ tươi mới của các món hải sản áp chảo, thể hiện rõ tài năng của bếp trưởng. Hơn nữa, tôi đặc biệt ấn tượng với phong thái chào đón niềm nở và sự chu đáo của nhân viên lễ tân.\n\nTuy nhiên, cũng có một số điểm cần được nâng cao. Một vấn đề mà chúng tôi gặp phải là thời gian chờ đợi kéo dài giữa món khai vị và món chính, lên tới hơn bốn mươi lăm phút trong khung giờ cao điểm buổi tối. Thêm vào đó, tôi cảm thấy thất vọng với danh mục món tráng miệng còn đơn điệu, thiếu các lựa chọn không chứa sữa hoặc các món từ trái cây tươi.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài góp ý. Tôi đề xuất quý nhà hàng tối ưu hóa dây chuyền chuẩn bị bếp để đẩy nhanh tốc độ ra món trong giờ cao điểm. Hơn nữa, sẽ tốt hơn nếu quý vị mở rộng thực đơn tráng miệng để đáp ứng nhiều sở thích ăn uống khác nhau của thực khách.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho sự phát triển của nhà hàng. Xin vui lòng liên hệ nếu quý vị cần thêm thông tin.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent dining experience at your newly opened establishment. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exquisite quality and freshness of the pan-seared seafood, which showcased your culinary talent. Furthermore, I was particularly impressed with the welcoming attitude and helpfulness of the front-of-house greeting staff.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the prolonged wait time between appetizers and main entrees, which exceeded forty-five minutes during peak dinner hours. Additionally, I was disappointed with the limited dessert selection, which lacked dairy-free or fruit-based selections.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you optimize kitchen prep lines to accelerate plating times during rush hours. Furthermore, it would be better if you could broaden your dessert menu to accommodate diverse dietary preferences.\n\nI hope my feedback will be useful in improving your restaurant. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent dining experience at your newly opened restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the excellent quality and freshness of the pan-seared seafood, which showcased your culinary talent. Furthermore, I was particularly impressed with the welcoming attitude and helpfulness of the front-of-house greeting staff.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the prolonged wait time between appetizers and main courses, which exceeded forty-five minutes during peak dinner hours. Additionally, I was disappointed with the limited dessert selection, which lacked dairy-free or fruit-based selections.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you optimize kitchen prep lines to accelerate plating times during rush hours. Furthermore, it would be better if you could broaden your dessert menu to accommodate diverse dietary preferences.\n\nI hope my feedback will be useful in improving your restaurant. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "translation": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để cung cấp đánh giá phản hồi về trải nghiệm ẩm thực gần đây của tôi tại nhà hàng mới khai trương của quý vị. Gần đây tôi đã dùng bữa tại nhà hàng và muốn chia sẻ những nhận xét khách quan của mình.\n\nNhìn chung, tôi nhận thấy nhà hàng của quý vị rất đáng khen ngợi, mặc dù vẫn còn một vài khía cạnh có thể cải thiện tốt hơn. Một điểm tôi rất trân trọng là chất lượng tuyệt hảo và độ tươi mới của các món hải sản áp chảo, thể hiện rõ tài năng của bếp trưởng. Hơn nữa, tôi đặc biệt ấn tượng với phong thái chào đón niềm nở và sự chu đáo của nhân viên lễ tân.\n\nTuy nhiên, cũng có một số điểm cần được nâng cao. Một vấn đề mà chúng tôi gặp phải là thời gian chờ đợi kéo dài giữa món khai vị và món chính, lên tới hơn bốn mươi lăm phút trong khung giờ cao điểm buổi tối. Thêm vào đó, tôi cảm thấy thất vọng với danh mục món tráng miệng còn đơn điệu, thiếu các lựa chọn không chứa sữa hoặc các món từ trái cây tươi.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài góp ý. Tôi đề xuất quý nhà hàng tối ưu hóa dây chuyền chuẩn bị bếp để đẩy nhanh tốc độ ra món trong giờ cao điểm. Hơn nữa, sẽ tốt hơn nếu quý vị mở rộng thực đơn tráng miệng để đáp ứng nhiều sở thích ăn uống khác nhau của thực khách.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho sự phát triển của nhà hàng. Xin vui lòng liên hệ nếu quý vị cần thêm thông tin.\n\nTrân trọng,",
             "word_count": 197,
             "key_structures": [
@@ -16175,7 +16175,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Xin thầy cho em biết nếu thầy muốn em nộp bản in giấy trực tiếp tại văn phòng làm việc của thầy."
                 },
                 {
-                  "action_en": "I am completely willing to accept any grade penalty for late submission specified in the syllabus",
+                  "action_en": "I am completely willing to accept any grade penalty for late submission specified in the course plan",
                   "action_vi": "em hoàn toàn sẵn sàng chấp nhận mọi mức trừ điểm nộp muộn theo đúng quy định của môn học",
                   "reason_en": "because I fully respect course policies and the principle of fairness to other students.",
                   "reason_vi": "vì em tuyệt đối tôn trọng nội quy khóa học và sự công bằng với tất cả các bạn học viên khác.",
@@ -16197,7 +16197,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "could you kindly consider accepting my late submission for formal grading consideration",
                   "action_vi": "kính mong thầy xem xét chấp nhận bài nộp muộn này để đánh giá kết quả môn học",
-                  "reason_en": "because your academic guidance and evaluation mean an immense deal to my academic progress.",
+                  "reason_en": "because your academic guidance and evaluation mean an great deal to my academic progress.",
                   "reason_vi": "vì sự đánh giá và chỉ dẫn học thuật của thầy có ý nghĩa vô cùng to lớn đối với việc học của em.",
                   "expansion_1_en": "Receiving your constructive feedback is very important for my academic progress this semester.",
                   "expansion_1_vi": "Nhận được những lời nhận xét mang tính xây dựng của thầy là điều vô cùng quý giá cho sự tiến bộ của em.",
@@ -16291,7 +16291,7 @@ const LETTERS_DATA = [
           "B1 & B2"
         ],
         "context": "Mr. Smith stayed at your luxury hotel and complained about an hour-long room service delay on Friday evening and cold soup. As the customer relations manager, write an official apology letter explaining the kitchen technical glitch, offering compensation, and inviting him back.",
-        "prompt": "You are the Guest Relations Manager at Pearl Palace Hotel. A guest, Mr. Smith, had an unpleasant stay due to slow room service and lukewarm food. Write an apology email to Mr. Smith. In your letter, you should: Apologize sincerely for the substandard experience, explain the unexpected kitchen incident (in past simple tense), offer compensation (discount or complimentary vouchers), and assure him of enhanced quality.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
+        "prompt": "You are the Guest Relations Manager at Pearl Palace Hotel. A guest, Mr. Smith, had an unpleasant stay due to slow room service and lukewarm food. Write an apology email to Mr. Smith. In your letter, you should: Apologize sincerely for the poor experience, explain the unexpected kitchen incident (in past simple tense), offer compensation (discount or complimentary vouchers), and assure him of enhanced quality.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
           "analysis": {
@@ -16452,9 +16452,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Mr. Smith,\n\nI am writing to apologize for the substandard service and delays you experienced with our in-room dining during your recent stay at Pearl Palace Hotel. I understand that this may have caused inconvenience, and I would like to explain the situation.\n\nFirst of all, I would like to explain why this happened. We were unable to fulfill your dining order promptly because our evening culinary department suffered an unforeseen technical failure with the food elevators, combined with exceptional weekend occupancy. Fortunately, our engineering team has fully resolved the elevator malfunction and reinforced our room service dispatch protocols.\n\nTo make up for this mistake, I would like to offer you a full refund for that dinner. We will make sure this issue does not happen again, and we would be delighted to provide you with a free room upgrade during your next stay.\n\nI would like to apologize once again for the inconvenience. Thank you for your kind understanding and continued patronage. I look forward to welcoming you back to our hotel.\n\nYours sincerely,",
+            "letter_en": "Dear Mr. Smith,\n\nI am writing to apologize for the poor service and delays you experienced with our in-room dining during your recent stay at Pearl Palace Hotel. I understand that this may have caused inconvenience, and I would like to explain the situation.\n\nFirst of all, I would like to explain why this happened. We were unable to fulfill your dining order promptly because our evening culinary department suffered an unforeseen technical failure with the food elevators, combined with exceptional weekend occupancy. Fortunately, our engineering team has fully resolved the elevator malfunction and reinforced our room service dispatch protocols.\n\nTo make up for this mistake, I would like to offer you a full refund for that dinner. We will make sure this issue does not happen again, and we would be delighted to provide you with a free room upgrade during your next stay.\n\nI would like to apologize once again for the inconvenience. Thank you for your kind understanding and continued patronage. I look forward to welcoming you back to our hotel.\n\nYours sincerely,",
             "letter_vi": "Kính gửi Quý khách Smith,\n\nTôi viết thư này để xin lỗi vì chất lượng phục vụ chưa tốt và sự chậm trễ mà quý khách gặp phải với dịch vụ ăn uống tại phòng trong kỳ lưu trú gần đây tại Khách sạn Pearl Palace. Tôi hiểu rằng sự việc này có thể đã gây ra sự bất tiện, và tôi muốn giải thích rõ tình huống này.\n\nTrước hết, tôi xin giải thích lý do tại sao sự việc này xảy ra. Chúng tôi đã không thể phục vụ bữa tối của quý khách kịp thời vì bộ phận bếp buổi tối gặp sự cố kỹ thuật đột xuất với thang máy chuyển đồ ăn, kết hợp với lượng khách quá đông vào cuối tuần. May mắn thay, đội ngũ kỹ thuật của chúng tôi đã khắc phục hoàn toàn sự cố thang máy và tăng cường quy trình điều phối phục vụ phòng.\n\nĐể bù đắp cho sai sót này, tôi xin phép được hoàn lại toàn bộ tiền bữa tối bị ảnh hưởng trực tiếp vào thẻ thanh toán của quý khách. Chúng tôi sẽ đảm bảo rằng sự cố này sẽ không tái diễn, và chúng tôi rất hân hạnh được nâng cấp miễn phí lên hạng phòng suite sang trọng cùng quyền sử dụng sảnh thương gia trong chuyến lưu trú tiếp theo của quý khách.\n\nTôi xin chân thành xin lỗi một lần nữa vì sự bất tiện này. Cảm ơn quý khách vì sự cảm thông và tiếp tục ủng hộ. Chúng tôi rất mong được đón tiếp quý khách trở lại khách sạn.\n\nTrân trọng,",
-            "text": "Dear Mr. Smith,\n\nI am writing to apologize for the substandard service and delays you experienced with our in-room dining during your recent stay at Pearl Palace Hotel. I understand that this may have caused inconvenience, and I would like to explain the situation.\n\nFirst of all, I would like to explain why this happened. We were unable to fulfill your dining order promptly because our evening culinary department suffered an unforeseen technical failure with the food elevators, combined with exceptional weekend occupancy. Fortunately, our engineering team has fully resolved the elevator malfunction and reinforced our room service dispatch protocols.\n\nTo make up for this mistake, I would like to process a full reimbursement for the affected dinner directly to your payment card. We will ensure that this issue will not recur, and we would be pleased to offer you a complimentary luxury suite upgrade along with executive lounge access during your next visit.\n\nI would like to apologize once again for the inconvenience. Thank you for your kind understanding and continued patronage. I look forward to welcoming you back to our hotel.\n\nYours sincerely,",
+            "text": "Dear Mr. Smith,\n\nI am writing to apologize for the poor service and delays you experienced with our in-room dining during your recent stay at Pearl Palace Hotel. I understand that this may have caused inconvenience, and I would like to explain the situation.\n\nFirst of all, I would like to explain why this happened. We were unable to fulfill your dining order promptly because our evening culinary department suffered an unforeseen technical failure with the food elevators, combined with exceptional weekend occupancy. Fortunately, our engineering team has fully resolved the elevator malfunction and reinforced our room service dispatch protocols.\n\nTo make up for this mistake, I would like to offer you a full refund for that dinner. We will make sure this issue does not happen again, and we would be delighted to provide you with a free room upgrade during your next stay.\n\nI would like to apologize once again for the inconvenience. Thank you for your kind understanding and continued patronage. I look forward to welcoming you back to our hotel.\n\nYours sincerely,",
             "translation": "Kính gửi Quý khách Smith,\n\nTôi viết thư này để xin lỗi vì chất lượng phục vụ chưa tốt và sự chậm trễ mà quý khách gặp phải với dịch vụ ăn uống tại phòng trong kỳ lưu trú gần đây tại Khách sạn Pearl Palace. Tôi hiểu rằng sự việc này có thể đã gây ra sự bất tiện, và tôi muốn giải thích rõ tình huống này.\n\nTrước hết, tôi xin giải thích lý do tại sao sự việc này xảy ra. Chúng tôi đã không thể phục vụ bữa tối của quý khách kịp thời vì bộ phận bếp buổi tối gặp sự cố kỹ thuật đột xuất với thang máy chuyển đồ ăn, kết hợp với lượng khách quá đông vào cuối tuần. May mắn thay, đội ngũ kỹ thuật của chúng tôi đã khắc phục hoàn toàn sự cố thang máy và tăng cường quy trình điều phối phục vụ phòng.\n\nĐể bù đắp cho sai sót này, tôi xin phép được hoàn lại toàn bộ tiền bữa tối bị ảnh hưởng trực tiếp vào thẻ thanh toán của quý khách. Chúng tôi sẽ đảm bảo rằng sự cố này sẽ không tái diễn, và chúng tôi rất hân hạnh được nâng cấp miễn phí lên hạng phòng suite sang trọng cùng quyền sử dụng sảnh thương gia trong chuyến lưu trú tiếp theo của quý khách.\n\nTôi xin chân thành xin lỗi một lần nữa vì sự bất tiện này. Cảm ơn quý khách vì sự cảm thông và tiếp tục ủng hộ. Chúng tôi rất mong được đón tiếp quý khách trở lại khách sạn.\n\nTrân trọng,",
             "word_count": 185,
             "key_structures": [
@@ -16781,216 +16781,216 @@ const LETTERS_DATA = [
             ]
           },
           "suggested_ideas": [
-          {
-                    "id": 1,
-                    "title_en": "1. Apologize for not returning the book",
-                    "title_vi": "1. Lời xin lỗi vì chưa trả sách đúng hẹn",
-                    "icon": "fa-heart",
-                    "pattern_en": "I am really / truly sorry for [V-ing / keeping...], because [Reason].",
-                    "pattern_vi": "Mình thực sự xin lỗi vì [đã không trả sách / đã giữ sách...], vì [lý do].",
-                    "options": [
-                              {
-                                        "action_en": "I am really sorry for not returning your book on time",
-                                        "action_vi": "mình thực sự xin lỗi vì đã không trả sách cho bạn đúng hạn",
-                                        "reason_en": "because I had been extremely busy with my studies over the past few weeks.",
-                                        "reason_vi": "vì mình quá bận rộn với việc học trong vài tuần qua.",
-                                        "expansion_1_en": "I know how much you value that book and I feel really bad for keeping it so long.",
-                                        "expansion_1_vi": "Mình biết bạn quý cuốn sách đó thế nào và mình cảm thấy rất áy náy vì đã giữ nó lâu như vậy.",
-                                        "expansion_2_en": "I promise I will return it to you in perfect condition.",
-                                        "expansion_2_vi": "Mình hứa sẽ hoàn trả sách cho bạn trong tình trạng nguyên vẹn, mới đẹp."
-                              },
-                              {
-                                        "action_en": "I am truly sorry that I could not return your book as promised",
-                                        "action_vi": "mình thực sự xin lỗi vì đã không thể trả sách cho bạn như đã hứa",
-                                        "reason_en": "because several unexpected personal matters came up recently.",
-                                        "reason_vi": "vì gần đây có một vài việc cá nhân bất ngờ phát sinh.",
-                                        "expansion_1_en": "I had planned to give it back last week, but I became extremely busy with unexpected matters.",
-                                        "expansion_1_vi": "Mình đã định mang trả vào tuần trước, nhưng mọi việc trở nên quá bận rộn ngoài dự kiến.",
-                                        "expansion_2_en": "Thank you so much for being so patient and understanding with me.",
-                                        "expansion_2_vi": "Cảm ơn bạn rất nhiều vì đã luôn kiên nhẫn và thông cảm cho mình."
-                              },
-                              {
-                                        "action_en": "I sincerely apologize for returning your book later than expected",
-                                        "action_vi": "mình thành thật xin lỗi vì trả lại sách cho bạn muộn hơn dự kiến",
-                                        "reason_en": "because I had been away from home for an extended period.",
-                                        "reason_vi": "vì mình phải đi xa nhà trong một thời gian dài.",
-                                        "expansion_1_en": "I only arrived back home a few days ago and immediately thought of your book.",
-                                        "expansion_1_vi": "Mình chỉ vừa về đến nhà vài ngày trước và nghĩ ngay đến cuốn sách của bạn.",
-                                        "expansion_2_en": "I hope this delay has not caused you any trouble.",
-                                        "expansion_2_vi": "Mình hy vọng sự chậm trễ này không gây ra bất tiện phiền phức nào cho bạn."
-                              },
-                              {
-                                        "action_en": "Please forgive me for keeping your book for longer than I should have",
-                                        "action_vi": "bạn bỏ qua cho mình vì đã giữ cuốn sách của bạn lâu hơn mức đáng lẽ nên giữ",
-                                        "reason_en": "because it had completely slipped my mind during my busy exam period.",
-                                        "reason_vi": "vì mình đã hoàn toàn đãng trí quên mất giữa lịch thi cử dồn dập.",
-                                        "expansion_1_en": "I only remembered that I still had it when I organized my room yesterday.",
-                                        "expansion_1_vi": "Mình chỉ mới nhớ ra mình vẫn còn giữ sách khi dọn dẹp lại phòng vào ngày hôm qua.",
-                                        "expansion_2_en": "I deeply appreciate your friendship and will make sure this never happens again.",
-                                        "expansion_2_vi": "Mình rất trân trọng tình bạn giữa chúng ta và sẽ đảm bảo chuyện này không bao giờ tái diễn."
-                              },
-                              {
-                                        "action_en": "I am so sorry for failing to return your book by the agreed date",
-                                        "action_vi": "mình rất xin lỗi vì đã không trả sách cho bạn vào đúng ngày đã thỏa thuận",
-                                        "reason_en": "because I was overwhelmed with work deadlines at my company.",
-                                        "reason_vi": "vì mình bị ngập đầu trong các hạn chót công việc tại công ty.",
-                                        "expansion_1_en": "I had to stay late at the office every single evening, leaving me totally exhausted.",
-                                        "expansion_1_vi": "Tối nào mình cũng phải ở lại văn phòng làm muộn, khiến mình hoàn toàn kiệt sức.",
-                                        "expansion_2_en": "I am very eager to return it to you as soon as possible.",
-                                        "expansion_2_vi": "Mình rất mong muốn được gửi lại sách cho bạn càng sớm càng tốt."
-                              }
-                    ]
-          },
-          {
-                    "id": 2,
-                    "title_en": "2. Explain your current situation",
-                    "title_vi": "2. Giải thích tình hình & lý do thực tế (8 Tình huống đời thực)",
-                    "icon": "fa-circle-info",
-                    "pattern_en": "I could not return your book earlier because [Situation]. In fact, [Detailed Explanation].",
-                    "pattern_vi": "Mình không thể trả sách sớm hơn là vì [Tình huống]. Thực tế là [Câu giải thích chi tiết].",
-                    "options": [
-                              {
-                                        "action_en": "I had been extremely busy with my studies over the past few months.",
-                                        "action_vi": "mình đã quá bận rộn với việc học trong vài tháng qua.",
-                                        "reason_en": "I had several exams and projects to complete before the deadline.",
-                                        "reason_vi": "mình có nhiều kỳ thi và dự án cần hoàn thành trước hạn nộp.",
-                                        "expansion_1_en": "I spent most of my time revising for exams and working on assignments, so returning your book completely slipped my mind.",
-                                        "expansion_1_vi": "Mình dành phần lớn thời gian ôn thi và làm bài tập, vì vậy mình đã hoàn toàn quên mất việc trả sách cho bạn.",
-                                        "expansion_2_en": "Now that my exams are finished, I finally have plenty of free time to meet up.",
-                                        "expansion_2_vi": "Bây giờ kỳ thi đã xong xuôi nên mình đã có nhiều thời gian rảnh để gặp gỡ."
-                              },
-                              {
-                                        "action_en": "I had been away from home for an extended period to take care of personal matters.",
-                                        "action_vi": "mình đã phải xa nhà trong một thời gian dài để giải quyết việc riêng.",
-                                        "reason_en": "I had been staying with my relatives in another city and only returned home a few days ago.",
-                                        "reason_vi": "mình đã ở cùng người thân tại một thành phố khác và chỉ mới trở về nhà vài ngày trước.",
-                                        "expansion_1_en": "As a result, I didn't have a chance to meet you and return the book in person.",
-                                        "expansion_1_vi": "Vì vậy, mình chưa có cơ hội gặp bạn để trực tiếp gửi lại sách.",
-                                        "expansion_2_en": "I am now settled back at home and ready to return the book whenever you are free.",
-                                        "expansion_2_vi": "Hiện mình đã về lại nhà ổn định và sẵn sàng trả sách bất cứ khi nào bạn rảnh."
-                              },
-                              {
-                                        "action_en": "my family had been dealing with some personal difficulties recently.",
-                                        "action_vi": "gia đình mình thời gian gần đây phải đối mặt với một số khó khăn riêng.",
-                                        "reason_en": "I had to spend a lot of time helping my parents handle these pressing matters.",
-                                        "reason_vi": "mình phải dành khá nhiều thời gian phụ giúp bố mẹ xử lý những việc cấp bách này.",
-                                        "expansion_1_en": "Fortunately, things have improved a lot recently, so I can now arrange to return your book.",
-                                        "expansion_1_vi": "May mắn là tình hình gần đây đã cải thiện nhiều, nên bây giờ mình có thể sắp xếp trả sách cho bạn.",
-                                        "expansion_2_en": "Thank you for being so patient and understanding during this challenging time for my family.",
-                                        "expansion_2_vi": "Cảm ơn bạn đã luôn kiên nhẫn và thấu hiểu trong suốt khoảng thời gian khó khăn này của gia đình mình."
-                              },
-                              {
-                                        "action_en": "returning the book had completely slipped my mind after I finished it.",
-                                        "action_vi": "việc trả sách đã hoàn toàn tuột khỏi tâm trí mình sau khi đọc xong.",
-                                        "reason_en": "After finishing the book, I put it on my bookshelf and did not think about it again.",
-                                        "reason_vi": "sau khi đọc xong, mình đặt sách lên giá và không nghĩ đến nó nữa giữa bộn bề công việc.",
-                                        "expansion_1_en": "I only remembered that I still had it when I was cleaning and tidying up my room recently.",
-                                        "expansion_1_vi": "Mình chỉ nhớ ra mình vẫn còn giữ sách khi gần đây dọn dẹp và sắp xếp lại phòng.",
-                                        "expansion_2_en": "I felt so bad the moment I saw your book sitting on my top shelf.",
-                                        "expansion_2_vi": "Mình cảm thấy rất áy náy ngay khi nhìn thấy cuốn sách của bạn nằm trên kệ trên cùng."
-                              },
-                              {
-                                        "action_en": "I had been completely overwhelmed with work over the past few months.",
-                                        "action_vi": "mình bị quá tải công việc trong suốt vài tháng qua.",
-                                        "reason_en": "I had to manage several projects and meet tight deadlines at my company.",
-                                        "reason_vi": "mình phải xử lý nhiều dự án và đáp ứng các hạn chót gấp tại công ty.",
-                                        "expansion_1_en": "I also worked overtime quite often to complete my tasks, so returning your book completely slipped my mind.",
-                                        "expansion_1_vi": "Mình cũng thường xuyên làm thêm giờ để hoàn thành nhiệm vụ, vì vậy mình đã hoàn toàn quên mất việc trả sách.",
-                                        "expansion_2_en": "Our major workload has finally cleared up, so my daily schedule is much more relaxed now.",
-                                        "expansion_2_vi": "Khối lượng công việc lớn hiện đã giải quyết xong nên lịch trình hằng ngày của mình đã thoải mái hơn nhiều."
-                              },
-                              {
-                                        "action_en": "I was unfortunately involved in a minor traffic accident a few weeks ago.",
-                                        "action_vi": "thật không may mình đã gặp một tai nạn giao thông nhỏ cách đây vài tuần.",
-                                        "reason_en": "I had to spend some time resting at home and needed several weeks to recover.",
-                                        "reason_vi": "mình phải nằm nghỉ một thời gian và cần vài tuần để hồi phục sức khỏe.",
-                                        "expansion_1_en": "During that time, I was unable to go out normally, and returning your book was completely forgotten.",
-                                        "expansion_1_vi": "Trong giai đoạn đó, mình không thể thực hiện các hoạt động thường ngày, và việc trả sách đã bị bỏ quên.",
-                                        "expansion_2_en": "My health is now much better and I can easily travel around town again.",
-                                        "expansion_2_vi": "Sức khỏe của mình giờ đã tốt hơn nhiều và mình đã có thể đi lại bình thường quanh thành phố."
-                              },
-                              {
-                                        "action_en": "I had been extremely busy working on my graduation thesis during my final semester.",
-                                        "action_vi": "mình đã quá bận rộn làm khóa luận tốt nghiệp trong học kỳ cuối.",
-                                        "reason_en": "I had to spend most of my time conducting research, collecting information, and writing chapters.",
-                                        "reason_vi": "mình phải dành phần lớn thời gian để nghiên cứu, thu thập thông tin và viết các chương luận văn.",
-                                        "expansion_1_en": "As a result, I had very little free time, and returning your book completely slipped my mind.",
-                                        "expansion_1_vi": "Vì vậy, mình có rất ít thời gian rảnh và đã hoàn toàn quên mất việc trả sách cho bạn.",
-                                        "expansion_2_en": "I have successfully submitted my final thesis paper and feel greatly relieved.",
-                                        "expansion_2_vi": "Mình đã nộp thành công bài khóa luận cuối khóa và cảm thấy nhẹ nhõm rất nhiều."
-                              },
-                              {
-                                        "action_en": "I had been doing a full-time internship in another city for the past few months.",
-                                        "action_vi": "mình đã đi thực tập toàn thời gian ở một thành phố khác trong vài tháng qua.",
-                                        "reason_en": "I had to stay there to gain practical work experience and complete my internship course.",
-                                        "reason_vi": "mình phải ở đó để tích lũy kinh nghiệm thực tế và hoàn thành kỳ thực tập.",
-                                        "expansion_1_en": "Since I lived quite far away from home, I couldn't meet you to return the book in person.",
-                                        "expansion_1_vi": "Vì sống xa nhà nên mình không thể gặp bạn để trực tiếp trả sách.",
-                                        "expansion_2_en": "My internship program just wrapped up and I am currently back in town.",
-                                        "expansion_2_vi": "Chương trình thực tập của mình vừa kết thúc và hiện mình đã trở lại thành phố."
-                              }
-                    ]
-          },
-          {
-                    "id": 3,
-                    "title_en": "3. Say whether you have finished the book",
-                    "title_vi": "3. Trạng thái đọc & Cảm nhận về sách (2 Hướng lựa chọn)",
-                    "icon": "fa-book-bookmark",
-                    "pattern_en": "I have finished / haven't finished the book yet. I found the book [adjective] because [Reason].",
-                    "pattern_vi": "Mình đã đọc xong / chưa đọc xong cuốn sách. Mình thấy cuốn sách [tính từ] vì [Lý do].",
-                    "options": [
-                              {
-                                        "action_en": "I have finished reading the entire book and really enjoyed it.",
-                                        "action_vi": "mình đã đọc xong toàn bộ cuốn sách và thực sự rất thích nó.",
-                                        "reason_en": "because the storyline was engaging and full of touching moments.",
-                                        "reason_vi": "vì cốt truyện rất lôi cuốn và ngập tràn những khoảnh khắc xúc động.",
-                                        "expansion_1_en": "I found the story both engaging and meaningful because it offered valuable insights into everyday life.",
-                                        "expansion_1_vi": "Mình thấy câu chuyện vừa hấp dẫn vừa ý nghĩa vì nó mang lại những góc nhìn có giá trị về cuộc sống hằng ngày.",
-                                        "expansion_2_en": "It also taught me several important life lessons that I can apply to my own experiences. Thank you so much for lending it to me!",
-                                        "expansion_2_vi": "Cuốn sách cũng dạy mình nhiều bài học quan trọng mà mình có thể áp dụng vào trải nghiệm của bản thân. Cảm ơn bạn rất nhiều vì đã cho mình mượn sách!"
-                              },
-                              {
-                                        "action_en": "To be honest, I haven't finished reading the book yet.",
-                                        "action_vi": "thành thật mà nói, mình vẫn chưa đọc xong cuốn sách.",
-                                        "reason_en": "because my busy schedule has prevented me from finishing it as quickly as I had expected.",
-                                        "reason_vi": "vì lịch trình bận rộn khiến mình chưa thể đọc xong nhanh như dự định.",
-                                        "expansion_1_en": "I've found the book really engaging so far, and I'm particularly interested in how the story develops.",
-                                        "expansion_1_vi": "Mình thấy cuốn sách rất hấp dẫn cho đến thời điểm này và đặc biệt tò mò về diễn biến tiếp theo của câu chuyện.",
-                                        "expansion_2_en": "I have read over half of it, but I want to give it back to you first so you don't have to wait any longer.",
-                                        "expansion_2_vi": "Mình đã đọc được hơn một nửa, nhưng mình muốn trả lại sách cho bạn trước để bạn không phải chờ lâu hơn nữa."
-                              }
-                    ]
-          },
-          {
-                    "id": 4,
-                    "title_en": "4. Say when and how you will return it",
-                    "title_vi": "4. Thời gian và phương thức hoàn trả (2 Giải pháp cụ thể)",
-                    "icon": "fa-calendar-days",
-                    "pattern_en": "I will bring the book to your house / send it by post [When] so that [Purpose].",
-                    "pattern_vi": "Mình sẽ mang sách đến nhà bạn / gửi qua bưu điện [Thời gian] để [Mục đích].",
-                    "options": [
-                              {
-                                        "action_en": "I will bring the book to your house next weekend.",
-                                        "action_vi": "mình sẽ mang sách đến nhà bạn vào cuối tuần tới.",
-                                        "reason_en": "so I can return it in person and we can spend some time catching up.",
-                                        "reason_vi": "để mình có thể trực tiếp gửi lại sách và chúng mình có thể dành thời gian tâm sự, hỏi thăm nhau.",
-                                        "expansion_1_en": "Since we haven't seen each other for a while, I hope we can grab a cup of coffee together nearby.",
-                                        "expansion_1_vi": "Vì chúng ta đã lâu không gặp nhau, mình hy vọng chúng ta có thể cùng nhau uống một tách cà phê ở gần đó.",
-                                        "expansion_2_en": "Please let me know if Saturday afternoon around 3:00 PM works well for you.",
-                                        "expansion_2_vi": "Hãy báo cho mình biết nếu chiều thứ Bảy khoảng 3 giờ thuận tiện cho bạn nhé."
-                              },
-                              {
-                                        "action_en": "I will send the book back to you by post early next week.",
-                                        "action_vi": "mình sẽ gửi trả sách cho bạn qua đường bưu điện vào đầu tuần tới.",
-                                        "reason_en": "because you live quite far away and I want you to receive it without any further delay.",
-                                        "reason_vi": "vì bạn sống khá xa và mình muốn bạn nhận lại sách mà không bị chậm trễ thêm nữa.",
-                                        "expansion_1_en": "I will pack it carefully to make sure it arrives in good condition.",
-                                        "expansion_1_vi": "Mình sẽ đóng gói cẩn thận để đảm bảo sách đến nơi trong tình trạng tốt.",
-                                        "expansion_2_en": "I will also let you know and send you the tracking number once I have posted it.",
-                                        "expansion_2_vi": "Mình cũng sẽ báo cho bạn biết và gửi mã vận đơn ngay sau khi gửi sách."
-                              }
-                    ]
-          }
+            {
+              "id": 1,
+              "title_en": "1. Apologize for not returning the book",
+              "title_vi": "1. Lời xin lỗi vì chưa trả sách đúng hẹn",
+              "icon": "fa-heart",
+              "pattern_en": "I am really / truly sorry for [V-ing / keeping...], because [Reason].",
+              "pattern_vi": "Mình thực sự xin lỗi vì [đã không trả sách / đã giữ sách...], vì [lý do].",
+              "options": [
+                {
+                  "action_en": "I am really sorry for not returning your book on time",
+                  "action_vi": "mình thực sự xin lỗi vì đã không trả sách cho bạn đúng hạn",
+                  "reason_en": "because I had been extremely busy with my studies over the past few weeks.",
+                  "reason_vi": "vì mình quá bận rộn với việc học trong vài tuần qua.",
+                  "expansion_1_en": "I know how much you value that book and I feel really bad for keeping it so long.",
+                  "expansion_1_vi": "Mình biết bạn quý cuốn sách đó thế nào và mình cảm thấy rất áy náy vì đã giữ nó lâu như vậy.",
+                  "expansion_2_en": "I promise I will return it to you in perfect condition.",
+                  "expansion_2_vi": "Mình hứa sẽ hoàn trả sách cho bạn trong tình trạng nguyên vẹn, mới đẹp."
+                },
+                {
+                  "action_en": "I am truly sorry that I could not return your book as promised",
+                  "action_vi": "mình thực sự xin lỗi vì đã không thể trả sách cho bạn như đã hứa",
+                  "reason_en": "because several unexpected personal matters came up recently.",
+                  "reason_vi": "vì gần đây có một vài việc cá nhân bất ngờ phát sinh.",
+                  "expansion_1_en": "I had planned to give it back last week, but I became extremely busy with unexpected matters.",
+                  "expansion_1_vi": "Mình đã định mang trả vào tuần trước, nhưng mọi việc trở nên quá bận rộn ngoài dự kiến.",
+                  "expansion_2_en": "Thank you so much for being so patient and understanding with me.",
+                  "expansion_2_vi": "Cảm ơn bạn rất nhiều vì đã luôn kiên nhẫn và thông cảm cho mình."
+                },
+                {
+                  "action_en": "I sincerely apologize for returning your book later than expected",
+                  "action_vi": "mình thành thật xin lỗi vì trả lại sách cho bạn muộn hơn dự kiến",
+                  "reason_en": "because I had been away from home for an extended period.",
+                  "reason_vi": "vì mình phải đi xa nhà trong một thời gian dài.",
+                  "expansion_1_en": "I only arrived back home a few days ago and immediately thought of your book.",
+                  "expansion_1_vi": "Mình chỉ vừa về đến nhà vài ngày trước và nghĩ ngay đến cuốn sách của bạn.",
+                  "expansion_2_en": "I hope this delay has not caused you any trouble.",
+                  "expansion_2_vi": "Mình hy vọng sự chậm trễ này không gây ra bất tiện phiền phức nào cho bạn."
+                },
+                {
+                  "action_en": "Please forgive me for keeping your book for longer than I should have",
+                  "action_vi": "bạn bỏ qua cho mình vì đã giữ cuốn sách của bạn lâu hơn mức đáng lẽ nên giữ",
+                  "reason_en": "because it had completely slipped my mind during my busy exam period.",
+                  "reason_vi": "vì mình đã hoàn toàn đãng trí quên mất giữa lịch thi cử dồn dập.",
+                  "expansion_1_en": "I only remembered that I still had it when I organized my room yesterday.",
+                  "expansion_1_vi": "Mình chỉ mới nhớ ra mình vẫn còn giữ sách khi dọn dẹp lại phòng vào ngày hôm qua.",
+                  "expansion_2_en": "I deeply appreciate your friendship and will make sure this never happens again.",
+                  "expansion_2_vi": "Mình rất trân trọng tình bạn giữa chúng ta và sẽ đảm bảo chuyện này không bao giờ tái diễn."
+                },
+                {
+                  "action_en": "I am so sorry for failing to return your book by the agreed date",
+                  "action_vi": "mình rất xin lỗi vì đã không trả sách cho bạn vào đúng ngày đã thỏa thuận",
+                  "reason_en": "because I was overwhelmed with work deadlines at my company.",
+                  "reason_vi": "vì mình bị ngập đầu trong các hạn chót công việc tại công ty.",
+                  "expansion_1_en": "I had to stay late at the office every single evening, leaving me totally exhausted.",
+                  "expansion_1_vi": "Tối nào mình cũng phải ở lại văn phòng làm muộn, khiến mình hoàn toàn kiệt sức.",
+                  "expansion_2_en": "I am very eager to return it to you as soon as possible.",
+                  "expansion_2_vi": "Mình rất mong muốn được gửi lại sách cho bạn càng sớm càng tốt."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Explain your current situation",
+              "title_vi": "2. Giải thích tình hình & lý do thực tế (8 Tình huống đời thực)",
+              "icon": "fa-circle-info",
+              "pattern_en": "I could not return your book earlier because [Situation]. In fact, [Detailed Explanation].",
+              "pattern_vi": "Mình không thể trả sách sớm hơn là vì [Tình huống]. Thực tế là [Câu giải thích chi tiết].",
+              "options": [
+                {
+                  "action_en": "I had been extremely busy with my studies over the past few months.",
+                  "action_vi": "mình đã quá bận rộn với việc học trong vài tháng qua.",
+                  "reason_en": "I had several exams and projects to complete before the deadline.",
+                  "reason_vi": "mình có nhiều kỳ thi và dự án cần hoàn thành trước hạn nộp.",
+                  "expansion_1_en": "I spent most of my time revising for exams and working on assignments, so returning your book completely slipped my mind.",
+                  "expansion_1_vi": "Mình dành phần lớn thời gian ôn thi và làm bài tập, vì vậy mình đã hoàn toàn quên mất việc trả sách cho bạn.",
+                  "expansion_2_en": "Now that my exams are finished, I finally have plenty of free time to meet up.",
+                  "expansion_2_vi": "Bây giờ kỳ thi đã xong xuôi nên mình đã có nhiều thời gian rảnh để gặp gỡ."
+                },
+                {
+                  "action_en": "I had been away from home for an extended period to take care of personal matters.",
+                  "action_vi": "mình đã phải xa nhà trong một thời gian dài để giải quyết việc riêng.",
+                  "reason_en": "I had been staying with my relatives in another city and only returned home a few days ago.",
+                  "reason_vi": "mình đã ở cùng người thân tại một thành phố khác và chỉ mới trở về nhà vài ngày trước.",
+                  "expansion_1_en": "As a result, I didn't have a chance to meet you and return the book in person.",
+                  "expansion_1_vi": "Vì vậy, mình chưa có cơ hội gặp bạn để trực tiếp gửi lại sách.",
+                  "expansion_2_en": "I am now settled back at home and ready to return the book whenever you are free.",
+                  "expansion_2_vi": "Hiện mình đã về lại nhà ổn định và sẵn sàng trả sách bất cứ khi nào bạn rảnh."
+                },
+                {
+                  "action_en": "my family had been dealing with some personal difficulties recently.",
+                  "action_vi": "gia đình mình thời gian gần đây phải đối mặt với một số khó khăn riêng.",
+                  "reason_en": "I had to spend a lot of time helping my parents handle these pressing matters.",
+                  "reason_vi": "mình phải dành khá nhiều thời gian phụ giúp bố mẹ xử lý những việc cấp bách này.",
+                  "expansion_1_en": "Fortunately, things have improved a lot recently, so I can now arrange to return your book.",
+                  "expansion_1_vi": "May mắn là tình hình gần đây đã cải thiện nhiều, nên bây giờ mình có thể sắp xếp trả sách cho bạn.",
+                  "expansion_2_en": "Thank you for being so patient and understanding during this challenging time for my family.",
+                  "expansion_2_vi": "Cảm ơn bạn đã luôn kiên nhẫn và thấu hiểu trong suốt khoảng thời gian khó khăn này của gia đình mình."
+                },
+                {
+                  "action_en": "returning the book had completely slipped my mind after I finished it.",
+                  "action_vi": "việc trả sách đã hoàn toàn tuột khỏi tâm trí mình sau khi đọc xong.",
+                  "reason_en": "After finishing the book, I put it on my bookshelf and did not think about it again.",
+                  "reason_vi": "sau khi đọc xong, mình đặt sách lên giá và không nghĩ đến nó nữa giữa bộn bề công việc.",
+                  "expansion_1_en": "I only remembered that I still had it when I was cleaning and tidying up my room recently.",
+                  "expansion_1_vi": "Mình chỉ nhớ ra mình vẫn còn giữ sách khi gần đây dọn dẹp và sắp xếp lại phòng.",
+                  "expansion_2_en": "I felt so bad the moment I saw your book sitting on my top shelf.",
+                  "expansion_2_vi": "Mình cảm thấy rất áy náy ngay khi nhìn thấy cuốn sách của bạn nằm trên kệ trên cùng."
+                },
+                {
+                  "action_en": "I had been completely overwhelmed with work over the past few months.",
+                  "action_vi": "mình bị quá tải công việc trong suốt vài tháng qua.",
+                  "reason_en": "I had to manage several projects and meet tight deadlines at my company.",
+                  "reason_vi": "mình phải xử lý nhiều dự án và đáp ứng các hạn chót gấp tại công ty.",
+                  "expansion_1_en": "I also worked overtime quite often to complete my tasks, so returning your book completely slipped my mind.",
+                  "expansion_1_vi": "Mình cũng thường xuyên làm thêm giờ để hoàn thành nhiệm vụ, vì vậy mình đã hoàn toàn quên mất việc trả sách.",
+                  "expansion_2_en": "Our major workload has finally cleared up, so my daily schedule is much more relaxed now.",
+                  "expansion_2_vi": "Khối lượng công việc lớn hiện đã giải quyết xong nên lịch trình hằng ngày của mình đã thoải mái hơn nhiều."
+                },
+                {
+                  "action_en": "I was unfortunately involved in a minor traffic accident a few weeks ago.",
+                  "action_vi": "thật không may mình đã gặp một tai nạn giao thông nhỏ cách đây vài tuần.",
+                  "reason_en": "I had to spend some time resting at home and needed several weeks to recover.",
+                  "reason_vi": "mình phải nằm nghỉ một thời gian và cần vài tuần để hồi phục sức khỏe.",
+                  "expansion_1_en": "During that time, I was unable to go out normally, and returning your book was completely forgotten.",
+                  "expansion_1_vi": "Trong giai đoạn đó, mình không thể thực hiện các hoạt động thường ngày, và việc trả sách đã bị bỏ quên.",
+                  "expansion_2_en": "My health is now much better and I can easily travel around town again.",
+                  "expansion_2_vi": "Sức khỏe của mình giờ đã tốt hơn nhiều và mình đã có thể đi lại bình thường quanh thành phố."
+                },
+                {
+                  "action_en": "I had been extremely busy working on my graduation thesis during my final semester.",
+                  "action_vi": "mình đã quá bận rộn làm khóa luận tốt nghiệp trong học kỳ cuối.",
+                  "reason_en": "I had to spend most of my time conducting research, collecting information, and writing chapters.",
+                  "reason_vi": "mình phải dành phần lớn thời gian để nghiên cứu, thu thập thông tin và viết các chương luận văn.",
+                  "expansion_1_en": "As a result, I had very little free time, and returning your book completely slipped my mind.",
+                  "expansion_1_vi": "Vì vậy, mình có rất ít thời gian rảnh và đã hoàn toàn quên mất việc trả sách cho bạn.",
+                  "expansion_2_en": "I have successfully submitted my final thesis paper and feel greatly relieved.",
+                  "expansion_2_vi": "Mình đã nộp thành công bài khóa luận cuối khóa và cảm thấy nhẹ nhõm rất nhiều."
+                },
+                {
+                  "action_en": "I had been doing a full-time internship in another city for the past few months.",
+                  "action_vi": "mình đã đi thực tập toàn thời gian ở một thành phố khác trong vài tháng qua.",
+                  "reason_en": "I had to stay there to gain practical work experience and complete my internship course.",
+                  "reason_vi": "mình phải ở đó để tích lũy kinh nghiệm thực tế và hoàn thành kỳ thực tập.",
+                  "expansion_1_en": "Since I lived quite far away from home, I couldn't meet you to return the book in person.",
+                  "expansion_1_vi": "Vì sống xa nhà nên mình không thể gặp bạn để trực tiếp trả sách.",
+                  "expansion_2_en": "My internship program just wrapped up and I am currently back in town.",
+                  "expansion_2_vi": "Chương trình thực tập của mình vừa kết thúc và hiện mình đã trở lại thành phố."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Say whether you have finished the book",
+              "title_vi": "3. Trạng thái đọc & Cảm nhận về sách (2 Hướng lựa chọn)",
+              "icon": "fa-book-bookmark",
+              "pattern_en": "I have finished / haven't finished the book yet. I found the book [adjective] because [Reason].",
+              "pattern_vi": "Mình đã đọc xong / chưa đọc xong cuốn sách. Mình thấy cuốn sách [tính từ] vì [Lý do].",
+              "options": [
+                {
+                  "action_en": "I have finished reading the entire book and really enjoyed it.",
+                  "action_vi": "mình đã đọc xong toàn bộ cuốn sách và thực sự rất thích nó.",
+                  "reason_en": "because the storyline was engaging and full of touching moments.",
+                  "reason_vi": "vì cốt truyện rất lôi cuốn và ngập tràn những khoảnh khắc xúc động.",
+                  "expansion_1_en": "I found the story both engaging and meaningful because it offered valuable insights into everyday life.",
+                  "expansion_1_vi": "Mình thấy câu chuyện vừa hấp dẫn vừa ý nghĩa vì nó mang lại những góc nhìn có giá trị về cuộc sống hằng ngày.",
+                  "expansion_2_en": "It also taught me several important life lessons that I can apply to my own experiences. Thank you so much for lending it to me!",
+                  "expansion_2_vi": "Cuốn sách cũng dạy mình nhiều bài học quan trọng mà mình có thể áp dụng vào trải nghiệm của bản thân. Cảm ơn bạn rất nhiều vì đã cho mình mượn sách!"
+                },
+                {
+                  "action_en": "To be honest, I haven't finished reading the book yet.",
+                  "action_vi": "thành thật mà nói, mình vẫn chưa đọc xong cuốn sách.",
+                  "reason_en": "because my busy schedule has prevented me from finishing it as quickly as I had expected.",
+                  "reason_vi": "vì lịch trình bận rộn khiến mình chưa thể đọc xong nhanh như dự định.",
+                  "expansion_1_en": "I've found the book really engaging so far, and I'm particularly interested in how the story develops.",
+                  "expansion_1_vi": "Mình thấy cuốn sách rất hấp dẫn cho đến thời điểm này và đặc biệt tò mò về diễn biến tiếp theo của câu chuyện.",
+                  "expansion_2_en": "I have read over half of it, but I want to give it back to you first so you don't have to wait any longer.",
+                  "expansion_2_vi": "Mình đã đọc được hơn một nửa, nhưng mình muốn trả lại sách cho bạn trước để bạn không phải chờ lâu hơn nữa."
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "title_en": "4. Say when and how you will return it",
+              "title_vi": "4. Thời gian và phương thức hoàn trả (2 Giải pháp cụ thể)",
+              "icon": "fa-calendar-days",
+              "pattern_en": "I will bring the book to your house / send it by post [When] so that [Purpose].",
+              "pattern_vi": "Mình sẽ mang sách đến nhà bạn / gửi qua bưu điện [Thời gian] để [Mục đích].",
+              "options": [
+                {
+                  "action_en": "I will bring the book to your house next weekend.",
+                  "action_vi": "mình sẽ mang sách đến nhà bạn vào cuối tuần tới.",
+                  "reason_en": "so I can return it in person and we can spend some time catching up.",
+                  "reason_vi": "để mình có thể trực tiếp gửi lại sách và chúng mình có thể dành thời gian tâm sự, hỏi thăm nhau.",
+                  "expansion_1_en": "Since we haven't seen each other for a while, I hope we can grab a cup of coffee together nearby.",
+                  "expansion_1_vi": "Vì chúng ta đã lâu không gặp nhau, mình hy vọng chúng ta có thể cùng nhau uống một tách cà phê ở gần đó.",
+                  "expansion_2_en": "Please let me know if Saturday afternoon around 3:00 PM works well for you.",
+                  "expansion_2_vi": "Hãy báo cho mình biết nếu chiều thứ Bảy khoảng 3 giờ thuận tiện cho bạn nhé."
+                },
+                {
+                  "action_en": "I will send the book back to you by post early next week.",
+                  "action_vi": "mình sẽ gửi trả sách cho bạn qua đường bưu điện vào đầu tuần tới.",
+                  "reason_en": "because you live quite far away and I want you to receive it without any further delay.",
+                  "reason_vi": "vì bạn sống khá xa và mình muốn bạn nhận lại sách mà không bị chậm trễ thêm nữa.",
+                  "expansion_1_en": "I will pack it carefully to make sure it arrives in good condition.",
+                  "expansion_1_vi": "Mình sẽ đóng gói cẩn thận để đảm bảo sách đến nơi trong tình trạng tốt.",
+                  "expansion_2_en": "I will also let you know and send you the tracking number once I have posted it.",
+                  "expansion_2_vi": "Mình cũng sẽ báo cho bạn biết và gửi mã vận đơn ngay sau khi gửi sách."
+                }
+              ]
+            }
           ],
           "vocab": [
             {
@@ -17393,86 +17393,86 @@ const LETTERS_DATA = [
             }
           ],
           "sentence_practice_b2": [
-                    {
-                              "id": 1,
-                              "part": "1. Mở thư & Lời xin lỗi chân thành (Warm & Sincere opening)",
-                              "vi": "Cảm ơn cậu vì bức thư, và tớ thực sự xin lỗi vì đã giữ cuốn tiểu thuyết của cậu quá lâu như vậy.",
-                              "en": "Thanks for your letter, and I am really sorry for holding onto your novel for much longer than promised.",
-                              "hints": [
-                                        "holding onto your novel",
-                                        "much longer than promised"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Cách mở đầu tự nhiên, chân thành kết hợp cấu trúc xin lỗi thân mật chuẩn B2."
-                    },
-                    {
-                              "id": 2,
-                              "part": "2. Giải thích lý do bận rộn thi cử (Explaining the delay)",
-                              "vi": "Thời gian vừa qua tớ quá bận rộn với các bài thi cuối kỳ ở trường đại học nên đã sơ suất quên mất việc gửi lại sách cho cậu.",
-                              "en": "I have been so snowed under with revision for my final exams that I completely forgot to bring the book back to you.",
-                              "hints": [
-                                        "snowed under with revision",
-                                        "so... that I completely forgot"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Cấu trúc kết quả 'so... that' kết hợp thành ngữ quen thuộc 'snowed under with'."
-                    },
-                    {
-                              "id": 3,
-                              "part": "3. Xác nhận tiến độ đọc & Cảm nhận về sách (Reading progress)",
-                              "vi": "Về cuốn sách, tớ đã đọc xong vào tuần trước và thực sự ấn tượng với những tình tiết bất ngờ ở phần kết.",
-                              "en": "As for the book, I actually finished reading it last week and was really impressed by the unexpected plot twists at the end.",
-                              "hints": [
-                                        "impressed by the unexpected plot twists",
-                                        "finished reading it"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Từ vựng B2 tự nhiên: 'unexpected plot twists' (những bước ngoặt cốt truyện bất ngờ)."
-                    },
-                    {
-                              "id": 4,
-                              "part": "4. Hẹn ngày giờ & Địa điểm trả sách (Meeting arrangement)",
-                              "vi": "Tớ có thể gặp cậu vào chiều thứ Bảy tuần này tại quán cà phê quen thuộc gần trường để tận tay gửi lại cuốn sách.",
-                              "en": "I would love to meet you this Saturday afternoon at our favorite cafe near the campus to return the book in person.",
-                              "hints": [
-                                        "meet you this Saturday afternoon",
-                                        "return the book in person"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Cụm từ tự nhiên: 'return the book in person' (tận tay gửi lại sách)."
-                    },
-                    {
-                              "id": 5,
-                              "part": "5. Lời mời chuộc lỗi & Kết thư (Making amends & Warm closing)",
-                              "vi": "Để chuộc lỗi, hãy để tớ mời cậu một ly cà phê và chúng ta có thể trò chuyện thật nhiều nhé.",
-                              "en": "To make up for my carelessness, let me treat you to coffee so that we can have a proper catch-up.",
-                              "hints": [
-                                        "make up for my carelessness",
-                                        "have a proper catch-up"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Thành ngữ thân mật B2: 'make up for' (chuộc lỗi), 'have a proper catch-up' (trò chuyện cập nhật cuộc sống)."
-                    }
+            {
+              "id": 1,
+              "part": "1. Mở thư & Lời xin lỗi chân thành (Warm & Sincere opening)",
+              "vi": "Cảm ơn cậu vì bức thư, và tớ thực sự xin lỗi vì đã giữ cuốn tiểu thuyết của cậu quá lâu như vậy.",
+              "en": "Thanks for your letter, and I am really sorry for holding onto your novel for much longer than promised.",
+              "hints": [
+                "holding onto your novel",
+                "much longer than promised"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Cách mở đầu tự nhiên, chân thành kết hợp cấu trúc xin lỗi thân mật chuẩn B2."
+            },
+            {
+              "id": 2,
+              "part": "2. Giải thích lý do bận rộn thi cử (Explaining the delay)",
+              "vi": "Thời gian vừa qua tớ quá bận rộn với các bài thi cuối kỳ ở trường đại học nên đã sơ suất quên mất việc gửi lại sách cho cậu.",
+              "en": "I have been so snowed under with revision for my final exams that I completely forgot to bring the book back to you.",
+              "hints": [
+                "snowed under with revision",
+                "so... that I completely forgot"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Cấu trúc kết quả 'so... that' kết hợp thành ngữ quen thuộc 'snowed under with'."
+            },
+            {
+              "id": 3,
+              "part": "3. Xác nhận tiến độ đọc & Cảm nhận về sách (Reading progress)",
+              "vi": "Về cuốn sách, tớ đã đọc xong vào tuần trước và thực sự ấn tượng với những tình tiết bất ngờ ở phần kết.",
+              "en": "As for the book, I actually finished reading it last week and was really impressed by the unexpected plot twists at the end.",
+              "hints": [
+                "impressed by the unexpected plot twists",
+                "finished reading it"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Từ vựng B2 tự nhiên: 'unexpected plot twists' (những bước ngoặt cốt truyện bất ngờ)."
+            },
+            {
+              "id": 4,
+              "part": "4. Hẹn ngày giờ & Địa điểm trả sách (Meeting arrangement)",
+              "vi": "Tớ có thể gặp cậu vào chiều thứ Bảy tuần này tại quán cà phê quen thuộc gần trường để tận tay gửi lại cuốn sách.",
+              "en": "I would love to meet you this Saturday afternoon at our favorite cafe near the campus to return the book in person.",
+              "hints": [
+                "meet you this Saturday afternoon",
+                "return the book in person"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Cụm từ tự nhiên: 'return the book in person' (tận tay gửi lại sách)."
+            },
+            {
+              "id": 5,
+              "part": "5. Lời mời chuộc lỗi & Kết thư (Making amends & Warm closing)",
+              "vi": "Để chuộc lỗi, hãy để tớ mời cậu một ly cà phê và chúng ta có thể trò chuyện thật nhiều nhé.",
+              "en": "To make up for my carelessness, let me treat you to coffee so that we can have a proper catch-up.",
+              "hints": [
+                "make up for my carelessness",
+                "have a proper catch-up"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Thành ngữ thân mật B2: 'make up for' (chuộc lỗi), 'have a proper catch-up' (trò chuyện cập nhật cuộc sống)."
+            }
           ],
           "sample_b1": {
             "letter_en": "Dear Helen,\n\nI’m really sorry for not returning your book earlier. Let me explain what happened so you can understand the situation.\n\nFirst of all, let me explain why this happened. I’m really sorry that I couldn’t return the book on time because I have been extremely busy preparing for my final exams. During that time, I had several assignments and an important test. As a result, I completely forgot about the book. In addition, I have finished reading the whole book and found it very interesting and helpful.\n\nNext, I plan to give it back to you this Saturday. I can come over to your house in the afternoon to return it in person.\n\nFinally, let me make it up to you by treating you to a cup of milk tea and some snacks.\n\nSorry once again. Thanks for taking the time to read this. Write back soon.\n\nBest wishes,",
@@ -17671,7 +17671,7 @@ const LETTERS_DATA = [
                   "reason_en": "so you can review my work at your convenience.",
                   "reason_vi": "để giáo sư có thể xem qua bài làm của em khi thuận tiện.",
                   "b1_sentence": "I have attached the complete assignment file to this email so you can review my work at your convenience.",
-                  "expansion_1_en": "The attached PDF contains my complete assignment, formatted strictly according to the syllabus.",
+                  "expansion_1_en": "The attached PDF contains my complete assignment, formatted strictly according to the course plan.",
                   "expansion_1_vi": "Tệp PDF đính kèm chứa trọn vẹn bài tập của em, được trình bày chuẩn xác theo đúng yêu cầu đề cương.",
                   "expansion_2_en": "I would be deeply grateful if you could find the time to review and evaluate my work.",
                   "expansion_2_vi": "Em sẽ vô cùng biết ơn nếu thầy có thể dành chút thời gian quý báu để xem và đánh giá bài làm của em."
@@ -18114,86 +18114,86 @@ const LETTERS_DATA = [
             }
           ],
           "sentence_practice_b2": [
-                    {
-                              "id": 1,
-                              "part": "1. Lời chào & Lời xin lỗi trang trọng (Formal opening & Apology)",
-                              "vi": "Em viết thư này để gửi lời xin lỗi chân thành tới thầy vì đã nộp bài tập muộn hơn so với hạn chót vào thứ Sáu tuần trước.",
-                              "en": "I am writing this email to sincerely apologize for submitting my research assignment past the deadline last Friday.",
-                              "hints": [
-                                        "sincerely apologize for submitting",
-                                        "past the deadline"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Mẫu mở thư trang trọng gửi giáo viên/giáo sư chuẩn mực B2."
-                    },
-                    {
-                              "id": 2,
-                              "part": "2. Cảm ơn email nhắc nhở & Nhận trách nhiệm (Accountability)",
-                              "vi": "Em xin cảm ơn thầy đã gửi email nhắc nhở và em xin nhận hoàn toàn trách nhiệm về sự chậm trễ ngoài ý muốn này.",
-                              "en": "Thank you very much for your reminder email, and I take full responsibility for this unexpected delay.",
-                              "hints": [
-                                        "reminder email",
-                                        "take full responsibility for"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Thành ngữ chuẩn B2: 'take full responsibility for' (nhận hoàn toàn trách nhiệm)."
-                    },
-                    {
-                              "id": 3,
-                              "part": "3. Giải thích sự cố kỹ thuật của máy tính (Explaining technical breakdown)",
-                              "vi": "Thật không may, máy tính xách tay của em bất ngờ bị hỏng ổ cứng vào tối thứ Năm, khiến em không thể truy cập vào tệp tài liệu của mình.",
-                              "en": "Unfortunately, my laptop suffered a sudden hard drive failure on Thursday evening, which temporarily prevented me from accessing my documents.",
-                              "hints": [
-                                        "hard drive failure",
-                                        "prevented me from accessing"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Mệnh đề quan hệ không xác định 'which temporarily prevented me from accessing...'."
-                    },
-                    {
-                              "id": 4,
-                              "part": "4. Hành động khắc phục & Nộp bài hoàn thiện (Submission & Attachment)",
-                              "vi": "Em đã mang máy tới trung tâm sửa chữa để khôi phục dữ liệu, và em xin gửi đính kèm toàn bộ bài tập đã hoàn thành trong email này.",
-                              "en": "After taking the laptop to a repair shop to recover my data, I have now completed the assignment and attached the document to this email for your review.",
-                              "hints": [
-                                        "recover my data",
-                                        "attached the document to this email for your review"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Cấu trúc hành động liên hoàn với 'After taking...' và cụm từ 'attached... for your review'."
-                    },
-                    {
-                              "id": 5,
-                              "part": "5. Kính mong được châm chước & Cam kết tương lai (Future commitment & Closing)",
-                              "vi": "Em rất mong thầy có thể thông cảm cho sự cố này và chấp nhận bài nộp của em, đồng thời em cam kết sẽ tuân thủ nghiêm ngặt mọi hạn nộp trong tương lai.",
-                              "en": "I would be very grateful if you could accept my late submission, and I assure you that I will strictly adhere to all deadlines in the future.",
-                              "hints": [
-                                        "very grateful if you could accept",
-                                        "strictly adhere to all deadlines"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Từ vựng B2 trang trọng: 'strictly adhere to all deadlines' (tuân thủ nghiêm ngặt mọi hạn nộp)."
-                    }
+            {
+              "id": 1,
+              "part": "1. Lời chào & Lời xin lỗi trang trọng (Formal opening & Apology)",
+              "vi": "Em viết thư này để gửi lời xin lỗi chân thành tới thầy vì đã nộp bài tập muộn hơn so với hạn chót vào thứ Sáu tuần trước.",
+              "en": "I am writing this email to sincerely apologize for submitting my research assignment past the deadline last Friday.",
+              "hints": [
+                "sincerely apologize for submitting",
+                "past the deadline"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Mẫu mở thư trang trọng gửi giáo viên/giáo sư chuẩn mực B2."
+            },
+            {
+              "id": 2,
+              "part": "2. Cảm ơn email nhắc nhở & Nhận trách nhiệm (Accountability)",
+              "vi": "Em xin cảm ơn thầy đã gửi email nhắc nhở và em xin nhận hoàn toàn trách nhiệm về sự chậm trễ ngoài ý muốn này.",
+              "en": "Thank you very much for your reminder email, and I take full responsibility for this unexpected delay.",
+              "hints": [
+                "reminder email",
+                "take full responsibility for"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Thành ngữ chuẩn B2: 'take full responsibility for' (nhận hoàn toàn trách nhiệm)."
+            },
+            {
+              "id": 3,
+              "part": "3. Giải thích sự cố kỹ thuật của máy tính (Explaining technical breakdown)",
+              "vi": "Thật không may, máy tính xách tay của em bất ngờ bị hỏng ổ cứng vào tối thứ Năm, khiến em không thể truy cập vào tệp tài liệu của mình.",
+              "en": "Unfortunately, my laptop suffered a sudden hard drive failure on Thursday evening, which temporarily prevented me from accessing my documents.",
+              "hints": [
+                "hard drive failure",
+                "prevented me from accessing"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Mệnh đề quan hệ không xác định 'which temporarily prevented me from accessing...'."
+            },
+            {
+              "id": 4,
+              "part": "4. Hành động khắc phục & Nộp bài hoàn thiện (Submission & Attachment)",
+              "vi": "Em đã mang máy tới trung tâm sửa chữa để khôi phục dữ liệu, và em xin gửi đính kèm toàn bộ bài tập đã hoàn thành trong email này.",
+              "en": "After taking the laptop to a repair shop to recover my data, I have now completed the assignment and attached the document to this email for your review.",
+              "hints": [
+                "recover my data",
+                "attached the document to this email for your review"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Cấu trúc hành động liên hoàn với 'After taking...' và cụm từ 'attached... for your review'."
+            },
+            {
+              "id": 5,
+              "part": "5. Kính mong được châm chước & Cam kết tương lai (Future commitment & Closing)",
+              "vi": "Em rất mong thầy có thể thông cảm cho sự cố này và chấp nhận bài nộp của em, đồng thời em cam kết sẽ tuân thủ nghiêm ngặt mọi hạn nộp trong tương lai.",
+              "en": "I would be very grateful if you could accept my late submission, and I assure you that I will strictly adhere to all deadlines in the future.",
+              "hints": [
+                "very grateful if you could accept",
+                "strictly adhere to all deadlines"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Từ vựng B2 trang trọng: 'strictly adhere to all deadlines' (tuân thủ nghiêm ngặt mọi hạn nộp)."
+            }
           ],
           "sample_b1": {
             "letter_en": "Dear Professor,\n\nI am writing to apologize for submitting my homework assignment late. I understand that this may have caused some inconvenience, and I would like to explain the situation.\n\nFirst of all, let me explain why this happened. I could not submit the assignment on time because I caught a severe flu and fever late last week, so I had to stay in bed for three days. In addition, my doctor advised me to rest completely and avoid screen time.\n\nNext, I have now completed all the exercises and attached the assignment file to this email.\n\nFinally, let me make it up to you by completing extra research questions if you consider it necessary.\n\nSorry once again. Thanks for taking the time to read this. I look forward to receiving your reply soon.\n\nYours sincerely,",
@@ -18337,7 +18337,7 @@ const LETTERS_DATA = [
               "vi": "sự hài lòng của khách hàng"
             },
             {
-              "en": "substandard experience",
+              "en": "poor experience",
               "vi": "trải nghiệm dưới mức tiêu chuẩn"
             },
             {
@@ -18411,7 +18411,7 @@ const LETTERS_DATA = [
               "en": "I am writing to express our sincere apologies for the poor service and problems you encountered during your recent stay.",
               "hints": [
                 "extend our sincerest apologies regarding",
-                "substandard service and inconveniences you encountered"
+                "poor service and inconveniences you encountered"
               ],
               "explanation": "Dùng cụm từ trang trọng 'extend our sincerest apologies regarding'."
             },
@@ -18421,10 +18421,10 @@ const LETTERS_DATA = [
               "vi": "Sau khi xem xét kỹ lưỡng thư khiếu nại của bà, ban quản lý chúng tôi hoàn toàn nhận thức được sự thiếu sót của đội ngũ trực ban tối hôm đó.",
               "en": "Following a careful review of your complaint, our management fully acknowledges the service mistakes that happened that evening.",
               "hints": [
-                "thorough investigation into your grievance",
-                "acknowledges the operational shortcomings"
+                "thorough investigation into your complaint",
+                "acknowledges the service mistakes"
               ],
-              "explanation": "Từ vựng trang trọng cao cấp 'grievance', 'operational shortcomings'."
+              "explanation": "Từ vựng trang trọng cao cấp 'complaint', 'service mistakes'."
             },
             {
               "id": 3,
@@ -18498,7 +18498,7 @@ const LETTERS_DATA = [
             "structure_analysis": [
               {
                 "label": "Formal Salutation & Opening",
-                "desc": "Expressing sincere regret for substandard service and taking full managerial responsibility"
+                "desc": "Expressing sincere regret for poor service and taking full managerial responsibility"
               },
               {
                 "label": "Investigation & Root Cause",
@@ -18506,7 +18506,7 @@ const LETTERS_DATA = [
               },
               {
                 "label": "Financial Compensation",
-                "desc": "Expedited 100% refund wire transfer procedure within five banking days with transaction receipt"
+                "desc": "fast 100% refund bank transfer procedure within five business days with transaction receipt"
               },
               {
                 "label": "Systemic Service Improvements",
@@ -18867,7 +18867,7 @@ const LETTERS_DATA = [
               {
                 "point": "3. Kinh nghiệm làm việc",
                 "formula": "I worked part-time as a... at...",
-                "detail": "I worked part-time as a waiter at a local cafe for six months. In this job, I was responsible for welcoming guests, taking food orders, and keeping dining tables clean. This experience helped me develop problem-solving skills and active listening skills."
+                "detail": "I worked part-time as a waiter at a local cafe for six months. In this job, I was responsible for welcoming guests, taking food orders, and keeping dining tables clean. This experience helped me develop problem-solving skills and careful listening skills."
               },
               {
                 "point": "4. Khẳng định phù hợp",
@@ -18983,10 +18983,10 @@ const LETTERS_DATA = [
               "en": "With my training in restaurant service and my ability to work well under pressure, I am confident that I can provide excellent service to your customers.",
               "hints": [
                 "blend of formal hospitality training",
-                "composure under high-turnover dining pressure",
+                "staying calm under pressure during busy hours",
                 "seamlessly uphold your reputation"
               ],
-              "explanation": "Từ vựng nghề nghiệp B2: 'composure' (sự điềm tĩnh), 'high-turnover dining pressure' (áp lực giờ cao điểm), 'seamlessly uphold' (duy trì vững vàng)."
+              "explanation": "Từ vựng nghề nghiệp B2: 'calm attitude' (sự điềm tĩnh), 'high-turnover dining pressure' (áp lực giờ cao điểm), 'seamlessly uphold' (duy trì vững vàng)."
             }
           ],
           "sample_b1": {
@@ -19017,7 +19017,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of Part-time Waiter at Sunflower Restaurant, which was advertised on your official employment portal. Currently, I am a third-year university student majoring in Hospitality Management, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in culinary hospitality. In addition, I take great pride in delivering thoughtful table service and ensuring that each guest enjoys an exceptional dining experience. Therefore, I believe this role provides a valuable opportunity to apply my academic foundation and gain hands-on service expertise.\n\nFurthermore, I worked part-time as a food runner and barista at an upscale bistro for eight months. In this role, I was responsible for serving multi-course meals, coordinating with the kitchen line, and assisting customers politely during busy hours. This job helped me develop useful skills such as clear communication, teamwork, and handling customer requests under pressure.\n\nFinally, I believe I would be an ideal candidate for this position because I am highly reliable, energetic, and adaptable. I am confident that I can make an immediate positive contribution to your team.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển dụng,\n\nTôi viết thư này để ứng tuyển vào vị trí Nhân viên phục vụ bán thời gian tại Nhà hàng Sunflower, vị trí được đăng tuyển trên cổng thông tin việc làm chính thức của quý nhà hàng. Hiện tại, tôi là sinh viên năm thứ ba chuyên ngành Quản trị Khách sạn, đang tìm kiếm một môi trường làm việc năng động để nâng cao năng lực chuyên môn của mình.\n\nTôi đặc biệt quan tâm đến vị trí này vì nó phù hợp chặt chẽ với nguyện vọng nghề nghiệp lâu dài của tôi trong ngành dịch vụ ẩm thực. Thêm vào đó, tôi luôn cảm thấy tự hào khi mang đến phong cách phục vụ chu đáo tại bàn và đảm bảo rằng mỗi thực khách đều có được một trải nghiệm ẩm thực trọn vẹn. Do đó, tôi tin rằng vị trí này sẽ mang lại cơ hội quý báu để tôi vận dụng kiến thức học thuật và rèn luyện kỹ năng thực tế.\n\nHơn nữa, tôi từng làm việc bán thời gian với vai trò nhân viên phục vụ và pha chế tại một nhà hàng cao cấp trong tám tháng. Trong công việc này, tôi chịu trách nhiệm bưng bê các món ăn nhiều phần, phối hợp nhịp nhàng với khu vực bếp và xử lý các yêu cầu của khách hàng một cách điềm tĩnh trong các khung giờ cao điểm. Kinh nghiệm này đã giúp tôi phát triển các năng lực quan trọng như giao tiếp chủ động, lắng nghe thấu hiểu và giải quyết vấn đề dưới áp lực cao.\n\nCuối cùng, tôi tin rằng mình sẽ là một ứng viên lý tưởng cho vị trí này vì tôi rất đáng tin cậy, tràn đầy năng lượng và có khả năng thích ứng linh hoạt. Tôi tin tưởng mình có thể đóng góp tích cực ngay lập tức cho đội ngũ của quý nhà hàng.\n\nTôi sẽ rất biết ơn nếu quý vị xem xét hồ sơ của tôi. Tôi sẵn sàng tham gia phỏng vấn vào thời gian thuận tiện của quý vị và mong sớm nhận được hồi âm.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of Part-time Waiter at Sunflower Restaurant, which was advertised on your official employment portal. Currently, I am a third-year university student majoring in Hospitality Management, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in culinary hospitality. In addition, I take great pride in delivering thoughtful table service and ensuring that each guest enjoys an exceptional dining experience. Therefore, I believe this role provides a valuable opportunity to apply my academic foundation and gain hands-on service expertise.\n\nFurthermore, I worked part-time as a food runner and barista at an upscale bistro for eight months. In this role, I was responsible for serving multi-course meals, coordinating with the kitchen line, and handling customer inquiries with composure during peak hours. This experience allowed me to develop useful skills such as clear communication, teamwork, and problem-solving under pressure.\n\nFinally, I believe I would be an ideal candidate for this position because I am highly reliable, energetic, and adaptable. I am confident that I can make an immediate positive contribution to your team.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of Part-time Waiter at Sunflower Restaurant, which was advertised on your official employment portal. Currently, I am a third-year university student majoring in Hospitality Management, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in culinary hospitality. In addition, I take great pride in delivering thoughtful table service and ensuring that each guest enjoys an exceptional dining experience. Therefore, I believe this role provides a valuable opportunity to apply my academic foundation and gain hands-on service expertise.\n\nFurthermore, I worked part-time as a food runner and barista at an upscale bistro for eight months. In this role, I was responsible for serving multi-course meals, coordinating with the kitchen line, and assisting customers politely during busy hours. This job helped me develop useful skills such as clear communication, teamwork, and handling customer requests under pressure.\n\nFinally, I believe I would be an ideal candidate for this position because I am highly reliable, energetic, and adaptable. I am confident that I can make an immediate positive contribution to your team.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển dụng,\n\nTôi viết thư này để ứng tuyển vào vị trí Nhân viên phục vụ bán thời gian tại Nhà hàng Sunflower, vị trí được đăng tuyển trên cổng thông tin việc làm chính thức của quý nhà hàng. Hiện tại, tôi là sinh viên năm thứ ba chuyên ngành Quản trị Khách sạn, đang tìm kiếm một môi trường làm việc năng động để nâng cao năng lực chuyên môn của mình.\n\nTôi đặc biệt quan tâm đến vị trí này vì nó phù hợp chặt chẽ với nguyện vọng nghề nghiệp lâu dài của tôi trong ngành dịch vụ ẩm thực. Thêm vào đó, tôi luôn cảm thấy tự hào khi mang đến phong cách phục vụ chu đáo tại bàn và đảm bảo rằng mỗi thực khách đều có được một trải nghiệm ẩm thực trọn vẹn. Do đó, tôi tin rằng vị trí này sẽ mang lại cơ hội quý báu để tôi vận dụng kiến thức học thuật và rèn luyện kỹ năng thực tế.\n\nHơn nữa, tôi từng làm việc bán thời gian với vai trò nhân viên phục vụ và pha chế tại một nhà hàng cao cấp trong tám tháng. Trong công việc này, tôi chịu trách nhiệm bưng bê các món ăn nhiều phần, phối hợp nhịp nhàng với khu vực bếp và xử lý các yêu cầu của khách hàng một cách điềm tĩnh trong các khung giờ cao điểm. Kinh nghiệm này đã giúp tôi phát triển các năng lực quan trọng như giao tiếp chủ động, lắng nghe thấu hiểu và giải quyết vấn đề dưới áp lực cao.\n\nCuối cùng, tôi tin rằng mình sẽ là một ứng viên lý tưởng cho vị trí này vì tôi rất đáng tin cậy, tràn đầy năng lượng và có khả năng thích ứng linh hoạt. Tôi tin tưởng mình có thể đóng góp tích cực ngay lập tức cho đội ngũ của quý nhà hàng.\n\nTôi sẽ rất biết ơn nếu quý vị xem xét hồ sơ của tôi. Tôi sẵn sàng tham gia phỏng vấn vào thời gian thuận tiện của quý vị và mong sớm nhận được hồi âm.\n\nTrân trọng,",
             "word_count": 224,
             "key_structures": [
@@ -19069,9 +19069,9 @@ const LETTERS_DATA = [
                 {
                   "action_en": "I have always been deeply passionate about food culture and the professional hospitality industry",
                   "action_vi": "tôi luôn có niềm đam mê sâu sắc với văn hóa ẩm thực và ngành dịch vụ nhà hàng chuyên nghiệp",
-                  "reason_en": "because working in front-of-house service brings me immense personal joy and energy.",
+                  "reason_en": "because working in front-of-house service brings me great joy and energy.",
                   "reason_vi": "và việc được phục vụ khách hàng trực tiếp luôn đem lại cho tôi nhiều năng lượng và niềm vui.",
-                  "expansion_1_en": "I find immense satisfaction in creating a welcoming, memorable dining atmosphere for guests.",
+                  "expansion_1_en": "I find great satisfaction in creating a welcoming, memorable dining atmosphere for guests.",
                   "expansion_1_vi": "Em cảm thấy tràn đầy niềm vui khi tạo dựng được một không gian dùng bữa ấm cúng và đáng nhớ cho khách hàng.",
                   "expansion_2_en": "This positive energy allows me to maintain a cheerful and helpful attitude throughout demanding shifts.",
                   "expansion_2_vi": "Nguồn năng lượng tích cực này giúp em luôn giữ vững phong thái tươi vui và niềm nở suốt những ca làm việc bận rộn."
@@ -19081,7 +19081,7 @@ const LETTERS_DATA = [
                   "action_vi": "sự tận tâm của nhà hàng trong việc chăm sóc khách hàng thôi thúc tôi muốn đóng góp năng lực của mình",
                   "reason_en": "because I am eager to learn and thrive in a dynamic, customer-oriented setting.",
                   "reason_vi": "bởi tôi rất khát khao được học hỏi và trưởng thành trong một môi trường năng động, lấy khách hàng làm trọng tâm.",
-                  "expansion_1_en": "Your establishment's sterling reputation for warm hospitality aligns perfectly with my professional values.",
+                  "expansion_1_en": "Your hotel's great reputation for warm hospitality aligns perfectly with my professional values.",
                   "expansion_1_vi": "Danh tiếng xuất sắc của nhà hàng về lòng hiếu khách hoàn toàn phù hợp với định hướng nghề nghiệp của em.",
                   "expansion_2_en": "I am eager to learn your high service standards and work well alongside your kitchen team.",
                   "expansion_2_vi": "Em khao khát được rèn luyện theo quy chuẩn phục vụ cao cấp và trưởng thành cùng đội ngũ nhà hàng."
@@ -19101,7 +19101,7 @@ const LETTERS_DATA = [
                   "action_vi": "tôi đã hoàn thành các khóa học đại học về giao tiếp đa văn hóa và nghi thức ứng xử xã hội",
                   "reason_en": "because these courses helped me learn how to communicate politely with guests.",
                   "reason_vi": "tạo nền tảng vững chắc để tôi phục vụ khách hàng với thái độ lịch thiệp và tinh tế.",
-                  "expansion_1_en": "Academic training in customer psychology has taught me how to read diners' non-verbal cues.",
+                  "expansion_1_en": "Academic training in customer psychology has taught me how to read diners' body language.",
                   "expansion_1_vi": "Kiến thức tâm lý khách hàng tại trường đại học đã dạy em cách nắm bắt những tín hiệu cử chỉ của thực khách.",
                   "expansion_2_en": "I know how to deliver attentive service while respecting each table's personal privacy.",
                   "expansion_2_vi": "Em biết cách phục vụ chu đáo, tinh tế mà vẫn tôn trọng không gian riêng tư của từng bàn tiệc."
@@ -19479,11 +19479,11 @@ const LETTERS_DATA = [
               "vi": "Khả năng giao tiếp song ngữ nhạy bén kết hợp với tư duy xử lý khủng hoảng bình tĩnh cho phép tôi điều phối các khâu hậu cần sân khấu một cách trơn tru ngay cả trong tình huống áp lực cao.",
               "en": "Thanks to my good English skills and calm attitude under pressure, I am confident that I can help organize festival activities and support international visitors effectively.",
               "hints": [
-                "refined bilingual proficiency",
-                "level-headed approach to crisis management",
+                "good English and Vietnamese communication skills",
+                "calm attitude when solving problems",
                 "multi-stage festival logistics"
               ],
-              "explanation": "Từ vựng B2 chuyên ngành quản lý sự kiện: 'level-headed approach', 'multi-stage logistics'."
+              "explanation": "Từ vựng B2 chuyên ngành quản lý sự kiện: 'calm approach', 'multi-stage logistics'."
             }
           ],
           "sample_b1": {
@@ -19560,9 +19560,9 @@ const LETTERS_DATA = [
                   "reason_en": "because I have practiced speaking English and communicating with people every day.",
                   "reason_vi": "vì tôi đã luyện tập nói tiếng Anh và giao tiếp với mọi người mỗi ngày.",
                   "b1_sentence": "I am studying English and Communications at university because I have practiced speaking English and communicating with people every day.",
-                  "expansion_1_en": "Daily interactions in our language faculty have honed my verbal presentation and active listening skills.",
+                  "expansion_1_en": "Daily interactions in our language faculty have honed my verbal presentation and careful listening skills.",
                   "expansion_1_vi": "Giao tiếp hằng ngày tại khoa ngôn ngữ đã mài giũa khả năng thuyết trình và kỹ năng lắng nghe chủ động của em.",
-                  "expansion_2_en": "I can deliver clear briefings to participants and handle guest inquiries with effortless poise.",
+                  "expansion_2_en": "I can deliver clear briefings to participants and handle guest inquiries with effortless confidence.",
                   "expansion_2_vi": "Em có thể phổ biến thông tin rõ ràng tới các bạn tham gia và giải đáp thắc mắc của khách một cách tự tin."
                 },
                 {
@@ -19582,7 +19582,7 @@ const LETTERS_DATA = [
                   "reason_en": "because I often participate in group projects and club activities.",
                   "reason_vi": "vì tôi thường xuyên tham gia các bài tập nhóm và hoạt động câu lạc bộ.",
                   "b1_sentence": "I am studying at university and I have good communication skills because I often participate in group projects and club activities.",
-                  "expansion_1_en": "Collaborating on complex group assignments has taught me how to resolve differences harmoniously.",
+                  "expansion_1_en": "Collaborating on complex group assignments has taught me how to resolve differences smoothly.",
                   "expansion_1_vi": "Làm việc cùng nhau trong các bài tập nhóm phức tạp đã dạy em cách dung hòa quan điểm và làm việc đồng đội.",
                   "expansion_2_en": "I thrive in cooperative environments where creative problem solving is encouraged.",
                   "expansion_2_vi": "Em luôn phát huy tốt trong môi trường hợp tác, nơi khuyến khích tinh thần giải quyết vấn đề sáng tạo."
@@ -19806,7 +19806,7 @@ const LETTERS_DATA = [
                   "b1_sentence": "I would be happy to attend an interview at any time because I want to talk more about my skills and experience.",
                   "expansion_1_en": "I am available to meet with the hiring committee in person or via video link at your convenience.",
                   "expansion_1_vi": "Em có thể tới phỏng vấn trực tiếp với ban tuyển dụng hoặc qua gọi video bất kỳ lúc nào thuận tiện cho anh/chị.",
-                  "expansion_2_en": "I would relish the chance to discuss how my skill set can support your organizational vision.",
+                  "expansion_2_en": "I would welcome the chance to discuss how my skill set can support your organizational vision.",
                   "expansion_2_vi": "Em rất mong có cơ hội được trình bày cụ thể về việc kỹ năng của em sẽ hỗ trợ cho mục tiêu của ban tổ chức."
                 },
                 {
@@ -19983,7 +19983,7 @@ const LETTERS_DATA = [
                   "b1_sentence": "I worked as a part-time sales assistant at a local shoe store last year, so I know how to welcome customers and help them find suitable sizes.",
                   "expansion_1_en": "I developed a keen eye for recommending matching footwear styles and assessing customer sizing accurately.",
                   "expansion_1_vi": "Em đã rèn luyện được con mắt tinh tế trong việc tư vấn kiểu giày đồng điệu và chọn đúng cỡ đo cho khách.",
-                  "expansion_2_en": "Handling multiple customers during festive sales campaigns strengthened my active listening skills.",
+                  "expansion_2_en": "Handling multiple customers during festive sales campaigns strengthened my communication skills skills.",
                   "expansion_2_vi": "Phục vụ nhiều khách cùng lúc trong các đợt đại hạ giá mùa lễ hội đã giúp em hoàn thiện kỹ năng lắng nghe."
                 },
                 {
@@ -20003,7 +20003,7 @@ const LETTERS_DATA = [
                   "reason_en": "so I always keep the shop neat, clean, and organized.",
                   "reason_vi": "nên tôi luôn giữ cửa hàng gọn gàng, sạch sẽ và ngăn nắp.",
                   "b1_sentence": "I have experience in arranging store shelves and checking clothes tags, so I always keep the shop neat, clean, and organized.",
-                  "expansion_1_en": "I systematically steamed garments, folded knitwear according to color palettes, and checked price barcodes.",
+                  "expansion_1_en": "I systematically steamed clothes, folded knitwear according to color palettes, and checked price barcodes.",
                   "expansion_1_vi": "Em thường xuyên là ủi trang phục, gấp đồ dệt kim thẳng thớm theo bảng màu và kiểm tra mã vạch cẩn thận.",
                   "expansion_2_en": "An immaculate, orderly sales floor entices customers to browse longer and spend more.",
                   "expansion_2_vi": "Một không gian trưng bày ngăn nắp, tinh tươm sẽ thu hút khách hàng dạo xem lâu hơn và mua sắm nhiều hơn."
@@ -20464,86 +20464,86 @@ const LETTERS_DATA = [
             }
           ],
           "sentence_practice_b2": [
-                    {
-                              "id": 1,
-                              "part": "1. Mở thư & Vị trí ứng tuyển (Application opening & Purpose)",
-                              "vi": "Tôi viết thư này để ứng tuyển vào vị trí nhân viên bán hàng bán thời gian được đăng tuyển trên trang web của quý cửa hàng.",
-                              "en": "I am writing this letter to apply for the part-time sales assistant position advertised on your store's website.",
-                              "hints": [
-                                        "apply for the part-time sales assistant position",
-                                        "advertised on your store's website"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Mẫu câu mở đầu thư xin việc trang trọng chuẩn B2."
-                    },
-                    {
-                              "id": 2,
-                              "part": "2. Giới thiệu bản thân & Niềm đam mê thời trang (Background & Motivation)",
-                              "vi": "Hiện tôi là sinh viên năm thứ ba chuyên ngành Quản trị Kinh doanh và có niềm yêu thích đặc biệt đối với thời trang cùng việc chăm sóc khách hàng.",
-                              "en": "I am currently a third-year Business student with a strong passion for fashion and customer service.",
-                              "hints": [
-                                        "third-year Business student",
-                                        "strong passion for fashion and customer service"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Cách giới thiệu ngắn gọn, súc tích và nêu bật mối liên hệ với công việc."
-                    },
-                    {
-                              "id": 3,
-                              "part": "3. Kinh nghiệm tư vấn & Bán hàng trước đây (Relevant experience)",
-                              "vi": "Trước đây, tôi đã từng làm việc sáu tháng tại một cửa hàng thời trang địa phương, nơi tôi tích lũy được nhiều kinh nghiệm tư vấn trang phục phù hợp cho khách.",
-                              "en": "Previously, I worked as a sales clerk at a local clothing boutique, where I gained valuable experience in helping customers select suitable outfits.",
-                              "hints": [
-                                        "clothing boutique",
-                                        "gained valuable experience in helping customers"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Mệnh đề quan hệ 'where I gained valuable experience in...' nâng cao độ liên kết của câu."
-                    },
-                    {
-                              "id": 4,
-                              "part": "4. Kỹ năng giao tiếp & Phẩm chất cá nhân (Key skills & Reliability)",
-                              "vi": "Tôi là một người năng động, giao tiếp tốt và có thể phối hợp nhịp nhàng với đồng nghiệp để đảm bảo cửa hàng luôn gọn gàng và đón tiếp khách chu đáo.",
-                              "en": "I am energetic, have good communication skills, and work well with teammates to keep the store neat and welcoming.",
-                              "hints": [
-                                        "good communication skills",
-                                        "keep the store neat and welcoming"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Tính từ và cấu trúc song hành chuẩn B2: 'energetic', 'welcoming'."
-                    },
-                    {
-                              "id": 5,
-                              "part": "5. Khẳng định sự phù hợp & Đề xuất phỏng vấn (Interview availability & Closing)",
-                              "vi": "Tôi tin rằng tinh thần nhiệt huyết của mình sẽ đóng góp tích cực cho cửa hàng, và tôi rất mong có cơ hội được tham gia phỏng vấn.",
-                              "en": "I believe my enthusiasm and customer care skills make me a suitable candidate, and I look forward to the opportunity of an interview.",
-                              "hints": [
-                                        "make me a suitable candidate",
-                                        "look forward to the opportunity of an interview"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Câu kết khẳng định sự tự tin và mong muốn phỏng vấn trang trọng chuẩn B2."
-                    }
+            {
+              "id": 1,
+              "part": "1. Mở thư & Vị trí ứng tuyển (Application opening & Purpose)",
+              "vi": "Tôi viết thư này để ứng tuyển vào vị trí nhân viên bán hàng bán thời gian được đăng tuyển trên trang web của quý cửa hàng.",
+              "en": "I am writing this letter to apply for the part-time sales assistant position advertised on your store's website.",
+              "hints": [
+                "apply for the part-time sales assistant position",
+                "advertised on your store's website"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Mẫu câu mở đầu thư xin việc trang trọng chuẩn B2."
+            },
+            {
+              "id": 2,
+              "part": "2. Giới thiệu bản thân & Niềm đam mê thời trang (Background & Motivation)",
+              "vi": "Hiện tôi là sinh viên năm thứ ba chuyên ngành Quản trị Kinh doanh và có niềm yêu thích đặc biệt đối với thời trang cùng việc chăm sóc khách hàng.",
+              "en": "I am currently a third-year Business student with a strong passion for fashion and customer service.",
+              "hints": [
+                "third-year Business student",
+                "strong passion for fashion and customer service"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Cách giới thiệu ngắn gọn, súc tích và nêu bật mối liên hệ với công việc."
+            },
+            {
+              "id": 3,
+              "part": "3. Kinh nghiệm tư vấn & Bán hàng trước đây (Relevant experience)",
+              "vi": "Trước đây, tôi đã từng làm việc sáu tháng tại một cửa hàng thời trang địa phương, nơi tôi tích lũy được nhiều kinh nghiệm tư vấn trang phục phù hợp cho khách.",
+              "en": "Previously, I worked as a sales clerk at a local clothing boutique, where I gained valuable experience in helping customers select suitable outfits.",
+              "hints": [
+                "clothing boutique",
+                "gained valuable experience in helping customers"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Mệnh đề quan hệ 'where I gained valuable experience in...' nâng cao độ liên kết của câu."
+            },
+            {
+              "id": 4,
+              "part": "4. Kỹ năng giao tiếp & Phẩm chất cá nhân (Key skills & Reliability)",
+              "vi": "Tôi là một người năng động, giao tiếp tốt và có thể phối hợp nhịp nhàng với đồng nghiệp để đảm bảo cửa hàng luôn gọn gàng và đón tiếp khách chu đáo.",
+              "en": "I am energetic, have good communication skills, and work well with teammates to keep the store neat and welcoming.",
+              "hints": [
+                "good communication skills",
+                "keep the store neat and welcoming"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Tính từ và cấu trúc song hành chuẩn B2: 'energetic', 'welcoming'."
+            },
+            {
+              "id": 5,
+              "part": "5. Khẳng định sự phù hợp & Đề xuất phỏng vấn (Interview availability & Closing)",
+              "vi": "Tôi tin rằng tinh thần nhiệt huyết của mình sẽ đóng góp tích cực cho cửa hàng, và tôi rất mong có cơ hội được tham gia phỏng vấn.",
+              "en": "I believe my enthusiasm and customer care skills make me a suitable candidate, and I look forward to the opportunity of an interview.",
+              "hints": [
+                "make me a suitable candidate",
+                "look forward to the opportunity of an interview"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Câu kết khẳng định sự tự tin và mong muốn phỏng vấn trang trọng chuẩn B2."
+            }
           ],
           "sample_b1": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of sales assistant which was advertised on your website.\n\nI recently graduated from Can Tho University with a bachelor’s degree in Business Administration. During my studies, I developed a strong understanding of marketing and customer service. I also gained useful knowledge and abilities such as communication and team collaboration.\n\nI am very interested in this position because it matches my interests and career goals. In addition, I enjoy helping customers choose suitable fashion products. Therefore, I believe this job will give me a good opportunity to apply what I have learned during my studies and gain practical experience.\n\nI worked part-time as a sales assistant at a local clothing store. In this job, I was responsible for welcoming customers and arranging products. This experience helped me develop problem-solving skills and customer care skills.\n\nI believe I would be a suitable candidate for this position. This is because I am enthusiastic, honest, and hardworking. Moreover, I am eager to learn and can adapt quickly to new environments.\n\nI would be grateful if you could consider my application. I look forward to receiving your reply soon.\n\nYours faithfully,",
@@ -20639,7 +20639,7 @@ const LETTERS_DATA = [
                   "reason_en": "because I have learned front desk procedures and hotel customer care.",
                   "reason_vi": "vì tôi đã được học các nghiệp vụ lễ tân và chăm sóc khách lưu trú.",
                   "b1_sentence": "I recently graduated from university with a degree in Tourism Management because I have learned front desk procedures and hotel customer care.",
-                  "expansion_1_en": "My four-year academic curriculum provided comprehensive training in hotel front-office software and guest relations.",
+                  "expansion_1_en": "My four-year academic course program provided comprehensive training in hotel front-office software and guest relations.",
                   "expansion_1_vi": "Chương trình đại học bốn năm đã đào tạo bài bản cho em về phần mềm tiền sảnh khách sạn và chăm sóc khách hàng.",
                   "expansion_2_en": "I graduated in the top ten percent of my class with a strong command of hospitality management theory.",
                   "expansion_2_vi": "Em tốt nghiệp trong nhóm mười phần trăm sinh viên xuất sắc nhất khóa với kiến thức quản trị vững vàng."
@@ -20680,7 +20680,7 @@ const LETTERS_DATA = [
                   "reason_en": "because it offers a warm and professional working environment.",
                   "reason_vi": "vì nơi đây có môi trường làm việc ấm cúng và chuyên nghiệp.",
                   "b1_sentence": "I want to become a receptionist at your hotel because it offers a warm and professional working environment.",
-                  "expansion_1_en": "Your establishment's sterling reputation for sophisticated, tranquil hospitality deeply resonates with me.",
+                  "expansion_1_en": "Your hotel's great reputation for sophisticated, tranquil hospitality deeply connects with me.",
                   "expansion_1_vi": "Danh tiếng xuất sắc của khách sạn về phong cách phục vụ tinh tế, thanh bình hoàn toàn đồng điệu với em.",
                   "expansion_2_en": "I would take great pride in being the first welcoming face our guests see upon arrival.",
                   "expansion_2_vi": "Em sẽ vô cùng tự hào khi là gương mặt chào đón đầu tiên mà các du khách nhìn thấy khi bước vào khách sạn."
@@ -20699,7 +20699,7 @@ const LETTERS_DATA = [
                   "reason_en": "so I know how to check in guests, issue room keys, and answer phones politely.",
                   "reason_vi": "nên tôi biết cách làm thủ tục nhận phòng, giao chìa khóa và nghe điện thoại lịch thiệp.",
                   "b1_sentence": "I worked as an intern receptionist at a three-star hotel last summer, so I know how to check in guests, issue room keys, and answer phones politely.",
-                  "expansion_1_en": "During my internship, I checked in over five hundred guests and resolved concierge inquiries flawlessly.",
+                  "expansion_1_en": "During my internship, I checked in over five hundred guests and resolved concierge inquiries smooth and enjoyablely.",
                   "expansion_1_vi": "Trong kỳ thực tập, em đã làm thủ tục nhận phòng cho hơn năm trăm lượt khách và giải đáp mọi yêu cầu chỉn chu.",
                   "expansion_2_en": "I was commended by the front-office manager for my calm attitude and swift problem solving.",
                   "expansion_2_vi": "Em đã được trưởng bộ phận tiền sảnh khen ngợi vì tác phong điềm đạm và kỹ năng xử lý tình huống nhanh nhạy."
@@ -21139,86 +21139,86 @@ const LETTERS_DATA = [
             }
           ],
           "sentence_practice_b2": [
-                    {
-                              "id": 1,
-                              "part": "1. Mở thư & Mục đích ứng tuyển (Formal application opening)",
-                              "vi": "Tôi viết thư này để bày tỏ mong muốn ứng tuyển vào vị trí nhân viên lễ tân mùa hè được quảng bá trên trang thông tin của quý khách sạn.",
-                              "en": "I am writing this letter to express my keen interest in applying for the summer receptionist position advertised on your hotel website.",
-                              "hints": [
-                                        "express my keen interest in applying for",
-                                        "summer receptionist position"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Cụm từ trang trọng chuẩn B2: 'express my keen interest in applying for'."
-                    },
-                    {
-                              "id": 2,
-                              "part": "2. Nền tảng học vấn & Lịch làm việc linh hoạt (Education & Availability)",
-                              "vi": "Hiện tôi đang theo học chuyên ngành Quản trị Khách sạn và có lịch trình rất linh hoạt, hoàn toàn có thể đảm nhận các ca làm việc buổi tối và cuối tuần.",
-                              "en": "I am currently pursuing a degree in Hospitality Management and have a flexible schedule that allows me to work both evening and weekend shifts.",
-                              "hints": [
-                                        "pursuing a degree in Hospitality Management",
-                                        "work both evening and weekend shifts"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Cấu trúc B2 tự nhiên: 'pursuing a degree', 'flexible schedule that allows me to'."
-                    },
-                    {
-                              "id": 3,
-                              "part": "3. Kinh nghiệm thực tế tại khách sạn (Practical internship experience)",
-                              "vi": "Về kinh nghiệm, tôi đã hoàn thành kỳ thực tập ba tháng tại một khách sạn ba sao, nơi tôi chịu trách nhiệm đón tiếp khách, xử lý thủ tục nhận và trả phòng.",
-                              "en": "Regarding my background, I completed a three-month internship at a local hotel, where I was responsible for welcoming guests, handling check-in, and answering inquiries.",
-                              "hints": [
-                                        "completed a three-month internship",
-                                        "handling check-in, and answering inquiries"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Cụm danh từ hành động chuyên ngành lễ tân: 'handling check-in', 'answering inquiries'."
-                    },
-                    {
-                              "id": 4,
-                              "part": "4. Khả năng ngoại ngữ & Kỹ năng xử lý tình huống (Language proficiency & Soft skills)",
-                              "vi": "Nhờ khả năng giao tiếp tiếng Anh lưu loát và tác phong bình tĩnh, tôi có thể hỗ trợ các du khách quốc tế một cách chuyên nghiệp và tận tình.",
-                              "en": "Thanks to my fluent English communication skills and calm attitude, I can assist international visitors in a friendly and professional manner.",
-                              "hints": [
-                                        "fluent English communication skills",
-                                        "in a friendly and professional manner"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Trạng ngữ chỉ nguyên nhân 'Thanks to...' kết hợp cụm 'in a friendly and professional manner'."
-                    },
-                    {
-                              "id": 5,
-                              "part": "5. Khẳng định giá trị đóng góp & Đề xuất phỏng vấn (Confidence & Formal sign-off)",
-                              "vi": "Tôi tự tin rằng thái độ làm việc tận tâm của mình sẽ mang lại sự hài lòng cho du khách, và tôi rất mong nhận được phản hồi từ quý khách sạn.",
-                              "en": "I am confident that my dedicated attitude will contribute positively to your team, and I would be delighted to attend an interview at your convenience.",
-                              "hints": [
-                                        "contribute positively to your team",
-                                        "attend an interview at your convenience"
-                              ],
-                              "scoring_weights": {
-                                        "checkpoints": 60,
-                                        "similarity": 30,
-                                        "grammar": 10
-                              },
-                              "explanation": "Mẫu câu kết trang trọng chuẩn B2: 'at your convenience' (bất cứ khi nào thuận tiện cho quý vị)."
-                    }
+            {
+              "id": 1,
+              "part": "1. Mở thư & Mục đích ứng tuyển (Formal application opening)",
+              "vi": "Tôi viết thư này để bày tỏ mong muốn ứng tuyển vào vị trí nhân viên lễ tân mùa hè được quảng bá trên trang thông tin của quý khách sạn.",
+              "en": "I am writing this letter to express my keen interest in applying for the summer receptionist position advertised on your hotel website.",
+              "hints": [
+                "express my keen interest in applying for",
+                "summer receptionist position"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Cụm từ trang trọng chuẩn B2: 'express my keen interest in applying for'."
+            },
+            {
+              "id": 2,
+              "part": "2. Nền tảng học vấn & Lịch làm việc linh hoạt (Education & Availability)",
+              "vi": "Hiện tôi đang theo học chuyên ngành Quản trị Khách sạn và có lịch trình rất linh hoạt, hoàn toàn có thể đảm nhận các ca làm việc buổi tối và cuối tuần.",
+              "en": "I am currently pursuing a degree in Hospitality Management and have a flexible schedule that allows me to work both evening and weekend shifts.",
+              "hints": [
+                "pursuing a degree in Hospitality Management",
+                "work both evening and weekend shifts"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Cấu trúc B2 tự nhiên: 'pursuing a degree', 'flexible schedule that allows me to'."
+            },
+            {
+              "id": 3,
+              "part": "3. Kinh nghiệm thực tế tại khách sạn (Practical internship experience)",
+              "vi": "Về kinh nghiệm, tôi đã hoàn thành kỳ thực tập ba tháng tại một khách sạn ba sao, nơi tôi chịu trách nhiệm đón tiếp khách, xử lý thủ tục nhận và trả phòng.",
+              "en": "Regarding my background, I completed a three-month internship at a local hotel, where I was responsible for welcoming guests, handling check-in, and answering inquiries.",
+              "hints": [
+                "completed a three-month internship",
+                "handling check-in, and answering inquiries"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Cụm danh từ hành động chuyên ngành lễ tân: 'handling check-in', 'answering inquiries'."
+            },
+            {
+              "id": 4,
+              "part": "4. Khả năng ngoại ngữ & Kỹ năng xử lý tình huống (Language proficiency & Soft skills)",
+              "vi": "Nhờ khả năng giao tiếp tiếng Anh lưu loát và tác phong bình tĩnh, tôi có thể hỗ trợ các du khách quốc tế một cách chuyên nghiệp và tận tình.",
+              "en": "Thanks to my fluent English communication skills and calm attitude, I can assist international visitors in a friendly and professional manner.",
+              "hints": [
+                "fluent English communication skills",
+                "in a friendly and professional manner"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Trạng ngữ chỉ nguyên nhân 'Thanks to...' kết hợp cụm 'in a friendly and professional manner'."
+            },
+            {
+              "id": 5,
+              "part": "5. Khẳng định giá trị đóng góp & Đề xuất phỏng vấn (Confidence & Formal sign-off)",
+              "vi": "Tôi tự tin rằng thái độ làm việc tận tâm của mình sẽ mang lại sự hài lòng cho du khách, và tôi rất mong nhận được phản hồi từ quý khách sạn.",
+              "en": "I am confident that my dedicated attitude will contribute positively to your team, and I would be delighted to attend an interview at your convenience.",
+              "hints": [
+                "contribute positively to your team",
+                "attend an interview at your convenience"
+              ],
+              "scoring_weights": {
+                "checkpoints": 60,
+                "similarity": 30,
+                "grammar": 10
+              },
+              "explanation": "Mẫu câu kết trang trọng chuẩn B2: 'at your convenience' (bất cứ khi nào thuận tiện cho quý vị)."
+            }
           ],
           "sample_b1": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of receptionist which was advertised on your hotel website.\n\nI recently graduated from Can Tho University with a bachelor’s degree in English Language and Tourism. During my studies, I developed a strong understanding of front desk operations and hospitality communication. I also gained useful skills such as customer service and computer literacy. I am very interested in this position because it matches my career goals. In addition, I enjoy welcoming international guests and assisting visitors with travel inquiries. Therefore, I believe this job will give me a good opportunity to apply what I have learned and gain practical hotel experience. I worked part-time as a receptionist at a boutique homestay for six months. In this job, I was responsible for check-in procedures and booking city tours. I believe I would be a suitable candidate because I am polite, enthusiastic, and dependable.\n\nI would be grateful if you could consider my application. I look forward to receiving your reply soon.\n\nYours faithfully,",
@@ -21248,7 +21248,7 @@ const LETTERS_DATA = [
           "sample_b2": {
             "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of Hotel Receptionist, which was advertised on your official recruitment portal. Currently, I am a recent university graduate with honors in Hospitality and International Tourism, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in luxury hospitality management. In addition, I have a genuine passion for guest relations and intercultural communication, which strongly motivates me to deliver exceptional service at your front desk. Therefore, I believe this position will afford me a valuable opportunity to apply my academic knowledge and gain frontline hospitality experience.\n\nFurthermore, I worked part-time as a guest service agent at a four-star city hotel for nine months. In this role, I was responsible for managing guest check-in, exchanging foreign currency, and assisting guests in both English and Vietnamese. This experience helped me become more patient, calm under pressure, and effective at multitasking during busy hours.\n\nFinally, I believe I am a suitable candidate for this position because I am polite, enthusiastic, and dependable. I am confident that I can provide friendly, high-quality service to your guests.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển dụng Khách sạn,\n\nTôi viết thư này để ứng tuyển vào vị trí Nhân viên Lễ tân Khách sạn, vị trí được đăng tuyển trên cổng thông tin tuyển dụng chính thức của quý khách sạn. Hiện tại, tôi vừa tốt nghiệp đại học loại giỏi chuyên ngành Quản trị Du lịch và Khách sạn Quốc tế, đang tìm kiếm một môi trường làm việc năng động để phát triển năng lực chuyên môn của mình.\n\nTôi đặc biệt quan tâm đến vị trí này vì nó hoàn toàn phù hợp với nguyện vọng nghề nghiệp lâu dài của tôi trong lĩnh vực quản trị khách sạn cao cấp. Thêm vào đó, tôi có niềm đam mê chân thành với công tác chăm sóc khách hàng và giao lưu văn hóa quốc tế, điều này thúc đẩy tôi nỗ lực mang lại dịch vụ đón tiếp xuất sắc nhất tại quầy lễ tân của quý vị. Do đó, tôi tin rằng công việc này sẽ đem đến cơ hội quý giá để tôi áp dụng kiến thức chuyên ngành và tích lũy kinh nghiệm thực tiễn tuyến đầu.\n\nHơn nữa, tôi từng làm nhân viên chăm sóc khách hàng tại một khách sạn bốn sao trong thành phố trong chín tháng. Trong vai trò này, tôi chịu trách nhiệm thực hiện các thủ tục nhận phòng, xử lý các giao dịch đổi ngoại tệ và giải quyết nhanh chóng các thắc mắc của khách bằng cả tiếng Anh và tiếng Việt. Kinh nghiệm này đã giúp tôi rèn luyện các kỹ năng thiết yếu như xử lý tình huống khéo léo, giữ vững phong thái chuyên nghiệp và làm việc đa nhiệm hiệu quả trong những khung giờ nhận phòng cao điểm.\n\nCuối cùng, tôi tin rằng mình sẽ là một ứng viên lý tưởng cho vị trí này vì tôi ăn nói lưu loát, luôn nhã nhặn và có tinh thần trách nhiệm cao. Tôi tự tin rằng mình có thể đóng góp tích cực vào uy tín phục vụ hoàn hảo của khách sạn.\n\nTôi sẽ rất biết ơn nếu quý vị xem xét hồ sơ của tôi. Tôi sẵn sàng tham gia phỏng vấn vào bất kỳ thời gian thuận tiện nào và mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of Hotel Receptionist, which was advertised on your official recruitment portal. Currently, I am a recent university graduate with honors in Hospitality and International Tourism, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in luxury hospitality management. In addition, I have a genuine passion for guest relations and intercultural communication, which strongly motivates me to deliver exceptional service at your front desk. Therefore, I believe this position will afford me a valuable opportunity to apply my academic knowledge and gain frontline hospitality experience.\n\nFurthermore, I worked part-time as a guest service agent at a four-star city hotel for nine months. In this role, I was responsible for managing front-desk check-in protocols, handling foreign currency exchanges, and promptly resolving customer inquiries in both English and Vietnamese. This experience allowed me to develop essential competencies such as patience, staying calm under pressure, and handling multiple tasks during busy hours.\n\nFinally, I believe I would be an ideal candidate for this position because I am highly articulate, courteous, and conscientious. I am confident that I can make a meaningful contribution to your hotel's great reputation for customer service.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of Hotel Receptionist, which was advertised on your official recruitment portal. Currently, I am a recent university graduate with honors in Hospitality and International Tourism, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in luxury hospitality management. In addition, I have a genuine passion for guest relations and intercultural communication, which strongly motivates me to deliver exceptional service at your front desk. Therefore, I believe this position will afford me a valuable opportunity to apply my academic knowledge and gain frontline hospitality experience.\n\nFurthermore, I worked part-time as a guest service agent at a four-star city hotel for nine months. In this role, I was responsible for managing guest check-in, exchanging foreign currency, and assisting guests in both English and Vietnamese. This experience helped me become more patient, calm under pressure, and effective at multitasking during busy hours.\n\nFinally, I believe I am a suitable candidate for this position because I am polite, enthusiastic, and dependable. I am confident that I can provide friendly, high-quality service to your guests.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển dụng Khách sạn,\n\nTôi viết thư này để ứng tuyển vào vị trí Nhân viên Lễ tân Khách sạn, vị trí được đăng tuyển trên cổng thông tin tuyển dụng chính thức của quý khách sạn. Hiện tại, tôi vừa tốt nghiệp đại học loại giỏi chuyên ngành Quản trị Du lịch và Khách sạn Quốc tế, đang tìm kiếm một môi trường làm việc năng động để phát triển năng lực chuyên môn của mình.\n\nTôi đặc biệt quan tâm đến vị trí này vì nó hoàn toàn phù hợp với nguyện vọng nghề nghiệp lâu dài của tôi trong lĩnh vực quản trị khách sạn cao cấp. Thêm vào đó, tôi có niềm đam mê chân thành với công tác chăm sóc khách hàng và giao lưu văn hóa quốc tế, điều này thúc đẩy tôi nỗ lực mang lại dịch vụ đón tiếp xuất sắc nhất tại quầy lễ tân của quý vị. Do đó, tôi tin rằng công việc này sẽ đem đến cơ hội quý giá để tôi áp dụng kiến thức chuyên ngành và tích lũy kinh nghiệm thực tiễn tuyến đầu.\n\nHơn nữa, tôi từng làm nhân viên chăm sóc khách hàng tại một khách sạn bốn sao trong thành phố trong chín tháng. Trong vai trò này, tôi chịu trách nhiệm thực hiện các thủ tục nhận phòng, xử lý các giao dịch đổi ngoại tệ và giải quyết nhanh chóng các thắc mắc của khách bằng cả tiếng Anh và tiếng Việt. Kinh nghiệm này đã giúp tôi rèn luyện các kỹ năng thiết yếu như xử lý tình huống khéo léo, giữ vững phong thái chuyên nghiệp và làm việc đa nhiệm hiệu quả trong những khung giờ nhận phòng cao điểm.\n\nCuối cùng, tôi tin rằng mình sẽ là một ứng viên lý tưởng cho vị trí này vì tôi ăn nói lưu loát, luôn nhã nhặn và có tinh thần trách nhiệm cao. Tôi tự tin rằng mình có thể đóng góp tích cực vào uy tín phục vụ hoàn hảo của khách sạn.\n\nTôi sẽ rất biết ơn nếu quý vị xem xét hồ sơ của tôi. Tôi sẵn sàng tham gia phỏng vấn vào bất kỳ thời gian thuận tiện nào và mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
             "word_count": 238,
             "key_structures": [
