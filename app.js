@@ -1704,8 +1704,12 @@ function submitAndEvaluatePracticeLetter() {
   }
 
   // Sound & notification & confetti
-  const isFailed = (evalResult.overallBand < 4.0 || evalResult.isPromptCopy);
-  if (isFailed) {
+  const isFailed = (evalResult.overallBand < 4.0 || evalResult.isPromptCopy || evalResult.isOffTopic);
+  if (evalResult.isPromptCopy) {
+    showToast('⚠️ Bài viết sao chép đề bài (0.0 điểm). Vui lòng tự viết bài làm!', 'danger');
+  } else if (evalResult.isOffTopic) {
+    showToast('❌ Bài viết lạc đề (1.9 điểm)! Vui lòng đọc kỹ yêu cầu đề bài và viết lại.', 'danger');
+  } else if (evalResult.overallBand < 4.0) {
     showToast('⚠️ Bài viết chưa đạt yêu cầu tối thiểu (dưới 4.0 điểm). Hãy xem kỹ nhận xét và viết lại nhé!', 'warning');
   } else {
     playFanfare();
@@ -1719,12 +1723,16 @@ function submitAndEvaluatePracticeLetter() {
   if (resultContainer && editorGrid) {
     const bannerTitle = evalResult.isPromptCopy
       ? '⚠️ BÀI VIẾT SAO CHÉP ĐỀ BÀI (0.0 ĐIỂM) - KHÔNG ĐƯỢC CÔNG NHẬN!'
-      : (evalResult.overallBand < 4.0
-        ? '⚠️ BÀI VIẾT CHƯA ĐẠT YÊU CẦU TỐI THIỂU - CẦN VIẾT LẠI!'
-        : (isRevision ? `🎉 Chúc mừng bạn đã hoàn thành Bản sửa lần ${revNum}!` : 'Chúc mừng bạn đã hoàn thành bài viết!'));
+      : (evalResult.isOffTopic
+        ? '❌ BÀI VIẾT LẠC ĐỀ NGHIÊM TRỌNG (OFF-TOPIC) - 1.9 ĐIỂM'
+        : (evalResult.overallBand < 4.0
+          ? '⚠️ BÀI VIẾT CHƯA ĐẠT YÊU CẦU TỐI THIỂU - CẦN VIẾT LẠI!'
+          : (isRevision ? `🎉 Chúc mừng bạn đã hoàn thành Bản sửa lần ${revNum}!` : 'Chúc mừng bạn đã hoàn thành bài viết!')));
     const bannerSub = evalResult.isPromptCopy
       ? 'Hệ thống phát hiện bài làm sao chép lại đề thi. Theo quy chế VSTEP, phần sao chép đề không được tính điểm. Vui lòng tự viết lại bức thư.'
-      : 'Hệ thống đã hoàn tất chấm điểm 4 tiêu chí VSTEP Task 01, nhận xét chi tiết từng câu và xuất phiếu đánh giá.';
+      : (evalResult.isOffTopic
+        ? (evalResult.offTopicReason || 'Nội dung bài viết không khớp với chủ đề đề thi hoặc viết nhầm dạng thư. Theo quy chế VSTEP, bài lạc đề bị phạt điểm liệt Task Fulfillment.')
+        : 'Hệ thống đã hoàn tất chấm điểm 4 tiêu chí VSTEP Task 01, nhận xét chi tiết từng câu và xuất phiếu đánh giá.');
     const bannerIcon = isFailed ? '<i class="fa-solid fa-triangle-exclamation" style="color: var(--danger);"></i>' : '<i class="fa-solid fa-circle-check"></i>';
 
     resultContainer.innerHTML = `
