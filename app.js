@@ -3232,6 +3232,9 @@ function buildSubmissionCardMarkup(sub, isInlinePractice) {
   if (ev.isPromptCopy) {
     scoreClass = 'score-low';
     bandStatusText = 'SAO CHÉP ĐỀ BÀI (0.0 ĐIỂM)';
+  } else if (ev.isOffTopic) {
+    scoreClass = 'score-low';
+    bandStatusText = 'LẠC ĐỀ (1.9 ĐIỂM)';
   } else if (overallBand >= 7.0) {
     scoreClass = 'score-high';
     bandStatusText = 'ĐẠT CHUẨN VSTEP B2';
@@ -3250,6 +3253,8 @@ function buildSubmissionCardMarkup(sub, isInlinePractice) {
   let teacherQuote = '';
   if (ev.isPromptCopy) {
     teacherQuote = 'Hệ thống phát hiện bài viết sao chép lại nguyên văn đề bài hoặc các câu hướng dẫn của đề thi. Theo quy chế VSTEP Task 01, phần sao chép đề bài sẽ bị tính 0.0 điểm và không được công nhận kết quả. Bạn hãy tự viết một bức thư hoàn chỉnh theo đúng định dạng nhé!';
+  } else if (ev.isOffTopic) {
+    teacherQuote = `❌ Cảnh báo Lạc đề: ${ev.offTopicReason || 'Bài viết không giải quyết đúng tình huống đề bài yêu cầu hoặc viết nhầm dạng thư.'} Theo quy chế thi VSTEP Task 01, bài làm lạc đề bị phạt điểm liệt ở Task Fulfillment (1.0/10) và bài viết chỉ đạt tối đa 1.9 điểm. Bạn hãy bấm nút "Sửa bài lần nữa" để viết lại theo đúng chủ đề nhé!`;
   } else if (overallBand >= 7.5 && errors.length <= 2) {
     teacherQuote = 'Bài viết rất xuất sắc! Bố cục mạch lạc chuẩn học thuật, kiểm soát ngữ pháp chặt chẽ và áp dụng hiệu quả chuỗi liên từ chuyển ý chuẩn B2. Bạn đã sẵn sàng tự tin bước vào phòng thi VSTEP!';
   } else if (overallBand >= 6.5) {
