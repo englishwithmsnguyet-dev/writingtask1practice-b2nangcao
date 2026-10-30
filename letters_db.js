@@ -1675,7 +1675,7 @@ const LETTERS_DATA = [
                   "action_vi": "mang theo túi chống nước nhỏ gọn",
                   "reason_en": "because it keeps your smartphone and wallet safe during boat trips.",
                   "reason_vi": "vì giúp bảo vệ điện thoại và ví tiền an toàn khi đi các chuyến thuyền trên sông.",
-                  "expansion_1_en": "River water splashes and sudden tropical drizzles can unexpectedly dampen mobile phones and cameras.",
+                  "expansion_1_en": "River water splashes and sudden tropical showers can easily get mobile phones and cameras wet.",
                   "expansion_1_vi": "Nước sông văng lên và những cơn mưa rào bất chợt có thể vô tình làm ướt điện thoại và máy ảnh.",
                   "expansion_2_en": "A sealed dry bag keeps your passport, wallet, and electronic gadgets completely safe and dry.",
                   "expansion_2_vi": "Một chiếc túi chống nước có khóa kín sẽ giữ hộ chiếu, ví tiền và thiết bị điện tử của bạn luôn khô ráo."
@@ -6646,7 +6646,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì người mới học hay gặp khó khăn khi viết chữ Hán và cần được khích lệ.",
                   "expansion_1_en": "Do the instructors demonstrate patience when students struggle with difficult tones and character strokes?",
                   "expansion_1_vi": "Các thầy cô có kiên nhẫn khi học viên gặp khó khăn với các dấu thanh khó và nét chữ phức tạp không?",
-                  "expansion_2_en": "A supportive demeanor builds a stress-free environment where beginners feel safe making mistakes.",
+                  "expansion_2_en": "A supportive and patient attitude creates a comfortable environment where beginners feel safe making mistakes.",
                   "expansion_2_vi": "Sự kiên nhẫn, gần gũi tạo nên môi trường học tập thoải mái, nơi học viên mới không sợ mắc lỗi."
                 },
                 {
@@ -7393,7 +7393,7 @@ const LETTERS_DATA = [
                   "reason_vi": "Cô ấy sẽ đến London như một phần của chương trình trao đổi học tập.",
                   "expansion_1_en": "This will give her a chance to gain international experience and learn more about a different culture.",
                   "expansion_1_vi": "Điều này sẽ cho cô ấy cơ hội tích lũy kinh nghiệm quốc tế và tìm hiểu thêm về một nền văn hóa khác.",
-                  "expansion_2_en": "She is exceptionally diligent and maintains top academic honors in her department every semester.",
+                  "expansion_2_en": "She is exceptionally hard-working and maintains top academic grades in her department every semester.",
                   "expansion_2_vi": "Cô ấy học tập vô cùng chăm chỉ và luôn giữ vững thành tích sinh viên giỏi của khoa trong mọi kỳ học."
                 },
                 {
@@ -14336,7 +14336,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Không gian bài trí trang nhã đã đem lại một bối cảnh tuyệt vời cho buổi kỷ niệm quan trọng của gia đình."
                 },
                 {
-                  "action_en": "the complimentary birthday cake prepared by your pastry chef was moist and delightful",
+                  "action_en": "the complimentary birthday cake prepared by your pastry chef was fresh and delicious",
                   "action_vi": "chiếc bánh sinh nhật tặng kèm do đầu bếp bánh làm rất mềm xốp và ngọt ngào vừa miệng",
                   "reason_en": "because the cake was delicious and made the birthday moment very special.",
                   "reason_vi": "khiến khoảnh khắc thổi nến thực sự đáng nhớ và ngập tràn niềm vui cho bạn bè tôi.",
@@ -14398,7 +14398,7 @@ const LETTERS_DATA = [
                   "action_vi": "đồ uống gọi thêm và các món ăn kèm mất hơn 20 phút mới được mang ra bàn",
                   "reason_en": "because we had to wait too long just to get extra drinks.",
                   "reason_vi": "gây ra sự bất tiện không đáng có khi mọi người đang háo hức nâng ly chúc mừng.",
-                  "expansion_1_en": "Our repeated requests for iced herbal tea and additional broth refills were overlooked multiple times.",
+                  "expansion_1_en": "Our repeated requests for iced herbal tea and additional broth refills were forgotten multiple times.",
                   "expansion_1_vi": "Lời yêu cầu thêm trà thảo mộc đá và châm thêm nước dùng của chúng tôi bị ngó lơ suốt nhiều lần.",
                   "expansion_2_en": "Having to chase floor servers repeatedly during a formal banquet was somewhat frustrating.",
                   "expansion_2_vi": "Việc phải liên tục gọi với nhân viên phục vụ trong một bữa tiệc trang trọng là điều khá phiền toái."
@@ -14456,19 +14456,19 @@ const LETTERS_DATA = [
                   "action_vi": "nhạc nền được bật với âm lượng quá lớn trong suốt cả buổi tối",
                   "reason_en": "because the music was so loud that we had to shout to talk to each other.",
                   "reason_vi": "buộc khách mời phải gào to mới có thể nói chuyện và trao đổi với nhau qua bàn.",
-                  "expansion_1_en": "The high acoustic volume forced our elderly family members to cover their ears repeatedly.",
+                  "expansion_1_en": "The loud music volume forced our elderly family members to cover their ears several times.",
                   "expansion_1_vi": "Âm lượng loa quá lớn đã buộc những người lớn tuổi trong gia đình chúng tôi phải liên tục bịt tai.",
                   "expansion_2_en": "Guests were compelled to shout across the table just to hear each other's congratulatory remarks.",
                   "expansion_2_vi": "Mọi người buộc phải nói to hét lên qua bàn tiệc chỉ để nghe được những lời chúc mừng của nhau."
                 },
                 {
-                  "action_en": "the chosen playlist consisted of fast electronic dance music rather than relaxing acoustic melodies",
+                  "action_en": "the chosen playlist consisted of fast electronic dance music rather than relaxing background melodies",
                   "action_vi": "danh sách nhạc phát toàn nhạc điện tử EDM dồn dập thay vì những giai điệu acoustic êm dịu",
                   "reason_en": "because fast dance music does not suit a quiet dinner party.",
                   "reason_vi": "hoàn toàn không phù hợp với không gian ẩm thực sang trọng của một buổi tiệc tối.",
                   "expansion_1_en": "Fast-paced club dance beats felt entirely inappropriate for an intimate multigenerational family dinner.",
                   "expansion_1_vi": "Những giai điệu nhạc sàn điện tử sôi động hoàn toàn không phù hợp cho bữa cơm gia đình nhiều thế hệ ấm cúng.",
-                  "expansion_2_en": "Mellow acoustic melodies would have cultivated a far more refined and tranquil celebratory vibe.",
+                  "expansion_2_en": "Gentle background music would have created a much more relaxing and pleasant celebratory atmosphere.",
                   "expansion_2_vi": "Những điệu nhạc mộc êm dịu đáng lẽ sẽ mang lại không gian tiệc mừng tinh tế và thanh bình hơn nhiều."
                 },
                 {
@@ -14498,7 +14498,7 @@ const LETTERS_DATA = [
                   "reason_vi": "làm giảm đi sự ấm áp và ý nghĩa xúc động của buổi lễ sinh nhật.",
                   "expansion_1_en": "The birthday boy's heartfelt thank-you speech was drowned out by the excessive speaker volume.",
                   "expansion_1_vi": "Bài phát biểu cảm ơn chân thành của chủ nhân bữa tiệc đã bị lấn át bởi âm thanh quá lớn của dàn loa.",
-                  "expansion_2_en": "Crucial sentimental moments were sadly compromised by this avoidable acoustic oversight.",
+                  "expansion_2_en": "Important family moments were unfortunately interrupted by this loud music problem.",
                   "expansion_2_vi": "Những khoảnh khắc xúc động thiêng liêng đáng buồn thay đã bị ảnh hưởng bởi sự thiếu chu đáo về âm thanh."
                 },
                 {
@@ -14552,7 +14552,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "install individual volume control switches inside private party banquet rooms",
                   "action_vi": "lắp đặt công tắc điều chỉnh âm lượng riêng trong từng phòng tiệc biệt lập",
-                  "reason_en": "so that hosts can customize their acoustic preferences according to their event style.",
+                  "reason_en": "so that hosts can choose suitable background music according to their event style.",
                   "reason_vi": "để chủ tiệc có thể tùy chỉnh âm lượng theo đúng phong cách sự kiện của mình.",
                   "expansion_1_en": "Wall-mounted rotary controls allow party organizers to calibrate audio levels to their specific preference.",
                   "expansion_1_vi": "Nút vặn điều chỉnh trên tường cho phép chủ tiệc tự căn chỉnh mức âm lượng theo ý thích riêng của mình.",
@@ -14628,7 +14628,7 @@ const LETTERS_DATA = [
                                         "reason_vi": "vì mọi thứ đều được chuẩn bị chu đáo và gia đình chúng tôi đã có một kỳ lưu trú thực sự thư thái.",
                                         "expansion_1_en": "The attentive service and polite attitude of your entire team left a lasting positive impression on us.",
                                         "expansion_1_vi": "Sự phục vụ chu đáo và thái độ lễ phép của toàn thể nhân viên đã để lại ấn tượng tốt đẹp lâu dài cho chúng tôi.",
-                                        "expansion_2_en": "It proved to be one of the most delightful vacation breaks we have enjoyed in recent years.",
+                                        "expansion_2_en": "It proved to be one of the most wonderful vacation breaks we have enjoyed in recent years.",
                                         "expansion_2_vi": "Đây thực sự là một trong những kỳ nghỉ tuyệt vời nhất mà chúng tôi được trải nghiệm trong những năm gần đây."
                               },
                               {
@@ -14636,13 +14636,13 @@ const LETTERS_DATA = [
                                         "action_vi": "nhìn chung tôi khá hài lòng với kỳ nghỉ, mặc dù có vài chi tiết nhỏ có thể cải thiện thêm.",
                                         "reason_en": "as most hotel amenities lived up to our high expectations.",
                                         "reason_vi": "do phần lớn các tiện nghi của khách sạn đều đáp ứng đúng kỳ vọng cao của chúng tôi.",
-                                        "expansion_1_en": "With just a little fine-tuning in daily operations, your hotel could easily achieve absolute excellence.",
+                                        "expansion_1_en": "With some small improvements in daily service, your hotel could easily become truly exceptional.",
                                         "expansion_1_vi": "Chỉ cần tinh chỉnh thêm một chút trong vận hành hằng ngày, khách sạn hoàn toàn có thể đạt tới sự hoàn hảo.",
                                         "expansion_2_en": "We certainly intend to recommend your hotel to our close friends and colleagues.",
                                         "expansion_2_vi": "Chúng tôi chắc chắn sẽ giới thiệu khách sạn đến bạn bè thân thiết và đồng nghiệp."
                               },
                               {
-                                        "action_en": "Our overall experience was delightful and we truly appreciated the great hospitality.",
+                                        "action_en": "Our overall experience was wonderful and we truly appreciated the great hospitality.",
                                         "action_vi": "trải nghiệm tổng thể của chúng tôi rất tuyệt vời và chúng tôi thực sự cảm kích lòng hiếu khách.",
                                         "reason_en": "because the peaceful atmosphere helped us fully recharge our energy.",
                                         "reason_vi": "vì không gian yên bình đã giúp chúng tôi nạp lại trọn vẹn năng lượng.",
@@ -14654,7 +14654,7 @@ const LETTERS_DATA = [
                               {
                                         "action_en": "While several aspects of our stay were enjoyable, I was dissatisfied with a few key services.",
                                         "action_vi": "dù một số mặt của kỳ lưu trú khá dễ chịu, tôi cảm thấy chưa hài lòng với một vài dịch vụ chính.",
-                                        "reason_en": "because unexpected inconveniences affected our family's holiday comfort.",
+                                        "reason_en": "because unexpected problems made our family holiday less comfortable.",
                                         "reason_vi": "vì những bất tiện không lường trước đã ảnh hưởng đến sự thoải mái trong kỳ nghỉ của gia đình.",
                                         "expansion_1_en": "I am writing this constructive feedback so your management team can address these issues promptly.",
                                         "expansion_1_vi": "Tôi viết phản hồi mang tính xây dựng này để ban quản lý có thể nhanh chóng khắc phục các vấn đề trên.",
@@ -14676,7 +14676,7 @@ const LETTERS_DATA = [
                                         "action_vi": "thật không may, trải nghiệm của tôi lần này có phần dưới mức kỳ vọng.",
                                         "reason_en": "as recurring technical issues in our room caused considerable annoyance.",
                                         "reason_vi": "do các sự cố kỹ thuật lặp lại trong phòng đã gây ra nhiều phiền toái.",
-                                        "expansion_1_en": "I hope that my frank comments will assist you in improving overall service quality for future guests.",
+                                        "expansion_1_en": "I hope that my honest feedback will help you improve overall service quality for future guests.",
                                         "expansion_1_vi": "Tôi hy vọng những chia sẻ thẳng thắn này sẽ hỗ trợ ban quản lý nâng cao chất lượng dịch vụ cho du khách tương lai.",
                                         "expansion_2_en": "We have always valued your brand and hope to see noticeable improvements on our next return.",
                                         "expansion_2_vi": "Chúng tôi vốn luôn yêu mến thương hiệu khách sạn và hy vọng sẽ thấy những cải thiện rõ rệt trong lần trở lại tới."
@@ -14696,7 +14696,7 @@ const LETTERS_DATA = [
                                         "action_vi": "nhân viên lễ tân và dọn phòng luôn thân thiện, lịch thiệp và nhiệt tình giúp đỡ.",
                                         "reason_en": "Their professional attitude and warm smiles made our stay completely stress-free.",
                                         "reason_vi": "thái độ chuyên nghiệp và nụ cười ấm áp của họ đã giúp kỳ nghỉ của chúng tôi hoàn toàn thoải mái.",
-                                        "expansion_1_en": "They answered all our inquiries courteously and gave excellent recommendations for local restaurants.",
+                                        "expansion_1_en": "They answered all our questions politely and gave excellent recommendations for local restaurants.",
                                         "expansion_1_vi": "Họ trả lời mọi câu hỏi rất nhã nhặn và gợi ý những quán ăn địa phương vô cùng tuyệt vời.",
                                         "expansion_2_en": "Their welcoming manner gave us confidence that guests' needs are genuinely valued.",
                                         "expansion_2_vi": "Cách đón tiếp niềm nở của họ khiến chúng tôi tin tưởng rằng nhu cầu của du khách thực sự được coi trọng."
@@ -14736,13 +14736,13 @@ const LETTERS_DATA = [
                                         "action_vi": "đệm và gối nằm rất êm ái, sạch sẽ và vô cùng thoải mái.",
                                         "reason_en": "which helped us get deep, peaceful sleep after long walking tours around the city.",
                                         "reason_vi": "giúp chúng tôi có giấc ngủ sâu và yên bình sau những chuyến đi bộ dài quanh thành phố.",
-                                        "expansion_1_en": "The bedsheets were pristine and smelled fresh throughout our entire stay.",
+                                        "expansion_1_en": "The bedsheets were spotless and smelled fresh throughout our entire stay.",
                                         "expansion_1_vi": "Ga trải giường sạch tinh tươm và thơm mát trong suốt kỳ lưu trú của chúng tôi.",
                                         "expansion_2_en": "High-quality bedding is definitely one of your hotel's strongest highlights.",
                                         "expansion_2_vi": "Bộ chăn ga gối chất lượng cao chắc chắn là một trong những điểm cộng lớn nhất của khách sạn."
                               },
                               {
-                                        "action_en": "The soundproofing between guest rooms was somewhat inadequate.",
+                                        "action_en": "The soundproofing between guest rooms was not very effective.",
                                         "action_vi": "khả năng cách âm giữa các phòng nghỉ còn chưa thực sự tốt.",
                                         "reason_en": "because loud conversations and television sounds from the neighboring room could be heard clearly.",
                                         "reason_vi": "vì tiếng nói chuyện lớn và âm thanh tivi từ phòng bên cạnh có thể nghe thấy rõ ràng.",
@@ -14764,7 +14764,7 @@ const LETTERS_DATA = [
                               {
                                         "action_en": "The bathroom was well-ventilated, but the hot water supply was inconsistent in the evening.",
                                         "action_vi": "phòng tắm rất thoáng khí, nhưng nguồn nước nóng vào buổi tối lại không ổn định.",
-                                        "reason_en": "as the water pressure fluctuated and took several minutes to warm up.",
+                                        "reason_en": "as the water pressure was unstable and took several minutes to warm up.",
                                         "reason_vi": "do áp lực nước chập chờn và phải mất vài phút nước mới đủ ấm.",
                                         "expansion_1_en": "The drainage system also drained slowly, causing water to pool around the shower floor.",
                                         "expansion_1_vi": "Hệ thống thoát nước cũng chảy khá chậm khiến nước bị đọng trên sàn tắm.",
@@ -14786,7 +14786,7 @@ const LETTERS_DATA = [
                                         "action_vi": "tôi đề xuất khách sạn nâng cấp các bộ định tuyến Wi-Fi ở mỗi tầng phòng nghỉ.",
                                         "reason_en": "in order to guarantee a fast, stable, and uninterrupted internet connection for all guests.",
                                         "reason_vi": "nhằm đảm bảo đường truyền internet nhanh, ổn định và không bị gián đoạn cho mọi du khách.",
-                                        "expansion_1_en": "Installing modern signal boosters along corridors would solve coverage dead zones immediately.",
+                                        "expansion_1_en": "Installing Wi-Fi signal boosters along corridors would solve weak signal spots immediately.",
                                         "expansion_1_vi": "Lắp đặt thêm các bộ kích sóng hiện đại dọc hành lang sẽ giải quyết triệt để các góc khuất sóng."
                               },
                               {
@@ -14802,7 +14802,7 @@ const LETTERS_DATA = [
                                         "action_vi": "tôi muốn đề xuất nhắc nhở đội dọn phòng giữ yên lặng khi làm việc ngoài hành lang trước 9 giờ sáng.",
                                         "reason_en": "because vacationing guests need quiet surroundings to sleep in and rest comfortably.",
                                         "reason_vi": "vì khách đi nghỉ dưỡng cần không gian yên tĩnh để ngủ nướng và nghỉ ngơi thoải mái.",
-                                        "expansion_1_en": "Adding sound-dampening rubber wheels to cleaning carts would significantly reduce hallway rumble.",
+                                        "expansion_1_en": "Using rubber wheels on housekeeping carts would significantly reduce noise in the corridors.",
                                         "expansion_1_vi": "Gắn thêm bánh xe cao su giảm chấn cho các xe đẩy dọn phòng sẽ giảm đáng kể tiếng ồn ầm ĩ ngoài hành lang."
                               },
                               {
@@ -15201,7 +15201,7 @@ const LETTERS_DATA = [
                   "reason_vi": "đưa ra ý kiến xây dựng giúp nhà hàng mới ngày càng phát triển.",
                   "expansion_1_en": "The food quality is undeniable, though the serving speed needs to be faster.",
                   "expansion_1_vi": "Tay nghề ẩm thực của đầu bếp là không thể phủ nhận, dù nhịp độ lên món cần được tinh chỉnh thêm.",
-                  "expansion_2_en": "Fine-tuning service flow will enable your restaurant to establish itself as a premier dining destination.",
+                  "expansion_2_en": "Improving service speed will help your restaurant attract and keep many more loyal customers.",
                   "expansion_2_vi": "Hoàn thiện quy trình phục vụ sẽ giúp nhà hàng khẳng định vị thế như một điểm đến ẩm thực hàng đầu."
                 },
                 {
@@ -15263,13 +15263,13 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Món mì Ý sốt kem tỏi dùng kèm ngao tươi được nêm nếm hoàn hảo không một điểm chê."
                 },
                 {
-                  "action_en": "the interior decor with warm lighting and soft acoustic music was wonderful",
+                  "action_en": "the interior decor with warm lighting and soft background music was wonderful",
                   "action_vi": "thiết kế nội thất với ánh đèn vàng ấm áp và nhạc mộc nhẹ nhàng rất tuyệt vời",
                   "reason_en": "because the restaurant has a warm and comfortable atmosphere.",
                   "reason_vi": "tạo nên bầu không khí ăn uống ấm cúng và thư thái.",
                   "expansion_1_en": "The exposed brickwork and warm Edison bulb lighting created a cozy, intimate environment.",
                   "expansion_1_vi": "Những mảng tường gạch thô và ánh đèn sợi đốt ấm áp tạo nên một không gian vô cùng ấm cúng và gần gũi.",
-                  "expansion_2_en": "Gentle acoustic guitar melodies played at the right volume allowed effortless conversation.",
+                  "expansion_2_en": "Gentle guitar melodies played at a moderate volume allowed comfortable conversation.",
                   "expansion_2_vi": "Giai điệu guitar mộc êm ái với âm lượng vừa vặn giúp chúng tôi trò chuyện nhẹ nhàng mà không cần gắng sức."
                 },
                 {
@@ -15277,7 +15277,7 @@ const LETTERS_DATA = [
                   "action_vi": "nhân viên phục vụ lịch thiệp, trang phục chỉn chu và luôn chủ động châm nước",
                   "reason_en": "because modern tableware makes the restaurant look very high-class.",
                   "reason_vi": "mang lại ấn tượng như đang dùng bữa tại nhà hàng cao cấp.",
-                  "expansion_1_en": "Our allocated server offered knowledgeable pairing suggestions and cleared empty plates unobtrusively.",
+                  "expansion_1_en": "Our server offered helpful meal suggestions and cleared empty plates quickly and politely.",
                   "expansion_1_vi": "Nhân viên phục vụ bàn am hiểu thực đơn đã gợi ý món ăn kèm rất chuẩn và dọn đĩa trống một cách tinh tế.",
                   "expansion_2_en": "Such polished professionalism contributed greatly to the overall elegance of the dinner.",
                   "expansion_2_vi": "Sự chuyên nghiệp chỉn chu đó đã đóng góp to lớn vào nét tao nhã sang trọng của bữa ăn."
@@ -15287,7 +15287,7 @@ const LETTERS_DATA = [
                   "action_vi": "tuy nhiên, chúng tôi phải chờ gần 40 phút thì món chính mới được bưng ra",
                   "reason_en": "because we had to wait too long and felt very hungry.",
                   "reason_vi": "khiến bàn chúng tôi khá đói và sốt ruột.",
-                  "expansion_1_en": "Sitting beside an empty table for forty minutes after finishing our appetizers dampened our enthusiasm.",
+                  "expansion_1_en": "Waiting for forty minutes after finishing our appetizers made us feel quite disappointed.",
                   "expansion_1_vi": "Ngồi bên chiếc bàn trống suốt bốn mươi phút sau khi ăn xong khai vị đã làm giảm bớt sự hào hứng của chúng tôi.",
                   "expansion_2_en": "Kitchen preparation bottlenecks should be managed to ensure courses arrive in a smooth flow.",
                   "expansion_2_vi": "Điểm nghẽn trong khâu chế biến bếp cần được kiểm soát để đảm bảo các món ăn được lên nhịp nhàng."
@@ -15355,7 +15355,7 @@ const LETTERS_DATA = [
                   "action_vi": "sắp xếp lại khoảng cách giữa các bàn ăn rộng rãi hơn",
                   "reason_en": "because wider tables give diners more personal space to talk.",
                   "reason_vi": "mang lại cho thực khách sự thoải mái và riêng tư hơn khi trò chuyện.",
-                  "expansion_1_en": "Repositioning central tables by just half a meter would create comfortable acoustic separation.",
+                  "expansion_1_en": "Arranging central tables slightly farther apart would give guests more privacy and reduce noise.",
                   "expansion_1_vi": "Xê dịch các bàn ăn ở giữa chỉ nửa mét thôi cũng sẽ tạo ra khoảng cách âm thanh vô cùng dễ chịu.",
                   "expansion_2_en": "Diners will appreciate the improved privacy and comfortable legroom during long evening meals.",
                   "expansion_2_vi": "Thực khách sẽ rất cảm kích sự riêng tư được nâng cao cùng chỗ để chân thoải mái suốt bữa ăn dài."
@@ -16059,13 +16059,13 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Giờ đây em nhận ra rằng việc chủ động trao đổi về khó khăn là một kỹ năng làm việc chuyên nghiệp không thể thiếu."
                 },
                 {
-                  "action_en": "I understand how valuable your time is and truly regret my inadequate contingency preparation",
+                  "action_en": "I understand how valuable your time is and truly regret my poor preparation for technical problems",
                   "action_vi": "em hiểu thời gian của thầy vô cùng quý báu và thực sự ân hận vì sự chuẩn bị dự phòng chưa chu đáo",
                   "reason_en": "because I should have maintained external backup copies much earlier in the semester.",
                   "reason_vi": "vì đáng lẽ em phải chủ động sao lưu các bản sao ra ổ cứng ngoài từ sớm hơn trong kỳ học.",
-                  "expansion_1_en": "Relying solely on local internal storage was a severe oversight on my part.",
+                  "expansion_1_en": "Relying only on my laptop internal storage was a serious mistake on my part.",
                   "expansion_1_vi": "Việc chỉ dựa vào bộ nhớ trong của máy tính là một thiếu sót rất lớn về phía em.",
-                  "expansion_2_en": "This stressful experience has taught me a lasting lesson regarding data safety and contingency planning.",
+                  "expansion_2_en": "This stressful experience has taught me an important lesson about saving backup copies regularly.",
                   "expansion_2_vi": "Trải nghiệm áp lực này đã dạy cho em một bài học sâu sắc về sao lưu dữ liệu và lập kế hoạch dự phòng."
                 }
               ]
@@ -16223,7 +16223,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Khoảng thời gian dự phòng này sẽ giúp em ứng phó nhẹ nhàng với mọi trục trặc kỹ thuật hoặc việc cá nhân."
                 },
                 {
-                  "action_en": "this painful ordeal has taught me a crucial lesson in risk management and contingency planning",
+                  "action_en": "this difficult situation has taught me a valuable lesson about keeping backup copies in advance",
                   "action_vi": "sự cố đáng tiếc này là một bài học đắt giá về quản trị rủi ro và kế hoạch dự phòng",
                   "reason_en": "because this helps teach me to finalize and archive all future coursework at least two days before deadlines.",
                   "reason_vi": "nhắc nhở em luôn phải hoàn thiện và lưu trữ bài vở trước hạn chót ít nhất hai ngày.",
@@ -16552,7 +16552,7 @@ const LETTERS_DATA = [
               "icon": "fa-fire-burner",
               "options": [
                 {
-                  "action_en": "our kitchen faced an unprecedented rush of simultaneous banquet orders from a summit conference",
+                  "action_en": "our kitchen received an unusually high number of large banquet orders at the same time",
                   "action_vi": "nhà bếp của chúng tôi đối mặt với lượng đơn tiệc đột biến từ một hội nghị thượng đỉnh diễn ra tối qua",
                   "reason_en": "because the kitchen was overwhelmed with many orders at the same time.",
                   "reason_vi": "gây ra tình trạng quá tải cục bộ tại các khâu chuẩn bị và điều phối món ăn.",
@@ -16630,7 +16630,7 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Nếu bất kỳ đơn hàng nào vượt quá thời gian này, ban quản lý sẽ lập tức can thiệp và đẩy nhanh tiến độ."
                 },
                 {
-                  "action_en": "mandatory retraining on food temperature testing and courteous communication has begun",
+                  "action_en": "retraining on food temperature testing and polite communication has already begun",
                   "action_vi": "khóa tập huấn bắt buộc về kiểm soát nhiệt độ món ăn và giao tiếp lịch thiệp đã được triển khai",
                   "reason_en": "because all staff must learn how to serve food hot and speak politely.",
                   "reason_vi": "đảm bảo rằng mỗi nhân viên đều tuân thủ các chuẩn mực phục vụ khách hàng cao nhất.",
@@ -16690,7 +16690,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "we have completely waived the entire room service and dining charges from your final invoice",
                   "action_vi": "chúng tôi đã xóa bỏ toàn bộ chi phí bữa tối và dịch vụ phòng khỏi hóa đơn thanh toán của quý khách",
-                  "reason_en": "because an immediate gesture of our desire to make amends for the inconvenience.",
+                  "reason_en": "because we sincerely want to make up for the trouble caused during your stay.",
                   "reason_vi": "như một hành động thiết thực ngay lập tức để bù đắp cho những phiền toái đã xảy ra.",
                   "expansion_1_en": "The full cost of the food and drink order has been refunded back to your payment card.",
                   "expansion_1_vi": "Toàn bộ chi phí của đơn đồ ăn và thức uống đã được hoàn trả lại vào thẻ thanh toán của quý khách.",
@@ -16796,7 +16796,7 @@ const LETTERS_DATA = [
                                         "reason_vi": "vì mình quá bận rộn với việc học trong vài tuần qua.",
                                         "expansion_1_en": "I know how much you value that book and I feel really bad for keeping it so long.",
                                         "expansion_1_vi": "Mình biết bạn quý cuốn sách đó thế nào và mình cảm thấy rất áy náy vì đã giữ nó lâu như vậy.",
-                                        "expansion_2_en": "I promise I will return it to you in pristine condition.",
+                                        "expansion_2_en": "I promise I will return it to you in perfect condition.",
                                         "expansion_2_vi": "Mình hứa sẽ hoàn trả sách cho bạn trong tình trạng nguyên vẹn, mới đẹp."
                               },
                               {
@@ -16804,7 +16804,7 @@ const LETTERS_DATA = [
                                         "action_vi": "mình thực sự xin lỗi vì đã không thể trả sách cho bạn như đã hứa",
                                         "reason_en": "because several unexpected personal matters came up recently.",
                                         "reason_vi": "vì gần đây có một vài việc cá nhân bất ngờ phát sinh.",
-                                        "expansion_1_en": "I had fully intended to give it back last week, but things got completely out of hand.",
+                                        "expansion_1_en": "I had planned to give it back last week, but I became extremely busy with unexpected matters.",
                                         "expansion_1_vi": "Mình đã định mang trả vào tuần trước, nhưng mọi việc trở nên quá bận rộn ngoài dự kiến.",
                                         "expansion_2_en": "Thank you so much for being so patient and understanding with me.",
                                         "expansion_2_vi": "Cảm ơn bạn rất nhiều vì đã luôn kiên nhẫn và thông cảm cho mình."
@@ -16816,13 +16816,13 @@ const LETTERS_DATA = [
                                         "reason_vi": "vì mình phải đi xa nhà trong một thời gian dài.",
                                         "expansion_1_en": "I only arrived back home a few days ago and immediately thought of your book.",
                                         "expansion_1_vi": "Mình chỉ vừa về đến nhà vài ngày trước và nghĩ ngay đến cuốn sách của bạn.",
-                                        "expansion_2_en": "I hope this slight delay has not caused you any inconvenience.",
+                                        "expansion_2_en": "I hope this delay has not caused you any trouble.",
                                         "expansion_2_vi": "Mình hy vọng sự chậm trễ này không gây ra bất tiện phiền phức nào cho bạn."
                               },
                               {
                                         "action_en": "Please forgive me for keeping your book for longer than I should have",
                                         "action_vi": "bạn bỏ qua cho mình vì đã giữ cuốn sách của bạn lâu hơn mức đáng lẽ nên giữ",
-                                        "reason_en": "because it had completely slipped my mind amidst the hectic exam schedule.",
+                                        "reason_en": "because it had completely slipped my mind during my busy exam period.",
                                         "reason_vi": "vì mình đã hoàn toàn đãng trí quên mất giữa lịch thi cử dồn dập.",
                                         "expansion_1_en": "I only remembered that I still had it when I organized my room yesterday.",
                                         "expansion_1_vi": "Mình chỉ mới nhớ ra mình vẫn còn giữ sách khi dọn dẹp lại phòng vào ngày hôm qua.",
@@ -16886,7 +16886,7 @@ const LETTERS_DATA = [
                                         "reason_vi": "sau khi đọc xong, mình đặt sách lên giá và không nghĩ đến nó nữa giữa bộn bề công việc.",
                                         "expansion_1_en": "I only remembered that I still had it when I was cleaning and tidying up my room recently.",
                                         "expansion_1_vi": "Mình chỉ nhớ ra mình vẫn còn giữ sách khi gần đây dọn dẹp và sắp xếp lại phòng.",
-                                        "expansion_2_en": "I felt so apologetic the instant I noticed your book resting on my top shelf.",
+                                        "expansion_2_en": "I felt so bad the moment I saw your book sitting on my top shelf.",
                                         "expansion_2_vi": "Mình cảm thấy rất áy náy ngay khi nhìn thấy cuốn sách của bạn nằm trên kệ trên cùng."
                               },
                               {
@@ -16904,7 +16904,7 @@ const LETTERS_DATA = [
                                         "action_vi": "thật không may mình đã gặp một tai nạn giao thông nhỏ cách đây vài tuần.",
                                         "reason_en": "I had to spend some time resting at home and needed several weeks to recover.",
                                         "reason_vi": "mình phải nằm nghỉ một thời gian và cần vài tuần để hồi phục sức khỏe.",
-                                        "expansion_1_en": "During that period, I was unable to carry out my usual activities, and returning your book was unfortunately overlooked.",
+                                        "expansion_1_en": "During that time, I was unable to go out normally, and returning your book was completely forgotten.",
                                         "expansion_1_vi": "Trong giai đoạn đó, mình không thể thực hiện các hoạt động thường ngày, và việc trả sách đã bị bỏ quên.",
                                         "expansion_2_en": "My health is now much better and I can easily travel around town again.",
                                         "expansion_2_vi": "Sức khỏe của mình giờ đã tốt hơn nhiều và mình đã có thể đi lại bình thường quanh thành phố."
@@ -18388,7 +18388,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì đội ngũ nhân viên bếp gặp phải sự cố máy tính bất ngờ.",
                   "expansion_1_en": "An unexpected network outage at our kitchen terminals delayed Friday evening dinner orders.",
                   "expansion_1_vi": "Sự cố mất mạng đột ngột tại quầy bếp đã làm chậm trễ các đơn gọi món tối thứ Sáu của khách.",
-                  "expansion_2_en": "However, we recognize that our communication during this backlog was completely inadequate.",
+                  "expansion_2_en": "However, we recognize that our communication during this busy period was not good enough.",
                   "expansion_2_vi": "Tuy nhiên, chúng tôi nhận thấy rằng cách xử lý và giải thích của nhân viên khi đó là rất thiếu sót."
                 },
                 {
@@ -18452,7 +18452,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "I have waived all room service and drink charges from your invoice",
                   "action_vi": "tôi đã miễn toàn bộ chi phí dịch vụ phòng và đồ uống trên hóa đơn của bà",
-                  "reason_en": "because we want to relieve any lingering dissatisfaction from your stay.",
+                  "reason_en": "because we want to make up for any disappointment from your stay.",
                   "reason_vi": "bởi vì chúng tôi muốn giải tỏa mọi sự không hài lòng còn đọng lại sau chuyến đi.",
                   "expansion_1_en": "We have cancelled all meal and minibar charges from your final hotel folios as well.",
                   "expansion_1_vi": "Chúng tôi cũng đã hủy bỏ toàn bộ tiền ăn uống và dịch vụ quầy bar nhỏ trên hóa đơn cuối cùng của bà.",
@@ -18494,7 +18494,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì các phòng nghỉ phải luôn duy trì nhiệt độ êm ái và yên tĩnh.",
                   "expansion_1_en": "A comprehensive HVAC overhaul will inspect compressor noise levels across all guest wings.",
                   "expansion_1_vi": "Một đợt bảo trì điều hòa tổng thể sẽ kiểm tra độ ồn của máy nén trên khắp các cánh tòa nhà.",
-                  "expansion_2_en": "Acoustic dampening insulation is being installed to ensure whisper-quiet room environments.",
+                  "expansion_2_en": "Better soundproof insulation is being installed to ensure quiet and peaceful room environments.",
                   "expansion_2_vi": "Vật liệu tiêu âm cách âm đang được lắp đặt bổ sung để mang lại không gian phòng ngủ tĩnh lặng tuyệt đối."
                 },
                 {
@@ -18524,7 +18524,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì các tiêu chuẩn vệ sinh nghiêm ngặt sẽ bảo vệ sức khỏe và sự thoải mái cho mọi du khách.",
                   "expansion_1_en": "Senior managers will perform unannounced inspections to evaluate bedroom hygiene and linen cleanliness.",
                   "expansion_1_vi": "Ban giám đốc sẽ tiến hành kiểm tra đột xuất để đánh giá độ sạch sẽ của phòng ngủ và đồ vải ga đệm.",
-                  "expansion_2_en": "Strict checklist auditing ensures our housekeeping standards remain uncompromised at all times.",
+                  "expansion_2_en": "Strict checklist inspections ensure our housekeeping standards remain high at all times.",
                   "expansion_2_vi": "Việc chấm điểm theo bảng kiểm nghiêm ngặt đảm bảo quy chuẩn buồng phòng luôn được giữ vững mọi lúc."
                 }
               ]
@@ -18909,7 +18909,7 @@ const LETTERS_DATA = [
                   "reason_vi": "và việc được phục vụ khách hàng trực tiếp luôn đem lại cho tôi nhiều năng lượng và niềm vui.",
                   "expansion_1_en": "I find immense satisfaction in creating a welcoming, memorable dining atmosphere for guests.",
                   "expansion_1_vi": "Em cảm thấy tràn đầy niềm vui khi tạo dựng được một không gian dùng bữa ấm cúng và đáng nhớ cho khách hàng.",
-                  "expansion_2_en": "This positive energy allows me to maintain a cheerful and helpful demeanor throughout demanding shifts.",
+                  "expansion_2_en": "This positive energy allows me to maintain a cheerful and helpful attitude throughout demanding shifts.",
                   "expansion_2_vi": "Nguồn năng lượng tích cực này giúp em luôn giữ vững phong thái tươi vui và niềm nở suốt những ca làm việc bận rộn."
                 },
                 {
@@ -18975,7 +18975,7 @@ const LETTERS_DATA = [
                   "action_vi": "tôi rất thành thạo trong việc thao tác máy tính tiền POS cảm ứng và quản lý tiền mặt",
                   "reason_en": "because I am very careful with money and calculating bills for customers.",
                   "reason_vi": "đảm bảo việc in hóa đơn, thanh toán thẻ và chia tiền bàn luôn diễn ra chuẩn xác, nhanh chóng.",
-                  "expansion_1_en": "I have managed cash registers and credit card terminals with zero discrepancy over six months.",
+                  "expansion_1_en": "I have managed cash registers and credit card terminals with zero errors over six months.",
                   "expansion_1_vi": "Em đã quản lý máy thu ngân và máy quẹt thẻ tín dụng với độ chính xác tuyệt đối suốt sáu tháng qua.",
                   "expansion_2_en": "My strong attention to detail ensures prompt billing and smooth end-of-shift reports.",
                   "expansion_2_vi": "Sự cẩn trọng tỉ mỉ giúp em in hóa đơn nhanh chóng và đối soát sổ sách cuối ca làm việc suôn sẻ."
@@ -19007,7 +19007,7 @@ const LETTERS_DATA = [
                   "reason_vi": "đảm bảo tuân thủ nghiêm ngặt các quy tắc giữ gìn vệ sinh bàn ăn và dụng cụ nhà bếp.",
                   "expansion_1_en": "I strictly observe food safety guidelines regarding allergen cross-contamination and table sanitization.",
                   "expansion_1_vi": "Em tuân thủ nghiêm ngặt các hướng dẫn an toàn thực phẩm về chống nhiễm khuẩn chéo và khử trùng bàn ăn.",
-                  "expansion_2_en": "Ensuring pristine dining hygiene protects customer well-being and upholds the restaurant's reputation.",
+                  "expansion_2_en": "Ensuring spotless dining hygiene protects customer health and upholds the restaurant's reputation.",
                   "expansion_2_vi": "Đảm bảo vệ sinh ăn uống sạch sẽ giúp bảo vệ sức khỏe thực khách và giữ gìn uy tín của nhà hàng."
                 }
               ]
@@ -19557,7 +19557,7 @@ const LETTERS_DATA = [
                   "b1_sentence": "I worked at the information desk during our university youth camp, so I know how to answer visitors' questions politely and clearly.",
                   "expansion_1_en": "I guided lost visitors, distributed event schedules, and resolved minor lost-and-found cases promptly.",
                   "expansion_1_vi": "Em đã hướng dẫn khách bị lạc đường, phát tờ rơi lịch trình và xử lý nhanh các trường hợp tìm đồ thất lạc.",
-                  "expansion_2_en": "My calm, friendly demeanor consistently turned stressful visitor moments into positive experiences.",
+                  "expansion_2_en": "My calm, friendly manner consistently turned stressful visitor moments into positive experiences.",
                   "expansion_2_vi": "Thái độ hòa nhã, ân cần của em luôn giúp khách giải tỏa bối rối và có được trải nghiệm dễ chịu."
                 },
                 {
@@ -19579,7 +19579,7 @@ const LETTERS_DATA = [
                   "b1_sentence": "I helped manage food and game booths at a local festival last summer, so I have good experience in keeping areas clean and organized.",
                   "expansion_1_en": "I oversaw vendor hygiene compliance and maintained waste disposal stations throughout festival grounds.",
                   "expansion_1_vi": "Em đã giám sát an toàn vệ sinh của các gian hàng và điều phối các điểm gom rác khắp khuôn viên lễ hội.",
-                  "expansion_2_en": "Keeping the public promenade pristine earned our volunteer division high praise from university leaders.",
+                  "expansion_2_en": "Keeping the public walkway spotless earned our volunteer team high praise from university leaders.",
                   "expansion_2_vi": "Giữ cho khu vực đi bộ luôn sạch đẹp đã giúp đội tình nguyện nhận được lời khen ngợi từ ban giám hiệu."
                 },
                 {
@@ -19798,7 +19798,7 @@ const LETTERS_DATA = [
                   "reason_en": "because this job will give me valuable communication experience.",
                   "reason_vi": "vì công việc này sẽ cho tôi những kinh nghiệm giao tiếp quý báu.",
                   "b1_sentence": "I am very eager to learn about fashion retail because this job will give me valuable communication experience.",
-                  "expansion_1_en": "I want to gain comprehensive insights into visual merchandising, stock replenishment, and retail operations.",
+                  "expansion_1_en": "I want to gain comprehensive insights into visual merchandising, stock management, and retail operations.",
                   "expansion_1_vi": "Em muốn học hỏi toàn diện về nghệ thuật trưng bày bắt mắt, bổ sung hàng hóa và quản lý vận hành bán lẻ.",
                   "expansion_2_en": "I am a quick, enthusiastic learner who takes on new responsibilities with great dedication.",
                   "expansion_2_vi": "Em là người học việc nhanh nhạy, nhiệt huyết và luôn đón nhận nhiệm vụ mới với tinh thần trách nhiệm cao."
@@ -20455,7 +20455,7 @@ const LETTERS_DATA = [
                   "b1_sentence": "I worked as an intern receptionist at a three-star hotel last summer, so I know how to check in guests, issue room keys, and answer phones politely.",
                   "expansion_1_en": "During my internship, I checked in over five hundred guests and resolved concierge inquiries flawlessly.",
                   "expansion_1_vi": "Trong kỳ thực tập, em đã làm thủ tục nhận phòng cho hơn năm trăm lượt khách và giải đáp mọi yêu cầu chỉn chu.",
-                  "expansion_2_en": "I was commended by the front-office manager for my composed demeanor and swift problem solving.",
+                  "expansion_2_en": "I was commended by the front-office manager for my calm attitude and swift problem solving.",
                   "expansion_2_vi": "Em đã được trưởng bộ phận tiền sảnh khen ngợi vì tác phong điềm đạm và kỹ năng xử lý tình huống nhanh nhạy."
                 },
                 {
