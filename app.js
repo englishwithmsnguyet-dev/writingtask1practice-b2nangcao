@@ -6054,7 +6054,7 @@ function generateDraftWordDocumentHtml(draft, topic) {
     <body>
       <div style="text-align: center; margin-bottom: 12pt;">
         <p style="font-size: 12pt; font-weight: bold; color: #1e40af; margin: 0; text-transform: uppercase;">ENGLISH WITH MISS NGUYET - VSTEP B2 NÂNG CAO</p>
-        <h1>BẢN THẢO BÀI VIẾT THỰC HÀNH VSTEP TASK 01</h1>
+        <h1>BẢN THẢO BÀI VIẾT THỰC HÀNH VSTEP WRITING TASK 01</h1>
         <p style="font-size: 10pt; color: #64748b; font-style: italic;">Thời gian xuất file: ${new Date().toLocaleString("vi-VN")}</p>
       </div>
 
