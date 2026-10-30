@@ -208,8 +208,8 @@ html, body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  font-family: 'Roboto Serif', serif;
-  font-weight: 300;
+  font-family: var(--font-sans);
+  font-weight: 400;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
@@ -218,18 +218,18 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6, .brand-title, .category-bar-title {
-  font-family: 'Roboto Serif', serif;
-  font-weight: 500;
+  font-family: var(--font-heading);
+  font-weight: 700;
   color: var(--text-primary);
 }
 
 button, input, textarea, select {
-  font-family: 'Roboto Serif', serif;
+  font-family: var(--font-sans);
 }
 
 strong, b {
-  font-family: 'Roboto Serif', serif;
-  font-weight: 500;
+  font-family: var(--font-sans);
+  font-weight: 700;
 }
 
 /* Layout Container */
