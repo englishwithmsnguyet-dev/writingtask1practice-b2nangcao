@@ -4147,33 +4147,43 @@ function detectOffTopic(text, topic, catKey) {
 
   const effectiveCatKey = catKey || topic.category_id || '';
 
+  const categoryNamesVi = {
+    advice: 'Thư cho lời khuyên (Letter of Advice)',
+    request: 'Thư yêu cầu (Letter of Request)',
+    description: 'Thư kể lại / miêu tả (Descriptive Letter)',
+    complaint: 'Thư khiếu nại / phàn nàn (Letter of Complaint)',
+    feedback: 'Thư phản hồi / đóng góp ý kiến (Feedback Letter)',
+    apology: 'Thư xin lỗi (Letter of Apology)',
+    application: 'Thư ứng tuyển xin việc (Letter of Application)'
+  };
+
   // 1. Nhận diện nhầm lẫn dạng thư nghiêm trọng (Category / Genre Mismatch)
   const hasAppSignals = /\b(apply for|applying for|position of|job vacancy|my resume|my cv|curriculum vitae|my career|an interview|qualifications for this role|applying for the post)\b/i.test(lowerText);
-  const hasComplaintSignals = /\b(writing to complain|express my dissatisfaction|extremely disappointed|unacceptable service|file a formal complaint)\b/i.test(lowerText);
+  const hasComplaintSignals = /\b(writing to complain|express my dissatisfaction|extremely disappointed|unacceptable service|file a formal complaint|demand a full refund)\b/i.test(lowerText);
   const hasApologySignals = /\b(apologize for|sincere apology|sincere apologies|truly sorry|forgive me|please accept my apology|sorry for keeping|sorry for not returning)\b/i.test(lowerText);
   const hasAdviceSignals = /\b(give you some advice|my recommendation|i suggest that you|if i were you|you should consider|you ought to)\b/i.test(lowerText);
 
-  if (effectiveCatKey === 'apology' && hasAppSignals && !hasApologySignals) {
+  if (effectiveCatKey && effectiveCatKey !== 'application' && hasAppSignals && !hasApologySignals && !hasComplaintSignals && !hasAdviceSignals) {
     return {
       isOffTopic: true,
       type: 'category_mismatch',
-      reason: 'Bài viết nộp là Thư ứng tuyển xin việc (Application), trong khi đề bài yêu cầu viết Thư xin lỗi (Letter of Apology).'
+      reason: `Bài viết nộp là Thư ứng tuyển xin việc (Application), trong khi đề bài yêu cầu viết ${categoryNamesVi[effectiveCatKey] || 'dạng thư khác'}.`
     };
   }
 
-  if (effectiveCatKey === 'application' && hasComplaintSignals && !hasAppSignals) {
+  if (effectiveCatKey && effectiveCatKey !== 'complaint' && hasComplaintSignals && !hasAppSignals && !hasApologySignals) {
     return {
       isOffTopic: true,
       type: 'category_mismatch',
-      reason: 'Bài viết nộp là Thư phàn nàn (Complaint), trong khi đề bài yêu cầu viết Thư ứng tuyển xin việc (Letter of Application).'
+      reason: `Bài viết nộp là Thư phàn nàn / khiếu nại (Complaint), trong khi đề bài yêu cầu viết ${categoryNamesVi[effectiveCatKey] || 'dạng thư khác'}.`
     };
   }
 
-  if (effectiveCatKey === 'advice' && hasAppSignals && !hasAdviceSignals) {
+  if (effectiveCatKey === 'application' && (hasComplaintSignals || hasApologySignals) && !hasAppSignals) {
     return {
       isOffTopic: true,
       type: 'category_mismatch',
-      reason: 'Bài viết nộp là Thư ứng tuyển xin việc (Application), trong khi đề bài yêu cầu viết Thư cho lời khuyên (Letter of Advice).'
+      reason: 'Bài viết nộp không phải Thư ứng tuyển xin việc (Letter of Application) như đề bài yêu cầu.'
     };
   }
 
@@ -4186,7 +4196,7 @@ function detectOffTopic(text, topic, catKey) {
     'first', 'time', 'good', 'make', 'help', 'much', 'many', 'more', 'some', 'well', 'also', 'because',
     'since', 'after', 'before', 'their', 'there', 'here', 'into', 'just', 'like', 'than', 'other',
     'very', 'every', 'friend', 'friends', 'dear', 'sincerely', 'faithfully', 'regards', 'wishes',
-    'please', 'thank', 'thanks', 'working', 'experience', 'full'
+    'please', 'thank', 'thanks', 'working', 'experience', 'full', 'final', 'busy', 'know', 'need', 'want'
   ]);
 
   const rawKeywords = [
@@ -4203,11 +4213,18 @@ function detectOffTopic(text, topic, catKey) {
       .filter(w => w.length >= 4 && !commonStopwords.has(w))
   ));
 
-  // Đối chiếu từ khóa cốt lõi với bài viết của học viên
-  const matchedKeywords = substantiveKeywords.filter(k => lowerText.includes(k));
+  // Đối chiếu từ khóa cốt lõi (theo từ đơn nguyên vẹn) với bài viết của học viên
+  const textWords = lowerText.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(Boolean);
+  const textWordSet = new Set(textWords);
+  const matchedKeywords = substantiveKeywords.filter(k => textWordSet.has(k));
 
-  // Nếu bài viết trên 60 từ nhưng số từ khóa thực chất khớp <= 1 từ
-  if (words.length >= 60 && matchedKeywords.length <= 1) {
+  // Phân loại lạc đề theo tương quan độ dài và lượng từ khóa khớp
+  const isContentUnrelated = (words.length >= 35 && matchedKeywords.length === 0) ||
+                             (words.length >= 45 && matchedKeywords.length <= 1) ||
+                             (words.length >= 80 && matchedKeywords.length <= 2) ||
+                             (words.length >= 110 && matchedKeywords.length <= 3);
+
+  if (isContentUnrelated) {
     return {
       isOffTopic: true,
       type: 'content_unrelated',
