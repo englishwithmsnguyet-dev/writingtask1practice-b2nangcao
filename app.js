@@ -3878,7 +3878,7 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
     const promptFull = ((topic?.prompt || '') + ' ' + (topic?.context || '')).toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ');
     const normSent = lower.replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
     const isMetaInstruction = /write a letter in response|in your letter you should|write an email to|you should write at least|do not include your name|evaluated in terms of/i.test(normSent);
-    const isPromptVerbatim = (normSent.length > 25 && promptFull.includes(normSent));
+    const isPromptVerbatim = (normSent.length >= 15 && promptFull.includes(normSent));
 
     if (isMetaInstruction || isPromptVerbatim) {
       return {
