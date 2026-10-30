@@ -13772,14 +13772,14 @@ const LETTERS_DATA = [
             {
               "id": 1,
               "part": "Đề xuất công nghệ B2",
-              "vi": "Tích hợp hệ thống theo dõi GPS thời gian thực trên ứng dụng di động sẽ hỗ trợ đắc lực cho hành khách trong việc quản lý thời gian đi lại và giảm bớt tình trạng ùn ứ tại trạm chờ.",
-              "en": "Integrating a real-time GPS transit tracking system via a dedicated mobile interface would empower commuters to plan schedules effectively and alleviate stop congestion.",
+              "vi": "Thêm hệ thống theo dõi xe buýt theo thời gian thực trên ứng dụng di động sẽ giúp hành khách chủ động thời gian đi lại và giảm bớt tình trạng chen chúc tại trạm chờ.",
+              "en": "Adding a real-time bus tracking system on a mobile app would help passengers manage their travel time and reduce waiting crowds at bus stops.",
               "hints": [
-                "Integrating a real-time GPS transit tracking system",
-                "empower commuters",
-                "alleviate stop congestion"
+                "Adding a real-time bus tracking system",
+                "help passengers manage their travel time",
+                "reduce waiting crowds at bus stops"
               ],
-              "explanation": "Từ vựng B2 chính sách giao thông: 'empower commuters' (hỗ trợ hành khách), 'alleviate congestion' (giảm thiểu ùn tắc)."
+              "explanation": "Cấu trúc câu đề xuất giải pháp B2 tự nhiên, dễ áp dụng."
             }
           ],
           "sample_b1": {
@@ -14249,7 +14249,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Góp ý quy trình B2",
               "vi": "Thiết lập một điều phối viên sự kiện chuyên trách để kiểm tra âm thanh và điều tiết thời điểm phục vụ món tráng miệng sẽ giúp các bữa tiệc diễn ra hoàn hảo hơn.",
-              "en": "Assigning a dedicated floor captain to conduct audio soundchecks and synchronize dessert timing would significantly enhance banquet execution.",
+              "en": "Assigning a supervisor to check sound levels and serve the birthday cake on time would greatly improve the party experience.",
               "hints": [
                 "Assigning a dedicated floor captain",
                 "audio soundchecks",
@@ -15070,16 +15070,16 @@ const LETTERS_DATA = [
             {
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Đánh giá cân bằng về trải nghiệm lưu trú",
-              "vi": "Mặc dù tôi đánh giá rất cao sự hiếu khách mẫu mực của nhân viên và sự thoải mái tổng thể của các tiện nghi, song việc tối ưu hóa hạ tầng kết nối kỹ thuật số chắc chắn sẽ củng cố vững chắc danh tiếng của khách sạn như một điểm đến hàng đầu dành cho cả khách du lịch lẫn khách công vụ.",
-              "en": "While I greatly appreciated the exemplary hospitality of your staff and the overall comfort of the facilities, optimizing the digital connectivity infrastructure would undoubtedly solidify your hotel's reputation as a premier destination for both business and leisure travelers.",
+              "vi": "Mặc dù tôi đánh giá rất cao sự hiếu khách thân thiện của nhân viên và sự thoải mái của phòng ốc, việc cải thiện kết nối Wi-Fi chắc chắn sẽ giúp khách sạn trở thành lựa chọn tốt hơn nữa cho cả khách công tác lẫn khách du lịch.",
+              "en": "While I greatly appreciated the friendly hospitality of your staff and the comfort of the rooms, improving the Wi-Fi connection would certainly make your hotel an even better choice for both business and holiday guests.",
               "vocab_hints": [
                 {
-                  "en": "exemplary hospitality",
-                  "vi": "sự hiếu khách mẫu mực"
+                  "en": "friendly hospitality",
+                  "vi": "sự hiếu khách thân thiện"
                 },
                 {
-                  "en": "solidify your hotel's reputation",
-                  "vi": "củng cố vững chắc danh tiếng khách sạn"
+                  "en": "improve the Wi-Fi connection",
+                  "vi": "cải thiện kết nối Wi-Fi"
                 }
               ],
               "explanation": "Mẫu câu phức B2 sử dụng mệnh đề nhượng bộ 'While...' kết hợp từ vựng cao cấp.",
@@ -15094,7 +15094,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Từ vựng 'exemplary hospitality' và 'premier destination' đạt chuẩn C1."
+              "criteria_tip": "Cấu trúc câu phức nhượng bộ While kết hợp từ vựng đánh giá chuẩn B2."
             }
           ],
           "sample_b1": {
@@ -15625,16 +15625,16 @@ const LETTERS_DATA = [
             {
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Đánh giá tinh tế ẩm thực & Tối ưu hóa vận hành",
-              "vi": "Mặc dù tài nghệ nấu nướng xuất sắc và hương vị tinh tế của các món ăn rất đáng khen ngợi, việc tối ưu hóa quy trình phối hợp giữa nhà bếp và đội ngũ phục vụ trong những khung giờ cao điểm chắc chắn sẽ nâng tầm trải nghiệm của thực khách lên chuẩn mực cao cấp hoàn hảo.",
-              "en": "While the culinary finesse and exquisite flavors of your dishes are undeniably commendable, streamlining the operational coordination between the kitchen and front-of-house staff during peak rushes would undoubtedly elevate the dining experience to an impeccable standard.",
+              "vi": "Mặc dù hương vị thơm ngon và nguyên liệu tươi mới của các món ăn rất ấn tượng, việc cải thiện tốc độ phục vụ giữa nhà bếp và nhân viên bàn trong giờ cao điểm chắc chắn sẽ giúp trải nghiệm dùng bữa của thực khách trở nên tuyệt vời hơn nhiều.",
+              "en": "While the wonderful taste and fresh ingredients of your dishes are truly impressive, improving the serving speed between the kitchen and waitstaff during busy hours would certainly make the dining experience much better for all guests.",
               "vocab_hints": [
                 {
-                  "en": "culinary finesse and exquisite flavors",
-                  "vi": "tài nghệ nấu nướng và hương vị tinh tế"
+                  "en": "wonderful taste and fresh ingredients",
+                  "vi": "hương vị thơm ngon và nguyên liệu tươi mới"
                 },
                 {
-                  "en": "streamlining operational coordination",
-                  "vi": "tối ưu hóa quy trình phối hợp vận hành"
+                  "en": "improving serving speed",
+                  "vi": "cải thiện tốc độ phục vụ"
                 }
               ],
               "explanation": "Cấu trúc câu phức nâng cao B2 với các thuật ngữ chuyên môn F&B cao cấp.",
@@ -15649,7 +15649,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Từ vựng 'culinary finesse' và 'impeccable standard' đạt chuẩn C1/B2."
+              "criteria_tip": "Cấu trúc câu phức nhượng bộ While diễn đạt phản hồi cân bằng chuẩn B2."
             }
           ],
           "sample_b1": {
@@ -15942,7 +15942,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Giải trình học thuật B2",
               "vi": "Một sự cố phần cứng không lường trước đã làm hỏng ổ lưu trữ của tôi, vô hiệu hóa khả năng truy xuất chương cuối của luận văn bất chấp mọi nỗ lực sao lưu đám mây.",
-              "en": "An unanticipated hardware failure corrupted my primary storage drive, temporarily preventing retrieval of the final chapter despite prior cloud backups.",
+              "en": "A sudden computer problem damaged my hard drive, temporarily preventing me from opening the final chapter before the deadline.",
               "hints": [
                 "unanticipated hardware failure corrupted",
                 "temporarily preventing retrieval",
@@ -16417,7 +16417,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Cam kết dịch vụ B2",
               "vi": "Chúng tôi đã nâng cấp hệ thống máy phát điện phụ trợ và điều chỉnh lại quy trình giao món ban đêm nhằm đảm bảo thời gian phục vụ chuẩn xác cho mọi quý khách.",
-              "en": "We have instituted auxiliary backup power generators and restructured night-shift culinary workflows to safeguard seamless delivery across all suites.",
+              "en": "We have installed backup power generators and reorganized night-shift kitchen staff to ensure smooth and fast room service for all guests.",
               "hints": [
                 "instituted auxiliary backup power generators",
                 "restructured night-shift culinary workflows",
@@ -18244,7 +18244,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "1. Mở thư B2 (Formal & Sincere Apology)",
               "vi": "Tôi viết thư này để gửi lời xin lỗi chân thành nhất tới bà về những bất tiện và dịch vụ thiếu sót trong kỳ nghỉ vừa qua.",
-              "en": "I am writing to extend our sincerest apologies regarding the substandard service and inconveniences you encountered during your recent stay.",
+              "en": "I am writing to express our sincere apologies for the poor service and problems you encountered during your recent stay.",
               "hints": [
                 "extend our sincerest apologies regarding",
                 "substandard service and inconveniences you encountered"
@@ -18255,7 +18255,7 @@ const LETTERS_DATA = [
               "id": 2,
               "part": "2. Thân bài B2 - Ý 1 (Accountability & Investigation)",
               "vi": "Sau khi xem xét kỹ lưỡng thư khiếu nại của bà, ban quản lý chúng tôi hoàn toàn nhận thức được sự thiếu sót của đội ngũ trực ban tối hôm đó.",
-              "en": "Following a thorough investigation into your grievance, our executive management fully acknowledges the operational shortcomings on that evening.",
+              "en": "Following a careful review of your complaint, our management fully acknowledges the service mistakes that happened that evening.",
               "hints": [
                 "thorough investigation into your grievance",
                 "acknowledges the operational shortcomings"
@@ -18277,7 +18277,7 @@ const LETTERS_DATA = [
               "id": 4,
               "part": "4. Thân bài B2 - Ý 3 (Comprehensive corrective actions)",
               "vi": "Chúng tôi đã ban hành chương trình đào tạo lại về kỹ năng ứng xử cho nhân viên và tăng cường tần suất giám sát buồng phòng.",
-              "en": "We have instituted mandatory customer service retraining for all front-desk staff and reinforced strict housekeeping inspection protocols.",
+              "en": "We have started customer service retraining for all front-desk staff and applied stricter housekeeping inspection rules.",
               "hints": [
                 "instituted mandatory customer service retraining",
                 "reinforced strict housekeeping inspection protocols"
@@ -18288,7 +18288,7 @@ const LETTERS_DATA = [
               "id": 5,
               "part": "5. Thân bài B2 - Ý 4 (Goodwill gesture & Invitation)",
               "vi": "Chúng tôi rất trân trọng cơ hội được đón tiếp bà trong tương lai với một kỳ nâng hạng phòng miễn phí để chứng minh sự cam kết đổi mới.",
-              "en": "We would genuinely value the opportunity to welcome you back with a complimentary room upgrade to demonstrate our renewed commitment to excellence.",
+              "en": "We would truly appreciate the opportunity to welcome you back with a free room upgrade to show our sincere dedication to high service quality.",
               "hints": [
                 "genuinely value the opportunity to welcome you back",
                 "renewed commitment to excellence"
