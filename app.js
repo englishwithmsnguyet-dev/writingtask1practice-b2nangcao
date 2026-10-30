@@ -5791,7 +5791,7 @@ function generateWordDocumentHtml(sub, topic) {
         </tr>
       </table>
 
-      <h2>II. KẾT QUẢ ĐÁNH GIÁ CHUẨN VSTEP TASK 01</h2>
+      <h2>II. KẾT QUẢ ĐÁNH GIÁ CHUẨN VSTEP WRITING TASK 01</h2>
       <div class="score-box">
         <p style="font-size: 14pt; font-weight: bold; color: #1e40af; margin: 0;">ĐIỂM TỔNG QUAN (OVERALL BAND): ${overallBand} / 10</p>
         <p style="font-size: 11pt; color: #166534; font-weight: bold; margin: 4pt 0 0 0;">${overallBand >= 7.0 ? "ĐẠT CHUẨN VSTEP B2" : overallBand >= 6.0 ? "TIỆM CẬN B2 (B1+)" : "CẦN TIẾP TỤC LUYỆN TẬP"}</p>
