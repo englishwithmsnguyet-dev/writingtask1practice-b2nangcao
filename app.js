@@ -1338,7 +1338,20 @@ function onPracticeTopicChange(topicId) {
         </div>
       `;
     }
-    const extractions = topic.details?.task_extractions || [];
+    const rawExtractions = topic.details?.task_extractions || [];
+    const extractions = rawExtractions.length > 0 
+      ? rawExtractions 
+      : ((topic.details?.suggested_ideas || []).length > 0
+          ? (topic.details?.suggested_ideas || []).map((idea, idx) => ({
+              icon: idea.icon || 'fa-check-circle',
+              task_title: `Yêu cầu ${idx + 1}: ${idea.title_vi || idea.title_en || ''}`,
+              task_goal: idea.title_en ? `${idea.title_en} (${idea.title_vi || ''})` : (idea.title_vi || '')
+            }))
+          : (topic.details?.analysis?.key_requirements || []).map((reqStr, idx) => ({
+              icon: 'fa-check-circle',
+              task_title: `Yêu cầu ${idx + 1}`,
+              task_goal: reqStr
+            })));
     const badgeThemes = ['hl-cyan', 'hl-amber', 'hl-emerald', 'hl-rose'];
     if (extractions.length > 0) {
       html += extractions.map((ex, idx) => `
