@@ -1531,7 +1531,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì xiên thịt nướng thơm lừng chấm cùng nước tương đậu phộng béo ngậy rất hấp dẫn.",
                   "expansion_1_en": "The skewers are grilled to perfection and served with delicate rice paper sheets and pickled vegetables.",
                   "expansion_1_vi": "Từng xiên nem được nướng chín vàng ươm, ăn kèm bánh tráng mỏng dẻo và đồ chua thanh mát.",
-                  "expansion_2_en": "The signature thick peanut dipping sauce ties all the savory and sweet elements together harmoniously.",
+                  "expansion_2_en": "The delicious peanut dipping sauce makes all the fresh flavors taste great together.",
                   "expansion_2_vi": "Nước tương chấm đậu phộng sánh đặc đặc trưng hòa quyện hoàn hảo mọi hương vị mặn ngọt hài hòa."
                 },
                 {
@@ -3136,7 +3136,7 @@ const LETTERS_DATA = [
                   "action_vi": "cậu có thể phỏng vấn thử cùng một thành viên trong gia đình",
                   "reason_en": "because constructive feedback will help you correct your weak points.",
                   "reason_vi": "bởi vì những lời góp ý xây dựng sẽ giúp cậu sửa những điểm còn yếu.",
-                  "expansion_1_en": "Have your partner ask unpredictable follow-up questions to test your composure under realistic pressure.",
+                  "expansion_1_en": "Have your friend ask common interview questions to help you practice staying calm and confident.",
                   "expansion_1_vi": "Hãy nhờ người thân đặt các câu hỏi vặn bất ngờ để kiểm tra sự bình tĩnh của bạn dưới áp lực thực tế.",
                   "expansion_2_en": "Their candid feedback will spotlight unconscious verbal habits like saying 'um' or speaking too fast.",
                   "expansion_2_vi": "Những nhận xét thẳng thắn của họ sẽ chỉ ra những thói quen vô thức như 'à, ừ' hoặc nói quá nhanh."
@@ -3156,7 +3156,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì trang phục gọn gàng tạo ấn tượng đầu tiên lịch sự và chuyên nghiệp.",
                   "expansion_1_en": "Ensure your clothes are neatly pressed, shoes polished, and jewelry kept understated and professional.",
                   "expansion_1_vi": "Đảm bảo quần áo được là ủi phẳng phiu, giày đánh bóng và phụ kiện trang sức thanh lịch, nhã nhặn.",
-                  "expansion_2_en": "Looking polished projects respect for the hiring panel and instantly boosts your personal poise.",
+                  "expansion_2_en": "Dressing neatly shows respect for the interviewers and helps you feel more confident.",
                   "expansion_2_vi": "Ngoại hình chỉn chu thể hiện sự tôn trọng hội đồng tuyển dụng và lập tức nâng tầm phong thái tự tin của bạn."
                 },
                 {
@@ -3401,7 +3401,7 @@ const LETTERS_DATA = [
               "en": "The international fireworks festival brings together world-class teams, lighting up the night sky with incredible displays of light and music.",
               "hints": [
                 "brings together world-class teams",
-                "illuminating the night sky with breathtaking choreographies"
+                "lighting up the night sky with incredible displays"
               ],
               "explanation": "Mệnh đề phân từ và từ vựng cao cấp 'illuminating the night sky', 'breathtaking choreographies'."
             },
@@ -3411,7 +3411,7 @@ const LETTERS_DATA = [
               "vi": "Đừng quên mang theo trang phục chất liệu lanh nhẹ thoáng khí và kính râm để tận hưởng trọn vẹn từng khoảnh khắc khám phá bờ biển.",
               "en": "Remember to pack light summer clothes, sunglasses, and sunscreen so that you can comfortably enjoy your beach holiday.",
               "hints": [
-                "pack breathable linen attire",
+                "pack light summer clothes",
                 "comfortably enjoy your beach holiday"
               ],
               "explanation": "Sử dụng từ vựng tinh tế 'breathable linen attire', 'relish your coastal exploration'."
@@ -3913,7 +3913,7 @@ const LETTERS_DATA = [
                 "reducing ocean plastic waste",
                 "resonates deeply with young audiences"
               ],
-              "explanation": "Sử dụng cụm từ 'pressing issue resonates deeply with' ghi điểm từ vựng xuất sắc."
+              "explanation": "Sử dụng cụm từ 'important topic that is very familiar to' ghi điểm từ vựng xuất sắc."
             },
             {
               "id": 3,
@@ -3932,9 +3932,9 @@ const LETTERS_DATA = [
               "vi": "Thiết lập phân cấp thị giác rõ ràng với kiểu chữ tương phản và đồ họa infographic sẽ lập tức thu hút sự chú ý của người xem.",
               "en": "Using clear headings, large fonts, and colorful pictures will help your poster attract everyone's attention.",
               "hints": [
-                "clear visual hierarchy",
-                "contrasting typography and infographics",
-                "seize the viewer's attention"
+                "clear headings",
+                "colorful pictures",
+                "attract everyone's attention"
               ],
               "explanation": "Cụm danh từ chuyên ngành thiết kế đồ họa rất ấn tượng."
             },
@@ -4444,7 +4444,7 @@ const LETTERS_DATA = [
               "en": "Listening carefully to what customers want will help you recommend books that match their personal reading interests.",
               "hints": [
                 "active listening enables you to",
-                "tailor-made literary recommendations"
+                "thoughtful book recommendations"
               ],
               "explanation": "Cụm danh từ cao cấp 'active listening', 'tailor-made literary recommendations'."
             },
@@ -11195,7 +11195,7 @@ const LETTERS_DATA = [
               "en": "The lost item is a black Samsonite suitcase with four wheels and a brown leather luggage tag.",
               "hints": [
                 "black Samsonite suitcase with four wheels",
-                "multi-directional spinner wheels"
+                "four spinner wheels"
               ],
               "explanation": "Từ vựng miêu tả chi tiết 'charcoal-black', 'multi-directional spinner wheels'."
             },
@@ -11206,7 +11206,7 @@ const LETTERS_DATA = [
               "en": "Besides my personal clothes, the suitcase contains a company laptop and important work documents needed for my morning meeting.",
               "hints": [
                 "Aside from personal clothes",
-                "confidential contract files essential for"
+                "important work documents needed for"
               ],
               "explanation": "Dùng từ vựng nâng cao 'confidential contract files essential for'."
             },
@@ -18432,8 +18432,8 @@ const LETTERS_DATA = [
               "vi": "Khoản hoàn tiền toàn phần đã được bộ phận kế toán xử lý và sẽ ghi có trực tiếp vào tài khoản ngân hàng của bà trong vòng 3 đến 5 ngày.",
               "en": "A full refund has already been processed by our accounting team and will be sent directly to your bank account within five business days.",
               "hints": [
-                "full reimbursement has already been processed",
-                "credited directly to your bank account"
+                "full refund has already been processed",
+                "sent directly to your bank account"
               ],
               "explanation": "Cấu trúc bị động trang trọng 'has already been processed... will be credited'."
             },
