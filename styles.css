@@ -403,19 +403,19 @@ strong, b {
 }
 
 .nav-link .nav-title-en {
-  font-size: 1rem;
+  font-size: 0.96rem;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.25;
-  font-family: 'Roboto Serif', serif;
+  font-family: var(--font-heading);
 }
 
 .nav-link .nav-title-vi {
-  font-size: 0.82rem;
-  font-weight: 400;
+  font-size: 0.8rem;
+  font-weight: 500;
   color: var(--text-muted);
   line-height: 1.25;
-  font-family: 'Roboto Serif', serif;
+  font-family: var(--font-sans);
 }
 
 .nav-link:hover {
