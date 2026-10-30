@@ -3838,7 +3838,7 @@ function nextPracticeTopicInCat() {
 // ==========================================================================
 // BỘ ĐÁNH GIÁ & NHẬN XÉT CHI TIẾT TỪNG CÂU (VSTEP TASK 01 - BAND B2)
 // ==========================================================================
-function evaluateSentenceBySentence(text, topic, detectedErrors) {
+function evaluateSentenceBySentence(text, topic, detectedErrors, isOffTopic = false) {
   if (!text || !text.trim()) return [];
   const paragraphs = text.split(/\n+/).map(p => p.trim()).filter(Boolean);
   const rawSentences = [];
