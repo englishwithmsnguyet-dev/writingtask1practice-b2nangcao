@@ -3874,6 +3874,25 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
     let feedback = [];
     let upgrade = "";
 
+    // Kiểm tra câu sao chép từ đề bài
+    const promptFull = ((topic?.prompt || '') + ' ' + (topic?.context || '')).toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ');
+    const normSent = lower.replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+    const isMetaInstruction = /write a letter in response|in your letter you should|write an email to|you should write at least|do not include your name|evaluated in terms of/i.test(normSent);
+    const isPromptVerbatim = (normSent.length > 25 && promptFull.includes(normSent));
+
+    if (isMetaInstruction || isPromptVerbatim) {
+      return {
+        text: txt,
+        pIdx: s.pIdx,
+        role: "Sao chép đề bài / Hướng dẫn đề thi",
+        roleKey: "prompt_copy",
+        quality: "error",
+        qualityBadge: "Sao chép đề bài",
+        feedback: ["Câu này được chép lại từ đề bài hoặc câu hướng dẫn của đề thi ('Write a letter...', 'In your letter, you should:...'). Theo quy chế VSTEP, câu sao chép đề bài không được tính điểm."],
+        upgrade: "Hãy tự viết câu mở thư hoặc thân bài của riêng bạn (ví dụ: 'I am writing to express my apologies...' hoặc 'First of all, I would like to...')."
+      };
+    }
+
     // A. Phân loại vai trò câu trong bài thi VSTEP Task 01
     if (s.isGreeting || /^(dear|hello|hi)\b/i.test(txt)) {
       role = "Lời chào mở đầu (Salutation)";
