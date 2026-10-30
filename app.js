@@ -3906,6 +3906,22 @@ function evaluateSentenceBySentence(text, topic, detectedErrors, isOffTopic = fa
       };
     }
 
+    // Kiểm tra câu lạc đề
+    if (isOffTopic && !s.isGreeting && !s.isSignoff) {
+      return {
+        index: idx + 1,
+        text: txt,
+        pIdx: s.pIdx,
+        role: "Nội dung không thuộc đề bài (Lạc đề)",
+        roleKey: "off_topic",
+        quality: "error",
+        qualityBadge: "Lạc đề",
+        wordCount: wc,
+        feedback: "Câu này không thuộc nội dung yêu cầu của đề bài. Cần điều chỉnh lại để trả lời đúng trọng tâm đề thi.",
+        upgrade: "Hãy viết câu trả lời liên quan trực tiếp đến các yêu cầu trong đề bài."
+      };
+    }
+
     // A. Phân loại vai trò câu trong bài thi VSTEP Task 01
     if (s.isGreeting || /^(dear|hello|hi)\b/i.test(txt)) {
       role = "Lời chào mở đầu (Salutation)";
