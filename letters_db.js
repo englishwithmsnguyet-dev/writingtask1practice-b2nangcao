@@ -1050,7 +1050,7 @@ const LETTERS_DATA = [
                 "one of the best ways to learn everyday phrases",
                 "get used to the local culture"
               ],
-              "explanation": "Cụm từ B2: 'conversational exchanges' (trao đổi đàm thoại), 'colloquial idioms' (thành ngữ đời thường), 'assimilating' (hòa nhập)."
+              "explanation": "Cụm từ B2 tự nhiên: 'having regular conversations', 'learn everyday phrases', 'get used to the local culture'."
             }
           ],
           "sample_b1": {
@@ -15341,8 +15341,8 @@ const LETTERS_DATA = [
                   "expansion_2_vi": "Cử chỉ hiếu khách này sẽ khỏa lấp khoảng thời gian chờ nấu nướng một cách duyên dáng và ấn tượng."
                 },
                 {
-                  "action_en": "implement digital tablet ordering systems connected directly to the kitchen",
-                  "action_vi": "áp dụng hệ thống gọi món bằng máy tính bảng kết nối trực tiếp với nhà bếp",
+                  "action_en": "use digital order screens for the kitchen",
+                  "action_vi": "sử dụng màn hình điện tử báo đơn cho nhà bếp",
                   "reason_en": "in order to streamline order delivery and eliminate mistakes.",
                   "reason_vi": "để việc truyền đơn món ăn nhanh chóng và không bị nhầm lẫn.",
                   "expansion_1_en": "Digital handheld terminals allow waitstaff to relay food orders straight to the kitchen display.",
