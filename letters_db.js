@@ -5030,9 +5030,9 @@ const LETTERS_DATA = [
               "vi": "Tôi sẽ rất biết ơn nếu ông/bà có thể gửi cho tôi bản đề cương chi tiết về chương trình ẩm thực, bao gồm cả chứng chỉ nghề nghiệp của các đầu bếp phụ trách.",
               "en": "I would be very grateful if you could send me detailed information about the cooking course, including the experience of the head chefs.",
               "hints": [
-                "immensely grateful if you could forward",
-                "comprehensive syllabus of the culinary curriculum",
-                "professional credentials"
+                "very grateful if you could send me",
+                "detailed information about the cooking course",
+                "experience of the head chefs"
               ],
               "explanation": "Từ vựng B2: 'immensely grateful', 'culinary curriculum' (chương trình ẩm thực), 'credentials' (bằng cấp chuyên môn)."
             }
