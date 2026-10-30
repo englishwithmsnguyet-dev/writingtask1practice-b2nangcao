@@ -2854,12 +2854,12 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân bài B2 - Ý 2 (Convenient commute)",
               "vi": "Quãng đường đi làm hàng ngày rất dễ chịu vì vị trí công ty nằm gần trạm tàu điện, giúp tớ tránh được tình trạng kẹt xe giờ cao điểm.",
-              "en": "My daily commute is hassle-free because the office is located right next to the metro station, saving me from peak hour traffic.",
+              "en": "My daily commute is very convenient because the office is located right next to the metro station, saving me from peak hour traffic.",
               "hints": [
-                "daily commute is hassle-free",
+                "daily commute is very convenient",
                 "saving me from peak hour traffic"
               ],
-              "explanation": "Cụm từ 'hassle-free' và 'peak hour traffic' diễn đạt tự nhiên chuẩn bản xứ."
+              "explanation": "Cụm từ "very convenient" và "peak hour traffic" diễn đạt tự nhiên chuẩn B2."
             },
             {
               "id": 4,
@@ -3390,9 +3390,9 @@ const LETTERS_DATA = [
               "en": "Da Nang offers a wonderful combination of clean sandy beaches and very convenient direct flights from major airports.",
               "hints": [
                 "stunning blend of clean sandy beaches",
-                "seamless flight connectivity"
+                "convenient direct flights"
               ],
-              "explanation": "Từ vựng giàu hình ảnh miêu tả du lịch 'clean sandy beaches', 'seamless flight connectivity'."
+              "explanation": "Từ vựng giàu hình ảnh miêu tả du lịch 'clean sandy beaches', 'convenient direct flights'."
             },
             {
               "id": 4,
@@ -3729,7 +3729,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì cậu có thể đặt xe ô tô có điều hòa với mức giá niêm yết rõ ràng.",
                   "expansion_1_en": "You can book cars or motorbikes with upfront prices displayed clearly, preventing misunderstandings.",
                   "expansion_1_vi": "Bạn có thể đặt xe máy hoặc ô tô với giá tiền hiển thị rõ ràng từ đầu, tránh mọi hiểu lầm về giá.",
-                  "expansion_2_en": "You can also pay seamlessly by credit card without needing to fumble with cash and foreign currency.",
+                  "expansion_2_en": "You can also pay smoothly by credit card without needing to fumble with cash and foreign currency.",
                   "expansion_2_vi": "Bạn cũng có thể thanh toán tiện lợi qua thẻ tín dụng mà không phải lúng túng đếm tiền mặt ngoại tệ."
                 }
               ]
@@ -4076,7 +4076,7 @@ const LETTERS_DATA = [
                   "action_vi": "các cậu nên làm nổi bật lợi ích của việc đạp xe đi học",
                   "reason_en": "because cycling reduces air emissions and improves physical fitness.",
                   "reason_vi": "bởi vì việc đạp xe giúp giảm khí thải và tăng cường thể lực.",
-                  "expansion_1_en": "Cycling produces zero carbon emissions, reduces street noise, and promotes healthy cardiovascular exercise.",
+                  "expansion_1_en": "Cycling produces zero carbon emissions, reduces street noise, and promotes healthy physical health exercise.",
                   "expansion_1_vi": "Đi xe đạp không hề phát thải khí carbon, giảm tiếng ồn đường phố và giúp rèn luyện tim mạch rất tốt.",
                   "expansion_2_en": "A poster showing cycle lanes and fitness gains will encourage many peers to leave motorbikes behind.",
                   "expansion_2_vi": "Một áp phích nêu bật làn đường xe đạp và lợi ích sức khỏe sẽ khích lệ nhiều bạn chuyển sang đi xe đạp."
@@ -4430,12 +4430,12 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "1. Mở thư B2 (Supportive & Encouraging)",
               "vi": "Dạo này cậu thế nào? Tớ rất tự hào khi biết cậu bắt đầu công việc tại hiệu sách và tin chắc những gợi ý nhỏ này sẽ giúp cậu tỏa sáng.",
-              "en": "How have you been lately? I am tremendously proud of your new venture at the bookstore and confident that these practical tips will help you thrive.",
+              "en": "How have you been lately? I am very proud of your new bookstore at the bookstore and confident that these practical tips will help you thrive.",
               "hints": [
-                "tremendously proud of your new venture",
+                "very proud of your new bookstore",
                 "confident that these practical tips will help you thrive"
               ],
-              "explanation": "Dùng từ vựng B2 chọn lọc 'tremendously proud', 'new venture', 'thrive'."
+              "explanation": "Dùng từ vựng B2 chọn lọc 'very proud', 'new venture', 'thrive'."
             },
             {
               "id": 2,
@@ -5034,7 +5034,7 @@ const LETTERS_DATA = [
                 "detailed information about the cooking course",
                 "experience of the head chefs"
               ],
-              "explanation": "Từ vựng B2: 'greatly grateful', 'cooking course' (chương trình ẩm thực), 'credentials' (bằng cấp chuyên môn)."
+              "explanation": "Từ vựng B2: 'greatly grateful', 'cooking course' (chương trình ẩm thực), 'experience' (kinh nghiệm giảng dạy)."
             }
           ],
           "sample_b1": {
@@ -5063,9 +5063,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the cooking course. Could you share what specific Vietnamese and Western dishes students will learn to make?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course schedule and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the cooking course. Could you share what specific Vietnamese and Western dishes students will learn to make?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin một số thông tin về khóa học nấu ăn mùa hè tại Delight Kitchen, vì tôi rất quan tâm đến việc nâng cao kỹ năng nấu nướng của mình và muốn tìm hiểu thêm trước khi đưa ra quyết định.\n\nTrước hết, xin quý trung tâm vui lòng cung cấp thêm thông tin về thời khóa biểu khóa học và địa điểm học? Tôi cần kiểm tra xem giờ học có phù hợp với lịch làm việc toàn thời gian của mình hay không.\n\nThêm vào đó, xin quý trung tâm cho tôi biết thêm chi tiết về tổng học phí và liệu các dụng cụ làm bếp cùng nguyên liệu cần thiết đã được bao gồm hoàn toàn hay chưa?\n\nHơn nữa, tôi muốn tìm hiểu thêm về các giảng viên ẩm thực. Tôi muốn đảm bảo rằng họ có chuyên môn sâu rộng trong ngành và có phương pháp giảng dạy tận tình cho học viên mới bắt đầu.\n\nCuối cùng, tôi cũng đang băn khoăn về chương trình đào tạo. Xin vui lòng chia sẻ những món ăn Việt Nam và phương Tây cụ thể mà giáo trình thực hành chú trọng?\n\nCảm ơn vì thời gian của quý trung tâm. Tôi rất mong sớm nhận được hồi âm từ quý cơ quan.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the cooking course. Could you share what specific Vietnamese and Western dishes students will learn to make?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to request some information about the summer culinary course at Delight Kitchen, as I am interested in enhancing my cooking abilities and would like to learn more before making a decision.\n\nTo begin with, could you provide me with more information about the course schedule and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments.\n\nIn addition, could you give me more details about the comprehensive tuition fees and whether necessary kitchen supplies and ingredients are fully covered?\n\nFurthermore, I would like to know more about the culinary instructors. I want to ensure that they possess extensive industry expertise and demonstrate a patient and supportive teaching approach for beginners.\n\nFinally, I am also wondering about the cooking course. Could you share what specific Vietnamese and Western dishes students will learn to make?\n\nThank you for your time. I look forward to hearing from you.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin một số thông tin về khóa học nấu ăn mùa hè tại Delight Kitchen, vì tôi rất quan tâm đến việc nâng cao kỹ năng nấu nướng của mình và muốn tìm hiểu thêm trước khi đưa ra quyết định.\n\nTrước hết, xin quý trung tâm vui lòng cung cấp thêm thông tin về thời khóa biểu khóa học và địa điểm học? Tôi cần kiểm tra xem giờ học có phù hợp với lịch làm việc toàn thời gian của mình hay không.\n\nThêm vào đó, xin quý trung tâm cho tôi biết thêm chi tiết về tổng học phí và liệu các dụng cụ làm bếp cùng nguyên liệu cần thiết đã được bao gồm hoàn toàn hay chưa?\n\nHơn nữa, tôi muốn tìm hiểu thêm về các giảng viên ẩm thực. Tôi muốn đảm bảo rằng họ có chuyên môn sâu rộng trong ngành và có phương pháp giảng dạy tận tình cho học viên mới bắt đầu.\n\nCuối cùng, tôi cũng đang băn khoăn về chương trình đào tạo. Xin vui lòng chia sẻ những món ăn Việt Nam và phương Tây cụ thể mà giáo trình thực hành chú trọng?\n\nCảm ơn vì thời gian của quý trung tâm. Tôi rất mong sớm nhận được hồi âm từ quý cơ quan.\n\nTrân trọng,",
             "word_count": 156,
             "key_structures": [
@@ -5568,7 +5568,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "inquire if the building provides a secure and spacious parking basement",
                   "action_vi": "hỏi xem tòa nhà trung tâm có hầm gửi xe an toàn và rộng rãi không",
-                  "reason_en": "because having a hassle-free parking spot saves a lot of time before each class.",
+                  "reason_en": "because having a convenient parking space saves a lot of time before each class.",
                   "reason_vi": "vì có chỗ gửi xe thuận tiện sẽ tiết kiệm nhiều thời gian trước mỗi buổi học.",
                   "expansion_1_en": "Is the motorcycle parking area fully sheltered from rain and monitored by security guards?",
                   "expansion_1_vi": "Khu vực gửi xe máy có mái che mưa đàng hoàng và có nhân viên bảo vệ trông coi cẩn thận không?",
@@ -5745,7 +5745,7 @@ const LETTERS_DATA = [
             },
             {
               "id": 4,
-              "title_en": "4. Class timetable & weekly homework load",
+              "title_en": "4. Class schedule & weekly study hours",
               "title_vi": "Thời khóa biểu & khối lượng bài tập",
               "icon": "fa-clock",
               "options": [
@@ -5886,7 +5886,7 @@ const LETTERS_DATA = [
                   "action_vi": "Tôi muốn biết địa chỉ chi nhánh cụ thể.",
                   "reason_en": "This is because a center near my home would make it easier for me to balance my studies with other daily activities.",
                   "reason_vi": "Điều này là vì một trung tâm gần nhà sẽ giúp tôi dễ dàng cân bằng việc học với các hoạt động hằng ngày khác.",
-                  "expansion_1_en": "Having the campus within a short ten-minute ride makes it seamless to balance study with my part-time job.",
+                  "expansion_1_en": "Having the campus within a short ten-minute ride makes it easy to balance study with my part-time job.",
                   "expansion_1_vi": "Có cơ sở học chỉ cách 10 phút đi xe giúp việc cân bằng giữa học tập và việc làm thêm trở nên nhẹ nhàng.",
                   "expansion_2_en": "I will not feel exhausted before evening lessons begin.",
                   "expansion_2_vi": "Tôi sẽ không cảm thấy kiệt sức trước khi các buổi học buổi tối bắt đầu."
@@ -6006,7 +6006,7 @@ const LETTERS_DATA = [
                   "reason_vi": "Điều này là vì một môi trường học tập thân thiện sẽ giúp tôi dễ dàng đặt câu hỏi và luyện nói mà không cảm thấy ngại ngùng.",
                   "expansion_1_en": "An approachable instructor creates a welcoming atmosphere where making mistakes is treated as learning.",
                   "expansion_1_vi": "Một người thầy gần gũi tạo nên bầu không khí cởi mở, nơi mắc lỗi được xem là cơ hội học hỏi.",
-                  "expansion_2_en": "This supportive dynamic boosts my conversational confidence substantially.",
+                  "expansion_2_en": "This supportive dynamic boosts my speaking confidence greatly.",
                   "expansion_2_vi": "Môi trường tương tác hỗ trợ này nâng cao đáng kể sự tự tin trong giao tiếp của tôi."
                 },
                 {
@@ -6053,7 +6053,7 @@ const LETTERS_DATA = [
                   "action_vi": "Xin vui lòng cung cấp thông tin về thời lượng khóa học và lịch học hằng tuần?",
                   "reason_en": "The main reason is that knowing the course duration and class schedule will help me arrange my time more effectively.",
                   "reason_vi": "Lý do chính là biết thời lượng khóa học và lịch học sẽ giúp tôi sắp xếp thời gian hiệu quả hơn.",
-                  "expansion_1_en": "Knowing the exact start dates and weekly hours helps me arrange my study timetable seamlessly.",
+                  "expansion_1_en": "Knowing the exact start dates and weekly hours helps me arrange my study schedule smoothly.",
                   "expansion_1_vi": "Biết ngày khai giảng chính xác và thời lượng hằng tuần giúp tôi sắp xếp lịch học thật liền mạch.",
                   "expansion_2_en": "Consistent class schedules allow me to maintain high discipline throughout the course.",
                   "expansion_2_vi": "Lịch học cố định, ổn định cho phép tôi duy trì tính kỷ luật cao trong suốt cả khóa học."
@@ -6520,7 +6520,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì giảm giá sẽ giúp giảm bớt gánh nặng chi phí.",
                   "expansion_1_en": "Do they provide early-bird promotions or tuition reductions for university undergraduates?",
                   "expansion_1_vi": "Trung tâm có áp dụng chính sách giảm giá đăng ký sớm hay ưu đãi cho sinh viên đại học không?",
-                  "expansion_2_en": "Any small discount will ease my personal finances substantially this summer.",
+                  "expansion_2_en": "Any small discount will ease my living expenses greatly this summer.",
                   "expansion_2_vi": "Bất kỳ sự giảm giá nào cũng sẽ giúp giảm bớt gánh nặng tài chính của mình trong mùa hè này."
                 },
                 {
@@ -6700,7 +6700,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "ask what days of the week classes are held",
                   "action_vi": "hỏi các buổi học diễn ra vào những ngày nào trong tuần",
-                  "reason_en": "because I need to make sure they do not overlap with my university timetable.",
+                  "reason_en": "because I need to make sure they do not overlap with my university schedule.",
                   "reason_vi": "vì tớ cần chắc chắn lịch không bị trùng với thời khóa biểu trường đại học.",
                   "expansion_1_en": "Do classes run on Monday-Wednesday-Friday or Tuesday-Thursday-Saturday schedules?",
                   "expansion_1_vi": "Lớp học diễn ra vào các buổi Hai-Tư-Sáu hay Ba-Năm-Bảy vậy bạn?",
@@ -6965,7 +6965,7 @@ const LETTERS_DATA = [
               "id": 5,
               "part": "5. Thân thư - Câu hỏi 4: Lịch học (Class schedule)",
               "vi": "Cuối cùng, lịch học của trung tâm như thế nào? Họ có mở các lớp học buổi tối hoặc cuối tuần để tớ có thể sắp xếp đi học không?",
-              "en": "Finally, what is the class schedule like? Do they offer evening or weekend classes so that I can easily balance it with my university timetable?",
+              "en": "Finally, what is the class schedule like? Do they offer evening or weekend classes so that I can easily balance it with my university schedule?",
               "vocab_hints": [
                 {
                   "en": "class schedule",
@@ -7029,14 +7029,14 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Hỏi thời lượng & Lịch học linh hoạt",
               "vi": "Bên cạnh việc cân nhắc học phí, tôi muốn tìm hiểu xem liệu thời lượng ba tháng có đủ để tích lũy lượng từ vựng cần thiết cho kỳ thi HSK hay không, đồng thời liệu trung tâm có cung cấp lịch học buổi tối linh hoạt phù hợp với lịch trình làm việc bận rộn của tôi.",
-              "en": "Besides considering the tuition fee, I would like to find out whether a three-month course duration is sufficient to acquire the vocabulary required for the HSK exam, and whether the center provides flexible evening schedules compatible with my busy working timetable.",
+              "en": "Besides considering the tuition fee, I would like to find out whether a three-month course duration is sufficient to acquire the vocabulary required for the HSK exam, and whether the center provides flexible evening schedules compatible with my busy work schedule.",
               "vocab_hints": [
                 {
                   "en": "find out whether",
                   "vi": "tìm hiểu xem liệu rằng"
                 },
                 {
-                  "en": "compatible with my working timetable",
+                  "en": "compatible with my work schedule",
                   "vi": "phù hợp với lịch trình làm việc"
                 }
               ],
@@ -7479,7 +7479,7 @@ const LETTERS_DATA = [
               "category": "3. Học tập (Study/Work)"
             },
             {
-              "en": "fit into your family seamlessly",
+              "en": "fit into your family smoothly",
               "vi": "hòa nhập hoàn hảo với gia đình cậu",
               "category": "4. Hòa hợp (Fitting in)"
             },
@@ -7714,7 +7714,7 @@ const LETTERS_DATA = [
                   "vi": "sự chín chắn tự nhiên"
                 },
                 {
-                  "en": "integrate seamlessly",
+                  "en": "integrate smoothly",
                   "vi": "hòa nhập một cách hoàn hảo"
                 }
               ],
@@ -7730,7 +7730,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Cụm từ 'integrate seamlessly' và 'house rules' đạt chuẩn từ vựng C1."
+              "criteria_tip": "Cụm từ 'integrate smoothly' và 'house rules' đạt chuẩn từ vựng C1."
             }
           ],
           "sample_b1": {
@@ -7976,7 +7976,7 @@ const LETTERS_DATA = [
               "hints": [
                 "challenging bike trail",
                 "steep slopes",
-                "cardiovascular endurance"
+                "physical stamina"
               ],
               "explanation": "Cấu trúc miêu tả sinh động với các tính từ hình ảnh: 'winding' (quanh co), 'steep slopes' (dốc đứng)."
             }
@@ -8649,7 +8649,7 @@ const LETTERS_DATA = [
                   "action_vi": "mạng Wi-Fi cáp quang tốc độ cao và điều hòa êm ái được lắp đặt ở tất cả các phòng",
                   "reason_en": "because they make studying online and daily life very comfortable.",
                   "reason_vi": "đảm bảo việc tra cứu bài học online mượt mà và giấc ngủ ngon suốt cả năm.",
-                  "expansion_1_en": "Fast fiber-optic internet reaches every corner, enabling seamless video streaming and online collaboration.",
+                  "expansion_1_en": "Fast fiber-optic internet reaches every corner, enabling smooth video streaming and online collaboration.",
                   "expansion_1_vi": "Mạng cáp quang tốc độ cao phủ sóng mọi ngóc ngách, giúp xem video mượt mà và học nhóm trực tuyến ổn định.",
                   "expansion_2_en": "I can submit university assignments and attend virtual seminars without experiencing annoying lag.",
                   "expansion_2_vi": "Mình có thể nộp bài tập đại học và tham gia các buổi tọa đàm trực tuyến mà không hề bị giật lag."
@@ -8848,7 +8848,7 @@ const LETTERS_DATA = [
                   "reason_vi": "nên cậu có thể đi xe buýt đến đó rất tiện lợi chỉ mất khoảng 20 phút.",
                   "expansion_1_en": "More than ten bus routes from surrounding university dormitories stop right in front of the gate.",
                   "expansion_1_vi": "Hơn 10 tuyến xe buýt chạy từ các ký túc xá đại học lân cận đều có trạm dừng ngay trước cổng.",
-                  "expansion_2_en": "This makes commuting safe and hassle-free even during heavy evening rainstorms.",
+                  "expansion_2_en": "This makes commuting safe and convenient even during heavy evening rainstorms.",
                   "expansion_2_vi": "Điều này giúp việc đi lại an toàn và không chút phiền hà ngay cả vào những buổi tối mưa dông lớn."
                 },
                 {
@@ -9048,9 +9048,9 @@ const LETTERS_DATA = [
                 {
                   "action_en": "classes meet three times a week on Monday, Wednesday, and Friday evenings",
                   "action_vi": "lớp học 3 buổi một tuần vào các tối thứ 2, 4, 6",
-                  "reason_en": "because the class schedule fits your university timetable very well.",
+                  "reason_en": "because the class schedule fits your university schedule very well.",
                   "reason_vi": "rất phù hợp và không vướng bận lịch học đại học ban ngày của cậu.",
-                  "expansion_1_en": "The evening timetable from six to eight o'clock leaves your afternoons free for sports and relaxation.",
+                  "expansion_1_en": "The evening schedule from six to eight o'clock leaves your afternoons free for sports and relaxation.",
                   "expansion_1_vi": "Khung giờ học tối từ 6h đến 8h giúp bạn có trọn buổi chiều để chơi thể thao và nghỉ ngơi.",
                   "expansion_2_en": "Classes three days a week provide a healthy rhythm that never conflicts with university lectures.",
                   "expansion_2_vi": "Lịch học 3 buổi một tuần tạo nhịp điệu sinh hoạt điều độ, không bao giờ bị trùng lịch học đại học."
@@ -9369,7 +9369,7 @@ const LETTERS_DATA = [
                   "vi": "chương trình giảng dạy toàn diện"
                 },
                 {
-                  "en": "substantially accelerate your language proficiency",
+                  "en": "improve your English skills quickly",
                   "vi": "đẩy nhanh tiến độ làm chủ ngôn ngữ đáng kể"
                 }
               ],
@@ -13646,7 +13646,7 @@ const LETTERS_DATA = [
           "Góp ý",
           "B1 & B2"
         ],
-        "context": "You regularly take city bus route 08 operated by TransCity Company managed by Mr. Tailor. You appreciate the friendly drivers and clean buses, but are frustrated by irregular rush-hour timetables and broken ticket machines. Write an email to Mr. Tailor giving feedback.",
+        "context": "You regularly take city bus route 08 operated by TransCity Company managed by Mr. Tailor. You appreciate the friendly drivers and clean buses, but are frustrated by irregular rush-hour schedules and broken ticket machines. Write an email to Mr. Tailor giving feedback.",
         "prompt": "You are a regular passenger on public bus route 08. Write an email to Mr. Tailor, the transport service manager, to provide feedback on the bus service. In your email, you should: Mention positive aspects you appreciate, point out existing problems (schedule delays & ticket machines), and suggest practical improvements.\n\nYou should write at least 120 words. **Do not include your name or address.** Your response will be evaluated in terms of **Task Fulfillment**, **Organization**, **Vocabulary**, and **Grammar**.",
         "has_full_details": true,
         "details": {
@@ -13835,7 +13835,7 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Punctual timetable & clean, modern buses",
+              "title_en": "1. Punctual bus schedule & clean, modern buses",
               "title_vi": "Lịch trình đúng giờ & xe buýt sạch sẽ, hiện đại",
               "icon": "fa-bus-simple",
               "options": [
@@ -13844,7 +13844,7 @@ const LETTERS_DATA = [
                   "action_vi": "các chuyến xe buýt tuyến 08 vận hành rất đúng giờ theo lịch trình niêm yết",
                   "reason_en": "because passengers can easily plan their work and study schedules.",
                   "reason_vi": "giúp những hành khách đi lại hàng ngày như tôi có thể chủ động sắp xếp lịch trình đi làm, đi học.",
-                  "expansion_1_en": "Reliable timetables allow office workers and students to commute without worrying about arriving late.",
+                  "expansion_1_en": "Reliable schedules allow office workers and students to commute without worrying about arriving late.",
                   "expansion_1_vi": "Lịch trình đáng tin cậy giúp dân công sở và học sinh đi lại mà không phải lo lắng về việc đến muộn.",
                   "expansion_2_en": "This punctuality fosters great trust in the municipal public transit system across our community.",
                   "expansion_2_vi": "Sự đúng giờ này tạo dựng niềm tin to lớn vào hệ thống giao thông công cộng của thành phố trong cộng đồng."
@@ -14564,7 +14564,7 @@ const LETTERS_DATA = [
                   "action_vi": "phân công một nhân viên trưởng nhóm túc trực riêng cho các bàn tiệc đặt số lượng lớn",
                   "reason_en": "because a dedicated waiter will not forget special food orders.",
                   "reason_vi": "đảm bảo rằng các yêu cầu món ăn đặc biệt được theo dõi và phục vụ chuẩn xác.",
-                  "expansion_1_en": "A dedicated banquet captain can oversee special requests, dietary needs, and cake presentation seamlessly.",
+                  "expansion_1_en": "A dedicated banquet captain can oversee special requests, dietary needs, and cake presentation smoothly.",
                   "expansion_1_vi": "Một trưởng nhóm tiệc riêng biệt có thể quản lý các yêu cầu đặc biệt, thực đơn ăn kiêng và phần bánh kem trọn vẹn.",
                   "expansion_2_en": "Personalized event coordination transforms good celebrations into truly unforgettable memories.",
                   "expansion_2_vi": "Sự điều phối sự kiện tận tâm sẽ biến các bữa tiệc bình thường thành những kỷ niệm thực sự khó quên."
@@ -16235,7 +16235,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "I will provide regular weekly progress updates during my upcoming final graduation project",
                   "action_vi": "em sẽ cập nhật tiến độ hàng tuần đều đặn trong dự án khóa luận tốt nghiệp sắp tới",
-                  "reason_en": "so that my academic supervisors can monitor my developmental milestones seamlessly.",
+                  "reason_en": "so that my academic supervisors can monitor my developmental milestones smoothly.",
                   "reason_vi": "để thầy cô hướng dẫn có thể theo dõi từng chặng phát triển của đề tài một cách sát sao.",
                   "expansion_1_en": "I deeply value your guidance and am eager to prove my dedication in the upcoming exam.",
                   "expansion_1_vi": "Em rất trân trọng sự hướng dẫn tận tình của thầy và khao khát chứng minh sự nỗ lực trong kỳ thi sắp tới.",
@@ -16421,9 +16421,9 @@ const LETTERS_DATA = [
               "hints": [
                 "instituted auxiliary backup power generators",
                 "restructured night-shift culinary workflows",
-                "safeguard seamless delivery"
+                "ensure smooth service"
               ],
-              "explanation": "Từ vựng B2 quản trị khách sạn: 'auxiliary backup generators', 'safeguard seamless delivery'."
+              "explanation": "Từ vựng B2 quản trị khách sạn: 'auxiliary backup generators', 'ensure smooth service'."
             }
           ],
           "sample_b1": {
@@ -18726,7 +18726,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì tài xế riêng của chúng tôi sẽ mang lại sự di chuyển êm ái và thư giãn.",
                   "expansion_1_en": "Our private Mercedes limousine will meet you at the airport terminal and transfer you to the hotel.",
                   "expansion_1_vi": "Xe limousine Mercedes riêng của khách sạn sẽ đón bà tận cửa nhà ga sân bay và đưa về khách sạn.",
-                  "expansion_2_en": "Our chauffeur will handle all luggage seamlessly to ensure an effortless arrival journey.",
+                  "expansion_2_en": "Our chauffeur will handle all luggage smoothly to ensure an effortless arrival journey.",
                   "expansion_2_vi": "Tài xế riêng sẽ chu đáo chăm sóc toàn bộ hành lý để đảm bảo một hành trình đến nơi nhẹ nhàng nhất."
                 },
                 {
@@ -18984,9 +18984,9 @@ const LETTERS_DATA = [
               "hints": [
                 "blend of formal hospitality training",
                 "staying calm under pressure during busy hours",
-                "seamlessly uphold your reputation"
+                "smoothly uphold your reputation"
               ],
-              "explanation": "Từ vựng nghề nghiệp B2: 'calm attitude' (sự điềm tĩnh), 'high-turnover dining pressure' (áp lực giờ cao điểm), 'seamlessly uphold' (duy trì vững vàng)."
+              "explanation": "Từ vựng nghề nghiệp B2: 'calm attitude' (sự điềm tĩnh), 'high-turnover dining pressure' (áp lực giờ cao điểm), 'smoothly uphold' (duy trì vững vàng)."
             }
           ],
           "sample_b1": {
@@ -19151,7 +19151,7 @@ const LETTERS_DATA = [
                   "reason_vi": "giúp tôi quen với nhịp điệu làm việc nhóm nhanh và kỹ năng bưng nhiều đĩa cùng lúc dưới áp lực cao.",
                   "expansion_1_en": "Balancing heavy three-plate trays while navigating crowded banquet halls became second nature to me.",
                   "expansion_1_vi": "Bưng bê khay ba đĩa thức ăn nặng và di chuyển khéo léo qua sảnh tiệc đông đúc đã trở thành phản xạ của em.",
-                  "expansion_2_en": "I understand the crucial importance of seamless team coordination during high-volume banquets.",
+                  "expansion_2_en": "I understand the crucial importance of smooth teamwork during high-volume banquets.",
                   "expansion_2_vi": "Em hiểu rõ tầm quan trọng sống còn của việc phối hợp nhịp nhàng giữa các thành viên trong tiệc lớn."
                 },
                 {
@@ -19258,7 +19258,7 @@ const LETTERS_DATA = [
                   "action_vi": "tôi hoàn toàn có thể đảm nhận các ca làm việc buổi tối trong tuần từ 17h00 đến 22h30",
                   "reason_en": "because my daytime university lecture schedule concludes early each afternoon.",
                   "reason_vi": "vì lịch học ban ngày của tôi trên trường đều kết thúc sớm vào đầu giờ chiều.",
-                  "expansion_1_en": "My university timetable leaves my evenings entirely free from Monday through Friday.",
+                  "expansion_1_en": "My university schedule leaves my evenings entirely free from Monday through Friday.",
                   "expansion_1_vi": "Lịch học đại học giúp em hoàn toàn rảnh rỗi vào các buổi tối từ thứ Hai đến thứ Sáu.",
                   "expansion_2_en": "I can reliably commit to regular evening shifts without any scheduling conflicts.",
                   "expansion_2_vi": "Em có thể cam kết gắn bó lâu dài với các ca làm việc buổi tối cố định mà không lo trùng lịch học."
@@ -19276,7 +19276,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "I am prepared to start work immediately upon completing the interview process",
                   "action_vi": "tôi sẵn sàng bắt tay vào làm việc ngay sau khi hoàn thành buổi phỏng vấn tuyển dụng",
-                  "reason_en": "because this helps hav already finalized my study timetable and personal commitments.",
+                  "reason_en": "because this helps hav already finalized my study schedule and personal commitments.",
                   "reason_vi": "vì tôi đã sắp xếp ổn định lịch học tập và các kế hoạch cá nhân.",
                   "expansion_1_en": "I would welcome the opportunity to meet with you in person to demonstrate my enthusiasm.",
                   "expansion_1_vi": "Em rất mong có cơ hội được gặp trực tiếp quý quản lý để thể hiện lòng nhiệt huyết và kỹ năng của mình.",
@@ -19817,7 +19817,7 @@ const LETTERS_DATA = [
                   "b1_sentence": "I have attached my CV and certificates with this letter so you can see my past volunteer experience and studies.",
                   "expansion_1_en": "The attached portfolio showcases letters of appreciation from my past volunteer engagements.",
                   "expansion_1_vi": "Hồ sơ đính kèm thể hiện các giấy khen và thư cảm ơn từ những chiến dịch tình nguyện trước đây của em.",
-                  "expansion_2_en": "These credentials demonstrate my consistent reliability and enthusiasm for cultural initiatives.",
+                  "expansion_2_en": "These certificates and experiences demonstrate my reliability and enthusiasm for cultural initiatives.",
                   "expansion_2_vi": "Những minh chứng này khẳng định sự uy tín và niềm đam mê bền bỉ của em với các hoạt động văn hóa."
                 },
                 {
