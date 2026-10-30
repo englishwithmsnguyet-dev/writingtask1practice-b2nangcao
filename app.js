@@ -348,7 +348,7 @@ function enterRoom() {
   }
   
   if (isGiaTueAccount()) {
-    showToast(`🎉 Chào mừng học viên Gia Tuệ! Hệ thống đã mở khóa hoàn toàn Dạng 03 (Thư miêu tả) và Dạng 04 (Thư phàn nàn) cho bạn!`, 'success');
+    showToast(`🎉 Chào mừng học viên Gia Tuệ! Hệ thống đã mở khóa hoàn toàn tất cả 07 dạng thư cho bạn!`, 'success');
   } else {
     showToast(`Chào mừng ${nameVal} (${isTeacher ? 'Giáo viên' : 'Lớp ' + finalClassVal}) vào học! 🎉`, 'success');
   }
@@ -395,10 +395,8 @@ function isCategoryLocked(catKey) {
   // Giáo viên: Mở toàn bộ 100% tất cả 07 dạng thư
   if (isTeacherAccount()) return false;
 
-  // Học viên Gia Tuệ: Được mở khóa Dạng 01 (Advice), Dạng 02 (Request), Dạng 03 (Description) và Dạng 04 (Complaint)
-  if (isGiaTueAccount()) {
-    return LOCKED_CATEGORIES_FOR_GIATUE.includes(catKey);
-  }
+  // Học viên Gia Tuệ: Mở khóa toàn bộ 100% tất cả 07 dạng thư
+  if (isGiaTueAccount()) return false;
 
   // Học viên khác: Tạm khóa từ Dạng 03 đến Dạng 07 (chỉ mở Dạng 01 và 02)
   return LOCKED_CATEGORIES_FOR_STUDENTS.includes(catKey);
