@@ -14613,210 +14613,224 @@ const LETTERS_DATA = [
             ]
           },
           "suggested_ideas": [
-            {
-              "id": 1,
-              "title_en": "1. Satisfaction level",
-              "title_vi": "Mức độ hài lòng với dịch vụ",
-              "icon": "fa-thumbs-up",
-              "options": [
-                {
-                  "action_en": "overall, I was very satisfied with the warm hospitality and professional service",
-                  "action_vi": "nhìn chung tôi rất hài lòng với sự hiếu khách ấm áp và dịch vụ chuyên nghiệp",
-                  "reason_en": "because everything was wonderful and our family had a relaxing stay.",
-                  "reason_vi": "điều này đã giúp kỳ nghỉ của gia đình tôi thêm thư thái và đáng nhớ.",
-                  "expansion_1_en": "The attentive service and polite demeanour of your entire team left a lasting impression on our family.",
-                  "expansion_1_vi": "Sự phục vụ chu đáo và thái độ lễ phép của toàn thể nhân viên đã để lại ấn tượng sâu đậm cho gia đình tôi.",
-                  "expansion_2_en": "It proved to be one of the most delightful vacation breaks we have enjoyed in recent years.",
-                  "expansion_2_vi": "Kỳ nghỉ này thực sự là một trong những chuyến đi tuyệt vời nhất mà chúng tôi được tận hưởng gần đây."
-                },
-                {
-                  "action_en": "I was generally pleased with the stay, though a few minor points need attention",
-                  "action_vi": "tôi nhìn chung khá hài lòng, dù vẫn còn một vài điểm nhỏ cần lưu ý",
-                  "reason_en": "because I want to share some helpful feedback to improve your service.",
-                  "reason_vi": "mang lại những ý kiến đóng góp cân bằng giúp khách sạn hoàn thiện hơn.",
-                  "expansion_1_en": "Our overall stay was very pleasant, but minor adjustments could elevate your hotel to true excellence.",
-                  "expansion_1_vi": "Kỳ nghỉ nhìn chung rất dễ chịu, nhưng một vài điều chỉnh nhỏ có thể nâng tầm khách sạn lên mức xuất sắc.",
-                  "expansion_2_en": "I offer these constructive observations in the hope of supporting your ongoing service enhancements.",
-                  "expansion_2_vi": "Tôi xin chia sẻ những quan sát mang tính xây dựng này với mong muốn đóng góp cho sự hoàn thiện của quý vị."
-                },
-                {
-                  "action_en": "I was thoroughly impressed by the hotel's cleanliness and convenient location",
-                  "action_vi": "tôi vô cùng ấn tượng bởi sự sạch sẽ và vị trí thuận tiện của khách sạn",
-                  "reason_en": "because you can walk to many famous tourist spots easily.",
-                  "reason_vi": "giúp việc khám phá các thắng cảnh địa phương trở nên rất dễ dàng.",
-                  "expansion_1_en": "Being within walking distance of the central beach and cultural monuments saved us hours of travel time.",
-                  "expansion_1_vi": "Nằm ngay gần bãi biển trung tâm và các di tích văn hóa giúp chúng tôi tiết kiệm hàng giờ đi lại.",
-                  "expansion_2_en": "The immaculate cleanliness of the lobby and corridors made us feel secure and welcomed.",
-                  "expansion_2_vi": "Sự sạch sẽ không tì vết của sảnh chờ và hành lang khiến chúng tôi cảm thấy vô cùng an tâm và thoải mái."
-                },
-                {
-                  "action_en": "I was pleased with the reasonable pricing and good value for money",
-                  "action_vi": "tôi hài lòng với mức giá hợp lý và chất lượng tương xứng với chi phí",
-                  "reason_en": "because it makes me eager to recommend the hotel to colleagues.",
-                  "reason_vi": "khiến tôi rất muốn giới thiệu khách sạn cho đồng nghiệp.",
-                  "expansion_1_en": "The package rate included exceptional amenities that exceeded our expectations for a four-star resort.",
-                  "expansion_1_vi": "Giá phòng trọn gói bao gồm các tiện ích vượt trội, vượt xa kỳ vọng của chúng tôi đối với một khu nghỉ dưỡng 4 sao.",
-                  "expansion_2_en": "Delivering superior quality at competitive prices will surely maintain your strong customer base.",
-                  "expansion_2_vi": "Mang lại chất lượng vượt trội với mức giá cạnh tranh chắc chắn sẽ giúp quý khách sạn giữ vững lượng khách trung thành."
-                },
-                {
-                  "action_en": "I appreciate your proactive attitude in requesting customer feedback",
-                  "action_vi": "tôi đánh giá cao thái độ cầu thị chủ động xin ý kiến khách hàng",
-                  "reason_en": "because the manager really cared about our comfort and satisfaction.",
-                  "reason_vi": "thể hiện sự quan tâm chân thành tới sự hài lòng của khách.",
-                  "expansion_1_en": "Reaching out proactively to inquire about guest comfort demonstrates admirable hospitality dedication.",
-                  "expansion_1_vi": "Chủ động gửi thư thăm hỏi sự hài lòng của khách thể hiện sự tận tâm đáng ngưỡng mộ với nghề khách sạn.",
-                  "expansion_2_en": "This customer-centric focus sets your property apart from other accommodations in the district.",
-                  "expansion_2_vi": "Định hướng lấy khách hàng làm trọng tâm này đã làm cho khách sạn nổi bật hơn hẳn các nơi khác trong vùng."
-                },
-                {
-                  "action_en": "our check-in and check-out processes were handled swiftly and courteously",
-                  "action_vi": "thủ tục nhận và trả phòng của chúng tôi được xử lý nhanh chóng, lịch thiệp",
-                  "reason_en": "because a friendly greeting makes guests feel happy right away.",
-                  "reason_vi": "tạo ấn tượng tốt đẹp ban đầu và lâu dài cho chúng tôi.",
-                  "expansion_1_en": "We were handed our electronic room keycards within three minutes of arriving at the reception desk.",
-                  "expansion_1_vi": "Chúng tôi nhận được thẻ khóa phòng điện tử chỉ trong vòng ba phút sau khi bước tới quầy lễ tân.",
-                  "expansion_2_en": "A swift and warm registration experience immediately sets a relaxing holiday mood.",
-                  "expansion_2_vi": "Thủ tục nhận phòng nhanh gọn và ấm áp đã tạo ngay tâm trạng thư giãn tuyệt vời cho kỳ nghỉ."
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "title_en": "2. Describe your experience",
-              "title_vi": "Miêu tả trải nghiệm thực tế",
-              "icon": "fa-star",
-              "options": [
-                {
-                  "action_en": "the front desk staff were exceptionally welcoming and helped us book tour tickets",
-                  "action_vi": "nhân viên lễ tân đặc biệt niềm nở và hỗ trợ chúng tôi đặt vé tham quan",
-                  "reason_en": "because the receptionist welcomed us very warmly from the beginning.",
-                  "reason_vi": "khiến chúng tôi cảm thấy được chăm sóc ngay từ giây phút đầu tiên đến nơi.",
-                  "expansion_1_en": "The front desk staff greeted us by name and arranged an excellent guided tour around the ancient town.",
-                  "expansion_1_vi": "Nhân viên lễ tân đã chào chúng tôi bằng tên riêng và thu xếp một tour tham quan phố cổ rất tuyệt vời.",
-                  "expansion_2_en": "Their local recommendations on authentic dining spots were incredibly helpful and accurate.",
-                  "expansion_2_vi": "Những gợi ý của các bạn về các quán ăn bản địa thực sự vô cùng hữu ích và chuẩn xác."
-                },
-                {
-                  "action_en": "the daily breakfast buffet was rich and flavorful with both Western and Vietnamese dishes",
-                  "action_vi": "bữa sáng tự chọn hàng ngày phong phú, ngon miệng với cả món Âu và món Việt",
-                  "reason_en": "because a tasty breakfast gives guests lots of energy for the day.",
-                  "reason_vi": "mang lại khởi đầu tuyệt vời cho mỗi ngày du lịch.",
-                  "expansion_1_en": "The pho noodle soup station and freshly baked croissants were outstanding highlights each morning.",
-                  "expansion_1_vi": "Quầy phở bò nóng hổi và những chiếc bánh sừng bò mới nướng là điểm nhấn tuyệt hảo vào mỗi sớm mai.",
-                  "expansion_2_en": "Offering diverse dining choices helps guests stay energized for sightseeing.",
-                  "expansion_2_vi": "Việc cung cấp thực đơn đa dạng mang lại nguồn năng lượng dồi dào cho du khách suốt ngày dài khám phá bờ biển."
-                },
-                {
-                  "action_en": "the room was spacious and clean with a scenic balcony view",
-                  "action_vi": "căn phòng rộng rãi, sạch sẽ với ban công nhìn ra cảnh quan thoáng đãng",
-                  "reason_en": "because the comfortable beds helped us sleep very well.",
-                  "reason_vi": "mang lại giấc ngủ êm ái trên đệm giường cao cấp.",
-                  "expansion_1_en": "Watching the sun rise over the ocean from our private balcony was an unforgettable visual highlight.",
-                  "expansion_1_vi": "Ngắm bình minh lên trên biển từ ban công riêng là một điểm nhấn thị giác khó quên trong kỳ nghỉ.",
-                  "expansion_2_en": "The plush memory foam mattresses and soft pillows ensured deep, restorative sleep every night.",
-                  "expansion_2_vi": "Chiếc nệm êm ái cùng gối mềm đã đảm bảo cho chúng tôi những giấc ngủ sâu và thư thái trọn vẹn mỗi đêm."
-                },
-                {
-                  "action_en": "however, the wifi connection in our bedroom was unstable during evening hours",
-                  "action_vi": "tuy nhiên, kết nối wifi trong phòng ngủ khá chập chờn vào buổi tối",
-                  "reason_en": "because the slow internet made it hard to watch videos or work.",
-                  "reason_vi": "gây khó khăn khi xem video hoặc giải quyết công việc trực tuyến.",
-                  "expansion_1_en": "The wireless signal dropped repeatedly while we were attempting to participate in an urgent video conference.",
-                  "expansion_1_vi": "Tín hiệu mạng không dây liên tục bị chập chờn ngắt quãng khi chúng tôi đang cố tham gia cuộc họp trực tuyến khẩn.",
-                  "expansion_2_en": "Reliable internet access is an essential requirement for today's travelers.",
-                  "expansion_2_vi": "Kết nối internet ổn định là yêu cầu tối cần thiết đối với du khách làm việc từ xa ngày nay."
-                },
-                {
-                  "action_en": "the swimming pool area was clean, but sun lounger chairs were limited",
-                  "action_vi": "khu vực hồ bơi sạch sẽ nhưng ghế nằm phơi nắng còn khá ít",
-                  "reason_en": "because the swimming pool was crowded on sunny afternoons.",
-                  "reason_vi": "khiến khách phải chờ đợi vào những buổi chiều đông người.",
-                  "expansion_1_en": "All poolside sunbeds were fully occupied by 2:00 PM, leaving many swimmers with nowhere to sit.",
-                  "expansion_1_vi": "Tất cả ghế tắm nắng bên hồ bơi đều kín chỗ từ hai giờ chiều, khiến nhiều người bơi không có chỗ ngồi.",
-                  "expansion_2_en": "Guests were forced to drape their bath towels over the wet grass around the pool perimeter.",
-                  "expansion_2_vi": "Nhiều du khách buộc phải trải khăn tắm lên thảm cỏ ướt xung quanh hồ bơi một cách bất tiện."
-                },
-                {
-                  "action_en": "there was slight corridor noise in early mornings from housekeeping carts",
-                  "action_vi": "có chút tiếng ồn ngoài hành lang vào sáng sớm từ xe đẩy dọn phòng",
-                  "reason_en": "because the noise outside woke up some guests early in the morning.",
-                  "reason_vi": "thỉnh thoảng làm phiền giấc ngủ của những người thính ngủ.",
-                  "expansion_1_en": "Metal trolley wheels clattering along the tiled corridor awoke our children at 6:45 in the morning.",
-                  "expansion_1_vi": "Tiếng bánh xe đẩy kim loại lạch cạch trên sàn gạch hành lang đã đánh thức các con tôi lúc 6 giờ 45 sáng.",
-                  "expansion_2_en": "Quiet morning hours should be respected so that holiday guests can sleep in and recharge.",
-                  "expansion_2_vi": "Không gian yên tĩnh buổi sớm cần được giữ gìn để du khách nghỉ dưỡng có thể ngủ nướng và nạp lại năng lượng."
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "title_en": "3. Suggestions for service improvement",
-              "title_vi": "Đề xuất nâng cao chất lượng dịch vụ",
-              "icon": "fa-lightbulb",
-              "options": [
-                {
-                  "action_en": "upgrade wireless internet routers across guest floors",
-                  "action_vi": "nâng cấp hệ thống bộ phát wifi trên khắp các tầng phòng nghỉ",
-                  "reason_en": "in order to guarantee continuous high-speed connectivity for all rooms.",
-                  "reason_vi": "nhằm đảm bảo kết nối mạng tốc độ cao liên tục cho mọi phòng.",
-                  "expansion_1_en": "Installing dedicated dual-band routers on residential corridors would eliminate signal dead zones.",
-                  "expansion_1_vi": "Lắp đặt các bộ định tuyến băng tần kép chuyên dụng dọc hành lang sẽ xóa bỏ những điểm chết sóng mạng.",
-                  "expansion_2_en": "Consistent high-speed bandwidth ensures business travelers can work seamlessly from their rooms.",
-                  "expansion_2_vi": "Băng thông tốc độ cao ổn định đảm bảo các du khách công tác có thể làm việc trơn tru ngay tại phòng."
-                },
-                {
-                  "action_en": "extend weekend breakfast service hours until 10:30 AM",
-                  "action_vi": "kéo dài thời gian phục vụ bữa sáng cuối tuần đến 10 giờ 30 sáng",
-                  "reason_en": "because guests need quiet rooms to sleep late in the morning.",
-                  "reason_vi": "giúp các gia đình và du khách được thong thả ngủ nướng.",
-                  "expansion_1_en": "Extending weekend breakfast allows leisure vacationers to enjoy morning sleep-ins without rushing.",
-                  "expansion_1_vi": "Kéo dài giờ buffet cuối tuần cho phép du khách nghỉ dưỡng thảnh thơi ngủ nướng mà không phải vội vã.",
-                  "expansion_2_en": "This relaxed timeline reduces breakfast hall crowding and elevates overall guest comfort.",
-                  "expansion_2_vi": "Khung giờ thư thả này giúp giảm ùn tắc nhà hàng và nâng cao sự hài lòng chung của thực khách."
-                },
-                {
-                  "action_en": "add more sun loungers and fresh towel stations around the outdoor pool",
-                  "action_vi": "bổ sung thêm ghế tắm nắng và quầy khăn tắm sạch quanh hồ bơi",
-                  "reason_en": "because this helps enhanc comfort during peak afternoon hours.",
-                  "reason_vi": "nâng cao sự thoải mái vào giờ cao điểm buổi chiều.",
-                  "expansion_1_en": "Adding twenty reclining deck chairs would easily meet peak afternoon pool demand.",
-                  "expansion_1_vi": "Bổ sung thêm hai mươi chiếc ghế ngả tắm nắng sẽ đáp ứng dễ dàng nhu cầu hồ bơi vào cao điểm buổi chiều.",
-                  "expansion_2_en": "A self-service dry towel depot by the steps would also enhance poolside convenience.",
-                  "expansion_2_vi": "Một quầy khăn tắm khô tự phục vụ ngay bậc thềm cũng sẽ gia tăng sự thuận tiện cho người bơi."
-                },
-                {
-                  "action_en": "remind housekeeping teams to push cleaning carts quietly in corridors before 8 AM",
-                  "action_vi": "nhắc nhở đội dọn phòng đẩy xe nhẹ nhàng ngoài hành lang trước 8 giờ sáng",
-                  "reason_en": "because guests need a quiet morning without loud cleaning noises outside.",
-                  "reason_vi": "giữ gìn sự yên tĩnh cho giấc ngủ buổi sáng của khách hàng.",
-                  "expansion_1_en": "Fitting cleaning carts with rubberized soft-glide wheels would dampen early morning corridor noise.",
-                  "expansion_1_vi": "Lắp bánh xe cao su trượt êm cho xe dọn phòng sẽ giảm thiểu tối đa tiếng ồn dọc hành lang vào buổi sáng.",
-                  "expansion_2_en": "This inexpensive adjustment guarantees peaceful morning rest for all sleeping guests.",
-                  "expansion_2_vi": "Sự điều chỉnh chi phí thấp này đảm bảo sự nghỉ ngơi yên bình trọn vẹn cho mọi du khách."
-                },
-                {
-                  "action_en": "provide an express airport shuttle bus service",
-                  "action_vi": "cung cấp dịch vụ xe buýt đưa đón sân bay nhanh",
-                  "reason_en": "because an airport shuttle makes travelling much easier for guests.",
-                  "reason_vi": "giúp việc di chuyển thuận tiện hơn rất nhiều cho khách quốc tế.",
-                  "expansion_1_en": "A scheduled hotel van running to Da Nang airport would offer incredible logistical convenience.",
-                  "expansion_1_vi": "Một tuyến xe buýt khách sạn chạy theo giờ tới sân bay Đà Nẵng sẽ đem lại sự tiện lợi vô cùng to lớn.",
-                  "expansion_2_en": "It spares international guests the hassle of negotiating taxi fares with outside operators.",
-                  "expansion_2_vi": "Dịch vụ này giúp khách quốc tế không phải bận tâm thương lượng giá cước taxi với các hãng bên ngoài."
-                },
-                {
-                  "action_en": "install smart interactive TVs with streaming platforms in bedrooms",
-                  "action_vi": "lắp đặt tivi thông minh có các ứng dụng giải trí trong phòng",
-                  "reason_en": "because guests would love to watch movies and listen to music in their rooms.",
-                  "reason_vi": "mang lại nhiều lựa chọn giải trí phong phú hơn trong phòng.",
-                  "expansion_1_en": "Equipping rooms with Netflix and YouTube streaming options modernizes in-room leisure entertainment.",
-                  "expansion_1_vi": "Trang bị ứng dụng Netflix và YouTube trên tivi phòng ngủ sẽ hiện đại hóa các tiện ích giải trí thư giãn.",
-                  "expansion_2_en": "Families can unwind comfortably with their favorite movies after an active day outdoors.",
-                  "expansion_2_vi": "Các gia đình có thể quây quần xem những bộ phim yêu thích sau một ngày dài vận động ngoài trời."
-                }
-              ]
-            }
+          {
+                    "id": 1,
+                    "title_en": "1. Overall satisfaction level",
+                    "title_vi": "1. Mức độ hài lòng tổng thể với kỳ lưu trú",
+                    "icon": "fa-thumbs-up",
+                    "pattern_en": "Overall, I was very satisfied / mostly pleased / somewhat disappointed with [aspect], because [Reason].",
+                    "pattern_vi": "Nhìn chung, tôi rất hài lòng / khá vui mừng / đôi chút thất vọng với [khía cạnh], vì [Lý do].",
+                    "options": [
+                              {
+                                        "action_en": "Overall, I was very satisfied with the warm hospitality and professional service.",
+                                        "action_vi": "nhìn chung tôi rất hài lòng với sự hiếu khách ấm áp và dịch vụ chuyên nghiệp.",
+                                        "reason_en": "because everything was well-managed and our family had a truly relaxing stay.",
+                                        "reason_vi": "vì mọi thứ đều được chuẩn bị chu đáo và gia đình chúng tôi đã có một kỳ lưu trú thực sự thư thái.",
+                                        "expansion_1_en": "The attentive service and polite attitude of your entire team left a lasting positive impression on us.",
+                                        "expansion_1_vi": "Sự phục vụ chu đáo và thái độ lễ phép của toàn thể nhân viên đã để lại ấn tượng tốt đẹp lâu dài cho chúng tôi.",
+                                        "expansion_2_en": "It proved to be one of the most delightful vacation breaks we have enjoyed in recent years.",
+                                        "expansion_2_vi": "Đây thực sự là một trong những kỳ nghỉ tuyệt vời nhất mà chúng tôi được trải nghiệm trong những năm gần đây."
+                              },
+                              {
+                                        "action_en": "I was generally pleased with my stay, though a few minor aspects could be improved.",
+                                        "action_vi": "nhìn chung tôi khá hài lòng với kỳ nghỉ, mặc dù có vài chi tiết nhỏ có thể cải thiện thêm.",
+                                        "reason_en": "as most hotel amenities lived up to our high expectations.",
+                                        "reason_vi": "do phần lớn các tiện nghi của khách sạn đều đáp ứng đúng kỳ vọng cao của chúng tôi.",
+                                        "expansion_1_en": "With just a little fine-tuning in daily operations, your hotel could easily achieve absolute excellence.",
+                                        "expansion_1_vi": "Chỉ cần tinh chỉnh thêm một chút trong vận hành hằng ngày, khách sạn hoàn toàn có thể đạt tới sự hoàn hảo.",
+                                        "expansion_2_en": "We certainly intend to recommend your hotel to our close friends and colleagues.",
+                                        "expansion_2_vi": "Chúng tôi chắc chắn sẽ giới thiệu khách sạn đến bạn bè thân thiết và đồng nghiệp."
+                              },
+                              {
+                                        "action_en": "Our overall experience was delightful and we truly appreciated the great hospitality.",
+                                        "action_vi": "trải nghiệm tổng thể của chúng tôi rất tuyệt vời và chúng tôi thực sự cảm kích lòng hiếu khách.",
+                                        "reason_en": "because the peaceful atmosphere helped us fully recharge our energy.",
+                                        "reason_vi": "vì không gian yên bình đã giúp chúng tôi nạp lại trọn vẹn năng lượng.",
+                                        "expansion_1_en": "From the welcoming reception to check-out, we felt well taken care of at every step.",
+                                        "expansion_1_vi": "Từ khâu đón tiếp ban đầu đến lúc trả phòng, chúng tôi đều cảm nhận được sự chăm sóc tận tâm ở mọi khâu.",
+                                        "expansion_2_en": "Your convenient central location also allowed us to explore the city without any transport hassle.",
+                                        "expansion_2_vi": "Vị trí trung tâm thuận tiện cũng giúp chúng tôi tham quan thành phố mà không gặp trở ngại nào về đi lại."
+                              },
+                              {
+                                        "action_en": "While several aspects of our stay were enjoyable, I was dissatisfied with a few key services.",
+                                        "action_vi": "dù một số mặt của kỳ lưu trú khá dễ chịu, tôi cảm thấy chưa hài lòng với một vài dịch vụ chính.",
+                                        "reason_en": "because unexpected inconveniences affected our family's holiday comfort.",
+                                        "reason_vi": "vì những bất tiện không lường trước đã ảnh hưởng đến sự thoải mái trong kỳ nghỉ của gia đình.",
+                                        "expansion_1_en": "I am writing this constructive feedback so your management team can address these issues promptly.",
+                                        "expansion_1_vi": "Tôi viết phản hồi mang tính xây dựng này để ban quản lý có thể nhanh chóng khắc phục các vấn đề trên.",
+                                        "expansion_2_en": "I trust that taking these matters seriously will help maintain your hotel's high reputation.",
+                                        "expansion_2_vi": "Tôi tin rằng việc quan tâm đúng mức tới các vấn đề này sẽ giúp duy trì uy tín cao của khách sạn."
+                              },
+                              {
+                                        "action_en": "I found the hotel accommodation satisfactory and reasonable for our travel budget.",
+                                        "action_vi": "tôi nhận thấy tiện nghi phòng nghỉ thỏa đáng và phù hợp với ngân sách du lịch của chúng tôi.",
+                                        "reason_en": "because the room rate offered good value for money given the central location.",
+                                        "reason_vi": "vì giá phòng mang lại giá trị tương xứng so với vị trí trung tâm thuận tiện.",
+                                        "expansion_1_en": "The complimentary amenities provided in the room were thoughtful and very convenient.",
+                                        "expansion_1_vi": "Các tiện nghi miễn phí được bố trí trong phòng rất chu đáo và tiện lợi.",
+                                        "expansion_2_en": "It made our short weekend getaway smooth and enjoyable.",
+                                        "expansion_2_vi": "Điều đó đã giúp chuyến đi nghỉ cuối tuần ngắn ngày của chúng tôi trở nên êm ả và thú vị."
+                              },
+                              {
+                                        "action_en": "Unfortunately, my experience fell somewhat below expectations during this recent visit.",
+                                        "action_vi": "thật không may, trải nghiệm của tôi lần này có phần dưới mức kỳ vọng.",
+                                        "reason_en": "as recurring technical issues in our room caused considerable annoyance.",
+                                        "reason_vi": "do các sự cố kỹ thuật lặp lại trong phòng đã gây ra nhiều phiền toái.",
+                                        "expansion_1_en": "I hope that my frank comments will assist you in improving overall service quality for future guests.",
+                                        "expansion_1_vi": "Tôi hy vọng những chia sẻ thẳng thắn này sẽ hỗ trợ ban quản lý nâng cao chất lượng dịch vụ cho du khách tương lai.",
+                                        "expansion_2_en": "We have always valued your brand and hope to see noticeable improvements on our next return.",
+                                        "expansion_2_vi": "Chúng tôi vốn luôn yêu mến thương hiệu khách sạn và hy vọng sẽ thấy những cải thiện rõ rệt trong lần trở lại tới."
+                              }
+                    ]
+          },
+          {
+                    "id": 2,
+                    "title_en": "2. Describe your experience (Positive & Areas for improvement)",
+                    "title_vi": "2. Miêu tả trải nghiệm thực tế (Điểm khen & Điểm cần cải thiện)",
+                    "icon": "fa-hotel",
+                    "pattern_en": "Regarding [aspect], I found that [positive / negative detail]. In particular, [Expansion].",
+                    "pattern_vi": "Về [khía cạnh], tôi nhận thấy [chi tiết khen / chê]. Cụ thể là [Câu mở rộng].",
+                    "options": [
+                              {
+                                        "action_en": "The front desk and housekeeping staff were consistently friendly, polite, and helpful.",
+                                        "action_vi": "nhân viên lễ tân và dọn phòng luôn thân thiện, lịch thiệp và nhiệt tình giúp đỡ.",
+                                        "reason_en": "Their professional attitude and warm smiles made our stay completely stress-free.",
+                                        "reason_vi": "thái độ chuyên nghiệp và nụ cười ấm áp của họ đã giúp kỳ nghỉ của chúng tôi hoàn toàn thoải mái.",
+                                        "expansion_1_en": "They answered all our inquiries courteously and gave excellent recommendations for local restaurants.",
+                                        "expansion_1_vi": "Họ trả lời mọi câu hỏi rất nhã nhặn và gợi ý những quán ăn địa phương vô cùng tuyệt vời.",
+                                        "expansion_2_en": "Their welcoming manner gave us confidence that guests' needs are genuinely valued.",
+                                        "expansion_2_vi": "Cách đón tiếp niềm nở của họ khiến chúng tôi tin tưởng rằng nhu cầu của du khách thực sự được coi trọng."
+                              },
+                              {
+                                        "action_en": "The guest room was exceptionally clean, well-arranged, and spacious.",
+                                        "action_vi": "phòng nghỉ đặc biệt sạch sẽ, ngăn nắp và rộng rãi.",
+                                        "reason_en": "because the housekeeping staff cleaned thoroughly and refreshed fresh towels every morning.",
+                                        "reason_vi": "vì đội ngũ dọn phòng đã làm vệ sinh rất kỹ và thay khăn mới mỗi buổi sáng.",
+                                        "expansion_1_en": "The modern interior furnishings and bright lighting made our stay very comfortable.",
+                                        "expansion_1_vi": "Nội thất hiện đại và ánh sáng chan hòa đã khiến kỳ lưu trú của chúng tôi rất tiện nghi.",
+                                        "expansion_2_en": "However, the air conditioner blew directly onto the bed, which felt quite chilly at night.",
+                                        "expansion_2_vi": "Tuy nhiên, máy điều hòa lại thổi thẳng vào giường khiến ban đêm cảm thấy khá lạnh."
+                              },
+                              {
+                                        "action_en": "The daily breakfast buffet offered a delicious selection of freshly prepared dishes.",
+                                        "action_vi": "bữa sáng buffet hằng ngày mang đến thực đơn ngon miệng với nhiều món ăn tươi nóng.",
+                                        "reason_en": "giving guests plenty of wonderful energy to start each sightseeing day.",
+                                        "reason_vi": "mang lại nguồn năng lượng dồi dào để du khách bắt đầu mỗi ngày tham quan.",
+                                        "expansion_1_en": "However, during peak morning hours between 7:30 and 8:30 AM, several popular food trays ran empty.",
+                                        "expansion_1_vi": "Tuy nhiên, vào giờ cao điểm buổi sáng từ 7h30 đến 8h30, một số khay đồ ăn phổ biến bị hết sạch.",
+                                        "expansion_2_en": "The kitchen staff did not refill the dishes quickly enough, leaving many guests waiting.",
+                                        "expansion_2_vi": "Nhân viên bếp đã không châm thêm đồ ăn đủ nhanh, khiến nhiều khách phải đứng chờ."
+                              },
+                              {
+                                        "action_en": "The Wi-Fi connection in our bedroom was unstable and frequently disconnected.",
+                                        "action_vi": "kết nối Wi-Fi trong phòng ngủ không ổn định và thường xuyên bị ngắt quãng.",
+                                        "reason_en": "which made it very inconvenient to check work emails or search for travel information.",
+                                        "reason_vi": "điều này gây nhiều bất tiện khi kiểm tra email công việc hoặc tra cứu thông tin du lịch.",
+                                        "expansion_1_en": "The network signal dropped completely every time we moved towards the balcony.",
+                                        "expansion_1_vi": "Tín hiệu mạng bị mất hẳn mỗi khi chúng tôi bước ra phía ban công.",
+                                        "expansion_2_en": "A stable high-speed internet connection is essential for travelers who need to stay connected.",
+                                        "expansion_2_vi": "Kết nối internet tốc độ cao ổn định là điều rất thiết yếu đối với du khách cần giữ liên lạc."
+                              },
+                              {
+                                        "action_en": "The mattress and pillows were soft, clean, and extremely comfortable.",
+                                        "action_vi": "đệm và gối nằm rất êm ái, sạch sẽ và vô cùng thoải mái.",
+                                        "reason_en": "which helped us get deep, peaceful sleep after long walking tours around the city.",
+                                        "reason_vi": "giúp chúng tôi có giấc ngủ sâu và yên bình sau những chuyến đi bộ dài quanh thành phố.",
+                                        "expansion_1_en": "The bedsheets were pristine and smelled fresh throughout our entire stay.",
+                                        "expansion_1_vi": "Ga trải giường sạch tinh tươm và thơm mát trong suốt kỳ lưu trú của chúng tôi.",
+                                        "expansion_2_en": "High-quality bedding is definitely one of your hotel's strongest highlights.",
+                                        "expansion_2_vi": "Bộ chăn ga gối chất lượng cao chắc chắn là một trong những điểm cộng lớn nhất của khách sạn."
+                              },
+                              {
+                                        "action_en": "The soundproofing between guest rooms was somewhat inadequate.",
+                                        "action_vi": "khả năng cách âm giữa các phòng nghỉ còn chưa thực sự tốt.",
+                                        "reason_en": "because loud conversations and television sounds from the neighboring room could be heard clearly.",
+                                        "reason_vi": "vì tiếng nói chuyện lớn và âm thanh tivi từ phòng bên cạnh có thể nghe thấy rõ ràng.",
+                                        "expansion_1_en": "In addition, housekeeping staff talking loudly in the hallway woke us up quite early in the morning.",
+                                        "expansion_1_vi": "Ngoài ra, nhân viên dọn phòng nói chuyện khá to ngoài hành lang đã đánh thức chúng tôi dậy từ sớm.",
+                                        "expansion_2_en": "This reduced the relaxing atmosphere that we had expected during our holiday.",
+                                        "expansion_2_vi": "Điều này làm giảm đi bầu không khí thư thái mà chúng tôi mong đợi trong kỳ nghỉ."
+                              },
+                              {
+                                        "action_en": "The room rate was reasonable and matched the overall quality of services provided.",
+                                        "action_vi": "giá phòng hợp lý và tương xứng với chất lượng dịch vụ tổng thể được cung cấp.",
+                                        "reason_en": "offering good value for money and making our family holiday feel truly worthwhile.",
+                                        "reason_vi": "mang lại giá trị xứng đáng với chi phí bỏ ra và khiến kỳ nghỉ gia đình thực sự ý nghĩa.",
+                                        "expansion_1_en": "However, the prices of drinks and snacks in the mini-bar were much higher than expected.",
+                                        "expansion_1_vi": "Tuy nhiên, giá đồ uống và đồ ăn nhẹ trong tủ lạnh mini lại đắt hơn nhiều so với dự kiến.",
+                                        "expansion_2_en": "Transparent pricing with fewer unexpected extra charges would make guests feel much happier.",
+                                        "expansion_2_vi": "Mức giá rõ ràng và ít khoản phụ thu bất ngờ sẽ giúp khách hàng cảm thấy hài lòng hơn nhiều."
+                              },
+                              {
+                                        "action_en": "The bathroom was well-ventilated, but the hot water supply was inconsistent in the evening.",
+                                        "action_vi": "phòng tắm rất thoáng khí, nhưng nguồn nước nóng vào buổi tối lại không ổn định.",
+                                        "reason_en": "as the water pressure fluctuated and took several minutes to warm up.",
+                                        "reason_vi": "do áp lực nước chập chờn và phải mất vài phút nước mới đủ ấm.",
+                                        "expansion_1_en": "The drainage system also drained slowly, causing water to pool around the shower floor.",
+                                        "expansion_1_vi": "Hệ thống thoát nước cũng chảy khá chậm khiến nước bị đọng trên sàn tắm.",
+                                        "expansion_2_en": "A quick maintenance check could easily fix these plumbing issues.",
+                                        "expansion_2_vi": "Một đợt kiểm tra bảo trì nhanh chóng có thể dễ dàng khắc phục các sự cố đường ống nước này."
+                              }
+                    ]
+          },
+          {
+                    "id": 3,
+                    "title_en": "3. Suggestions for service improvement",
+                    "title_vi": "3. Đề xuất cải thiện chất lượng dịch vụ (Giải pháp kiến nghị)",
+                    "icon": "fa-screwdriver-wrench",
+                    "pattern_en": "I strongly recommend / suggest that the hotel [Action], in order to [Benefit].",
+                    "pattern_vi": "Tôi chân thành khuyến nghị / đề xuất khách sạn [Hành động], nhằm [Lợi ích].",
+                    "options": [
+                              {
+                                        "action_en": "I suggest that the hotel upgrade the wireless internet routers on every guest floor.",
+                                        "action_vi": "tôi đề xuất khách sạn nâng cấp các bộ định tuyến Wi-Fi ở mỗi tầng phòng nghỉ.",
+                                        "reason_en": "in order to guarantee a fast, stable, and uninterrupted internet connection for all guests.",
+                                        "reason_vi": "nhằm đảm bảo đường truyền internet nhanh, ổn định và không bị gián đoạn cho mọi du khách.",
+                                        "expansion_1_en": "Installing modern signal boosters along corridors would solve coverage dead zones immediately.",
+                                        "expansion_1_vi": "Lắp đặt thêm các bộ kích sóng hiện đại dọc hành lang sẽ giải quyết triệt để các góc khuất sóng."
+                              },
+                              {
+                                        "action_en": "I recommend assigning dedicated kitchen staff to refill buffet trays promptly during peak hours.",
+                                        "action_vi": "tôi khuyến nghị phân công nhân viên bếp túc trực để châm thêm thức ăn buffet kịp thời trong giờ cao điểm.",
+                                        "reason_en": "so that all guests can enjoy a wide variety of fresh, hot food without long waiting times.",
+                                        "reason_vi": "để mọi du khách đều được thưởng thức đầy đủ các món ăn tươi nóng mà không phải chờ đợi lâu.",
+                                        "expansion_1_en": "Rotating menu items regularly would also make breakfast exciting for guests on longer stays.",
+                                        "expansion_1_vi": "Thường xuyên luân phiên đổi mới món ăn cũng sẽ giúp bữa sáng thêm thú vị cho khách ở dài ngày."
+                              },
+                              {
+                                        "action_en": "I would suggest reminding the housekeeping team to keep quiet when working in corridors before 9:00 AM.",
+                                        "action_vi": "tôi muốn đề xuất nhắc nhở đội dọn phòng giữ yên lặng khi làm việc ngoài hành lang trước 9 giờ sáng.",
+                                        "reason_en": "because vacationing guests need quiet surroundings to sleep in and rest comfortably.",
+                                        "reason_vi": "vì khách đi nghỉ dưỡng cần không gian yên tĩnh để ngủ nướng và nghỉ ngơi thoải mái.",
+                                        "expansion_1_en": "Adding sound-dampening rubber wheels to cleaning carts would significantly reduce hallway rumble.",
+                                        "expansion_1_vi": "Gắn thêm bánh xe cao su giảm chấn cho các xe đẩy dọn phòng sẽ giảm đáng kể tiếng ồn ầm ĩ ngoài hành lang."
+                              },
+                              {
+                                        "action_en": "I believe the hotel should offer more reasonable rates for mini-bar snacks and laundry services.",
+                                        "action_vi": "tôi tin rằng khách sạn nên đưa ra mức giá hợp lý hơn cho đồ ăn mini-bar và dịch vụ giặt ủi.",
+                                        "reason_en": "so that guests feel the total cost fairly matches the high quality of accommodation received.",
+                                        "reason_vi": "để khách cảm thấy tổng chi phí tương xứng một cách công bằng với chất lượng lưu trú nhận được.",
+                                        "expansion_1_en": "Offering discount packages for families staying more than two nights would also boost guest loyalty.",
+                                        "expansion_1_vi": "Đưa ra các gói ưu đãi giảm giá cho gia đình ở trên 2 đêm cũng sẽ gia tăng sự gắn bó của khách hàng."
+                              },
+                              {
+                                        "action_en": "I suggest that your technical maintenance team inspect the shower drainage and hot water pressure in guest rooms.",
+                                        "action_vi": "tôi đề xuất đội kỹ thuật bảo trì kiểm tra đường thoát nước và áp lực nước nóng trong các phòng nghỉ.",
+                                        "reason_en": "to ensure that guests always enjoy a smooth and relaxing hot shower after a long day.",
+                                        "reason_vi": "để đảm bảo du khách luôn được tận hưởng vòi tắm nước nóng mượt mà, thư giãn sau một ngày dài.",
+                                        "expansion_1_en": "Regular routine maintenance checks before guest check-in will easily prevent unexpected plumbing faults.",
+                                        "expansion_1_vi": "Kiểm tra bảo dưỡng định kỳ trước khi khách nhận phòng sẽ dễ dàng ngăn chặn các sự cố đường ống bất ngờ."
+                              },
+                              {
+                                        "action_en": "I recommend providing regular customer care training sessions for all front desk and service staff.",
+                                        "action_vi": "tôi khuyến nghị tổ chức các buổi tập huấn chăm sóc khách hàng định kỳ cho toàn bộ nhân viên lễ tân và phục vụ.",
+                                        "reason_en": "to maintain a consistently polite, prompt, and welcoming attitude toward international guests.",
+                                        "reason_vi": "nhằm duy trì thái độ luôn lịch sự, nhanh nhẹn và niềm nở đối với du khách quốc tế.",
+                                        "expansion_1_en": "A warm smile and proactive greeting at the lobby door make a huge positive difference to every traveler.",
+                                        "expansion_1_vi": "Một nụ cười ấm áp và lời chào chủ động ngay cửa sảnh sẽ tạo nên ấn tượng rất lớn với mọi du khách."
+                              }
+                    ]
+          }
           ],
           "vocab": [
             {
@@ -16767,162 +16781,216 @@ const LETTERS_DATA = [
             ]
           },
           "suggested_ideas": [
-            {
-              "id": 1,
-              "title_en": "1. Apologize for not returning the book earlier",
-              "title_vi": "1. Xin lỗi vì chưa trả sách sớm",
-              "icon": "fa-book-open",
-              "options": [
-                {
-                  "action_en": "I am really sorry for not returning your novel earlier",
-                  "action_vi": "tớ thực sự xin lỗi vì đã không trả lại cuốn tiểu thuyết cho cậu sớm hơn",
-                  "reason_en": "because I was very busy preparing for my final exams.",
-                  "reason_vi": "vì tớ quá bận rộn ôn thi học kỳ.",
-                  "b1_sentence": "I am really sorry for not returning your novel earlier because I was very busy preparing for my final exams.",
-                  "expansion_1_en": "I was overwhelmed with university coursework and completely lost track of time last week.",
-                  "expansion_1_vi": "Tuần trước mình bị ngập trong bài vở ở trường đại học nên hoàn toàn quên mất thời gian trôi qua.",
-                  "expansion_2_en": "I know how much you cherish that novel and I am really sorry for keeping it for so long.",
-                  "expansion_2_vi": "Mình biết bạn quý cuốn tiểu thuyết đó thế nào và mình thực sự xin lỗi vì đã giữ nó lâu như vậy."
-                },
-                {
-                  "action_en": "I apologize for keeping your book for so long",
-                  "action_vi": "tớ xin lỗi vì đã giữ cuốn sách của cậu quá lâu",
-                  "reason_en": "because I had so much university homework last week.",
-                  "reason_vi": "vì tuần trước tớ có quá nhiều bài tập ở trường đại học.",
-                  "b1_sentence": "I apologize for keeping your book for so long because I had so much university homework last week.",
-                  "expansion_1_en": "We had three mid-term exams back-to-back, leaving me totally exhausted every evening.",
-                  "expansion_1_vi": "Bọn mình phải thi liền ba bài thi giữa kỳ, khiến tối nào mình cũng trong tình trạng kiệt sức.",
-                  "expansion_2_en": "I promise I will never be this careless with your borrowed items ever again.",
-                  "expansion_2_vi": "Mình xin hứa từ nay sẽ không bao giờ bất cẩn với đồ đạc mượn của bạn như thế này nữa."
-                },
-                {
-                  "action_en": "I am so sorry that I forgot to bring the book back to you",
-                  "action_vi": "tớ rất xin lỗi vì đã quên mang sách trả lại cho cậu",
-                  "reason_en": "because I was working on an urgent group project.",
-                  "reason_vi": "vì tớ phải làm một bài tập nhóm gấp.",
-                  "b1_sentence": "I am so sorry that I forgot to bring the book back to you because I was working on an urgent group project.",
-                  "expansion_1_en": "Our group assignment required daily meetings until 9:00 PM, but it completely slipped my mind.",
-                  "expansion_1_vi": "Bài tập nhóm của bọn mình phải họp mỗi ngày tới tận 9 giờ tối, nhưng mình hoàn toàn đãng trí quên mất.",
-                  "expansion_2_en": "I felt terrible as soon as I spotted the novel resting on my bookshelf this morning.",
-                  "expansion_2_vi": "Mình cảm thấy rất áy náy ngay khi nhìn thấy cuốn tiểu thuyết nằm trên giá sách sáng nay."
-                },
-                {
-                  "action_en": "Please forgive me for not returning your book on time",
-                  "action_vi": "cậu bỏ qua cho tớ vì đã không trả sách đúng hẹn nhé",
-                  "reason_en": "because I have been studying late every day.",
-                  "reason_vi": "vì ngày nào tớ cũng phải thức khuya học bài.",
-                  "b1_sentence": "Please forgive me for not returning your book on time because I have been studying late every day.",
-                  "expansion_1_en": "Studying late into the night made me terribly forgetful about my personal promises.",
-                  "expansion_1_vi": "Việc thức khuya học bài triền miên khiến mình trở nên rất hay quên các lời hứa cá nhân.",
-                  "expansion_2_en": "Thank you so much for being so patient and understanding with my busy schedule.",
-                  "expansion_2_vi": "Cảm ơn bạn rất nhiều vì đã luôn kiên nhẫn và thấu hiểu cho lịch học bận rộn của mình."
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "title_en": "2. Explain why you could not return it on time",
-              "title_vi": "2. Giải thích tình hình & cảm nhận về cuốn sách",
-              "icon": "fa-heart",
-              "options": [
-                {
-                  "action_en": "I have finished reading the entire book",
-                  "action_vi": "tớ đã đọc xong toàn bộ cuốn sách rồi",
-                  "reason_en": "and I found the story very interesting and meaningful.",
-                  "reason_vi": "và tớ thấy câu chuyện rất hay và ý nghĩa.",
-                  "b1_sentence": "I have finished reading the entire book, and I found the story very interesting and meaningful.",
-                  "expansion_1_en": "The plot twists in the final three chapters were absolutely breathtaking and unpredictable.",
-                  "expansion_1_vi": "Những nút thắt bất ngờ trong ba chương cuối thực sự vô cùng hấp dẫn và khó đoán.",
-                  "expansion_2_en": "It is easily one of the most compelling works of fiction I have ever read.",
-                  "expansion_2_vi": "Đây chắc chắn là một trong những tác phẩm văn học lôi cuốn nhất mà mình từng được đọc."
-                },
-                {
-                  "action_en": "I kept your book carefully in my backpack",
-                  "action_vi": "tớ giữ gìn cuốn sách của cậu rất cẩn thận trong ba lô",
-                  "reason_en": "so it is still completely clean and new.",
-                  "reason_vi": "nên sách vẫn hoàn toàn sạch đẹp và như mới.",
-                  "b1_sentence": "I kept your book carefully in my backpack, so it is still completely clean and new.",
-                  "expansion_1_en": "I wrapped the cover in protective plastic film so there is not a single crease or tear on the pages.",
-                  "expansion_1_vi": "Mình đã bọc bìa sách cẩn thận bằng bìa nilon nên các trang sách không hề có một nếp gấp hay vết rách nào.",
-                  "expansion_2_en": "You will find it in the exact pristine condition as when you handed it to me.",
-                  "expansion_2_vi": "Bạn sẽ thấy cuốn sách vẫn mới tinh tươm hệt như lúc bạn trao tận tay cho mình."
-                },
-                {
-                  "action_en": "I really enjoyed reading the novel every evening",
-                  "action_vi": "tớ rất thích đọc cuốn tiểu thuyết này vào mỗi buổi tối",
-                  "reason_en": "because the main characters were so inspiring and lovely.",
-                  "reason_vi": "vì các nhân vật chính rất truyền cảm hứng và đáng yêu.",
-                  "b1_sentence": "I really enjoyed reading the novel every evening because the main characters were so inspiring and lovely.",
-                  "expansion_1_en": "The author created such relatable characters whose courage deeply inspired me during exam week.",
-                  "expansion_1_vi": "Tác giả đã xây dựng những nhân vật rất gần gũi, lòng dũng cảm của họ đã truyền cảm hứng lớn cho mình trong mùa thi.",
-                  "expansion_2_en": "I cannot wait to hear your perspective on the emotional climax of the story.",
-                  "expansion_2_vi": "Mình rất nóng lòng muốn được lắng nghe cảm nhận của bạn về đoạn cao trào đầy xúc động của câu chuyện."
-                },
-                {
-                  "action_en": "I took notes of many useful new English words while reading it",
-                  "action_vi": "tớ đã ghi chép được rất nhiều từ vựng tiếng Anh hay khi đọc sách",
-                  "reason_en": "so it helped me a lot with my English vocabulary.",
-                  "reason_vi": "nên nó đã giúp tớ rất nhiều trong việc học từ vựng tiếng Anh.",
-                  "b1_sentence": "I took notes of many useful new English words while reading it, so it helped me a lot with my English vocabulary.",
-                  "expansion_1_en": "I noted down dozens of rich idiomatic expressions in my personal study notebook.",
-                  "expansion_1_vi": "Mình đã ghi chép lại hàng chục thành ngữ tiếng Anh phong phú vào cuốn sổ tay học tập cá nhân.",
-                  "expansion_2_en": "Reading your book genuinely boosted my reading comprehension and English writing fluency.",
-                  "expansion_2_vi": "Đọc cuốn sách của bạn thực sự đã giúp mình cải thiện rất nhiều khả năng đọc hiểu và vốn từ viết tiếng Anh."
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "title_en": "3. Suggest when and where you can meet to return the book",
-              "title_vi": "3. Hẹn thời gian & địa điểm gặp mặt",
-              "icon": "fa-calendar-days",
-              "options": [
-                {
-                  "action_en": "I would love to meet you this Saturday afternoon at Green Cafe near your house",
-                  "action_vi": "tớ rất muốn gặp cậu vào chiều thứ Bảy này tại quán Green Cafe gần nhà cậu",
-                  "reason_en": "so I can return the book and treat you to some coffee.",
-                  "reason_vi": "để tớ trả lại sách và mời cậu một ly cà phê nhé.",
-                  "b1_sentence": "I would love to meet you this Saturday afternoon at Green Cafe near your house so I can return the book and treat you to some coffee.",
-                  "expansion_1_en": "Green Cafe has a lovely garden terrace where we can sit peacefully and catch up on everything.",
-                  "expansion_1_vi": "Green Cafe có một góc ban công sân vườn rất xinh xắn, nơi chúng mình có thể ngồi thảnh thơi trò chuyện.",
-                  "expansion_2_en": "Your favorite cappuccino and blueberry cheesecake will definitely be on my treat!",
-                  "expansion_2_vi": "Món cappuccino và bánh phô mai việt quất ưa thích của bạn chắc chắn sẽ do mình mời!"
-                },
-                {
-                  "action_en": "I can come over to your apartment on Sunday morning",
-                  "action_vi": "tớ có thể ghé qua căn hộ của cậu vào sáng Chủ nhật",
-                  "reason_en": "so we can chat and catch up on everything.",
-                  "reason_vi": "để chúng mình có thể trò chuyện và tâm sự với nhau.",
-                  "b1_sentence": "I can come over to your apartment on Sunday morning so we can chat and catch up on everything.",
-                  "expansion_1_en": "I can drop by your building around 10:00 AM so you do not have to travel anywhere.",
-                  "expansion_1_vi": "Mình có thể ghé qua chung cư nhà bạn khoảng 10 giờ sáng để bạn không phải mất công đi đâu xa.",
-                  "expansion_2_en": "I will also bring over that English grammar guide you mentioned wanting to borrow.",
-                  "expansion_2_vi": "Mình cũng sẽ mang theo cuốn cẩm nang ngữ pháp tiếng Anh mà hôm trước bạn bảo muốn mượn."
-                },
-                {
-                  "action_en": "Let us meet at our university library gate at 4:00 PM tomorrow",
-                  "action_vi": "chúng mình hãy gặp nhau ở cổng thư viện trường vào lúc 4 giờ chiều mai nhé",
-                  "reason_en": "because I will bring the book directly to you after my class.",
-                  "reason_vi": "vì tớ sẽ mang sách đến đưa tận tay cậu ngay sau giờ học.",
-                  "b1_sentence": "Let us meet at our university library gate at 4:00 PM tomorrow because I will bring the book directly to you after my class.",
-                  "expansion_1_en": "We can sit in the quiet study corner right after my lecture finishes at 3:45 PM.",
-                  "expansion_1_vi": "Chúng mình có thể ngồi ở góc tự học yên tĩnh ngay sau khi tiết giảng của mình kết thúc lúc 3 giờ 45 chiều.",
-                  "expansion_2_en": "I have packed the novel neatly in my bag so I will hand it to you the moment we meet.",
-                  "expansion_2_vi": "Mình đã cất gọn gàng cuốn tiểu thuyết vào ba lô để trao lại ngay cho bạn khi chúng mình gặp nhau."
-                },
-                {
-                  "action_en": "We can hang out at the milk tea shop near the city park this weekend",
-                  "action_vi": "cuối tuần này chúng mình có thể ghé quán trà sữa gần công viên thành phố",
-                  "reason_en": "because I want to buy you your favorite drink as an apology.",
-                  "reason_vi": "vì tớ muốn mua tặng cậu món đồ uống yêu thích để tạ lỗi.",
-                  "b1_sentence": "We can hang out at the milk tea shop near the city park this weekend because I want to buy you your favorite drink as an apology.",
-                  "expansion_1_en": "The milk tea shop has comfortable bean bags and tasty boba drinks that we both love.",
-                  "expansion_1_vi": "Quán trà sữa có ghế lười êm ái và những món trà sữa trân châu thơm ngon mà cả hai chúng mình đều mê.",
-                  "expansion_2_en": "Let me know what time suits you best so I can clear my afternoon schedule.",
-                  "expansion_2_vi": "Báo cho mình biết khung giờ nào tiện nhất cho bạn để mình thu xếp lịch trình buổi chiều nhé."
-                }
-              ]
-            }
+          {
+                    "id": 1,
+                    "title_en": "1. Apologize for not returning the book",
+                    "title_vi": "1. Lời xin lỗi vì chưa trả sách đúng hẹn",
+                    "icon": "fa-heart",
+                    "pattern_en": "I am really / truly sorry for [V-ing / keeping...], because [Reason].",
+                    "pattern_vi": "Mình thực sự xin lỗi vì [đã không trả sách / đã giữ sách...], vì [lý do].",
+                    "options": [
+                              {
+                                        "action_en": "I am really sorry for not returning your book on time",
+                                        "action_vi": "mình thực sự xin lỗi vì đã không trả sách cho bạn đúng hạn",
+                                        "reason_en": "because I had been extremely busy with my studies over the past few weeks.",
+                                        "reason_vi": "vì mình quá bận rộn với việc học trong vài tuần qua.",
+                                        "expansion_1_en": "I know how much you value that book and I feel really bad for keeping it so long.",
+                                        "expansion_1_vi": "Mình biết bạn quý cuốn sách đó thế nào và mình cảm thấy rất áy náy vì đã giữ nó lâu như vậy.",
+                                        "expansion_2_en": "I promise I will return it to you in pristine condition.",
+                                        "expansion_2_vi": "Mình hứa sẽ hoàn trả sách cho bạn trong tình trạng nguyên vẹn, mới đẹp."
+                              },
+                              {
+                                        "action_en": "I am truly sorry that I could not return your book as promised",
+                                        "action_vi": "mình thực sự xin lỗi vì đã không thể trả sách cho bạn như đã hứa",
+                                        "reason_en": "because several unexpected personal matters came up recently.",
+                                        "reason_vi": "vì gần đây có một vài việc cá nhân bất ngờ phát sinh.",
+                                        "expansion_1_en": "I had fully intended to give it back last week, but things got completely out of hand.",
+                                        "expansion_1_vi": "Mình đã định mang trả vào tuần trước, nhưng mọi việc trở nên quá bận rộn ngoài dự kiến.",
+                                        "expansion_2_en": "Thank you so much for being so patient and understanding with me.",
+                                        "expansion_2_vi": "Cảm ơn bạn rất nhiều vì đã luôn kiên nhẫn và thông cảm cho mình."
+                              },
+                              {
+                                        "action_en": "I sincerely apologize for returning your book later than expected",
+                                        "action_vi": "mình thành thật xin lỗi vì trả lại sách cho bạn muộn hơn dự kiến",
+                                        "reason_en": "because I had been away from home for an extended period.",
+                                        "reason_vi": "vì mình phải đi xa nhà trong một thời gian dài.",
+                                        "expansion_1_en": "I only arrived back home a few days ago and immediately thought of your book.",
+                                        "expansion_1_vi": "Mình chỉ vừa về đến nhà vài ngày trước và nghĩ ngay đến cuốn sách của bạn.",
+                                        "expansion_2_en": "I hope this slight delay has not caused you any inconvenience.",
+                                        "expansion_2_vi": "Mình hy vọng sự chậm trễ này không gây ra bất tiện phiền phức nào cho bạn."
+                              },
+                              {
+                                        "action_en": "Please forgive me for keeping your book for longer than I should have",
+                                        "action_vi": "bạn bỏ qua cho mình vì đã giữ cuốn sách của bạn lâu hơn mức đáng lẽ nên giữ",
+                                        "reason_en": "because it had completely slipped my mind amidst the hectic exam schedule.",
+                                        "reason_vi": "vì mình đã hoàn toàn đãng trí quên mất giữa lịch thi cử dồn dập.",
+                                        "expansion_1_en": "I only remembered that I still had it when I organized my room yesterday.",
+                                        "expansion_1_vi": "Mình chỉ mới nhớ ra mình vẫn còn giữ sách khi dọn dẹp lại phòng vào ngày hôm qua.",
+                                        "expansion_2_en": "I deeply appreciate your friendship and will make sure this never happens again.",
+                                        "expansion_2_vi": "Mình rất trân trọng tình bạn giữa chúng ta và sẽ đảm bảo chuyện này không bao giờ tái diễn."
+                              },
+                              {
+                                        "action_en": "I am so sorry for failing to return your book by the agreed date",
+                                        "action_vi": "mình rất xin lỗi vì đã không trả sách cho bạn vào đúng ngày đã thỏa thuận",
+                                        "reason_en": "because I was overwhelmed with work deadlines at my company.",
+                                        "reason_vi": "vì mình bị ngập đầu trong các hạn chót công việc tại công ty.",
+                                        "expansion_1_en": "I had to stay late at the office every single evening, leaving me totally exhausted.",
+                                        "expansion_1_vi": "Tối nào mình cũng phải ở lại văn phòng làm muộn, khiến mình hoàn toàn kiệt sức.",
+                                        "expansion_2_en": "I am very eager to return it to you as soon as possible.",
+                                        "expansion_2_vi": "Mình rất mong muốn được gửi lại sách cho bạn càng sớm càng tốt."
+                              }
+                    ]
+          },
+          {
+                    "id": 2,
+                    "title_en": "2. Explain your current situation",
+                    "title_vi": "2. Giải thích tình hình & lý do thực tế (8 Tình huống đời thực)",
+                    "icon": "fa-circle-info",
+                    "pattern_en": "I could not return your book earlier because [Situation]. In fact, [Detailed Explanation].",
+                    "pattern_vi": "Mình không thể trả sách sớm hơn là vì [Tình huống]. Thực tế là [Câu giải thích chi tiết].",
+                    "options": [
+                              {
+                                        "action_en": "I had been extremely busy with my studies over the past few months.",
+                                        "action_vi": "mình đã quá bận rộn với việc học trong vài tháng qua.",
+                                        "reason_en": "I had several exams and projects to complete before the deadline.",
+                                        "reason_vi": "mình có nhiều kỳ thi và dự án cần hoàn thành trước hạn nộp.",
+                                        "expansion_1_en": "I spent most of my time revising for exams and working on assignments, so returning your book completely slipped my mind.",
+                                        "expansion_1_vi": "Mình dành phần lớn thời gian ôn thi và làm bài tập, vì vậy mình đã hoàn toàn quên mất việc trả sách cho bạn.",
+                                        "expansion_2_en": "Now that my exams are finished, I finally have plenty of free time to meet up.",
+                                        "expansion_2_vi": "Bây giờ kỳ thi đã xong xuôi nên mình đã có nhiều thời gian rảnh để gặp gỡ."
+                              },
+                              {
+                                        "action_en": "I had been away from home for an extended period to take care of personal matters.",
+                                        "action_vi": "mình đã phải xa nhà trong một thời gian dài để giải quyết việc riêng.",
+                                        "reason_en": "I had been staying with my relatives in another city and only returned home a few days ago.",
+                                        "reason_vi": "mình đã ở cùng người thân tại một thành phố khác và chỉ mới trở về nhà vài ngày trước.",
+                                        "expansion_1_en": "As a result, I didn't have a chance to meet you and return the book in person.",
+                                        "expansion_1_vi": "Vì vậy, mình chưa có cơ hội gặp bạn để trực tiếp gửi lại sách.",
+                                        "expansion_2_en": "I am now settled back at home and ready to return the book whenever you are free.",
+                                        "expansion_2_vi": "Hiện mình đã về lại nhà ổn định và sẵn sàng trả sách bất cứ khi nào bạn rảnh."
+                              },
+                              {
+                                        "action_en": "my family had been dealing with some personal difficulties recently.",
+                                        "action_vi": "gia đình mình thời gian gần đây phải đối mặt với một số khó khăn riêng.",
+                                        "reason_en": "I had to spend a lot of time helping my parents handle these pressing matters.",
+                                        "reason_vi": "mình phải dành khá nhiều thời gian phụ giúp bố mẹ xử lý những việc cấp bách này.",
+                                        "expansion_1_en": "Fortunately, things have improved a lot recently, so I can now arrange to return your book.",
+                                        "expansion_1_vi": "May mắn là tình hình gần đây đã cải thiện nhiều, nên bây giờ mình có thể sắp xếp trả sách cho bạn.",
+                                        "expansion_2_en": "Thank you for being so patient and understanding during this challenging time for my family.",
+                                        "expansion_2_vi": "Cảm ơn bạn đã luôn kiên nhẫn và thấu hiểu trong suốt khoảng thời gian khó khăn này của gia đình mình."
+                              },
+                              {
+                                        "action_en": "returning the book had completely slipped my mind after I finished it.",
+                                        "action_vi": "việc trả sách đã hoàn toàn tuột khỏi tâm trí mình sau khi đọc xong.",
+                                        "reason_en": "After finishing the book, I put it on my bookshelf and did not think about it again.",
+                                        "reason_vi": "sau khi đọc xong, mình đặt sách lên giá và không nghĩ đến nó nữa giữa bộn bề công việc.",
+                                        "expansion_1_en": "I only remembered that I still had it when I was cleaning and tidying up my room recently.",
+                                        "expansion_1_vi": "Mình chỉ nhớ ra mình vẫn còn giữ sách khi gần đây dọn dẹp và sắp xếp lại phòng.",
+                                        "expansion_2_en": "I felt so apologetic the instant I noticed your book resting on my top shelf.",
+                                        "expansion_2_vi": "Mình cảm thấy rất áy náy ngay khi nhìn thấy cuốn sách của bạn nằm trên kệ trên cùng."
+                              },
+                              {
+                                        "action_en": "I had been completely overwhelmed with work over the past few months.",
+                                        "action_vi": "mình bị quá tải công việc trong suốt vài tháng qua.",
+                                        "reason_en": "I had to manage several projects and meet tight deadlines at my company.",
+                                        "reason_vi": "mình phải xử lý nhiều dự án và đáp ứng các hạn chót gấp tại công ty.",
+                                        "expansion_1_en": "I also worked overtime quite often to complete my tasks, so returning your book completely slipped my mind.",
+                                        "expansion_1_vi": "Mình cũng thường xuyên làm thêm giờ để hoàn thành nhiệm vụ, vì vậy mình đã hoàn toàn quên mất việc trả sách.",
+                                        "expansion_2_en": "Our major workload has finally cleared up, so my daily schedule is much more relaxed now.",
+                                        "expansion_2_vi": "Khối lượng công việc lớn hiện đã giải quyết xong nên lịch trình hằng ngày của mình đã thoải mái hơn nhiều."
+                              },
+                              {
+                                        "action_en": "I was unfortunately involved in a minor traffic accident a few weeks ago.",
+                                        "action_vi": "thật không may mình đã gặp một tai nạn giao thông nhỏ cách đây vài tuần.",
+                                        "reason_en": "I had to spend some time resting at home and needed several weeks to recover.",
+                                        "reason_vi": "mình phải nằm nghỉ một thời gian và cần vài tuần để hồi phục sức khỏe.",
+                                        "expansion_1_en": "During that period, I was unable to carry out my usual activities, and returning your book was unfortunately overlooked.",
+                                        "expansion_1_vi": "Trong giai đoạn đó, mình không thể thực hiện các hoạt động thường ngày, và việc trả sách đã bị bỏ quên.",
+                                        "expansion_2_en": "My health is now much better and I can easily travel around town again.",
+                                        "expansion_2_vi": "Sức khỏe của mình giờ đã tốt hơn nhiều và mình đã có thể đi lại bình thường quanh thành phố."
+                              },
+                              {
+                                        "action_en": "I had been extremely busy working on my graduation thesis during my final semester.",
+                                        "action_vi": "mình đã quá bận rộn làm khóa luận tốt nghiệp trong học kỳ cuối.",
+                                        "reason_en": "I had to spend most of my time conducting research, collecting information, and writing chapters.",
+                                        "reason_vi": "mình phải dành phần lớn thời gian để nghiên cứu, thu thập thông tin và viết các chương luận văn.",
+                                        "expansion_1_en": "As a result, I had very little free time, and returning your book completely slipped my mind.",
+                                        "expansion_1_vi": "Vì vậy, mình có rất ít thời gian rảnh và đã hoàn toàn quên mất việc trả sách cho bạn.",
+                                        "expansion_2_en": "I have successfully submitted my final thesis paper and feel greatly relieved.",
+                                        "expansion_2_vi": "Mình đã nộp thành công bài khóa luận cuối khóa và cảm thấy nhẹ nhõm rất nhiều."
+                              },
+                              {
+                                        "action_en": "I had been doing a full-time internship in another city for the past few months.",
+                                        "action_vi": "mình đã đi thực tập toàn thời gian ở một thành phố khác trong vài tháng qua.",
+                                        "reason_en": "I had to stay there to gain practical work experience and complete my internship course.",
+                                        "reason_vi": "mình phải ở đó để tích lũy kinh nghiệm thực tế và hoàn thành kỳ thực tập.",
+                                        "expansion_1_en": "Since I lived quite far away from home, I couldn't meet you to return the book in person.",
+                                        "expansion_1_vi": "Vì sống xa nhà nên mình không thể gặp bạn để trực tiếp trả sách.",
+                                        "expansion_2_en": "My internship program just wrapped up and I am currently back in town.",
+                                        "expansion_2_vi": "Chương trình thực tập của mình vừa kết thúc và hiện mình đã trở lại thành phố."
+                              }
+                    ]
+          },
+          {
+                    "id": 3,
+                    "title_en": "3. Say whether you have finished the book",
+                    "title_vi": "3. Trạng thái đọc & Cảm nhận về sách (2 Hướng lựa chọn)",
+                    "icon": "fa-book-bookmark",
+                    "pattern_en": "I have finished / haven't finished the book yet. I found the book [adjective] because [Reason].",
+                    "pattern_vi": "Mình đã đọc xong / chưa đọc xong cuốn sách. Mình thấy cuốn sách [tính từ] vì [Lý do].",
+                    "options": [
+                              {
+                                        "action_en": "I have finished reading the entire book and really enjoyed it.",
+                                        "action_vi": "mình đã đọc xong toàn bộ cuốn sách và thực sự rất thích nó.",
+                                        "reason_en": "because the storyline was engaging and full of touching moments.",
+                                        "reason_vi": "vì cốt truyện rất lôi cuốn và ngập tràn những khoảnh khắc xúc động.",
+                                        "expansion_1_en": "I found the story both engaging and meaningful because it offered valuable insights into everyday life.",
+                                        "expansion_1_vi": "Mình thấy câu chuyện vừa hấp dẫn vừa ý nghĩa vì nó mang lại những góc nhìn có giá trị về cuộc sống hằng ngày.",
+                                        "expansion_2_en": "It also taught me several important life lessons that I can apply to my own experiences. Thank you so much for lending it to me!",
+                                        "expansion_2_vi": "Cuốn sách cũng dạy mình nhiều bài học quan trọng mà mình có thể áp dụng vào trải nghiệm của bản thân. Cảm ơn bạn rất nhiều vì đã cho mình mượn sách!"
+                              },
+                              {
+                                        "action_en": "To be honest, I haven't finished reading the book yet.",
+                                        "action_vi": "thành thật mà nói, mình vẫn chưa đọc xong cuốn sách.",
+                                        "reason_en": "because my busy schedule has prevented me from finishing it as quickly as I had expected.",
+                                        "reason_vi": "vì lịch trình bận rộn khiến mình chưa thể đọc xong nhanh như dự định.",
+                                        "expansion_1_en": "I've found the book really engaging so far, and I'm particularly interested in how the story develops.",
+                                        "expansion_1_vi": "Mình thấy cuốn sách rất hấp dẫn cho đến thời điểm này và đặc biệt tò mò về diễn biến tiếp theo của câu chuyện.",
+                                        "expansion_2_en": "I have read over half of it, but I want to give it back to you first so you don't have to wait any longer.",
+                                        "expansion_2_vi": "Mình đã đọc được hơn một nửa, nhưng mình muốn trả lại sách cho bạn trước để bạn không phải chờ lâu hơn nữa."
+                              }
+                    ]
+          },
+          {
+                    "id": 4,
+                    "title_en": "4. Say when and how you will return it",
+                    "title_vi": "4. Thời gian và phương thức hoàn trả (2 Giải pháp cụ thể)",
+                    "icon": "fa-calendar-days",
+                    "pattern_en": "I will bring the book to your house / send it by post [When] so that [Purpose].",
+                    "pattern_vi": "Mình sẽ mang sách đến nhà bạn / gửi qua bưu điện [Thời gian] để [Mục đích].",
+                    "options": [
+                              {
+                                        "action_en": "I will bring the book to your house next weekend.",
+                                        "action_vi": "mình sẽ mang sách đến nhà bạn vào cuối tuần tới.",
+                                        "reason_en": "so I can return it in person and we can spend some time catching up.",
+                                        "reason_vi": "để mình có thể trực tiếp gửi lại sách và chúng mình có thể dành thời gian tâm sự, hỏi thăm nhau.",
+                                        "expansion_1_en": "Since we haven't seen each other for a while, I hope we can grab a cup of coffee together nearby.",
+                                        "expansion_1_vi": "Vì chúng ta đã lâu không gặp nhau, mình hy vọng chúng ta có thể cùng nhau uống một tách cà phê ở gần đó.",
+                                        "expansion_2_en": "Please let me know if Saturday afternoon around 3:00 PM works well for you.",
+                                        "expansion_2_vi": "Hãy báo cho mình biết nếu chiều thứ Bảy khoảng 3 giờ thuận tiện cho bạn nhé."
+                              },
+                              {
+                                        "action_en": "I will send the book back to you by post early next week.",
+                                        "action_vi": "mình sẽ gửi trả sách cho bạn qua đường bưu điện vào đầu tuần tới.",
+                                        "reason_en": "because you live quite far away and I want you to receive it without any further delay.",
+                                        "reason_vi": "vì bạn sống khá xa và mình muốn bạn nhận lại sách mà không bị chậm trễ thêm nữa.",
+                                        "expansion_1_en": "I will pack it carefully to make sure it arrives in good condition.",
+                                        "expansion_1_vi": "Mình sẽ đóng gói cẩn thận để đảm bảo sách đến nơi trong tình trạng tốt.",
+                                        "expansion_2_en": "I will also let you know and send you the tracking number once I have posted it.",
+                                        "expansion_2_vi": "Mình cũng sẽ báo cho bạn biết và gửi mã vận đơn ngay sau khi gửi sách."
+                              }
+                    ]
+          }
           ],
           "vocab": [
             {
