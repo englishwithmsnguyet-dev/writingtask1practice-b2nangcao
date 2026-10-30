@@ -1704,26 +1704,41 @@ function submitAndEvaluatePracticeLetter() {
   }
 
   // Sound & notification & confetti
-  playFanfare();
-  shootConfetti();
-  showToast(isRevision ? `🎉 Đã hoàn tất chấm điểm Bản sửa lần ${revNum}!` : '🎉 Đã nộp bài và hoàn tất chấm điểm VSTEP B2!', 'success');
+  const isFailed = (evalResult.overallBand < 4.0 || evalResult.isPromptCopy);
+  if (isFailed) {
+    showToast('⚠️ Bài viết chưa đạt yêu cầu tối thiểu (dưới 4.0 điểm). Hãy xem kỹ nhận xét và viết lại nhé!', 'warning');
+  } else {
+    playFanfare();
+    shootConfetti();
+    showToast(isRevision ? `🎉 Đã hoàn tất chấm điểm Bản sửa lần ${revNum}!` : '🎉 Đã nộp bài và hoàn tất chấm điểm VSTEP B2!', 'success');
+  }
 
   // Render evaluation report directly in Practice Room
   const resultContainer = document.getElementById('practiceCompletionResultContainer');
   const editorGrid = document.getElementById('practiceEditorGrid');
   if (resultContainer && editorGrid) {
+    const bannerTitle = evalResult.isPromptCopy
+      ? '⚠️ BÀI VIẾT SAO CHÉP ĐỀ BÀI (0.0 ĐIỂM) - KHÔNG ĐƯỢC CÔNG NHẬN!'
+      : (evalResult.overallBand < 4.0
+        ? '⚠️ BÀI VIẾT CHƯA ĐẠT YÊU CẦU TỐI THIỂU - CẦN VIẾT LẠI!'
+        : (isRevision ? `🎉 Chúc mừng bạn đã hoàn thành Bản sửa lần ${revNum}!` : 'Chúc mừng bạn đã hoàn thành bài viết!'));
+    const bannerSub = evalResult.isPromptCopy
+      ? 'Hệ thống phát hiện bài làm sao chép lại đề thi. Theo quy chế VSTEP, phần sao chép đề không được tính điểm. Vui lòng tự viết lại bức thư.'
+      : 'Hệ thống đã hoàn tất chấm điểm 4 tiêu chí VSTEP Task 01, nhận xét chi tiết từng câu và xuất phiếu đánh giá.';
+    const bannerIcon = isFailed ? '<i class="fa-solid fa-triangle-exclamation" style="color: var(--danger);"></i>' : '<i class="fa-solid fa-circle-check"></i>';
+
     resultContainer.innerHTML = `
       <div class="eval-completion-banner fade-in">
         <div class="eval-completion-banner-left">
           <div class="eval-completion-banner-icon">
-            <i class="fa-solid fa-circle-check"></i>
+            ${bannerIcon}
           </div>
           <div>
             <div class="eval-completion-banner-title">
-              🎉 ${isRevision ? `Chúc mừng bạn đã hoàn thành Bản sửa lần ${revNum}!` : 'Chúc mừng bạn đã hoàn thành bài viết!'}
+              ${bannerTitle}
             </div>
             <div class="eval-completion-banner-sub">
-              Hệ thống đã hoàn tất chấm điểm 4 tiêu chí VSTEP Task 01, nhận xét chi tiết từng câu và xuất phiếu đánh giá.
+              ${bannerSub}
             </div>
           </div>
         </div>
