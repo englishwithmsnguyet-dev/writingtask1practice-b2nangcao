@@ -527,6 +527,38 @@ strong, b {
 /* ==========================================================================
    SIGNATURE BRAND: ENGLISH WITH MISS NGUYET
    ========================================================================== */
+.header-middle-brand-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.header-middle-brand-wrap:hover {
+  transform: scale(1.03);
+}
+
+.header-brand-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 2px solid var(--accent-primary);
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+  flex-shrink: 0;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.header-middle-brand-wrap:hover .header-brand-avatar {
+  box-shadow: 0 0 14px rgba(236, 72, 153, 0.6);
+  transform: rotate(6deg) scale(1.08);
+}
+
 .header-middle-brand {
   position: relative;
   font-family: 'Roboto Serif', serif;
@@ -544,11 +576,9 @@ strong, b {
   transition: transform 0.25s ease, filter 0.25s ease;
   flex-shrink: 0;
   text-align: center;
-  margin: 0 auto;
 }
 
 .header-middle-brand:hover {
-  transform: scale(1.05);
   filter: drop-shadow(0 0 12px rgba(255, 0, 127, 0.45));
 }
 
@@ -571,7 +601,7 @@ strong, b {
 }
 
 @media (max-width: 820px) {
-  .header-middle-brand {
+  .header-middle-brand-wrap {
     display: none !important;
   }
 }
