@@ -4375,19 +4375,6 @@ function evaluateVstepLetter(text, topic) {
   };
 }
 
-  const overall = Number(((tfBand + orBand + lrBand + graBand) / 4).toFixed(1));
-
-  return {
-    overallBand: overall,
-    tf: { band: tfBand, strengths: tfStrengths, improvements: tfImprovements },
-    or: { band: orBand, strengths: orStrengths, improvements: orImprovements },
-    lr: { band: lrBand, strengths: lrStrengths, improvements: lrImprovements },
-    gra: { band: graBand, strengths: graStrengths, improvements: graImprovements },
-    detectedErrors,
-    sentenceEvaluations: evaluateSentenceBySentence(text, topic, detectedErrors)
-  };
-}
-
 // Error Detection Engine
 function detectComprehensiveLetterErrors(text) {
   const errors = [];
