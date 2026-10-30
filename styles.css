@@ -4613,3 +4613,295 @@ body.mobile-drawer-active {
   transform: translateY(-1px);
   box-shadow: var(--shadow-md);
 }
+
+/* ==========================================================================
+   MISS NGUYET SIGNATURE BRANDING ENHANCEMENTS
+   ========================================================================== */
+
+/* 1. Login Modal Teacher Avatar */
+.login-teacher-avatar-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.15rem;
+  position: relative;
+}
+
+.login-teacher-halo {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, #6366f1 0%, #ec4899 50%, #38bdf8 100%);
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.45), 0 0 45px rgba(236, 72, 153, 0.25);
+  animation: haloPulse 3.5s ease-in-out infinite alternate;
+}
+
+@keyframes haloPulse {
+  0% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.35), 0 0 35px rgba(236, 72, 153, 0.2);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 0 32px rgba(99, 102, 241, 0.6), 0 0 55px rgba(236, 72, 153, 0.4);
+    transform: scale(1.025);
+  }
+}
+
+.login-teacher-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 3px solid var(--bg-card);
+  display: block;
+}
+
+.login-teacher-badge {
+  margin-top: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.22rem 0.7rem;
+  border-radius: 9999px;
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  color: var(--accent-primary);
+}
+
+/* 2. Sidebar Footer Brand Link */
+.sidebar-footer-brand {
+  margin-top: 0.6rem;
+  padding: 0.5rem 0.65rem;
+  background: var(--bg-inner);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-md);
+  transition: all 0.25s ease;
+}
+
+.sidebar-footer-brand:hover {
+  border-color: rgba(99, 102, 241, 0.45);
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.15);
+  transform: translateY(-1px);
+}
+
+.sidebar-footer-link {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar-footer-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 1.5px solid var(--accent-primary);
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.35);
+  flex-shrink: 0;
+}
+
+/* 3. Teacher Welcome Hero Card in Overview Screen */
+.teacher-welcome-hero-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(236, 72, 153, 0.08) 50%, rgba(56, 189, 248, 0.1) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.28);
+  border-radius: var(--radius-xl);
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.75rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.teacher-welcome-hero-card::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.18) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.teacher-hero-left {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teacher-hero-avatar-halo {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, #6366f1 0%, #ec4899 50%, #38bdf8 100%);
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.35);
+}
+
+.teacher-hero-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 3px solid var(--bg-card);
+  display: block;
+}
+
+.teacher-hero-halo-badge {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  background: #10b981;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 0.2rem 0.5rem;
+  border-radius: 9999px;
+  border: 2px solid var(--bg-card);
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  white-space: nowrap;
+}
+
+.teacher-hero-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.teacher-hero-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.teacher-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 0.22rem 0.65rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+}
+
+.teacher-badge-gold {
+  background: rgba(245, 158, 11, 0.15);
+  color: #d97706;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+}
+
+.teacher-badge-cyan {
+  background: rgba(6, 182, 212, 0.15);
+  color: #0891b2;
+  border: 1px solid rgba(6, 182, 212, 0.35);
+}
+
+.teacher-badge-purple {
+  background: rgba(139, 92, 246, 0.15);
+  color: #7c3aed;
+  border: 1px solid rgba(139, 92, 246, 0.35);
+}
+
+[data-theme="dark"] .teacher-badge-gold {
+  color: var(--amber-light);
+}
+
+[data-theme="dark"] .teacher-badge-cyan {
+  color: var(--cyan-light);
+}
+
+[data-theme="dark"] .teacher-badge-purple {
+  color: var(--violet-light);
+}
+
+.teacher-hero-heading {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.45rem;
+  letter-spacing: -0.01em;
+}
+
+.teacher-hero-desc {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 0.9rem;
+}
+
+.teacher-hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.teacher-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #1877f2 0%, #0056b3 100%);
+  color: #ffffff !important;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(24, 119, 242, 0.3);
+}
+
+.teacher-hero-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(24, 119, 242, 0.45);
+  filter: brightness(1.1);
+}
+
+.teacher-hero-stat {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+@media (max-width: 768px) {
+  .teacher-welcome-hero-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.25rem;
+    padding: 1.5rem 1.2rem;
+  }
+  .teacher-hero-badges {
+    justify-content: center;
+  }
+  .teacher-hero-meta {
+    justify-content: center;
+  }
+}
