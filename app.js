@@ -4060,6 +4060,54 @@ function evaluateSentenceBySentence(text, topic, detectedErrors) {
   });
 }
 
+// Phát hiện bài thi sao chép đề bài
+function detectPromptCopying(text, topic) {
+  if (!text || !text.trim()) {
+    return { isPromptCopy: false, overlapRatio: 0, effectiveWordCount: 0 };
+  }
+
+  const promptText = ((topic?.prompt || '') + ' ' + (topic?.context || '')).trim();
+  if (!promptText) {
+    const wc = text.split(/\s+/).filter(Boolean).length;
+    return { isPromptCopy: false, overlapRatio: 0, effectiveWordCount: wc };
+  }
+
+  const normText = text.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+  const normPrompt = promptText.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+
+  const textWords = normText.split(' ').filter(Boolean);
+  if (textWords.length === 0) return { isPromptCopy: false, overlapRatio: 0, effectiveWordCount: 0 };
+
+  const metaPhrases = [
+    'write a letter in response to', 'write an email to', 'in your letter you should', 'in your email you should',
+    'you should write at least', 'do not include your name', 'evaluated in terms of',
+    'read part of the letter', 'read part of her letter', 'read part of his letter',
+    'you are the hotel manager', 'you recently stayed at', 'you borrowed a book from'
+  ];
+
+  let hasMeta = metaPhrases.some(p => normText.includes(p));
+
+  // Đếm số từ trùng 4-gram với đề bài
+  let matchedWordsCount = 0;
+  for (let i = 0; i <= textWords.length - 4; i++) {
+    const quad = textWords.slice(i, i + 4).join(' ');
+    if (normPrompt.includes(quad)) {
+      matchedWordsCount += 4;
+    }
+  }
+
+  const overlapRatio = Math.min(1.0, matchedWordsCount / textWords.length);
+  const isPromptCopy = (overlapRatio >= 0.35 && textWords.length < 100) || (overlapRatio >= 0.60) || (hasMeta && textWords.length < 80);
+  const effectiveWordCount = isPromptCopy ? 0 : Math.max(0, textWords.length - Math.round(matchedWordsCount * 0.4));
+
+  return {
+    isPromptCopy,
+    overlapRatio: Number(overlapRatio.toFixed(2)),
+    hasMeta,
+    effectiveWordCount
+  };
+}
+
 function evaluateVstepLetter(text, topic) {
   const words = text.split(/\s+/).filter(Boolean);
   const wordCount = words.length;
@@ -4067,8 +4115,51 @@ function evaluateVstepLetter(text, topic) {
   const paragraphCount = rawParagraphs.length;
   const lowerText = text.toLowerCase();
 
+  // 0. CHECK PROMPT COPYING (Phát hiện sao chép đề bài)
+  const copyCheck = detectPromptCopying(text, topic);
+  if (copyCheck.isPromptCopy) {
+    return {
+      isPromptCopy: true,
+      overallBand: 0.0,
+      tf: {
+        band: 0.0,
+        strengths: [],
+        improvements: [
+          "Bài làm sao chép lại đề bài hoặc câu hướng dẫn của đề thi (0.0 điểm).",
+          "Theo quy chế thi VSTEP Task 01, bài làm sao chép đề bài sẽ bị tính 0 điểm và không được công nhận kết quả."
+        ]
+      },
+      or: {
+        band: 0.0,
+        strengths: [],
+        improvements: [
+          "Không có bố cục của một bức thư hoàn chỉnh (thiếu lời chào mở đầu Dear..., các đoạn thân bài và lời kết thư)."
+        ]
+      },
+      lr: {
+        band: 0.0,
+        strengths: [],
+        improvements: [
+          "Từ vựng sao chép nguyên văn từ đề bài, không được tính vào vốn từ của thí sinh."
+        ]
+      },
+      gra: {
+        band: 0.0,
+        strengths: [],
+        improvements: [
+          "Ngữ pháp sao chép từ đề bài, không phản ánh năng lực viết câu của thí sinh."
+        ]
+      },
+      detectedErrors: [],
+      sentenceEvaluations: evaluateSentenceBySentence(text, topic, [])
+    };
+  }
+
   // Run comprehensive error detector
   const detectedErrors = detectComprehensiveLetterErrors(text);
+
+  const hasSalutation = /^(dear|hello|hi)\b/i.test(text.trim());
+  const hasSignOff = /(best wishes|yours sincerely|yours faithfully|best regards|warm regards|warmly|all the best|sincerely)/i.test(lowerText);
 
   // 1. TASK FULFILLMENT (TF)
   const ideas = topic?.details?.suggested_ideas || [];
@@ -4080,41 +4171,52 @@ function evaluateVstepLetter(text, topic) {
       if (matched) coveredCount++;
     });
   } else {
-    coveredCount = 4;
+    coveredCount = 3;
   }
 
-  const hasSalutation = /^(dear|hello|hi)\b/i.test(text.trim());
-  const hasSignOff = /(best wishes|yours sincerely|yours faithfully|best regards|warm regards|warmly|all the best)/i.test(text);
-
-  let tfBand = 6;
+  let tfBand = 6.0;
   let tfStrengths = [];
   let tfImprovements = [];
 
-  if (wordCount < 70) {
-    tfBand = 3;
-    tfImprovements.push("Bài viết quá ngắn (<70 từ), chưa đủ dung lượng để tính điểm B2.");
+  if (wordCount < 40) {
+    tfBand = 1.0;
+    tfImprovements.push("Bài viết quá ngắn (<40 từ), chưa giải quyết các yêu cầu của đề bài.");
+  } else if (wordCount < 60) {
+    tfBand = 2.0;
+    tfImprovements.push("Bài viết dưới 60 từ (chưa đạt một nửa độ dài tối thiểu 120 từ); các yêu cầu hầu như chưa được giải quyết.");
+  } else if (wordCount < 80) {
+    tfBand = 3.0;
+    tfImprovements.push("Bài viết dưới 80 từ, thiếu hơn 35% dung lượng yêu cầu; các ý chính rất sơ sài.");
   } else if (wordCount < 100) {
-    tfBand = 4;
-    tfImprovements.push("Độ dài bài chưa đạt mức tối thiểu 100 từ; các ý chính bị sơ sài.");
+    tfBand = 4.0;
+    tfImprovements.push("Độ dài bài chưa đạt mức tối thiểu 100 từ; nội dung chưa được mở rộng đầy đủ.");
   } else if (wordCount < 120) {
-    tfBand = 5;
+    tfBand = 5.0;
     tfStrengths.push("Đã giải quyết được phần lớn yêu cầu đề bài.");
-    tfImprovements.push("Chưa đạt đủ 120 từ; cần viết thêm 15-20 từ để đảm bảo tiêu chuẩn B2.");
+    tfImprovements.push(`Chưa đạt đủ 120 từ (hiện có ${wordCount} từ); cần viết thêm 15-20 từ để đảm bảo tiêu chuẩn B2.`);
   } else {
     if (hasSalutation && hasSignOff && coveredCount >= 3) {
       if (wordCount >= 140 && detectedErrors.length <= 2) {
-        tfBand = 8;
+        tfBand = 8.0;
         tfStrengths.push("Đáp ứng trọn vẹn mọi yêu cầu của đề bài; ý tưởng mở rộng sắc bén.");
       } else {
-        tfBand = 7;
+        tfBand = 7.0;
         tfStrengths.push(`Đáp ứng đầy đủ 4/4 yêu cầu của đề bài; độ dài tốt (${wordCount}/120 từ).`);
       }
     } else {
-      tfBand = 6;
+      tfBand = 6.0;
       tfStrengths.push(`Đạt độ dài bài viết (${wordCount}/120 từ).`);
       if (!hasSalutation || !hasSignOff) {
-        tfImprovements.push("Cần có đầy đủ lời chào mở đầu (Dear...) và lời kết thư (Best wishes...).");
+        tfImprovements.push("Cần có đầy đủ lời chào mở đầu (Dear...) và lời kết thư (Best regards...).");
       }
+    }
+  }
+
+  // Format penalty on TF
+  if (wordCount >= 60 && !hasSalutation && !hasSignOff) {
+    tfBand = Math.min(tfBand, 4.5);
+    if (!tfImprovements.some(i => i.includes('lời chào'))) {
+      tfImprovements.push("Bài viết chưa có cấu trúc thư chuẩn (thiếu lời chào mở đầu và lời kết thư).");
     }
   }
 
@@ -4132,72 +4234,146 @@ function evaluateVstepLetter(text, topic) {
   const matchedAdv = advLinks.filter(l => lowerText.includes(l));
   const matchedCause = causeLinks.filter(l => lowerText.includes(l));
 
-  let orBand = 6;
+  let orBand = 6.0;
   let orStrengths = [];
   let orImprovements = [];
 
   const usedCoNguyetChain = (lowerText.includes('when it comes to') || lowerText.includes('as for') || lowerText.includes('regarding') || lowerText.includes('on top of that') || lowerText.includes('last but not least'));
 
-  if (paragraphCount <= 1) {
-    orBand = 4;
-    orImprovements.push("Bài viết dính liền 1 khối; cần phân chia thành 3-4 đoạn (Mở thư, Thân bài, Kết thư).");
-  } else if (paragraphCount >= 3) {
-    if (usedCoNguyetChain || (matchedSeq.length >= 2 && matchedAdv.length >= 1)) {
-      orBand = 8.0;
-      orStrengths.push("Áp dụng rất xuất sắc chuỗi liên từ nối chuyển ý chuẩn chuẩn B2 (First of all, As for, Regarding, Last but not least...).");
-    } else if (matchedSeq.length >= 2 || matchedAdv.length >= 2) {
-      orBand = 7.5;
-      orStrengths.push("Bố cục rõ ràng, chia đoạn hợp lý và sử dụng liên từ nối mượt mà.");
+  if (wordCount < 40) {
+    orBand = 1.0;
+    orImprovements.push("Chưa có bố cục đoạn văn hoặc cấu trúc thư.");
+  } else if (wordCount < 60) {
+    orBand = 2.0;
+    orImprovements.push("Bài viết dưới 60 từ, không đủ cấu trúc để tạo thành một bức thư hoàn chỉnh.");
+  } else if (wordCount < 80) {
+    orBand = 3.0;
+    orImprovements.push("Chưa phân đoạn rõ ràng, thiếu liên từ kết nối giữa các ý.");
+  } else if (wordCount < 100) {
+    orBand = 4.0;
+    orImprovements.push("Bố cục chưa cân đối, các đoạn còn ngắn và thiếu chuỗi liên từ chuyển tiếp.");
+  } else if (wordCount < 120) {
+    orBand = (paragraphCount >= 3 && (matchedSeq.length >= 1 || matchedAdv.length >= 1)) ? 5.5 : 5.0;
+    orImprovements.push("Nên mở rộng thêm đoạn văn và áp dụng liên từ B2 để nâng band Organization.");
+  } else {
+    if (paragraphCount <= 1) {
+      orBand = 4.0;
+      orImprovements.push("Bài viết dính liền 1 khối; cần phân chia thành 3-4 đoạn (Mở thư, Thân bài, Kết thư).");
+    } else if (paragraphCount >= 3) {
+      if (usedCoNguyetChain || (matchedSeq.length >= 2 && matchedAdv.length >= 1)) {
+        orBand = 8.0;
+        orStrengths.push("Áp dụng rất xuất sắc chuỗi liên từ nối chuyển ý chuẩn B2 (First of all, As for, Regarding, Last but not least...).");
+      } else if (matchedSeq.length >= 2 || matchedAdv.length >= 2) {
+        orBand = 7.5;
+        orStrengths.push("Bố cục rõ ràng, chia đoạn hợp lý và sử dụng liên từ nối mượt mà.");
+      } else {
+        orBand = 6.5;
+        orStrengths.push("Bố cục các đoạn văn tương đối hoàn chỉnh.");
+        orImprovements.push("Nên áp dụng chuỗi liên từ gợi ý chuẩn B2 (First of all, As for, Regarding, Last but not least) để bài viết mượt mà hơn.");
+      }
     } else {
-      orBand = 6.5;
-      orStrengths.push("Bố cục các đoạn văn tương đối hoàn chỉnh.");
-      orImprovements.push("Nên áp dụng chuỗi liên từ gợi ý chuẩn B2 (First of all, As for, Regarding, Last but not least) để bài viết mượt mà hơn.");
+      orBand = 6.0;
+    }
+  }
+
+  // Format penalty on OR
+  if (wordCount >= 60 && !hasSalutation && !hasSignOff) {
+    orBand = Math.min(orBand, 4.0);
+    if (!orImprovements.some(i => i.includes('kết thư'))) {
+      orImprovements.push("Cần bổ sung cấu trúc thư chuẩn (Lời chào mở đầu Dear... và Lời chào kết thư).");
     }
   }
 
   // 3. LEXICAL RESOURCE (LR)
-  const b2VocabList = ['consider', 'recommend', 'advantageous', 'beneficial', 'delighted', 'dissatisfaction', 'inconvenience', 'appreciate', 'sincerely', 'opportunity', 'regarding', 'furthermore'];
+  const b2VocabList = ['consider', 'recommend', 'advantageous', 'beneficial', 'delighted', 'dissatisfaction', 'inconvenience', 'appreciate', 'sincerely', 'opportunity', 'regarding', 'furthermore', 'apologize', 'complaint', 'refund', 'assistance', 'experience', 'delightful', 'spacious', 'comfortable', 'excellent'];
   const matchedVocab = b2VocabList.filter(v => lowerText.includes(v));
 
-  let lrBand = 6;
+  let lrBand = 6.0;
   let lrStrengths = [];
   let lrImprovements = [];
 
-  if (matchedVocab.length >= 4) {
-    lrBand = 7.5;
-    lrStrengths.push(`Sử dụng tốt từ vựng Band B2 (${matchedVocab.slice(0, 3).join(', ')}...).`);
-  } else if (matchedVocab.length >= 2) {
-    lrBand = 6.5;
-    lrStrengths.push("Vốn từ vựng tương đối phong phú, đúng ngữ cảnh.");
-    lrImprovements.push("Nên trau dồi thêm các collocations nâng cao để đạt Band 7+.");
+  if (wordCount < 40) {
+    lrBand = 1.0;
+    lrImprovements.push("Số lượng từ vựng quá ít, không thể đánh giá vốn từ.");
+  } else if (wordCount < 60) {
+    lrBand = 2.0;
+    lrImprovements.push("Vốn từ vựng rất hạn chế, chỉ có một số từ cơ bản đơn lẻ.");
+  } else if (wordCount < 80) {
+    lrBand = 3.0;
+    lrImprovements.push("Vốn từ vựng đơn giản (trình độ A2), chưa có từ vựng B2 theo chủ đề.");
+  } else if (wordCount < 100) {
+    lrBand = 4.0;
+    lrImprovements.push("Từ vựng còn đơn giản, lặp từ nhiều, cần bổ sung từ vựng theo chủ đề.");
+  } else if (wordCount < 120) {
+    lrBand = (matchedVocab.length >= 2) ? 5.5 : 5.0;
+    lrStrengths.push("Vốn từ vựng ở mức cơ bản B1, cần phát triển thêm để đạt chuẩn B2.");
   } else {
-    lrBand = 6.0;
-    lrImprovements.push("Từ vựng còn đơn giản, nên thay thế các từ cơ bản bằng từ học thuật B2.");
+    if (matchedVocab.length >= 4) {
+      lrBand = 7.5;
+      lrStrengths.push(`Sử dụng tốt từ vựng Band B2 (${matchedVocab.slice(0, 3).join(', ')}...).`);
+    } else if (matchedVocab.length >= 2) {
+      lrBand = 6.5;
+      lrStrengths.push("Vốn từ vựng tương đối phong phú, đúng ngữ cảnh.");
+      lrImprovements.push("Nên trau dồi thêm các collocations nâng cao để đạt Band 7+.");
+    } else {
+      lrBand = 6.0;
+      lrImprovements.push("Từ vựng còn đơn giản, nên thay thế các từ cơ bản bằng từ học thuật B2.");
+    }
   }
 
   // 4. GRAMMAR ACCURACY (GRA)
-  const hasCond = /if\s+i\s+were\s+you|if\s+you\s+want/i.test(lowerText);
+  const hasCond = /if\s+i\s+were\s+you|if\s+you\s+want|if\s+you\s+need/i.test(lowerText);
   const hasRelative = /\b(which|who|that|where)\b/i.test(lowerText);
   const hasPassive = /\b(is|are|was|were|been|being)\s+([a-z]+ed|[a-z]+en)\b/i.test(lowerText);
 
-  let graBand = 6;
+  let graBand = 6.0;
   let graStrengths = [];
   let graImprovements = [];
 
   const complexCount = (hasCond ? 1 : 0) + (hasRelative ? 1 : 0) + (hasPassive ? 1 : 0);
-  if (complexCount >= 2 && detectedErrors.length <= 2) {
-    graBand = 7.5;
-    graStrengths.push("Sử dụng đa dạng câu ghép, câu phức (mệnh đề quan hệ, câu điều kiện, thể bị động).");
-  } else if (detectedErrors.length >= 5) {
-    graBand = 5.0;
-    graImprovements.push("Còn mắc nhiều lỗi ngữ pháp hoặc chia thì làm ảnh hưởng đến độ chính xác.");
+
+  if (wordCount < 40) {
+    graBand = 1.0;
+    graImprovements.push("Không đủ mẫu câu để đánh giá ngữ pháp.");
+  } else if (wordCount < 60) {
+    graBand = 2.0;
+    graImprovements.push("Chỉ có các cụm từ hoặc câu đơn giản, chưa kiểm soát được câu.");
+  } else if (wordCount < 80) {
+    graBand = 3.0;
+    graImprovements.push("Chủ yếu là câu đơn, chưa có câu ghép hoặc câu phức.");
+  } else if (wordCount < 100) {
+    graBand = 4.0;
+    graImprovements.push("Cấu trúc câu còn đơn điệu, cần đa dạng hóa các mẫu câu B2.");
+  } else if (wordCount < 120) {
+    graBand = (complexCount >= 1 && detectedErrors.length <= 2) ? 5.5 : 5.0;
   } else {
-    graBand = 6.5;
-    graStrengths.push("Kiểm soát ngữ pháp tương đối ổn định.");
-    if (detectedErrors.length > 0) {
-      graImprovements.push(`Cần lưu ý kiểm tra ${detectedErrors.length} lỗi chính tả / ngữ pháp đã được hệ thống phát hiện.`);
+    if (complexCount >= 2 && detectedErrors.length <= 2) {
+      graBand = 7.5;
+      graStrengths.push("Sử dụng đa dạng câu ghép, câu phức (mệnh đề quan hệ, câu điều kiện, thể bị động).");
+    } else if (detectedErrors.length >= 5) {
+      graBand = 5.0;
+      graImprovements.push("Còn mắc nhiều lỗi ngữ pháp hoặc chia thì làm ảnh hưởng đến độ chính xác.");
+    } else {
+      graBand = 6.5;
+      graStrengths.push("Kiểm soát ngữ pháp tương đối ổn định.");
+      if (detectedErrors.length > 0) {
+        graImprovements.push(`Cần lưu ý kiểm tra ${detectedErrors.length} lỗi chính tả / ngữ pháp đã được hệ thống phát hiện.`);
+      }
     }
   }
+
+  const overall = Number(((tfBand + orBand + lrBand + graBand) / 4).toFixed(1));
+
+  return {
+    overallBand: overall,
+    tf: { band: tfBand, strengths: tfStrengths, improvements: tfImprovements },
+    or: { band: orBand, strengths: orStrengths, improvements: orImprovements },
+    lr: { band: lrBand, strengths: lrStrengths, improvements: lrImprovements },
+    gra: { band: graBand, strengths: graStrengths, improvements: graImprovements },
+    detectedErrors,
+    sentenceEvaluations: evaluateSentenceBySentence(text, topic, detectedErrors)
+  };
+}
 
   const overall = Number(((tfBand + orBand + lrBand + graBand) / 4).toFixed(1));
 
